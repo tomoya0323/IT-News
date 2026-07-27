@@ -66,7 +66,7 @@ RSS_FEEDS = {
 RSS_FETCH_COUNT = 5
 
 # gemini-2.5-flash: 安定版・高速応答・JSON出力完全対応
-GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL = "gemini-3.5-flash"
 GEMINI_EMBED_MODEL = "gemini-embedding-001"
 GEMINI_API_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
