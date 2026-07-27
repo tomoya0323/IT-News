@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 26 Jul 2026 22:54:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 07:41:14 +0000</lastBuildDate>
     <item>
-      <title>アトラシアン、JiraがAIによる要件定義の自動作成、コンテキストを保持しつつタスクをClaudeやCopilotなどのAIエージェントへアサインなど新機能</title>
-      <link>https://www.publickey1.jp/blog/26/jiraaiclaudecopilotai.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/jiraaiclaudecopilotai.html</guid>
-      <description>[Score: 95] アトラシアンのプロジェクト管理ツールJiraに生成AI機能が組み込まれ、要件定義の自動作成やタスクの洗い出しが可能になります。 / 既存コードベースやConfluenceの情報からコンテキストを取得し、ClaudeやGitHub CopilotなどのAIエージェントにタスクを割り当てられるようになります。 / これにより、開発プロセス全体の効率化が期待されます。 (Source: Publickey)</description>
-      <pubDate>Wed, 22 Jul 2026 15:35:19 +0000</pubDate>
+      <title>Kimi-K3 Releases on HuggingFace 7/27</title>
+      <link>https://huggingface.co/moonshotai/Kimi-K3</link>
+      <guid isPermaLink="false">https://huggingface.co/moonshotai/Kimi-K3</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Mon, 27 Jul 2026 06:18:10 +0000</pubDate>
     </item>
     <item>
-      <title>放置していた旧環境で見つけたReact2Shell攻撃の実態</title>
-      <link>https://zenn.dev/munenick/articles/b507a9848b6fdd</link>
-      <guid isPermaLink="false">https://zenn.dev/munenick/articles/b507a9848b6fdd</guid>
-      <description>[Score: 90] 筆者が放置していた旧Kubernetes環境でReact2Shell攻撃を受け、CPUと回線が占有される事態が発生しました。 / 攻撃はNext.jsワークロードを侵害し、大量のゾンビプロセスと高いCPU負荷を引き起こしていました。 / 本記事では、React Server Componentsの脆弱性を悪用した攻撃内容とその対策について詳細に解説しています。 (Source: Zenn)</description>
-      <pubDate>Sat, 25 Jul 2026 08:27:52 +0000</pubDate>
+      <title>PGSimCity - How PostgreSQL Works</title>
+      <link>https://nikolays.github.io/PGSimCity/</link>
+      <guid isPermaLink="false">https://nikolays.github.io/PGSimCity/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Mon, 27 Jul 2026 00:19:04 +0000</pubDate>
     </item>
     <item>
-      <title>ニチレイ物流システムが全面復旧、なぜ10日でサイバー攻撃から復旧できたのか？</title>
-      <link>https://www.sbbit.jp/article/cont1/186262</link>
-      <guid isPermaLink="false">https://www.sbbit.jp/article/cont1/186262</guid>
-      <description>[Score: 90] ニチレイ物流システムがサイバー攻撃からわずか10日で全面復旧した事例に関する記事です。 / 破壊できないバックアップと迅速な復旧体制が成功の鍵であったと推測されます。 / 詳細な復旧プロセスや対策について解説されていると見られます。 (Source: はてなブックマーク)</description>
-      <pubDate>Sun, 26 Jul 2026 02:29:43 +0000</pubDate>
+      <title>Show HN: Physically accurate black hole you can put in your room</title>
+      <link>https://blackhole.plav.in</link>
+      <guid isPermaLink="false">https://blackhole.plav.in</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Thu, 23 Jul 2026 13:29:24 +0000</pubDate>
     </item>
     <item>
-      <title>ゲームエンジン「Unity 7」発表、ランタイム基盤がMonoから.NET CoreCLRへ移行。高速化により、開発画面からほぼ瞬時にプレイモードが起動</title>
-      <link>https://www.publickey1.jp/blog/26/unity_7mononet_coreclr.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/unity_7mononet_coreclr.html</guid>
-      <description>[Score: 90] 人気ゲームエンジン「Unity」の次世代版「Unity 7」が発表されました。 / ランタイム基盤がMonoからMicrosoft .NETのCoreCLRへ移行することが最大の変更点です。 / これにより高速化が実現し、開発画面からプレイモードがほぼ瞬時に起動可能になるとのことです。 (Source: Publickey)</description>
-      <pubDate>Sun, 26 Jul 2026 15:02:22 +0000</pubDate>
+      <title>Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary</title>
+      <link>https://github.com/vercel-labs/scriptc</link>
+      <guid isPermaLink="false">https://github.com/vercel-labs/scriptc</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Sun, 26 Jul 2026 22:46:10 +0000</pubDate>
     </item>
     <item>
-      <title>オープンソースに1億ドル：コミュニティによって築かれたマイルストーン</title>
-      <link>https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/</link>
-      <guid isPermaLink="false">https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/</guid>
-      <description>[Score: 90] GitHub Sponsorsを通じて、オープンソースメンテナーとプロジェクトに1億ドル以上が投資されたことが発表された。 / このプログラムは2019年に開始され、個人から企業まで幅広いスポンサーが参加し、オープンソースエコシステムの持続可能性に貢献している。 / 投資のペースは加速しており、オープンソースへの評価と支援が世界的に拡大していることを示している。 (Source: GitHub Blog)</description>
-      <pubDate>Mon, 20 Jul 2026 16:00:00 +0000</pubDate>
+      <title>Decker, a platform that builds on the legacy of Hypercard and classic macOS</title>
+      <link>https://beyondloom.com/decker/</link>
+      <guid isPermaLink="false">https://beyondloom.com/decker/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Sun, 26 Jul 2026 18:23:06 +0000</pubDate>
     </item>
     <item>
-      <title>【速報】Opus 5、React習熟度ベンチマークでFable 5を圧倒</title>
+      <title>French firefighters face 'pyrocumulonimbus' for first time</title>
+      <link>https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time</link>
+      <guid isPermaLink="false">https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Sun, 26 Jul 2026 17:49:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>US citizen charged after GrapheneOS phone wipes during airport search</title>
+      <link>https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html</link>
+      <guid isPermaLink="false">https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Sun, 26 Jul 2026 22:21:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>We have proof automation now</title>
+      <link>https://www.imperialviolet.org/2026/07/26/zstd-lean.html</link>
+      <guid isPermaLink="false">https://www.imperialviolet.org/2026/07/26/zstd-lean.html</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Sun, 26 Jul 2026 20:53:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>【速報】Opus 5、React習熟度ベンチマークで余裕のFable 5超え</title>
       <link>https://zenn.dev/uhyo/articles/react-profession-bench-14</link>
       <guid isPermaLink="false">https://zenn.dev/uhyo/articles/react-profession-bench-14</guid>
-      <description>[Score: 85] Claude Opus 5がReact習熟度ベンチマークでFable 5を上回り、初の90点台を達成し1位となりました。 / 特にコンポーネント設計とアクセシビリティでスコアを伸ばし、Claudeの弱点を克服しています。 / React開発における最強モデルと評価され、今後のベンチマークv2も計画されています。 (Source: Zenn)</description>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
       <pubDate>Sun, 26 Jul 2026 09:19:46 +0000</pubDate>
     </item>
     <item>
-      <title>AIエージェントがあれば技術書なんてすぐ書けるでしょ、と思ったが無理だった</title>
-      <link>https://qiita.com/watany/items/11358e8e8966d5e48a09?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/watany/items/11358e8e8966d5e48a09?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] 筆者はAIエージェントを使って技術書を執筆しようと試みたが、AI生成文章特有の「AI臭さ」に直面し、そのままでは使えないと結論付けました。 / AI生成文章の「AIスロップ」は語彙、構文、構成の3層に分けられ、特に構成の修正が困難であると指摘しています。 / AIの利用と人間の責任の線引き、そして品質改善とロンダリングの間のジレンマについて考察しています。 (Source: Qiita)</description>
-      <pubDate>Sat, 25 Jul 2026 06:46:06 +0000</pubDate>
+      <title>PlanモードとTodo管理に対応したAgentを作ろう - Microsoft Agent Framework (C#)</title>
+      <link>https://zenn.dev/microsoft/articles/agent-framework-harness-agent</link>
+      <guid isPermaLink="false">https://zenn.dev/microsoft/articles/agent-framework-harness-agent</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Sun, 26 Jul 2026 07:34:15 +0000</pubDate>
     </item>
     <item>
-      <title>AI時代のポートフォリオ、転職で本当に見られているのは「言語化力」</title>
-      <link>https://qiita.com/sumomoo/items/d8c22cb512d9ba036154?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/sumomoo/items/d8c22cb512d9ba036154?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] AIがコード生成を助ける現代において、エンジニアの転職で最も重視されるのは「言語化力」であると指摘しています。 / ポートフォリオ作成において、技術力そのものよりも「なぜ」その技術や設計を選んだのかを説明できる理解力が差別化の鍵となります。 / AIは隣で代わりに答えてくれないため、自分の考えを自分の言葉で説明する習慣が、面接での評価に直結すると強調しています。 (Source: Qiita)</description>
-      <pubDate>Fri, 24 Jul 2026 08:14:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>GoogleがSpaceX株941億ドルを公開、6%の株式保有を明らかに</title>
-      <link>https://www.reddit.com/r/technology/comments/1v7e7rf/google_discloses_941_billion_in_spacex_stock/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1v7e7rf/google_discloses_941_billion_in_spacex_stock/</guid>
-      <description>[Score: 85] GoogleがSpaceXの株式941億ドル相当を保有していることを開示し、SpaceXの約6%の株式を保有していることが明らかになりました。 / これは、Googleが宇宙技術分野への投資を強化していることを示唆しています。 / テクノロジー大手による新興宇宙産業への関与の深さを物語るものです。 (Source: Reddit)</description>
-      <pubDate>Sun, 26 Jul 2026 19:54:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>理解を手放さない</title>
-      <link>https://blog.shin1x1.com/entry/dont-let-go-of-understanding</link>
-      <guid isPermaLink="false">https://blog.shin1x1.com/entry/dont-let-go-of-understanding</guid>
-      <description>[Score: 85] AIコーディングエージェントの活用において、人間がシステムを理解し続けることの重要性を説く記事です。 / 速度と引き換えに、検証能力、変更のしやすさ、システム改善の元手を失うリスクを指摘しています。 / AIに任せきりにせず、人間が説明できるレベルの理解を維持することの価値を強調しています。 (Source: はてなブックマーク)</description>
-      <pubDate>Sun, 26 Jul 2026 11:28:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>.NET MAUI、iOS/AndroidのランタイムがMonoからCoreCLRに更新、開発者は動作確認を。.NET 11 Preview 6が公開</title>
-      <link>https://www.publickey1.jp/blog/26/net_mauiiosandoridmonocoreclrnet_11_preview_6.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/net_mauiiosandoridmonocoreclrnet_11_preview_6.html</guid>
-      <description>[Score: 85] Microsoft .NET 11 Preview 6が公開され、UIフレームワーク「.NET MAUI」のiOS/AndroidランタイムがMonoからCoreCLRへ完全に移行しました。 / この移行により、iOSとMac Catalystでの実行速度が向上するとされています。 / 開発者は既存アプリケーションの動作確認が推奨されています。 (Source: Publickey)</description>
-      <pubDate>Thu, 23 Jul 2026 18:22:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>企業向けでAIツールで成長率トップはAnthropic、アカウント数が最も多いのはMicrosoft 365。Oktaが調査結果を発表</title>
-      <link>https://www.publickey1.jp/blog/26/aianthropicmicrosoft_365okta.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aianthropicmicrosoft_365okta.html</guid>
-      <description>[Score: 85] Oktaの調査によると、企業向けAIツールの成長率でAnthropicがトップとなり、Microsoft 365が最も多くのアカウント数を保持していることが判明しました。 / この調査は、Oktaのサービスを利用する2万社以上の匿名化されたアクセスデータに基づいています。 / Anthropicは過去4年間で急成長を遂げ、OpenAIやGoogle Workspaceなどを上回る成長率を示しました。 (Source: Publickey)</description>
-      <pubDate>Tue, 21 Jul 2026 13:51:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>クールダウンの必要性：Dependabotがバージョンアップデート発行前に待機する理由</title>
-      <link>https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/</link>
-      <guid isPermaLink="false">https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/</guid>
-      <description>[Score: 85] Dependabotがバージョンアップデートを自動適用する前に、最低3日間の「クールダウン期間」を設けるようになった。 / これは、悪意のあるパッケージが公開されてすぐに自動更新ツールによって取り込まれるサプライチェーン攻撃を防ぐため。 / この期間により、メンテナーやセキュリティ研究者が悪意のあるバージョンを発見し、取り除く時間を与える。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 23 Jul 2026 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>詳細を他人に任せることは、力を与えることではない</title>
-      <link>https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details/</link>
-      <guid isPermaLink="false">https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details/</guid>
-      <description>[Score: 80] AIへの熱狂の背景には、詳細に踏み込まずに物事を実現したいという願望があるが、現実は詳細から逃れられない。 / 何かを新しく、あるいは良くするためには、深く、細部にまでこだわる必要がある。 / AIをうまく活用するには、まずその分野で自分自身が優れている必要があり、詳細へのこだわりこそが専門知識を育む唯一の方法である。 (Source: Hacker News)</description>
-      <pubDate>Sun, 26 Jul 2026 17:58:02 +0000</pubDate>
+      <title>「ソフトウェアアーキテクチャの基礎」を読んで設計判断の引き出しが増えた</title>
+      <link>https://zenn.dev/raamenwakamatu/articles/software-architecture-fundamentals-review</link>
+      <guid isPermaLink="false">https://zenn.dev/raamenwakamatu/articles/software-architecture-fundamentals-review</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Sun, 26 Jul 2026 03:47:06 +0000</pubDate>
     </item>
     <item>
       <title>Opus 5では今までのプロンプトが逆効果に。「検証して」を消して「簡潔に」と書くべし。公式プロンプトガイドを読み解く</title>
       <link>https://zenn.dev/little_hand_s/articles/72646a09f49d2a</link>
       <guid isPermaLink="false">https://zenn.dev/little_hand_s/articles/72646a09f49d2a</guid>
-      <description>[Score: 80] Claude Opus 5の公式プロンプトガイドが公開され、従来のOpus 4.8向けノウハウが逆効果になる点が指摘されています。 / 特に「検証して」などの指示は過剰検証を招きトークンを無駄にするため削除が推奨され、応答の長さ制御には「簡潔に」と明示的に書くべきとされています。 / Opus 5はデフォルトで思考が有効であり、思考をオフにするのではなくeffortを下げるのが良いとされています。 (Source: Zenn)</description>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
       <pubDate>Sun, 26 Jul 2026 03:40:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Opus5が思考が浅いように感じる問題への対策</title>
+      <link>https://zenn.dev/u1/articles/claude5-rules-collapse-and-fix</link>
+      <guid isPermaLink="false">https://zenn.dev/u1/articles/claude5-rules-collapse-and-fix</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Sun, 26 Jul 2026 03:01:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>AIエージェントがあれば技術書なんてすぐ書けるでしょ、と思ったが無理だった</title>
+      <link>https://qiita.com/watany/items/11358e8e8966d5e48a09?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/watany/items/11358e8e8966d5e48a09?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Sat, 25 Jul 2026 06:46:06 +0000</pubDate>
     </item>
     <item>
       <title>ひとことで、言え。～スライドをAIで作り直したらわかりにくくなった話～</title>
       <link>https://qiita.com/WdknWdkn/items/ba228da40b5d2fd1b612?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/WdknWdkn/items/ba228da40b5d2fd1b612?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] 筆者がAIを使ってシンプルな社内発表スライドを作り直したところ、情報過多でかえって分かりにくくなった経験を共有しています。 / AIは丁寧な説明を心がけるあまり、読み手に「理解する責任」を負わせる重厚なコンテンツを生成しがちだと指摘します。 / 情報を伝える目的は「行動を変容させること」であり、AI活用においてもその本質を見失わないことの重要性を説いています。 (Source: Qiita)</description>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
       <pubDate>Sat, 25 Jul 2026 11:22:16 +0000</pubDate>
     </item>
     <item>
-      <title>人間の目はかわらない、だからJPEGは30年もつ</title>
-      <link>https://speakerdeck.com/yuzneri/ren-jian-nomu-hakawaranai-dakarajpegha30nian-motu</link>
-      <guid isPermaLink="false">https://speakerdeck.com/yuzneri/ren-jian-nomu-hakawaranai-dakarajpegha30nian-motu</guid>
-      <description>[Score: 80] 人間の視覚特性が変わらないため、JPEG形式が30年もの間、広く利用され続けているという考察が示されています。 / これは、技術の進化だけでなく、人間の認知特性がデジタルフォーマットの寿命に影響を与えるという興味深い視点を提供します。 / 画像圧縮技術の設計思想と、その長期的な持続可能性について深く考える機会を与えます。 (Source: はてなブックマーク)</description>
-      <pubDate>Sat, 25 Jul 2026 03:43:46 +0000</pubDate>
+      <title>AI時代のポートフォリオ、転職で本当に見られているのは「言語化力」</title>
+      <link>https://qiita.com/sumomoo/items/d8c22cb512d9ba036154?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/sumomoo/items/d8c22cb512d9ba036154?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Fri, 24 Jul 2026 08:14:32 +0000</pubDate>
     </item>
     <item>
-      <title>MCP仕様が明日アップデート、7月28日版MCPからはステートレスな接続が正式仕様に。GitHub MCPサーバが早くも対応発表</title>
-      <link>https://www.publickey1.jp/blog/26/mcp728mcpgithub_mcp.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/mcp728mcpgithub_mcp.html</guid>
-      <description>[Score: 80] AIツールとサービスを接続するための通信プロトコルMCP（Model Context Protocol）の7月28日版仕様がアップデートされます。 / このアップデートにより、MCPはステートレスな接続を正式にサポートするようになります。 / GitHub MCPサーバも既に対応を発表しており、AI連携の効率化が期待されます。 (Source: Publickey)</description>
-      <pubDate>Sun, 26 Jul 2026 15:06:36 +0000</pubDate>
+      <title>非エンジニアが気楽に始める仕様駆動開発</title>
+      <link>https://qiita.com/ynmc0214/items/9cf96baae4b01bbeb6d6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/ynmc0214/items/9cf96baae4b01bbeb6d6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Sat, 25 Jul 2026 06:31:37 +0000</pubDate>
     </item>
     <item>
-      <title>ゼロトラストが実際に機能することを証明する：Entra IDとCloudflare AccessをOIDCおよびSAMLの両方で利用</title>
-      <link>https://dev.to/darkedges/proving-zero-trust-actually-works-entra-id-cloudflare-access-over-both-oidc-and-saml-4f7d</link>
-      <guid isPermaLink="false">https://dev.to/darkedges/proving-zero-trust-actually-works-entra-id-cloudflare-access-over-both-oidc-and-saml-4f7d</guid>
-      <description>[Score: 80] ゼロトラストの実装における一般的な落とし穴（グループメンバーシップ、管理者同意、地域ルールなど）を可視化するデモが紹介されています。 / Microsoft Entra IDとCloudflare AccessをOIDCおよびSAMLの両プロトコルで連携させ、Terraformで完全に管理された環境を構築しています。 / これにより、理論だけでなく、実際の運用で発生しうる認証・認可の失敗モードを具体的に検証できることを示しています。 (Source: Dev.to)</description>
-      <pubDate>Sun, 26 Jul 2026 22:32:19 +0000</pubDate>
+      <title>なぜ私はPyCharmを使い続けるのか</title>
+      <link>https://qiita.com/harupython/items/6022101976268fa573c8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/harupython/items/6022101976268fa573c8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Fri, 24 Jul 2026 09:58:31 +0000</pubDate>
     </item>
     <item>
-      <title>Canvasesでインタラクティブな体験を構築する方法</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/</guid>
-      <description>[Score: 80] GitHub Copilotアプリに「Canvases」という新しいインタラクティブなワークスペース機能が導入された。 / Canvasesは、エージェントとの会話形式では扱いにくいタスクを視覚的に操作・整理できる共有インターフェース。 / 開発者はこのキャンバス上で情報を見える化し、エージェントとリアルタイムで共同作業を行い、タスクを効率的に進めることができる。 (Source: GitHub Blog)</description>
-      <pubDate>Tue, 21 Jul 2026 16:00:00 +0000</pubDate>
+      <title>US prosecutors charge Atlanta man after GrapheneOS phone wipes itself during airport search</title>
+      <link>https://www.reddit.com/r/technology/comments/1v7emqr/us_prosecutors_charge_atlanta_man_after/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1v7emqr/us_prosecutors_charge_atlanta_man_after/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
+      <pubDate>Sun, 26 Jul 2026 20:10:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why does everything feel so joyless? Welcome to the age of decadence without pleasure</title>
+      <link>https://www.reddit.com/r/technology/comments/1v7n74f/why_does_everything_feel_so_joyless_welcome_to/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1v7n74f/why_does_everything_feel_so_joyless_welcome_to/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
+      <pubDate>Mon, 27 Jul 2026 02:08:11 +0000</pubDate>
     </item>
   </channel>
 </rss>
