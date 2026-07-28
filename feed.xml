@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 27 Jul 2026 23:09:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 23:13:05 +0000</lastBuildDate>
     <item>
-      <title>Vercel、TypeScriptをC言語に変換してからネイティブな実行ファイルにコンパイルする「scriptc」、オープンソースで公開</title>
-      <link>https://www.publickey1.jp/blog/26/verceltypescriptcscriptc.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/verceltypescriptcscriptc.html</guid>
-      <description>[Score: 95] Vercelが、TypeScriptをC言語に変換してネイティブ実行ファイルにコンパイルするツール「scriptc」をOSS公開した。 / 従来のランタイム同梱型バイナリとは異なり、コード自体を型付き中間表現経由でC言語に変換しclangでコンパイルする。 / これにより、JavaScriptランタイムに依存しない、極めてコンパクトで高速なネイティブバイナリの生成が可能となる。 (Source: Publickey)</description>
-      <pubDate>Mon, 27 Jul 2026 15:20:00 +0000</pubDate>
+      <title>OpenAI just open-sourced Codex Security</title>
+      <link>https://github.com/openai/codex-security</link>
+      <guid isPermaLink="false">https://github.com/openai/codex-security</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Tue, 28 Jul 2026 20:52:55 +0000</pubDate>
     </item>
     <item>
-      <title>【速報】Opus 5、React習熟度ベンチマークで余裕のFable 5超え</title>
-      <link>https://zenn.dev/uhyo/articles/react-profession-bench-14</link>
-      <guid isPermaLink="false">https://zenn.dev/uhyo/articles/react-profession-bench-14</guid>
-      <description>[Score: 90] 新モデル「Claude Opus 5」をReact習熟度ベンチマークで測定し、初の90点台を達成してランキング1位となった速報。 / 従来の最強モデルFable 5を圧倒し、特にコンポーネント設計やアクセシビリティの分野で大幅なスコア向上を記録。 / React 19.2のuseEffectEventを自主的に使用するなど進化が見られ、React開発において最強のAIモデルと評価。 (Source: Zenn)</description>
-      <pubDate>Sun, 26 Jul 2026 09:19:46 +0000</pubDate>
+      <title>Half-Life ported to Mac OS 9</title>
+      <link>https://mac-classic.com/news/half-life-ported-to-mac-os-9/</link>
+      <guid isPermaLink="false">https://mac-classic.com/news/half-life-ported-to-mac-os-9/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Tue, 28 Jul 2026 20:58:39 +0000</pubDate>
     </item>
     <item>
-      <title>ゲームエンジン「Unity 7」発表、ランタイム基盤がMonoから.NET CoreCLRへ移行。高速化により、開発画面からほぼ瞬時にプレイモードが起動</title>
-      <link>https://www.publickey1.jp/blog/26/unity_7mononet_coreclr.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/unity_7mononet_coreclr.html</guid>
-      <description>[Score: 90] 次世代ゲームエンジン「Unity 7」が発表され、実行基盤が従来のMonoから.NET CoreCLRへと移行する。 / この移行により処理が大幅に高速化され、開発画面からプレイモードへの移行がほぼ瞬時に行えるようになる。 / 長年使われてきたMonoからの脱却は、開発サイクル全体の効率化とパフォーマンス向上に大きく寄与する。 (Source: Publickey)</description>
-      <pubDate>Sun, 26 Jul 2026 15:02:22 +0000</pubDate>
+      <title>Substack writers, you need a website</title>
+      <link>https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/</link>
+      <guid isPermaLink="false">https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Tue, 28 Jul 2026 16:58:31 +0000</pubDate>
     </item>
     <item>
-      <title>自治体におけるインターネット分離10年の総括 —— 技術類型・運用の現実・ゼロトラストへの道</title>
-      <link>https://qiita.com/k2_naka/items/0eceb428cb3f45bb7cfb?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/k2_naka/items/0eceb428cb3f45bb7cfb?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 88] 自治体セキュリティにおける「三層の対策」とインターネット分離の10年間の歩みと技術変遷を総括している。 / VDI、SBC、仮想ブラウザ、DOMミラーリングなど、インターネット分離を実現する4つの技術類型と代表製品を整理。 / 利便性とセキュリティのバランス、そして今後のゼロトラスト移行に向けた課題と展望について解説している。 (Source: Qiita)</description>
-      <pubDate>Sun, 26 Jul 2026 06:11:27 +0000</pubDate>
+      <title>Underwater Oxygen Loss Threatens Earth's Stability, Researchers Warn</title>
+      <link>https://scripps.ucsd.edu/news/underwater-oxygen-loss-threatens-earths-stability-researchers-warn</link>
+      <guid isPermaLink="false">https://scripps.ucsd.edu/news/underwater-oxygen-loss-threatens-earths-stability-researchers-warn</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Tue, 28 Jul 2026 22:31:14 +0000</pubDate>
     </item>
     <item>
-      <title>MCP仕様が明日アップデート、7月28日版MCPからはステートレスな接続が正式仕様に。GitHub MCPサーバが早くも対応発表</title>
-      <link>https://www.publickey1.jp/blog/26/mcp728mcpgithub_mcp.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/mcp728mcpgithub_mcp.html</guid>
-      <description>[Score: 88] AIツールとサービスを接続するプロトコル「MCP」の最新仕様で、ステートレスな接続が正式にサポートされる。 / 従来のセッションIDを用いたステートフルな管理やハンドシェイクが不要になり、通信の簡素化が実現する。 / GitHubのMCPサーバーが早くもこの新仕様への対応を発表しており、今後の普及加速が期待される。 (Source: Publickey)</description>
-      <pubDate>Sun, 26 Jul 2026 15:06:36 +0000</pubDate>
+      <title>Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript</title>
+      <link>https://github.com/twalichiewicz/HNewhere</link>
+      <guid isPermaLink="false">https://github.com/twalichiewicz/HNewhere</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Tue, 28 Jul 2026 22:09:06 +0000</pubDate>
     </item>
     <item>
-      <title>クールダウンの必要性：Dependabotがバージョン更新の通知を待つようになった理由</title>
-      <link>https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/</link>
-      <guid isPermaLink="false">https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/</guid>
-      <description>[Score: 88] 2025年9月に発生したnpmパッケージのフィッシング攻撃では、悪意あるバージョンが公開されてからわずか2時間でコミュニティにより削除された。 / しかし、自動更新ツールは即座にプルリクエストを作成するため、この短い時間でもサプライチェーン攻撃の被害に遭うリスクがある。 / これに対処するため、Dependabotはリリース後少なくとも3日間待機する「クールダウン」期間を導入し、セキュリティスキャンや検証の時間を確保する。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 23 Jul 2026 16:00:00 +0000</pubDate>
+      <title>Steel Bank Common Lisp version 2.6.7</title>
+      <link>https://sbcl.org/all-news.html?2.6.7</link>
+      <guid isPermaLink="false">https://sbcl.org/all-news.html?2.6.7</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Tue, 28 Jul 2026 17:11:54 +0000</pubDate>
     </item>
     <item>
-      <title>オープンウェイトモデルに対する当社の立場</title>
-      <link>https://www.anthropic.com/news/position-open-weights-models</link>
-      <guid isPermaLink="false">https://www.anthropic.com/news/position-open-weights-models</guid>
-      <description>[Score: 85] AnthropicのCEOがオープンウェイトモデルの禁止議論に対する同社の立場を表明。 / 同社はオープンウェイトモデルの禁止を提唱しておらず、危険性のないモデルは公共財であると主張。 / 国家安全保障上の懸念に対処するため、特定の安全対策や輸出管理などの措置を支持している。 (Source: Hacker News)</description>
-      <pubDate>Mon, 27 Jul 2026 22:03:49 +0000</pubDate>
+      <title>Anthropic publishes a practical key-recovery attack on HAWK-256</title>
+      <link>https://github.com/anthropics/cryptography-research-demo</link>
+      <guid isPermaLink="false">https://github.com/anthropics/cryptography-research-demo</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Tue, 28 Jul 2026 21:22:48 +0000</pubDate>
     </item>
     <item>
-      <title>1日500コミットは、もう読めない ── だからコードレビューをやめた</title>
-      <link>https://zenn.dev/singularity/articles/stopped-reviewing-my-code</link>
-      <guid isPermaLink="false">https://zenn.dev/singularity/articles/stopped-reviewing-my-code</guid>
-      <description>[Score: 85] AIエージェントの並列稼働により1日500コミットを超える開発量になり、人間がコードレビューを行う限界を超えた体験談。 / 開発スタックの統一や共通規約（CLAUDE.mdなど）の整備により、レビューでしか防げない問題を事前に削減。 / 「壊れたら赤くなって止まる」CI/CDテスト環境を徹底的に積み上げることで、レビューなしでもバグを防ぐ体制を構築した。 (Source: Zenn)</description>
-      <pubDate>Sun, 26 Jul 2026 20:06:28 +0000</pubDate>
+      <title>Kimi K3 Architecture Overview and Notes</title>
+      <link>https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html</link>
+      <guid isPermaLink="false">https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Tue, 28 Jul 2026 15:48:34 +0000</pubDate>
     </item>
     <item>
-      <title>Opus 5では今までのプロンプトが逆効果に。「検証して」を消して「簡潔に」と書くべし。公式プロンプトガイドを読み解く</title>
-      <link>https://zenn.dev/little_hand_s/articles/72646a09f49d2a</link>
-      <guid isPermaLink="false">https://zenn.dev/little_hand_s/articles/72646a09f49d2a</guid>
-      <description>[Score: 85] Claude Opus 5の公式プロンプトガイドが公開され、従来モデル向けのノウハウが逆効果になる点が明らかになった。 / Opus 5は自動で検証を行うため、「検証して」等の指示は過剰検証によるトークンの無駄を招くため削除が推奨される。 / 応答が長くなる傾向があるため、「簡潔に」という明示的な指示を追加し、思考はオンのままエフォートを調整することが効果的である。 (Source: Zenn)</description>
-      <pubDate>Sun, 26 Jul 2026 03:40:03 +0000</pubDate>
+      <title>【決着】Claude CodeとCodexの設定ファイルを同期させる (みんな仲良く)</title>
+      <link>https://zenn.dev/explaza/articles/20f7f41cff8428</link>
+      <guid isPermaLink="false">https://zenn.dev/explaza/articles/20f7f41cff8428</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Tue, 28 Jul 2026 04:40:29 +0000</pubDate>
     </item>
     <item>
-      <title>【2026年版】MIXI 新卒向け技術研修を公開しました。</title>
-      <link>https://zenn.dev/mixi/articles/fd62f8ddc178f6</link>
-      <guid isPermaLink="false">https://zenn.dev/mixi/articles/fd62f8ddc178f6</guid>
-      <description>[Score: 85] MIXIが2026年度新卒エンジニア向けの技術研修資料と動画を一般公開しました。 / AI時代に求められる基礎力や設計力を養うため、AI研修を2日間に拡充し、設計ハンズオンなどを追加しています。 / モバイル、Webフロント、データベース、セキュリティ、クラウドなど幅広い領域を網羅した実践的な内容です。 (Source: はてなブックマーク)</description>
-      <pubDate>Mon, 27 Jul 2026 05:38:56 +0000</pubDate>
+      <title>Microsoft APM を試してみる　(npmと対比しながら）</title>
+      <link>https://zenn.dev/xtm_blog/articles/f016695e2839ee</link>
+      <guid isPermaLink="false">https://zenn.dev/xtm_blog/articles/f016695e2839ee</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Tue, 28 Jul 2026 04:31:05 +0000</pubDate>
     </item>
     <item>
-      <title>AWSの公式オンラインワークショップ、無料のAWSサンドボックス環境を提供開始。学習用にAWSのサービスやコード実行など利用可能に</title>
-      <link>https://www.publickey1.jp/blog/26/awsawsaws.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/awsawsaws.html</guid>
-      <description>[Score: 85] AWSは公式オンライン学習教材「Workshops」において、無料のAWSサンドボックス環境の提供を開始した。 / AWSアカウントやクレジットカードの登録は不要で、無料の「Builder ID」を登録するだけで利用可能となる。 / リクエストから約15分で環境が用意され、実際のAWSサービスやコード実行を安全に試すことができる。 (Source: Publickey)</description>
-      <pubDate>Mon, 27 Jul 2026 15:15:59 +0000</pubDate>
+      <title>【速報】Kimi-K3 を Day0 デプロイ。2.8T モデルは NVIDIA B300 x8 の 1 ノードで動くのか</title>
+      <link>https://zenn.dev/fixstars/articles/kimi-k3-benchmark</link>
+      <guid isPermaLink="false">https://zenn.dev/fixstars/articles/kimi-k3-benchmark</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Mon, 27 Jul 2026 23:19:53 +0000</pubDate>
     </item>
     <item>
-      <title>異種エッジデバイス上での高速なLLMスクリーニングに向けた転移可能な遅延予測</title>
-      <link>https://arxiv.org/abs/2607.21602</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2607.21602</guid>
-      <description>[Score: 82] 多様なエッジデバイス上で大規模言語モデル（LLM）を高速にスクリーニングするための、転移可能な遅延予測手法を提案する。 / デバイスごとに異なるハードウェア特性を考慮し、モデルの実行速度（レイテンシ）を正確に予測する。 / これにより、リソースの限られたエッジ環境への最適なLLMの配置と効率的な実行が可能になる。 (Source: arXiv cs.AI)</description>
-      <pubDate>Mon, 27 Jul 2026 04:00:00 +0000</pubDate>
+      <title>Agentic RLではtool callを含むtrajectoryをどう学習するのか</title>
+      <link>https://zenn.dev/takkuhiro/articles/agentic-rl-trajectory-mechanics</link>
+      <guid isPermaLink="false">https://zenn.dev/takkuhiro/articles/agentic-rl-trajectory-mechanics</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Mon, 27 Jul 2026 22:00:05 +0000</pubDate>
     </item>
     <item>
-      <title>ルートレスコンテナによるサービスのセキュリティ確保</title>
-      <link>https://blog.coderspirit.xyz/blog/2026/07/06/securing-services-with-rootless-containers/</link>
-      <guid isPermaLink="false">https://blog.coderspirit.xyz/blog/2026/07/06/securing-services-with-rootless-containers/</guid>
-      <description>[Score: 80] ルート権限を持たない「ルートレスコンテナ」を活用してサービスのセキュリティを向上させる手法の解説。 / 万が一コンテナが侵害された場合でも、ホストシステムへの影響を最小限に抑える仕組みを説明。 / コンテナ環境におけるセキュリティのベストプラクティスと、具体的な設定方法について紹介。 (Source: Hacker News)</description>
-      <pubDate>Thu, 23 Jul 2026 13:11:30 +0000</pubDate>
+      <title>ステージング環境をセルフサービス化しチームの開発速度を向上させた方法</title>
+      <link>https://zenn.dev/fusic/articles/83c6b9a1e7c7d0</link>
+      <guid isPermaLink="false">https://zenn.dev/fusic/articles/83c6b9a1e7c7d0</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Mon, 27 Jul 2026 09:46:14 +0000</pubDate>
     </item>
     <item>
-      <title>テトラヘドラルケージを用いた大量のアニメーションジオメトリのレイトレーシング</title>
-      <link>https://gpuopen.com/learn/ray-tracing-massive-amounts-animated-geometry/</link>
-      <guid isPermaLink="false">https://gpuopen.com/learn/ray-tracing-massive-amounts-animated-geometry/</guid>
-      <description>[Score: 80] リアルタイムグラフィックスにおけるアニメーションジオメトリのレイトレーシングのスケール問題を解決する手法の提案。 / 元の高解像度メッシュの周囲に低解像度のテトラヘドラルケージを構築し、アニメーションコストを三角形の数から切り離す。 / 実行時にはケージのみをアニメーションさせ、レイを静的空間に変換することで、メモリと計算コストを大幅に削減する。 (Source: Hacker News)</description>
-      <pubDate>Thu, 23 Jul 2026 13:10:06 +0000</pubDate>
+      <title>やる気を信じず、学習習慣を仕組み化して固定せよ【三日坊主回避】</title>
+      <link>https://qiita.com/sumomoo/items/0d6667bbcf46ad59c320?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/sumomoo/items/0d6667bbcf46ad59c320?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Tue, 28 Jul 2026 04:36:40 +0000</pubDate>
     </item>
     <item>
-      <title>「ソフトウェアアーキテクチャの基礎」を読んで設計判断の引き出しが増えた</title>
-      <link>https://zenn.dev/raamenwakamatu/articles/software-architecture-fundamentals-review</link>
-      <guid isPermaLink="false">https://zenn.dev/raamenwakamatu/articles/software-architecture-fundamentals-review</guid>
-      <description>[Score: 80] 名著「ソフトウェアアーキテクチャの基礎」の書評と、AI時代におけるアーキテクト視点の重要性についての考察。 / アーキテクチャの決定は正解を選ぶことではなく、制約の中で最善のトレードオフ（可用性、スケーラビリティ等）を判断することだと解説。 / AIエージェントがコードを書く時代だからこそ、開発者には上位の設計判断やADR、リスク分析などのスキルが求められると指摘。 (Source: Zenn)</description>
-      <pubDate>Sun, 26 Jul 2026 03:47:06 +0000</pubDate>
+      <title>Mac mini（M4 Pro / 48GB）で「完全ローカル」のLLM + RAG環境を構築してみた</title>
+      <link>https://qiita.com/y-okayama-tb/items/0127a7c5203f44507474?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/y-okayama-tb/items/0127a7c5203f44507474?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Mon, 27 Jul 2026 04:22:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>参考書を読んでも忘れるのは当然。大事なのは&quot;思い出す&quot;回数</title>
+      <link>https://qiita.com/prumnn/items/405f4a78ec5f0232b234?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/prumnn/items/405f4a78ec5f0232b234?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Tue, 28 Jul 2026 04:35:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>「最後に検証して」はもう書かなくていい — Claude Opus 5 でプロンプトの常識が逆転した4つのこと</title>
+      <link>https://qiita.com/jqit_suwa/items/74a96ce83dde5245407a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/jqit_suwa/items/74a96ce83dde5245407a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Tue, 28 Jul 2026 04:08:47 +0000</pubDate>
     </item>
     <item>
       <title>「経験がないから」を言い訳にしなくていい時代になった</title>
       <link>https://qiita.com/sumomoo/items/122f9a34360e256bf042?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/sumomoo/items/122f9a34360e256bf042?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] 17歳の高校生がAIツールを駆使して開発したアプリ「Cal AI」が、大手企業に数十億円規模で買収された事例を紹介している。 / CursorやReplitを用いた「バイブコーディング」により、未経験に近い状態からでも短期間で大規模サービスを開発できる時代が到来した。 / 技術力そのものよりも、課題解決力やAIツールの使いこなし、マーケティング力が重要になっていると指摘している。 (Source: Qiita)</description>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
       <pubDate>Mon, 27 Jul 2026 08:09:33 +0000</pubDate>
     </item>
     <item>
-      <title>IPO後初の打ち上げでスターシップのブースターが失敗し、スペースXの株価が急落</title>
-      <link>https://www.reddit.com/r/technology/comments/1v8abia/spacex_stock_hammered_after_starship_booster/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1v8abia/spacex_stock_hammered_after_starship_booster/</guid>
-      <description>[Score: 80] スペースXが新規株式公開（IPO）を行ってから初めてとなるスターシップの打ち上げが実施されました。 / しかし、スターシップのブースター（推進器）が正常に動作せず、打ち上げは失敗に終わりました。 / この失敗を受けてスペースXの株価は急落し、宇宙開発ビジネスの市場評価に大きな影響を与えています。 (Source: Reddit)</description>
-      <pubDate>Mon, 27 Jul 2026 19:20:57 +0000</pubDate>
+      <title>eBay reaches $56 million settlement with couple it terrorized in 2019 — Executives used sock puppet social media accounts to send items including a funeral wreath, a bloody pig mask, live spiders and cockroaches</title>
+      <link>https://www.reddit.com/r/technology/comments/1v99beh/ebay_reaches_56_million_settlement_with_couple_it/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1v99beh/ebay_reaches_56_million_settlement_with_couple_it/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
+      <pubDate>Tue, 28 Jul 2026 19:54:21 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Code Actionで使うSkillを、リポジトリにコミットせずgh skill installで実行時に入れる</title>
-      <link>https://blog.shibayu36.org/entry/2026/07/27/163000</link>
-      <guid isPermaLink="false">https://blog.shibayu36.org/entry/2026/07/27/163000</guid>
-      <description>[Score: 80] GitHub ActionsでClaude Code Actionを用いた自動セキュリティレビューを導入する際、Skillの共通化と展開方法が課題となった。 / Skillを別リポジトリで管理し、ワークフロー実行時にgh skill installコマンドで動的にインストールする手法を採用した。 / これにより、各リポジトリにSkillファイルをコミットして個別にメンテナンスする手間を省き、運用の効率化を実現した。 (Source: はてなブックマーク)</description>
-      <pubDate>Mon, 27 Jul 2026 14:02:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>私はかつてRTLではなくプロトコル仕様書の中にシリコンバグを発見した</title>
-      <link>https://dev.to/mritunjay_biharisingh/i-once-found-a-silicon-bug-in-a-protocol-spec-not-in-the-rtl-1aid</link>
-      <guid isPermaLink="false">https://dev.to/mritunjay_biharisingh/i-once-found-a-silicon-bug-in-a-protocol-spec-not-in-the-rtl-1aid</guid>
-      <description>[Score: 80] AXIインターコネクトのプロジェクトにおいて、設計コード（RTL）ではなくプロトコル仕様自体の不備に起因するバグを発見した体験談。 / テストベンチが「未定義の動作」として避けていた領域に、システムがハングアップする潜在的なバグが隠されていた。 / 検証エンジニアの真の役割は、仕様書が正しいかを実装前に問い直し、想定外の前提を疑うことであると説いている。 (Source: Dev.to)</description>
-      <pubDate>Mon, 27 Jul 2026 22:36:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Copilot対生のAPIアクセス：実際に何にお金を払っているのか？</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/</guid>
-      <description>[Score: 80] 「同じモデルをAPIで呼び出せるのに、なぜGitHub Copilotに課金するのか」という疑問に対し、その価値の違いを解説している。 / Copilotは単なるモデルへのアクセスだけでなく、エディタ、リポジトリ、ターミナル、組織のポリシーなどを統合したエコシステム全体を提供している。 / 開発者が独自のプロンプトやインフラを構築・管理する手間を省き、Issueからプルリクエスト作成までのワークフローをシームレスに繋ぐ点が課金の価値である。 (Source: GitHub Blog)</description>
-      <pubDate>Wed, 22 Jul 2026 19:00:00 +0000</pubDate>
+      <title>Teacher arrested for clapping in support of speaker opposing data center</title>
+      <link>https://www.reddit.com/r/technology/comments/1v8xdi4/teacher_arrested_for_clapping_in_support_of/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1v8xdi4/teacher_arrested_for_clapping_in_support_of/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
+      <pubDate>Tue, 28 Jul 2026 12:41:55 +0000</pubDate>
     </item>
   </channel>
 </rss>
