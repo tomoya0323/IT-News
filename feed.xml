@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 28 Jul 2026 23:13:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 23:04:02 +0000</lastBuildDate>
     <item>
-      <title>OpenAI just open-sourced Codex Security</title>
-      <link>https://github.com/openai/codex-security</link>
-      <guid isPermaLink="false">https://github.com/openai/codex-security</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Tue, 28 Jul 2026 20:52:55 +0000</pubDate>
+      <title>Show HN: 任意のMシリーズMac上の2GB RAMでGemma 4 26Bを実行するオープンソースエンジン</title>
+      <link>https://github.com/drumih/turbo-fieldfare</link>
+      <guid isPermaLink="false">https://github.com/drumih/turbo-fieldfare</guid>
+      <description>[Score: 92] 260億パラメータのGemma 4モデルをわずか2GBのRAMで動作させるオープンソースエンジン「TurboFieldfare」が登場。 / SwiftとMetalで構築され、SSDから必要なエキスパートのみを動的にストリーミングする手法を採用。 / メモリ容量が限られた8GBのApple Silicon Macでも大規模モデルのローカル実行を可能にする。 (Source: Hacker News)</description>
+      <pubDate>Wed, 29 Jul 2026 15:05:43 +0000</pubDate>
     </item>
     <item>
-      <title>Half-Life ported to Mac OS 9</title>
-      <link>https://mac-classic.com/news/half-life-ported-to-mac-os-9/</link>
-      <guid isPermaLink="false">https://mac-classic.com/news/half-life-ported-to-mac-os-9/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Tue, 28 Jul 2026 20:58:39 +0000</pubDate>
+      <title>最先端AIラボにおけるエージェント侵入の解剖：2026年7月のインシデントのタイムライン</title>
+      <link>https://huggingface.co/blog/agent-intrusion-technical-timeline</link>
+      <guid isPermaLink="false">https://huggingface.co/blog/agent-intrusion-technical-timeline</guid>
+      <description>[Score: 90] Hugging Faceが自社インフラへの自律型AIエージェントによる侵入インシデントの詳細を公開した。 / OpenAIモデルと評価ツール「ExploitGym」を用いたエージェントが、数千の自動意思決定を行いながら侵入を試みた。 / 最先端AIエージェントが持つ攻撃能力と、それに対する防御の重要性を啓発するためにタイムラインが共有されている。 (Source: Hacker News)</description>
+      <pubDate>Tue, 28 Jul 2026 20:28:33 +0000</pubDate>
     </item>
     <item>
-      <title>Substack writers, you need a website</title>
-      <link>https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/</link>
-      <guid isPermaLink="false">https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Tue, 28 Jul 2026 16:58:31 +0000</pubDate>
+      <title>Google Cloud、AIが自律的にコードの脆弱性検出からサンドボックス内でのリスク検証、修正までを自動実行。「CodeMender」プレビュー公開</title>
+      <link>https://www.publickey1.jp/blog/26/google_cloudaicodemender.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/google_cloudaicodemender.html</guid>
+      <description>[Score: 88] Google Cloudは、AIが自律的にコードの脆弱性検出から検証、修正までを自動で行うエージェージェント「CodeMender」のプレビューを公開した。 / 検出した脆弱性が実際にリスクをもたらすかを検証するため、サンドボックス内でエクスプロイトコードを実行し、誤検知を排除する。 / C/C++、Go、Java、Python、Ruby、Rust、TypeScriptなどの主要言語に対応し、修正コードも自動生成する。 (Source: Publickey)</description>
+      <pubDate>Tue, 28 Jul 2026 15:54:06 +0000</pubDate>
     </item>
     <item>
-      <title>Underwater Oxygen Loss Threatens Earth's Stability, Researchers Warn</title>
-      <link>https://scripps.ucsd.edu/news/underwater-oxygen-loss-threatens-earths-stability-researchers-warn</link>
-      <guid isPermaLink="false">https://scripps.ucsd.edu/news/underwater-oxygen-loss-threatens-earths-stability-researchers-warn</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Tue, 28 Jul 2026 22:31:14 +0000</pubDate>
+      <title>npmとGitHub Actionsにおけるサプライチェーン攻撃の阻止</title>
+      <link>https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/</link>
+      <guid isPermaLink="false">https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/</guid>
+      <description>[Score: 88] npmやGitHub Actionsを標的とした、マルウェアを拡散させるサプライチェーン攻撃が近年増加しています。 / GitHubはこれらの攻撃チェーンを断ち切るため、初期アクセス防止や権限昇格抑制などのセキュリティ改善を導入しました。 / コミュニティと連携し、最も影響の大きい攻撃手法を効果的に阻止するための多角的な取り組みを解説しています。 (Source: GitHub Blog)</description>
+      <pubDate>Tue, 28 Jul 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript</title>
-      <link>https://github.com/twalichiewicz/HNewhere</link>
-      <guid isPermaLink="false">https://github.com/twalichiewicz/HNewhere</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Tue, 28 Jul 2026 22:09:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Steel Bank Common Lisp version 2.6.7</title>
-      <link>https://sbcl.org/all-news.html?2.6.7</link>
-      <guid isPermaLink="false">https://sbcl.org/all-news.html?2.6.7</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Tue, 28 Jul 2026 17:11:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic publishes a practical key-recovery attack on HAWK-256</title>
-      <link>https://github.com/anthropics/cryptography-research-demo</link>
-      <guid isPermaLink="false">https://github.com/anthropics/cryptography-research-demo</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Tue, 28 Jul 2026 21:22:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kimi K3 Architecture Overview and Notes</title>
-      <link>https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html</link>
-      <guid isPermaLink="false">https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Tue, 28 Jul 2026 15:48:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>【決着】Claude CodeとCodexの設定ファイルを同期させる (みんな仲良く)</title>
-      <link>https://zenn.dev/explaza/articles/20f7f41cff8428</link>
-      <guid isPermaLink="false">https://zenn.dev/explaza/articles/20f7f41cff8428</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Tue, 28 Jul 2026 04:40:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft APM を試してみる　(npmと対比しながら）</title>
-      <link>https://zenn.dev/xtm_blog/articles/f016695e2839ee</link>
-      <guid isPermaLink="false">https://zenn.dev/xtm_blog/articles/f016695e2839ee</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Tue, 28 Jul 2026 04:31:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>【速報】Kimi-K3 を Day0 デプロイ。2.8T モデルは NVIDIA B300 x8 の 1 ノードで動くのか</title>
-      <link>https://zenn.dev/fixstars/articles/kimi-k3-benchmark</link>
-      <guid isPermaLink="false">https://zenn.dev/fixstars/articles/kimi-k3-benchmark</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 27 Jul 2026 23:19:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agentic RLではtool callを含むtrajectoryをどう学習するのか</title>
-      <link>https://zenn.dev/takkuhiro/articles/agentic-rl-trajectory-mechanics</link>
-      <guid isPermaLink="false">https://zenn.dev/takkuhiro/articles/agentic-rl-trajectory-mechanics</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 27 Jul 2026 22:00:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>ステージング環境をセルフサービス化しチームの開発速度を向上させた方法</title>
-      <link>https://zenn.dev/fusic/articles/83c6b9a1e7c7d0</link>
-      <guid isPermaLink="false">https://zenn.dev/fusic/articles/83c6b9a1e7c7d0</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 27 Jul 2026 09:46:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>やる気を信じず、学習習慣を仕組み化して固定せよ【三日坊主回避】</title>
-      <link>https://qiita.com/sumomoo/items/0d6667bbcf46ad59c320?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/sumomoo/items/0d6667bbcf46ad59c320?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Tue, 28 Jul 2026 04:36:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mac mini（M4 Pro / 48GB）で「完全ローカル」のLLM + RAG環境を構築してみた</title>
-      <link>https://qiita.com/y-okayama-tb/items/0127a7c5203f44507474?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/y-okayama-tb/items/0127a7c5203f44507474?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Mon, 27 Jul 2026 04:22:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>参考書を読んでも忘れるのは当然。大事なのは&quot;思い出す&quot;回数</title>
-      <link>https://qiita.com/prumnn/items/405f4a78ec5f0232b234?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/prumnn/items/405f4a78ec5f0232b234?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Tue, 28 Jul 2026 04:35:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>「最後に検証して」はもう書かなくていい — Claude Opus 5 でプロンプトの常識が逆転した4つのこと</title>
-      <link>https://qiita.com/jqit_suwa/items/74a96ce83dde5245407a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/jqit_suwa/items/74a96ce83dde5245407a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Tue, 28 Jul 2026 04:08:47 +0000</pubDate>
+      <title>GPT-5.6とBlender MCPで、多少マシな3Dモデリングをさせるまで</title>
+      <link>https://zenn.dev/test_myname/articles/gpt-5-6-blender-mcp-modeling</link>
+      <guid isPermaLink="false">https://zenn.dev/test_myname/articles/gpt-5-6-blender-mcp-modeling</guid>
+      <description>[Score: 85] GPT-5.6とBlender MCPを組み合わせ、1枚の画像から3Dモデルを自動生成する試みの紹介。 / 単一の指示では単純な形状に逃げるため、役割を分担したマルチエージェント構成を構築した。 / 4時間以上の自動実行により、チェックや修正、検証までを自律的に行う仕組みを解説している。 (Source: Zenn)</description>
+      <pubDate>Wed, 29 Jul 2026 00:57:38 +0000</pubDate>
     </item>
     <item>
       <title>「経験がないから」を言い訳にしなくていい時代になった</title>
       <link>https://qiita.com/sumomoo/items/122f9a34360e256bf042?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/sumomoo/items/122f9a34360e256bf042?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <description>[Score: 85] 17歳の高校生がAIツールを駆使して開発したカロリー推定アプリ「Cal AI」が大手企業に数十億円規模で買収された事例を紹介。 / CursorやReplitなどのAIコーディングツール（バイブコーディング）により、長年の開発経験がなくても高度なサービスを作れる時代が到来。 / 技術力そのものよりも、課題解決力やAIツールの使いこなし、マーケティング力が重要になっていると指摘。 (Source: Qiita)</description>
       <pubDate>Mon, 27 Jul 2026 08:09:33 +0000</pubDate>
     </item>
     <item>
-      <title>eBay reaches $56 million settlement with couple it terrorized in 2019 — Executives used sock puppet social media accounts to send items including a funeral wreath, a bloody pig mask, live spiders and cockroaches</title>
-      <link>https://www.reddit.com/r/technology/comments/1v99beh/ebay_reaches_56_million_settlement_with_couple_it/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1v99beh/ebay_reaches_56_million_settlement_with_couple_it/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
-      <pubDate>Tue, 28 Jul 2026 19:54:21 +0000</pubDate>
+      <title>ClaudeやChatGPTなどのAI研究所、数百万冊の希少本を購入・スキャン後に裁断か</title>
+      <link>https://www.reddit.com/r/technology/comments/1v9zv4l/claude_chatgpt_ai_labs_buy_scan_shred_millions_of/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1v9zv4l/claude_chatgpt_ai_labs_buy_scan_shred_millions_of/</guid>
+      <description>[Score: 85] ClaudeやChatGPTを開発するAI企業が、学習データ収集のために数百万冊の希少本を購入しているとされる。 / これらの書籍はデジタルスキャンされた後、物理的に裁断・廃棄されていると報じられ物議を醸している。 / AIモデルのトレーニングデータ確保に向けた過激な手法と、文化財保護や著作権を巡る議論が再燃している。 (Source: Reddit)</description>
+      <pubDate>Wed, 29 Jul 2026 15:42:58 +0000</pubDate>
     </item>
     <item>
-      <title>Teacher arrested for clapping in support of speaker opposing data center</title>
-      <link>https://www.reddit.com/r/technology/comments/1v8xdi4/teacher_arrested_for_clapping_in_support_of/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1v8xdi4/teacher_arrested_for_clapping_in_support_of/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
-      <pubDate>Tue, 28 Jul 2026 12:41:55 +0000</pubDate>
+      <title>深刻度「緊急」のRails脆弱性「KindaRails2Shell」（CVE-2026-66066）の概要と対応指針 - GMO Flatt Security Blog</title>
+      <link>https://blog.flatt.tech/entry/kindarails2shell_rails</link>
+      <guid isPermaLink="false">https://blog.flatt.tech/entry/kindarails2shell_rails</guid>
+      <description>[Score: 85] Ruby on Railsにおいて、リモートからの任意コード実行（RCE）につながる深刻な脆弱性「CVE-2026-66066」が公開された。 / Active Storageを用いて画像を処理している一般的な構成のRails環境が影響を受け、任意のファイル読み取りからRCEが可能となる。 / 根本的な対策は修正版へのアップデートであり、一時的な回避策として環境変数の設定なども推奨されている。 (Source: はてなブックマーク)</description>
+      <pubDate>Wed, 29 Jul 2026 15:19:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vercel、TypeScriptをC言語に変換してからネイティブな実行ファイルにコンパイルする「scriptc」、オープンソースで公開</title>
+      <link>https://www.publickey1.jp/blog/26/verceltypescriptcscriptc.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/verceltypescriptcscriptc.html</guid>
+      <description>[Score: 85] Vercelは、TypeScriptコードを変更せずにネイティブな実行ファイルへコンパイルする「scriptc」をOSSで公開した。 / 従来のランタイム同梱方式とは異なり、TypeScriptを型付き中間表現からC言語に変換し、clangでコンパイルする。 / これにより、JavaScriptランタイムに依存しない、極めて軽量で高速に動作するバイナリの作成が可能になる。 (Source: Publickey)</description>
+      <pubDate>Mon, 27 Jul 2026 15:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>初心者のためのGitHub Copilotアプリ：はじめに</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/</guid>
+      <description>[Score: 85] 従来のチャット型AIとは異なり、実際の開発フローに合わせたマルチタスク対応のGitHub Copilotアプリを紹介しています。 / プロジェクトのコンテキストを維持したまま、複数のエージェントセッションを切り替えて作業を進めることができます。 / ファイルの自動探索やコード変更、テスト実行など、開発者の環境準備の手間を減らす機能を解説します。 (Source: GitHub Blog)</description>
+      <pubDate>Mon, 27 Jul 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>クールダウンの必要性：Dependabotがバージョン更新の発行前に待機するようになった理由</title>
+      <link>https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/</link>
+      <guid isPermaLink="false">https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/</guid>
+      <description>[Score: 85] 自動更新ツールがリリース直後の悪意あるパッケージを即座に取り込んでしまうサプライチェーン攻撃が問題視されています。 / 対策として、Dependabotは非セキュリティのバージョン更新において、リリース後少なくとも3日間待機する「クールダウン」期間を導入しました。 / これにより、セキュリティ研究者やコミュニティが問題を発見・排除する時間を確保し、プロジェクトの安全性を高めます。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 23 Jul 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kimi K3-256k</title>
+      <link>https://www.kimi.com/code/docs/en/kimi-code/models</link>
+      <guid isPermaLink="false">https://www.kimi.com/code/docs/en/kimi-code/models</guid>
+      <description>[Score: 82] Kimi Codeが新しいコンテキスト窓256kのモデル「k3-256k」の提供を開始。 / 1Mコンテキストのk3モデルと比較して、消費するクォータ（利用枠）を約半分に削減。 / 日常的なコード補完や小規模な編集作業において、コスト効率の高い選択肢を提供。 (Source: Hacker News)</description>
+      <pubDate>Wed, 29 Jul 2026 19:25:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mac mini（M4 Pro / 48GB）で「完全ローカル」のLLM + RAG環境を構築してみた</title>
+      <link>https://qiita.com/y-okayama-tb/items/0127a7c5203f44507474?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/y-okayama-tb/items/0127a7c5203f44507474?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 82] M4 Proチップと48GBのユニファイドメモリを搭載したMac miniで完全ローカルのLLMとRAG環境を構築。 / OllamaとLlamaIndexを使用し、Qwen3やGemma3などの生成モデルとbge-m3埋め込みモデルを同居させて検証。 / クラウドAIのセキュリティ懸念やコストを解消し、Apple Siliconのメモリ共有の強みを活かしたローカル実行手順を解説。 (Source: Qiita)</description>
+      <pubDate>Mon, 27 Jul 2026 04:22:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>KubernetesはAIを動かすプラットフォームに。横浜でKubeCon＋CloudNativeCon Japan 2026が開幕</title>
+      <link>https://www.publickey1.jp/blog/26/kubernetesaikubeconcloudnativecon_japan_2026.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/kubernetesaikubeconcloudnativecon_japan_2026.html</guid>
+      <description>[Score: 82] クラウドネイティブ技術の最大級イベント「KubeCon+CloudNativeCon Japan 2026」がパシフィコ横浜で開幕した。 / 基調講演では、AI推論ワークロードの爆発的な増加に伴い、KubernetesがAIを動かす重要なプラットフォームになっている現状が示された。 / 日本のクラウドネイティブ開発者が95万人に達したことや、2030年に予測される膨大な計算需要への対応が議論された。 (Source: Publickey)</description>
+      <pubDate>Wed, 29 Jul 2026 15:02:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dependabotを飼い慣らす：アップデートのグループ化、頻度の抑制、迅速なセキュリティの維持</title>
+      <link>https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/</link>
+      <guid isPermaLink="false">https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/</guid>
+      <description>[Score: 82] 頻繁なDependabotのプルリクエストが開発のノイズとなり、重要な更新が見落とされる課題を指摘しています。 / 設定ファイルを調整し、アップデートをグループ化して月次などの適切な頻度に抑える方法を提案します。 / Microsoftのオープンソースプロジェクトにおける具体的な改善事例をもとに、設定方法を解説しています。 (Source: GitHub Blog)</description>
+      <pubDate>Wed, 29 Jul 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kernel Forge：LLMを用いたCUDAカーネルの生成および最適化のためのエージェントハーネス</title>
+      <link>https://arxiv.org/abs/2607.24762</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2607.24762</guid>
+      <description>[Score: 82] LLMを活用してCUDAカーネルの自動生成および最適化を行うためのエージェントフレームワーク「Kernel Forge」を提案します。 / GPUプログラミングの専門知識が必要なCUDAコードの記述とチューニングを、LLMエージェントが自律的に支援・実行します。 / ハードウェアの性能を最大限に引き出すコード生成の自動化により、ハイパフォーマンスコンピューティング（HPC）開発の効率化に貢献します。 (Source: arXiv cs.AI)</description>
+      <pubDate>Wed, 29 Jul 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AIのトップスタートアップは研究成果をほとんど公開していない</title>
+      <link>https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research</link>
+      <guid isPermaLink="false">https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research</guid>
+      <description>[Score: 80] 主要なAIスタートアップが研究論文の公開を控える傾向にあると指摘。 / 競争優位性の維持や商業化へのシフトがオープンサイエンスの制限に影響。 / AIコミュニティにおける知識共有の減少と技術発展への懸念を提起。 (Source: Hacker News)</description>
+      <pubDate>Wed, 29 Jul 2026 21:25:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>自分で作るクラウド競技</title>
+      <link>https://zenn.dev/bull/books/cloud-competition</link>
+      <guid isPermaLink="false">https://zenn.dev/bull/books/cloud-competition</guid>
+      <description>[Score: 80] AWSなどのクラウド環境を舞台にした技術競技（CTFやGameDay）を自作するための解説本。 / 問題の設計から、Docker環境や採点APIの作成、複数チームへの配布、リソース削除までを網羅している。 / 参加者に良い体験を届けるためのストーリー設計や、安全境界の決め方など実践的なノウハウが詰まっている。 (Source: Zenn)</description>
+      <pubDate>Wed, 29 Jul 2026 00:15:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>現役Appleマップエンジニアが書いた日本の住所表記のやばさを指摘する「ヤバい日本の住所」が出版</title>
+      <link>https://www.macotakara.jp/etc/book/entry-51535.html</link>
+      <guid isPermaLink="false">https://www.macotakara.jp/etc/book/entry-51535.html</guid>
+      <description>[Score: 80] 現役のAppleマップエンジニアである河合太郎氏による書籍「ヤバい日本の住所」が出版され話題を呼んでいる。 / 日本の住所表記の多様さや曖昧さが、地図データやITシステムとの紐付けにおいていかに困難であるかを解説している。 / デジタル庁の「AIによる表記揺れ判断」発言への反論から始まった、地図開発の現場のリアルな課題が詰まった一冊。 (Source: はてなブックマーク)</description>
+      <pubDate>Wed, 29 Jul 2026 07:52:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>AWSの公式オンラインワークショップ、無料のAWSサンドボックス環境を提供開始。学習用にAWSのサービスやコード実行など利用可能に</title>
+      <link>https://www.publickey1.jp/blog/26/awsawsaws.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/awsawsaws.html</guid>
+      <description>[Score: 80] AWSは、公式オンライン学習教材「ワークショップ」において、無料でサービスやコード実行を試せるサンドボックス環境の提供を開始した。 / クレジットカードの登録やAWSアカウントは不要で、無料の「ビルダーID」を登録するだけで利用できる。 / リクエストから約15分で実際のAWS環境が用意され、安全かつ手軽にクラウドの学習を進めることが可能になる。 (Source: Publickey)</description>
+      <pubDate>Mon, 27 Jul 2026 15:15:59 +0000</pubDate>
     </item>
   </channel>
 </rss>
