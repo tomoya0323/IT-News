@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 31 Jul 2026 23:14:12 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 22:59:52 +0000</lastBuildDate>
     <item>
-      <title>Tailscale didn't stop the Hugging Face intrusion</title>
-      <link>https://tailscale.com/blog/hugging-face-intrusion</link>
-      <guid isPermaLink="false">https://tailscale.com/blog/hugging-face-intrusion</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 31 Jul 2026 19:03:45 +0000</pubDate>
+      <title>Seedance 2.5</title>
+      <link>https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5</link>
+      <guid isPermaLink="false">https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5</guid>
+      <description>[Score: 90] ByteDanceが次世代の動画生成AIモデル「Seedance 2.5」を正式に発表。 / 1回の生成で最大30秒の高品質な音画同期ビデオを作成でき、複数回の延長にも対応。 / 最大30枚の画像や10本の動画・音声を参照素材として入力できる高度なマルチモーダル機能を搭載。 (Source: Hacker News)</description>
+      <pubDate>Sat, 01 Aug 2026 20:45:12 +0000</pubDate>
     </item>
     <item>
-      <title>Elevators</title>
-      <link>https://john.fun/elevators</link>
-      <guid isPermaLink="false">https://john.fun/elevators</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 31 Jul 2026 15:17:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>qm</title>
-      <link>https://github.com/yc-software/qm</link>
-      <guid isPermaLink="false">https://github.com/yc-software/qm</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 31 Jul 2026 18:04:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Twenty-five years ago it was cryptography, today it's model weights</title>
-      <link>https://weeraman.com/because-we-can/</link>
-      <guid isPermaLink="false">https://weeraman.com/because-we-can/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Tue, 28 Jul 2026 13:31:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Increasing the lifespan of a bulb makes it worse in every other way</title>
-      <link>https://maurycyz.com/misc/tungsten/</link>
-      <guid isPermaLink="false">https://maurycyz.com/misc/tungsten/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 31 Jul 2026 11:34:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Progressive Web Components</title>
-      <link>https://arielsalminen.com/2026/progressive-web-components/</link>
-      <guid isPermaLink="false">https://arielsalminen.com/2026/progressive-web-components/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 31 Jul 2026 10:04:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>Golang proposal: container/: generic collection types</title>
-      <link>https://github.com/golang/go/issues/80590</link>
-      <guid isPermaLink="false">https://github.com/golang/go/issues/80590</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 31 Jul 2026 18:39:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>Demystifying DRAM Read Disturbance: RowHammer and RowPress Phenomena</title>
-      <link>https://arxiv.org/abs/2607.28233</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2607.28233</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 31 Jul 2026 20:44:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>GitHubにスタックプルリクエストが登場。gh stackでPRを分割して積み上げよう</title>
+      <title>GitHubにスタック型プルリクエストが登場。gh stackでPRを分割して積み上げよう</title>
       <link>https://zenn.dev/ubie_dev/articles/gh-stack-introduction</link>
       <guid isPermaLink="false">https://zenn.dev/ubie_dev/articles/gh-stack-introduction</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <description>[Score: 90] GitHubに新機能「スタック型プルリクエスト（Stacked pull requests）」が登場したことを紹介。 / AI開発によりPRが巨大化しがちな現代において、PRを細かく分割して数珠つなぎに管理する手法を解説。 / `gh stack`コマンドを用いることで、依存関係のある複数PRの作成や更新の管理が劇的に効率化される。 (Source: Zenn)</description>
       <pubDate>Fri, 31 Jul 2026 13:33:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google Cloud、AIが自律的にコードの脆弱性検出からサンドボックス内でのリスク検証、修正までを自動実行。「CodeMender」プレビュー公開</title>
+      <link>https://www.publickey1.jp/blog/26/google_cloudaicodemender.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/google_cloudaicodemender.html</guid>
+      <description>[Score: 90] Google Cloudは、コードの脆弱性検出から修正までを自律的に行うAIエージェント「CodeMender」のプレビューを公開した。 / サンドボックス内で実際にエクスプロイトを実行して検証することで、誤検知を排除し優先度の高いリスクを特定する。 / C/C++やGo、Python、TypeScriptなど主要な言語に対応し、修正コードの自動生成も行う。 (Source: Publickey)</description>
+      <pubDate>Tue, 28 Jul 2026 15:54:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>カーネルの健全性バグ #14576 のポストモーテム</title>
+      <link>https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/</link>
+      <guid isPermaLink="false">https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/</guid>
+      <description>[Score: 88] 定理証明支援系「Lean」のカーネルにおいて、証明の健全性を揺るがす重大なバグが発見・修正された。 / AI支援により作成されたコラッツ予想の「偽の反証」が、カーネルの型チェックの不備を突いて通過したことが契機。 / バグはメタプログラミング経由でのみ到達可能で、理論の欠陥ではなく実装上の問題であり、迅速に修正された。 (Source: Hacker News)</description>
+      <pubDate>Sat, 01 Aug 2026 18:32:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>KubernetesはAIを動かすプラットフォームに。横浜でKubeCon＋CloudNativeCon Japan 2026が開幕</title>
+      <link>https://www.publickey1.jp/blog/26/kubernetesaikubeconcloudnativecon_japan_2026.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/kubernetesaikubeconcloudnativecon_japan_2026.html</guid>
+      <description>[Score: 88] クラウドネイティブ技術の祭典「KubeCon+CloudNativeCon Japan 2026」がパシフィコ横浜で開幕。 / KubernetesがAIワークロード、特に膨大な推論処理をスケーラブルに実行するための基盤として進化している現状を報告。 / 2030年には現在の全計算量を上回る推論ワークロードが要求されるとの予測も紹介された。 (Source: Publickey)</description>
+      <pubDate>Wed, 29 Jul 2026 15:02:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vercel、TypeScriptをC言語に変換してからネイティブな実行ファイルにコンパイルする「scriptc」、オープンソースで公開</title>
+      <link>https://www.publickey1.jp/blog/26/verceltypescriptcscriptc.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/verceltypescriptcscriptc.html</guid>
+      <description>[Score: 88] Vercelは、TypeScriptをC言語に変換してネイティブ実行ファイルを生成するコンパイラ「scriptc」をOSSとして公開した。 / 従来のランタイムを同梱する方式とは異なり、コードを型付き中間表現からC言語へ変換しclangでコンパイルする。 / これにより、JavaScriptランタイムに依存しない、軽量で高速に動作するネイティブバイナリの作成が可能となる。 (Source: Publickey)</description>
+      <pubDate>Mon, 27 Jul 2026 15:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>npmとGitHub Actionsにおけるサプライチェーン攻撃の阻止</title>
+      <link>https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/</link>
+      <guid isPermaLink="false">https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/</guid>
+      <description>[Score: 88] パッケージリポジトリやCI/CDシステムを標的とした、資格情報窃取を狙うサプライチェーン攻撃の増加を指摘。 / GitHubがnpmおよびGitHub Actionsにおいて、攻撃チェーンを遮断するためのセキュリティ改善策を導入。 / セキュリティ研究者や開発者コミュニティとの連携により、攻撃の初期アクセスや権限昇格を阻止。 (Source: GitHub Blog)</description>
+      <pubDate>Tue, 28 Jul 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Diátaxis</title>
+      <link>https://diataxis.fr/</link>
+      <guid isPermaLink="false">https://diataxis.fr/</guid>
+      <description>[Score: 85] 技術ドキュメントを作成・整理するための体系的なフレームワーク「Diátaxis」の紹介。 / ユーザーのニーズを「チュートリアル」「ハウツー」「リファレンス」「解説」の4つに分類。 / ドキュメントの品質向上と維持管理を容易にし、多くのプロジェクトで採用されている。 (Source: Hacker News)</description>
+      <pubDate>Sat, 01 Aug 2026 20:33:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI フレンドリーな CLI を開発するテクニック</title>
+      <link>https://zenn.dev/shunsuke_suzuki/articles/make-cli-ai-friendly</link>
+      <guid isPermaLink="false">https://zenn.dev/shunsuke_suzuki/articles/make-cli-ai-friendly</guid>
+      <description>[Score: 85] AIエージェントがCLIツールを自律的に操作・トラブルシューティングしやすくするための開発手法を提案している。 / 自作OSS「ghtkn」を例に、AIがWeb Fetchせずにドキュメントを読み込めるコマンドの実装などを紹介。 / AIとの協調開発が当たり前になる時代において、CLIをAIフレンドリーに設計する重要性と具体策を解説。 (Source: Zenn)</description>
+      <pubDate>Sat, 01 Aug 2026 01:35:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>AIの限界は頭脳ではなく、電気と冷却にあった【宇宙のデータセンターって何？】</title>
+      <link>https://qiita.com/sumomoo/items/8bbe719ed4de1a36def9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/sumomoo/items/8bbe719ed4de1a36def9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 85] AIの急激な需要拡大に伴い、地上のデータセンターが直面する電力不足と冷却コストの物理的限界を指摘。 / 太陽光発電が容易で放熱性に優れた宇宙空間にデータセンターを構築する、SpaceXの「AI1」プロジェクト構想を紹介。 / 2027年後半の実証打ち上げに向け、巨大な太陽電池パネルを備えた衛星で地上の制約を回避する新たなアプローチを解説。 (Source: Qiita)</description>
+      <pubDate>Fri, 31 Jul 2026 05:21:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>JetBrains、AIが少ないトークンでコンテキストを取得しやすく、よりよいコード生成を可能にする「JetBrains Context」発表</title>
+      <link>https://www.publickey1.jp/blog/26/jetbrainsaijetbrains_context.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/jetbrainsaijetbrains_context.html</guid>
+      <description>[Score: 85] JetBrainsは、AIエージェント向けに効率的なコードコンテキストを提供する「JetBrains Context」を発表。 / リポジトリを事前インデックス化し、セマンティック検索を提供することで、AIが少ないトークンで文脈を理解可能にする。 / AIエージェントのコード生成精度を向上させるとともに、開発コストの削減にも貢献する新サービス。 (Source: Publickey)</description>
+      <pubDate>Thu, 30 Jul 2026 17:48:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>あなたの音声アシスタントもソーシャルエンジニアリングの標的になる、そして誰もそれを警戒していない</title>
+      <link>https://dev.to/coridev/your-voice-assistant-can-be-social-engineered-too-and-nobodys-watching-for-it-51jp</link>
+      <guid isPermaLink="false">https://dev.to/coridev/your-voice-assistant-can-be-social-engineered-too-and-nobodys-watching-for-it-51jp</guid>
+      <description>[Score: 85] GeminiやGPT-4oなどの常に音声を聴き取るマルチモーダルAIエージェントに対する、新たなプロンプトインジェクション攻撃の手法が発表された。 / 研究によると、環境音や重ね合わせた音声の中に攻撃命令を埋め込むことで、約69%の確率でエージェントに命令を実行させることが可能である。 / テキストでの対策が進む一方で、音声という新たなモダリティにおける信頼境界の脆弱性が浮き彫りになっている。 (Source: Dev.to)</description>
+      <pubDate>Sat, 01 Aug 2026 22:47:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>早期終了はするな：メモリ速度でソースコードをケースフォールディングする</title>
+      <link>https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/</link>
+      <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/</guid>
+      <description>[Score: 85] GitHubがコード検索エンジンにおける大文字小文字を区別しない検索（ケースフォールディング）の高速化手法を解説。 / 非ASCII文字で早期終了する最適化をあえて削除し、分岐なしでバッファ全体を走査する方が高速であることを発見。 / この高速化成果をRustのクレート「casefold」としてオープンソースで公開。 (Source: GitHub Blog)</description>
+      <pubDate>Fri, 31 Jul 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MITより：AIによる財務アドバイスは驚くほど優れている</title>
+      <link>https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions</link>
+      <guid isPermaLink="false">https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions</guid>
+      <description>[Score: 80] 多くの米国人が財務アドバイスを得るためにAIを利用し始めている実態を調査。 / MIT Sloanの研究者が、AIが提供する財務アドバイスの質やその実用性について分析。 / 適切な質問をすることで、AIから驚くほど質の高い財務アドバイスを引き出せることを示唆。 (Source: Hacker News)</description>
+      <pubDate>Sat, 01 Aug 2026 22:25:12 +0000</pubDate>
     </item>
     <item>
       <title>メテオフォール開発</title>
       <link>https://zenn.dev/hisaju01/books/meteorfall-development</link>
       <guid isPermaLink="false">https://zenn.dev/hisaju01/books/meteorfall-development</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <description>[Score: 80] AIエージェントを用いた新しい開発プロセス「メテオフォール開発」について体系的に解説した無料の電子書籍。 / AIへの依頼設計から、生成された初期コードのレビュー、修正タスクの分解、チーム運用までを網羅。 / AI時代におけるジュニアエンジニアの参加設計や失敗パターンと対策など、実践的なノウハウを提供。 (Source: Zenn)</description>
       <pubDate>Fri, 31 Jul 2026 06:16:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>生成AIにおけるHTML/画像出力の必要性と改善案としてのRHW(reviewable-html-workbench)の紹介</title>
-      <link>https://zenn.dev/u1/articles/rhw-reviewable-html-workbench</link>
-      <guid isPermaLink="false">https://zenn.dev/u1/articles/rhw-reviewable-html-workbench</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 30 Jul 2026 12:16:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>0.5くらいから始めるPersonal Knowledge Base 構築実践</title>
-      <link>https://zenn.dev/mkj/articles/claudian-orchestra-build_20260720</link>
-      <guid isPermaLink="false">https://zenn.dev/mkj/articles/claudian-orchestra-build_20260720</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 30 Jul 2026 08:00:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>リリース前チェックをAIで行う「プロダクトリリースハーネス」のつくり方</title>
-      <link>https://zenn.dev/estie/articles/c5503dfe56f7a1</link>
-      <guid isPermaLink="false">https://zenn.dev/estie/articles/c5503dfe56f7a1</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 30 Jul 2026 00:45:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>AIの限界は頭脳ではなく、電気と冷却にあった【宇宙のデーターセンターって何？】</title>
-      <link>https://qiita.com/sumomoo/items/8bbe719ed4de1a36def9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/sumomoo/items/8bbe719ed4de1a36def9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Fri, 31 Jul 2026 05:21:40 +0000</pubDate>
     </item>
     <item>
       <title>コードベースのナレッジ化なら、LLM Wikiで十分かもしれない</title>
       <link>https://qiita.com/Syoitu/items/ff38655fed51a2920910?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/Syoitu/items/ff38655fed51a2920910?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <description>[Score: 80] コーディングエージェントにコードベースを理解させる際、従来の検索型ツールや指示ファイルが抱えるコストと運用の課題を整理。 / 情報を整理してページにまとめておくことで検索コストを抑え、情報の鮮度を保つ「LLM Wiki」というアプローチを解説。 / LLM Wikiに似た仕組みを持つ新しいライブラリ「OpenWiki」の概要と、それを動かす方法について紹介。 (Source: Qiita)</description>
       <pubDate>Thu, 30 Jul 2026 06:24:02 +0000</pubDate>
     </item>
     <item>
-      <title>「アーキテクチャ」って結局何？ITパスポートのEAを調べてみた</title>
-      <link>https://qiita.com/prumnn/items/da1cd811a3a7408472d2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/prumnn/items/da1cd811a3a7408472d2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Fri, 31 Jul 2026 05:20:25 +0000</pubDate>
+      <title>Redditの株価が下落する中、CEOがGoogleの「AI Overviews」の価値に疑問を呈す</title>
+      <link>https://www.reddit.com/r/technology/comments/1vcr4qe/as_reddit_stock_falls_ceo_questions_value_of/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vcr4qe/as_reddit_stock_falls_ceo_questions_value_of/</guid>
+      <description>[Score: 80] Redditの株価下落に伴い、同社CEOがGoogleの検索AI機能「AI Overviews」の価値に疑問を投げかけました。 / AIによる検索結果の要約が、元のコンテンツ提供元へのトラフィックを減少させている懸念が背景にあります。 / プラットフォーマーとコンテンツホルダー間のAIを巡る対立を象徴する動きです。 (Source: Reddit)</description>
+      <pubDate>Sat, 01 Aug 2026 16:01:31 +0000</pubDate>
     </item>
     <item>
-      <title>オーダーメイドで九九の計算プリントを作ろう（ローテクAI）</title>
-      <link>https://qiita.com/Kaitou/items/33e9a09af8ea5bdeebeb?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/Kaitou/items/33e9a09af8ea5bdeebeb?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Wed, 29 Jul 2026 11:27:10 +0000</pubDate>
+      <title>AIを使わず地理演算でファンタジー地図を自動生成するWebツール『USOMAP』がとても面白い「水源から町を作る」「国境線の作り方もリアル」</title>
+      <link>https://togetter.com/li/2727453</link>
+      <guid isPermaLink="false">https://togetter.com/li/2727453</guid>
+      <description>[Score: 80] 地理演算を用いてファンタジー世界の地図を自動生成する無料のWebツール「USOMAP」が話題に。 / 生成AIに頼らず、プレートテクトニクスや気候、水源、人の営みなどの物理・社会シミュレーションを順次計算。 / 説得力のある国境線や街道、航路が自動生成され、SVG書き出しによる編集にも対応している。 (Source: はてなブックマーク)</description>
+      <pubDate>Sat, 01 Aug 2026 09:48:24 +0000</pubDate>
     </item>
     <item>
-      <title>CLAUDE.md は21セクションか、8行か — 公式ドキュメントで決着をつけた</title>
-      <link>https://qiita.com/jqit_suwa/items/cea574550613de33a114?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/jqit_suwa/items/cea574550613de33a114?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Thu, 30 Jul 2026 00:47:06 +0000</pubDate>
+      <title>GitHub Copilotアプリにおけるスタックされたセッションとプルリクエスト</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/</guid>
+      <description>[Score: 80] GitHub Copilotアプリに搭載された、一連のタスクを段階的に構築できる「スタックされたセッション」機能を紹介。 / React 15やBootstrapなど、長年放置されていたレガシーな個人アプリの依存関係アップデートに本機能を活用。 / AIを活用することで、従来は困難だった大規模なコードベースの近代化を効率的に進められることを実証。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 30 Jul 2026 17:30:24 +0000</pubDate>
     </item>
     <item>
-      <title>In one California town, Flock misread license plates in 71% of the alerts it sent to police</title>
-      <link>https://www.reddit.com/r/technology/comments/1vbqtzx/in_one_california_town_flock_misread_license/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vbqtzx/in_one_california_town_flock_misread_license/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
-      <pubDate>Fri, 31 Jul 2026 13:22:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>New York Has Sued Kalshi for Running Illegal Gambling Operation</title>
-      <link>https://www.reddit.com/r/technology/comments/1vbrbzg/new_york_has_sued_kalshi_for_running_illegal/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vbrbzg/new_york_has_sued_kalshi_for_running_illegal/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
-      <pubDate>Fri, 31 Jul 2026 13:42:44 +0000</pubDate>
+      <title>ハーネスこそがすべて（ほぼ）</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/</guid>
+      <description>[Score: 80] AIツールの急増に圧倒される中、重要なのは奇抜なプロンプトや設定ではなく既存の「ハーネス（開発環境）」を理解し使いこなすことである。 / GitHub Copilotを例に、CLIや各種IDEで共通化されつつあるハーネスを活用した、生産性を劇的に向上させるシンプルなワークフローを紹介する。 / ツールごとの細かな違いはあれど、コアとなるワークフローは一貫しており、ハーネスを一度学べばどこでも応用可能であると説く。 (Source: GitHub Blog)</description>
+      <pubDate>Mon, 27 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
