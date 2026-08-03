@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 02 Aug 2026 23:00:54 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 23:11:01 +0000</lastBuildDate>
     <item>
-      <title>GitHubにスタック型プルリクエストが登場。gh stackでPRを分割して積み上げよう</title>
-      <link>https://zenn.dev/ubie_dev/articles/gh-stack-introduction</link>
-      <guid isPermaLink="false">https://zenn.dev/ubie_dev/articles/gh-stack-introduction</guid>
-      <description>[Score: 90] GitHubに新導入された、プルリクエストを細かく分割して数珠つなぎに管理できる「スタック型プルリクエスト」の紹介。 / AIエージェントの普及に伴い肥大化しがちなPRを、意味のある単位に分割してレビューしやすくする背景を解説。 / 新機能の `gh stack` コマンドを使用することで、依存関係のある複数PRの管理や更新の反映が容易になる。 (Source: Zenn)</description>
-      <pubDate>Fri, 31 Jul 2026 13:33:10 +0000</pubDate>
+      <title>数学と理論計算機科学における10の進歩</title>
+      <link>https://openai.com/index/ten-advances-in-mathematics/</link>
+      <guid isPermaLink="false">https://openai.com/index/ten-advances-in-mathematics/</guid>
+      <description>[Score: 92] OpenAIは、次期主要モデル「Astra」を用いて数学などの未解決問題を解決した10の成果を発表した。 / AIが生成したErdős単一距離予想の反例など、学術研究を加速させる具体的な実績が示されている。 / これらの成果は、モデルによってLean証明支援系の証明書として形式化されている。 (Source: Hacker News)</description>
+      <pubDate>Mon, 03 Aug 2026 16:27:12 +0000</pubDate>
     </item>
     <item>
-      <title>Windowsユーザーは「ホテルのWi-Fiは使うな」マイクロソフトが緊急警告</title>
-      <link>https://forbesjapan.com/articles/detail/102130</link>
-      <guid isPermaLink="false">https://forbesjapan.com/articles/detail/102130</guid>
-      <description>[Score: 90] マイクロソフトは、ホテルのWi-Fiなどのゲストネットワークを介したサイバー攻撃「CaptiveCrunch」について警告した。 / ロシアの脅威アクター「Storm-2945」がAIを悪用し、出張者を標的に認証情報の窃取やマルウェア配信を行っている。 / 対策として、公共Wi-Fiの利用を避け、VPNの使用やモバイルデータ通信の活用が推奨されている。 (Source: はてなブックマーク)</description>
-      <pubDate>Sun, 02 Aug 2026 10:15:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>ＡＩで生成した画像や動画、ＥＵが識別できる表示義務づけ…違反なら最大２７億円か年売上高３％の制裁金</title>
-      <link>https://www.yomiuri.co.jp/economy/20260801-GYT1T00222/</link>
-      <guid isPermaLink="false">https://www.yomiuri.co.jp/economy/20260801-GYT1T00222/</guid>
-      <description>[Score: 90] EUはAIで生成・加工された画像や動画、音声に対し、AIによるものであることを示す表示を事業者に義務づけ。 / 2024年8月に発効した「AI法」に基づく規制で、違反した場合は最大27億円または年間売上高の3%の制裁金。 / 生成AIサービスの開発者や利用事業者が対象となり、先端モデルの一般公開制限を要請する方針も示された。 (Source: はてなブックマーク)</description>
-      <pubDate>Sat, 01 Aug 2026 11:23:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google Cloud、AIが自律的にコードの脆弱性検出からサンドボックス内でのリスク検証、修正までを自動実行。「CodeMender」プレビュー公開</title>
-      <link>https://www.publickey1.jp/blog/26/google_cloudaicodemender.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/google_cloudaicodemender.html</guid>
-      <description>[Score: 90] Google Cloudは、コードの脆弱性検出からリスク検証、修正までを自律的に実行するAIエージェント「CodeMender」のプレビューを公開した。 / 検出した脆弱性が実際にリスクをもたらすかを検証するため、サンドボックス内でエクスプロイトコードを自動作成・実行して誤検知を排除する。 / C/C++、Go、Java、Pythonなどの言語に対応し、修正コードの自動生成までを一貫して行う。 (Source: Publickey)</description>
-      <pubDate>Tue, 28 Jul 2026 15:54:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>npmとGitHub Actionsにおけるサプライチェーン攻撃の阻止</title>
-      <link>https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/</link>
-      <guid isPermaLink="false">https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/</guid>
-      <description>[Score: 90] npmやGitHub Actionsを標的としたサプライチェーン攻撃を阻止するための、GitHubの最新のセキュリティ対策状況を報告している。 / 攻撃者はパッケージリポジトリやCI/CDの脆弱性を突いてマルウェアを拡散し、認証情報を窃取しようとする。 / GitHubは攻撃チェーンの主要なリンクを遮断するため、コミュニティと連携してnpmおよびGitHub Actionsに複数のセキュリティ改善を導入した。 (Source: GitHub Blog)</description>
-      <pubDate>Tue, 28 Jul 2026 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AIのアウトプットをそのまま出すだけの人にならないために</title>
-      <link>https://qiita.com/ktdatascience/items/8d2dace07c9c7a9d0453?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/ktdatascience/items/8d2dace07c9c7a9d0453?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 88] AIエージェントの普及により、言語化・構造化できる定型業務が自動化される現状を分析。 / AIの出力をそのまま流すだけの「人間ルーター」にならず、介在価値を示す必要性を主張。 / コンテキストに乗らない「人間の仕事」の領域を定義し、今後のエンジニアのあり方を提示。 (Source: Qiita)</description>
-      <pubDate>Sat, 01 Aug 2026 06:25:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>GitHub Copilotアプリにおけるスタックセッションとプルリクエスト</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/</guid>
-      <description>[Score: 88] GitHub Copilotアプリに搭載された、同一リポジトリ内で複数のタスクを連鎖的に処理する「スタックセッション」機能を紹介している。 / React 15などの極めて古い依存関係を持つ個人アプリのフロントエンド近代化を、AIを活用して効率的に進める事例を解説している。 / これまで手作業では困難だった大規模なリファクタリングや依存関係の更新が、AIの支援により容易になることを示している。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 30 Jul 2026 17:30:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>検証！Claude Codeのサブエージェント並列はお得なのか</title>
-      <link>https://qiita.com/tamashiro_nobuyuki/items/ff9004b66b7761c4d34c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/tamashiro_nobuyuki/items/ff9004b66b7761c4d34c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 86] Claude Codeのサブエージェント（Agentツール）を並列実行した際の効果を実測検証。 / 並列実行により、所要時間が半分以下になり、トークン消費量も大幅に削減されることを確認。 / キャッシュの共有効果により、独立した複数タスクはまとめて並列処理する方が効率的と結論。 (Source: Qiita)</description>
-      <pubDate>Fri, 31 Jul 2026 01:46:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>カーパシーのペリカン (Karpathy’s Pelican)</title>
-      <link>https://twitter.com/karpathy/status/2083749667410727319</link>
-      <guid isPermaLink="false">https://twitter.com/karpathy/status/2083749667410727319</guid>
-      <description>[Score: 85] Andrej Karpathy氏がLLM（Opus 5）に「指輪物語」の第1段落と100万トークンの予算を与え、3D JSレンダリングコードの作成を指示。 / LLMは2時間かけて5500行のコードを生成し、ストーリーを3D空間に配置・アニメーション化することに成功した。 / LLMは根気強くカスタムワールドを構築できるが、自身の成果物を効率的に視覚評価できないという弱点も浮き彫りになった。 (Source: Hacker News)</description>
-      <pubDate>Sun, 02 Aug 2026 04:05:56 +0000</pubDate>
+      <title>Qwen3.8-Maxが一般公開：アリババの2.4兆パラメータモデルへの開発者向けガイド</title>
+      <link>https://dev.to/arshtechpro/qwen38-max-just-went-ga-a-developers-guide-to-alibabas-24t-model-ff3</link>
+      <guid isPermaLink="false">https://dev.to/arshtechpro/qwen38-max-just-went-ga-a-developers-guide-to-alibabas-24t-model-ff3</guid>
+      <description>[Score: 92] アリババは2.4兆パラメータを持つ最新のフラッグシップAIモデル「Qwen3.8-Max」を一般公開した。 / 100万トークンのコンテキスト窓やマルチモーダル入力を備え、安価なAPI価格設定が特徴である。 / MoE（混合専門家）アーキテクチャを採用しており、来週にはオープンウェイト版の公開も予定されている。 (Source: Dev.to)</description>
+      <pubDate>Mon, 03 Aug 2026 22:40:19 +0000</pubDate>
     </item>
     <item>
       <title>Kimi K3を441GBに枝刈りして、Mac Studio 1台で動かした</title>
       <link>https://zenn.dev/hellohazime/articles/kimi_k3_reap640_512gb_mac</link>
       <guid isPermaLink="false">https://zenn.dev/hellohazime/articles/kimi_k3_reap640_512gb_mac</guid>
-      <description>[Score: 85] 最新のLLM「Kimi K3」を枝刈りし、Mac Studio（M3 Ultra、512GB RAM）1台で動作させた検証記録。 / 多言語やコーディングに関係ないエキスパートを削減することで、モデルサイズを441GBに収めることに成功。 / Kimi Code CLIと連携させ、SWE-Lancerの実タスク8本中5本を正解する実用的な性能を確認した。 (Source: Zenn)</description>
+      <description>[Score: 90] 大規模言語モデル「Kimi K3」を、Apple M3 Ultra（512GB RAM）を搭載したMac Studio 1台で動作させることに成功。 / 594GBある1bit量子化モデルから、日本語やコーディングに関係のないエキスパートを削ることで441GBまで軽量化。 / 枝刈りしたモデルをKimi Code CLIと連携させ、SWE-Lancerの実タスク8本中5本を正解する実用的な性能を確認した。 (Source: Zenn)</description>
       <pubDate>Sun, 02 Aug 2026 00:43:07 +0000</pubDate>
     </item>
     <item>
-      <title>メテオフォール開発</title>
-      <link>https://zenn.dev/hisaju01/books/meteorfall-development</link>
-      <guid isPermaLink="false">https://zenn.dev/hisaju01/books/meteorfall-development</guid>
-      <description>[Score: 85] AIエージェントを活用した新しい開発手法「メテオフォール開発」の解説書。 / AIへの依頼設計からチーム運用、失敗パターンと対策までを体系的に網羅。 / プログラミングスクール運営者による、実践的な開発プロセスと品質管理の知見を提供。 (Source: Zenn)</description>
-      <pubDate>Fri, 31 Jul 2026 06:16:08 +0000</pubDate>
+      <title>LangGraphを使用した決定論的なマルチエージェントワークフローの構築</title>
+      <link>https://dev.to/muhammad_aslam_ff65e35553/building-deterministic-multi-agent-workflows-with-langgraph-4m0i</link>
+      <guid isPermaLink="false">https://dev.to/muhammad_aslam_ff65e35553/building-deterministic-multi-agent-workflows-with-langgraph-4m0i</guid>
+      <description>[Score: 88] AIエージェントの予測不可能な挙動により、多くのマルチエージェント開発が頓挫している現状を指摘している。 / LangGraphを用いて状態マシン駆動のワークフローを構築し、決定論的なビジネスプロセスを実現する方法を解説する。 / エラー発生時の回復ルートや永続的な共有メモリの管理など、本番環境に耐えうる堅牢なパイプライン設計を提案している。 (Source: Dev.to)</description>
+      <pubDate>Mon, 03 Aug 2026 22:42:15 +0000</pubDate>
     </item>
     <item>
-      <title>日本におけるクラウドネイティブコミュニティの開発者数が約100万人に、CNCFが調査結果を発表</title>
-      <link>https://www.publickey1.jp/blog/26/100cncf.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/100cncf.html</guid>
-      <description>[Score: 85] CNCFとSlashDataが、日本におけるクラウドネイティブ開発の現状に関する調査レポートを発表。 / 日本のクラウドネイティブコミュニティにおける開発者数が約95万人（約100万人）に達したことが判明。 / 日本でのクラウドネイティブ技術の導入は過去2年間で大幅に増加しており、業界全体のトレンドを反映。 (Source: Publickey)</description>
-      <pubDate>Sun, 02 Aug 2026 15:28:02 +0000</pubDate>
+      <title>未解決の数学的予想を発見するためのLLMフレームワーク：次のリーマン予想を追い求めるAIの探求</title>
+      <link>https://arxiv.org/abs/2607.28632</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2607.28632</guid>
+      <description>[Score: 88] 未解決の重要な数学的予想を自動で発見・定式化するためのLLM（大規模言語モデル）フレームワークの提案。 / 「次のリーマン予想」のような高度な数学的発見をAIが主導することを目指す挑戦的な試み。 / 高度な推論能力と数学的知識を統合し、科学的発見におけるAIの役割を新たな次元へと引き上げる。 (Source: arXiv cs.AI)</description>
+      <pubDate>Mon, 03 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>200ミリ秒</title>
+      <link>https://200ms.thenodebook.com</link>
+      <guid isPermaLink="false">https://200ms.thenodebook.com</guid>
+      <description>[Score: 85] 単一のHTTPリクエストが処理されて戻るまでの約200ミリ秒のライフサイクルを追う。 / DNS、TCP、TLS、カーネル、Node.js、Postgresなどの各レイヤーの動きを可視化する。 / Web通信の裏側で起きている複雑な処理を視覚的に学べるインタラクティブな教材。 (Source: Hacker News)</description>
+      <pubDate>Sat, 01 Aug 2026 10:17:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>より小さく、より速く、より安全に：KimiとGLMを大規模に実行する</title>
+      <link>https://blog.cloudflare.com/smaller-faster-safer-models/</link>
+      <guid isPermaLink="false">https://blog.cloudflare.com/smaller-faster-safer-models/</guid>
+      <description>[Score: 85] CloudflareのWorkers AIで、MoonshotのKimiやZ.aiのGLMといった大規模なMixture-of-Expertsモデルを効率的にホストする手法を紹介。 / メモリ制限を克服するため、KVキャッシュの量子化、モデル重みの圧縮、共有キャッシュの保護という3つの最適化技術を導入。 / オープンソースの推論サーバーフレームワーク「SGLang」を採用し、精度を維持したまま低コストで高速な推論を実現している。 (Source: Hacker News)</description>
+      <pubDate>Mon, 03 Aug 2026 17:08:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>CLAUDE.md を厚くしても意味がなかった話</title>
+      <link>https://qiita.com/jqit_suwa/items/2dee3e3d53080c3676a0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/jqit_suwa/items/2dee3e3d53080c3676a0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 85] AIエージェントに指示書を渡しても、ルールを遵守できた割合は最高で36.2%に留まるという研究を紹介。 / 指示書（CLAUDE.md等）を長く詳細にするほど、AIがルールを守れなくなる傾向が明らかになった。 / AIが指示を無視して都合の良い行動をとるなど、失敗の4つのパターンを解説している。 (Source: Qiita)</description>
+      <pubDate>Mon, 03 Aug 2026 00:32:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>20万ドルの価値がある本物のmacOSの脆弱性が、Appleのバグバウンティ窓口がAI生成のゴミ報告で溢れていたため報告されず</title>
+      <link>https://www.reddit.com/r/technology/comments/1vem7fn/a_real_macos_flaw_worth_200k_went_unreported/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vem7fn/a_real_macos_flaw_worth_200k_went_unreported/</guid>
+      <description>[Score: 85] 20万ドルの報奨金に値するmacOSの深刻な脆弱性が、Appleに報告されないまま放置されていたことが判明した。 / 原因は、Appleのバグバウンティ窓口がAIで自動生成された低品質な報告（AI slop）で埋め尽くされていたためである。 / AIの悪用によるセキュリティ窓口の機能不全という、新たな運用の課題を浮き彫りにしている。 (Source: Reddit)</description>
+      <pubDate>Mon, 03 Aug 2026 18:47:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>オントロジーで AI に業務知識を渡す — AWS の OSS「Context Ontology Accelerator」を試してみた</title>
+      <link>https://zenn.dev/aws_japan/articles/context-ontology-accelerator-deploy</link>
+      <guid isPermaLink="false">https://zenn.dev/aws_japan/articles/context-ontology-accelerator-deploy</guid>
+      <description>[Score: 85] AIエージェントの精度向上に不可欠な「業務の意味（オントロジー）」を自動生成するAWSのOSS「COA」を解説。 / 従来のText-to-SQLやRAGの限界を、ナレッジグラフやセマンティックレイヤーの導入によって克服するアプローチ。 / 2026年のデータ業界における「意味の層」整備のトレンドと、実際のデプロイ検証に基づく効果を紹介。 (Source: はてなブックマーク)</description>
+      <pubDate>Mon, 03 Aug 2026 09:58:20 +0000</pubDate>
     </item>
     <item>
       <title>JetBrains、AIが少ないトークンでコンテキストを取得しやすく、よりよいコード生成を可能にする「JetBrains Context」発表</title>
       <link>https://www.publickey1.jp/blog/26/jetbrainsaijetbrains_context.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/jetbrainsaijetbrains_context.html</guid>
-      <description>[Score: 85] JetBrainsは、AIエージェント向けに適切なコードコンテキストを提供する新サービス「JetBrains Context」を発表した。 / リポジトリを事前に読み込んでインデックスを構築し、質問の意図を理解するセマンティック検索をAIに提供する。 / これにより、AIエージェントは少ないトークンで効率的にコンテキストを取得でき、コード生成の品質向上とコスト削減が期待できる。 (Source: Publickey)</description>
+      <description>[Score: 85] JetBrainsはAIエージェント向けに適切なコードコンテキストを提供する「JetBrains Context」を発表した。 / リポジトリを事前インデックス化しセマンティック検索を提供することで、AIが少ないトークンで効率的にコンテキストを理解できる。 / これによりAIエージェントによるコード生成の精度向上と、トークン消費に伴うコスト削減が期待される。 (Source: Publickey)</description>
       <pubDate>Thu, 30 Jul 2026 17:48:59 +0000</pubDate>
     </item>
     <item>
-      <title>途中で止めるな：メモリ速度でソースコードをケースフォールディングする</title>
-      <link>https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/</link>
-      <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/</guid>
-      <description>[Score: 85] GitHubのコード検索エンジンにおける、大文字小文字を区別しない検索（ケースフォールディング）の高速化手法を紹介している。 / 非ASCII文字で早期終了する最適化を削除し、分岐なしでバッファ全体を走査する方が高速であるという逆説的な発見を示した。 / この成果はRustのクレート「casefold」としてオープンソース化され、大規模テキスト処理の効率化に貢献している。 (Source: GitHub Blog)</description>
-      <pubDate>Fri, 31 Jul 2026 16:00:00 +0000</pubDate>
+      <title>npmとGitHub Actionsにおけるサプライチェーン攻撃の阻止</title>
+      <link>https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/</link>
+      <guid isPermaLink="false">https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/</guid>
+      <description>[Score: 85] パッケージリポジトリやCI/CDを標的とし、資格情報を窃取するサプライチェーン攻撃が急増。 / GitHubはnpmおよびGitHub Actionsにおいて、攻撃手法を分析し複数のセキュリティ改善を導入。 / 攻撃チェーンの重要なリンクを遮断する包括的なアプローチにより、エコシステム全体の安全性を強化。 (Source: GitHub Blog)</description>
+      <pubDate>Tue, 28 Jul 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>アトラシアン、AI時代の仕事用ブラウザ「Diaブラウザ」のWindows版リリースへ。ウェイトリストへの登録開始</title>
-      <link>https://www.publickey1.jp/blog/26/aidiawindows.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aidiawindows.html</guid>
-      <description>[Score: 82] アトラシアンが、AI時代の業務向けブラウザ「Diaブラウザ」のWindows版を今秋リリースすると発表。 / 元々は「Arcブラウザ」の開発元が後継として開発していたもので、アトラシアンによる買収を経て開発が継続。 / 現在はベータ版の配布希望者に向けたウェイトリストの登録が開始されている。 (Source: Publickey)</description>
-      <pubDate>Sun, 02 Aug 2026 15:56:09 +0000</pubDate>
+      <title>エージェントAIにおけるOpenClawとOllama：完全自律型かつスケーラブルなAIエージェントシステムに向けて</title>
+      <link>https://arxiv.org/abs/2607.28629</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2607.28629</guid>
+      <description>[Score: 85] OpenClawとOllamaを組み合わせた、完全自律型でスケーラブルなAIエージェントシステムの構築に関する研究。 / ローカルLLMの実行環境であるOllamaを活用し、プライバシーとコスト効率を両立するエージェント基盤を提案。 / 自律的な意思決定とスケーラビリティを向上させ、実用的なAIエージェントの普及に貢献する。 (Source: arXiv cs.AI)</description>
+      <pubDate>Mon, 03 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>6502プロセッサ上で動作する自己回帰型言語モデル</title>
-      <link>https://mattbeton.com/blog/bitnet-6502.html</link>
-      <guid isPermaLink="false">https://mattbeton.com/blog/bitnet-6502.html</guid>
-      <description>[Score: 80] 1975年発売の8ビットCPU「MOS 6502」を搭載したレトロPC「BBC Micro」上で言語モデルを動作させるプロジェクト。 / 25KBのメモリ制限に対応するため、9KBの推論コードと13KBのモデル重み（BitNet）に極限まで軽量化。 / C言語から6502命令へのコンパイルや、音声テープ入力を模したデータ転送など、様々な工夫によりブラウザ上のエミュレータでも動作可能。 (Source: Hacker News)</description>
-      <pubDate>Fri, 31 Jul 2026 13:08:30 +0000</pubDate>
+      <title>オントロジーは「先に決める」か「データから起こす」か</title>
+      <link>https://zenn.dev/knowledge_graph/articles/ontology-define-first-vs-induce</link>
+      <guid isPermaLink="false">https://zenn.dev/knowledge_graph/articles/ontology-define-first-vs-induce</guid>
+      <description>[Score: 82] AIエージェントに業務知識を渡すための「オントロジー」の構築手法について、事前定義型とデータ推論型を比較。 / 事前定義型はブレを防ぎ回答を安定させるが設計コストが高く、推論型は構築が早いが正確性に欠ける特徴がある。 / 実務における最適なアプローチは、コア部分を人間が設計し、周辺部分をAIに起案させるハイブリッド型であると提案。 /  (Source: はてなブックマーク)</description>
+      <pubDate>Mon, 03 Aug 2026 16:07:24 +0000</pubDate>
     </item>
     <item>
-      <title>AI フレンドリーな CLI を開発するテクニック</title>
-      <link>https://zenn.dev/shunsuke_suzuki/articles/make-cli-ai-friendly</link>
-      <guid isPermaLink="false">https://zenn.dev/shunsuke_suzuki/articles/make-cli-ai-friendly</guid>
-      <description>[Score: 80] AIエージェントがCLIツールを自律的に操作・トラブルシューティングしやすくするための開発手法の紹介。 / Web Fetchに頼らずにCLI自体からドキュメントを読み込めるコマンドの実装などを提案。 / 対話型プロセスの制限や機密情報の出力を防ぐための、AI向けの指示メッセージの埋め込み方法を解説。 (Source: Zenn)</description>
-      <pubDate>Sat, 01 Aug 2026 01:35:46 +0000</pubDate>
+      <title>GitHub Copilotアプリにおけるスタックされたセッションとプルリクエスト</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/</guid>
+      <description>[Score: 82] GitHub Copilotアプリに、タスクを連続して構築できる「スタックされたセッション」機能が登場。 / 依存関係が極めて古いレガシーな個人アプリのフロントエンド刷新にこの機能を適用。 / AIを活用することで、従来なら数週間かかる困難なモダン化作業を効率的に完遂した。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 30 Jul 2026 17:30:24 +0000</pubDate>
     </item>
     <item>
-      <title>カリフォルニア州のデータブローカー、8月1日より個人データ削除要請への対応義務化</title>
-      <link>https://www.reddit.com/r/technology/comments/1vdrugg/california_data_brokers_must_start_deleting/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vdrugg/california_data_brokers_must_start_deleting/</guid>
-      <description>[Score: 80] カリフォルニア州のデータブローカーに対し、消費者からの個人データ削除要請への対応が8月1日から義務付けられる。 / これは「Delete Act（削除法）」に基づくもので、消費者が一括でデータ削除を要求できる仕組みが導入される。 / データプライバシーの保護において、全米で最も厳格な規制の一つとなる。 (Source: Reddit)</description>
-      <pubDate>Sun, 02 Aug 2026 19:57:31 +0000</pubDate>
+      <title>AIはAI科学者を評価できるか？自動マルチモデル査読を用いた自律的研究生成システムのベンチマーク研究</title>
+      <link>https://arxiv.org/abs/2607.28631</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2607.28631</guid>
+      <description>[Score: 82] AIが生成した研究成果を、複数のAIモデルを用いた自動査読によって評価する手法のベンチマーク研究。 / 自律的な研究生成システム（AI Scientist）の信頼性と評価プロセスの自動化可能性を検証。 / AIによる自己評価の限界と可能性を明らかにし、今後の科学研究の自動化に向けた重要な知見を提供する。 (Source: arXiv cs.AI)</description>
+      <pubDate>Mon, 03 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>大阪・関西万博関連ドメインの一部で起きているドロップキャッチについてまとめてみた - piyolog</title>
-      <link>https://piyolog.hatenadiary.jp/entry/2026/08/02/165033</link>
-      <guid isPermaLink="false">https://piyolog.hatenadiary.jp/entry/2026/08/02/165033</guid>
-      <description>[Score: 80] 大阪・関西万博の関連事業で過去に使用され、運用終了したドメインが第三者に取得された問題を解説。 / 一部のドメインでは旧事業と無関係なコンテンツの表示や外部サイトへの転送が確認されている。 / 自治体ドメインのドロップキャッチ問題も含め、運用終了後のドメイン管理の重要性を警鐘。 (Source: はてなブックマーク)</description>
-      <pubDate>Sun, 02 Aug 2026 09:00:51 +0000</pubDate>
+      <title>LLMは専門知識に報いる</title>
+      <link>https://www.seangoedecke.com/llms-reward-expertise/</link>
+      <guid isPermaLink="false">https://www.seangoedecke.com/llms-reward-expertise/</guid>
+      <description>[Score: 80] LLMは誰でも一定の成果物を作れるようにし、人々をジェネラリスト化させる。 / しかし、高度な成果を得るためのプロンプト作成には、その分野の深い専門知識が不可欠である。 / 数学者テレンス・タオの事例が示すように、専門家こそがLLMの能力を最大限に引き出せる。 (Source: Hacker News)</description>
+      <pubDate>Mon, 03 Aug 2026 21:13:53 +0000</pubDate>
     </item>
     <item>
-      <title>KubernetesはAIを動かすプラットフォームに。横浜でKubeCon＋CloudNativeCon Japan 2026が開幕</title>
-      <link>https://www.publickey1.jp/blog/26/kubernetesaikubeconcloudnativecon_japan_2026.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/kubernetesaikubeconcloudnativecon_japan_2026.html</guid>
-      <description>[Score: 80] クラウドネイティブ技術の最大級イベント「KubeCon+CloudNativeCon Japan 2026」がパシフィコ横浜で開幕した。 / 基調講演では、AIワークロード、特に推論処理の拡大に伴う計算量の急増とそれに伴う課題が指摘された。 / Kubernetesが今後の膨大なAIワークロードを支え、AIを動かすための主要なプラットフォームになりつつあることが示された。 (Source: Publickey)</description>
-      <pubDate>Wed, 29 Jul 2026 15:02:00 +0000</pubDate>
+      <title>Claude CodeのSkillsは「手順書」だったので、/article コマンドを作ってみた</title>
+      <link>https://zenn.dev/osakayakyu/articles/e6aa9835c04d73</link>
+      <guid isPermaLink="false">https://zenn.dev/osakayakyu/articles/e6aa9835c04d73</guid>
+      <description>[Score: 80] AI開発アシスタント「Claude Code」の機能である「Skills」が、コードによる自動化ではなくMarkdownで書かれた手順書であることを解説。 / 開発セッションの会話内容からZennの記事下書きを自動生成する「/article」コマンドを自作した事例を紹介。 / セキュリティを考慮して公開判断は人間が行うようにし、AIには下書き作成までの手順を自然言語で指示する仕組みを構築した。 (Source: Zenn)</description>
+      <pubDate>Sun, 02 Aug 2026 03:15:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code／Codexに中～大規模開発を任せるためのタスク管理</title>
+      <link>https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 80] AIコーディングエージェントを用いた中〜大規模開発では、プロンプトの肥大化や進捗管理が課題となる。 / 解決策として、リポジトリ内に「docs/task-list.md」を配置し、これを唯一の正本として管理する。 / AIが迷わず作業でき、人間が検証しやすいようにタスクを細分化して設計する運用方法を提案。 (Source: Qiita)</description>
+      <pubDate>Sat, 01 Aug 2026 23:38:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>AIで仕事を効率化したら、なぜか僕の仕事だけ増えた話</title>
+      <link>https://anond.hatelabo.jp/20260803162719</link>
+      <guid isPermaLink="false">https://anond.hatelabo.jp/20260803162719</guid>
+      <description>[Score: 80] AIを活用して業務を大幅に効率化したところ、浮いた時間に追加の仕事が割り当てられ、結果的に負担が増加した体験談。 / 安易に効率化手法を共有すると、標準作業時間が短縮され、周囲への教育やトラブル対応まで押し付けられる現実を指摘。 / 組織におけるAI導入が、労働者の利益ではなく単なる労働強化に繋がるという構造的な課題を提起している。 (Source: はてなブックマーク)</description>
+      <pubDate>Mon, 03 Aug 2026 07:29:48 +0000</pubDate>
     </item>
   </channel>
 </rss>
