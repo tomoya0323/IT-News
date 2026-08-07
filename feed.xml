@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 07 Aug 2026 01:36:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 22:45:39 +0000</lastBuildDate>
     <item>
-      <title>脆弱性を作り込まないために、Claude公式「Security Guidance Plugin」を導入した話</title>
-      <link>https://zenn.dev/rakko_inc/articles/claude-code-security-guidance-intro</link>
-      <guid isPermaLink="false">https://zenn.dev/rakko_inc/articles/claude-code-security-guidance-intro</guid>
-      <description>[Score: 88] AIによるコード生成の普及に伴い、実装レベルでの脆弱性混入を防ぐため、Claude公式の「Security Guidance Plugin」を導入。 / 本プラグインは、Claudeが生成したコードをセキュリティ特化のサブエージェントが裏で自動レビューし、開発を止めずに修正案を提示する。 / 意図的に脆弱性を仕込んだテストでは5件中5件を検知し、文字列マッチングでは防げない文脈依存の脆弱性もAIレビューでカバーできることを実証。 (Source: Zenn)</description>
-      <pubDate>Wed, 05 Aug 2026 09:25:00 +0000</pubDate>
+      <title>次なるフロンティアである重大なサイバー能力への対応</title>
+      <link>https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/</link>
+      <guid isPermaLink="false">https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/</guid>
+      <description>[Score: 92] OpenAIは開発中の新モデル「Astra」が、自律的なコーディングとサイバーセキュリティにおいて大幅に進化していると発表。 / 評価の結果、人間の介入なしにゼロデイ脆弱性を特定・開発できる「重大なサイバー能力」の閾値に達する可能性が浮上した。 / 同社は「Preparedness Framework」に基づき、この潜在的な能力シフトについて透明性を持って公開している。 (Source: Hacker News)</description>
+      <pubDate>Fri, 07 Aug 2026 16:39:36 +0000</pubDate>
     </item>
     <item>
-      <title>AMD、シリコンにモデルを焼き付けることで推論性能を向上させるTaalasを買収</title>
-      <link>https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344</link>
-      <guid isPermaLink="false">https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344</guid>
-      <description>[Score: 85] AMDは、AIモデルの重みをシリコンに直接焼き付ける技術を持つスタートアップTaalasを買収した。 / このアプローチは、従来のGPUやHBMに依存せず、推論性能を劇的に向上させ、コストを削減する。 / Nvidiaの支配に対抗し、コードアシスタントなどの高性能なAIエージェント向け推論サービスを強化する狙い。 (Source: Hacker News)</description>
-      <pubDate>Thu, 06 Aug 2026 20:23:11 +0000</pubDate>
+      <title>マルウェアアドバイザリをnpm以外にも拡大した方法</title>
+      <link>https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/</link>
+      <guid isPermaLink="false">https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/</guid>
+      <description>[Score: 88] GitHubがDependabotのマルウェア警告機能を、npmだけでなくPyPIなど計8つのエコシステムに拡大した経緯を解説。 / OpenSSFの共有マルウェアパッケージデータを活用することで、各エコシステムへの迅速な対応を実現。 / 悪意のあるパッケージがインストール時に認証情報を盗むリスクに対し、サプライチェーンセキュリティを大幅に強化。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 06 Aug 2026 16:51:12 +0000</pubDate>
     </item>
     <item>
-      <title>AI が原因を当てても、「思いついた」わけじゃない —— 推論の3分類で見分ける</title>
-      <link>https://qiita.com/jqit_suwa/items/aefb1adac27a34646cf3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/jqit_suwa/items/aefb1adac27a34646cf3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] Google DeepMindの論文「LLMs can't jump」を基に、AIがバグの原因を特定する仕組みを哲学者パースの推論3分類（演繹・帰納・仮説形成）を用いて解説しています。 / AIが原因を当てるのは「仮説形成（Abduction）」ではなく、学習データのパターンに基づく「帰納（Induction）」に過ぎないことを指摘しています。 / この違いを理解することで、AIの自信満々な誤答（ハルシネーション）に騙されないための視点を提供しています。 (Source: Qiita)</description>
-      <pubDate>Thu, 06 Aug 2026 00:29:03 +0000</pubDate>
+      <title>DeepSeek V4 Flash 0731</title>
+      <link>https://arcprize.org/results/deepseek-v4-flash-0731</link>
+      <guid isPermaLink="false">https://arcprize.org/results/deepseek-v4-flash-0731</guid>
+      <description>[Score: 85] DeepSeekの新しいモデル「DeepSeek V4 Flash 0731」がARC-AGIベンチマークに挑戦した。 / 最高負荷の設定において、ARC-AGI-1で89.0%、ARC-AGI-2で61.4%のスコアを達成。 / 推論バリアントやタスクごとの詳細なパス・フェイル結果が公開されている。 (Source: Hacker News)</description>
+      <pubDate>Fri, 07 Aug 2026 17:56:20 +0000</pubDate>
     </item>
     <item>
-      <title>途中で止まるな：メモリ速度でソースコードをケースフォールディングする</title>
+      <title>LLM Wikiパターンの標準化 OKF(Open Knowledge Format)</title>
+      <link>https://zenn.dev/finatext/articles/2ea88e4b1c2e5b</link>
+      <guid isPermaLink="false">https://zenn.dev/finatext/articles/2ea88e4b1c2e5b</guid>
+      <description>[Score: 85] Google Cloudが発表した新しい仕様「Open Knowledge Format（OKF）」の概念を解説する記事。 / OKFは「Markdown + YAML」を用いて、LLMが再利用可能な構造化された知識（LLM Wiki）を標準化する。 / RAGの弱点を補うGraphRAGや、MCPによる「第二の脳」の操作といった周辺技術との関連性も示されている。 (Source: Zenn)</description>
+      <pubDate>Thu, 06 Aug 2026 02:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rust製のフルスタックWebアプリフレームワーク「Topcoat」登場。非同期ランタイム「Tokio」上でサーバサイドレンダリング、ルーティング、コンポーネントライブラリなど</title>
+      <link>https://www.publickey1.jp/blog/26/rustwebtopcoattokio.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/rustwebtopcoattokio.html</guid>
+      <description>[Score: 85] Rustの非同期ランタイム「Tokio」の開発チームが、フルスタックWebフレームワーク「Topcoat」をリリースした。 / サーバーサイドレンダリング（SSR）を基盤とし、ルーティングやコンポーネントライブラリなどの機能を内包する。 / コード内に直接HTMLを記述でき、RustによるリアクティブなWebアプリケーション開発を容易にする。 (Source: Publickey)</description>
+      <pubDate>Mon, 03 Aug 2026 15:42:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>AIが生成した巨大なプルリクエストをレビュー可能なスタックに分割する方法</title>
+      <link>https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/</link>
+      <guid isPermaLink="false">https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/</guid>
+      <description>[Score: 85] AIエージェントの普及に伴い、1,000行を超えるような巨大なプルリクエストが生成され、レビューが困難になる課題を指摘。 / 巨大な変更を一度にマージするのではなく、小さく分割された「スタックされたプルリクエスト」として管理する手法を提案。 / 開発者のレビュー負担を軽減しつつ、AIの高い生産性を維持するためのワークフローの重要性を解説。 (Source: GitHub Blog)</description>
+      <pubDate>Tue, 04 Aug 2026 16:47:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>途中で止めるな：メモリ速度でのソースコードのケースフォールディング</title>
       <link>https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/</link>
       <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/</guid>
-      <description>[Score: 85] GitHubがコード検索エンジンBlackbirdにおけるケースフォールディング（大文字小文字の同一視）の高速化手法を解説。 / ASCII処理において早期終了の最適化をあえて排除し、分岐なしでバッファ全体を走査することでメモリ速度並みの高速化を実現。 / この成果はRustのクレート「casefold」としてオープンソースで公開されている。 (Source: GitHub Blog)</description>
+      <description>[Score: 85] GitHubがコード検索エンジンBlackbirdにおけるケースフォールディングの高速化手法を公開。 / 早期終了の最適化をあえて削除し、分岐なしでバッファ全体を走査することでメモリ速度での処理を実現。 / この成果はRustのクレート「casefold」としてオープンソース化されている。 (Source: GitHub Blog)</description>
       <pubDate>Fri, 31 Jul 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SkillをGitHub Copilotで&quot;育てる&quot; — 実証的プロンプト改善の実践レポート</title>
-      <link>https://zenn.dev/aiforall/articles/cb36b724e20a43</link>
-      <guid isPermaLink="false">https://zenn.dev/aiforall/articles/cb36b724e20a43</guid>
-      <description>[Score: 82] プロンプトの品質をテスト駆動で反復改善する手法「empirical-prompt-tuning」をGitHub Copilot環境で実践したレポート。 / 改善の経緯を知らない「新規チャット（白紙のコンテキスト）」を実行者に見立て、バイアスを排除した客観的な評価サイクルを回す。 / 勘に頼るプロンプト調整を脱し、要件チェックリストや実行記録を用いてGitHub CopilotのSkillを堅牢に育てる具体的なワークフローを解説。 (Source: Zenn)</description>
-      <pubDate>Wed, 05 Aug 2026 08:23:13 +0000</pubDate>
+      <title>40万件のAI承認を分析したら、見逃し率が3倍違った — 危ないものほど、ちゃんと止められている</title>
+      <link>https://qiita.com/jqit_suwa/items/ac7d1201bd14e9a4e1ac?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/jqit_suwa/items/ac7d1201bd14e9a4e1ac?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 82] AIツール（Claude Code等）の実行承認データ40万件を分析し、人間の承認判断の傾向と課題を明らかにした記事。 / 「rm -rf」のような一見して危険なコマンドは防げるが、文脈依存の「スコープ違反」は見逃されやすい。 / 承認プロンプトの回数が増えるほど人間の注意力が低下するため、「気をつけて読む」以外の対策が必要と指摘。 (Source: Qiita)</description>
+      <pubDate>Thu, 06 Aug 2026 23:53:59 +0000</pubDate>
     </item>
     <item>
-      <title>ネパール政府が「Have I Been Pwned」のサービスを導入</title>
-      <link>https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/</link>
-      <guid isPermaLink="false">https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/</guid>
-      <description>[Score: 80] ネパール政府の国家サイバーセキュリティセンターが、漏洩アカウント確認サービス「Have I Been Pwned (HIBP)」の無料政府向けサービスを導入した。 / これにより、ネパール政府のドメインに関連するメールアドレスのデータ漏洩を監視し、迅速なインシデント対応が可能になる。 / ネパールはHIBPの政府向けサービスを利用する47番目の国家となり、国家レベルでのサイバーセキュリティ強化が進んでいる。 (Source: Hacker News)</description>
-      <pubDate>Thu, 06 Aug 2026 21:52:16 +0000</pubDate>
+      <title>ConfluenceとGoogleドライブを対象とした社内アシスタントの構築</title>
+      <link>https://dev.to/multigrid/build-an-internal-assistant-over-confluence-and-drive-26kb</link>
+      <guid isPermaLink="false">https://dev.to/multigrid/build-an-internal-assistant-over-confluence-and-drive-26kb</guid>
+      <description>[Score: 82] ConfluenceやGoogleドライブを対象とした社内向けAIアシスタント構築における、権限管理の重要性を解説する記事。 / 社内システムでは検索精度よりも、ユーザーが閲覧を許可されている情報のみを回答する「認可」が最優先される。 / 各ソースの異なる権限モデルをインデックス時に不透明なIDセットとして正規化し、デフォルト拒否の原則を適用する設計を提案している。 (Source: Dev.to)</description>
+      <pubDate>Fri, 07 Aug 2026 22:35:10 +0000</pubDate>
     </item>
     <item>
-      <title>DESIGN.md を置くと、どこまで「いい感じ」になるのか — 74件を測って確かめた</title>
-      <link>https://zenn.dev/ait/articles/google-design-md-measured</link>
-      <guid isPermaLink="false">https://zenn.dev/ait/articles/google-design-md-measured</guid>
-      <description>[Score: 80] Google Labsが公開した「DESIGN.md」は、AIによるUI生成でデザインの意図を統一するためのファイル形式である。 / 実際に導入して検証した結果、DESIGN.mdはWCAGアクセシビリティなどの検証には有効だが、実装がデザインに完全に従うかを保証するものではない。 / ツール側の仕様を正しく理解し、過度な期待をせずにデザインの意図をAIエージェントに伝えるための道具として活用すべきである。 (Source: Zenn)</description>
-      <pubDate>Wed, 05 Aug 2026 18:49:06 +0000</pubDate>
+      <title>GitHubの法務チームがCopilot CLIを活用して業務を効率化した方法</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/</guid>
+      <description>[Score: 82] 非技術職であるGitHubの法務チームが、GitHub Copilot CLIを用いて自ら業務効率化ツールを構築した事例を紹介。 / 契約書のレビューや法的な質問への回答といった、反復的で定型的な業務の自動化にAIを活用。 / 自然言語での指示により、プログラミング未経験者でも「自分でツールを作る」という文化がチーム内に浸透したプロセスを解説。 (Source: GitHub Blog)</description>
+      <pubDate>Tue, 04 Aug 2026 19:02:34 +0000</pubDate>
     </item>
     <item>
-      <title>仕様書から保証台帳へ、GDD（保証駆動開発）のすすめ</title>
-      <link>https://zenn.dev/yktsnet/articles/202608-guarantee-driven-development</link>
-      <guid isPermaLink="false">https://zenn.dev/yktsnet/articles/202608-guarantee-driven-development</guid>
-      <description>[Score: 80] AIコーディングツールの普及により実装やテストの作成速度が向上した一方で、手戻りや仕様の不透明さが増加しています。 / この課題に対し、開発初期は仕様書で素早く作り、リリース後は「保証台帳」で開発を駆動する「保証駆動開発（GDD）」を提案しています。 / AIと協調する開発において、何を守るべきかを明確に管理するための実践的なアプローチです。 (Source: Zenn)</description>
-      <pubDate>Wed, 05 Aug 2026 07:42:28 +0000</pubDate>
+      <title>58% の Pull Request を AI が承認するようになった</title>
+      <link>https://zenn.dev/she_techblog/articles/937836550dfdf3</link>
+      <guid isPermaLink="false">https://zenn.dev/she_techblog/articles/937836550dfdf3</guid>
+      <description>[Score: 80] 開発のボトルネックとなっていたPRレビューのリードタイムを削減するため、AIがコードレビューとApprove判断まで行う仕組みを導入した事例。 / 過去のPRを分析した結果、約6割が無言のApproveだったことから、人間がレビューすべき重要な変更基準を定義し、それ以外をAIに任せる方針をとった。 / AIによる自動Approveの導入により、品質を担保しつつ開発のリードタイムを大幅に短縮することに成功している。 (Source: Zenn)</description>
+      <pubDate>Thu, 06 Aug 2026 21:10:44 +0000</pubDate>
     </item>
     <item>
-      <title>ニューオーリンズ市、人間の代わりにAIを用いて911緊急通報に対応へ</title>
-      <link>https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/</link>
-      <guid isPermaLink="false">https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/</guid>
-      <description>[Score: 78] ニューオーリンズ市は、1日1000件を超える緊急通報の処理負担を軽減するため、AIによる911通報対応をテスト中である。 / Carbyne社のAIシステムを採用し、同一事案に関する重複通報の自動振り分けや初期トリアージを行う。 / 既に311の非緊急通報でAIを導入しており、今回の取り組みにより人間のオペレーターがより深刻な緊急事態に集中できるようになる。 (Source: Hacker News)</description>
-      <pubDate>Fri, 07 Aug 2026 00:37:30 +0000</pubDate>
+      <title>Web API設計の現在地2026</title>
+      <link>https://qiita.com/tatsuya582/items/a800739c02eadff68c70?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/tatsuya582/items/a800739c02eadff68c70?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 80] 2026年時点におけるWeb API設計の最新標準やデファクトスタンダードを一次情報に基づきまとめた記事。 / エラーレスポンスの標準仕様であるRFC 9457（Problem Details）の普及と、各言語フレームワークの対応状況を解説。 / API設計者が「仕様に従う、なければデファクトに従う」ための現代的な指針を提示している。 (Source: Qiita)</description>
+      <pubDate>Fri, 07 Aug 2026 03:06:02 +0000</pubDate>
     </item>
     <item>
-      <title>LLMが提案し、エグゼクティブが処理する：長期エージェントにおけるコミットメント・ドリフトとバインディング・ドリフトを分離する自己検証型エージェント機構</title>
-      <link>https://arxiv.org/abs/2608.04066</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2608.04066</guid>
-      <description>[Score: 78] 長期的なタスクを実行するLLMエージェントにおいて、目標のブレ（ドリフト）を防ぐための新しい自己検証型フレームワークを提案。 / 「LLMが提案し、エグゼクティブ（実行部）が処理する」という役割分離により、意思決定の正確性を向上させる。 / コミットメント・ドリフトとバインディング・ドリフトという2つの課題を分離して対処する。 (Source: arXiv cs.AI)</description>
-      <pubDate>Thu, 06 Aug 2026 04:00:00 +0000</pubDate>
+      <title>アプリが遅い原因をAIがトレースログから分析してくれる「Windows Performance Analyzer MCP」（WPA MCP）、マイクロソフトがプレビュー公開</title>
+      <link>https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html</guid>
+      <description>[Score: 80] マイクロソフトは、アプリの遅延原因をAIがトレースログから分析する「WPA MCP」のプレビュー版を公開した。 / 従来の複雑なWindows Performance Analyzerの操作にGitHub Copilot CLIを統合している。 / 開発者は自然言語で質問や指示を行うだけで、ボトルネックの特定や関連データの抽出が可能になる。 (Source: Publickey)</description>
+      <pubDate>Tue, 04 Aug 2026 15:36:16 +0000</pubDate>
     </item>
     <item>
-      <title>残されたのは「センス」だけ</title>
-      <link>https://notashelf.dev/posts/taste-is-all-thats-left</link>
-      <guid isPermaLink="false">https://notashelf.dev/posts/taste-is-all-thats-left</guid>
-      <description>[Score: 75] AIの台頭により、アイデアから動くプログラムを作るまでの実装の壁がほぼ消失した。 / これまで壁を乗り越えるために培った技術の価値は消えたわけではなく、別の場所へ移動している。 / 誰もが簡単にものを作れる時代において、最終的に重要となるのは個人の「センス（Taste）」である。 (Source: Hacker News)</description>
-      <pubDate>Thu, 06 Aug 2026 17:01:33 +0000</pubDate>
+      <title>複雑なSaaSでGoogle Lighthouseスコア100/100を達成した方法</title>
+      <link>https://dev.to/chobh1024/how-we-reached-100100-google-lighthouse-score-on-a-complex-saas-3n29</link>
+      <guid isPermaLink="false">https://dev.to/chobh1024/how-we-reached-100100-google-lighthouse-score-on-a-complex-saas-3n29</guid>
+      <description>[Score: 80] 複雑なSaaSにおいてGoogle Lighthouseでオール100のスコアを達成するための技術的アプローチを解説する記事。 / 単純なループ処理によるAPI呼び出しを、Promise.allを用いた並行バッチ処理へと最適化するパターンを提示している。 / この最適化により、レスポンス時間を最大75%削減し、CPUスパイクを抑えつつ保守性の高いコードを実現した。 (Source: Dev.to)</description>
+      <pubDate>Fri, 07 Aug 2026 22:35:05 +0000</pubDate>
     </item>
     <item>
-      <title>50音を全部作って繋いだのに、（　´∀｀）になった話</title>
-      <link>https://qiita.com/taguchi_sapeet/items/f2da1003b168b52f5770?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/taguchi_sapeet/items/f2da1003b168b52f5770?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 75] 104の音声を自作して繋ぎ合わせたTTS（音声合成）が、なぜ不自然な「モナー」のような声になってしまうのかを分析しています。 / スペクトログラムを用いて音のぶつ切りの原因を視覚的に特定し、人の発声の仕組みと対比させています。 / 最新の音声合成エンジンがどのようにその差を埋めているのか、技術的なアプローチを分かりやすく解説しています。 (Source: Qiita)</description>
-      <pubDate>Tue, 04 Aug 2026 01:11:44 +0000</pubDate>
+      <title>ブラウザからモデルへ画像を送信する方法</title>
+      <link>https://dev.to/multigrid/sending-an-image-to-a-model-from-the-browser-8bd</link>
+      <guid isPermaLink="false">https://dev.to/multigrid/sending-an-image-to-a-model-from-the-browser-8bd</guid>
+      <description>[Score: 80] モバイル端末で撮影した大容量画像を、ブラウザ側でリサイズしてからビジョンモデルに送信する利点を解説。 / ビジョンモデルは画像を固定サイズのタイルに分割して処理するため、画像サイズがコストに直結する仕組みを説明。 / プロバイダーごとの計算式を用いて、コストとアップロード速度を最適化するための実践的なアプローチを提示。 (Source: Dev.to)</description>
+      <pubDate>Fri, 07 Aug 2026 22:31:57 +0000</pubDate>
     </item>
     <item>
-      <title>FinProBench：プロフェッショナルの成果物に基づく役割ベースの評価基準を用いた金融AIエージェントの評価</title>
-      <link>https://arxiv.org/abs/2608.04077</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2608.04077</guid>
-      <description>[Score: 75] 金融分野におけるAIエージェントの性能を評価するための新しいベンチマーク「FinProBench」を提案。 / 実際の金融専門家が作成する成果物に基づいた、役割に応じた詳細な評価基準（ルーブリック）を導入。 / 実務レベルの金融タスクにおけるAIの能力をより正確かつ客観的に測定することを可能にする。 (Source: arXiv cs.AI)</description>
-      <pubDate>Thu, 06 Aug 2026 04:00:00 +0000</pubDate>
+      <title>面白くない自作パズルをAIに8,000回プレイさせたら原因がわかった！</title>
+      <link>https://zenn.dev/xtone/articles/masshiro-ai-playtest</link>
+      <guid isPermaLink="false">https://zenn.dev/xtone/articles/masshiro-ai-playtest</guid>
+      <description>[Score: 78] 自作の落ち物パズルゲームが面白くない原因を突き止めるため、ゲームロジックを切り出してAIに8,000回プレイテストさせた検証記事。 / 4種類の異なるアルゴリズムを持つAIにプレイさせた統計データを分析した結果、ゲームの仕様上「連鎖が一度も起きていない」という致命的な問題が判明した。 / 人手では膨大な時間がかかるプレイテストを、シミュレータとAIを用いることでわずか10分で完了し、ゲームデザインの欠陥を特定した。 (Source: Zenn)</description>
+      <pubDate>Thu, 06 Aug 2026 10:27:14 +0000</pubDate>
     </item>
     <item>
-      <title>FinPerMA：LLMエージェントのための理論に基づきイベントに根ざしたパーソナライズされたメモリのベンチマーク</title>
-      <link>https://arxiv.org/abs/2608.04095</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2608.04095</guid>
-      <description>[Score: 73] LLMエージェントのパーソナライズされた記憶（メモリ）能力を評価するためのベンチマーク「FinPerMA」を提案。 / 理論的背景に基づき、特定のイベントや文脈に即した記憶の保持と活用能力を測定する。 / ユーザーに最適化された長期的な対話や支援を行うエージェントの開発を促進する。 (Source: arXiv cs.AI)</description>
-      <pubDate>Thu, 06 Aug 2026 04:00:00 +0000</pubDate>
+      <title>鍵を渡さず・文脈を可視化する — マルチエージェント管理デスクトップアプリ「moeca」を個人開発している話</title>
+      <link>https://qiita.com/can-can/items/ec8cd4dd183e12ac5781?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/can-can/items/ec8cd4dd183e12ac5781?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 78] マルチエージェントのタスク管理、実行、監査、文脈最適化を1つで行うデスクトップアプリ「moeca」の個人開発記。 / エージェントを信頼せず、動ける場所（サンドボックス）と見える文脈を人間が完全に制御する設計思想を持つ。 / セキュリティの担保と、エージェント間のやり取りや文脈の可視化（A2Aログなど）を両立させている。 (Source: Qiita)</description>
+      <pubDate>Fri, 07 Aug 2026 06:29:29 +0000</pubDate>
     </item>
     <item>
-      <title>バイオテクノロジーで開発されたチューインガムがHPVやその他の微生物との闘いに道を開く可能性</title>
-      <link>https://www.sciencedaily.com/releases/2026/08/260803080917.htm</link>
-      <guid isPermaLink="false">https://www.sciencedaily.com/releases/2026/08/260803080917.htm</guid>
-      <description>[Score: 72] 頭頸部がんに関連するウイルスや細菌を標的とする、バイオテクノロジーを用いたチューインガムが開発された。 / 患者の口腔サンプルを用いたテストにおいて、このガムの抽出物がHPVや2種類の特定の細菌を大幅に減少させることが確認された。 / 安価でアクセスしやすい治療法として、既存のがん治療を補完し、患者の生存率や生活の質の向上に貢献することが期待されている。 (Source: Hacker News)</description>
-      <pubDate>Thu, 06 Aug 2026 21:18:32 +0000</pubDate>
+      <title>ゼロからの評価セットの構築</title>
+      <link>https://dev.to/multigrid/building-an-eval-set-from-scratch-3g7k</link>
+      <guid isPermaLink="false">https://dev.to/multigrid/building-an-eval-set-from-scratch-3g7k</guid>
+      <description>[Score: 78] LLMなどの評価において、公開ベンチマークではなく自社データから独自の評価セットを構築する手法を解説する記事。 / 評価セットは単に「品質を測る」ためではなく、特定の意思決定をサポートするために目的を絞って作成すべきである。 / 統計的な限界（Wilsonスコア区間）を理解し、少数のサンプル数で判断できる精度の限界を認識することの重要性を説いている。 (Source: Dev.to)</description>
+      <pubDate>Fri, 07 Aug 2026 22:35:07 +0000</pubDate>
     </item>
     <item>
-      <title>gpt-5.6-sol の high に「ウルトラ」と入力して「ソウル」と話させる技術</title>
-      <link>https://zenn.dev/microsoft/articles/agent-framework-ultra-soul</link>
-      <guid isPermaLink="false">https://zenn.dev/microsoft/articles/agent-framework-ultra-soul</guid>
-      <description>[Score: 72] gpt-5.6-solのReasoning Effort Highに対し、「ウルトラ」という入力だけで「ソウル」と返答させる試みを紹介。 / Microsoft Agent Framework（C# / .NET 10）のHarnessAgentを利用して、この挙動を実現するためのテスト環境（ハーネス）を構築。 / AIモデルの挙動を制御・検証するためのエージェントフレームワークの具体的な実装手順をコード例とともに解説している。 (Source: Zenn)</description>
-      <pubDate>Wed, 05 Aug 2026 11:19:01 +0000</pubDate>
+      <title>GitHub Copilotアプリにおけるスラッシュコマンドのガイド</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/</guid>
+      <description>[Score: 78] GitHub Copilotアプリで利用可能なスラッシュコマンドの機能と活用方法を紹介。 / CLI版のスラッシュコマンドがターミナル操作向けであるのに対し、アプリ版はワークフロー管理に特化している。 / コマンドを使用することで、コンテキストの切り替えやセッション管理を迅速に行い、開発の集中力を維持できる。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 06 Aug 2026 19:49:34 +0000</pubDate>
     </item>
     <item>
-      <title>表からマルチモーダルレポートを生成するためのモンテカルロ木探索</title>
-      <link>https://arxiv.org/abs/2608.04071</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2608.04071</guid>
-      <description>[Score: 72] 表データからテキストや図表を含むマルチモーダルなレポートを自動生成する手法を提案。 / 生成プロセスの最適化にモンテカルロ木探索（MCTS）を適用し、高品質なレポート作成を目指す。 / 構造化データから視覚的・記述的なコンテンツを効果的に統合する新しいアプローチ。 (Source: arXiv cs.AI)</description>
-      <pubDate>Thu, 06 Aug 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>科学者、太陽の表面でケルビン・ヘルムホルツ不安定性を発見</title>
-      <link>https://nso.edu/press-release/nsf-inouye-solar-telescope-enables-major-discovery-of-a-hidden-solar-process/</link>
-      <guid isPermaLink="false">https://nso.edu/press-release/nsf-inouye-solar-telescope-enables-major-discovery-of-a-hidden-solar-process/</guid>
-      <description>[Score: 70] 世界最強の太陽望遠鏡とコンピュータシミュレーションにより、太陽表面でケルビン・ヘルムホルツ不安定性（KHI）が発見された。 / この発見は、太陽の外気圏が極めて高温である理由や、磁気エネルギーの蓄積と移動のメカニズムの解明に繋がる。 / 宇宙天気の予測精度向上に貢献し、地球の通信インフラや衛星への被害を防ぐ技術開発に役立つと期待される。 (Source: Hacker News)</description>
-      <pubDate>Wed, 05 Aug 2026 15:33:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>USB-Cケーブルのラベルを信じるのをやめ、テスターで測定し始めた理由</title>
-      <link>https://www.makeuseof.com/i-stopped-trusting-usb-c-cable-labels-started-testing-with-meter-instead/</link>
-      <guid isPermaLink="false">https://www.makeuseof.com/i-stopped-trusting-usb-c-cable-labels-started-testing-with-meter-instead/</guid>
-      <description>[Score: 70] 万能な接続規格であるUSB-Cだが、外見が同じでも給電能力や転送速度が異なるため見分けがつかない問題がある。 / ケーブルのラベルや仕様の表記を鵜呑みにせず、専用のUSBケーブルテスターを導入して実際の性能を測定。 / テスターの導入により、MacBook Proなどの高出力デバイスに最適なケーブルを確実に判別できるようになり、推測の手間が解消された。 (Source: Hacker News)</description>
-      <pubDate>Mon, 03 Aug 2026 07:12:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>ずぼらAI駆動開発、爆誕</title>
-      <link>https://qiita.com/nobu34/items/224f55bc85b813930f61?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/nobu34/items/224f55bc85b813930f61?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 70] 既存のGitHub CopilotやClaude Code向けのスキル（プロンプトやインストラクション）を外部リポジトリからコマンド一発で導入する方法を紹介しています。 / 英語で書かれたスキルを日本語対応させるためのカスタマイズ手順を解説しています。 / 配布されているスキルのプロンプトインジェクション対策など、実用的な注意点についても言及しています。 (Source: Qiita)</description>
-      <pubDate>Wed, 05 Aug 2026 00:22:29 +0000</pubDate>
+      <title>ウッドペッカー蒸留：弱いモデルが強いモデルの推論バグを診断する</title>
+      <link>https://arxiv.org/abs/2608.05168</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2608.05168</guid>
+      <description>[Score: 78] 能力の低い「弱いモデル」を用いて、能力の高い「強いモデル」の推論バグを診断する手法「Woodpecker Distillation」を提案。 / 強力なLLMの推論プロセスにおける誤りや脆弱性を、軽量なモデルで効率的に検出するアプローチ。 / モデルのデバッグやアライメント、信頼性向上における新たな蒸留手法として期待される。 (Source: arXiv cs.AI)</description>
+      <pubDate>Fri, 07 Aug 2026 04:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
