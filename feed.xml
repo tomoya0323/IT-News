@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 07 Aug 2026 22:45:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 22:35:03 +0000</lastBuildDate>
     <item>
-      <title>次なるフロンティアである重大なサイバー能力への対応</title>
-      <link>https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/</link>
-      <guid isPermaLink="false">https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/</guid>
-      <description>[Score: 92] OpenAIは開発中の新モデル「Astra」が、自律的なコーディングとサイバーセキュリティにおいて大幅に進化していると発表。 / 評価の結果、人間の介入なしにゼロデイ脆弱性を特定・開発できる「重大なサイバー能力」の閾値に達する可能性が浮上した。 / 同社は「Preparedness Framework」に基づき、この潜在的な能力シフトについて透明性を持って公開している。 (Source: Hacker News)</description>
-      <pubDate>Fri, 07 Aug 2026 16:39:36 +0000</pubDate>
+      <title>「AIを全員に配った組織」の生産性が落ちるとき - 🐴 (馬)</title>
+      <link>https://blog.takaumada.com/entry/ai-organization-flow</link>
+      <guid isPermaLink="false">https://blog.takaumada.com/entry/ai-organization-flow</guid>
+      <description>[Score: 88] 交通工学の「ブライスのパラドックス」を例に、全員にAIを配ることで組織全体の生産性が逆に低下する懸念を指摘している。 / 各自が部分最適でAIを活用した結果、ボトルネックへの集中や不要な業務の増加を招き、全体最適から乖離する可能性がある。 / AI時代の経営においては、単にツールを導入するだけでなく、どの業務やプロセスを削減すべきかを見極めることが重要となる。 (Source: はてなブックマーク)</description>
+      <pubDate>Sat, 08 Aug 2026 12:08:46 +0000</pubDate>
     </item>
     <item>
       <title>マルウェアアドバイザリをnpm以外にも拡大した方法</title>
       <link>https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/</link>
       <guid isPermaLink="false">https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/</guid>
-      <description>[Score: 88] GitHubがDependabotのマルウェア警告機能を、npmだけでなくPyPIなど計8つのエコシステムに拡大した経緯を解説。 / OpenSSFの共有マルウェアパッケージデータを活用することで、各エコシステムへの迅速な対応を実現。 / 悪意のあるパッケージがインストール時に認証情報を盗むリスクに対し、サプライチェーンセキュリティを大幅に強化。 (Source: GitHub Blog)</description>
+      <description>[Score: 88] GitHubは、これまでnpmのみに提供していたマルウェア警告機能を、OpenSSFの共有マルウェアデータを利用して他のエコシステムへ拡張した。 / Dependabotのアラート機能が強化され、npm、PyPI、Maven、RubyGems、NuGet、Go、crates.io、PHP Composerの主要8エコシステムをカバー。 / 独自検出から共同コミュニティデータ（OpenSSF）の活用へと移行することで、サプライチェーンセキュリティの大幅な強化を迅速に実現した。 (Source: GitHub Blog)</description>
       <pubDate>Thu, 06 Aug 2026 16:51:12 +0000</pubDate>
     </item>
     <item>
-      <title>DeepSeek V4 Flash 0731</title>
-      <link>https://arcprize.org/results/deepseek-v4-flash-0731</link>
-      <guid isPermaLink="false">https://arcprize.org/results/deepseek-v4-flash-0731</guid>
-      <description>[Score: 85] DeepSeekの新しいモデル「DeepSeek V4 Flash 0731」がARC-AGIベンチマークに挑戦した。 / 最高負荷の設定において、ARC-AGI-1で89.0%、ARC-AGI-2で61.4%のスコアを達成。 / 推論バリアントやタスクごとの詳細なパス・フェイル結果が公開されている。 (Source: Hacker News)</description>
-      <pubDate>Fri, 07 Aug 2026 17:56:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>LLM Wikiパターンの標準化 OKF(Open Knowledge Format)</title>
-      <link>https://zenn.dev/finatext/articles/2ea88e4b1c2e5b</link>
-      <guid isPermaLink="false">https://zenn.dev/finatext/articles/2ea88e4b1c2e5b</guid>
-      <description>[Score: 85] Google Cloudが発表した新しい仕様「Open Knowledge Format（OKF）」の概念を解説する記事。 / OKFは「Markdown + YAML」を用いて、LLMが再利用可能な構造化された知識（LLM Wiki）を標準化する。 / RAGの弱点を補うGraphRAGや、MCPによる「第二の脳」の操作といった周辺技術との関連性も示されている。 (Source: Zenn)</description>
-      <pubDate>Thu, 06 Aug 2026 02:00:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rust製のフルスタックWebアプリフレームワーク「Topcoat」登場。非同期ランタイム「Tokio」上でサーバサイドレンダリング、ルーティング、コンポーネントライブラリなど</title>
-      <link>https://www.publickey1.jp/blog/26/rustwebtopcoattokio.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/rustwebtopcoattokio.html</guid>
-      <description>[Score: 85] Rustの非同期ランタイム「Tokio」の開発チームが、フルスタックWebフレームワーク「Topcoat」をリリースした。 / サーバーサイドレンダリング（SSR）を基盤とし、ルーティングやコンポーネントライブラリなどの機能を内包する。 / コード内に直接HTMLを記述でき、RustによるリアクティブなWebアプリケーション開発を容易にする。 (Source: Publickey)</description>
-      <pubDate>Mon, 03 Aug 2026 15:42:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>AIが生成した巨大なプルリクエストをレビュー可能なスタックに分割する方法</title>
-      <link>https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/</link>
-      <guid isPermaLink="false">https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/</guid>
-      <description>[Score: 85] AIエージェントの普及に伴い、1,000行を超えるような巨大なプルリクエストが生成され、レビューが困難になる課題を指摘。 / 巨大な変更を一度にマージするのではなく、小さく分割された「スタックされたプルリクエスト」として管理する手法を提案。 / 開発者のレビュー負担を軽減しつつ、AIの高い生産性を維持するためのワークフローの重要性を解説。 (Source: GitHub Blog)</description>
-      <pubDate>Tue, 04 Aug 2026 16:47:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>途中で止めるな：メモリ速度でのソースコードのケースフォールディング</title>
-      <link>https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/</link>
-      <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/</guid>
-      <description>[Score: 85] GitHubがコード検索エンジンBlackbirdにおけるケースフォールディングの高速化手法を公開。 / 早期終了の最適化をあえて削除し、分岐なしでバッファ全体を走査することでメモリ速度での処理を実現。 / この成果はRustのクレート「casefold」としてオープンソース化されている。 (Source: GitHub Blog)</description>
-      <pubDate>Fri, 31 Jul 2026 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>40万件のAI承認を分析したら、見逃し率が3倍違った — 危ないものほど、ちゃんと止められている</title>
-      <link>https://qiita.com/jqit_suwa/items/ac7d1201bd14e9a4e1ac?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/jqit_suwa/items/ac7d1201bd14e9a4e1ac?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 82] AIツール（Claude Code等）の実行承認データ40万件を分析し、人間の承認判断の傾向と課題を明らかにした記事。 / 「rm -rf」のような一見して危険なコマンドは防げるが、文脈依存の「スコープ違反」は見逃されやすい。 / 承認プロンプトの回数が増えるほど人間の注意力が低下するため、「気をつけて読む」以外の対策が必要と指摘。 (Source: Qiita)</description>
-      <pubDate>Thu, 06 Aug 2026 23:53:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>ConfluenceとGoogleドライブを対象とした社内アシスタントの構築</title>
-      <link>https://dev.to/multigrid/build-an-internal-assistant-over-confluence-and-drive-26kb</link>
-      <guid isPermaLink="false">https://dev.to/multigrid/build-an-internal-assistant-over-confluence-and-drive-26kb</guid>
-      <description>[Score: 82] ConfluenceやGoogleドライブを対象とした社内向けAIアシスタント構築における、権限管理の重要性を解説する記事。 / 社内システムでは検索精度よりも、ユーザーが閲覧を許可されている情報のみを回答する「認可」が最優先される。 / 各ソースの異なる権限モデルをインデックス時に不透明なIDセットとして正規化し、デフォルト拒否の原則を適用する設計を提案している。 (Source: Dev.to)</description>
-      <pubDate>Fri, 07 Aug 2026 22:35:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>GitHubの法務チームがCopilot CLIを活用して業務を効率化した方法</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/</guid>
-      <description>[Score: 82] 非技術職であるGitHubの法務チームが、GitHub Copilot CLIを用いて自ら業務効率化ツールを構築した事例を紹介。 / 契約書のレビューや法的な質問への回答といった、反復的で定型的な業務の自動化にAIを活用。 / 自然言語での指示により、プログラミング未経験者でも「自分でツールを作る」という文化がチーム内に浸透したプロセスを解説。 (Source: GitHub Blog)</description>
-      <pubDate>Tue, 04 Aug 2026 19:02:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>58% の Pull Request を AI が承認するようになった</title>
-      <link>https://zenn.dev/she_techblog/articles/937836550dfdf3</link>
-      <guid isPermaLink="false">https://zenn.dev/she_techblog/articles/937836550dfdf3</guid>
-      <description>[Score: 80] 開発のボトルネックとなっていたPRレビューのリードタイムを削減するため、AIがコードレビューとApprove判断まで行う仕組みを導入した事例。 / 過去のPRを分析した結果、約6割が無言のApproveだったことから、人間がレビューすべき重要な変更基準を定義し、それ以外をAIに任せる方針をとった。 / AIによる自動Approveの導入により、品質を担保しつつ開発のリードタイムを大幅に短縮することに成功している。 (Source: Zenn)</description>
-      <pubDate>Thu, 06 Aug 2026 21:10:44 +0000</pubDate>
+      <title>インテルはついにワットパフォーマンスでARMに勝てるのか？</title>
+      <link>https://hackaday.com/2026/08/08/want-energy-efficiency-dude-youre-getting-a-dell/</link>
+      <guid isPermaLink="false">https://hackaday.com/2026/08/08/want-energy-efficiency-dude-youre-getting-a-dell/</guid>
+      <description>[Score: 85] Intel製CPUを搭載したDell XPS 13が、ベンチマークでApple Siliconの電力効率を上回る結果を記録。 / HPL Linpakテストにおいて、Dellは6.21 Gflops/Wを達成し、MacBookの5.38 Gflops/Wを凌駕した。 / 長年ARMが優位とされてきたワットパフォーマンスの分野で、Intelが大きく追いついたことを示している。 (Source: Hacker News)</description>
+      <pubDate>Sat, 08 Aug 2026 16:04:36 +0000</pubDate>
     </item>
     <item>
       <title>Web API設計の現在地2026</title>
       <link>https://qiita.com/tatsuya582/items/a800739c02eadff68c70?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/tatsuya582/items/a800739c02eadff68c70?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] 2026年時点におけるWeb API設計の最新標準やデファクトスタンダードを一次情報に基づきまとめた記事。 / エラーレスポンスの標準仕様であるRFC 9457（Problem Details）の普及と、各言語フレームワークの対応状況を解説。 / API設計者が「仕様に従う、なければデファクトに従う」ための現代的な指針を提示している。 (Source: Qiita)</description>
+      <description>[Score: 85] 2026年時点におけるWeb API設計の最新標準やデファクトスタンダードを解説した記事。 / エラーレスポンスの標準仕様であるRFC 9457（Problem Details）の重要性と具体例を提示。 / JavaやC#などのフレームワークでの対応状況と、JS/TS系での現状の課題について言及している。 (Source: Qiita)</description>
       <pubDate>Fri, 07 Aug 2026 03:06:02 +0000</pubDate>
     </item>
     <item>
-      <title>アプリが遅い原因をAIがトレースログから分析してくれる「Windows Performance Analyzer MCP」（WPA MCP）、マイクロソフトがプレビュー公開</title>
-      <link>https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html</guid>
-      <description>[Score: 80] マイクロソフトは、アプリの遅延原因をAIがトレースログから分析する「WPA MCP」のプレビュー版を公開した。 / 従来の複雑なWindows Performance Analyzerの操作にGitHub Copilot CLIを統合している。 / 開発者は自然言語で質問や指示を行うだけで、ボトルネックの特定や関連データの抽出が可能になる。 (Source: Publickey)</description>
-      <pubDate>Tue, 04 Aug 2026 15:36:16 +0000</pubDate>
+      <title>Cloudflare、ボットが人間の1,000倍のインターネットトラフィックを生成し、人間は「端数」になる可能性があると指摘</title>
+      <link>https://www.reddit.com/r/technology/comments/1vivxn6/cloudflare_says_humans_could_become_a_rounding/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vivxn6/cloudflare_says_humans_could_become_a_rounding/</guid>
+      <description>[Score: 85] Cloudflareは、ボットが生成するインターネットトラフィックが人間の1,000倍に達し、人間が「端数」のような存在になる可能性を警告した。 / AIの普及や自動化ツールの増加により、ウェブ上のトラフィック構造が劇的に変化している。 / この変化は、今後のウェブセキュリティ、インフラ設計、およびインターネットのあり方そのものに大きな影響を与える。 (Source: Reddit)</description>
+      <pubDate>Sat, 08 Aug 2026 13:22:43 +0000</pubDate>
     </item>
     <item>
-      <title>複雑なSaaSでGoogle Lighthouseスコア100/100を達成した方法</title>
-      <link>https://dev.to/chobh1024/how-we-reached-100100-google-lighthouse-score-on-a-complex-saas-3n29</link>
-      <guid isPermaLink="false">https://dev.to/chobh1024/how-we-reached-100100-google-lighthouse-score-on-a-complex-saas-3n29</guid>
-      <description>[Score: 80] 複雑なSaaSにおいてGoogle Lighthouseでオール100のスコアを達成するための技術的アプローチを解説する記事。 / 単純なループ処理によるAPI呼び出しを、Promise.allを用いた並行バッチ処理へと最適化するパターンを提示している。 / この最適化により、レスポンス時間を最大75%削減し、CPUスパイクを抑えつつ保守性の高いコードを実現した。 (Source: Dev.to)</description>
-      <pubDate>Fri, 07 Aug 2026 22:35:05 +0000</pubDate>
+      <title>Zbtlink製ルータに出荷時組み込まれていたバックドアについてまとめてみた - piyolog</title>
+      <link>https://piyolog.hatenadiary.jp/entry/2026/08/08/020650</link>
+      <guid isPermaLink="false">https://piyolog.hatenadiary.jp/entry/2026/08/08/020650</guid>
+      <description>[Score: 85] 中国Zbtlink製のルータ20機種の出荷時ファームウェアに、遠隔操作用インプラント「ENDLESSDOORS」が組み込まれていたことが判明した。 / セキュリティ企業VulnCheckの調査によると、このバックドアは外部からの侵害ではなく、製造元によって最初から組み込まれていたとされる。 / Zbtlink側はデバッグ用サンプル機にのみ残されたものと主張しているが、VulnCheckの観測結果とは正面から対立している。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 07 Aug 2026 20:26:28 +0000</pubDate>
     </item>
     <item>
-      <title>ブラウザからモデルへ画像を送信する方法</title>
-      <link>https://dev.to/multigrid/sending-an-image-to-a-model-from-the-browser-8bd</link>
-      <guid isPermaLink="false">https://dev.to/multigrid/sending-an-image-to-a-model-from-the-browser-8bd</guid>
-      <description>[Score: 80] モバイル端末で撮影した大容量画像を、ブラウザ側でリサイズしてからビジョンモデルに送信する利点を解説。 / ビジョンモデルは画像を固定サイズのタイルに分割して処理するため、画像サイズがコストに直結する仕組みを説明。 / プロバイダーごとの計算式を用いて、コストとアップロード速度を最適化するための実践的なアプローチを提示。 (Source: Dev.to)</description>
-      <pubDate>Fri, 07 Aug 2026 22:31:57 +0000</pubDate>
+      <title>中国製ルータ20機種に「隠しバックドア」、世界10万台超か…35秒ごとに外部通信判明</title>
+      <link>https://news.yahoo.co.jp/articles/e1dcb713ff3473e94caf201d1c72e5c053852062</link>
+      <guid isPermaLink="false">https://news.yahoo.co.jp/articles/e1dcb713ff3473e94caf201d1c72e5c053852062</guid>
+      <description>[Score: 85] 中国Zbtlink製のルータ20機種に、外部からroot権限で操作可能なバックドア「ENDLESSDOORS」が組み込まれていることが判明した。 / 世界で少なくとも10万台が展開済みとみられ、C2サーバへ定期的に接続して対話型シェルなどを実行できる仕組みになっている。 / 米国の機器認証制限や日本の調達基準など、ルータ調達時にメーカー名だけでなくファームウェアやOEM元まで確認する重要性が高まっている。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 07 Aug 2026 21:45:02 +0000</pubDate>
     </item>
     <item>
-      <title>面白くない自作パズルをAIに8,000回プレイさせたら原因がわかった！</title>
-      <link>https://zenn.dev/xtone/articles/masshiro-ai-playtest</link>
-      <guid isPermaLink="false">https://zenn.dev/xtone/articles/masshiro-ai-playtest</guid>
-      <description>[Score: 78] 自作の落ち物パズルゲームが面白くない原因を突き止めるため、ゲームロジックを切り出してAIに8,000回プレイテストさせた検証記事。 / 4種類の異なるアルゴリズムを持つAIにプレイさせた統計データを分析した結果、ゲームの仕様上「連鎖が一度も起きていない」という致命的な問題が判明した。 / 人手では膨大な時間がかかるプレイテストを、シミュレータとAIを用いることでわずか10分で完了し、ゲームデザインの欠陥を特定した。 (Source: Zenn)</description>
-      <pubDate>Thu, 06 Aug 2026 10:27:14 +0000</pubDate>
+      <title>早期終了は不要：メモリ速度でソースコードをケースフォールディング（大文字小文字変換）する方法</title>
+      <link>https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/</link>
+      <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/</guid>
+      <description>[Score: 85] GitHubのコード検索エンジン「Blackbird」において、大文字小文字を区別しない検索を高速化するための「ケースフォールディング」の最適化手法を解説。 / ASCII文字の高速処理において、非ASCII文字で処理を早期終了する従来の最適化をあえて排除し、分岐なしでバッファ全体を走査する方が高速であることを発見。 / この高速化手法をRustのクレート「casefold」としてオープンソース化し、メモリ帯域幅に近い極めて高いパフォーマンスを実現した。 (Source: GitHub Blog)</description>
+      <pubDate>Fri, 31 Jul 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>鍵を渡さず・文脈を可視化する — マルチエージェント管理デスクトップアプリ「moeca」を個人開発している話</title>
-      <link>https://qiita.com/can-can/items/ec8cd4dd183e12ac5781?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/can-can/items/ec8cd4dd183e12ac5781?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 78] マルチエージェントのタスク管理、実行、監査、文脈最適化を1つで行うデスクトップアプリ「moeca」の個人開発記。 / エージェントを信頼せず、動ける場所（サンドボックス）と見える文脈を人間が完全に制御する設計思想を持つ。 / セキュリティの担保と、エージェント間のやり取りや文脈の可視化（A2Aログなど）を両立させている。 (Source: Qiita)</description>
-      <pubDate>Fri, 07 Aug 2026 06:29:29 +0000</pubDate>
+      <title>AIが生成した巨大なプルリクエストをレビュー可能なスタックに分割する方法</title>
+      <link>https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/</link>
+      <guid isPermaLink="false">https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/</guid>
+      <description>[Score: 82] AIコーディングエージェントの普及により、1000行を超えるような巨大なプルリクエスト（PR）が自動生成され、コードレビューが困難になる課題が発生している。 / 巨大なPRをそのままレビューするか、手動で細分化して管理するかのジレンマに対し、「スタックされたプルリクエスト（Stacked PRs）」の活用を提案。 / 依存関係のある小さなPRに分割して管理することで、レビューの負担を軽減しつつ、エージェントの高い生産性を維持する具体的な手法を解説。 (Source: GitHub Blog)</description>
+      <pubDate>Tue, 04 Aug 2026 16:47:18 +0000</pubDate>
     </item>
     <item>
-      <title>ゼロからの評価セットの構築</title>
-      <link>https://dev.to/multigrid/building-an-eval-set-from-scratch-3g7k</link>
-      <guid isPermaLink="false">https://dev.to/multigrid/building-an-eval-set-from-scratch-3g7k</guid>
-      <description>[Score: 78] LLMなどの評価において、公開ベンチマークではなく自社データから独自の評価セットを構築する手法を解説する記事。 / 評価セットは単に「品質を測る」ためではなく、特定の意思決定をサポートするために目的を絞って作成すべきである。 / 統計的な限界（Wilsonスコア区間）を理解し、少数のサンプル数で判断できる精度の限界を認識することの重要性を説いている。 (Source: Dev.to)</description>
-      <pubDate>Fri, 07 Aug 2026 22:35:07 +0000</pubDate>
+      <title>ドメインが販売中であることをDNS上で表明可能に</title>
+      <link>https://specification.website/spec/foundations/for-sale-dns/</link>
+      <guid isPermaLink="false">https://specification.website/spec/foundations/for-sale-dns/</guid>
+      <description>[Score: 80] RFC 10023により、DNSのTXTレコードを用いてドメインが販売中であることを示す仕様が定義された。 / Webサイトを閉鎖（パーキング）することなく、稼働中のサイトの裏で販売意思を表明できる。 / WHOISのプライバシー保護により連絡が困難な中、ブローカーや自動サービス向けの新しい伝達手段となる。 (Source: Hacker News)</description>
+      <pubDate>Sat, 08 Aug 2026 13:26:51 +0000</pubDate>
     </item>
     <item>
-      <title>GitHub Copilotアプリにおけるスラッシュコマンドのガイド</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/</guid>
-      <description>[Score: 78] GitHub Copilotアプリで利用可能なスラッシュコマンドの機能と活用方法を紹介。 / CLI版のスラッシュコマンドがターミナル操作向けであるのに対し、アプリ版はワークフロー管理に特化している。 / コマンドを使用することで、コンテキストの切り替えやセッション管理を迅速に行い、開発の集中力を維持できる。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 06 Aug 2026 19:49:34 +0000</pubDate>
+      <title>楽観ロックの実装でおさえたいポイントと、よくあるしくじり</title>
+      <link>https://zenn.dev/levtech/articles/how-to-concrete-optimistic-lock</link>
+      <guid isPermaLink="false">https://zenn.dev/levtech/articles/how-to-concrete-optimistic-lock</guid>
+      <description>[Score: 80] 並行処理におけるデータの整合性を守るための「楽観ロック」の実装方法と注意点を解説。 / 複数ユーザーによる同時更新によるデータの喪失や、一貫性のない読み込みといった課題を解決する。 / データベースのトランザクションとアプリケーションの作業単位のズレを補う仕組みとして有用。 (Source: Zenn)</description>
+      <pubDate>Fri, 07 Aug 2026 03:03:06 +0000</pubDate>
     </item>
     <item>
-      <title>ウッドペッカー蒸留：弱いモデルが強いモデルの推論バグを診断する</title>
-      <link>https://arxiv.org/abs/2608.05168</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2608.05168</guid>
-      <description>[Score: 78] 能力の低い「弱いモデル」を用いて、能力の高い「強いモデル」の推論バグを診断する手法「Woodpecker Distillation」を提案。 / 強力なLLMの推論プロセスにおける誤りや脆弱性を、軽量なモデルで効率的に検出するアプローチ。 / モデルのデバッグやアライメント、信頼性向上における新たな蒸留手法として期待される。 (Source: arXiv cs.AI)</description>
-      <pubDate>Fri, 07 Aug 2026 04:00:00 +0000</pubDate>
+      <title>ミッチェル・ハシモト氏が新会社「Superlogical」を設立、あらゆる仕事に使えるマルチプレクサの開発へ</title>
+      <link>https://www.publickey1.jp/blog/26/superlogical.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/superlogical.html</guid>
+      <description>[Score: 80] HashiCorpの共同創業者であるミッチェル・ハシモト氏が、新会社「Superlogical」の設立を発表した。 / 同社は「あらゆる仕事に使えるマルチプレクサ」の開発を目指しており、その基盤としてまずはターミナルマルチプレクサの開発から着手する。 / ハシモト氏はHashiCorp退社後にターミナル「Ghostty」を個人開発しており、新会社でのプロダクト展開に注目が集まっている。 (Source: Publickey)</description>
+      <pubDate>Thu, 06 Aug 2026 15:26:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>キャッシング：Redisによってバックエンドシステムが高速化する仕組み</title>
+      <link>https://dev.to/juma_evans_34e389ef539266/caching-how-backend-systems-get-faster-with-redis-387c</link>
+      <guid isPermaLink="false">https://dev.to/juma_evans_34e389ef539266/caching-how-backend-systems-get-faster-with-redis-387c</guid>
+      <description>[Score: 80] トラフィックの増加に伴い、データベースへの重複クエリが原因でバックエンドAPIの応答速度が低下する課題を説明。 / キャッシングは、コストの高いデータ取得結果を一時保存することで、システムのパフォーマンスとスケーラビリティを向上させる重要な概念。 / 本文では、Redisを用いたキャッシュの仕組みやGo言語での基本的な実装方法、キャッシュ導入に伴う課題について解説する。 (Source: Dev.to)</description>
+      <pubDate>Sat, 08 Aug 2026 21:41:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>自作BIツール × DWHで挑むデータの民主化</title>
+      <link>https://zenn.dev/finatext/articles/crest-bi-dwh-data-democratization</link>
+      <guid isPermaLink="false">https://zenn.dev/finatext/articles/crest-bi-dwh-data-democratization</guid>
+      <description>[Score: 78] 社内AIコンテストを契機に、非エンジニアがDWHにGUIでクエリできる自作BIツールを開発した体験記。 / Snowflake上のDWHと業務システムを繋ぎ、エンジニア頼みだったデータ分析の民主化を推進。 / 基盤開発チームと業務チームが協働することで、現場の具体的な課題解決とユースケースの解像度向上を実現。 (Source: Zenn)</description>
+      <pubDate>Fri, 07 Aug 2026 02:00:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>AIで完成度を上げたい、でも人間味のない完璧すぎる作品は嫌だ</title>
+      <link>https://qiita.com/sumomoo/items/cfe3c47453968b2d3c29?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/sumomoo/items/cfe3c47453968b2d3c29?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 78] AIとの付き合い方の進化（ハーネスやループエンジニアリングなど）について考察した記事。 / AIが動くための判断基準や仕組みを人間が構築する役割へとシフトしている現状を解説。 / AIによって成果物の土台が底上げされる中、最後の仕上げにおける人間のこだわりの重要性を説く。 (Source: Qiita)</description>
+      <pubDate>Fri, 07 Aug 2026 09:20:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>新たなAmazonデータセンター、米国で最も汚染の激しい発電所になる懸念が浮上</title>
+      <link>https://www.reddit.com/r/technology/comments/1vj1sa7/new_amazon_data_center_stokes_worry_it_would_be/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vj1sa7/new_amazon_data_center_stokes_worry_it_would_be/</guid>
+      <description>[Score: 78] Amazonが計画している新しいデータセンターが、米国で最も環境汚染を引き起こす施設になる懸念が浮上している。 / AI急増に伴うデータセンターの電力消費が、環境保護や持続可能性の目標と逆行する可能性が指摘されている。 / 巨大テック企業によるクリーンエネルギー確保の課題と、環境への影響に対する批判が強まっている。 (Source: Reddit)</description>
+      <pubDate>Sat, 08 Aug 2026 17:26:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>npm代替を目指すセキュリティファーストなパッケージマネージャ「vlt」バージョン1.0に到達。npmのミラーレジストリ、プライベートレジストリも提供開始</title>
+      <link>https://www.publickey1.jp/blog/26/npmvlt10npm.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/npmvlt10npm.html</guid>
+      <description>[Score: 78] npmの代替を目指すセキュリティ重視のJavaScriptパッケージマネージャ「vlt」がバージョン1.0に到達した。 / インストール時にローカルで勝手にコードが実行されない仕組みや、レジストリ層でのマルウェアブロックなどの安全性を備えている。 / あわせて、npmのミラーレジストリやプライベートレジストリを提供するホスティングサービス「vsr」の有料提供も開始された。 (Source: Publickey)</description>
+      <pubDate>Wed, 05 Aug 2026 18:03:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHubの法務チームがCopilot CLIを活用して業務を効率化した方法</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/</guid>
+      <description>[Score: 78] 開発者ではない法務チーム（弁護士やマネージャー）が、契約書レビューなどの定型業務を効率化するためにGitHub Copilot CLIを活用した事例を紹介。 / 自然言語で要望を伝えることで、非技術職のメンバーでも自らツールを構築し、業務プロセスを迅速に改善できるようになった。 / AIの支援によって「コードは書けない」という意識が「自分でツールを作れた」という自信に変わり、チーム全体に開発の習慣が広がった。 (Source: GitHub Blog)</description>
+      <pubDate>Tue, 04 Aug 2026 19:02:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>FastmailがEUデータリージョンを提供開始</title>
+      <link>https://www.fastmail.com/blog/fastmail-offers-eu-data-region/</link>
+      <guid isPermaLink="false">https://www.fastmail.com/blog/fastmail-offers-eu-data-region/</guid>
+      <description>[Score: 75] メールサービスFastmailが、アムステルダムのセキュアな自社サーバーによるEUデータリージョンの提供を開始した。 / これまでデータは米国のみに保存されていたが、現地の法律やコンプライアンスに対応するため選択肢を広げた。 / 大手クラウドプロバイダーを介さず、自社ハードウェアとソフトウェアで暗号化管理を行う方針を維持している。 (Source: Hacker News)</description>
+      <pubDate>Sat, 08 Aug 2026 16:04:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>ウルトラ gpt-5.5-sol high の供養記事</title>
+      <link>https://zenn.dev/microsoft/articles/agent-framework-ultra-soul-memorial</link>
+      <guid isPermaLink="false">https://zenn.dev/microsoft/articles/agent-framework-ultra-soul-memorial</guid>
+      <description>[Score: 75] 自作した「ウルトラ ソウル エージェント」をAzure AI FoundryのHosted Agentにデプロイする手順の解説。 / Microsoft Agent Frameworkで作成したエージェントを、最小限のコード変更でホスティング可能にする。 / AspireのAppHostを利用して必要な環境変数を注入し、デプロイ時のエラーを回避する工夫を紹介。 (Source: Zenn)</description>
+      <pubDate>Fri, 07 Aug 2026 04:42:45 +0000</pubDate>
     </item>
   </channel>
 </rss>
