@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 08 Aug 2026 22:35:03 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 22:36:50 +0000</lastBuildDate>
     <item>
-      <title>「AIを全員に配った組織」の生産性が落ちるとき - 🐴 (馬)</title>
-      <link>https://blog.takaumada.com/entry/ai-organization-flow</link>
-      <guid isPermaLink="false">https://blog.takaumada.com/entry/ai-organization-flow</guid>
-      <description>[Score: 88] 交通工学の「ブライスのパラドックス」を例に、全員にAIを配ることで組織全体の生産性が逆に低下する懸念を指摘している。 / 各自が部分最適でAIを活用した結果、ボトルネックへの集中や不要な業務の増加を招き、全体最適から乖離する可能性がある。 / AI時代の経営においては、単にツールを導入するだけでなく、どの業務やプロセスを削減すべきかを見極めることが重要となる。 (Source: はてなブックマーク)</description>
-      <pubDate>Sat, 08 Aug 2026 12:08:46 +0000</pubDate>
+      <title>アマゾンのテキサス州における新たな7.65GWのAIデータセンター用発電所が、米国最大のCO₂排出源になる可能性 — 年間3300万トンの温室効果ガス排出が許可されたカスタム35タービンガス発電所</title>
+      <link>https://www.reddit.com/r/technology/comments/1vjwpko/amazons_new_765gw_texas_ai_data_center_power/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vjwpko/amazons_new_765gw_texas_ai_data_center_power/</guid>
+      <description>[Score: 90] アマゾンがテキサス州に建設予定の7.65GW規模のAIデータセンター用発電所に関するニュースです。 / このカスタム35タービンガス発電所は、年間3300万トンの温室効果ガス排出が許可されています。 / AIの急速な発展に伴う膨大な電力需要が、環境負荷や気候変動対策に与える深刻な影響が懸念されています。 (Source: Reddit)</description>
+      <pubDate>Sun, 09 Aug 2026 18:04:22 +0000</pubDate>
     </item>
     <item>
-      <title>マルウェアアドバイザリをnpm以外にも拡大した方法</title>
-      <link>https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/</link>
-      <guid isPermaLink="false">https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/</guid>
-      <description>[Score: 88] GitHubは、これまでnpmのみに提供していたマルウェア警告機能を、OpenSSFの共有マルウェアデータを利用して他のエコシステムへ拡張した。 / Dependabotのアラート機能が強化され、npm、PyPI、Maven、RubyGems、NuGet、Go、crates.io、PHP Composerの主要8エコシステムをカバー。 / 独自検出から共同コミュニティデータ（OpenSSF）の活用へと移行することで、サプライチェーンセキュリティの大幅な強化を迅速に実現した。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 06 Aug 2026 16:51:12 +0000</pubDate>
+      <title>「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート</title>
+      <link>https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html</guid>
+      <description>[Score: 90] 主要AI企業らがAIエージェントのスキルやMCP設定を共通化する業界標準仕様「Agent Plugins 1.0.0」を発表。 / 従来ベンダーごとに異なっていた設定方法やフォルダ構成を共通化し、相互運用性を向上させる。 / ユーザーは異なるAIエージェント間でも同様の設定を容易に共有・活用可能になる。 (Source: はてなブックマーク)</description>
+      <pubDate>Sun, 09 Aug 2026 13:31:00 +0000</pubDate>
     </item>
     <item>
-      <title>インテルはついにワットパフォーマンスでARMに勝てるのか？</title>
-      <link>https://hackaday.com/2026/08/08/want-energy-efficiency-dude-youre-getting-a-dell/</link>
-      <guid isPermaLink="false">https://hackaday.com/2026/08/08/want-energy-efficiency-dude-youre-getting-a-dell/</guid>
-      <description>[Score: 85] Intel製CPUを搭載したDell XPS 13が、ベンチマークでApple Siliconの電力効率を上回る結果を記録。 / HPL Linpakテストにおいて、Dellは6.21 Gflops/Wを達成し、MacBookの5.38 Gflops/Wを凌駕した。 / 長年ARMが優位とされてきたワットパフォーマンスの分野で、Intelが大きく追いついたことを示している。 (Source: Hacker News)</description>
-      <pubDate>Sat, 08 Aug 2026 16:04:36 +0000</pubDate>
+      <title>Claude Code で「ループエンジニアリング」を実践してみた</title>
+      <link>https://zenn.dev/tetsu_don/articles/e40b95dfc726ac</link>
+      <guid isPermaLink="false">https://zenn.dev/tetsu_don/articles/e40b95dfc726ac</guid>
+      <description>[Score: 88] 人間がプロンプトを打つ代わりに、AIエージェント自身に自律的な試行錯誤を繰り返させる「ループエンジニアリング」の実践記録。 / Claude Codeのサブエージェント機能を使い、実装役（Maker）と検証役（Checker）を分離した「Maker-Checker」体制を構築した。 / pytest等の決定的な自動判定ゲートをループに組み込むことで、実際に本物のバグを自律的に検出・修正することに成功している。 (Source: Zenn)</description>
+      <pubDate>Sat, 08 Aug 2026 04:39:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>早期終了は不要：メモリ速度でソースコードをケースフォールディングする</title>
+      <link>https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/</link>
+      <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/</guid>
+      <description>[Score: 88] GitHubのコード検索エンジンにおける大文字小文字を区別しない検索の高速化手法を解説。 / 早期終了の最適化をあえて排除し、分岐なしでバッファ全体を走査する方が高速であることを実証。 / この成果はRustの「casefold」クレートとしてオープンソースで公開されている。 (Source: GitHub Blog)</description>
+      <pubDate>Fri, 31 Jul 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>共有地の悲劇：AI編</title>
+      <link>https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition</link>
+      <guid isPermaLink="false">https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition</guid>
+      <description>[Score: 85] インターネット上の公開データ（共有地）をAIモデルの学習に使い果たす「共有地の悲劇」を考察。 / 高品質なデータが枯渇し、AI生成コンテンツがネットに溢れることで、今後の学習データの質が低下する懸念を議論。 / 持続可能なAI開発に向けた、データエコシステムの保護や新たな学習手法の必要性を提起している。 (Source: Hacker News)</description>
+      <pubDate>Sun, 09 Aug 2026 19:43:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>経費精算アプリもExcelも捨てる。Claude Desktop（MCP）＋マネーフォワードAPIで経理を完全自動化した話</title>
+      <link>https://zenn.dev/yuichirominato/articles/dc8cf3915f1c6f</link>
+      <guid isPermaLink="false">https://zenn.dev/yuichirominato/articles/dc8cf3915f1c6f</guid>
+      <description>[Score: 85] Claude DesktopとMCP（Model Context Protocol）を組み合わせ、マネーフォワードAPIを直接操作する経理完全自動化の仕組みを構築した。 / 領収書の写真をClaudeに送信するだけで、AIが過去の仕訳傾向やAPI仕様を理解して自動で経費処理を完結させる。 / AIがAPIを直接扱うことで、人間がSaaSの複雑な管理画面を操作して転記や確認を行う必要性を排除した新しい業務のあり方を提示している。 (Source: Zenn)</description>
+      <pubDate>Sat, 08 Aug 2026 02:14:37 +0000</pubDate>
     </item>
     <item>
       <title>Web API設計の現在地2026</title>
       <link>https://qiita.com/tatsuya582/items/a800739c02eadff68c70?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/tatsuya582/items/a800739c02eadff68c70?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] 2026年時点におけるWeb API設計の最新標準やデファクトスタンダードを解説した記事。 / エラーレスポンスの標準仕様であるRFC 9457（Problem Details）の重要性と具体例を提示。 / JavaやC#などのフレームワークでの対応状況と、JS/TS系での現状の課題について言及している。 (Source: Qiita)</description>
+      <description>[Score: 85] 2026年時点におけるWeb API設計の最新標準やデファクトスタンダードを解説する記事です。 / エラーレスポンスの標準規格であるRFC 9457（Problem Details）の重要性と実装状況を紹介しています。 / JavaやC#などのフレームワークでの対応状況や、JS/TS系における設計者の役割について言及しています。 (Source: Qiita)</description>
       <pubDate>Fri, 07 Aug 2026 03:06:02 +0000</pubDate>
     </item>
     <item>
-      <title>Cloudflare、ボットが人間の1,000倍のインターネットトラフィックを生成し、人間は「端数」になる可能性があると指摘</title>
-      <link>https://www.reddit.com/r/technology/comments/1vivxn6/cloudflare_says_humans_could_become_a_rounding/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vivxn6/cloudflare_says_humans_could_become_a_rounding/</guid>
-      <description>[Score: 85] Cloudflareは、ボットが生成するインターネットトラフィックが人間の1,000倍に達し、人間が「端数」のような存在になる可能性を警告した。 / AIの普及や自動化ツールの増加により、ウェブ上のトラフィック構造が劇的に変化している。 / この変化は、今後のウェブセキュリティ、インフラ設計、およびインターネットのあり方そのものに大きな影響を与える。 (Source: Reddit)</description>
-      <pubDate>Sat, 08 Aug 2026 13:22:43 +0000</pubDate>
+      <title>Cloudflareの学習教材</title>
+      <link>https://cloudflare-study.komiyamma.net/</link>
+      <guid isPermaLink="false">https://cloudflare-study.komiyamma.net/</guid>
+      <description>[Score: 85] Cloudflareの基本概念から実践的な開発フローまでを体系的に学べる学習教材。 / Workers、Pages、D1、R2、さらにWorkers AIなどの主要サービスを用いたアプリ開発を網羅。 / エッジコンピューティングやサーバーレス開発の基礎から本番公開、セキュリティ対策まで幅広くカバーしている。 (Source: はてなブックマーク)</description>
+      <pubDate>Wed, 05 Aug 2026 09:45:12 +0000</pubDate>
     </item>
     <item>
-      <title>Zbtlink製ルータに出荷時組み込まれていたバックドアについてまとめてみた - piyolog</title>
-      <link>https://piyolog.hatenadiary.jp/entry/2026/08/08/020650</link>
-      <guid isPermaLink="false">https://piyolog.hatenadiary.jp/entry/2026/08/08/020650</guid>
-      <description>[Score: 85] 中国Zbtlink製のルータ20機種の出荷時ファームウェアに、遠隔操作用インプラント「ENDLESSDOORS」が組み込まれていたことが判明した。 / セキュリティ企業VulnCheckの調査によると、このバックドアは外部からの侵害ではなく、製造元によって最初から組み込まれていたとされる。 / Zbtlink側はデバッグ用サンプル機にのみ残されたものと主張しているが、VulnCheckの観測結果とは正面から対立している。 (Source: はてなブックマーク)</description>
-      <pubDate>Fri, 07 Aug 2026 20:26:28 +0000</pubDate>
+      <title>AIエージェントが設定を変更した。安全にロールバックできるか？</title>
+      <link>https://dev.to/zira125/your-ai-agent-changed-its-config-can-you-roll-it-back-safely-4abk</link>
+      <guid isPermaLink="false">https://dev.to/zira125/your-ai-agent-changed-its-config-can-you-roll-it-back-safely-4abk</guid>
+      <description>[Score: 85] AIエージェントの設定変更はコードデプロイ以上に危険であり、単純なファイルの差し戻しでは安全にロールバックできない。 / 設定変更はツールの実行権限やモデルのルーティングに即座に影響し、実行中のタスクとの不整合を引き起こす可能性がある。 / 対策として、設定の各リビジョンをIDで厳密に管理し、段階的に適用・検証するコントロールプレーンの構築を提案している。 (Source: Dev.to)</description>
+      <pubDate>Sun, 09 Aug 2026 21:54:16 +0000</pubDate>
     </item>
     <item>
-      <title>中国製ルータ20機種に「隠しバックドア」、世界10万台超か…35秒ごとに外部通信判明</title>
-      <link>https://news.yahoo.co.jp/articles/e1dcb713ff3473e94caf201d1c72e5c053852062</link>
-      <guid isPermaLink="false">https://news.yahoo.co.jp/articles/e1dcb713ff3473e94caf201d1c72e5c053852062</guid>
-      <description>[Score: 85] 中国Zbtlink製のルータ20機種に、外部からroot権限で操作可能なバックドア「ENDLESSDOORS」が組み込まれていることが判明した。 / 世界で少なくとも10万台が展開済みとみられ、C2サーバへ定期的に接続して対話型シェルなどを実行できる仕組みになっている。 / 米国の機器認証制限や日本の調達基準など、ルータ調達時にメーカー名だけでなくファームウェアやOEM元まで確認する重要性が高まっている。 (Source: はてなブックマーク)</description>
-      <pubDate>Fri, 07 Aug 2026 21:45:02 +0000</pubDate>
+      <title>マルウェアアドバイザリをnpm以外にも拡大した方法</title>
+      <link>https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/</link>
+      <guid isPermaLink="false">https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/</guid>
+      <description>[Score: 85] GitHubはDependabotのマルウェア警告機能をnpm以外の主要なエコシステムへ拡大した。 / OpenSSFの共有マルウェアデータを活用し、PyPIやMavenなど計8つのエコシステムに対応。 / サプライチェーンセキュリティの強化に向け、マルチ言語環境での迅速な脅威検知を実現する。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 06 Aug 2026 16:51:12 +0000</pubDate>
     </item>
     <item>
-      <title>早期終了は不要：メモリ速度でソースコードをケースフォールディング（大文字小文字変換）する方法</title>
-      <link>https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/</link>
-      <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/</guid>
-      <description>[Score: 85] GitHubのコード検索エンジン「Blackbird」において、大文字小文字を区別しない検索を高速化するための「ケースフォールディング」の最適化手法を解説。 / ASCII文字の高速処理において、非ASCII文字で処理を早期終了する従来の最適化をあえて排除し、分岐なしでバッファ全体を走査する方が高速であることを発見。 / この高速化手法をRustのクレート「casefold」としてオープンソース化し、メモリ帯域幅に近い極めて高いパフォーマンスを実現した。 (Source: GitHub Blog)</description>
-      <pubDate>Fri, 31 Jul 2026 16:00:00 +0000</pubDate>
+      <title>1つのTPUで軽量エージェントバックエンドをセルフホストする：Gemma 4 E2B + vLLMをv5e-1で動かす</title>
+      <link>https://dev.to/gde/self-hosting-a-lite-agent-backend-on-one-tpu-gemma-4-e2b-vllm-on-a-v5e-1-fk1</link>
+      <guid isPermaLink="false">https://dev.to/gde/self-hosting-a-lite-agent-backend-on-one-tpu-gemma-4-e2b-vllm-on-a-v5e-1-fk1</guid>
+      <description>[Score: 82] Google Cloudの単一TPU v5eを用いて、軽量なAIエージェントのバックエンドをセルフホストする検証ログ。 / vLLM上でGemma 4 E2Bを動作させ、非常に高いトークン出力速度と低レイテンシを低コストで実現した。 / 実際のハードウェアで測定されたベンチマーク結果や、セットアップ時の注意点について詳しく解説している。 (Source: Dev.to)</description>
+      <pubDate>Sun, 09 Aug 2026 22:14:30 +0000</pubDate>
     </item>
     <item>
-      <title>AIが生成した巨大なプルリクエストをレビュー可能なスタックに分割する方法</title>
-      <link>https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/</link>
-      <guid isPermaLink="false">https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/</guid>
-      <description>[Score: 82] AIコーディングエージェントの普及により、1000行を超えるような巨大なプルリクエスト（PR）が自動生成され、コードレビューが困難になる課題が発生している。 / 巨大なPRをそのままレビューするか、手動で細分化して管理するかのジレンマに対し、「スタックされたプルリクエスト（Stacked PRs）」の活用を提案。 / 依存関係のある小さなPRに分割して管理することで、レビューの負担を軽減しつつ、エージェントの高い生産性を維持する具体的な手法を解説。 (Source: GitHub Blog)</description>
-      <pubDate>Tue, 04 Aug 2026 16:47:18 +0000</pubDate>
+      <title>ハッカーのルネサンス</title>
+      <link>https://phrack.org/issues/72/19#article</link>
+      <guid isPermaLink="false">https://phrack.org/issues/72/19#article</guid>
+      <description>[Score: 80] 老舗ハッカーマガジン「Phrack」の第72号のリリースとコンテンツの紹介。 / PHPのCTF、macOSのIOKit、WebAssemblyのサンドボックス回避など高度な技術記事が掲載。 / 現代におけるハッキング技術の進化と、ハッカー文化の再興（ルネサンス）を象徴している。 (Source: Hacker News)</description>
+      <pubDate>Sun, 09 Aug 2026 20:18:44 +0000</pubDate>
     </item>
     <item>
-      <title>ドメインが販売中であることをDNS上で表明可能に</title>
-      <link>https://specification.website/spec/foundations/for-sale-dns/</link>
-      <guid isPermaLink="false">https://specification.website/spec/foundations/for-sale-dns/</guid>
-      <description>[Score: 80] RFC 10023により、DNSのTXTレコードを用いてドメインが販売中であることを示す仕様が定義された。 / Webサイトを閉鎖（パーキング）することなく、稼働中のサイトの裏で販売意思を表明できる。 / WHOISのプライバシー保護により連絡が困難な中、ブローカーや自動サービス向けの新しい伝達手段となる。 (Source: Hacker News)</description>
-      <pubDate>Sat, 08 Aug 2026 13:26:51 +0000</pubDate>
+      <title>C# 15+の新DIパターン: 内部はinterfaceで疎結合、公開APIはunionで型の許容範囲を制御</title>
+      <link>https://zenn.dev/inuinu/articles/csharp15-new-di-interface-union-closed</link>
+      <guid isPermaLink="false">https://zenn.dev/inuinu/articles/csharp15-new-di-interface-union-closed</guid>
+      <description>[Score: 80] C# 15で導入される「union型」や「closed修飾子」を活用し、DIで受け付ける型を特定の選択肢に制限する新しい設計パターンを紹介している。 / 従来のinterfaceによる広範な受付に対し、ライブラリ等でユーザーの選択肢を制限しつつ堅牢なAPIを公開することが可能になる。 / この制限されたDIパターンにおいて、テスト時にダミーのサービスをどのように注入するかという実践的な課題と解決策を提示している。 (Source: Zenn)</description>
+      <pubDate>Sat, 08 Aug 2026 13:09:58 +0000</pubDate>
     </item>
     <item>
-      <title>楽観ロックの実装でおさえたいポイントと、よくあるしくじり</title>
-      <link>https://zenn.dev/levtech/articles/how-to-concrete-optimistic-lock</link>
-      <guid isPermaLink="false">https://zenn.dev/levtech/articles/how-to-concrete-optimistic-lock</guid>
-      <description>[Score: 80] 並行処理におけるデータの整合性を守るための「楽観ロック」の実装方法と注意点を解説。 / 複数ユーザーによる同時更新によるデータの喪失や、一貫性のない読み込みといった課題を解決する。 / データベースのトランザクションとアプリケーションの作業単位のズレを補う仕組みとして有用。 (Source: Zenn)</description>
-      <pubDate>Fri, 07 Aug 2026 03:03:06 +0000</pubDate>
+      <title>【AWS】Bedrock MantleがAPI キーレスで使えるっぽいのでやってみた</title>
+      <link>https://qiita.com/yakumo_09/items/210e60518b5bb7dbc4e0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/yakumo_09/items/210e60518b5bb7dbc4e0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 80] Amazon Bedrock MantleがAPIキー不要で、AWS SigV4認証を用いて利用可能であることを検証した記事です。 / モデルごとに認証処理を変える必要がなく、プロジェクト単位で一元管理できるメリットを解説しています。 / botocoreのSigV4Authとrequestsを用いたシンプルなPython実装例を紹介しています。 (Source: Qiita)</description>
+      <pubDate>Sat, 08 Aug 2026 20:58:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>米FCC、LiDAR搭載の外国製ドローン禁止へ動く — 技術を「軍事レベル」と分類し、サーマルカメラ搭載機やライトショー用ドローンにも影響か</title>
+      <link>https://www.reddit.com/r/technology/comments/1vjt3gx/fcc_moves_to_ban_lidarequipped_foreign_drones/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vjt3gx/fcc_moves_to_ban_lidarequipped_foreign_drones/</guid>
+      <description>[Score: 80] 米連邦通信委員会（FCC）が、LiDARを搭載した外国製ドローンの米国での使用禁止を提案。 / LiDAR技術を「軍事レベル」に分類し、サーマルカメラ搭載モデルやライトショー用ドローンも対象となる可能性。 / 安全保障上の懸念を理由とした規制強化であり、ドローン産業や関連技術のサプライチェーンに大きな影響を与える。 (Source: Reddit)</description>
+      <pubDate>Sun, 09 Aug 2026 15:41:41 +0000</pubDate>
     </item>
     <item>
       <title>ミッチェル・ハシモト氏が新会社「Superlogical」を設立、あらゆる仕事に使えるマルチプレクサの開発へ</title>
       <link>https://www.publickey1.jp/blog/26/superlogical.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/superlogical.html</guid>
-      <description>[Score: 80] HashiCorpの共同創業者であるミッチェル・ハシモト氏が、新会社「Superlogical」の設立を発表した。 / 同社は「あらゆる仕事に使えるマルチプレクサ」の開発を目指しており、その基盤としてまずはターミナルマルチプレクサの開発から着手する。 / ハシモト氏はHashiCorp退社後にターミナル「Ghostty」を個人開発しており、新会社でのプロダクト展開に注目が集まっている。 (Source: Publickey)</description>
+      <description>[Score: 80] HashiCorp共同創業者のミッチェル・ハシモト氏が新会社「Superlogical」の設立を発表。 / あらゆる仕事に使えるマルチプレクサの開発を目指し、まずはターミナルマルチプレクサから着手する。 / 同氏が個人開発していたターミナル「Ghostty」に続く、開発者向けツールの新たな展開として注目される。 (Source: Publickey)</description>
       <pubDate>Thu, 06 Aug 2026 15:26:54 +0000</pubDate>
     </item>
     <item>
-      <title>キャッシング：Redisによってバックエンドシステムが高速化する仕組み</title>
-      <link>https://dev.to/juma_evans_34e389ef539266/caching-how-backend-systems-get-faster-with-redis-387c</link>
-      <guid isPermaLink="false">https://dev.to/juma_evans_34e389ef539266/caching-how-backend-systems-get-faster-with-redis-387c</guid>
-      <description>[Score: 80] トラフィックの増加に伴い、データベースへの重複クエリが原因でバックエンドAPIの応答速度が低下する課題を説明。 / キャッシングは、コストの高いデータ取得結果を一時保存することで、システムのパフォーマンスとスケーラビリティを向上させる重要な概念。 / 本文では、Redisを用いたキャッシュの仕組みやGo言語での基本的な実装方法、キャッシュ導入に伴う課題について解説する。 (Source: Dev.to)</description>
-      <pubDate>Sat, 08 Aug 2026 21:41:39 +0000</pubDate>
+      <title>アプリが遅い原因をAIがトレースログから分析してくれる「Windows Performance Analyzer MCP」（WPA MCP）、マイクロソフトがプレビュー公開</title>
+      <link>https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html</guid>
+      <description>[Score: 80] マイクロソフトは、Windowsアプリのボトルネック調査をAIに依頼できる「WPA MCP」のプレビュー版を公開した。 / 従来のWindows Performance AnalyzerにGitHub Copilot CLIを組み込み、自然言語での指示や質問を可能にした。 / これにより、専門知識が必要だったトレースログの分析やボトルネックの特定が容易になり、開発者の分析作業を支援する。 (Source: Publickey)</description>
+      <pubDate>Tue, 04 Aug 2026 15:36:16 +0000</pubDate>
     </item>
     <item>
-      <title>自作BIツール × DWHで挑むデータの民主化</title>
-      <link>https://zenn.dev/finatext/articles/crest-bi-dwh-data-democratization</link>
-      <guid isPermaLink="false">https://zenn.dev/finatext/articles/crest-bi-dwh-data-democratization</guid>
-      <description>[Score: 78] 社内AIコンテストを契機に、非エンジニアがDWHにGUIでクエリできる自作BIツールを開発した体験記。 / Snowflake上のDWHと業務システムを繋ぎ、エンジニア頼みだったデータ分析の民主化を推進。 / 基盤開発チームと業務チームが協働することで、現場の具体的な課題解決とユースケースの解像度向上を実現。 (Source: Zenn)</description>
-      <pubDate>Fri, 07 Aug 2026 02:00:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>AIで完成度を上げたい、でも人間味のない完璧すぎる作品は嫌だ</title>
-      <link>https://qiita.com/sumomoo/items/cfe3c47453968b2d3c29?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/sumomoo/items/cfe3c47453968b2d3c29?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 78] AIとの付き合い方の進化（ハーネスやループエンジニアリングなど）について考察した記事。 / AIが動くための判断基準や仕組みを人間が構築する役割へとシフトしている現状を解説。 / AIによって成果物の土台が底上げされる中、最後の仕上げにおける人間のこだわりの重要性を説く。 (Source: Qiita)</description>
-      <pubDate>Fri, 07 Aug 2026 09:20:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>新たなAmazonデータセンター、米国で最も汚染の激しい発電所になる懸念が浮上</title>
-      <link>https://www.reddit.com/r/technology/comments/1vj1sa7/new_amazon_data_center_stokes_worry_it_would_be/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vj1sa7/new_amazon_data_center_stokes_worry_it_would_be/</guid>
-      <description>[Score: 78] Amazonが計画している新しいデータセンターが、米国で最も環境汚染を引き起こす施設になる懸念が浮上している。 / AI急増に伴うデータセンターの電力消費が、環境保護や持続可能性の目標と逆行する可能性が指摘されている。 / 巨大テック企業によるクリーンエネルギー確保の課題と、環境への影響に対する批判が強まっている。 (Source: Reddit)</description>
-      <pubDate>Sat, 08 Aug 2026 17:26:54 +0000</pubDate>
+      <title>AIが生成した1つの巨大なプルリクエストをレビュー可能なスタックに変換する</title>
+      <link>https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/</link>
+      <guid isPermaLink="false">https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/</guid>
+      <description>[Score: 80] AIエージェントの普及に伴い、生成されるプルリクエストが巨大化しレビューが困難になる課題を指摘。 / 巨大な差分を小さく分割して連鎖させる「スタックされたプルリクエスト」の活用を提案。 / AI時代の開発プロセスにおいて、コードレビューの品質と速度を維持するための実践的なアプローチ。 (Source: GitHub Blog)</description>
+      <pubDate>Tue, 04 Aug 2026 16:47:18 +0000</pubDate>
     </item>
     <item>
       <title>npm代替を目指すセキュリティファーストなパッケージマネージャ「vlt」バージョン1.0に到達。npmのミラーレジストリ、プライベートレジストリも提供開始</title>
       <link>https://www.publickey1.jp/blog/26/npmvlt10npm.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/npmvlt10npm.html</guid>
-      <description>[Score: 78] npmの代替を目指すセキュリティ重視のJavaScriptパッケージマネージャ「vlt」がバージョン1.0に到達した。 / インストール時にローカルで勝手にコードが実行されない仕組みや、レジストリ層でのマルウェアブロックなどの安全性を備えている。 / あわせて、npmのミラーレジストリやプライベートレジストリを提供するホスティングサービス「vsr」の有料提供も開始された。 (Source: Publickey)</description>
+      <description>[Score: 78] npm代替を掲げるセキュリティ重視のパッケージマネージャ「vlt」がバージョン1.0に到達。 / インストール時にローカルで不要なコードを実行させない仕組みなど、安全性を最優先に設計。 / npmのミラーレジストリやプライベートレジストリのホスティングサービスも同時に提供開始した。 (Source: Publickey)</description>
       <pubDate>Wed, 05 Aug 2026 18:03:20 +0000</pubDate>
     </item>
     <item>
-      <title>GitHubの法務チームがCopilot CLIを活用して業務を効率化した方法</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/</guid>
-      <description>[Score: 78] 開発者ではない法務チーム（弁護士やマネージャー）が、契約書レビューなどの定型業務を効率化するためにGitHub Copilot CLIを活用した事例を紹介。 / 自然言語で要望を伝えることで、非技術職のメンバーでも自らツールを構築し、業務プロセスを迅速に改善できるようになった。 / AIの支援によって「コードは書けない」という意識が「自分でツールを作れた」という自信に変わり、チーム全体に開発の習慣が広がった。 (Source: GitHub Blog)</description>
-      <pubDate>Tue, 04 Aug 2026 19:02:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>FastmailがEUデータリージョンを提供開始</title>
-      <link>https://www.fastmail.com/blog/fastmail-offers-eu-data-region/</link>
-      <guid isPermaLink="false">https://www.fastmail.com/blog/fastmail-offers-eu-data-region/</guid>
-      <description>[Score: 75] メールサービスFastmailが、アムステルダムのセキュアな自社サーバーによるEUデータリージョンの提供を開始した。 / これまでデータは米国のみに保存されていたが、現地の法律やコンプライアンスに対応するため選択肢を広げた。 / 大手クラウドプロバイダーを介さず、自社ハードウェアとソフトウェアで暗号化管理を行う方針を維持している。 (Source: Hacker News)</description>
-      <pubDate>Sat, 08 Aug 2026 16:04:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>ウルトラ gpt-5.5-sol high の供養記事</title>
-      <link>https://zenn.dev/microsoft/articles/agent-framework-ultra-soul-memorial</link>
-      <guid isPermaLink="false">https://zenn.dev/microsoft/articles/agent-framework-ultra-soul-memorial</guid>
-      <description>[Score: 75] 自作した「ウルトラ ソウル エージェント」をAzure AI FoundryのHosted Agentにデプロイする手順の解説。 / Microsoft Agent Frameworkで作成したエージェントを、最小限のコード変更でホスティング可能にする。 / AspireのAppHostを利用して必要な環境変数を注入し、デプロイ時のエラーを回避する工夫を紹介。 (Source: Zenn)</description>
-      <pubDate>Fri, 07 Aug 2026 04:42:45 +0000</pubDate>
+      <title>FigmaのスクリーンショットをClaudeに貼り付けるのが失敗する理由（そして代わりに使うべきもの）</title>
+      <link>https://dev.to/romantsisyk/why-pasting-figma-screenshots-into-claude-fails-and-what-to-use-instead-46d0</link>
+      <guid isPermaLink="false">https://dev.to/romantsisyk/why-pasting-figma-screenshots-into-claude-fails-and-what-to-use-instead-46d0</guid>
+      <description>[Score: 78] FigmaのスクリーンショットをLLMに渡してコード生成させる手法は、レイアウト構造が失われるため不正確になりやすい。 / 画像はデザインのツリー構造をピクセルのグリッドに平坦化してしまい、LLMは構造を推測するしかなくなる。 / 解決策として、figmascopeなどのツールを用いて、デザイントークンやコンポーネント情報を含む構造化データを渡すことが推奨される。 (Source: Dev.to)</description>
+      <pubDate>Sun, 09 Aug 2026 22:27:56 +0000</pubDate>
     </item>
   </channel>
 </rss>
