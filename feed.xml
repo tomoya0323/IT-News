@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 09 Aug 2026 22:36:50 +0000</lastBuildDate>
-    <item>
-      <title>アマゾンのテキサス州における新たな7.65GWのAIデータセンター用発電所が、米国最大のCO₂排出源になる可能性 — 年間3300万トンの温室効果ガス排出が許可されたカスタム35タービンガス発電所</title>
-      <link>https://www.reddit.com/r/technology/comments/1vjwpko/amazons_new_765gw_texas_ai_data_center_power/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vjwpko/amazons_new_765gw_texas_ai_data_center_power/</guid>
-      <description>[Score: 90] アマゾンがテキサス州に建設予定の7.65GW規模のAIデータセンター用発電所に関するニュースです。 / このカスタム35タービンガス発電所は、年間3300万トンの温室効果ガス排出が許可されています。 / AIの急速な発展に伴う膨大な電力需要が、環境負荷や気候変動対策に与える深刻な影響が懸念されています。 (Source: Reddit)</description>
-      <pubDate>Sun, 09 Aug 2026 18:04:22 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 10 Aug 2026 22:43:31 +0000</lastBuildDate>
     <item>
       <title>「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート</title>
       <link>https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html</guid>
-      <description>[Score: 90] 主要AI企業らがAIエージェントのスキルやMCP設定を共通化する業界標準仕様「Agent Plugins 1.0.0」を発表。 / 従来ベンダーごとに異なっていた設定方法やフォルダ構成を共通化し、相互運用性を向上させる。 / ユーザーは異なるAIエージェント間でも同様の設定を容易に共有・活用可能になる。 (Source: はてなブックマーク)</description>
-      <pubDate>Sun, 09 Aug 2026 13:31:00 +0000</pubDate>
+      <description>[Score: 95] 主要AI企業らが、異なるAIエージェント間でスキルやMCPサーバ設定を共有できる共通仕様「Agent Plugins 1.0.0」を発表。 / 従来はベンダーごとに異なっていた設定方法やフォルダ構成を標準化し、ユーザーの利便性を向上させる。 / Microsoft、OpenAI、AWS、Googleなどの巨大IT企業がこぞってこの仕様へのサポートを表明している。 (Source: Publickey)</description>
+      <pubDate>Sun, 09 Aug 2026 15:19:33 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Code で「ループエンジニアリング」を実践してみた</title>
-      <link>https://zenn.dev/tetsu_don/articles/e40b95dfc726ac</link>
-      <guid isPermaLink="false">https://zenn.dev/tetsu_don/articles/e40b95dfc726ac</guid>
-      <description>[Score: 88] 人間がプロンプトを打つ代わりに、AIエージェント自身に自律的な試行錯誤を繰り返させる「ループエンジニアリング」の実践記録。 / Claude Codeのサブエージェント機能を使い、実装役（Maker）と検証役（Checker）を分離した「Maker-Checker」体制を構築した。 / pytest等の決定的な自動判定ゲートをループに組み込むことで、実際に本物のバグを自律的に検出・修正することに成功している。 (Source: Zenn)</description>
-      <pubDate>Sat, 08 Aug 2026 04:39:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>早期終了は不要：メモリ速度でソースコードをケースフォールディングする</title>
-      <link>https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/</link>
-      <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/</guid>
-      <description>[Score: 88] GitHubのコード検索エンジンにおける大文字小文字を区別しない検索の高速化手法を解説。 / 早期終了の最適化をあえて排除し、分岐なしでバッファ全体を走査する方が高速であることを実証。 / この成果はRustの「casefold」クレートとしてオープンソースで公開されている。 (Source: GitHub Blog)</description>
-      <pubDate>Fri, 31 Jul 2026 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>共有地の悲劇：AI編</title>
-      <link>https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition</link>
-      <guid isPermaLink="false">https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition</guid>
-      <description>[Score: 85] インターネット上の公開データ（共有地）をAIモデルの学習に使い果たす「共有地の悲劇」を考察。 / 高品質なデータが枯渇し、AI生成コンテンツがネットに溢れることで、今後の学習データの質が低下する懸念を議論。 / 持続可能なAI開発に向けた、データエコシステムの保護や新たな学習手法の必要性を提起している。 (Source: Hacker News)</description>
-      <pubDate>Sun, 09 Aug 2026 19:43:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>経費精算アプリもExcelも捨てる。Claude Desktop（MCP）＋マネーフォワードAPIで経理を完全自動化した話</title>
-      <link>https://zenn.dev/yuichirominato/articles/dc8cf3915f1c6f</link>
-      <guid isPermaLink="false">https://zenn.dev/yuichirominato/articles/dc8cf3915f1c6f</guid>
-      <description>[Score: 85] Claude DesktopとMCP（Model Context Protocol）を組み合わせ、マネーフォワードAPIを直接操作する経理完全自動化の仕組みを構築した。 / 領収書の写真をClaudeに送信するだけで、AIが過去の仕訳傾向やAPI仕様を理解して自動で経費処理を完結させる。 / AIがAPIを直接扱うことで、人間がSaaSの複雑な管理画面を操作して転記や確認を行う必要性を排除した新しい業務のあり方を提示している。 (Source: Zenn)</description>
-      <pubDate>Sat, 08 Aug 2026 02:14:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Web API設計の現在地2026</title>
-      <link>https://qiita.com/tatsuya582/items/a800739c02eadff68c70?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/tatsuya582/items/a800739c02eadff68c70?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] 2026年時点におけるWeb API設計の最新標準やデファクトスタンダードを解説する記事です。 / エラーレスポンスの標準規格であるRFC 9457（Problem Details）の重要性と実装状況を紹介しています。 / JavaやC#などのフレームワークでの対応状況や、JS/TS系における設計者の役割について言及しています。 (Source: Qiita)</description>
-      <pubDate>Fri, 07 Aug 2026 03:06:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cloudflareの学習教材</title>
-      <link>https://cloudflare-study.komiyamma.net/</link>
-      <guid isPermaLink="false">https://cloudflare-study.komiyamma.net/</guid>
-      <description>[Score: 85] Cloudflareの基本概念から実践的な開発フローまでを体系的に学べる学習教材。 / Workers、Pages、D1、R2、さらにWorkers AIなどの主要サービスを用いたアプリ開発を網羅。 / エッジコンピューティングやサーバーレス開発の基礎から本番公開、セキュリティ対策まで幅広くカバーしている。 (Source: はてなブックマーク)</description>
-      <pubDate>Wed, 05 Aug 2026 09:45:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>AIエージェントが設定を変更した。安全にロールバックできるか？</title>
-      <link>https://dev.to/zira125/your-ai-agent-changed-its-config-can-you-roll-it-back-safely-4abk</link>
-      <guid isPermaLink="false">https://dev.to/zira125/your-ai-agent-changed-its-config-can-you-roll-it-back-safely-4abk</guid>
-      <description>[Score: 85] AIエージェントの設定変更はコードデプロイ以上に危険であり、単純なファイルの差し戻しでは安全にロールバックできない。 / 設定変更はツールの実行権限やモデルのルーティングに即座に影響し、実行中のタスクとの不整合を引き起こす可能性がある。 / 対策として、設定の各リビジョンをIDで厳密に管理し、段階的に適用・検証するコントロールプレーンの構築を提案している。 (Source: Dev.to)</description>
-      <pubDate>Sun, 09 Aug 2026 21:54:16 +0000</pubDate>
+      <title>Agent Plugins 1.0.0 は何を標準化し、何を標準化しなかったのか</title>
+      <link>https://zenn.dev/aws_japan/articles/agent-plugins-1-0-deep-dive</link>
+      <guid isPermaLink="false">https://zenn.dev/aws_japan/articles/agent-plugins-1-0-deep-dive</guid>
+      <description>[Score: 90] OpenAIやAWSらが共同策定したAIエージェント拡張機能のオープン標準「Agent Plugins 1.0.0」の解説記事。 / 既存の「Agent Skills」や「MCP」などの仕様を活かしつつ、それらをどうパッケージして発見・配布するかを定義している。 / 仕様をあえて小さく留め、何を標準化しなかったのかという設計思想の巧妙さについて詳しく分析している。 (Source: Zenn)</description>
+      <pubDate>Mon, 10 Aug 2026 09:06:44 +0000</pubDate>
     </item>
     <item>
       <title>マルウェアアドバイザリをnpm以外にも拡大した方法</title>
       <link>https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/</link>
       <guid isPermaLink="false">https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/</guid>
-      <description>[Score: 85] GitHubはDependabotのマルウェア警告機能をnpm以外の主要なエコシステムへ拡大した。 / OpenSSFの共有マルウェアデータを活用し、PyPIやMavenなど計8つのエコシステムに対応。 / サプライチェーンセキュリティの強化に向け、マルチ言語環境での迅速な脅威検知を実現する。 (Source: GitHub Blog)</description>
+      <description>[Score: 90] GitHubがDependabotのマルウェア警告機能を、従来のnpmだけでなくPyPIを含む8つの主要エコシステムに拡大。 / OpenSSFの「malicious-packages」リポジトリからデータを統合することで、広範なサプライチェーンセキュリティを実現。 / これにより、npm、PyPI、Maven、RubyGems、NuGet、Go、crates.io、PHPのユーザーがマルウェアから保護される。 (Source: GitHub Blog)</description>
       <pubDate>Thu, 06 Aug 2026 16:51:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>1つのTPUで軽量エージェントバックエンドをセルフホストする：Gemma 4 E2B + vLLMをv5e-1で動かす</title>
-      <link>https://dev.to/gde/self-hosting-a-lite-agent-backend-on-one-tpu-gemma-4-e2b-vllm-on-a-v5e-1-fk1</link>
-      <guid isPermaLink="false">https://dev.to/gde/self-hosting-a-lite-agent-backend-on-one-tpu-gemma-4-e2b-vllm-on-a-v5e-1-fk1</guid>
-      <description>[Score: 82] Google Cloudの単一TPU v5eを用いて、軽量なAIエージェントのバックエンドをセルフホストする検証ログ。 / vLLM上でGemma 4 E2Bを動作させ、非常に高いトークン出力速度と低レイテンシを低コストで実現した。 / 実際のハードウェアで測定されたベンチマーク結果や、セットアップ時の注意点について詳しく解説している。 (Source: Dev.to)</description>
-      <pubDate>Sun, 09 Aug 2026 22:14:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>ハッカーのルネサンス</title>
-      <link>https://phrack.org/issues/72/19#article</link>
-      <guid isPermaLink="false">https://phrack.org/issues/72/19#article</guid>
-      <description>[Score: 80] 老舗ハッカーマガジン「Phrack」の第72号のリリースとコンテンツの紹介。 / PHPのCTF、macOSのIOKit、WebAssemblyのサンドボックス回避など高度な技術記事が掲載。 / 現代におけるハッキング技術の進化と、ハッカー文化の再興（ルネサンス）を象徴している。 (Source: Hacker News)</description>
-      <pubDate>Sun, 09 Aug 2026 20:18:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>C# 15+の新DIパターン: 内部はinterfaceで疎結合、公開APIはunionで型の許容範囲を制御</title>
-      <link>https://zenn.dev/inuinu/articles/csharp15-new-di-interface-union-closed</link>
-      <guid isPermaLink="false">https://zenn.dev/inuinu/articles/csharp15-new-di-interface-union-closed</guid>
-      <description>[Score: 80] C# 15で導入される「union型」や「closed修飾子」を活用し、DIで受け付ける型を特定の選択肢に制限する新しい設計パターンを紹介している。 / 従来のinterfaceによる広範な受付に対し、ライブラリ等でユーザーの選択肢を制限しつつ堅牢なAPIを公開することが可能になる。 / この制限されたDIパターンにおいて、テスト時にダミーのサービスをどのように注入するかという実践的な課題と解決策を提示している。 (Source: Zenn)</description>
-      <pubDate>Sat, 08 Aug 2026 13:09:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>【AWS】Bedrock MantleがAPI キーレスで使えるっぽいのでやってみた</title>
-      <link>https://qiita.com/yakumo_09/items/210e60518b5bb7dbc4e0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/yakumo_09/items/210e60518b5bb7dbc4e0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] Amazon Bedrock MantleがAPIキー不要で、AWS SigV4認証を用いて利用可能であることを検証した記事です。 / モデルごとに認証処理を変える必要がなく、プロジェクト単位で一元管理できるメリットを解説しています。 / botocoreのSigV4Authとrequestsを用いたシンプルなPython実装例を紹介しています。 (Source: Qiita)</description>
-      <pubDate>Sat, 08 Aug 2026 20:58:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>米FCC、LiDAR搭載の外国製ドローン禁止へ動く — 技術を「軍事レベル」と分類し、サーマルカメラ搭載機やライトショー用ドローンにも影響か</title>
-      <link>https://www.reddit.com/r/technology/comments/1vjt3gx/fcc_moves_to_ban_lidarequipped_foreign_drones/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vjt3gx/fcc_moves_to_ban_lidarequipped_foreign_drones/</guid>
-      <description>[Score: 80] 米連邦通信委員会（FCC）が、LiDARを搭載した外国製ドローンの米国での使用禁止を提案。 / LiDAR技術を「軍事レベル」に分類し、サーマルカメラ搭載モデルやライトショー用ドローンも対象となる可能性。 / 安全保障上の懸念を理由とした規制強化であり、ドローン産業や関連技術のサプライチェーンに大きな影響を与える。 (Source: Reddit)</description>
-      <pubDate>Sun, 09 Aug 2026 15:41:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>ミッチェル・ハシモト氏が新会社「Superlogical」を設立、あらゆる仕事に使えるマルチプレクサの開発へ</title>
-      <link>https://www.publickey1.jp/blog/26/superlogical.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/superlogical.html</guid>
-      <description>[Score: 80] HashiCorp共同創業者のミッチェル・ハシモト氏が新会社「Superlogical」の設立を発表。 / あらゆる仕事に使えるマルチプレクサの開発を目指し、まずはターミナルマルチプレクサから着手する。 / 同氏が個人開発していたターミナル「Ghostty」に続く、開発者向けツールの新たな展開として注目される。 (Source: Publickey)</description>
-      <pubDate>Thu, 06 Aug 2026 15:26:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>アプリが遅い原因をAIがトレースログから分析してくれる「Windows Performance Analyzer MCP」（WPA MCP）、マイクロソフトがプレビュー公開</title>
-      <link>https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html</guid>
-      <description>[Score: 80] マイクロソフトは、Windowsアプリのボトルネック調査をAIに依頼できる「WPA MCP」のプレビュー版を公開した。 / 従来のWindows Performance AnalyzerにGitHub Copilot CLIを組み込み、自然言語での指示や質問を可能にした。 / これにより、専門知識が必要だったトレースログの分析やボトルネックの特定が容易になり、開発者の分析作業を支援する。 (Source: Publickey)</description>
-      <pubDate>Tue, 04 Aug 2026 15:36:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>AIが生成した1つの巨大なプルリクエストをレビュー可能なスタックに変換する</title>
-      <link>https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/</link>
-      <guid isPermaLink="false">https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/</guid>
-      <description>[Score: 80] AIエージェントの普及に伴い、生成されるプルリクエストが巨大化しレビューが困難になる課題を指摘。 / 巨大な差分を小さく分割して連鎖させる「スタックされたプルリクエスト」の活用を提案。 / AI時代の開発プロセスにおいて、コードレビューの品質と速度を維持するための実践的なアプローチ。 (Source: GitHub Blog)</description>
-      <pubDate>Tue, 04 Aug 2026 16:47:18 +0000</pubDate>
     </item>
     <item>
       <title>npm代替を目指すセキュリティファーストなパッケージマネージャ「vlt」バージョン1.0に到達。npmのミラーレジストリ、プライベートレジストリも提供開始</title>
       <link>https://www.publickey1.jp/blog/26/npmvlt10npm.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/npmvlt10npm.html</guid>
-      <description>[Score: 78] npm代替を掲げるセキュリティ重視のパッケージマネージャ「vlt」がバージョン1.0に到達。 / インストール時にローカルで不要なコードを実行させない仕組みなど、安全性を最優先に設計。 / npmのミラーレジストリやプライベートレジストリのホスティングサービスも同時に提供開始した。 (Source: Publickey)</description>
+      <description>[Score: 88] JavaScriptの新しいセキュリティ重視パッケージマネージャ「vlt」がバージョン1.0に到達した。 / インストール時にローカルで不要なコードを実行させない仕組みにより、マルウェアの侵入をレジストリ層で防ぐ。 / 同時に、npmのミラーレジストリやプライベートレジストリの有料ホスティングサービス「vsr」も提供を開始した。 (Source: Publickey)</description>
       <pubDate>Wed, 05 Aug 2026 18:03:20 +0000</pubDate>
     </item>
     <item>
-      <title>FigmaのスクリーンショットをClaudeに貼り付けるのが失敗する理由（そして代わりに使うべきもの）</title>
-      <link>https://dev.to/romantsisyk/why-pasting-figma-screenshots-into-claude-fails-and-what-to-use-instead-46d0</link>
-      <guid isPermaLink="false">https://dev.to/romantsisyk/why-pasting-figma-screenshots-into-claude-fails-and-what-to-use-instead-46d0</guid>
-      <description>[Score: 78] FigmaのスクリーンショットをLLMに渡してコード生成させる手法は、レイアウト構造が失われるため不正確になりやすい。 / 画像はデザインのツリー構造をピクセルのグリッドに平坦化してしまい、LLMは構造を推測するしかなくなる。 / 解決策として、figmascopeなどのツールを用いて、デザイントークンやコンポーネント情報を含む構造化データを渡すことが推奨される。 (Source: Dev.to)</description>
-      <pubDate>Sun, 09 Aug 2026 22:27:56 +0000</pubDate>
+      <title>EntropyMoE：トークナイザーフリーLLMのためのエントロピー認識型スパースエキスパートルーティング</title>
+      <link>https://arxiv.org/abs/2608.06398</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2608.06398</guid>
+      <description>[Score: 88] トークナイザーを使用しない（Tokenizer-Free）LLM向けの新手法「EntropyMoE」を提案しています。 / エントロピーを認識したスパースなエキスパートルーティングにより、計算効率とモデル性能を両立させます。 / トークン化の限界を克服し、より柔軟で効率的な言語モデルの実現に寄与する技術です。 (Source: arXiv cs.AI)</description>
+      <pubDate>Mon, 10 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ADIAS：インタラクティブなエージェントシステムの自動設計</title>
+      <link>https://arxiv.org/abs/2608.06410</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2608.06410</guid>
+      <description>[Score: 86] インタラクティブなAIエージェントシステムを自動的に設計するフレームワーク「ADIAS」を提案しています。 / 複雑なエージェント間の協調やユーザーとの対話フローの設計を自動化し、開発コストを削減します。 / 自律型エージェントの構築を民主化し、様々なドメインへの応用を加速させる技術です。 (Source: arXiv cs.AI)</description>
+      <pubDate>Mon, 10 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Needle2: スマートフォン、ウェアラブル、スマートホーム、ロボット向けの14MBのエージェント指向LLM</title>
+      <link>https://cactuscompute.com/needle</link>
+      <guid isPermaLink="false">https://cactuscompute.com/needle</guid>
+      <description>[Score: 85] 安価なエッジデバイス向けに設計された、ファイルサイズ14MBの超軽量なエージェント指向LLM「Needle2」が公開。 / 4500万パラメータを持ち、Raspberry Pi 5などの非力な環境でも高速なツール呼び出しや構造化抽出が可能。 / 200ドル以下のスマートホーム機器やウェアラブル、ロボット等でのオンデバイスAIの実現を目指している。 (Source: Hacker News)</description>
+      <pubDate>Mon, 10 Aug 2026 17:22:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>著名な経済学者がAIの収益モデルに警告：「現在の利益は顧客から得たものではなく、投資家から資金提供されている」</title>
+      <link>https://www.reddit.com/r/technology/comments/1vkg571/top_economist_warns_that_the_ai_math_doesnt_make/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vkg571/top_economist_warns_that_the_ai_math_doesnt_make/</guid>
+      <description>[Score: 85] 著名な経済学者が、現在のAIビジネスの収益計算は成り立っていないと警告を発した。 / AI企業の利益は顧客からの売上ではなく、主に投資家からの巨額の資金調達によって賄われているのが現状であると指摘している。 / AIバブルの崩壊リスクや、持続可能なビジネスモデルの構築という課題について警鐘を鳴らしている。 (Source: Reddit)</description>
+      <pubDate>Mon, 10 Aug 2026 09:36:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>AIインフラの最新技術動向2026 (OCP China)</title>
+      <link>https://speakerdeck.com/markunet/aiinhuranozui-xin-ji-shu-dong-xiang-2026-ocp-china</link>
+      <guid isPermaLink="false">https://speakerdeck.com/markunet/aiinhuranozui-xin-ji-shu-dong-xiang-2026-ocp-china</guid>
+      <description>[Score: 85] OCP Chinaで発表された、2026年におけるAIインフラの最新技術動向を解説するスライド資料。 / 大規模AI学習ファブリックのためのマルチパスRoCEv2拡張や、GPUネットワークのアーキテクチャを整理。 / Ultra Ethernet (UEC) 仕様やLossless Ethernetなど、AIを支える高速ネットワーク技術に焦点を当てる。 (Source: はてなブックマーク)</description>
+      <pubDate>Mon, 10 Aug 2026 06:15:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>2万人が同時に同じ座席をクリックしたときに何が起こるか</title>
+      <link>https://dev.to/aboalynx/what-happens-when-20000-people-click-the-same-seat-245n</link>
+      <guid isPermaLink="false">https://dev.to/aboalynx/what-happens-when-20000-people-click-the-same-seat-245n</guid>
+      <description>[Score: 85] 大規模イベントの座席予約システムにおいて、数万人が同時に同じ座席を選択した際の技術的課題を解説。 / 単純なデータベーストランザクションでは解決できない、情報の不整合や更新の競合などの問題点を指摘。 / NestJSを用いたリファレンス実装をGitHubで公開し、同時リクエストに対する適切な排他制御の重要性を説明している。 (Source: Dev.to)</description>
+      <pubDate>Mon, 10 Aug 2026 22:18:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Java向けGitHub Copilot SDKの活用</title>
+      <link>https://github.blog/engineering/using-the-github-copilot-sdk-for-java/</link>
+      <guid isPermaLink="false">https://github.blog/engineering/using-the-github-copilot-sdk-for-java/</guid>
+      <description>[Score: 85] 特定のフレームワークに依存せず、Javaから直接AIを駆動できる初の「GitHub Copilot SDK for Java」が登場。 / CompletableFutureやアノテーション、仮想スレッドなど、エンタープライズJava開発者に馴染みのある仕様を採用。 / Jakarta EE 11などのサーバー環境で動作し、Copilotエージェントセッションの作成やツール登録をプログラムで制御可能。 (Source: GitHub Blog)</description>
+      <pubDate>Mon, 10 Aug 2026 19:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ルーティングの重みを超えて：貢献度対比によるMixture-of-Experts報酬モデルの忠実な応答レベルの解釈</title>
+      <link>https://arxiv.org/abs/2608.06400</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2608.06400</guid>
+      <description>[Score: 84] Mixture-of-Experts（MoE）型報酬モデルの解釈性を向上させる新しい手法を提案しています。 / 単なるルーティングの重みではなく、貢献度の対比を用いて応答レベルでの忠実な解釈を可能にします。 / LLMの安全性やアライメントにおける報酬モデルの信頼性と透明性を高める技術です。 (Source: arXiv cs.AI)</description>
+      <pubDate>Mon, 10 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare OSをVRAM 8GBのゲーミングPCで動かしたら、三目並べ1個に5ラウンドかかった話</title>
+      <link>https://zenn.dev/akari1106/articles/20109e62a4b8b7</link>
+      <guid isPermaLink="false">https://zenn.dev/akari1106/articles/20109e62a4b8b7</guid>
+      <description>[Score: 82] オープンソース化されたAIエージェント環境「Cloudflare OS」を、VRAM 8GBのローカルPCとOllamaを用いて動作させた検証記事。 / 「三目並べの作成」というタスクにおいて、5回の失敗と1時間半の時間を要したプロセスを詳細にレポート。 / 失敗の過程を通じて、Cloudflare OSの「Gadget」や「Gatekeeper」といった特徴的な設計思想とローカルLLMの限界を解説している。 (Source: Zenn)</description>
+      <pubDate>Sun, 09 Aug 2026 13:16:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>メンタルヘルスケアでチャットボットを利用する人が急増する中、カリフォルニア州がAIセラピストの禁止を検討</title>
+      <link>https://www.reddit.com/r/technology/comments/1vkpy52/california_wants_to_ban_ai_therapists_as/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vkpy52/california_wants_to_ban_ai_therapists_as/</guid>
+      <description>[Score: 82] メンタルヘルスケアの手段として何千人もの人々がAIチャットボットを利用する中、カリフォルニア州がAIセラピストの禁止を検討している。 / AIによるカウンセリングは手軽な一方で、誤ったアドバイスや倫理的・医学的な安全性の欠如が懸念されている。 / 医療分野におけるAIの規制と、人間の専門家によるケアの代替可能性についての議論が活発化している。 (Source: Reddit)</description>
+      <pubDate>Mon, 10 Aug 2026 16:37:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Task MasterによるエンドツーエンドのPRワークフローの自動化</title>
+      <link>https://dev.to/developerzai/automating-end-to-end-pr-workflows-with-claude-task-master-3fgh</link>
+      <guid isPermaLink="false">https://dev.to/developerzai/automating-end-to-end-pr-workflows-with-claude-task-master-3fgh</guid>
+      <description>[Score: 82] Claude Agent SDKをベースにした自律型オーケストレーションシステム「Claude Task Master」を紹介。 / コードの読み込みから計画策定、コード修正、テスト実行、PR作成、CI監視、マージまでを全自動で行う。 / サーバー再起動時にも進捗を失わない状態永続化機能や、複数プロファイルを並行実行できる設計を備えている。 (Source: Dev.to)</description>
+      <pubDate>Mon, 10 Aug 2026 22:10:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>巨大なAI生成プルリクエストをレビュー可能なスタックに変換する</title>
+      <link>https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/</link>
+      <guid isPermaLink="false">https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/</guid>
+      <description>[Score: 82] AIコーディングエージェントが生成する巨大なプルリクエスト（PR）を、レビューしやすい小さな単位に分割する手法を提案。 / 1,000行を超えるような巨大な差分はレビューが困難であり、手動での分割や競合解消もメンテナンスコストが高い。 / 「スタックされたプルリクエスト（Stacked PRs）」を活用することで、AIの生産性を活かしつつ、レビュー品質を維持できる。 (Source: GitHub Blog)</description>
+      <pubDate>Tue, 04 Aug 2026 16:47:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>マルチラベル・グラフ基盤モデルに向けて：単一ベクトル表現学習からマルチセマンティック基底学習へ</title>
+      <link>https://arxiv.org/abs/2608.06394</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2608.06394</guid>
+      <description>[Score: 82] 従来の単一ベクトル表現学習からマルチセマンティック基底学習への移行を提案する研究です。 / グラフ構造におけるマルチラベル分類や複雑な関係性をより正確に捉える基盤モデルの構築を目指します。 / グラフニューラルネットワーク（GNN）や表現学習の新たなアプローチとして期待されます。 (Source: arXiv cs.AI)</description>
+      <pubDate>Mon, 10 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>型の表現力はタダ: Rustのニッチ最適化を追う【第3部: コンパイラ内部を読む】</title>
+      <link>https://zenn.dev/fast/articles/44f261437d706c</link>
+      <guid isPermaLink="false">https://zenn.dev/fast/articles/44f261437d706c</guid>
+      <description>[Score: 80] Rustにおける「ニッチ最適化」の仕組みを、コンパイラ（rustc）のソースコードを元に深掘りする連載の第3部。 / 型ごとの有効値の範囲（valid_range）からニッチが定義され、レイアウト計算を経てLLVM IRが生成される流れを解説。 / 型の制約をLLVMに伝えることで、追加のメモリや実行時コストなしに最適化が行われる仕組みを明らかにしている。 (Source: Zenn)</description>
+      <pubDate>Mon, 10 Aug 2026 04:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>【FinOps Agent】身に覚えのない請求の調査を任せてみる</title>
+      <link>https://qiita.com/ryu-ki/items/94c478b2642ac525c6c4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/ryu-ki/items/94c478b2642ac525c6c4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 80] AWSのコスト管理を支援するAI機能「FinOps Agent」を実際の請求調査に活用した事例。 / AWS Budgetsの予算超過アラートをトリガーに、エージェントのセットアップと調査依頼を実施。 / 英語での指示が必要だが、エージェントがAPIを呼び出してコスト増加の原因を特定する。 (Source: Qiita)</description>
+      <pubDate>Mon, 10 Aug 2026 00:50:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>マーク・ザッカーバーグ氏、すべての人にAI「超知能」を提供するという6,500語の狂気的なエッセイを投稿――「未来はすべての人のもの」と語るも、実質的にMetaに有利な未来を描く</title>
+      <link>https://www.reddit.com/r/technology/comments/1vkx0sh/mark_zuckerberg_posts_deranged_6500word_essay/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vkx0sh/mark_zuckerberg_posts_deranged_6500word_essay/</guid>
+      <description>[Score: 80] Metaのマーク・ザッカーバーグCEOが、すべての人にAIの「超知能」を提供するビジョンを掲げた6,500語のエッセイを投稿した。 / 「未来はすべての人のもの」と主張しているが、その内容は実質的にMeta社の利益に最も合致する未来を描いていると批判されている。 / 巨大IT企業が主導するオープンソースAI戦略の意図と、その独占的影響力に対する懸念が議論を呼んでいる。 (Source: Reddit)</description>
+      <pubDate>Mon, 10 Aug 2026 20:52:47 +0000</pubDate>
     </item>
   </channel>
 </rss>
