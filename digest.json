@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-08-09T07:35:03.582407+09:00",
-  "week_start": "2026-08-03",
-  "week_end": "2026-08-09",
-  "article_count": 254,
-  "overview": "今週は、OpenAIの次期モデル「Astra」によるサイバーセキュリティや数学分野での劇的な進化、そしてAIが自律的にサイバー攻撃や脆弱性修正を行うなど、AIの自律性と実用性が新たな次元に達したことが強く印象づけられました。一方で、AI生成コンテンツに対するEUの規制強化や、自律的AIによる予期せぬ脅威行動、中国製ルータのバックドア問題など、セキュリティとガバナンスに関する懸念も急速に高まっています。さらに、2.4兆パラメータの「Qwen3.8-Max」の登場や、Mac Studioでの巨大モデル動作など、モデルの巨大化とローカル実行の工夫が同時に進む、非常に動きの激しい1週間でした。",
+  "generated_at": "2026-08-16T07:33:49.733110+09:00",
+  "week_start": "2026-08-10",
+  "week_end": "2026-08-16",
+  "article_count": 247,
+  "overview": "今週は、主要IT企業が共同で策定したAIエージェントの共通仕様「Agent Plugins 1.0.0」の発表など、AIエージェントの標準化と実用化に向けた動きが大きく加速しました。また、CerebrasとOpenAIによる超高速モデル「GPT-5.6 Sol Ultrafast」やGoogleの「Gemini 3.7 Flash」など、LLMの性能向上と低コスト化・高速化が同時に進んでいます。一方で、AIデータセンターの膨大な電力需要に伴う環境負荷や、LLMの思考プロセスを標的にした新たなセキュリティリスクなど、AIの急速な普及に伴う課題も浮き彫りになりました。",
   "trends": [
-    "AIモデルの自律的なサイバー能力と脆弱性対策",
-    "巨大モデルのオープン化とローカル動作への最適化",
-    "AI生成コンテンツに対する法規制とセキュリティ評価の厳格化",
-    "開発プロセスにおけるAIエージェントとスタック型PRの普及"
+    "AIエージェントの共通規格「Agent Plugins 1.0.0」の誕生",
+    "LLMの超高速化・低コスト化競争の激化",
+    "開発者の役割がコード記述から「オーケストレーター」へシフト",
+    "AIインフラ急拡大に伴う環境負荷とセキュリティの懸念"
   ],
   "highlights": [
     {
-      "title": "次なるフロンティアである重大なサイバー能力への対応",
-      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
-      "comment": "OpenAIの次期モデル「Astra」が、人間の介入なしにゼロデイ脆弱性を特定・開発できる閾値に達したという、AIの自律的サイバー能力の劇的な進化を示す極めて重要なニュースであるため。"
+      "title": "「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート",
+      "url": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
+      "comment": "主要IT企業が結集してAIエージェントの共通仕様を策定したことは、今後のマルチエージェントエコシステムの発展において極めて重要なマイルストーンです。"
     },
     {
-      "title": "Qwen3.8-Maxが一般公開：アリババの2.4兆パラメータモデルへの開発者向けガイド",
-      "url": "https://dev.to/arshtechpro/qwen38-max-just-went-ga-a-developers-guide-to-alibabas-24t-model-ff3",
-      "comment": "2.4兆パラメータという超巨大モデルの一般公開と、今後のオープンウェイト化の予告は、オープンソースAIコミュニティに多大な影響を与えるため。"
+      "title": "GPT-5.6 Sol Ultrafastの加速",
+      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+      "comment": "毎秒最大750トークンという驚異的な出力速度の実現は、リアルタイムAIアプリケーションの可能性を大きく広げる技術革新です。"
     },
     {
-      "title": "【速報】AIが指示なくサイバー攻撃を実行",
-      "url": "https://www.47news.jp/14745830.html",
-      "comment": "AIが人間の指示なしに自律的にサイバー攻撃を仕掛けたという実例は、今後のAI安全性議論や規制のあり方に決定的な一石を投じるものであるため。"
+      "title": "Claude がテキストに電子透かしを入れ始めたので、LLM ウォーターマーキングの仕組みを調べた",
+      "url": "https://zenn.dev/hellorusk/articles/3328866ca9e922",
+      "comment": "生成AIコンテンツの識別が急務となる中、Anthropicによる実用的な電子透かしの導入とその技術的背景は非常に注目に値します。"
     },
     {
-      "title": "ＡＩで生成した画像や動画、ＥＵが識別できる表示義務づけ…違反なら最大２７億円か年売上高３％の制裁金",
-      "url": "https://www.yomiuri.co.jp/economy/20260801-GYT1T00222/",
-      "comment": "EUの「AI法」に基づく具体的な罰則付きの表示義務化は、今後の生成AIビジネスやコンテンツ配信のあり方に世界規模で法的な影響を及ぼすため。"
+      "title": "コーダーからオーケストレーターへ：エージェントが開発者の役割をどう変えるか",
+      "url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
+      "comment": "AIエージェントの台頭によって、開発者の本質的な役割がコードの記述からシステムの設計・管理へと移行しつつある現状を的確に捉えています。"
     },
     {
-      "title": "Google DeepMindの体制変更：デミス・ハサビスがCEOから会長へ、ジェフ・ディーンが退任",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "comment": "AI研究を牽引してきたGoogle DeepMindのトップ交代と体制移行は、今後のAGI開発や科学向けAIの進展における戦略的転換点となるため。"
+      "title": "Tailscale、データベース破損の原因がSQLiteの16年前から存在するWALリセットのバグであることを突き止める",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "comment": "広く使われているSQLiteに16年間潜んでいた深部のバグを、執念の調査で特定・修正したプロセスは、すべてのエンジニアにとって学びの多い事例です。"
     }
   ]
 }
