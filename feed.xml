@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 16 Aug 2026 22:27:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 22:34:39 +0000</lastBuildDate>
     <item>
-      <title>我々は富豪プログラミングをしていた。Cloudflare Workersで実装はどう変わるか</title>
-      <link>https://zenn.dev/rdlabo/articles/cloudflare-workers-after-rich-programming</link>
-      <guid isPermaLink="false">https://zenn.dev/rdlabo/articles/cloudflare-workers-after-rich-programming</guid>
-      <description>[Score: 90] AWSからCloudflare Workersへ移行したことで、これまで意識しなかったリソースの「重さ」を実感した体験談。 / Workersの厳しいメモリやバンドルサイズ制限により、大容量SDKの導入やメモリへの全載せを見直す契機となった。 / パッケージの選定基準を責務ベースに変え、真に必要なコードのみを厳選する設計思想への変化を解説。 (Source: Zenn)</description>
-      <pubDate>Fri, 14 Aug 2026 20:40:24 +0000</pubDate>
+      <title>AIが生成したGitHub Copilotの「自動修正」によりSnowflakeのJiraが侵害される脆弱性が発生</title>
+      <link>https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug</link>
+      <guid isPermaLink="false">https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug</guid>
+      <description>[Score: 90] AIセキュリティツール「Red Agent」が、SnowflakeのGitHubリポジトリに重大な脆弱性を発見した。 / GitHub Copilotがコードの自動修正や検証に関与していたが、スクリプトインジェクションの脆弱性を見落としていた。 / AIによる開発支援が脆弱性を生み出し、同時にAIによるセキュリティ監査がそれを発見するという新たな現実を示している。 (Source: Hacker News)</description>
+      <pubDate>Mon, 17 Aug 2026 14:18:38 +0000</pubDate>
     </item>
     <item>
-      <title>「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート</title>
-      <link>https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html</guid>
-      <description>[Score: 90] 主要IT企業らがAIエージェントのスキルや接続設定を共有できる業界標準仕様「Agent Plugins 1.0.0」を発表しました。 / 従来はベンダーごとに異なっていた設定方法を共通化し、異なるAIエージェント間での設定移行や共有を容易にします。 / Microsoft、OpenAI、AWS、Googleなどの主要プレイヤーがサポートを表明しており、エコシステムの活性化が期待されます。 (Source: Publickey)</description>
-      <pubDate>Sun, 09 Aug 2026 15:19:33 +0000</pubDate>
+      <title>Pythonライクで高速な「Mojo言語」がバージョン1.0に到達、今後はコンパイラをオープンソース化すると表明</title>
+      <link>https://www.publickey1.jp/blog/26/pythonmojo10.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/pythonmojo10.html</guid>
+      <description>[Score: 90] AI処理の高速化を目指すPython風のプログラミング言語「Mojo」がバージョン1.0に到達しました。 / 当初のPython完全互換路線から、GPU等のハードウェアに最適化された「AI時代のシステム言語」へと位置づけを確立しています。 / 開発元のModular社は、今後コンパイラをオープンソース化する方針を表明し、コミュニティ主導の開発を促進します。 (Source: Publickey)</description>
+      <pubDate>Mon, 17 Aug 2026 15:40:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>攻撃手法から学ぶ OAuth セキュリティベストプラクティス</title>
+      <link>https://zenn.dev/hidebike712/books/oauth-attacks-and-bcp</link>
+      <guid isPermaLink="false">https://zenn.dev/hidebike712/books/oauth-attacks-and-bcp</guid>
+      <description>[Score: 88] OAuthおよびOIDCにおける様々な攻撃手法と、それに対するセキュリティベストプラクティスを解説した書籍です。 / リダイレクトURIの不十分な検証からDPoP Proofリプレイアタックまで、最新の脅威を網羅しています。 / APIセキュリティの専門家による、実践的かつ詳細なセキュリティ対策の知識が体系的にまとめられています。 (Source: Zenn)</description>
+      <pubDate>Sun, 16 Aug 2026 18:37:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>【インシデント報告】Defender が有効なのに、開発機で5日間マイニングされていた</title>
+      <link>https://qiita.com/claudecat/items/fd8f449f1dddcc9f31fe?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/claudecat/items/fd8f449f1dddcc9f31fe?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 88] Windows Defenderが有効な開発環境において、検知をすり抜けて5日間にわたりマイニングが行われていたインシデントの報告。 / DiscordからClaude Codeを動かす自作Botの動作遅延をきっかけに、CPU使用率の異常から不正プロセスを発見。 / セキュリティソフトを過信せず、管理者PowerShellで不審なプロセスや設定をチェックすることの重要性を喚起している。 (Source: Qiita)</description>
+      <pubDate>Sun, 16 Aug 2026 02:59:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLMサービングの1年：ワークロードの進化、キャッシュ、およびロードバランシング</title>
+      <link>https://arxiv.org/abs/2608.13573</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2608.13573</guid>
+      <description>[Score: 88] LLM（大規模言語モデル）の推論サービングにおける、1年間にわたる実運用の変化と課題を分析しています。 / リクエストのワークロードの進化パターンを明らかにし、効率的なキャッシュ戦略を評価しています。 / 大規模なLLM運用におけるロードバランシングの最適化手法についても実践的な知見を提供します。 (Source: arXiv cs.AI)</description>
+      <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DuckDB v2.0のプレビュー</title>
+      <link>https://duckdb.org/2026/08/17/duckdb-20-highlights</link>
+      <guid isPermaLink="false">https://duckdb.org/2026/08/17/duckdb-20-highlights</guid>
+      <description>[Score: 85] 軽量なインプロセスデータベースであるDuckDBの次期メジャーバージョン「v2.0」の機能が公開された。 / クライアント/サーバーモードの導入、非同期I/O、新しいSQLパーサーやストレージフォーマットなどが含まれる。 / これまでのインプロセス型から、サーバーとしても動作する新たなフェーズへの移行を示す重要なアップデートとなる。 (Source: Hacker News)</description>
+      <pubDate>Mon, 17 Aug 2026 13:46:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI エージェントの「認可疲れ」に効く処方箋 : 理論から実装まで</title>
+      <link>https://zenn.dev/aws_japan/articles/2b62886aa8735e</link>
+      <guid isPermaLink="false">https://zenn.dev/aws_japan/articles/2b62886aa8735e</guid>
+      <description>[Score: 85] AIエージェントが複数の外部SaaSと連携する際に発生する、度重なる認可要求（認可疲れ）の課題を解決する手法を解説しています。 / ブラウザを持たずCookieが使えないAIエージェントにおいて、1回のみの認証で安全にSSOのような体験を実現する理論を提示しています。 / MCP（Model Context Protocol）などのツール実行における認可の仕組みと、AWSを用いた具体的な実装方法を網羅しています。 (Source: Zenn)</description>
+      <pubDate>Sun, 16 Aug 2026 13:18:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hello, Solid 2.0 ! —— use() も startTransition もない Async React !?</title>
+      <link>https://zenn.dev/r1013t/articles/37669abac10840</link>
+      <guid isPermaLink="false">https://zenn.dev/r1013t/articles/37669abac10840</guid>
+      <description>[Score: 85] Solid 2.0がRC版となり、Reactの「Async React」とは異なるアプローチで非同期処理を導入。 / Reactが複数のAPIを組み合わせて実現する非同期UI制御を、Solid 2.0はリアクティブグラフの性質として統合。 / 計算処理（createMemoなど）が直接Promiseを返せるシンプルなモデルを提示している。 (Source: Zenn)</description>
+      <pubDate>Sun, 16 Aug 2026 09:47:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>稀少本の出荷を追跡した結果、AmazonのAIトレーニング施設にたどり着いた。Amazonが本をスキャンして破棄する施設</title>
+      <link>https://www.reddit.com/r/technology/comments/1vqs5hf/we_tracked_a_shipment_of_rare_books_it_ended_at/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vqs5hf/we_tracked_a_shipment_of_rare_books_it_ended_at/</guid>
+      <description>[Score: 85] 追跡された稀少本の出荷先が、AmazonのAIトレーニング施設であることが判明しました。 / この施設では、書籍をスキャンしてデジタル化した後に物理的に破壊しているとされています。 / AIの学習データ収集における著作権や文化財保護に関する倫理的課題を提起しています。 (Source: Reddit)</description>
+      <pubDate>Mon, 17 Aug 2026 13:19:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Visual Studio Code 1.133正式リリース。プロンプトを見失わない固定スクロール、ローカルHTMLファイルの自動リロード、ClaudeとCopilotの混在可能など新機能</title>
+      <link>https://www.publickey1.jp/blog/26/visual_studio_code_1133htmlclaudecopilot.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/visual_studio_code_1133htmlclaudecopilot.html</guid>
+      <description>[Score: 85] 人気エディタ「Visual Studio Code 1.133」が正式リリースされ、多数の新機能が追加されました。 / AIチャットでプロンプトを見失わない「固定スクロール」や、ローカルHTMLの自動リロードに対応しています。 / さらに、AI支援機能としてClaudeとCopilotを混在して利用できるようになり、開発効率がさらに向上します。 (Source: Publickey)</description>
+      <pubDate>Mon, 17 Aug 2026 15:42:34 +0000</pubDate>
     </item>
     <item>
       <title>タブもテーマも拡張機能もないAI専用の超軽量ヘッドレスブラウザ「Kitesurf」、Cloudflareが発表</title>
       <link>https://www.publickey1.jp/blog/26/aikitesurfcloudflare.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aikitesurfcloudflare.html</guid>
-      <description>[Score: 88] Cloudflareが、AIエージェントによる操作に特化した超軽量ヘッドレスブラウザ「Kitesurf」のベータ版を発表。 / Rustで開発されWebAssemblyにコンパイルされており、同社のCloudflare Workers上で動作する。 / Chromiumと比較してCPUやメモリ消費を3〜7分の一に抑え、リクエストごとに高速起動する設計となっている。 (Source: Publickey)</description>
+      <description>[Score: 85] CloudflareはAIエージェントの操作に特化した超軽量ヘッドレスWebブラウザ「Kitesurf」を発表した。 / Rustで記述されWebAssemblyにコンパイルされており、Cloudflare Workers上で動作し、Chromiumに比べCPUとメモリの消費を大幅に削減する。 / 人間用ブラウザとは異なるAIエージェント特有の要件に対応し、リクエストごとに高速に起動する設計となっている。 (Source: Publickey)</description>
       <pubDate>Sun, 16 Aug 2026 15:10:13 +0000</pubDate>
     </item>
     <item>
-      <title>AIモデルは意図的に「馬鹿」になっている</title>
-      <link>https://w4g1.dev/blog/models-are-getting-dumber-on-purpose</link>
-      <guid isPermaLink="false">https://w4g1.dev/blog/models-are-getting-dumber-on-purpose</guid>
-      <description>[Score: 85] 最新の軽量LLMは数学やコードのベンチマークで高い推論能力を示す一方、事実の記憶を問うテストでは低いスコアに留まっています。 / これは、モデルの限られたパラメータ容量の中で、事実の記憶（知識）を削り、推論能力にリソースを割り当てる意図的なトレードオフによるものです。 / 事実の記憶には膨大な容量が必要となるため、開発企業は知識を外部ツールに頼り、モデル自体は推論に特化させる方向へシフトしています。 (Source: Hacker News)</description>
-      <pubDate>Sun, 16 Aug 2026 19:04:26 +0000</pubDate>
+      <title>キャンバスがエージェント型ワークフローを可視化し、制御可能で、コスト効率よくする方法</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/</guid>
+      <description>[Score: 85] 生成AIの進化により、開発者とAIエージェントが協調して働くハイブリッドチームへの移行が急速に進んでいる。 / 従来のチャットUIでは、エージェントが生成した大量の変更の追跡や、コンテキストの維持が困難になる課題があった。 / GitHub Copilotの「キャンバス」機能は、共有された持続的な画面上で開発者とエージェントが協調し、作業の可視化と制御を可能にする。 (Source: GitHub Blog)</description>
+      <pubDate>Mon, 17 Aug 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>デスクトップUIフレームワーク15種のメモリ使用量計測</title>
-      <link>https://zenn.dev/mizugeeks/articles/1019cf2353d343</link>
-      <guid isPermaLink="false">https://zenn.dev/mizugeeks/articles/1019cf2353d343</guid>
-      <description>[Score: 85] 15種類のデスクトップUIフレームワークを用いて同一アプリを作成し、メモリ使用量を実測比較。 / ネイティブ・Rust系は100〜170MB台と軽量な一方、WebView系やJVM/Go系は450〜530MB帯に達する結果となった。 / ElectronとSlintではメモリ消費量に約4.5倍の差があり、フレームワーク選定の重要な指標を提示している。 (Source: Zenn)</description>
-      <pubDate>Sat, 15 Aug 2026 03:10:07 +0000</pubDate>
+      <title>大規模言語モデルにおけるモジュール型認知アーキテクチャの発現</title>
+      <link>https://arxiv.org/abs/2608.13567</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2608.13567</guid>
+      <description>[Score: 85] 大規模言語モデル（LLM）の内部で、モジュール化された認知構造が自然に創発する現象を調査しています。 / 単一の巨大なネットワークが、特定のタスクや機能ごとに分化した認知アーキテクチャのように振る舞う仕組みを解明します。 / LLMの知能のメカニズム解明や、より高度なAIシステム設計に貢献する研究です。 (Source: arXiv cs.AI)</description>
+      <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>エラーを 3 秒で AI に丸投げする若手を見て、AI から答えを取り上げることにした</title>
-      <link>https://qiita.com/jksoft/items/65f7824679ddf171a93d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/jksoft/items/65f7824679ddf171a93d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] エラーをAIに丸投げして解決する開発スタイルにより、エンジニアの自力でのエラー解決能力が低下する危機感を提示している。 / この課題を解決するため、エラーの原因を直接教えるのではなく、問いを投げかけて考えさせるAIメンターサービスを開発。 / AI時代におけるエンジニアの育成や評価、学習プロセスのあり方について、仕組みによる解決アプローチを提案している。 (Source: Qiita)</description>
-      <pubDate>Fri, 14 Aug 2026 00:15:04 +0000</pubDate>
+      <title>Codexを効率よく使う方法（ChatGPT + GitHub）</title>
+      <link>https://zenn.dev/aun_phonogram/articles/3f8c1a7b5d902e</link>
+      <guid isPermaLink="false">https://zenn.dev/aun_phonogram/articles/3f8c1a7b5d902e</guid>
+      <description>[Score: 82] 開発支援ツールであるCodexとChatGPTを役割に応じて効率的に使い分ける手法を提案しています。 / GitHubプラグインを活用し、調査や実装計画、PRレビューなどのコード変更以外の作業をChatGPTに任せます。 / これによりCodexの利用制限枠を節約し、得意なコード実装作業に集中させることが可能になります。 (Source: Zenn)</description>
+      <pubDate>Sun, 16 Aug 2026 22:30:05 +0000</pubDate>
     </item>
     <item>
-      <title>ワークフローを実行するカスタマーサービスAIエージェントの構築（単なる質問回答ではない） - 完全なアーキテクチャ</title>
-      <link>https://dev.to/dextralabs/building-a-customer-service-ai-agent-that-executes-workflows-not-just-answers-questions-full-4dd3</link>
-      <guid isPermaLink="false">https://dev.to/dextralabs/building-a-customer-service-ai-agent-that-executes-workflows-not-just-answers-questions-full-4dd3</guid>
-      <description>[Score: 85] 単に質問に答えるだけでなく、返金処理やアカウント更新などのワークフローを実行するAIエージェントの構築方法を解説。 / Q&amp;Aエージェントとは異なり、意図の分類、ツールの実行、応答の生成という3つのステップを持つアーキテクチャが重要となる。 / AnthropicのSDKを用いた具体的なエージェントループの実装コードを交え、本番環境での複雑なツール利用レイヤーの設計を紹介。 (Source: Dev.to)</description>
-      <pubDate>Sun, 16 Aug 2026 21:59:41 +0000</pubDate>
+      <title>Claude Codeに動画を見せる /watch-video、実は「渡すだけ」じゃなかった — 3つの深さを使い分ける</title>
+      <link>https://qiita.com/jqit_suwa/items/fe5975104ffefa49f632?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/jqit_suwa/items/fe5975104ffefa49f632?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 82] Claude Codeで動画を解析する「/watch-video」スキルの仕様と、3段階の解析モードの使い分けについて解説。 / 既定の文字起こしのみから、画像解析やマルチモーダル処理まで、コストや動画の種類に応じて自動・手動で切り替える設計。 / 動画の特性（画面共有かトークか）に応じたフレーム抽出頻度の自動判定や、外部ツールの必要性など実用的な注意点を紹介。 (Source: Qiita)</description>
+      <pubDate>Sun, 16 Aug 2026 23:43:14 +0000</pubDate>
     </item>
     <item>
-      <title>なぜ、AI時代においてC#は最適な言語の1つなのか？</title>
-      <link>https://qiita.com/tomokusaba/items/45b66545bb7ea88e8403?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/tomokusaba/items/45b66545bb7ea88e8403?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 82] AIが生成するコードの誤りを人間が素早く検証・修正する上で、C#が非常に適した設計の言語であることを主張している。 / 強力な静的型付けやコンパイル時のチェックにより、AIが生成したコードの「意味的な崩れ」を実行前に検知しやすい。 / 型を設計そのものとして扱い、AIとの共同作業において安全かつ高品質な実装基盤を提供できる強みを解説。 (Source: Qiita)</description>
-      <pubDate>Fri, 14 Aug 2026 09:37:58 +0000</pubDate>
+      <title>マグニチュードに基づくエキスパートマスキングを用いたMixture-of-Expertsモデルの深度を考慮した感度分析</title>
+      <link>https://arxiv.org/abs/2608.13565</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2608.13565</guid>
+      <description>[Score: 82] 大規模モデルで主流となりつつあるMixture-of-Experts（MoE）モデルの内部構造を解析する手法を提案しています。 / 重みの大きさに応じたエキスパートのマスキングを行い、モデルの深さに応じた感度の変化を分析します。 / MoEモデルの効率的なプルーニングや最適化に向けた重要な知見を提供します。 (Source: arXiv cs.AI)</description>
+      <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RustにおけるGPUオフロード：ポータブル、安全、そして高速</title>
+      <link>https://arxiv.org/abs/2608.13759</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2608.13759</guid>
+      <description>[Score: 80] Rust言語を用いて、移植性と安全性を維持しながら高速なGPU処理を実現する手法の提案。 / メモリ安全性を保証するRustの特性を活かし、GPGPU開発におけるバグや脆弱性を防ぐアプローチ。 / AIや高性能計算（HPC）の分野において、より安全で効率的なハードウェアアクセラレーションを可能にする。 (Source: Hacker News)</description>
+      <pubDate>Mon, 17 Aug 2026 17:54:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>海外で急速に広がる「FDE」と、AI時代のエンジニアに求められるより高い専門性</title>
+      <link>https://qiita.com/sumomoo/items/7a8bf8214f6d4f70de17?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/sumomoo/items/7a8bf8214f6d4f70de17?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 80] 米国を中心に注目を集める職種「FDE（Forward Deployed Engineer）」の概念と役割について解説。 / FDEは顧客の現場に深く入り込み、課題ヒアリングからプロトタイプ開発、検証までを少人数で迅速に行う。 / AI導入が進む中、画一的な開発ではなく、各企業の現場に合わせた個別最適化を行うエンジニアの需要が高まっている。 (Source: Qiita)</description>
+      <pubDate>Mon, 17 Aug 2026 07:29:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>経済が答えを出した。AI生成コンテンツの価値はほぼゼロであり、買い手は財布で投票している</title>
+      <link>https://www.reddit.com/r/technology/comments/1vr2a7d/the_economy_has_spoken_stuff_thats_aigenerated/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vr2a7d/the_economy_has_spoken_stuff_thats_aigenerated/</guid>
+      <description>[Score: 80] 市場においてAI生成コンテンツの価値が極めて低く評価されている現状が指摘されています。 / 消費者は人間の手による創作物を好み、AI生成物は商業的な競争において苦戦を強いられています。 / AI技術の商業化における課題と、コンテンツ市場における人間性の重要性を浮き彫りにしています。 (Source: Reddit)</description>
+      <pubDate>Mon, 17 Aug 2026 19:30:43 +0000</pubDate>
     </item>
     <item>
       <title>Zed開発チームが「Delta」発表。人間とAIの全対話とコード変更履歴をコンテキストとして保存共有するコラボレーションツール</title>
       <link>https://www.publickey1.jp/blog/26/zeddeltaai.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/zeddeltaai.html</guid>
-      <description>[Score: 82] 高速エディタ「Zed」の開発チームが、人間とAIエージェントの協調開発を支援するコラボレーションツール「Delta」を発表。 / 人間とAIのチャットによる対話内容や、それに基づくコードの変更履歴をすべてコンテキストとして保存・共有できる。 / これにより、コードがどのような指示やプロンプトで作成・変更されたのかを後から容易に振り返ることが可能になる。 (Source: Publickey)</description>
+      <description>[Score: 80] 高速コードエディタ「Zed」の開発チームが、人間とAIエージェントの協調開発を支援するツール「Delta」を発表した。 / 複数人とAIがリアルタイムでチャットし、指示やコードの変更履歴、対話内容をすべてコンテキストとして保存・共有できる。 / これにより、コードが作成・変更された背景や意図をいつでも振り返り、人間とAIの双方が理解しやすくなる。 (Source: Publickey)</description>
       <pubDate>Sun, 16 Aug 2026 15:05:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>ProtobufがLSPをサポートしました</title>
-      <link>https://buf.build/blog/protobuf-lsp</link>
-      <guid isPermaLink="false">https://buf.build/blog/protobuf-lsp</guid>
-      <description>[Score: 80] Bufは、Protobuf（Protocol Buffers）向けとして初となるフル機能のプロダクション対応LSPサーバーをリリースしました。 / これにより、VSCodeやIntelliJなどの主要なIDEで、定義への移動やコード補完、構文ハイライトなどの機能が利用可能になります。 / Buf CLIにバンドルされる形で提供され、開発者は拡張機能をインストールするだけで簡単に導入できます。 (Source: Hacker News)</description>
-      <pubDate>Sun, 16 Aug 2026 18:48:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>botterのためのKaggle金融予測コンペの設計史</title>
-      <link>https://zenn.dev/gamella/articles/f5e6bddab37c8d</link>
-      <guid isPermaLink="false">https://zenn.dev/gamella/articles/f5e6bddab37c8d</guid>
-      <description>[Score: 80] Kaggleにおける金融予測コンペの設計の歴史と、その背景にあるマーケット理解の変遷を解説。 / 過去のコンペの失敗から、Leaderboardの評価方法やバックテストの信頼性を高める工夫が重ねられてきた。 / モデルの一般化性能やレジームシフトへの対応など、実践的な金融データ分析の知見がまとめられている。 (Source: Zenn)</description>
-      <pubDate>Sun, 16 Aug 2026 04:43:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>概念設計が、その後のコードの命運を左右する</title>
-      <link>https://zenn.dev/takeshi_teshima/articles/bae79b2f0f97be</link>
-      <guid isPermaLink="false">https://zenn.dev/takeshi_teshima/articles/bae79b2f0f97be</guid>
-      <description>[Score: 80] ソフトウェア開発における概念設計の重要性と、それが実装や仕様変更に与える影響を解説している。 / ECサイトの例を用いて、注文と履行を区別する設計の有無によるコードの複雑さの違いを示す。 / 適切な概念設計を行うことで、仕様変更時の帳尻合わせを防ぎ、素直で堅牢な実装が可能になる。 (Source: Zenn)</description>
-      <pubDate>Fri, 14 Aug 2026 13:00:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>記憶を保つのはシナプスの強さではなく「つながり方」：沖縄科学技術大学院大などが人工冬眠マウスで示す</title>
-      <link>https://ki-to-oku.net/oist-artificial-hibernation-memory-retention/</link>
-      <guid isPermaLink="false">https://ki-to-oku.net/oist-artificial-hibernation-memory-retention/</guid>
-      <description>[Score: 80] OISTなどの研究チームが、人工冬眠マウスを用いて長期記憶の保持メカニズムに関する新知見をScience誌に発表。 / 冬眠中に脳のシナプスが半数以上消失しても記憶は保たれており、従来の「シナプスの強さ」が記憶を保つという通説を覆した。 / 記憶を担う神経細胞同士のシナプスの配置パターン（クラスター）が優先的に残ることで記憶が維持される可能性を示した。 (Source: はてなブックマーク)</description>
-      <pubDate>Sun, 16 Aug 2026 21:27:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>エージェントアプリを使用してソフトウェア配信ワークフローをGitHubに統合する方法</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/</guid>
-      <description>[Score: 80] 開発者がプルリクエスト作成時に複数の外部ツールを行き来する手間を省くため、GitHubエージェントアプリの活用を提案。 / Copilotクラウドエージェントと同じプラットフォームを基盤とし、AmplitudeやPagerDutyなどの外部サービスをGitHub上で直接操作可能にする。 / 開発者がコンテキストを切り替えることなく、GitHubの画面内から自然言語で外部データへの問い合わせや操作を行う具体例を紹介。 (Source: GitHub Blog)</description>
-      <pubDate>Fri, 14 Aug 2026 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>形式検証（フォーマルベリフィケーション）に対する反対論、50年後</title>
-      <link>https://ivan-gavran.github.io/0-social-processes-paper</link>
-      <guid isPermaLink="false">https://ivan-gavran.github.io/0-social-processes-paper</guid>
-      <description>[Score: 78] AIコーディングの普及に伴い、生成されたコードの正当性を保証する手段として形式検証への関心が急速に高まっています。 / AIエージェントの活用により、従来は困難だった形式検証自体の高速化や実開発への導入が容易になりつつあります。 / この盛り上がりのなかで、形式検証の限界を指摘した50年前の古典的論文を振り返り、その現代的な意義を再考しています。 (Source: Hacker News)</description>
-      <pubDate>Sun, 16 Aug 2026 20:38:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>『Claude Code実践入門』を発売日に一気読みしたので感想をつらつらと</title>
-      <link>https://qiita.com/tomada/items/0bfbaffce6fae70be17f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/tomada/items/0bfbaffce6fae70be17f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 78] 新刊『Claude Code実践入門』を発売日に読了し、その実践的で網羅的な内容について感想をまとめている。 / 単なる機能紹介にとどまらず、実際の挙動やセキュリティ上の制限、サンドボックス機能の図解などが誠実に解説されている点を評価。 / 個人利用からチーム開発、ヘッドレスモードの活用まで、手を動かしたくなるような工夫が凝らされた一冊であると紹介。 (Source: Qiita)</description>
-      <pubDate>Fri, 14 Aug 2026 23:00:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>50のオープンソースプロジェクトから学んだAI時代のセキュリティ</title>
-      <link>https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/</link>
-      <guid isPermaLink="false">https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/</guid>
-      <description>[Score: 78] AIの普及に伴うオープンソース開発の高速化と、それに伴う新たなセキュリティ上の課題や脆弱性への対応策を検証。 / GitHub Secure Open Source Fundを通じて50のプロジェクトを支援し、AI支援ワークフローと専門家によるセキュリティ向上を実証。 / AIはメンテナーの調査や対応を迅速化する強力なツールとなるが、最終的な判断や責任は人間が担うべきであるという教訓を提示。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 13 Aug 2026 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude：システムプロンプト</title>
-      <link>https://platform.claude.com/docs/en/release-notes/system-prompts</link>
-      <guid isPermaLink="false">https://platform.claude.com/docs/en/release-notes/system-prompts</guid>
-      <description>[Score: 75] ClaudeのWebインターフェースやモバイルアプリで利用されているシステムプロンプトの仕様が公開されました。 / システムプロンプトは、最新情報の提供やMarkdownでのコード出力といった特定の挙動を促すために定期的に更新されます。 / なお、これらのシステムプロンプトの自動更新は、API経由で利用するClaudeモデルには適用されません。 (Source: Hacker News)</description>
-      <pubDate>Sun, 16 Aug 2026 12:48:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>AIクレジット転売エコノミーの台頭</title>
-      <link>https://vectoral.com/blog/who-are-the-token-brokers</link>
-      <guid isPermaLink="false">https://vectoral.com/blog/who-are-the-token-brokers</guid>
-      <description>[Score: 75] スタートアップの未使用AIクレジットを買い取って転売する「トークンブローカー」が台頭している。 / 割引価格でAnthropicなどのトークンが取引されており、非公式な推論市場が商業化されつつある。 / ブローカーはプロキシを介してAPIキーのプールからリクエストを転送する仕組みを提供している。 (Source: Hacker News)</description>
-      <pubDate>Sun, 16 Aug 2026 14:44:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>AIエージェントの作業結果、マークダウンで読むの辛くない？ →「HTML共有くん」を作りました</title>
-      <link>https://qiita.com/minorun365/items/320b4230c0b0c169ba13?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/minorun365/items/320b4230c0b0c169ba13?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 75] AIエージェントが生成したHTMLなどの成果物を、スマートフォンからでも手軽に確認・共有できるツールを開発した。 / S3とCloudFrontを組み合わせたシンプルな構成で、LLMを介さず低コストかつ高速に動作する仕組みを実現。 / 開発プロセスにおけるAIエージェントとの協調作業をより円滑にし、成果物の管理やレビューの効率化に貢献する。 (Source: Qiita)</description>
-      <pubDate>Sun, 16 Aug 2026 06:57:25 +0000</pubDate>
     </item>
   </channel>
 </rss>
