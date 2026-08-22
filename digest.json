@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-08-16T07:33:49.733110+09:00",
-  "week_start": "2026-08-10",
-  "week_end": "2026-08-16",
-  "article_count": 247,
-  "overview": "今週は、主要IT企業が共同で策定したAIエージェントの共通仕様「Agent Plugins 1.0.0」の発表など、AIエージェントの標準化と実用化に向けた動きが大きく加速しました。また、CerebrasとOpenAIによる超高速モデル「GPT-5.6 Sol Ultrafast」やGoogleの「Gemini 3.7 Flash」など、LLMの性能向上と低コスト化・高速化が同時に進んでいます。一方で、AIデータセンターの膨大な電力需要に伴う環境負荷や、LLMの思考プロセスを標的にした新たなセキュリティリスクなど、AIの急速な普及に伴う課題も浮き彫りになりました。",
+  "generated_at": "2026-08-23T07:28:23.658284+09:00",
+  "week_start": "2026-08-17",
+  "week_end": "2026-08-23",
+  "article_count": 254,
+  "overview": "今週は、AIエージェントの標準化やAI開発におけるセキュリティ対策など、AIの実用化とエコシステム構築に向けた重要な動きが目立ちました。特に、完全準同型暗号を用いたGoogleの「HEIR」や、AIエージェントの共通規格「Agent Plugins 1.0.0」の発表は、今後のAI活用を支える基盤技術として注目されます。また、高速な新言語「Mojo」のオープンソース化や、AIエージェント特化型Gitホスティング「Origin」の登場など、開発者向けツールの進化も加速しています。一方で、AIによる自動修正が脆弱性を生むリスクや、AI依存による学習効果の低下といった、AI普及に伴う新たな課題も浮き彫りになった1週間でした。",
   "trends": [
-    "AIエージェントの共通規格「Agent Plugins 1.0.0」の誕生",
-    "LLMの超高速化・低コスト化競争の激化",
-    "開発者の役割がコード記述から「オーケストレーター」へシフト",
-    "AIインフラ急拡大に伴う環境負荷とセキュリティの懸念"
+    "AIエージェントの標準化とエコシステム拡大",
+    "暗号化データとAI処理のセキュリティ融合",
+    "AI時代に最適化された開発ツールとホスティング",
+    "AI生成コードに伴う脆弱性と品質管理の課題"
   ],
   "highlights": [
     {
+      "title": "Google、AIモデルをコンパイルして暗号データを復号せずに扱えるように変換する「HEIR」発表。完全準同型暗号を利用し、AIでのセキュリティやプライバシー保護など実現へ",
+      "url": "https://www.publickey1.jp/blog/26/googleaiheirai.html",
+      "comment": "完全準同型暗号を用いてデータを秘匿したままAI処理を可能にする技術であり、プライバシー保護とAI活用の両立における画期的な進歩です。"
+    },
+    {
+      "title": "Pythonライクな新言語「Mojo」がオープンソースで公開、コンパイラやツールチェーンなど。Windows版の開発も表明",
+      "url": "https://www.publickey1.jp/blog/26/pythonmojowindows.html",
+      "comment": "AI処理の高速化を目指す新言語Mojoが1.0に到達し、コンパイラがオープンソース化されたことで、今後の開発エコシステムに大きな影響を与えると考えられます。"
+    },
+    {
       "title": "「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート",
       "url": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
-      "comment": "主要IT企業が結集してAIエージェントの共通仕様を策定したことは、今後のマルチエージェントエコシステムの発展において極めて重要なマイルストーンです。"
+      "comment": "主要IT企業が協調してAIエージェントの共通規格を策定したことで、ベンダーの垣根を越えたエージェント間連携や移行の標準化が大きく前進します。"
     },
     {
-      "title": "GPT-5.6 Sol Ultrafastの加速",
-      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
-      "comment": "毎秒最大750トークンという驚異的な出力速度の実現は、リアルタイムAIアプリケーションの可能性を大きく広げる技術革新です。"
+      "title": "AIエージェント時代のGitホスティングサービス「Origin」、Cursorが発表。Cursorとの統合、コマンドラインでの操作、GitHubとの同期など提供",
+      "url": "https://www.publickey1.jp/blog/26/aigitorigincursorcursorgithub.html",
+      "comment": "AIエージェントによる大量のコード生成やブランチ作成を前提とした、開発プロセスのパラダイムシフトを象徴する新しいGitホスティングサービスです。"
     },
     {
-      "title": "Claude がテキストに電子透かしを入れ始めたので、LLM ウォーターマーキングの仕組みを調べた",
-      "url": "https://zenn.dev/hellorusk/articles/3328866ca9e922",
-      "comment": "生成AIコンテンツの識別が急務となる中、Anthropicによる実用的な電子透かしの導入とその技術的背景は非常に注目に値します。"
-    },
-    {
-      "title": "コーダーからオーケストレーターへ：エージェントが開発者の役割をどう変えるか",
-      "url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
-      "comment": "AIエージェントの台頭によって、開発者の本質的な役割がコードの記述からシステムの設計・管理へと移行しつつある現状を的確に捉えています。"
-    },
-    {
-      "title": "Tailscale、データベース破損の原因がSQLiteの16年前から存在するWALリセットのバグであることを突き止める",
-      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
-      "comment": "広く使われているSQLiteに16年間潜んでいた深部のバグを、執念の調査で特定・修正したプロセスは、すべてのエンジニアにとって学びの多い事例です。"
+      "title": "AIが生成したGitHub Copilotの「自動修正」によりSnowflakeのJiraが侵害される脆弱性が発生",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "comment": "AIによる開発支援が便利になる一方で、見落とされた自動修正のバグが重大なセキュリティリスクに直結する現実的な課題を浮き彫りにしています。"
     }
   ]
 }
