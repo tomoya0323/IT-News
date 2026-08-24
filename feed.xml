@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 23 Aug 2026 22:28:43 +0000</lastBuildDate>
-    <item>
-      <title>Slack上の開発チームの会話をAIエージェントが把握してコーディング。ドキュメント作成もする「Slack Code」登場</title>
-      <link>https://www.publickey1.jp/blog/26/slackaislack_code.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/slackaislack_code.html</guid>
-      <description>[Score: 92] Slack社は、開発チームのチャットでの議論を理解してコーディングやドキュメント作成を行う新機能「Slack Code」を発表しました。 / AIエージェントとしてClaude Code、Devin、GitHub Copilot、ChatGPTなどの主要なツールに対応します。 / 人間とAIが同じチャットスペースで文脈を共有しながら、リアルタイムに共同開発を進める新しいワークフローを提案しています。 (Source: Publickey)</description>
-      <pubDate>Sun, 23 Aug 2026 15:52:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Android上で学習を継続する230Mの言語モデルを構築</title>
-      <link>https://dev.to/ijulin/we-taught-a-230m-language-model-to-keep-learning-on-android-36hl</link>
-      <guid isPermaLink="false">https://dev.to/ijulin/we-taught-a-230m-language-model-to-keep-learning-on-android-36hl</guid>
-      <description>[Score: 92] Androidデバイス上で直接動作し、出荷後も継続的に学習を続ける2億3000万パラメータの小規模言語モデルのプロトタイプを開発した。 / 「Online-SDFT」と呼ばれる手法を用い、ユーザーの操作履歴などの遅延シグナルからオンデバイスでファインチューニングを行う。 / 推論から学習ループまでをすべてローカルで完結させることで、プライバシーを守りつつ個人に最適化されたAIを実現する。 (Source: Dev.to)</description>
-      <pubDate>Sun, 23 Aug 2026 21:55:22 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 24 Aug 2026 22:32:54 +0000</lastBuildDate>
     <item>
       <title>Rustに移植された「Bun 1.4」正式リリース。Node.jsとの互換性向上でPlaywrightやvitestが動作、CPUとメモリの使用率が大幅改善、正規表現が高速化など</title>
       <link>https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html</guid>
-      <description>[Score: 90] JavaScriptランタイム「Bun 1.4」が正式リリースされ、開発言語がZigからRustへと移植されました。 / この移植はAIツール「Claude Code」を活用して行われ、メモリ動作の安定化や起動速度の向上が実現しました。 / Node.jsとの互換性が大幅に向上し、Playwrightやvitestが動作するほか、メモリリークなどのバグも多数修正されました。 (Source: Publickey)</description>
+      <description>[Score: 90] JavaScriptランタイム「Bun 1.4」が正式リリースされ、主要部分がZigからRustへと移植されました。 / AI（Claude）を活用して短期間で移植が行われ、メモリ使用量の最大35%削減や起動の高速化を実現しています。 / Node.jsとの互換性が大幅に向上し、Playwrightやvitestなどの主要ツールがそのまま動作可能になりました。 (Source: Publickey)</description>
       <pubDate>Sun, 23 Aug 2026 15:58:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pythonライクな新言語「Mojo」がオープンソースで公開、コンパイラやツールチェーンなど。Windows版の開発も表明</title>
-      <link>https://www.publickey1.jp/blog/26/pythonmojowindows.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/pythonmojowindows.html</guid>
-      <description>[Score: 90] Modular社は、Pythonライクな高速新言語「Mojo」のコンパイラやツールチェーンをオープンソースとしてGitHubに公開した。 / あわせて、推論処理などを行う「MAX」ライブラリのソースコードも公開されている。 / これまでサポートが限定的だったWindows版の開発も正式に表明され、さらなる普及が期待される。 (Source: Publickey)</description>
-      <pubDate>Wed, 19 Aug 2026 15:40:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>LLM支援によるコード品質を向上させる私のagent.md</title>
-      <link>https://fabiensanglard.net/agent.md/index.html</link>
-      <guid isPermaLink="false">https://fabiensanglard.net/agent.md/index.html</guid>
-      <description>[Score: 88] LLMを用いたコーディング支援において、生成されるコードの品質（スパゲッティコードなど）が課題であった。 / エージェント型IDEで繰り返し行う指示（マジックナンバーの回避、コメント追加など）を「agent.md」に集約。 / セッション開始時にこのファイルをプロンプトに注入することで、手書きに近い高品質なコードを効率的に生成可能にした。 (Source: Hacker News)</description>
-      <pubDate>Sun, 23 Aug 2026 17:59:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Docker社、コンテナ向けの高性能な新ハイパーバイザ「Docker VMM」パブリックベータ公開</title>
-      <link>https://www.publickey1.jp/blog/26/dockerdocker_vmm.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/dockerdocker_vmm.html</guid>
-      <description>[Score: 88] Docker社は、コンテナ向けに独自開発した高性能な新ハイパーバイザ「Docker VMM」のパブリックベータ版を公開した。 / WindowsおよびmacOSに対応した「Docker Desktop v4.86」から利用可能となっている。 / これにより、コンテナの起動高速化やホスト・コンテナ間のファイルI/Oが劇的に改善される。 (Source: Publickey)</description>
-      <pubDate>Wed, 19 Aug 2026 17:43:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>複雑なシステムはどのようにして崩壊するか (1998)</title>
-      <link>https://how.complexsystems.fail/</link>
-      <guid isPermaLink="false">https://how.complexsystems.fail/</guid>
-      <description>[Score: 85] 交通や医療などの複雑なシステムは本質的に危険を内包しており、多層の防御策が講じられている。 / 壊滅的なシステム障害は、単一の要因ではなく、複数の小さな一見無害な障害が重なることで発生する。 / システムの安全性を維持するためには、個々の小さなエラーの連鎖を防ぐ設計と運用の理解が不可欠である。 (Source: Hacker News)</description>
-      <pubDate>Sun, 23 Aug 2026 15:13:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>RTX 5090でFreeTokenを試してみた。35Bでは不要、120B級MoEでは話が変わる</title>
-      <link>https://zenn.dev/holy_fox/articles/53b82eed45f956</link>
-      <guid isPermaLink="false">https://zenn.dev/holy_fox/articles/53b82eed45f956</guid>
-      <description>[Score: 85] VRAMに収まらない巨大なMoEモデルをコンシューマGPUで動かす推論エンジン「FreeToken」の検証記事。 / expertをホストRAMに置き、必要なものだけPCIe経由でGPUにキャッシュする仕組みを解説している。 / RTX 5090環境にて、120B級の巨大モデルを実用的な速度で推論できることを実証している。 (Source: Zenn)</description>
-      <pubDate>Sat, 22 Aug 2026 07:44:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>AIコーディングの精度を劇的に向上させる Context7 MCP Server 完全ガイド</title>
-      <link>https://qiita.com/tomada/items/42537e0b14b38797d218?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/tomada/items/42537e0b14b38797d218?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] AIコーディングアシスタントに最新のライブラリドキュメントを直接提供するMCPサーバー「Context7」の導入ガイド。 / Upstashが開発したこのツールは15,000以上のライブラリに対応し、AIが古いバージョンのコードを生成する問題を解決する。 / Cursor、Claude Desktop、Claude Codeへの具体的な設定手順を解説し、開発効率とコード精度の向上を支援する。 (Source: Qiita)</description>
-      <pubDate>Fri, 21 Aug 2026 13:56:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>AIに書かせたら、前より休めなくなった｜松浦勝人</title>
-      <link>https://note.com/maxmatsuura/n/ne59969fd6e71</link>
-      <guid isPermaLink="false">https://note.com/maxmatsuura/n/ne59969fd6e71</guid>
-      <description>[Score: 85] 松浦勝人氏が、自身の膨大な過去データをAIに学習させ、note記事を自動執筆させる試みを紹介。 / AIは執筆速度が速く過去の発言も正確に引用するが、事実確認やニュアンスの修正、AIからの質問への回答に多大な労力がかかる。 / AIによる自動化は作業を効率化する一方で、人間側の確認や対話の負担を増やし、結果的に休めなくなるという逆説的な結論を提示している。 (Source: はてなブックマーク)</description>
-      <pubDate>Sun, 23 Aug 2026 12:43:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>7月にオーストラリアで発生した大規模通信障害の仕組みが判明したが、ITエンジニアが怖くて泣いてしまう内容だった「時刻が正確に合わなかったのか…」</title>
-      <link>https://togetter.com/li/2736568</link>
-      <guid isPermaLink="false">https://togetter.com/li/2736568</guid>
-      <description>[Score: 85] オーストラリアで発生した全国的な大規模通信障害の原因が、NTPサーバーの時刻同期不具合であると判明しました。 / ハードウェア交換に伴いGPSの1024週巻き戻り（ロールオーバー）が発生し、サーバー証明書が有効期限外と判定されました。 / これにより基地局間の認証が失敗し、インフラ保守におけるドキュメント不足や属人化の恐ろしさが浮き彫りとなりました。 (Source: はてなブックマーク)</description>
-      <pubDate>Sun, 23 Aug 2026 11:01:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>Flutter 3.47正式リリース。UIライブラリが分離され独立してアップデート可能、デフォルトでWebAssemblyを生成する方向に、など新機能</title>
-      <link>https://www.publickey1.jp/blog/26/fluter_347uiwebassembly.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/fluter_347uiwebassembly.html</guid>
-      <description>[Score: 85] GoogleはDart言語によるアプリフレームワークの最新版「Flutter 3.47」を正式リリースした。 / UIライブラリの「Material」と「Cupertino」が独立したパッケージとして分離され、個別にアップデート可能になった。 / デスクトップ向けにImpellerがデフォルトレンダラーとなり、Web向けにはWebAssemblyの生成がデフォルト化される方向性が示された。 (Source: Publickey)</description>
-      <pubDate>Thu, 20 Aug 2026 15:02:15 +0000</pubDate>
     </item>
     <item>
       <title>8月17日の障害と今後の取り組み</title>
       <link>https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/</link>
       <guid isPermaLink="false">https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/</guid>
-      <description>[Score: 85] 2024年8月17日、GitHubで約7時間45分にわたり各種サービスが停止する大規模な障害が発生した。 / 原因はトラフィック急増時に米国中部の重要インフラコンポーネントがスケールアウトに失敗したことである。 / コードや設定の変更ではなく容量不足が原因であり、GitHubはインフラの信頼性向上を急ぐとしている。 (Source: GitHub Blog)</description>
+      <description>[Score: 90] 8月17日にGitHubで約7時間47分に及ぶ大規模なサービス障害が発生し、世界中の開発者に影響を与えました。 / 障害の原因はトラフィック急増時に重要インフラがスケールアウトに失敗したキャパシティの問題です。 / コード変更によるものではなく、今後はインフラの信頼性向上とスケーラビリティの強化を加速させるとしています。 (Source: GitHub Blog)</description>
       <pubDate>Thu, 20 Aug 2026 18:36:11 +0000</pubDate>
     </item>
     <item>
-      <title>React 19.3 browser() APIの使いみち～FUNSTACK Routerの場合～</title>
-      <link>https://zenn.dev/uhyo/articles/react-use-browser-usage</link>
-      <guid isPermaLink="false">https://zenn.dev/uhyo/articles/react-use-browser-usage</guid>
-      <description>[Score: 82] React 19.3で導入予定の、コンポーネントがブラウザ上でのみレンダリング可能であることを示す`browser()` APIを解説。 / SSR時にこのAPIが呼ばれると、直近のSuspenseバウンダリがフォールバック化する挙動を利用する。 / 自作OSS「FUNSTACK Router」における具体的なユースケースを交え、SSRとクライアントサイドの境界制御について紹介している。 (Source: Zenn)</description>
-      <pubDate>Fri, 21 Aug 2026 13:52:58 +0000</pubDate>
+      <title>MSペイントとフォト、ローカル生成された画像にもGUIDによる不可視の透かしを埋め込み</title>
+      <link>https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/</link>
+      <guid isPermaLink="false">https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/</guid>
+      <description>[Score: 88] Windowsの「ペイント」や「フォト」に搭載されたローカルAI機能の解析により、生成画像に不可視の透かしが埋め込まれていることが判明した。 / この透かしにはGUIDが含まれており、ローカルで生成された画像であっても個別に識別可能になっている。 / アプリ内部には暗号化されたONNXモデルが同梱されており、それらを利用して画像生成や処理が行われている。 (Source: Hacker News)</description>
+      <pubDate>Mon, 24 Aug 2026 15:28:04 +0000</pubDate>
     </item>
     <item>
-      <title>テキサス州のグレッグ・アボット知事、データセンターは「自らの墓穴を掘った」と発言</title>
-      <link>https://www.reddit.com/r/technology/comments/1vwifxj/texas_gov_greg_abbott_says_data_centers_dug_their/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vwifxj/texas_gov_greg_abbott_says_data_centers_dug_their/</guid>
-      <description>[Score: 82] テキサス州のグレッグ・アボット知事が、電力需要を急増させているデータセンター業界に対し厳しい批判を展開した。 / 知事は、データセンターが州の電力網に過大な負荷をかけながら、十分なインフラ投資や対策を怠ってきたと指摘している。 / AIブームに伴うデータセンターの急増と、それに伴う電力供給不足問題が政治的な対立に発展していることを示している。 (Source: Reddit)</description>
-      <pubDate>Sun, 23 Aug 2026 20:43:56 +0000</pubDate>
+      <title>Xiaomiの新しいCPU、シングルスレッドでAppleコアに匹敵、マルチスレッドでは大幅に高速化</title>
+      <link>https://twitter.com/lemire/status/2091894299289874926</link>
+      <guid isPermaLink="false">https://twitter.com/lemire/status/2091894299289874926</guid>
+      <description>[Score: 85] Xiaomiが開発した新しいCPU「Xring O3」は、シングルスレッド性能でAppleのコアに匹敵する。 / マルチスレッド処理においてはAppleを大幅に上回る性能を発揮し、合計44MBの大容量キャッシュを搭載している。 / AI加速用のSME2やデータ並列処理用のSVE2をサポートする強力な「C1-Ultra」コアを採用している。 (Source: Hacker News)</description>
+      <pubDate>Mon, 24 Aug 2026 15:08:17 +0000</pubDate>
     </item>
     <item>
-      <title>エージェントアプリを使ってソフトウェア配信ワークフローをGitHubに統合する方法</title>
+      <title>Uber、人間の確認なしにアルゴリズムがドライバーをアカウント停止にしたとして約10億ドルの制裁金</title>
+      <link>https://www.reddit.com/r/technology/comments/1vx1a0d/uber_hit_with_nearly_1_billion_fine_after/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vx1a0d/uber_hit_with_nearly_1_billion_fine_after/</guid>
+      <description>[Score: 85] Uberは、人間のレビューを経ずにアルゴリズムのみでドライバーのアカウントを停止したとして、約10億ドルの巨額の制裁金を科された。 / 自動化された意思決定プロセスが労働者の権利を侵害したと判断された形である。 / AIやアルゴリズムによる自動判定における「人間の関与（Human-in-the-loop）」の重要性を強く示す事例となった。 (Source: Reddit)</description>
+      <pubDate>Mon, 24 Aug 2026 12:22:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>謎のAI「Ox Alpha」が出現し無料テスト中、コンテキストウィンドウは100万トークンで1日数兆トークンを処理できる匿名ラボがAPIを提供</title>
+      <link>https://gigazine.net/news/20260824-ox-alpha/</link>
+      <guid isPermaLink="false">https://gigazine.net/news/20260824-ox-alpha/</guid>
+      <description>[Score: 85] OpenRouter等で、開発組織や詳細が伏せられた謎の高性能AI「Ox Alpha」の無料テストが開始されました。 / 100万トークンのコンテキストウィンドウに対応し、テキスト・画像・動画を処理できるマルチモーダルモデルです。 / 1日数兆トークン規模のトラフィックを処理可能な巨大なインフラを背景に持っていると推測されています。 (Source: はてなブックマーク)</description>
+      <pubDate>Mon, 24 Aug 2026 13:32:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Slack上の開発チームの会話をAIエージェントが把握してコーディング。ドキュメント作成もする「Slack Code」登場</title>
+      <link>https://www.publickey1.jp/blog/26/slackaislack_code.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/slackaislack_code.html</guid>
+      <description>[Score: 85] Slack上で開発チームの会話をAIエージェントが把握してコーディングやドキュメント作成を行う「Slack Code」が登場しました。 / Claude CodeやDevin、GitHub Copilot、ChatGPTなど、主要なAIエージェントに対応しています。 / チームの議論やチャット内容をコンテキストとして理解し、リアルタイムに開発を進めることが可能です。 (Source: Publickey)</description>
+      <pubDate>Sun, 23 Aug 2026 15:52:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>キャンバスがエージェント型ワークフローを可視化し、制御可能で、コスト効率よくする方法</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/</guid>
+      <description>[Score: 85] AIエージェントによる開発は高速ですが、ワークフローが断片化し人間によるレビューが追いつかない課題があります。 / GitHub Copilotの「canvases」機能は、開発者とAIが共有する持続的な作業スペースを提供します。 / これにより、AIの作業プロセスを可視化し、人間が適切に制御・承認できる協調型ワークフローを実現します。 (Source: GitHub Blog)</description>
+      <pubDate>Mon, 17 Aug 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>エージェントアプリを使用してソフトウェア配信ワークフローをGitHubに統合する方法</title>
       <link>https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/</link>
       <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/</guid>
-      <description>[Score: 82] ソフトウェア開発において、複数の外部ツールを行き来することによるコンテキストの断絶が課題だった。 / GitHubエージェントアプリにより、AmplitudeやPagerDutyなどのツールをGitHub上に統合できる。 / GitHub内から直接サードパーティ製エージェントを呼び出し、シームレスに意思決定と作業を完結できる。 (Source: GitHub Blog)</description>
+      <description>[Score: 85] GitHub Copilotのプラットフォームを活用し、外部ツールをエージェントアプリとしてGitHubに統合する方法を紹介。 / AmplitudeやPagerDutyなどのツールをGitHub上から直接操作し、コンテキストの切り替えを減らすことが可能。 / 開発者がGitHubから離れることなく、意思決定からデプロイまでのワークフローを完結できる。 (Source: GitHub Blog)</description>
       <pubDate>Fri, 14 Aug 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>GitHub Universe 2026のガイド：スケジュールが公開されました！</title>
-      <link>https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/</link>
-      <guid isPermaLink="false">https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/</guid>
-      <description>[Score: 82] GitHub Universe 2026のスケジュールが公開され、AI駆動開発の可能性を探るセッションやデモの詳細が明らかになりました。 / OpenAIやAnthropic、NVIDIAなどの専門家が登壇し、Copilotの実務適用やMCPサーバーのセキュリティなどをテーマに講演します。 / 早期登録割引は8月19日までとなっており、参加者はハンズオンを通じてリポジトリに直接応用できる実践的なスキルを学べます。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 13 Aug 2026 19:00:00 +0000</pubDate>
+      <title>Docker社、コンテナ向けの高性能な新ハイパーバイザ「Docker VMM」パブリックベータ公開</title>
+      <link>https://www.publickey1.jp/blog/26/dockerdocker_vmm.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/dockerdocker_vmm.html</guid>
+      <description>[Score: 82] Docker社が独自開発したコンテナ向けの高性能な新仮想化ハイパーバイザ「Docker VMM」のパブリックベータを公開しました。 / WindowsおよびmacOS向けの「Docker Desktop v4.86」から利用可能となっています。 / コンテナの起動速度向上や、ホストOSとコンテナ間におけるファイルI/Oの劇的な高速化が実現されています。 (Source: Publickey)</description>
+      <pubDate>Wed, 19 Aug 2026 17:43:24 +0000</pubDate>
     </item>
     <item>
-      <title>バイブス税（雰囲気税）</title>
-      <link>https://insufferable.dev/posts/vibe-tax/</link>
-      <guid isPermaLink="false">https://insufferable.dev/posts/vibe-tax/</guid>
-      <description>[Score: 80] LLMやAIエージェントの進化により、コードを手書きせずともアプリ開発ができると期待が高まっている。 / しかし、AIが生成したコードのデバッグや、意図通りに動かすための調整に多大な時間と労力が奪われる。 / AI開発がもたらす「手軽さの雰囲気」の裏にある、隠れたコストやフラストレーション（バイブス税）を皮肉を交えて描写。 (Source: Hacker News)</description>
-      <pubDate>Sun, 23 Aug 2026 18:31:02 +0000</pubDate>
+      <title>真実は深層にあり：潜在的意図の検証によるセマンティック・カモフラージュへの対抗</title>
+      <link>https://arxiv.org/abs/2608.20378</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2608.20378</guid>
+      <description>[Score: 82] 悪意ある意図を無害な表現で隠蔽する「セマンティック・カモフラージュ」に対抗する手法を提案。 / AIモデルの潜在的な意図（Latent Intent）を検証することで、巧妙に偽装された攻撃やプロンプトインジェクションを検出。 / LLMやAIシステムのセキュリティと信頼性を向上させるためのアプローチ。 (Source: arXiv cs.AI)</description>
+      <pubDate>Mon, 24 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Go 1.27のhttptest.NewTestServerをAPIクライアントのテストで使ってみて分かったこと</title>
-      <link>https://zenn.dev/catatsuy/articles/8e8dbf6afd1196</link>
-      <guid isPermaLink="false">https://zenn.dev/catatsuy/articles/8e8dbf6afd1196</guid>
-      <description>[Score: 80] Go 1.27で追加された`httptest.NewTestServer`をAPIクライアントのテストに導入した知見をまとめた記事。 / 従来の`NewServer`と異なり、テストのために本番コードのURL定数を変数に変更するなどのハックが不要になる。 / テストコードがシンプルになり、これまでテストが難しかった箇所の検証も容易になるメリットを解説している。 (Source: Zenn)</description>
-      <pubDate>Sat, 22 Aug 2026 05:43:56 +0000</pubDate>
+      <title>欧州の規制はいかにして個人開発者やマイクロ起業家を追い詰めているか</title>
+      <link>https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs</link>
+      <guid isPermaLink="false">https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs</guid>
+      <description>[Score: 80] EUが導入する新しい包装・包装廃棄物規則（PPWR）が、個人開発者や小規模な電子工作メーカーの脅威となっている。 / この規制は、製品の包装資材に対する回収・リサイクル費用の負担を事業者に義務付けるものである。 / 資金力のない個人やマイクロ起業家にとって、この複雑な規制対応コストは事業継続を困難にし、イノベーションを阻害する懸念がある。 (Source: Hacker News)</description>
+      <pubDate>Mon, 24 Aug 2026 13:05:25 +0000</pubDate>
     </item>
     <item>
-      <title>人月で稼ぐSIerは、あと数年で詰む</title>
-      <link>https://zenn.dev/jnch/articles/18cf3f1893ee5b</link>
-      <guid isPermaLink="false">https://zenn.dev/jnch/articles/18cf3f1893ee5b</guid>
-      <description>[Score: 80] 自律型AIエージェントの普及により、従来の「人月」をベースにしたSIerのビジネスモデルが崩壊しつつあります。 / AIが開発と利用の両工程に入り込むことで、投入工数と成果の比例関係が成り立たなくなります。 / 今後は単なるシステム構築ではなく、AIを活用した顧客企業の変革と成果への責任が求められます。 (Source: はてなブックマーク)</description>
-      <pubDate>Sat, 22 Aug 2026 05:14:09 +0000</pubDate>
+      <title>動かして理解するOpenTelemetry</title>
+      <link>https://zenn.dev/simplex/articles/c24bd2788f5831</link>
+      <guid isPermaLink="false">https://zenn.dev/simplex/articles/c24bd2788f5831</guid>
+      <description>[Score: 80] 分散システムにおけるオブザーバビリティを確保するため、OpenTelemetryの基礎と導入方法を解説しています。 / 複数サービス間でリクエストを追跡する「コンテキスト伝播」や「Baggage」の仕組みを詳しく説明しています。 / ユーザーのセッション単位でシステム全体のログを紐付け、トラブルシューティングを容易にする手法を提示します。 (Source: Zenn)</description>
+      <pubDate>Mon, 24 Aug 2026 07:18:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>MITRE ATT&amp;CK の7つの戦術からみた AWS のセキュリティに関するイベント</title>
+      <link>https://zenn.dev/cscloud_blog/articles/b42eeb86af4d06</link>
+      <guid isPermaLink="false">https://zenn.dev/cscloud_blog/articles/b42eeb86af4d06</guid>
+      <description>[Score: 80] MITRE ATT&amp;CKの戦術を用いてAWS環境での脅威検知やCloudTrailログの発生イベントを整理。 / GuardDutyの検知名とATT&amp;CKの戦術が連動しているため、攻撃者のフェーズや対応優先度の把握に実用的。 / AWS特有の初期侵入手法や、単発イベントではなく複数イベントの相関分析の重要性について解説。 (Source: Zenn)</description>
+      <pubDate>Mon, 24 Aug 2026 02:56:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>米国の電力網が18ヶ月の停電リスクに直面、1都市が1週間以上暗闇に包まれる中で当局者が警告</title>
+      <link>https://www.reddit.com/r/technology/comments/1vxchgi/us_power_grid_at_risk_of_18month_blackout/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vxchgi/us_power_grid_at_risk_of_18month_blackout/</guid>
+      <description>[Score: 80] 米国の電力網が最長18ヶ月に及ぶ大規模なブラックアウト（停電）の危機に瀕していると当局が警告した。 / 実際に1つの都市がすでに1週間以上にわたり停電状態に置かれている。 / 重要インフラの脆弱性と、サイバー攻撃や物理的脅威に対する防御の必要性が浮き彫りになっている。 (Source: Reddit)</description>
+      <pubDate>Mon, 24 Aug 2026 19:15:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>アンソロピック、AIの使い方を学べる「Claude Academy」　日本語対応</title>
+      <link>https://www.watch.impress.co.jp/docs/news/2134964.html</link>
+      <guid isPermaLink="false">https://www.watch.impress.co.jp/docs/news/2134964.html</guid>
+      <description>[Score: 80] Anthropicは、AIを安全かつ効果的に活用する方法を学べる学習サイト「Claude Academy」を公開した。 / 単なる機能紹介にとどまらず、AIに任せる作業の見極め方など、モデルに依存しないAI活用の考え方を学べる。 / 同社の従業員教育プログラムをベースにしており、日本語表示にも対応している。 (Source: はてなブックマーク)</description>
+      <pubDate>Mon, 24 Aug 2026 06:28:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>「うわ、すげえ！」Unreal EngineをCodexに操作させたら制作の常識が変わった</title>
+      <link>https://ascii.jp/elem/000/004/428/4428658/</link>
+      <guid isPermaLink="false">https://ascii.jp/elem/000/004/428/4428658/</guid>
+      <description>[Score: 80] Unreal Engine 5.8にて、AIによるアプリ操作を可能にするMCP（モデル・コンテキスト・プロトコル）が実験的に導入されました。 / OpenAIのCodex（GPT-5.6 Sol）を用いて、UE5上でのイベントシーン作成などの作業を大幅に自動化・短縮可能です。 / 3DモデリングAI「Hi3D v3.0」などと組み合わせることで、3D制作のハードルが劇的に下がることが示されています。 (Source: はてなブックマーク)</description>
+      <pubDate>Mon, 24 Aug 2026 03:17:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>シングルバイナリなOLAP DBの次期版「DuckDB 2.0」プレビュー。クライアント／サーバ機能が安定版に、スキーマレスのVARIANT型、トリガー、非同期I/Oなど新機能</title>
+      <link>https://www.publickey1.jp/blog/26/olap_dbduckdb_20variantio.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/olap_dbduckdb_20variantio.html</guid>
+      <description>[Score: 80] 軽量かつ高速な組み込み向けOLAPデータベース「DuckDB 2.0」のプレビュー情報が公開されました。 / 別マシンから接続して操作できるクライアント／サーバ機能が安定版として提供されます。 / スキーマレスなVARIANT型、トリガー機能、非同期I/Oのサポートなど、多くの強力な新機能が搭載予定です。 (Source: Publickey)</description>
+      <pubDate>Mon, 24 Aug 2026 15:29:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Flutter 3.47正式リリース。UIライブラリが分離され独立してアップデート可能、デフォルトでWebAssemblyを生成する方向に、など新機能</title>
+      <link>https://www.publickey1.jp/blog/26/fluter_347uiwebassembly.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/fluter_347uiwebassembly.html</guid>
+      <description>[Score: 80] Googleがアプリ開発フレームワークの最新版「Flutter 3.47」を正式リリースしました。 / UIライブラリのMaterialとCupertinoが独立したパッケージとして分離され、個別にアップデート可能になりました。 / デスクトップ向けにImpellerがデフォルトレンダラーとなり、Web向けにはWebAssemblyのデフォルト生成が進められています。 (Source: Publickey)</description>
+      <pubDate>Thu, 20 Aug 2026 15:02:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>代替テキストが自動チェックを通過しても、それが優れているとは限らない</title>
+      <link>https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/</link>
+      <guid isPermaLink="false">https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/</guid>
+      <description>[Score: 80] Web上の多くの画像で代替テキスト（alt属性）が欠落しているか、無意味な内容になっている現状があります。 / 従来の自動チェッカーは属性の存在のみを検証し、内容が適切かどうかまでは判断できないという限界があります。 / GitHubはアクセシビリティスキャナー用のプラグインを開発し、AIモデルなどを活用した品質評価の取り組みを紹介しています。 (Source: GitHub Blog)</description>
+      <pubDate>Mon, 24 Aug 2026 20:56:32 +0000</pubDate>
     </item>
   </channel>
 </rss>
