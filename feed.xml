@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 25 Aug 2026 22:36:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 03:08:13 +0000</lastBuildDate>
     <item>
-      <title>OpenAI Jalapeño：Nvidia Blackwellを超える性能</title>
-      <link>https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia</link>
-      <guid isPermaLink="false">https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia</guid>
-      <description>[Score: 95] OpenAIがBroadcomと共同開発した、LLM推論に特化した自社設計ASIC「Jalapeño」の詳細が公開された。 / 開発開始からわずか16ヶ月で製造にこぎつけ、ハードウェアとソフトウェアの極限の共同設計により高い汎用性を実現している。 / ベンチマークでは、NvidiaのBlackwellを含む既存の主要な競合チップを上回る性能と優れたTCOを達成したとされる。 (Source: Hacker News)</description>
-      <pubDate>Tue, 25 Aug 2026 14:06:02 +0000</pubDate>
+      <title>NvidiaがHugging Faceを130億ドルで買収合意か</title>
+      <link>https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8</link>
+      <guid isPermaLink="false">https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8</guid>
+      <description>[Score: 95] NvidiaがオープンソースAIプラットフォームのHugging Faceを130億ドル以上で買収する交渉を進めている。 / この取引が実現すれば、半導体大手であるNvidiaにとって過去最大規模の買収案件の一つとなる。 / Hugging FaceはオープンソースAIエコシステムの中核であり、Nvidiaは豊富な資金力を背景に買収攻勢を強めている。 (Source: Hacker News)</description>
+      <pubDate>Thu, 27 Aug 2026 01:12:55 +0000</pubDate>
     </item>
     <item>
-      <title>AppleがM6とM5 Ultraを発表</title>
-      <link>https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/</link>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/</guid>
-      <description>[Score: 92] Appleが最新のMac mini向けに初の2nmプロセスチップ「M6」と、Mac Studio向けに「M5 Ultra」を発表した。 / M6は12コアCPU/GPUやデュアル16コアNeural Engineを搭載し、電力効率とAI処理能力を大幅に向上させている。 / M5 Ultraは初のクアッドダイ構成を採用し、最大36コアCPU、80コアGPU、1.2TB/sのメモリ帯域幅を実現している。 (Source: Hacker News)</description>
-      <pubDate>Tue, 25 Aug 2026 13:01:22 +0000</pubDate>
+      <title>AIの思考ログは、暗号化されているから安全ではなかった</title>
+      <link>https://qiita.com/jqit_suwa/items/92a59e7a464fac9731da?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/jqit_suwa/items/92a59e7a464fac9731da?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 90] Claude CodeなどのAIエージェントが生成する暗号化された推論ログ（thinkingブロック）のセキュリティリスクを解説。 / 公開されたログから暗号化ブロックを復号し、APIキーやパスワードなどの機密情報を復元した研究論文を紹介。 / チャット履歴に表示されない情報も推論ログに含まれるため、「目視確認したから安全」という前提が覆る危険性を指摘。 (Source: Qiita)</description>
+      <pubDate>Tue, 25 Aug 2026 23:52:06 +0000</pubDate>
     </item>
     <item>
-      <title>Apple、新しいM6とM5 Proを搭載し、さらにパワフルになったMac miniを発表</title>
-      <link>https://www.apple.com/jp/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/</link>
-      <guid isPermaLink="false">https://www.apple.com/jp/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/</guid>
-      <description>[Score: 90] Appleが次世代のM6チップおよびM5 Proチップを搭載した、超コンパクトな新型「Mac mini」を発表した。 / M6搭載モデルはAIパフォーマンスが最大4倍、CPU性能が40%向上し、エージェント型AIワークフローをローカルで高速処理できる。 / Wi-Fi 7やBluetooth 6、次世代のApple Intelligenceに対応し、9月22日より販売を開始する。 (Source: はてなブックマーク)</description>
-      <pubDate>Tue, 25 Aug 2026 14:42:13 +0000</pubDate>
+      <title>米国、中国のハッカーが司法省、NASA、連邦準備制度、上院などに侵入したと発表</title>
+      <link>https://www.reddit.com/r/technology/comments/1vz18db/us_says_chinese_hackers_broke_into_justice/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vz18db/us_says_chinese_hackers_broke_into_justice/</guid>
+      <description>[Score: 90] 米政府は、中国のハッカー集団が司法省やNASA、連邦準備制度、上院などの重要機関に侵入したと発表した。 / この大規模なサイバー攻撃は、国家安全保障に関わる機密情報の漏洩リスクを高めている。 / 米中間の緊張が高まる中、政府機関のサイバーセキュリティ対策の脆弱性が改めて露呈した。 (Source: Reddit)</description>
+      <pubDate>Wed, 26 Aug 2026 16:02:17 +0000</pubDate>
     </item>
     <item>
-      <title>M5 MaxおよびM5 Ultraを搭載した新型Mac Studio</title>
-      <link>https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/</link>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/</guid>
-      <description>[Score: 88] Appleは、M5 Maxおよび新型M5 Ultraチップを搭載した、プロ向けのデスクトップPC「Mac Studio」を発表した。 / 前世代と比較してAI性能が最大4.3倍、グラフィックスが最大1.8倍に向上し、最大512GBのユニファイドメモリをサポートする。 / Wi-Fi 7やThunderbolt 5を初搭載し、複数台のMac Studioを接続して分散AI推論を行うクラスタリング機能も利用可能。 (Source: Hacker News)</description>
-      <pubDate>Tue, 25 Aug 2026 13:03:17 +0000</pubDate>
+      <title>MCPの新ロードマップ公開、今後はAIエージェント対応、HTTP通信への統一、アイデンティティ、よりよいデベロッパー体験などに注力</title>
+      <link>https://www.publickey1.jp/blog/26/mcpaihttp.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/mcpaihttp.html</guid>
+      <description>[Score: 90] Agentic AI Foundation（AAIF）がModel Context Protocol（MCP）の新ロードマップを発表しました。 / 今後はAIエージェント対応、HTTP通信への統一、アイデンティティ管理、開発者体験の向上に注力します。 / MCPはAIツールとサービスを接続するための事実上の業界標準プロトコルとして進化を続けています。 (Source: Publickey)</description>
+      <pubDate>Wed, 26 Aug 2026 15:29:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Slack上の開発チームの会話をAIエージェントが把握してコーディング。ドキュメント作成もする「Slack Code」登場</title>
+      <link>https://www.publickey1.jp/blog/26/slackaislack_code.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/slackaislack_code.html</guid>
+      <description>[Score: 90] Slackの新機能として、AIエージェントが開発チャットに加わる「Slack Code」が発表されました。 / チャット内の議論や文脈をコンテキストとして把握し、自律的にコーディングやドキュメント作成を行います。 / Claude CodeやDevin、GitHub Copilot、ChatGPTなど、主要なAIエージェントに対応予定です。 (Source: Publickey)</description>
+      <pubDate>Sun, 23 Aug 2026 15:52:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>8月17日の障害と今後の取り組み</title>
+      <link>https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/</link>
+      <guid isPermaLink="false">https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/</guid>
+      <description>[Score: 90] 8月17日にGitHubで約7時間45分に及ぶ大規模なシステム障害が発生し、多くの主要サービスが停止しました。 / 原因はトラフィック急増時にデータセンターの重要インフラがスケールアウトに失敗した容量不足です。 / コード変更によるものではなく、今後は信頼性向上とインフラのスケール能力強化の取り組みを加速します。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 20 Aug 2026 18:36:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tailcat – Tailscaleのデータプレーンを利用したnetcat風ツール</title>
+      <link>https://github.com/tailscale/tailcat</link>
+      <guid isPermaLink="false">https://github.com/tailscale/tailcat</guid>
+      <description>[Score: 88] Tailscaleのコントロールプレーンを使わずに、データプレーンのみを利用して動作するオープンソースツール「Tailcat」が登場した。 / 2台のマシン間でWireGuard暗号化されたP2Pトンネルを構築し、NAT越えにはDERPリレーを使用する。 / Tailscaleアカウントや管理者権限が不要で、ユーザー空間のライブラリおよびCLIツールとして手軽に利用できる。 (Source: Hacker News)</description>
+      <pubDate>Wed, 26 Aug 2026 17:42:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ローカルでの開発やめませんか？Claude Code / Cursorで開発の8割をクラウドに移した話</title>
+      <link>https://zenn.dev/sc30gsw/articles/953334f11df507</link>
+      <guid isPermaLink="false">https://zenn.dev/sc30gsw/articles/953334f11df507</guid>
+      <description>[Score: 88] Claude CodeやCursorのCloud Agentsを活用し、開発作業の8割をクラウド上の専用VMに移行した体験談です。 / クラウドエージェントはPCを閉じても処理が継続し、隔離環境のためローカルを壊すリスクなく自律実行できます。 / 海外でも「ワークツリーは死んだ、クラウドエージェントが未来」と評されるなど、開発スタイルの大きな変化を提示しています。 (Source: Zenn)</description>
+      <pubDate>Wed, 26 Aug 2026 11:58:18 +0000</pubDate>
     </item>
     <item>
       <title>Next.js 16.3正式版リリース。Turbopackのメモリ使用量が最大90％減、SSRが最大22％高速化、TypeScript 7による型チェック高速化など</title>
       <link>https://www.publickey1.jp/blog/26/nextjs_163turbopack90ssr22typescript_7.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/nextjs_163turbopack90ssr22typescript_7.html</guid>
-      <description>[Score: 88] Webアプリケーションフレームワークの最新版「Next.js 16.3」が正式にリリースされた。 / バンドルツール「Turbopack」のメモリ使用量が最大90%削減され、再ビルド速度が5倍以上高速化。 / SSRの高速化やTypeScript 7による型チェックの高速化に加え、SPA並みの画面遷移を実現する「Instant Navigations」が導入された。 (Source: Publickey)</description>
+      <description>[Score: 88] VercelがWebアプリケーションフレームワークの最新版「Next.js 16.3」を正式リリースしました。 / Turbopackのメモリ使用量が最大90%削減され、SSRの高速化やTypeScript 7による型チェック高速化が実現しました。 / 新機能「Instant Navigations」により、SPA並みの高速な画面遷移が可能となりました。 (Source: Publickey)</description>
       <pubDate>Tue, 25 Aug 2026 17:58:38 +0000</pubDate>
     </item>
     <item>
-      <title>FDAがケトン体と血糖値を測定する初のウェアラブルデバイスを承認</title>
-      <link>https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar</link>
-      <guid isPermaLink="false">https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar</guid>
-      <description>[Score: 85] 米食品医薬品局（FDA）が、ケトン体と血糖値の両方を継続的に測定できる初のウェアラブルデバイスを承認した。 / 糖尿病患者や健康管理に関心のあるユーザーが、リアルタイムで代謝状態を把握できるようになる。 / ヘルスケア分野におけるウェアラブル技術の進化と、個別化医療の進展を示す重要な一歩となる。 (Source: Hacker News)</description>
-      <pubDate>Tue, 25 Aug 2026 19:07:01 +0000</pubDate>
+      <title>Rustに移植された「Bun 1.4」正式リリース。Node.jsとの互換性向上でPlaywrightやvitestが動作、CPUとメモリの使用率が大幅改善、正規表現が高速化など</title>
+      <link>https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html</guid>
+      <description>[Score: 87] JavaScriptランタイム「Bun 1.4」が正式リリースされ、開発言語がZigからRustへ移植されました。 / Node.jsとの互換性が向上し、Playwrightやvitestが動作するようになりました。 / CPUやメモリの使用率が大幅に改善され、起動速度もLinux環境で最大50%高速化しています。 (Source: Publickey)</description>
+      <pubDate>Sun, 23 Aug 2026 15:58:41 +0000</pubDate>
     </item>
     <item>
-      <title>TanStack Start + Hono + oRPC + Cloudflare Workersで社内ERPを作った設計と学び</title>
-      <link>https://zenn.dev/yosashusaku/articles/enterprise-erp-tanstack-hono-orpc</link>
-      <guid isPermaLink="false">https://zenn.dev/yosashusaku/articles/enterprise-erp-tanstack-hono-orpc</guid>
-      <description>[Score: 85] TanStack Start、Hono、oRPC、Cloudflare Workersを組み合わせたFull-Stack TypeScriptによる社内ERPの構築事例。 / EVM（アーンドバリューマネジメント）を用いた複雑な原価・工期管理の計算ロジックをどこに配置すべきかの設計判断を解説。 / モダンな技術構成が実業務システムの規模に成長した際の、モジュール境界の引き方や設計上の学びを共有している。 (Source: Zenn)</description>
-      <pubDate>Tue, 25 Aug 2026 00:00:05 +0000</pubDate>
+      <title>AI導入で解雇された開発者がオープンソースの「AI CEO」を開発</title>
+      <link>https://github.com/SenteLabsAI/OpenExecutive</link>
+      <guid isPermaLink="false">https://github.com/SenteLabsAI/OpenExecutive</guid>
+      <description>[Score: 85] AI導入を理由に解雇された開発者たちが、オープンソースのAI CEO「OpenExecutive」を開発した。 / このシステムは、Harvard MBAレベルの知識を持つ8つの専門AIエージェントからなる仮想経営陣として機能する。 / 意思決定の履歴を保持するエピソード記憶や、社内文書を検索するRAG機能を備え、一貫した経営陣の声を提供する。 (Source: Hacker News)</description>
+      <pubDate>Thu, 27 Aug 2026 01:46:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>AWSがDuckLabsを買収</title>
+      <link>https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws</link>
+      <guid isPermaLink="false">https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws</guid>
+      <description>[Score: 85] DuckDBの開発元であるDuckLabsがAmazon Web Services（AWS）に買収されることが発表されました。 / 買収後も開発チームは維持され、DuckDBなどのオープンソースプロジェクトはMITライセンスのまま無料公開が継続されます。 / AWSの豊富なリソースを活用することで、より大規模な開発と普及が期待されています。 (Source: Hacker News)</description>
+      <pubDate>Wed, 26 Aug 2026 12:59:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Codeの規律をhookに降ろしたら、Haikuでも壊れなくなった</title>
+      <link>https://zenn.dev/yui/articles/97597aa13b9802</link>
+      <guid isPermaLink="false">https://zenn.dev/yui/articles/97597aa13b9802</guid>
+      <description>[Score: 85] Claude Codeのプロンプト層に置いていたルールを、機械的に判定できるものはhook（PostToolUse）に移行した。 / これにより、エージェントが編集するたびに自動レビューが走り、エラーが直接フィードバックされる仕組みを構築した。 / ルールをプロンプトからhookへ分離することで、トークン代の削減と、Haikuなどの軽量モデルでもルール遵守率が向上する効果を得た。 (Source: Zenn)</description>
+      <pubDate>Tue, 25 Aug 2026 14:43:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>本番環境への導入前にLLMを評価する方法</title>
+      <link>https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/</guid>
+      <description>[Score: 85] LLMはベンチマークで優秀であっても、本番環境の曖昧な入力やエッジケースで失敗することがあります。 / GitHubはシークレットスキャンの誤検知削減システム開発において、実用的な評価の課題に直面しました。 / プロトタイプから本番運用へ移行するために必要な、実用的なLLM評価の実践方法を解説しています。 (Source: GitHub Blog)</description>
+      <pubDate>Tue, 25 Aug 2026 21:35:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLMエージェントはシミュレーションモデルを用いて対照実験を実行する</title>
+      <link>https://arxiv.org/abs/2608.23622</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2608.23622</guid>
+      <description>[Score: 85] LLMエージェントがシミュレーションモデルを活用し、自律的に対照実験を設計・実行する新しいフレームワークを提案。 / 複雑なシステム環境下において、エージェントが仮説検証を繰り返しながら最適な意思決定を行うプロセスを検証する。 / 科学的探究や意思決定支援システムにおけるLLMの自律性と実用性を大きく向上させる可能性を示す。 (Source: arXiv cs.AI)</description>
+      <pubDate>Wed, 26 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
       <title>シングルバイナリなOLAP DBの次期版「DuckDB 2.0」プレビュー。クライアント／サーバ機能が安定版に、スキーマレスのVARIANT型、トリガー、非同期I/Oなど新機能</title>
       <link>https://www.publickey1.jp/blog/26/olap_dbduckdb_20variantio.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/olap_dbduckdb_20variantio.html</guid>
-      <description>[Score: 85] シングルバイナリで動作する高速なOLAPデータベース「DuckDB 2.0」のプレビュー版が公開された。 / クライアント／サーバ機能が安定版となり、スキーマレスなデータを扱う「VARIANT型」やトリガー機能が追加。 / SQLパーサーの刷新や非同期I/Oのサポートなど、データ分析や組み込み用途での利便性と性能がさらに向上している。 (Source: Publickey)</description>
+      <description>[Score: 82] シングルバイナリのOLAPデータベース「DuckDB 2.0」のプレビュー版が公開されました。 / クライアント/サーバー機能が安定版となり、スキーマレスのVARIANT型やトリガー、非同期I/Oなどの新機能が追加されます。 / ローカル環境での高速なデータ分析や組み込み用途としての利便性がさらに向上します。 (Source: Publickey)</description>
       <pubDate>Mon, 24 Aug 2026 15:29:33 +0000</pubDate>
     </item>
     <item>
-      <title>マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた</title>
-      <link>https://zenn.dev/layerx/articles/e01465a15e79c2</link>
-      <guid isPermaLink="false">https://zenn.dev/layerx/articles/e01465a15e79c2</guid>
-      <description>[Score: 82] マイクロサービス間をまたぐリクエストにおいて、ユーザー検証や認可の文脈が途中で消失する課題を解説している。 / この課題を解決するためにIETFで標準化が進められている「Transaction Tokens」の仕様を紹介している。 / 自社での独自実装と比較しながら、短命な署名付きJWTを用いた安全な認可情報の伝播方法を考察している。 (Source: Zenn)</description>
-      <pubDate>Tue, 25 Aug 2026 05:00:05 +0000</pubDate>
+      <title>ESQ-Bench: NL2SQLの方言一般化とサイレントな意味的乖離を評価するためのマルチティア企業向けOracleベンチマーク</title>
+      <link>https://arxiv.org/abs/2608.23569</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2608.23569</guid>
+      <description>[Score: 82] 自然言語からSQLへの変換（NL2SQL）における、Oracleデータベース特有の方言への適応力を評価するベンチマークを提案。 / 企業実務における複数階層の複雑なクエリや、検出が困難な「サイレントな意味的乖離」の検出能力を検証する。 / LLMを用いたデータベース操作の実用性と信頼性を向上させるための、極めて実践的な評価指標を提供する。 (Source: arXiv cs.AI)</description>
+      <pubDate>Wed, 26 Aug 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Show HN: Raspberry PiとQwenでローカル車載AIを作ってみた</title>
-      <link>https://github.com/ThinkOffApp/CarWatch</link>
-      <guid isPermaLink="false">https://github.com/ThinkOffApp/CarWatch</guid>
-      <description>[Score: 80] Raspberry Pi 5とQwenの35Bモデルを用いて、完全オフラインで動作する車載AIエージェントを構築したプロジェクト。 / 音声認識やOBD経由の車両データ取得、マニュアルのRAG検索などをローカル環境で統合している。 / スマートウォッチやスマートフォンと連携し、車の状態監視や通知の送受信を可能にしている。 (Source: Hacker News)</description>
-      <pubDate>Tue, 25 Aug 2026 15:20:20 +0000</pubDate>
+      <title>Amazon Mechanical Turkが9月30日にサービス終了へ</title>
+      <link>https://www.mturk.com/</link>
+      <guid isPermaLink="false">https://www.mturk.com/</guid>
+      <description>[Score: 80] Amazonのクラウドソーシングプラットフォーム「Mechanical Turk (MTurk)」が9月30日に終了する。 / MTurkは、データ検証やコンテンツモデレーションなどのマイクロタスクをグローバルな群衆に外注するサービスだった。 / AIの発展に伴い、人間によるアノテーションや単純作業の需要や代替手段が変化したことが背景にあるとみられる。 (Source: Hacker News)</description>
+      <pubDate>Wed, 26 Aug 2026 23:55:44 +0000</pubDate>
     </item>
     <item>
-      <title>【ローカルLLM】国産LLM「LLM-jp-4-33B」と「Qwen3.8-27B」の推論性能比較（RTX 5070 Ti + RTX 3070 Ti）</title>
-      <link>https://qiita.com/h-nabata/items/b80484406e839ee6507b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/h-nabata/items/b80484406e839ee6507b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] 新たに公開された国産のDense型大規模言語モデル「LLM-jp-4-33B」の性能検証を実施。 / 同等規模の中国製モデル「Qwen3.8-27B」を比較対象とし、独自のテストセットを用いて推論性能を比較。 / ローカル環境（RTX 5070 Ti + 3070 Ti）における量子化モデルの挙動や推論精度を評価している。 (Source: Qiita)</description>
-      <pubDate>Sun, 23 Aug 2026 17:34:14 +0000</pubDate>
+      <title>米政府、データセンターへの反発を抑えるため公害に関する住民意見の募集義務を撤廃へ — EPAの変更により大気汚染許可が非公開で可能に</title>
+      <link>https://www.reddit.com/r/technology/comments/1vyvu4q/us_govt_moves_to_suppress_pushback_on_data/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vyvu4q/us_govt_moves_to_suppress_pushback_on_data/</guid>
+      <description>[Score: 80] 米政府はデータセンター建設への反発を抑えるため、公害に関する住民意見の募集義務を撤廃する動きを見せている。 / 環境保護庁（EPA）の規則変更により、大気汚染許可を公表せずに発行できるようになる可能性がある。 / AI需要で急増するデータセンターの電力・環境問題と、住民の権利制限を巡り議論を呼んでいる。 (Source: Reddit)</description>
+      <pubDate>Wed, 26 Aug 2026 12:35:06 +0000</pubDate>
     </item>
     <item>
-      <title>新API「HTML-in-Canvas」を紹介 - CanvasにHTMLを描くAPIは何を解決するのか？</title>
-      <link>https://ics.media/entry/260825/</link>
-      <guid isPermaLink="false">https://ics.media/entry/260825/</guid>
-      <description>[Score: 80] Canvas内にHTML要素を直接描画・表示できるようにする新しいAPI「HTML-in-Canvas」を紹介。 / 描画したHTML要素をWebGLなどでリアルタイムに加工することで、高度なビジュアル表現やエフェクトが容易になる。 / Webデザインのアワードサイトなどで必須の技術になる可能性があり、各種ライブラリも実験的サポートを開始している。 (Source: はてなブックマーク)</description>
-      <pubDate>Tue, 25 Aug 2026 09:34:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>オンコール手当の相場を50社分調べて、1社も見つからなかった話</title>
-      <link>https://zenn.dev/cscloud_blog/articles/e0ea529d061906</link>
-      <guid isPermaLink="false">https://zenn.dev/cscloud_blog/articles/e0ea529d061906</guid>
-      <description>[Score: 78] IT業界におけるオンコール（待機）手当の相場を調査したものの、具体的な金額を公開している企業は1社もなかった事例を紹介。 / 医療・介護業界とは異なり、IT業界では手当の有無や算出仕組みは語られても金額自体は非公開にする傾向がある。 / アラート件数に応じた出来高制の手当が、システムの改善意欲を削ぐ逆インセンティブになり得る問題点を指摘している。 (Source: Zenn)</description>
-      <pubDate>Tue, 25 Aug 2026 01:27:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>ブラックホールの特異点は点ではなく面である</title>
-      <link>https://arxiv.org/abs/2608.21590</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2608.21590</guid>
-      <description>[Score: 75] ブラックホールの中心にあるとされる「特異点」が、従来の理論のような無限小の「点」ではなく「面」であるとする新しい物理学の論文。 / 宇宙物理学における長年の謎である一般相対性理論と量子力学の矛盾を解決する新たなアプローチを提示している。 / 物理学の基礎理論に大きな影響を与える可能性があり、宇宙の構造理解を深める研究として注目される。 (Source: Hacker News)</description>
-      <pubDate>Tue, 25 Aug 2026 17:02:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pythonにおいてstr.lower()がセキュリティ脆弱性になる場合</title>
-      <link>https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability</link>
-      <guid isPermaLink="false">https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability</guid>
-      <description>[Score: 75] UnicodeからASCIIへのマッピング処理において大文字小文字の変換挙動が脆弱性を生む可能性がある。 / Python標準のIDNA 2003実装ではなく、最新のIDNA 2008に対応した外部パッケージの使用が推奨される。 / StringPrepアルゴリズムにおけるケースフォールディングの例外処理の重要性を解説している。 (Source: Hacker News)</description>
-      <pubDate>Tue, 25 Aug 2026 20:49:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bitgetの異常価格で1800万損したが、fableと共闘して取り戻せた話</title>
-      <link>https://zenn.dev/kobao/articles/0638f3976c6ef8</link>
-      <guid isPermaLink="false">https://zenn.dev/kobao/articles/0638f3976c6ef8</guid>
-      <description>[Score: 75] Bitgetでの急激な価格乖離により、著者は約1800万円の資産を清算で失う大打撃を受ける。 / AIエージェント「Claude Code (fable)」を活用し、他取引所との詳細な価格データを比較・分析。 / 異常な価格乖離の決定的な証拠を突き止め、取引所との交渉により損失を取り戻すことに成功した。 (Source: Zenn)</description>
-      <pubDate>Mon, 24 Aug 2026 23:42:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>スマホのデータを削除して起訴された米国市民、プライバシーの危機を訴える</title>
-      <link>https://www.reddit.com/r/technology/comments/1vxykxp/us_citizen_who_deleted_phones_data_says_his/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vxykxp/us_citizen_who_deleted_phones_data_says_his/</guid>
-      <description>[Score: 75] 自身のスマートフォンのデータを削除したことで司法妨害として起訴された米国人男性が、この訴追はプライバシー権を脅かすと主張している。 / 捜査機関によるデバイスデータの押収権限と、個人のデータ管理・消去権の衝突が浮き彫りになった。 / デジタル時代におけるプライバシーの法的境界線を巡る、重要な判例となる可能性がある。 (Source: Reddit)</description>
-      <pubDate>Tue, 25 Aug 2026 12:34:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>「まるでキャバクラ」――「ライザのアトリエ」主人公と話せるAIアプリに「課金圧強すぎ」の声　「10日に会話15回」で月額980円</title>
-      <link>https://www.itmedia.co.jp/news/article/2608/25/2000000774/</link>
-      <guid isPermaLink="false">https://www.itmedia.co.jp/news/article/2608/25/2000000774/</guid>
-      <description>[Score: 75] 人気RPG「ライザのアトリエ」の主人公と会話できるAIアプリ「RyzaChat」が配信開始された。 / 独自LLMや合成音声の品質は評価される一方、無料枠の少なさや有料プランの厳しい制限にユーザーから不満が続出。 / リアルタイム処理に伴うGPUリソースの負荷や、接続の不安定さによるロード時間の長さなども課題となっている。 (Source: はてなブックマーク)</description>
-      <pubDate>Tue, 25 Aug 2026 11:27:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>ソニー、購入したPlayStationゲームをプレイヤーが「所有」しているわけではないと改めて説明</title>
-      <link>https://www.reddit.com/r/technology/comments/1vxzt65/sony_reminds_players_they_dont_actually_own_the/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1vxzt65/sony_reminds_players_they_dont_actually_own_the/</guid>
-      <description>[Score: 72] ソニーがユーザーに対し、購入したPlayStationゲームは「所有」ではなく「ライセンス利用」であると注意喚起を行った。 / デジタル配信の普及に伴い、サービス終了などによって購入コンテンツへのアクセス権が失われるリスクが改めて浮き彫りになった。 / デジタル資産の所有権や消費者保護に関する議論が再燃している。 (Source: Reddit)</description>
-      <pubDate>Tue, 25 Aug 2026 13:25:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pythonの事前定義された定数は少し奇妙である</title>
-      <link>https://sebsite.pw/w/20260801-pythonconstants.html</link>
-      <guid isPermaLink="false">https://sebsite.pw/w/20260801-pythonconstants.html</guid>
-      <description>[Score: 70] Pythonに存在する6つの事前定義された「定数」の挙動が、それぞれ微妙に異なっている点を解説している。 / True、False、Noneは字句解析トークン（キーワード）であり、オブジェクトの属性名として使用すると構文エラーになる。 / 一方、__debug__は通常の識別子でありながら、言語仕様として唯一代入が禁止されている特殊な性質を持つ。 (Source: Hacker News)</description>
-      <pubDate>Tue, 25 Aug 2026 21:39:02 +0000</pubDate>
+      <title>サーバーに一切触れないPDFツールキットの構築</title>
+      <link>https://dev.to/websitegeek/building-a-pdf-toolkit-that-never-touches-a-server-288j</link>
+      <guid isPermaLink="false">https://dev.to/websitegeek/building-a-pdf-toolkit-that-never-touches-a-server-288j</guid>
+      <description>[Score: 80] サーバーを介さず、ブラウザ（クライアントサイド）だけで完結するPDF処理ツールの構築手法を解説しています。 / WebAssembly（WASM）を活用することで、重いPDF処理をChrome拡張機能内で高速に実行します。 / Manifest V3の厳格なセキュリティポリシー（CSP）への対処や、用途に応じたWASMライブラリの選定ノウハウを共有しています。 (Source: Dev.to)</description>
+      <pubDate>Thu, 27 Aug 2026 02:47:32 +0000</pubDate>
     </item>
   </channel>
 </rss>
