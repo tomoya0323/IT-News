@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-08-23T07:28:23.658284+09:00",
-  "week_start": "2026-08-17",
-  "week_end": "2026-08-23",
-  "article_count": 254,
-  "overview": "今週は、AIエージェントの標準化やAI開発におけるセキュリティ対策など、AIの実用化とエコシステム構築に向けた重要な動きが目立ちました。特に、完全準同型暗号を用いたGoogleの「HEIR」や、AIエージェントの共通規格「Agent Plugins 1.0.0」の発表は、今後のAI活用を支える基盤技術として注目されます。また、高速な新言語「Mojo」のオープンソース化や、AIエージェント特化型Gitホスティング「Origin」の登場など、開発者向けツールの進化も加速しています。一方で、AIによる自動修正が脆弱性を生むリスクや、AI依存による学習効果の低下といった、AI普及に伴う新たな課題も浮き彫りになった1週間でした。",
+  "generated_at": "2026-08-30T08:59:57.074522+09:00",
+  "week_start": "2026-08-24",
+  "week_end": "2026-08-30",
+  "article_count": 258,
+  "overview": "今週は、NvidiaによるHugging Face買収交渉やOpenAIの独自ASIC「Jalapeño」の発表など、AIインフラとハードウェア領域で業界を揺るがす大きな動きが相次ぎました。また、Appleが初の2nmプロセスを採用した「M6」チップを発表したほか、オンデバイスでの継続学習モデルや「Slack Code」の登場など、AIのローカル実行や自律型エージェントの進化が目立っています。さらに、Cloudflareによる大規模なメモリ削減やBunのRust移植など、パフォーマンスと効率性を極限まで追求する技術的最適化も注目を集めました。",
   "trends": [
-    "AIエージェントの標準化とエコシステム拡大",
-    "暗号化データとAI処理のセキュリティ融合",
-    "AI時代に最適化された開発ツールとホスティング",
-    "AI生成コードに伴う脆弱性と品質管理の課題"
+    "AI半導体とインフラの覇権争い",
+    "自律型AIエージェントによる開発プロセスの変革",
+    "2nmプロセスやオンデバイスAIなどのハードウェア進化",
+    "極限のメモリ・パフォーマンス最適化"
   ],
   "highlights": [
     {
-      "title": "Google、AIモデルをコンパイルして暗号データを復号せずに扱えるように変換する「HEIR」発表。完全準同型暗号を利用し、AIでのセキュリティやプライバシー保護など実現へ",
-      "url": "https://www.publickey1.jp/blog/26/googleaiheirai.html",
-      "comment": "完全準同型暗号を用いてデータを秘匿したままAI処理を可能にする技術であり、プライバシー保護とAI活用の両立における画期的な進歩です。"
+      "title": "NvidiaがHugging Faceを130億ドルで買収合意か",
+      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "comment": "AI半導体の覇者であるNvidiaがオープンソースAIのハブを買収するという、業界の勢力図を大きく塗り替える可能性のある巨大案件であるため選定しました。"
     },
     {
-      "title": "Pythonライクな新言語「Mojo」がオープンソースで公開、コンパイラやツールチェーンなど。Windows版の開発も表明",
-      "url": "https://www.publickey1.jp/blog/26/pythonmojowindows.html",
-      "comment": "AI処理の高速化を目指す新言語Mojoが1.0に到達し、コンパイラがオープンソース化されたことで、今後の開発エコシステムに大きな影響を与えると考えられます。"
+      "title": "OpenAI Jalapeño：Nvidia Blackwellを超える性能",
+      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+      "comment": "OpenAIがBroadcomと共同開発した独自ASICの詳細が明かされ、Nvidiaの最新チップを凌駕する性能を示したことで、AIハードウェア市場の競争激化を象徴しているため選定しました。"
     },
     {
-      "title": "「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート",
-      "url": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
-      "comment": "主要IT企業が協調してAIエージェントの共通規格を策定したことで、ベンダーの垣根を越えたエージェント間連携や移行の標準化が大きく前進します。"
+      "title": "AppleがM6とM5 Ultraを発表",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "comment": "初の2nmプロセスを採用した「M6」チップの登場により、PC向けプロセッサの微細化とオンデバイスAI処理能力が新たな次元に突入したことを示す重要な発表であるため選定しました。"
     },
     {
-      "title": "AIエージェント時代のGitホスティングサービス「Origin」、Cursorが発表。Cursorとの統合、コマンドラインでの操作、GitHubとの同期など提供",
-      "url": "https://www.publickey1.jp/blog/26/aigitorigincursorcursorgithub.html",
-      "comment": "AIエージェントによる大量のコード生成やブランチ作成を前提とした、開発プロセスのパラダイムシフトを象徴する新しいGitホスティングサービスです。"
+      "title": "Cloudflareが1.1.1.1のDNSキャッシュを数十バイト単位で削り込んで100TBのメモリを節約",
+      "url": "https://gigazine.net/news/20260828-cloudflare-dns-cache-optimization/",
+      "comment": "データ構造の極限までの最適化により、システム全体で100TBという驚異的なメモリ削減と高速化を両立させた、エンジニアリングの極致を示す事例であるため選定しました。"
     },
     {
-      "title": "AIが生成したGitHub Copilotの「自動修正」によりSnowflakeのJiraが侵害される脆弱性が発生",
-      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-      "comment": "AIによる開発支援が便利になる一方で、見落とされた自動修正のバグが重大なセキュリティリスクに直結する現実的な課題を浮き彫りにしています。"
+      "title": "Slack上の開発チームの会話をAIエージェントが把握してコーディング。ドキュメント作成もする「Slack Code」登場",
+      "url": "https://www.publickey1.jp/blog/26/slackaislack_code.html",
+      "comment": "日常的なコミュニケーションツールに自律型AIエージェントが統合され、開発ワークフローの自動化がさらに身近なレベルへと浸透することを示す象徴的な発表であるため選定しました。"
     }
   ]
 }
