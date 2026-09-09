@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 08 Sep 2026 00:18:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 00:01:22 +0000</lastBuildDate>
     <item>
-      <title>WeatherNext 3</title>
-      <link>https://deepmind.google/science/weathernext/</link>
-      <guid isPermaLink="false">https://deepmind.google/science/weathernext/</guid>
-      <description>[Score: 90] Google DeepMindが発表した、1時間ごとに予報を生成する初の全球気象AIモデル。 / 従来の数値予報とは異なり、生の衛星画像を直接入力として活用することで、急速に変化する気象条件を迅速に追跡可能。 / 5km〜10kmの高解像度で気温や風速などの地表変数を極めて正確に予測し、Google製品にも統合される。 (Source: Hacker News)</description>
-      <pubDate>Thu, 03 Sep 2026 16:06:08 +0000</pubDate>
+      <title>ナヴィエ–ストークス方程式のミレニアム懸賞問題について</title>
+      <link>https://openai.com/index/navier-stokes-solution/</link>
+      <guid isPermaLink="false">https://openai.com/index/navier-stokes-solution/</guid>
+      <description>[Score: 98] OpenAIがミレニアム懸賞問題の一つである「ナヴィエ–ストークス方程式の存在と滑らかさの問題」の解法を公開した。 / 内部の高度なAIモデルを用いて、3次元非圧縮性流体の動的挙動において有限時間内に特異点が発生することを証明した。 / 証明の解説文書に加えて、定理証明支援系言語「Lean」による形式化データも同時に提供されている。 (Source: Hacker News)</description>
+      <pubDate>Tue, 08 Sep 2026 17:13:21 +0000</pubDate>
     </item>
     <item>
-      <title>Show HN: Stuxnet – 悪名高いサイバー兵器の再構築されたソースコード</title>
-      <link>https://github.com/Sadpainy/Stuxnet</link>
-      <guid isPermaLink="false">https://github.com/Sadpainy/Stuxnet</guid>
-      <description>[Score: 88] 2010年に発見されたサイバー兵器「Stuxnet」のバイナリをリバースエンジニアリングし、教育・研究目的で再構築したGitHubリポジトリ。 / SiemensのPLC（産業用コントローラー）を標的とした物理的破壊工作のロジックが忠実に再現されている。 / 産業用制御システム（ICS）への攻撃手法や高度なステルス技術の構造を学術的に分析可能にする。 (Source: Hacker News)</description>
-      <pubDate>Mon, 07 Sep 2026 22:12:38 +0000</pubDate>
+      <title>AlphaGenome Atlas：ヒトDNAの高解像度マップ</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/</link>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/</guid>
+      <description>[Score: 95] Google DeepMindが、ヒトゲノムの全90億の一塩基変異の影響を予測した「AlphaGenome Atlas」を発表。 / 1ペタバイトに及ぶ膨大なデータセットであり、これまで解明が進んでいなかった98%の非コード領域の影響もカバー。 / 予測結果を簡潔に示す「AVIスコア」を導入し、研究者が有望な研究アプローチを迅速に特定できるよう支援する。 (Source: Hacker News)</description>
+      <pubDate>Tue, 08 Sep 2026 14:55:45 +0000</pubDate>
     </item>
     <item>
-      <title>マジックリンクでログインできない原因はメールのURLスキャンだった</title>
-      <link>https://qiita.com/kuma_3838/items/1fc232b42c344260021d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/kuma_3838/items/1fc232b42c344260021d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 88] 1回限りのマジックリンクが、ユーザーがクリックする前にメールセキュリティ製品のURLスキャンによって消費される問題を解説。 / HTTPのGETリクエストに「認証トークンの消費」という副作用を持たせていたことが構造的な原因であると指摘。 / Microsoft DefenderやCisco等のセキュリティ製品の挙動の違いや、この問題が発生する条件と対策についてまとめている。 (Source: Qiita)</description>
-      <pubDate>Sun, 06 Sep 2026 21:48:44 +0000</pubDate>
+      <title>N-able N-central CVE-2026-86218：認証不要のRCEゼロデイに対する緊急ホットフィックス</title>
+      <link>https://dev.to/anoymask/n-able-n-central-cve-2026-86218-emergency-hotfix-for-unauthenticated-rce-zero-day-4mln</link>
+      <guid isPermaLink="false">https://dev.to/anoymask/n-able-n-central-cve-2026-86218-emergency-hotfix-for-unauthenticated-rce-zero-day-4mln</guid>
+      <description>[Score: 90] N-able N-centralにおいて、認証不要でリモートコード実行が可能なゼロデイ脆弱性が発見された。 / この脆弱性（CVE-2026-86218）はCVSSスコア10.0と評価され、緊急ホットフィックスが提供された。 / RMMサーバーが侵害されると、管理下にあるエンドポイントへ攻撃が波及する恐れがある。 (Source: Dev.to)</description>
+      <pubDate>Tue, 08 Sep 2026 23:25:07 +0000</pubDate>
     </item>
     <item>
-      <title>Linuxディストリビューション全体に対するTrusting-Trust攻撃</title>
-      <link>https://arxiv.org/abs/2607.24888</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2607.24888</guid>
-      <description>[Score: 85] Linuxディストリビューション全体を対象としたTrusting-Trust攻撃に関する研究論文。 / コンパイラなどのビルドツールチェーンを汚染し、検出が極めて困難なバックドアを埋め込む手法を検証している。 / ソフトウェアサプライチェーンの脆弱性と、それに対する新たな防御策の必要性を再提起する内容。 (Source: Hacker News)</description>
-      <pubDate>Sat, 05 Sep 2026 11:25:18 +0000</pubDate>
+      <title>プロジェクトHydraFusion：マルチモデルのオーケストレーションによる最先端の品質</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</guid>
+      <description>[Score: 88] GitHubは、マルチモデルのオーケストレーションを行う「Project HydraFusion」を発表した。 / 複数のAIモデルから最適なものを自動選択し、ドラフトや修正、カスケードなどの実行プランを生成する。 / 開発者は複雑な設定を意識せず、パフォーマンス、コスト、遅延のバランスが取れたワークフローを利用できる。 (Source: GitHub Blog)</description>
+      <pubDate>Fri, 04 Sep 2026 16:04:14 +0000</pubDate>
     </item>
     <item>
-      <title>科学者たちが量子世界でアインシュタインの重力を観測</title>
-      <link>https://www.ox.ac.uk/news/2026-08-28-scientists-observe-einsteins-gravity-in-the-quantum-world</link>
-      <guid isPermaLink="false">https://www.ox.ac.uk/news/2026-08-28-scientists-observe-einsteins-gravity-in-the-quantum-world</guid>
-      <description>[Score: 85] オックスフォード大学などの研究チームが、量子力学的なスケールにおいてアインシュタインの一般相対性理論（重力）の効果を初めて観測しました。 / マクロな宇宙を説明する相対性理論とミクロな量子世界を繋ぐ、物理学における歴史的な一歩となる可能性があります。 / この発見は、長年の課題である量子重力理論の解明や、新たな量子デバイス・センシング技術の開発への応用が期待されます。 (Source: Hacker News)</description>
-      <pubDate>Fri, 04 Sep 2026 20:28:52 +0000</pubDate>
+      <title>「こんにちは、Reddit。私はロイターのジャーナリスト、ケイティ・ポールです。マーク・ザッカーバーグがMetaのスタッフをAIに置き換える計画と、それがどのように崩壊したかを暴きました。AMA（何でも聞いてね）」</title>
+      <link>https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/</guid>
+      <description>[Score: 85] ロイターの記者による、Metaが従業員をAIに置き換えようとして失敗した裏舞台に関するAMA（質問スレッド）。 / マーク・ザッカーバーグによるAI代替計画の全貌と、その計画がどのように崩壊したかの詳細が語られている。 / AI導入による人員削減の現実的な課題や、企業の意思決定プロセスについて議論が交わされている。 (Source: Reddit)</description>
+      <pubDate>Wed, 02 Sep 2026 19:18:30 +0000</pubDate>
     </item>
     <item>
-      <title>HTMLを社内共有するサービスを、コードを読まずに作る - 1人で25万行を回す自動運用の記録</title>
-      <link>https://zenn.dev/coji/articles/solo-software-factory-without-reading-code</link>
-      <guid isPermaLink="false">https://zenn.dev/coji/articles/solo-software-factory-without-reading-code</guid>
-      <description>[Score: 85] 1人で25万行のTypeScriptコードを抱えるWebサービスを、AIを活用してコードを読まずに自動運用する試行錯誤の記録。 / AIと壁打ちして作成したIssue、PRタイトル、CIの成功確認のみで、有料課金サービスを安定稼働させている。 / 事故が起きるたびにAI自身に対策を考えさせてガードレールを構築し、自動運用のループを回す手法を解説。 (Source: Zenn)</description>
-      <pubDate>Mon, 07 Sep 2026 00:05:00 +0000</pubDate>
+      <title>Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに</title>
+      <link>https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html</guid>
+      <description>[Score: 85] AWSに最適化されたOS「Amazon Linux 2027」のパブリックプレビュー版が4年ぶりにリリース。 / Fedora 44/45の一部をベースとし、カーネルバージョンは最新のアップデートで6.18を採用。 / セキュリティ強化のため、SELinuxがデフォルトで強制（Enforcing）モードに設定されている。 (Source: Publickey)</description>
+      <pubDate>Tue, 08 Sep 2026 15:54:55 +0000</pubDate>
     </item>
     <item>
-      <title>Microsoft、“世界でもっとも高速・高精度で安価”とうたう音声認識モデルを発表、「MAI-Transcribe-2」／60言語の平均単語誤り率（WER）で比較対象中トップ、処理速度も向上</title>
-      <link>https://forest.watch.impress.co.jp/docs/news/2138699.html</link>
-      <guid isPermaLink="false">https://forest.watch.impress.co.jp/docs/news/2138699.html</guid>
-      <description>[Score: 85] Microsoftが高速・高精度かつ安価な新しい音声認識AIモデル「MAI-Transcribe-2」を発表した。 / 60言語の評価で平均単語誤り率5.2%を記録し、競合モデルを上回る処理速度と精度を両立している。 / 価格は1時間あたり0.10ドルと従来比で約72%安価になり、騒音環境下での文字起こしにも強い。 (Source: はてなブックマーク)</description>
-      <pubDate>Mon, 07 Sep 2026 06:35:00 +0000</pubDate>
+      <title>JavaScriptをC言語にコンパイルする「porffor」がアルファ版に到達。ネイティブやWASMを生成可能</title>
+      <link>https://www.publickey1.jp/blog/26/javascriptcporfforwasm.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/javascriptcporfforwasm.html</guid>
+      <description>[Score: 85] JavaScript/TypeScriptをC言語にコンパイルする「porffor」がアルファ版に到達した。 / 中間表現を経てC言語に変換し、ネイティブバイナリやWebAssemblyを生成できる。 / ランタイム不要で単体実行可能であり、バイナリサイズを最大50分の1に削減できる。 (Source: Publickey)</description>
+      <pubDate>Sun, 06 Sep 2026 15:04:34 +0000</pubDate>
     </item>
     <item>
-      <title>Astraのリリースに合わせてAGENTS.mdを修正するなら「request_user_input」も使って体験良くチューニングしよう</title>
-      <link>https://zenn.dev/cureapp/articles/9dd3298ce84b47</link>
-      <guid isPermaLink="false">https://zenn.dev/cureapp/articles/9dd3298ce84b47</guid>
-      <description>[Score: 82] 新モデル「GPT-6 Astra」のリリースに伴い、AIエージェントの指示書である「AGENTS.md」を最適化する手法を提案しています。 / Codexなどで利用できる「request_user_input」ツールを使い、AIからユーザーへヒアリングを行わせることで、理想とのズレを効率的に解消します。 / AIに修正理由を説明させ、対話を通じて自分仕様にAGENTS.mdを洗練させていく具体的なプロンプトとプロセスを解説しています。 (Source: Zenn)</description>
-      <pubDate>Mon, 07 Sep 2026 00:10:42 +0000</pubDate>
+      <title>OpenClawがバイラルに。開発とセキュリティを担うメンテナーたちを紹介</title>
+      <link>https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/</link>
+      <guid isPermaLink="false">https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/</guid>
+      <description>[Score: 85] 個人開発から急成長し、GitHubで約38万スターを獲得したオープンソースのAIアシスタント「OpenClaw」を紹介。 / メンテナーたちが、急増するプルリクエストの管理やサプライチェーンリスクへの対策について語っている。 / 強力なエージェント機能とセキュリティのバランスを維持するための実践的な教訓が共有された。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 27 Aug 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>BroadcomがVDDKのダウンロードを停止したことでVMwareからの移行がさらに困難に</title>
-      <link>https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/</link>
-      <guid isPermaLink="false">https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/</guid>
-      <description>[Score: 80] BroadcomがVMwareの仮想ディスク開発キット（VDDK）の一般ダウンロード提供を停止した。 / VDDKは、他社製移行ツールやバックアップツールがVMware環境と連携するために広く利用している重要なライブラリ。 / この突然の措置により、VMwareから他プラットフォームへの移行を検討する顧客に新たな障壁が生じている。 (Source: Hacker News)</description>
-      <pubDate>Mon, 07 Sep 2026 20:32:55 +0000</pubDate>
+      <title>レンダリングされたトポロジー絵本</title>
+      <link>https://e-infinity.space/picture-book/</link>
+      <guid isPermaLink="false">https://e-infinity.space/picture-book/</guid>
+      <description>[Score: 82] トポロジー（位相幾何学）の複雑な曲面を、温かみのある手書き風のスタイルで3DレンダリングするWebプロジェクト。 / GPUを用いた隠線消去や、曲率に基づいたハッチング（陰影線）のストローク生成など、高度なグラフィックス技術を駆使。 / 数学的な美しさをインタラクティブに表現し、ベクターベースの美しい描画を実現している。 (Source: Hacker News)</description>
+      <pubDate>Tue, 08 Sep 2026 22:28:14 +0000</pubDate>
     </item>
     <item>
-      <title>WebエンジニアのためのReact Native + NativeWind v5事始め — Webの常識が通用しない18のポイント</title>
-      <link>https://zenn.dev/my_vision/articles/2bbf47bb0db842</link>
-      <guid isPermaLink="false">https://zenn.dev/my_vision/articles/2bbf47bb0db842</guid>
-      <description>[Score: 80] WebエンジニアがReact NativeとNativeWind v5を用いてモバイルアプリを開発する際の、18のハマりどころをまとめた解説記事です。 / React NativeにはCSSエンジンがなく、スタイルはJSオブジェクトとしてYogaやネイティブ描画エンジンに渡される仕組みを解説しています。 / WebのTailwind CSSの常識が通用せず、サポート外のクラスがエラーを出さずに静かに無視される仕様などの具体的な注意点を提示しています。 (Source: Zenn)</description>
-      <pubDate>Mon, 07 Sep 2026 01:17:48 +0000</pubDate>
+      <title>初心者のためのGitHub Copilotアプリ：複数のエージェントを同時に実行する</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/</guid>
+      <description>[Score: 82] GitHub Copilotアプリにおいて、複数のAIエージェントを同時に並行実行できる機能が紹介された。 / 各セッションは独立したGit worktreeで動作するため、互いに干渉せず並行処理が可能である。 / 開発者はエージェントの完了を待つことなく、複数のタスクを効率的に進め、レビューに集中できる。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 03 Sep 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CLAUDE.mdをそろそろ見直す時期かも ── Claude 5世代向けの最適化手順・スキル・プロジェクト種類別の例</title>
-      <link>https://qiita.com/nogataka/items/d6a54f3694726b9141f3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/nogataka/items/d6a54f3694726b9141f3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] Claude Codeなどのツールで使われるCLAUDE.mdが肥大化し、過剰な制約で性能低下を招く問題とその見直し手順を解説。 / Anthropicの知見に基づき、モデルの進化に伴って不要になった古い制約や重複した指示を削減することを推奨している。 / 最新の/doctorコマンドを活用したCLAUDE.mdの診断や、スキル・メモリへの移行による最適化手順を紹介。 (Source: Qiita)</description>
-      <pubDate>Sat, 05 Sep 2026 03:19:18 +0000</pubDate>
+      <title>大規模言語モデルは適応的探索を通じて新たな社会的バイアスを形成する</title>
+      <link>https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH</link>
+      <guid isPermaLink="false">https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH</guid>
+      <description>[Score: 80] LLMが適応的探索（Adaptive Exploration）のプロセスを通じて、新たな社会的バイアスを学習・形成する現象を研究。 / 従来の静的なデータセットだけでなく、動的な探索行動がバイアスの増幅や新規バイアスの創出につながることを指摘。 / AIの倫理的安全性やバイアス緩和策における新たな課題を提示している。 (Source: Hacker News)</description>
+      <pubDate>Tue, 08 Sep 2026 21:47:38 +0000</pubDate>
     </item>
     <item>
-      <title>巨大オンラインゲーム「EVE Online」。ゲームを支える240万行のPython 2.7のコードをPython 3へ移行すると発表</title>
-      <link>https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html</guid>
-      <description>[Score: 80] 巨大オンラインゲーム「EVE Online」が、システムを支える240万行のPython 2.7コードをPython 3へ移行すると発表した。 / 同作は2003年のサービス開始当初から、高い並行性を実現できる「Stackless Python」で構築されている。 / 長年運用されてきた大規模なレガシーコードの近代化に向けた、非常に大規模な移行プロジェクトとなる。 (Source: はてなブックマーク)</description>
-      <pubDate>Mon, 07 Sep 2026 20:56:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>ドメインモデル貧血症はなぜ生まれるのか — Decision パターンで DDD トリレンマを解く</title>
-      <link>https://zenn.dev/tellernovel_inc/articles/0193eb68cabb6e</link>
-      <guid isPermaLink="false">https://zenn.dev/tellernovel_inc/articles/0193eb68cabb6e</guid>
-      <description>[Score: 78] DDDの実践において、ビジネスロジックがドメイン層に集まらず「ドメインモデル貧血症」に陥る構造的な原因を分析しています。 / 判断に必要なデータが判断してみないと分からないという「DDDトリレンマ」が、貧血モデルを生む要因であることを指摘しています。 / この課題を解決し、ビジネスロジックをドメイン層に綺麗に閉じるための「Decisionパターン」の適用方法を提案しています。 (Source: Zenn)</description>
-      <pubDate>Mon, 07 Sep 2026 03:03:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>HTMX 4.0正式リリース。内部実装がXHRからfetchに移行しStreaming HTMLが可能に、属性はデフォルトで子要素に継承されないように変更など</title>
-      <link>https://www.publickey1.jp/blog/26/htmx_40xhrfetchstreaming_html.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/htmx_40xhrfetchstreaming_html.html</guid>
-      <description>[Score: 78] HTML属性を追加するだけで動的なWebページを構築できるJavaScriptライブラリ「HTMX 4.0」が正式リリースされた。 / 内部実装が従来のXHRからfetch APIへ移行したことで、Streaming HTMLの受信が可能になった。 / また、属性がデフォルトで子要素に継承されないように変更されるなど、仕様の整理が行われている。 (Source: Publickey)</description>
-      <pubDate>Mon, 07 Sep 2026 15:39:27 +0000</pubDate>
+      <title>モバイルアプリ開発でもエージェントループを回したい！React Nativeで計画から検証・PRまで任せる</title>
+      <link>https://zenn.dev/tellernovel_inc/articles/57b223dd4b8f5d</link>
+      <guid isPermaLink="false">https://zenn.dev/tellernovel_inc/articles/57b223dd4b8f5d</guid>
+      <description>[Score: 80] React Nativeを用いたモバイルアプリ開発において、AIエージェントに実装から検証までを自律的に行わせる手法を解説している。 / エージェントがiOS/Androidシミュレータを直接操作して動作確認を行うツール「agent-device」を活用する。 / Storybookのplay関数を用いたインタラクションテストなど、エージェントにタスクを任せるための実装側の準備について詳述している。 (Source: Zenn)</description>
+      <pubDate>Tue, 08 Sep 2026 05:40:14 +0000</pubDate>
     </item>
     <item>
       <title>最近取り入れたClaude Codeの個人的tips 4選</title>
       <link>https://qiita.com/kuma_3838/items/00cb0b8d61ca76769c88?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/kuma_3838/items/00cb0b8d61ca76769c88?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 75] ターミナル用AIツール「Claude Code」をより便利に使いこなすための、個人的な4つのTipsを紹介。 / 複数セッションを並行稼働する際のセッション名自動設定や、フック機能（UserPromptSubmit等）を活用した自動化を解説。 / 大がかりな仕組みを使わずに、日々の開発効率を向上させるための具体的なスクリプト例を提示している。 (Source: Qiita)</description>
+      <description>[Score: 80] AI開発支援ツール「Claude Code」をより便利に使いこなすためのTipsを紹介しています。 / セッション名を自動で設定するためのシェルスクリプトとフックの活用法を解説しています。 / 複数セッションの並行管理など、日々の開発作業を効率化する実用的なテクニックです。 (Source: Qiita)</description>
       <pubDate>Sun, 06 Sep 2026 21:48:30 +0000</pubDate>
     </item>
     <item>
-      <title>Fable 5を使用した経済学の研究</title>
-      <link>https://wilsoniumite.com/2026/08/03/working-on-economics-with-fable-5/</link>
-      <guid isPermaLink="false">https://wilsoniumite.com/2026/08/03/working-on-economics-with-fable-5/</guid>
-      <description>[Score: 70] F#をJavaScript等に変換するFable 5やAIツールを活用して、経済学の理論構築を行った事例を紹介。 / ノーベル賞受賞者のタスクベースモデルに古典派経済学の論理を組み合わせ、新たな賃金決定モデルを定式化した。 / プログラミング技術とAIの支援が、学術的な経済理論の発展に大きく寄与することを示している。 (Source: Hacker News)</description>
-      <pubDate>Mon, 07 Sep 2026 21:18:15 +0000</pubDate>
+      <title>EVバッテリーはドライバーの懸念よりも長持ち：15万km走行後も初期容量の約90%を維持できるとの研究結果</title>
+      <link>https://www.reddit.com/r/technology/comments/1waui4v/ev_batteries_last_longer_than_drivers_feared/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1waui4v/ev_batteries_last_longer_than_drivers_feared/</guid>
+      <description>[Score: 80] 電気自動車（EV）のバッテリー寿命は、多くのドライバーが懸念しているよりもはるかに長いことが研究で示された。 / 15万キロメートル走行した中古のEVでも、元の使用可能なバッテリー容量の約90%を維持できるという。 / この結果は、中古EV市場の活性化やEVの普及を後押しする重要なデータとなる。 (Source: Reddit)</description>
+      <pubDate>Tue, 08 Sep 2026 17:12:26 +0000</pubDate>
     </item>
     <item>
-      <title>TALAがオープンソース化</title>
-      <link>https://d2lang.com/blog/tala-is-open-source/</link>
-      <guid isPermaLink="false">https://d2lang.com/blog/tala-is-open-source/</guid>
-      <description>[Score: 70] Terrastructが開発する、ソフトウェアアーキテクチャ図に特化した自動レイアウトアルゴリズム「TALA」がオープンソース化されました。 / 従来のDAGベースとは異なり、ホワイトボードに描くような直交レイアウトを採用し、対称性やノードの近さを考慮した美しい図を生成します。 / D2 v0.9.0に標準でバンドルされており、コマンドラインやWeb上のプレイグラウンドから手軽に試すことができます。 (Source: Hacker News)</description>
-      <pubDate>Mon, 07 Sep 2026 23:37:42 +0000</pubDate>
+      <title>巨大オンラインゲーム「EVE Online」。ゲームを支える240万行のPython 2.7のコードをPython 3へ移行すると発表</title>
+      <link>https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html</guid>
+      <description>[Score: 80] 2003年開始の巨大オンラインゲーム「EVE Online」が、240万行に及ぶPython 2.7のコードをPython 3へ移行すると発表。 / 同作は高い並行性を実現するため、C言語のコールスタックに依存しない「Stackless Python」で構築されてきた。 / 長年維持されてきた大規模なレガシーコードの近代化に向けた、歴史的なマイグレーションプロジェクトとなる。 (Source: Publickey)</description>
+      <pubDate>Tue, 08 Sep 2026 14:28:02 +0000</pubDate>
     </item>
     <item>
-      <title>【AWS初心者向け】インフラ構成を図解で理解しよう！ALB・ECS・RDS・Lambda・NAT Gateway・VPCエンドポイントを一気に学ぶ</title>
-      <link>https://qiita.com/Nao52/items/35441e4b0009aa128610?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/Nao52/items/35441e4b0009aa128610?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 70] AWSの主要サービスを組み合わせた、実務でよく使われる標準的なインフラ構成を図解で分かりやすく解説。 / パブリックとプライベートのサブネット分割の重要性や、ALBによる負荷分散とHTTPS化の役割を説明。 / ECS、Lambda、RDS、NAT Gateway、VPCエンドポイントなどの各コンポーネントの役割と接続理由を整理している。 (Source: Qiita)</description>
-      <pubDate>Sun, 06 Sep 2026 22:40:31 +0000</pubDate>
+      <title>Google、EU DMAに伴う検索デザイン変更により品質低下と検索露出の変化を指摘</title>
+      <link>https://dev.to/alifar/google-says-eu-dma-search-redesign-reduces-quality-and-changes-search-visibility-14b6</link>
+      <guid isPermaLink="false">https://dev.to/alifar/google-says-eu-dma-search-redesign-reduces-quality-and-changes-search-visibility-14b6</guid>
+      <description>[Score: 80] GoogleはEUのデジタル市場法（DMA）に準拠するため、欧州で検索デザインを刷新した。 / 同社はこの変更により、29年の歴史の中で検索品質が最も大きく低下したと主張している。 / 比較サービスなどの表示が優先されるようになり、企業のオーガニック検索の露出やユーザー体験に影響を与えている。 (Source: Dev.to)</description>
+      <pubDate>Tue, 08 Sep 2026 23:45:30 +0000</pubDate>
     </item>
     <item>
-      <title>VS Code誕生から現在までの物語「The Story of VS Code」YouTubeで公開。作者のエリック・ガンマ氏はなぜIBMからMSへ移籍してVS Codeを作ることになったか</title>
-      <link>https://www.publickey1.jp/blog/26/vs_codethe_story_of_vs_codeyoutubeibmmsvs_code.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/vs_codethe_story_of_vs_codeyoutubeibmmsvs_code.html</guid>
-      <description>[Score: 70] Visual Studio Code（VS Code）の誕生から現在までを振り返る公式ドキュメンタリー動画がYouTubeで公開された。 / 作者のエリック・ガンマ氏がIBMからマイクロソフトへ移籍し、VS Codeを開発するに至った経緯が紹介されている。 / 当時オープンソースを敵視していたMSにおいて、どのようにしてマルチプラットフォーム対応のエディタが生まれたかが描かれる。 (Source: Publickey)</description>
-      <pubDate>Sun, 06 Sep 2026 15:07:10 +0000</pubDate>
+      <title>タスクの品質を犠牲にすることなくAIコーディングのコスト効率を高める方法</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/</guid>
+      <description>[Score: 80] GitHub Copilotにおいて、品質を維持しながらコスト効率を向上させる最適化手法が紹介された。 / 単なるトークン削減ではなく、適切なコンテキスト量を確保してタスクの成果を最大化することを目指す。 / オフラインベンチマークとオンライン実験を通じて検証された改善が、各種Copilot製品に適用されている。 (Source: GitHub Blog)</description>
+      <pubDate>Wed, 02 Sep 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ロサンゼルスが建設されていく様子を建物ごとに見る (1880–2026)</title>
-      <link>https://lax-skyline.parcelscope.net/</link>
-      <guid isPermaLink="false">https://lax-skyline.parcelscope.net/</guid>
-      <description>[Score: 65] 1880年から2026年までにロサンゼルスに建設された建物を可視化したインタラクティブな3Dマップ。 / 現存する建物を建設年ごとに表示し、都市がどのように発展してきたかの歴史を視覚的に追体験できる。 / ロサンゼルス郡の査定データや衛星データなどを活用し、建物の高さや形状を忠実に再現している。 (Source: Hacker News)</description>
-      <pubDate>Mon, 07 Sep 2026 18:52:06 +0000</pubDate>
+      <title>テレンス・タオ：AIによって非再生可能に採掘される未解決の数学問題</title>
+      <link>https://mathstodon.xyz/@tao/117237320796901560</link>
+      <guid isPermaLink="false">https://mathstodon.xyz/@tao/117237320796901560</guid>
+      <description>[Score: 78] 数学者のテレンス・タオ氏が、AIによる数学の未解決問題の解決プロセスについて懸念や見解を表明。 / AIが人間のように持続可能な形で数学を発展させるのではなく、既存の「良い問題」を非再生可能に消費（採掘）していると指摘。 / AIと数学研究の未来、および学術エコシステムへの影響について重要な議論を提起している。 (Source: Hacker News)</description>
+      <pubDate>Tue, 08 Sep 2026 21:00:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>1,500人のカメラマンに社内NotionのQAエージェントを提供した話</title>
+      <link>https://zenn.dev/lovegraph/articles/ce6cb80756e3ca</link>
+      <guid isPermaLink="false">https://zenn.dev/lovegraph/articles/ce6cb80756e3ca</guid>
+      <description>[Score: 78] 出張撮影サービス「ラブグラフ」において、1,500人以上のカメラマン向けに社内NotionをソースとしたQAエージェントを構築した事例。 / Gemini 3.5 Flash-LiteとGoogle Cloudを組み合わせ、実運用における詳細なコスト試算やトークン構造を公開している。 / 画像のVLM解析や日次クロールなど、RAGシステムを実用レベルで安定運用するための具体的な知見がまとめられている。 (Source: Zenn)</description>
+      <pubDate>Tue, 08 Sep 2026 08:00:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ジュニアの「AIが書いたコードが理解できない」問題の対応策</title>
+      <link>https://qiita.com/im_yoneda/items/f27e52d2f852ba017a7e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/im_yoneda/items/f27e52d2f852ba017a7e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 78] ジュニアエンジニアが生成AIの出力コードを理解しきれない課題に焦点を当てています。 / コード生成を依頼する前に、要件や処理フローを自分の言葉で整理する重要性を説いています。 / AIとの壁打ちやADRの活用により、開発全体の効率化を図るアプローチを提案しています。 (Source: Qiita)</description>
+      <pubDate>Mon, 07 Sep 2026 02:53:07 +0000</pubDate>
     </item>
   </channel>
 </rss>
