@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 09 Sep 2026 00:01:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 00:01:16 +0000</lastBuildDate>
     <item>
-      <title>ナヴィエ–ストークス方程式のミレニアム懸賞問題について</title>
-      <link>https://openai.com/index/navier-stokes-solution/</link>
-      <guid isPermaLink="false">https://openai.com/index/navier-stokes-solution/</guid>
-      <description>[Score: 98] OpenAIがミレニアム懸賞問題の一つである「ナヴィエ–ストークス方程式の存在と滑らかさの問題」の解法を公開した。 / 内部の高度なAIモデルを用いて、3次元非圧縮性流体の動的挙動において有限時間内に特異点が発生することを証明した。 / 証明の解説文書に加えて、定理証明支援系言語「Lean」による形式化データも同時に提供されている。 (Source: Hacker News)</description>
-      <pubDate>Tue, 08 Sep 2026 17:13:21 +0000</pubDate>
+      <title>iPhone Duo</title>
+      <link>https://www.apple.com/iphone-duo/</link>
+      <guid isPermaLink="false">https://www.apple.com/iphone-duo/</guid>
+      <description>[Score: 95] Apple初となる折りたたみ式スマートフォン「iPhone Duo」が発表されました。 / 開くとiPhone史上最大かつ最薄のディスプレイとなり、チタン製フレームを採用しています。 / A20 Proチップや進化した「Siri AI」を搭載し、10月23日に発売予定です。 (Source: Hacker News)</description>
+      <pubDate>Wed, 09 Sep 2026 18:15:43 +0000</pubDate>
     </item>
     <item>
-      <title>AlphaGenome Atlas：ヒトDNAの高解像度マップ</title>
-      <link>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/</link>
-      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/</guid>
-      <description>[Score: 95] Google DeepMindが、ヒトゲノムの全90億の一塩基変異の影響を予測した「AlphaGenome Atlas」を発表。 / 1ペタバイトに及ぶ膨大なデータセットであり、これまで解明が進んでいなかった98%の非コード領域の影響もカバー。 / 予測結果を簡潔に示す「AVIスコア」を導入し、研究者が有望な研究アプローチを迅速に特定できるよう支援する。 (Source: Hacker News)</description>
-      <pubDate>Tue, 08 Sep 2026 14:55:45 +0000</pubDate>
+      <title>「iPhone Duo」はApple初の7.6型折りたたみで36万円強から</title>
+      <link>https://pc.watch.impress.co.jp/docs/news/2139675.html</link>
+      <guid isPermaLink="false">https://pc.watch.impress.co.jp/docs/news/2139675.html</guid>
+      <description>[Score: 95] Appleが同社初となる横折りたたみ型のスマートフォン「iPhone Duo」を発表し、日本価格は36万4,800円からとなります。 / 閉じた状態では5.4型、開くと7.6型のディスプレイを搭載し、独自の多層ラミネート構造で高い剛性を実現しています。 / 2nmプロセスの「A20 Pro」チップや自社製「C2」モデムを搭載し、折りたたみ画面に最適化したiOS 27を採用しています。 (Source: はてなブックマーク)</description>
+      <pubDate>Wed, 09 Sep 2026 19:12:14 +0000</pubDate>
     </item>
     <item>
-      <title>N-able N-central CVE-2026-86218：認証不要のRCEゼロデイに対する緊急ホットフィックス</title>
-      <link>https://dev.to/anoymask/n-able-n-central-cve-2026-86218-emergency-hotfix-for-unauthenticated-rce-zero-day-4mln</link>
-      <guid isPermaLink="false">https://dev.to/anoymask/n-able-n-central-cve-2026-86218-emergency-hotfix-for-unauthenticated-rce-zero-day-4mln</guid>
-      <description>[Score: 90] N-able N-centralにおいて、認証不要でリモートコード実行が可能なゼロデイ脆弱性が発見された。 / この脆弱性（CVE-2026-86218）はCVSSスコア10.0と評価され、緊急ホットフィックスが提供された。 / RMMサーバーが侵害されると、管理下にあるエンドポイントへ攻撃が波及する恐れがある。 (Source: Dev.to)</description>
-      <pubDate>Tue, 08 Sep 2026 23:25:07 +0000</pubDate>
+      <title>iPhone 18 Pro および iPhone 18 Pro Max</title>
+      <link>https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/</link>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/</guid>
+      <description>[Score: 90] Appleが最新フラッグシップ「iPhone 18 Pro」および「iPhone 18 Pro Max」を発表しました。 / 可変絞り対応の48MP Fusionカメラや、持続性能を向上させるA20 Proチップを搭載しています。 / iOS 27と「Apple Intelligence」「Siri AI」による強力なAI機能が統合されています。 (Source: Hacker News)</description>
+      <pubDate>Wed, 09 Sep 2026 17:33:20 +0000</pubDate>
     </item>
     <item>
-      <title>プロジェクトHydraFusion：マルチモデルのオーケストレーションによる最先端の品質</title>
+      <title>ShopifyがTailwindを買収</title>
+      <link>https://tailwindcss.com/blog/tailwind-is-joining-shopify</link>
+      <guid isPermaLink="false">https://tailwindcss.com/blog/tailwind-is-joining-shopify</guid>
+      <description>[Score: 88] 人気CSSフレームワーク「Tailwind CSS」の開発元がShopifyに買収されました。 / 買収後もTailwindはアクティブにメンテナンスされ、長期的な開発基盤が確保されます。 / Shopifyの複雑なプロダクト開発を通じて、フレームワークのさらなる進化を目指します。 (Source: Hacker News)</description>
+      <pubDate>Wed, 09 Sep 2026 13:27:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>プロジェクトHydraFusion：マルチモデルオーケストレーションによるフロンティア品質の実現</title>
       <link>https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</link>
       <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</guid>
-      <description>[Score: 88] GitHubは、マルチモデルのオーケストレーションを行う「Project HydraFusion」を発表した。 / 複数のAIモデルから最適なものを自動選択し、ドラフトや修正、カスケードなどの実行プランを生成する。 / 開発者は複雑な設定を意識せず、パフォーマンス、コスト、遅延のバランスが取れたワークフローを利用できる。 (Source: GitHub Blog)</description>
+      <description>[Score: 88] GitHubが、実行時に複数のAIモデルをオーケストレーションする「Project HydraFusion」を発表。 / タスクに応じて、単一モデル、カスケード、クリティークなどの実行パターンを動的に選択し、品質・コスト・遅延を最適化する。 / 開発者は複雑なルーティングを意識することなく、最適なモデルワークフローの恩恵を受けられる。 (Source: GitHub Blog)</description>
       <pubDate>Fri, 04 Sep 2026 16:04:14 +0000</pubDate>
     </item>
     <item>
-      <title>「こんにちは、Reddit。私はロイターのジャーナリスト、ケイティ・ポールです。マーク・ザッカーバーグがMetaのスタッフをAIに置き換える計画と、それがどのように崩壊したかを暴きました。AMA（何でも聞いてね）」</title>
-      <link>https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/</guid>
-      <description>[Score: 85] ロイターの記者による、Metaが従業員をAIに置き換えようとして失敗した裏舞台に関するAMA（質問スレッド）。 / マーク・ザッカーバーグによるAI代替計画の全貌と、その計画がどのように崩壊したかの詳細が語られている。 / AI導入による人員削減の現実的な課題や、企業の意思決定プロセスについて議論が交わされている。 (Source: Reddit)</description>
-      <pubDate>Wed, 02 Sep 2026 19:18:30 +0000</pubDate>
+      <title>自動運転車が人命を救うという増え続ける証拠</title>
+      <link>https://spectrum.ieee.org/are-self-driving-cars-safe</link>
+      <guid isPermaLink="false">https://spectrum.ieee.org/are-self-driving-cars-safe</guid>
+      <description>[Score: 85] 自動運転技術や先進運転支援システム（ADAS）が道路の安全性を高めているという研究結果を紹介しています。 / 自動運転車は人間よりも事故率が大幅に低く、負傷者数も少ないことがデータで示されています。 / 自動緊急ブレーキ（AEB）の義務化などにより、歩行者事故や追突事故が劇的に減少しています。 (Source: Hacker News)</description>
+      <pubDate>Wed, 09 Sep 2026 17:14:59 +0000</pubDate>
     </item>
     <item>
-      <title>Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに</title>
-      <link>https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html</guid>
-      <description>[Score: 85] AWSに最適化されたOS「Amazon Linux 2027」のパブリックプレビュー版が4年ぶりにリリース。 / Fedora 44/45の一部をベースとし、カーネルバージョンは最新のアップデートで6.18を採用。 / セキュリティ強化のため、SELinuxがデフォルトで強制（Enforcing）モードに設定されている。 (Source: Publickey)</description>
-      <pubDate>Tue, 08 Sep 2026 15:54:55 +0000</pubDate>
+      <title>Anthropicの研究者が退職、「OpenAIとAnthropicは我々の命でギャンブルをしている」と警告</title>
+      <link>https://www.reddit.com/r/technology/comments/1wbgwa6/an_anthropic_researcher_just_quit_saying_openai/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wbgwa6/an_anthropic_researcher_just_quit_saying_openai/</guid>
+      <description>[Score: 85] Anthropicの研究者が、同社およびOpenAIの安全軽視の姿勢を批判して退職しました。 / 開発競争が優先され、人類の安全を脅かすリスクに対する対策が不十分であると主張しています。 / 主要AI企業内部からの告発であり、AIの安全性（AI Safety）と規制に関する議論を再燃させています。 (Source: Reddit)</description>
+      <pubDate>Wed, 09 Sep 2026 09:39:51 +0000</pubDate>
     </item>
     <item>
-      <title>JavaScriptをC言語にコンパイルする「porffor」がアルファ版に到達。ネイティブやWASMを生成可能</title>
-      <link>https://www.publickey1.jp/blog/26/javascriptcporfforwasm.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/javascriptcporfforwasm.html</guid>
-      <description>[Score: 85] JavaScript/TypeScriptをC言語にコンパイルする「porffor」がアルファ版に到達した。 / 中間表現を経てC言語に変換し、ネイティブバイナリやWebAssemblyを生成できる。 / ランタイム不要で単体実行可能であり、バイナリサイズを最大50分の1に削減できる。 (Source: Publickey)</description>
-      <pubDate>Sun, 06 Sep 2026 15:04:34 +0000</pubDate>
+      <title>AWS、AIがフルスタックAWSアプリの基本コードを、セキュリティ、可観測性、インフラまで一気通貫で生成する「Nx Plugin for AWS 1.0」、オープンソースで公開</title>
+      <link>https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html</guid>
+      <description>[Score: 85] AWSは、AIがフルスタックアプリケーションの基本コードを自動生成するツールをオープンソースで公開した。 / アプリケーションコードだけでなく、セキュリティや可観測性を備えたインフラ構成コードも一括生成する。 / 開発者は、BedrockやTypeScriptなどの環境構築や複雑なインフラ設計の手間を大幅に削減できる。 (Source: Publickey)</description>
+      <pubDate>Wed, 09 Sep 2026 15:30:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>HTMX 4.0正式リリース。内部実装がXHRからfetchに移行しStreaming HTMLが可能に、属性はデフォルトで子要素に継承されないように変更など</title>
+      <link>https://www.publickey1.jp/blog/26/htmx_40xhrfetchstreaming_html.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/htmx_40xhrfetchstreaming_html.html</guid>
+      <description>[Score: 85] HTML属性を追加するだけで動的なWebアプリを構築できるJavaScriptライブラリ「HTMX 4.0」が正式リリースされた。 / 内部実装が従来のXHRからfetch APIへと移行したことで、Streaming HTMLの受信と描画が可能になった。 / また、属性がデフォルトで子要素に継承されないように変更されるなど、仕様の整理と近代化が行われている。 (Source: Publickey)</description>
+      <pubDate>Mon, 07 Sep 2026 15:39:27 +0000</pubDate>
     </item>
     <item>
       <title>OpenClawがバイラルに。開発とセキュリティを担うメンテナーたちを紹介</title>
       <link>https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/</link>
       <guid isPermaLink="false">https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/</guid>
-      <description>[Score: 85] 個人開発から急成長し、GitHubで約38万スターを獲得したオープンソースのAIアシスタント「OpenClaw」を紹介。 / メンテナーたちが、急増するプルリクエストの管理やサプライチェーンリスクへの対策について語っている。 / 強力なエージェント機能とセキュリティのバランスを維持するための実践的な教訓が共有された。 (Source: GitHub Blog)</description>
+      <description>[Score: 85] 個人開発から始まり、GitHubで爆発的な人気を獲得したローカルAIアシスタント「OpenClaw」の事例を紹介。 / 大量の自動生成プルリクエストの管理や、コントリビューターの信頼性確保の課題を議論。 / ソフトウェアサプライチェーンのセキュリティリスクや、強力なエージェント機能と安全性のバランスについて解説。 (Source: GitHub Blog)</description>
       <pubDate>Thu, 27 Aug 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>レンダリングされたトポロジー絵本</title>
-      <link>https://e-infinity.space/picture-book/</link>
-      <guid isPermaLink="false">https://e-infinity.space/picture-book/</guid>
-      <description>[Score: 82] トポロジー（位相幾何学）の複雑な曲面を、温かみのある手書き風のスタイルで3DレンダリングするWebプロジェクト。 / GPUを用いた隠線消去や、曲率に基づいたハッチング（陰影線）のストローク生成など、高度なグラフィックス技術を駆使。 / 数学的な美しさをインタラクティブに表現し、ベクターベースの美しい描画を実現している。 (Source: Hacker News)</description>
-      <pubDate>Tue, 08 Sep 2026 22:28:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>初心者のためのGitHub Copilotアプリ：複数のエージェントを同時に実行する</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/</guid>
-      <description>[Score: 82] GitHub Copilotアプリにおいて、複数のAIエージェントを同時に並行実行できる機能が紹介された。 / 各セッションは独立したGit worktreeで動作するため、互いに干渉せず並行処理が可能である。 / 開発者はエージェントの完了を待つことなく、複数のタスクを効率的に進め、レビューに集中できる。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 03 Sep 2026 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>大規模言語モデルは適応的探索を通じて新たな社会的バイアスを形成する</title>
-      <link>https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH</link>
-      <guid isPermaLink="false">https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH</guid>
-      <description>[Score: 80] LLMが適応的探索（Adaptive Exploration）のプロセスを通じて、新たな社会的バイアスを学習・形成する現象を研究。 / 従来の静的なデータセットだけでなく、動的な探索行動がバイアスの増幅や新規バイアスの創出につながることを指摘。 / AIの倫理的安全性やバイアス緩和策における新たな課題を提示している。 (Source: Hacker News)</description>
-      <pubDate>Tue, 08 Sep 2026 21:47:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>モバイルアプリ開発でもエージェントループを回したい！React Nativeで計画から検証・PRまで任せる</title>
-      <link>https://zenn.dev/tellernovel_inc/articles/57b223dd4b8f5d</link>
-      <guid isPermaLink="false">https://zenn.dev/tellernovel_inc/articles/57b223dd4b8f5d</guid>
-      <description>[Score: 80] React Nativeを用いたモバイルアプリ開発において、AIエージェントに実装から検証までを自律的に行わせる手法を解説している。 / エージェントがiOS/Androidシミュレータを直接操作して動作確認を行うツール「agent-device」を活用する。 / Storybookのplay関数を用いたインタラクションテストなど、エージェントにタスクを任せるための実装側の準備について詳述している。 (Source: Zenn)</description>
-      <pubDate>Tue, 08 Sep 2026 05:40:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>最近取り入れたClaude Codeの個人的tips 4選</title>
-      <link>https://qiita.com/kuma_3838/items/00cb0b8d61ca76769c88?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/kuma_3838/items/00cb0b8d61ca76769c88?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] AI開発支援ツール「Claude Code」をより便利に使いこなすためのTipsを紹介しています。 / セッション名を自動で設定するためのシェルスクリプトとフックの活用法を解説しています。 / 複数セッションの並行管理など、日々の開発作業を効率化する実用的なテクニックです。 (Source: Qiita)</description>
-      <pubDate>Sun, 06 Sep 2026 21:48:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>EVバッテリーはドライバーの懸念よりも長持ち：15万km走行後も初期容量の約90%を維持できるとの研究結果</title>
-      <link>https://www.reddit.com/r/technology/comments/1waui4v/ev_batteries_last_longer_than_drivers_feared/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1waui4v/ev_batteries_last_longer_than_drivers_feared/</guid>
-      <description>[Score: 80] 電気自動車（EV）のバッテリー寿命は、多くのドライバーが懸念しているよりもはるかに長いことが研究で示された。 / 15万キロメートル走行した中古のEVでも、元の使用可能なバッテリー容量の約90%を維持できるという。 / この結果は、中古EV市場の活性化やEVの普及を後押しする重要なデータとなる。 (Source: Reddit)</description>
-      <pubDate>Tue, 08 Sep 2026 17:12:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>巨大オンラインゲーム「EVE Online」。ゲームを支える240万行のPython 2.7のコードをPython 3へ移行すると発表</title>
-      <link>https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html</guid>
-      <description>[Score: 80] 2003年開始の巨大オンラインゲーム「EVE Online」が、240万行に及ぶPython 2.7のコードをPython 3へ移行すると発表。 / 同作は高い並行性を実現するため、C言語のコールスタックに依存しない「Stackless Python」で構築されてきた。 / 長年維持されてきた大規模なレガシーコードの近代化に向けた、歴史的なマイグレーションプロジェクトとなる。 (Source: Publickey)</description>
-      <pubDate>Tue, 08 Sep 2026 14:28:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google、EU DMAに伴う検索デザイン変更により品質低下と検索露出の変化を指摘</title>
-      <link>https://dev.to/alifar/google-says-eu-dma-search-redesign-reduces-quality-and-changes-search-visibility-14b6</link>
-      <guid isPermaLink="false">https://dev.to/alifar/google-says-eu-dma-search-redesign-reduces-quality-and-changes-search-visibility-14b6</guid>
-      <description>[Score: 80] GoogleはEUのデジタル市場法（DMA）に準拠するため、欧州で検索デザインを刷新した。 / 同社はこの変更により、29年の歴史の中で検索品質が最も大きく低下したと主張している。 / 比較サービスなどの表示が優先されるようになり、企業のオーガニック検索の露出やユーザー体験に影響を与えている。 (Source: Dev.to)</description>
-      <pubDate>Tue, 08 Sep 2026 23:45:30 +0000</pubDate>
+      <title>ビジョンおよび言語Transformerのためのダメージを考慮したバンディットプルーニング</title>
+      <link>https://arxiv.org/abs/2609.05448</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.05448</guid>
+      <description>[Score: 84] Vision-Language Transformerモデルの軽量化に向けた、新しいプルーニング（剪定）手法を提案しています。 / モデルへの「ダメージ（性能低下）」を考慮しつつ、多腕バンディットアルゴリズムを用いて効率的に枝刈りを行います。 / マルチモーダルモデルの推論高速化とメモリ削減を、精度を維持しながら実現します。 (Source: arXiv cs.AI)</description>
+      <pubDate>Wed, 09 Sep 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
       <title>タスクの品質を犠牲にすることなくAIコーディングのコスト効率を高める方法</title>
       <link>https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/</link>
       <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/</guid>
-      <description>[Score: 80] GitHub Copilotにおいて、品質を維持しながらコスト効率を向上させる最適化手法が紹介された。 / 単なるトークン削減ではなく、適切なコンテキスト量を確保してタスクの成果を最大化することを目指す。 / オフラインベンチマークとオンライン実験を通じて検証された改善が、各種Copilot製品に適用されている。 (Source: GitHub Blog)</description>
+      <description>[Score: 83] GitHub Copilotにおいて、トークン数削減だけでなく、タスクの成果（アウトカム）を最適化するアプローチを解説。 / シェル出力を短縮するツール「RTK」の評価など、エージェントの文脈理解とコストのトレードオフを検証。 / ベンチマークとオンライン実験に基づき、品質を維持しながら効率性を向上させる4つの変更点を導入。 (Source: GitHub Blog)</description>
       <pubDate>Wed, 02 Sep 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>テレンス・タオ：AIによって非再生可能に採掘される未解決の数学問題</title>
-      <link>https://mathstodon.xyz/@tao/117237320796901560</link>
-      <guid isPermaLink="false">https://mathstodon.xyz/@tao/117237320796901560</guid>
-      <description>[Score: 78] 数学者のテレンス・タオ氏が、AIによる数学の未解決問題の解決プロセスについて懸念や見解を表明。 / AIが人間のように持続可能な形で数学を発展させるのではなく、既存の「良い問題」を非再生可能に消費（採掘）していると指摘。 / AIと数学研究の未来、および学術エコシステムへの影響について重要な議論を提起している。 (Source: Hacker News)</description>
-      <pubDate>Tue, 08 Sep 2026 21:00:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>1,500人のカメラマンに社内NotionのQAエージェントを提供した話</title>
-      <link>https://zenn.dev/lovegraph/articles/ce6cb80756e3ca</link>
-      <guid isPermaLink="false">https://zenn.dev/lovegraph/articles/ce6cb80756e3ca</guid>
-      <description>[Score: 78] 出張撮影サービス「ラブグラフ」において、1,500人以上のカメラマン向けに社内NotionをソースとしたQAエージェントを構築した事例。 / Gemini 3.5 Flash-LiteとGoogle Cloudを組み合わせ、実運用における詳細なコスト試算やトークン構造を公開している。 / 画像のVLM解析や日次クロールなど、RAGシステムを実用レベルで安定運用するための具体的な知見がまとめられている。 (Source: Zenn)</description>
-      <pubDate>Tue, 08 Sep 2026 08:00:19 +0000</pubDate>
     </item>
     <item>
       <title>ジュニアの「AIが書いたコードが理解できない」問題の対応策</title>
       <link>https://qiita.com/im_yoneda/items/f27e52d2f852ba017a7e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/im_yoneda/items/f27e52d2f852ba017a7e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 78] ジュニアエンジニアが生成AIの出力コードを理解しきれない課題に焦点を当てています。 / コード生成を依頼する前に、要件や処理フローを自分の言葉で整理する重要性を説いています。 / AIとの壁打ちやADRの活用により、開発全体の効率化を図るアプローチを提案しています。 (Source: Qiita)</description>
+      <description>[Score: 82] ジュニアエンジニアが生成AIの出力コードを理解できず、開発効率が上がらない課題を分析。 / 原因はコードの読み方ではなく、AIに依頼する前の要件定義や処理フローの整理不足にあると指摘。 / AIとの壁打ちで実装範囲を明確化し、ADR（アーキテクチャ意思決定記録）に残す対策を提案。 (Source: Qiita)</description>
       <pubDate>Mon, 07 Sep 2026 02:53:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>メモリはいつ役立つのか？ツールを利用するLLMエージェントにおける長期メモリのコストを考慮した評価</title>
+      <link>https://arxiv.org/abs/2609.05441</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.05441</guid>
+      <description>[Score: 82] ツールを使用するLLMエージェントにおいて、長期メモリがどのような状況で有効かを調査した研究です。 / メモリの維持や検索に伴うコストと、それによって得られる性能向上のトレードオフを評価しています。 / 実用的なAIエージェントの設計において、効率的なメモリ管理の指針を提供します。 (Source: arXiv cs.AI)</description>
+      <pubDate>Wed, 09 Sep 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AutoFyn技術レポート：長期的なタスクを実行するエージェントのための非パラメトリックなエキスパート反復</title>
+      <link>https://arxiv.org/abs/2609.05446</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.05446</guid>
+      <description>[Score: 81] 長期的なタスク（Long-Horizon）を実行するAIエージェント向けの新しい学習手法「AutoFyn」を提案しています。 / 非パラメトリックな手法を用いたエキスパート反復により、エージェントの探索効率を向上させます。 / 複雑な意思決定を必要とする自律型エージェントの性能向上に貢献する技術です。 (Source: arXiv cs.AI)</description>
+      <pubDate>Wed, 09 Sep 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AirPods 5</title>
+      <link>https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/</link>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/</guid>
+      <description>[Score: 80] Appleがオープンイヤー型で最高クラスのノイズキャンセリングを搭載した「AirPods 5」を発表しました。 / 前モデルに比べ外部ノイズを最大50%削減し、マルチポート音響アーキテクチャを採用しています。 / Siri AIとの連携やヘッドジェスチャー操作に対応し、価格は129ドルからとなります。 (Source: Hacker News)</description>
+      <pubDate>Wed, 09 Sep 2026 17:39:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Docker環境をガチで軽量化するための鉄板設定まとめ</title>
+      <link>https://qiita.com/nolanlover0527/items/24ee07122dd4d0523069?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/nolanlover0527/items/24ee07122dd4d0523069?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 80] Windowsローカル環境におけるDockerの動作が重い場合の軽量化手順をまとめた記事。 / 未使用イメージやコンテナを一括削除するコマンドや、リソース使用状況の確認方法を解説。 / ボトルネックを特定するための測定方法や、ビルドキャッシュの活用などの注意点を紹介。 (Source: Qiita)</description>
+      <pubDate>Sun, 06 Sep 2026 23:56:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>AWS、自然言語でデータ分析アプリを構築可能に、「Amazon Quick」に新機能</title>
+      <link>https://www.publickey1.jp/blog/26/awsamazon_quick.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/awsamazon_quick.html</guid>
+      <description>[Score: 80] AWSは、データ分析プラットフォーム「Amazon Quick」において自然言語でアプリを構築できる新機能を発表した。 / ユーザーは指示を出すだけで、様々なデータソースに接続し、グラフを含むダッシュボードを自動作成できる。 / 生成AIを活用することで、専門知識がないユーザーでも高度なデータ分析ワークフローを容易に構築可能となる。 (Source: Publickey)</description>
+      <pubDate>Wed, 09 Sep 2026 15:27:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>巨大オンラインゲーム「EVE Online」。ゲームを支える240万行のPython 2.7のコードをPython 3へ移行すると発表</title>
+      <link>https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html</guid>
+      <description>[Score: 80] 宇宙を舞台にした大規模オンラインゲーム「EVE Online」が、240万行のPython 2.7コードをPython 3へ移行すると発表した。 / 本作は2003年のサービス開始当初から、高い並行性を実現できる「Stackless Python」で構築されている。 / 長年稼働してきた巨大なコードベースの近代化に向けた、大規模な移行プロジェクトが本格始動する。 (Source: Publickey)</description>
+      <pubDate>Tue, 08 Sep 2026 14:28:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>初心者のためのGitHub Copilotアプリ：複数のエージェントを同時に実行する</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/</guid>
+      <description>[Score: 80] GitHub Copilotアプリにおいて、複数のAIエージェントセッションを並行して実行する方法を解説。 / 各セッションは独立したGit worktree上で動作するため、互いに干渉せず並行処理が可能。 / 開発者はコンテキストスイッチのコストを削減し、エージェントの作業完了を待たずに別のタスクを進められる。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 03 Sep 2026 16:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
