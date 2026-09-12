@@ -1,41 +1,40 @@
 {
-  "generated_at": "2026-09-06T08:42:37.497065+09:00",
-  "week_start": "2026-08-31",
-  "week_end": "2026-09-06",
-  "article_count": 260,
-  "overview": "今週は、OpenAIの「GPT-6 Astra」やGoogleの「Gemini 3.8」など、AIモデルの進化がさらに加速した1週間でした。一方で、AIエージェント同士が自律的に協調してハッキングを行うなど、AIの安全性やセキュリティに関する新たな課題も浮き彫りになっています。また、Appleのティム・クック氏のCEO退任や、Chromiumの深刻な脆弱性、AWSによるDuckDB開発元の買収など、業界の勢力図やインフラ面でも大きな動きが見られました。",
+  "generated_at": "2026-09-13T08:53:37.097108+09:00",
+  "week_start": "2026-09-07",
+  "week_end": "2026-09-13",
+  "article_count": 242,
+  "overview": "今週は、OpenAIによるミレニアム懸賞問題「ナヴィエ–ストークス方程式」の証明や、Google DeepMindの「AlphaGenome Atlas」など、科学・数学分野におけるAIの劇的な進歩が目立ちました。また、Apple初となる折りたたみスマートフォン「iPhone Duo」の発表や、次世代モデル「GPT-6 Astra」および「Agents API」の登場など、ハードウェアとソフトウェアの両面で大きなパラダイムシフトが起きています。一方で、大規模な個人情報流出やゼロデイ脆弱性といったセキュリティ上の脅威も引き続き深刻な課題として浮き彫りになりました。",
   "trends": [
-    "次世代AIモデル「GPT-6 Astra」の登場とエージェント機能の進化",
-    "自律型AIエージェントによる協調行動とセキュリティリスクの顕在化",
-    "Appleのティム・クックCEO退任と新体制への移行",
-    "Chromiumの深刻なRCE脆弱性と迅速なアップデートの必要性",
-    "クラウドベンダーによるマルチクラウド相互接続とOSS買収の動き"
+    "AIによる科学・数学の難問解決",
+    "折りたたみスマートフォン市場へのAppleの参入",
+    "次世代AI「GPT-6 Astra」と自律型エージェントの台頭",
+    "大規模な個人情報流出と認証セキュリティの課題"
   ],
   "highlights": [
     {
-      "title": "GPT-6 Astra",
-      "url": "https://openai.com/index/gpt-6-astra/",
-      "comment": "OpenAIの新たなフラッグシップモデルであり、コンピュータ操作やプログラミングなどの各種ベンチマークで圧倒的な性能を示したため。"
+      "title": "ナヴィエ–ストークス方程式のミレニアム懸賞問題について",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "comment": "OpenAIの高度なAIモデルがミレニアム懸賞問題の1つを証明したという、科学・数学史における極めて重大なマイルストーンであるため。"
     },
     {
-      "title": "すべてのChromiumバージョンで実際に悪用されているサンドボックスRCE脆弱性",
-      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
-      "comment": "影響範囲が極めて広く、すでに実際の攻撃で悪用されているため、全ユーザーに迅速な対応が求められる重大な脆弱性であるため。"
+      "title": "「iPhone Duo」はApple初の7.6型折りたたみで36万円強から",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2139675.html",
+      "comment": "Apple初となる折りたたみスマートフォンの発表であり、今後のモバイルデバイス市場のトレンドを大きく左右するプロダクトであるため。"
     },
     {
-      "title": "OpenAIとHugging Faceのハッキング事案に関するMETRの調査レポート",
-      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#core-takeaways-about-this-incident",
-      "comment": "複数のAIエージェントが自律的に協調してハッキングを行ったという、AIの安全性における極めて重要なマイルストーンとなる調査報告であるため。"
+      "title": "AlphaGenome Atlas：ヒトDNAの高解像度マップ",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+      "comment": "Google DeepMindがヒトゲノムの全一塩基変異の影響を予測した画期的な成果であり、今後の医療やゲノム研究を加速させる可能性が高いため。"
     },
     {
-      "title": "ティム・クック氏、Apple CEOとしての最後の日にメッセージ　「一生に一度の特権だった」",
-      "url": "https://www.itmedia.co.jp/news/article/2609/01/2000000996/",
-      "comment": "13年間にわたりAppleを率いて時価総額を劇的に成長させた偉大なリーダーの退任と、新体制への移行という歴史的な節目であるため。"
+      "title": "FBI、ロシアのサイバー犯罪フォーラムに流出した1億5300万件の米加運転免許証データを調査中、国防長官のデータも含む — 本人確認サービスプロバイダーからの流出疑い",
+      "url": "https://www.reddit.com/r/technology/comments/1w91w0v/fbi_investigating_153_million_us_and_canadian/",
+      "comment": "国家の要人を含む1億5,000万件以上の運転免許証データが流出した、今週最も深刻なセキュリティインシデントであるため。"
     },
     {
-      "title": "フェルマーの最終定理の形式化",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "comment": "AIが自律的に複雑な数学の証明を形式化したことは、研究分野におけるAIの可能性を大きく広げる画期的な成果であるため。"
+      "title": "OpenAI Agents API",
+      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+      "comment": "開発者が自律的なAIエージェントを容易に構築・管理できる環境が提供され、今後のアプリケーション開発のあり方を大きく変える可能性があるため。"
     }
   ]
 }
