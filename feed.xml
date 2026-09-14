@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 12 Sep 2026 23:53:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 00:05:38 +0000</lastBuildDate>
     <item>
-      <title>Apple Neural Engineから50 GB/sの帯域を取り戻す</title>
-      <link>https://eiln.github.io/posts/ane-dma.html</link>
-      <guid isPermaLink="false">https://eiln.github.io/posts/ane-dma.html</guid>
-      <description>[Score: 90] Apple M3のNeural Engine（ANE）において、特定のメモリサイズ（1MiBの整数倍）の際にDRAM転送速度が大幅に低下するハードウェアのバグを発見しました。 / カーネルDMAエンジンの投機的プリフェッチにおける問題のパスを回避することで、Llama 3.2などのトークン処理速度を2倍以上に向上させることに成功しました。 / ANEのレジスタやDMAの挙動を詳細にプロファイリングし、ハードウェアのボトルネックをソフトウェア側で解決した技術的検証です。 (Source: Hacker News)</description>
-      <pubDate>Thu, 10 Sep 2026 00:16:10 +0000</pubDate>
+      <title>マイクロソフトがRust言語をC++/C#/TSに並ぶ社内のTier 1言語にしたことを明らかに。Windowsネイティブな社内の開発環境と統合</title>
+      <link>https://www.publickey1.jp/blog/26/rustcctstier_1.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/rustcctstier_1.html</guid>
+      <description>[Score: 92] マイクロソフトが社内開発において、RustをC++やC#、TypeScriptと並ぶ「Tier 1言語」に昇格させたことを発表しました。 / これによりRustは、Windowsネイティブな開発環境やソフトウェアライフサイクル全体の要件を満たす言語として統合されます。 / ファームウェアやカーネル、マイクロサービスなどあらゆるレイヤーでRustの利用拡大が進められます。 (Source: Publickey)</description>
+      <pubDate>Sun, 13 Sep 2026 15:27:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>2026年に多くのシステムトレード戦略のアルファが消失した件について</title>
+      <link>https://zenn.dev/gamella/articles/6bd6e5ab9e88bc</link>
+      <guid isPermaLink="false">https://zenn.dev/gamella/articles/6bd6e5ab9e88bc</guid>
+      <description>[Score: 90] 2026年、簡単な検証で見つかるような短期的なシステムトレード戦略の優位性（アルファ）が急速に劣化した。 / 原因はAIエージェントがClaude等を用いて自走し、単純な戦略の生成と検証を高速で大量に回し始めたことにある。 / クオンツ運用においては、値動きのみに依存する単純なファクターを避け、AIに模倣されない真のスキルを評価することが重要となる。 (Source: Zenn)</description>
+      <pubDate>Sun, 13 Sep 2026 03:37:06 +0000</pubDate>
     </item>
     <item>
       <title>うっかり世界最強のWasmコンパイラに並行処理（マルチスレッド）を載せたら、なぜか1.46KBまで縮んだ件</title>
       <link>https://qiita.com/kanryu/items/a031d4928ddb7caa0784?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/kanryu/items/a031d4928ddb7caa0784?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 90] 自作の極小WebAssemblyコンパイラに、Web Workerを利用したマルチスレッド並行処理を実装した開発記。 / WASM内部に複雑なスケジューラを抱えず、ブラウザ側の非同期・並行基盤を逆算的に活用するアーキテクチャを採用。 / 同期待ちを含むマルチスレッド並行計算をサポートしながら、バイナリサイズを驚異の1.46KBまで削減することに成功した。 (Source: Qiita)</description>
+      <description>[Score: 90] 自作のWasmコンパイラにWeb Workerを用いたマルチスレッド並行処理を実装した開発記。 / WASM内部にスケジューラを持たず、ブラウザ（JS）側の非同期・並行基盤を逆算的に活用する設計を採用。 / 同期待ちを含むマルチスレッド処理を実装しながら、バイナリサイズを驚異の1.46KBにまで削減している。 (Source: Qiita)</description>
       <pubDate>Fri, 11 Sep 2026 11:50:10 +0000</pubDate>
     </item>
     <item>
-      <title>AWS、AIがフルスタックAWSアプリの基本コードを、セキュリティ、可観測性、インフラまで一気通貫で生成する「Nx Plugin for AWS 1.0」、オープンソースで公開</title>
-      <link>https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html</guid>
-      <description>[Score: 88] AWSは、AIがフルスタックAWSアプリケーションの基本コードを生成するツールをOSSとして公開した。 / アプリケーションコードだけでなく、セキュリティ、可観測性、インフラ構成（IaC）まで一気通貫で生成可能。 / Amazon Bedrock AgentやMCPサーバー、TypeScript/Pythonなどのフレームワーク構築にも対応する。 (Source: Publickey)</description>
-      <pubDate>Wed, 09 Sep 2026 15:30:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>LLMで1,245個のテーブルを説明したら検索精度が悪化した話</title>
-      <link>https://dev.to/ashish_sinha_5241c7673d93/i-described-1245-tables-with-an-llm-and-retrieval-got-worse-58a</link>
-      <guid isPermaLink="false">https://dev.to/ashish_sinha_5241c7673d93/i-described-1245-tables-with-an-llm-and-retrieval-got-worse-58a</guid>
-      <description>[Score: 88] 1,245個のデータベーステーブルに対してLLMで説明文を生成しインデックスに追加したところ、検索精度が大幅に悪化する現象が発生した。 / 原因は、生成された説明文が共通の語彙を多用したことで、BM25アルゴリズムにおける重要キーワードの逆文書頻度（IDF）スコアが低下したためである。 / 文書をインデックス登録する前に要約やキーワード拡張などの「強化」を行う際、同様の罠に陥るリスクがあることを示唆している。 (Source: Dev.to)</description>
-      <pubDate>Sat, 12 Sep 2026 23:35:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>プロジェクトHydraFusion：マルチモデルオーケストレーションによる最先端の品質</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</guid>
-      <description>[Score: 88] 複数のAIモデルを動的に組み合わせて最適なワークフローを実行する「Project HydraFusion」のプレビューが公開されました。 / タスクに応じて、単一モデルの実行、段階的に強力なモデルへ移行するカスケード、別モデルによる検証（Critique）の3パターンを自動選択します。 / 開発者は複雑な制御を意識することなく、パフォーマンス、コスト、遅延のバランスが取れた最適なAI支援を受けられます。 (Source: GitHub Blog)</description>
-      <pubDate>Fri, 04 Sep 2026 16:04:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>拡散モデルの微調整におけるLoRAランクのトレードオフの理解</title>
-      <link>https://arxiv.org/abs/2609.10656</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.10656</guid>
-      <description>[Score: 88] 画像生成などに使われる拡散モデルの微調整（Fine-Tuning）において、LoRAのランクサイズが与える影響とトレードオフを分析しています。 / ランクの大きさと生成品質、学習コスト、過学習のリスクなどの関係性を定量的に明らかにします。 / 拡散モデルを効率的かつ高品質にカスタマイズするための最適なハイパーパラメータ選定の指針を提供します。 (Source: arXiv cs.AI)</description>
-      <pubDate>Sat, 12 Sep 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>NvidiaはAIの中央銀行である</title>
-      <link>https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai</link>
-      <guid isPermaLink="false">https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai</guid>
-      <description>[Score: 85] NvidiaがAI業界において「中央銀行」のような絶対的な影響力を持つ存在になっていることを分析する記事です。 / AI半導体（GPU）の供給やエコシステムを通じて、AIスタートアップやテック大手の命運を握っている現状を指摘しています。 / 半導体市場の独占的地位と、それが世界のAI経済や投資に与える巨大な影響について考察しています。 (Source: Hacker News)</description>
-      <pubDate>Sat, 12 Sep 2026 15:08:27 +0000</pubDate>
+      <title>AI開発「減速」をアンソロピックCEOが提案　アルトマン氏・マスク氏らも賛同</title>
+      <link>https://www.watch.impress.co.jp/docs/news/2140440.html</link>
+      <guid isPermaLink="false">https://www.watch.impress.co.jp/docs/news/2140440.html</guid>
+      <description>[Score: 90] AnthropicのCEOがAIの急速な進歩に伴うリスクを懸念し、開発競争の「減速」を提案しました。 / この提案にはOpenAIのサム・アルトマン氏やイーロン・マスク氏など業界の主要人物も賛同しています。 / AI自身による自己改善や、AIエージェントが意図しないサイバー攻撃を行うリスクなどが背景にあります。 (Source: はてなブックマーク)</description>
+      <pubDate>Sun, 13 Sep 2026 11:21:39 +0000</pubDate>
     </item>
     <item>
       <title>クロスプラットフォーム開発が解決するコスト、解決しないコスト</title>
       <link>https://zenn.dev/nkzn/articles/cross-platform-development-costs-2026</link>
       <guid isPermaLink="false">https://zenn.dev/nkzn/articles/cross-platform-development-costs-2026</guid>
-      <description>[Score: 85] Shopifyがモバイルアプリ開発をReact Nativeからネイティブへ回帰させた背景を分析した記事。 / AI（Coding Agent）の導入により、ネイティブアプリを2本開発するコストが大幅に低下したことが天秤を動かしたと指摘。 / 技術選定は「コード共有率」だけでなく、前提となるコスト構造の変化を捉えるべきだと説く。 (Source: Zenn)</description>
+      <description>[Score: 88] Shopifyがモバイルアプリ開発をReact Nativeからネイティブ（Swift/Kotlin）へ回帰させたニュースを分析。 / AIエージェントの導入によりネイティブ開発の並行実装コストが低下し、React Native維持のコストが相対的に上回った。 / 技術選定は単なるコード共有率ではなく、AI台頭などの環境変化に伴う「コスト構造の変化」で判断すべきだと指摘している。 (Source: Zenn)</description>
       <pubDate>Sat, 12 Sep 2026 14:05:10 +0000</pubDate>
     </item>
     <item>
-      <title>terraform plan -minimal-refreshでplanを爆速にする</title>
-      <link>https://qiita.com/minamijoyo/items/92c094b554d090b54a17?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/minamijoyo/items/92c094b554d090b54a17?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] Terraform v1.17で導入された新機能「-minimal-refresh」フラグによるplan高速化手法を紹介。 / 従来の全リソースを無条件に更新するrefreshフェーズを、差分のあるリソースのみに絞ることで処理を最適化する。 / ドリフトによるデグレのリスクを回避しつつ、肥大化したtfstateにおけるplanの実行時間を劇的に短縮できる。 (Source: Qiita)</description>
-      <pubDate>Fri, 11 Sep 2026 01:46:51 +0000</pubDate>
+      <title>なぜKVキャッシュが2026年におけるAIエージェントの経済的中心となるのか</title>
+      <link>https://dev.to/sarantoon/thamaim-kv-cache-thuengklaayepnhawaicchesrsthsaastrkhng-ai-agent-ainpii-2026-22mf</link>
+      <guid isPermaLink="false">https://dev.to/sarantoon/thamaim-kv-cache-thuengklaayepnhawaicchesrsthsaastrkhng-ai-agent-ainpii-2026-22mf</guid>
+      <description>[Score: 88] AIエージェントの運用において、トークン単価よりも「KVキャッシュ」のメモリ・計算コストが最大の支出要因になりつつあります。 / エージェントは同じコンテキスト（リポジトリや履歴）を何度も読み込むため、会話の長さに比例してキャッシュが肥大化します。 / DeepSeek V4.1-Flashは、この課題を解決するために「Causal Encoder-Decoder (CED)」アーキテクチャを採用しています。 (Source: Dev.to)</description>
+      <pubDate>Sun, 13 Sep 2026 23:33:08 +0000</pubDate>
     </item>
     <item>
-      <title>AIが数学の難問を解決していいのか｜柞刈湯葉</title>
-      <link>https://note.com/yubais/n/nd4505991a6d6</link>
-      <guid isPermaLink="false">https://note.com/yubais/n/nd4505991a6d6</guid>
-      <description>[Score: 85] AIが数学の未解決問題を解くことに対し、多くの数学者が反感や懸念を抱いている。 / 数学においては「答え」よりも「解く過程で生まれる新しい手法や概念」こそが重要とされる。 / AIによる安易な解決は、人間が世界を理解するための新しい概念の誕生を阻害する恐れがある。 (Source: はてなブックマーク)</description>
-      <pubDate>Sat, 12 Sep 2026 10:56:24 +0000</pubDate>
+      <title>プロジェクトHydraFusion：マルチモデル・オーケストレーションによる最先端の品質</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</guid>
+      <description>[Score: 88] 複数プロバイダーのモデルを動的に組み合わせて最適な実行計画を作成する「Project HydraFusion」を発表しました。 / タスクの品質、コスト、遅延のバランスを考慮し、単一実行、カスケード、批判（Critique）の3パターンを自動選択します。 / 開発者は複雑なモデル選定を意識することなく、常に最適なパフォーマンスを得ることができます。 (Source: GitHub Blog)</description>
+      <pubDate>Fri, 04 Sep 2026 16:04:14 +0000</pubDate>
     </item>
     <item>
-      <title>Nuxt.js から Next.js へ ── フロントエンド技術リプレイスにおけるハーネスエンジニアリングと理解負債</title>
-      <link>https://zenn.dev/mediba/articles/7d0d7d70678546</link>
-      <guid isPermaLink="false">https://zenn.dev/mediba/articles/7d0d7d70678546</guid>
-      <description>[Score: 85] Nuxt.jsからNext.jsへの大規模なフロントエンド技術リプレイスプロジェクトの事例を紹介。 / AIコーディングツール「Claude Code」を効果的に活用するための「ハーネスエンジニアリング」を実践。 / ルールやコンテキストの整備、開発フローのスキル化を通じて、AIとの協働における課題解決に取り組んでいる。 (Source: はてなブックマーク)</description>
-      <pubDate>Fri, 11 Sep 2026 03:42:23 +0000</pubDate>
+      <title>Fable 5.1が370年前の暗号「Cyphral Distich」を解読</title>
+      <link>https://www.vals.ai/blogs/fable-solves-cyphral-distich</link>
+      <guid isPermaLink="false">https://www.vals.ai/blogs/fable-solves-cyphral-distich</guid>
+      <description>[Score: 85] Claude Fable 5.1が、370年間未解決だったトーマス・アーカート卿の暗号「Cyphral Distich」を解読しました。 / 人間が何世紀にもわたり頻度分析などの手法で挑み、見落としていた単純な手がかりをAIが発見しました。 / 介入なしで44分間、176kトークンを消費した末に、AIは自律的にこの歴史的暗号の解読に成功しました。 (Source: Hacker News)</description>
+      <pubDate>Sun, 13 Sep 2026 21:06:13 +0000</pubDate>
     </item>
     <item>
-      <title>Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに</title>
-      <link>https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html</guid>
-      <description>[Score: 85] AWSに最適化されたLinux OSの4年ぶりのメジャーバージョンアップ「Amazon Linux 2027」のパブリックプレビューがリリースされた。 / Fedora 44および45の一部をベースとしており、カーネルバージョンは最新のアップデートで6.18が採用されている。 / セキュリティ面が強化され、本バージョンからSELinuxがデフォルトで強制（Enforcing）モードに設定されている。 (Source: Publickey)</description>
-      <pubDate>Tue, 08 Sep 2026 15:54:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>自然言語からの二次非制約バイナリ最適化（QUBO）定式化生成の自動化</title>
-      <link>https://arxiv.org/abs/2609.10629</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.10629</guid>
-      <description>[Score: 85] 量子アニーリングやイジングマシンで用いられるQUBOモデルの定式化を、自然言語の記述から自動生成する手法を提案しています。 / 専門知識が必要だったQUBOの構築を自動化することで、量子コンピューティングの利用ハードルを大幅に下げます。 / 組合せ最適化問題を抱える様々な産業分野での量子技術の適用を加速させる可能性があります。 (Source: arXiv cs.AI)</description>
-      <pubDate>Sat, 12 Sep 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>これまでに目にしたText-to-SQLのベンチマークスコアはすべてアクセス制御なしで測定されていた</title>
-      <link>https://dev.to/ashish_sinha_5241c7673d93/every-text-to-sql-benchmark-score-youve-seen-was-measured-without-access-control-37h</link>
-      <guid isPermaLink="false">https://dev.to/ashish_sinha_5241c7673d93/every-text-to-sql-benchmark-score-youve-seen-was-measured-without-access-control-37h</guid>
-      <description>[Score: 83] 既存の主要なText-to-SQLベンチマークは、データベース全体への無制限のアクセス権を持つ前提で測定されており、実運用とは乖離していた。 / SIGMOD 2027採択論文にて、ロールベースアクセス制御（RBAC）を適用した環境で測定したところ、多くのLLMで大幅な性能低下が確認された。 / セキュリティ制約（RBAC）に違反してクエリが拒否されるなど、実用的なText-to-SQLシステム構築における新たな課題を提起している。 (Source: Dev.to)</description>
-      <pubDate>Sat, 12 Sep 2026 23:35:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>暗記から汎化への転移の定量化：Grokkingにおけるスケーリング則と相構造</title>
-      <link>https://arxiv.org/abs/2609.10657</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.10657</guid>
-      <description>[Score: 83] ニューラルネットワークが過学習（暗記）状態から急激に汎化性能を獲得する現象「Grokking」を定量的に分析しています。 / 暗記から汎化への転移プロセスにおけるスケーリング則と相転移のような構造を明らかにします。 / ディープラーニングの学習ダイナミクスの本質的な理解を深め、より効率的な学習手法の開発に繋がる基礎研究です。 (Source: arXiv cs.AI)</description>
-      <pubDate>Sat, 12 Sep 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RustのNever型（!）の安定化</title>
-      <link>https://lwn.net/SubscriberLink/1091015/d9e48318ed242b41/</link>
-      <guid isPermaLink="false">https://lwn.net/SubscriberLink/1091015/d9e48318ed242b41/</guid>
-      <description>[Score: 82] Rust言語において、決して戻らない関数や値が存在し得ない場所を示す「Never型（!）」が、2年以上の作業を経てついに安定化されました。 / 以前はコンパイラ内部でのみ使用される不安定な機能でしたが、既存コードへの影響を最小限に抑える破壊的変更の調整を経て正式に導入されました。 / Never型の安定化により、型システムにおける理論的な一貫性と、実用的なエラーハンドリングなどのコード記述性が向上します。 (Source: Hacker News)</description>
-      <pubDate>Wed, 09 Sep 2026 11:57:45 +0000</pubDate>
+      <title>自動車が収集し第三者に販売されるデータ</title>
+      <link>https://www.theverge.com/column/994172/your-car-is-selling-your-data</link>
+      <guid isPermaLink="false">https://www.theverge.com/column/994172/your-car-is-selling-your-data</guid>
+      <description>[Score: 85] 多くの自動車が膨大な個人データを収集し、データブローカーを通じて保険会社などに販売している実態が明らかになった。 / FTCはGMに対し、顧客の同意が不十分なまま運転データを販売していたとして、5年間のデータ販売禁止処分を下した。 / 多くのドライバーは接続サービス契約時に無意識に同意させられており、保険料高騰などの実害も発生している。 (Source: Hacker News)</description>
+      <pubDate>Sun, 13 Sep 2026 13:45:08 +0000</pubDate>
     </item>
     <item>
       <title>OpenTelemetry eBPF Instrumentationの舞台裏</title>
       <link>https://zenn.dev/ymotongpoo/books/go-ebpf-primer</link>
       <guid isPermaLink="false">https://zenn.dev/ymotongpoo/books/go-ebpf-primer</guid>
-      <description>[Score: 82] OpenTelemetryにおけるeBPFを用いた自動計装（Instrumentation）の仕組みを解説する技術書の紹介。 / Go言語のランタイム構造やeBPFの基礎から、uretprobeの制限やレジスタベースの呼び出し規約などの難所までを網羅。 / カーネルレベルでのオブザーバビリティ実現に向けた、高度な技術的背景と実装の舞台裏を紐解いている。 (Source: Zenn)</description>
+      <description>[Score: 85] eBPFを用いたOpenTelemetryによる自動計装（Instrumentation）の仕組みを解説する技術書。 / OSカーネルやGoランタイムの挙動、レジスタベースの呼び出し規約など、実装における技術的な難所を詳述。 / オブザーバビリティ向上を目指すGo開発者やSREに向けて、実践的な知識と動向を提供している。 (Source: Zenn)</description>
       <pubDate>Fri, 11 Sep 2026 02:01:34 +0000</pubDate>
     </item>
     <item>
-      <title>アクセスログから不正アクセスの兆候を見つける7つの集計(nginx/Apache対応・コピペOK)</title>
-      <link>https://qiita.com/jiis-sasaki/items/7affa2e2ef22ebf93fa6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/jiis-sasaki/items/7affa2e2ef22ebf93fa6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 82] Webサーバーのアクセスログから不正アクセスの兆候を絞り込むための7つの集計コマンドを紹介している。 / CDNやロードバランサ配下で正しいクライアントIPを復元するためのnginxやApacheの設定方法を解説。 / 検出した不正アクセス元をfail2banを用いて自動的に遮断する具体的な手順までを網羅している。 (Source: Qiita)</description>
-      <pubDate>Thu, 10 Sep 2026 22:30:00 +0000</pubDate>
+      <title>私はChatGPTですが、はてブとGyazoという「化石の地層」を掘れるようになって異次元に便利になりました｜ゆいせき</title>
+      <link>https://note.com/yuiseki/n/nabf4625e58bc</link>
+      <guid isPermaLink="false">https://note.com/yuiseki/n/nabf4625e58bc</guid>
+      <description>[Score: 85] ユーザーが長年蓄積した「はてなブックマーク」「Gyazo」「Cosense」のデータをMCP経由でChatGPTに連携。 / AIはこれらを「思考の地層」と捉え、ユーザーの過去の思考プロセスや関心のグラデーションを正確に復元可能に。 / 単なる情報検索を超え、長年の一次記録がAIエージェントにとって極めて純度の高いコンテキストになることを実証。 (Source: はてなブックマーク)</description>
+      <pubDate>Sun, 13 Sep 2026 09:42:08 +0000</pubDate>
     </item>
     <item>
-      <title>AWS、自然言語でデータ分析アプリを構築可能に、「Amazon Quick」に新機能</title>
-      <link>https://www.publickey1.jp/blog/26/awsamazon_quick.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/awsamazon_quick.html</guid>
-      <description>[Score: 82] AWSは、データ分析プラットフォーム「Amazon Quick」において、自然言語の指示だけでカスタムアプリを構築できる新機能を発表した。 / 多様なデータソースに接続可能なBIツールを基盤とし、ビジュアルなダッシュボードやワークフローを構築できる。 / 生成AIを活用することで、専門知識がなくても対話形式で高度なデータ分析アプリを作成可能にする。 (Source: Publickey)</description>
-      <pubDate>Wed, 09 Sep 2026 15:27:47 +0000</pubDate>
+      <title>AIのせいでエンジニアの75％を解雇したCSSフレームワークのTailwind、Shopifyによる買収を発表。今後も安定的な開発を維持すると</title>
+      <link>https://www.publickey1.jp/blog/26/ai75csstailwindshopify.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/ai75csstailwindshopify.html</guid>
+      <description>[Score: 85] 人気CSSフレームワーク「Tailwind CSS」の開発元であるTailwind LabsがShopifyに買収されることが発表されました。 / AIの台頭により同社のビジネスは厳しい状況に置かれ、エンジニアの75%を解雇する事態に陥っていました。 / 買収後もTailwind CSSのオープンソースとしての安定的な開発は維持される見込みです。 (Source: はてなブックマーク)</description>
+      <pubDate>Sun, 13 Sep 2026 18:07:07 +0000</pubDate>
     </item>
     <item>
-      <title>Real-SWE: プライベートな実世界のエンタープライズコードベースでAIモデルをベンチマークする</title>
-      <link>https://withspecific.com/benchmarks/real-swe</link>
-      <guid isPermaLink="false">https://withspecific.com/benchmarks/real-swe</guid>
-      <description>[Score: 80] 実際の企業のプライベートな本番コードベースを使用してAIモデルを評価するベンチマーク「Real-SWE」がリリースされました。 / 既存の製品が持つコンテキストや複雑さをそのまま含んだ、エンジニアが実際に取り組む課題でAIをテストします。 / コーディングAIエージェントが実世界でソフトウェアエンジニアの仕事を代替できるかを検証することを目的としています。 (Source: Hacker News)</description>
-      <pubDate>Sat, 12 Sep 2026 20:25:48 +0000</pubDate>
+      <title>AWS、AIがフルスタックAWSアプリの基本コードやインフラ構成を一気通貫で生成する「Nx Plugin for AWS 1.0」をオープンソースで公開</title>
+      <link>https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html</guid>
+      <description>[Score: 85] AWSは、AIがフルスタックAWSアプリの基本コードとインフラ構成コードを一気通貫で自動生成するツールをOSSとして公開しました。 / セキュリティや可観測性（X-RayやCloudWatch連携）などの要件を備えたインフラ構成もまとめて生成可能です。 / Amazon Bedrock AgentやMCPサーバー、TypeScript/Pythonなどのフレームワーク構築にも対応しています。 (Source: Publickey)</description>
+      <pubDate>Wed, 09 Sep 2026 15:30:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>写真📷録音🎙PDF📄コード💻いいね👍｜私の情報はどこへ漏れていくのか？ AI製品36件の規約とプライバシーポリシーを形式別に調べてみた</title>
+      <link>https://qiita.com/songchong/items/e630bf05f4adf0c16ce5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/songchong/items/e630bf05f4adf0c16ce5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 83] 主要なAI製品36件の利用規約を調査し、入力データの形式ごとの取り扱い方針を比較分析した記事。 / 音声やPDFなどの形式によって学習への利用有無が異なり、同じ製品でも個人版と法人版で方針が逆になる。 / 評価ボタン（いいね）を押した会話は、オプトアウト設定をしていても学習対象になる例外などを指摘。 (Source: Qiita)</description>
+      <pubDate>Sun, 13 Sep 2026 19:32:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>👍を押したらバレる？「学習させない」設定をしてもダメ？｜AIツール個人版ユーザーの防衛策🛡5手と、やっても残る3つ</title>
+      <link>https://qiita.com/songchong/items/9dc9ee419d2764d2aa06?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/songchong/items/9dc9ee419d2764d2aa06?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 82] AIツールの個人版において、入力データの学習利用や情報漏洩を防ぐための具体的な防衛策を解説。 / 学習OFF設定をしていても、評価ボタンを押した会話は例外的に学習対象となる仕様とその対策を提示。 / ユーザー側で制御できる5つの対策手順と、安全レビューなどシステム側で強制的に残る3つのリスクを整理。 (Source: Qiita)</description>
+      <pubDate>Sun, 13 Sep 2026 19:31:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHubアベイラビリティレポート：2026年8月</title>
+      <link>https://github.blog/news-insights/company-news/github-availability-report-august-2026/</link>
+      <guid isPermaLink="false">https://github.blog/news-insights/company-news/github-availability-report-august-2026/</guid>
+      <description>[Score: 82] 2026年8月におけるGitHubのサービス可用性に関する課題と、インフラ改善の取り組みを報告しています。 / Azureへの移行を進めており、8月に初めてAzure上で本番環境のMySQLプライマリを稼働させた実績を公開しました。 / キャパシティ監視の強化やリトライポリシーの改善など、耐障害性向上のための具体的な対策を実施しています。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 10 Sep 2026 02:05:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Signalでの電話番号なし登録にゼロ知識証明が導入へ</title>
+      <link>https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10</link>
+      <guid isPermaLink="false">https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10</guid>
+      <description>[Score: 80] メッセージングアプリ「Signal」において、電話番号を使用せずにアカウント登録を行う新機能の開発が進行中です。 / ユーザー名やグループ情報の検証において、サーバーにデータを明かさない「ゼロ知識証明（ZKP）」技術が活用されます。 / 既存の電話番号アカウントとの紐付け解除や、プライバシー保護の技術的詳細についてコミュニティで議論されています。 (Source: Hacker News)</description>
+      <pubDate>Sun, 13 Sep 2026 21:47:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>単体テストの実行時間を6割程度削減してみた</title>
+      <link>https://zenn.dev/dress_code/articles/5dd5de5020d9ef</link>
+      <guid isPermaLink="false">https://zenn.dev/dress_code/articles/5dd5de5020d9ef</guid>
+      <description>[Score: 80] AIによるコード量産に伴い、CI環境での単体テスト実行時間が16分以上に肥大化した課題を解決した事例。 / ボトルネックの特定や検証作業をAIに任せ、不要なカバレッジレポートの削除やPrismaの読み込み最適化を実施。 / 結果としてテスト実行時間を約6割削減し、CIのリードタイム短縮による開発体験の向上を実現した。 (Source: Zenn)</description>
+      <pubDate>Fri, 11 Sep 2026 02:30:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>AWSのインフラ導入でAIを使っている箇所と手でやっている箇所</title>
+      <link>https://qiita.com/infra365/items/aa30a54fc6f0849385a7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/infra365/items/aa30a54fc6f0849385a7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 80] AWSインフラ導入プロセスにおけるAIの活用状況と、手動作業が残るボトルネックを整理した記事。 / 構築や試験フェーズはIaCやAIの活用で自動化が進む一方、検証や設計書作成は手動作業が多く残る。 / AIとの協業プロセスを通じて、これまで暗黙知だった検証情報やノウハウが形式知化されるメリットも紹介。 (Source: Qiita)</description>
+      <pubDate>Fri, 11 Sep 2026 05:51:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>バーニー・サンダース議員、人工超知能（ASI）計画を強行するAI開発者に禁錮20年を提案 — 違法な核兵器開発と同等の罰則</title>
+      <link>https://www.reddit.com/r/technology/comments/1wfcsdl/bernie_sanders_proposes_20_year_prison_sentence/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wfcsdl/bernie_sanders_proposes_20_year_prison_sentence/</guid>
+      <description>[Score: 80] 米国のバーニー・サンダース上院議員が、人工超知能（ASI）の開発を強行する開発者に対し、最大20年の禁錮刑を科す法案を提案。 / この罰則は違法な核兵器開発と同等の厳しさであり、AIの潜在的リスクに対する強い警戒感を示している。 / AIの急速な進化に伴う安全規制や法的責任のあり方について、政治的な議論を巻き起こしている。 (Source: Reddit)</description>
+      <pubDate>Sun, 13 Sep 2026 16:46:33 +0000</pubDate>
     </item>
   </channel>
 </rss>
