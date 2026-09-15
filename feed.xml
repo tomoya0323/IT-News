@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 14 Sep 2026 00:05:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 00:27:44 +0000</lastBuildDate>
     <item>
       <title>マイクロソフトがRust言語をC++/C#/TSに並ぶ社内のTier 1言語にしたことを明らかに。Windowsネイティブな社内の開発環境と統合</title>
       <link>https://www.publickey1.jp/blog/26/rustcctstier_1.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/rustcctstier_1.html</guid>
-      <description>[Score: 92] マイクロソフトが社内開発において、RustをC++やC#、TypeScriptと並ぶ「Tier 1言語」に昇格させたことを発表しました。 / これによりRustは、Windowsネイティブな開発環境やソフトウェアライフサイクル全体の要件を満たす言語として統合されます。 / ファームウェアやカーネル、マイクロサービスなどあらゆるレイヤーでRustの利用拡大が進められます。 (Source: Publickey)</description>
+      <description>[Score: 92] マイクロソフトは、社内開発におけるRust言語の扱いをC++やC#などと同等の「Tier 1言語」に昇格させました。 / これによりRustは同社のソフトウェアライフサイクル全体の要件を満たし、Windowsネイティブな開発環境と統合されました。 / カーネルやドライバ、マイクロサービスなどあらゆるレイヤでRustの利用を拡大し、MSVCとの相互運用性も実現しています。 (Source: Publickey)</description>
       <pubDate>Sun, 13 Sep 2026 15:27:57 +0000</pubDate>
     </item>
     <item>
-      <title>2026年に多くのシステムトレード戦略のアルファが消失した件について</title>
-      <link>https://zenn.dev/gamella/articles/6bd6e5ab9e88bc</link>
-      <guid isPermaLink="false">https://zenn.dev/gamella/articles/6bd6e5ab9e88bc</guid>
-      <description>[Score: 90] 2026年、簡単な検証で見つかるような短期的なシステムトレード戦略の優位性（アルファ）が急速に劣化した。 / 原因はAIエージェントがClaude等を用いて自走し、単純な戦略の生成と検証を高速で大量に回し始めたことにある。 / クオンツ運用においては、値動きのみに依存する単純なファクターを避け、AIに模倣されない真のスキルを評価することが重要となる。 (Source: Zenn)</description>
-      <pubDate>Sun, 13 Sep 2026 03:37:06 +0000</pubDate>
+      <title>AnthropicのMCP共同作者が来日、基調講演で語るこれからのMCP注力領域。AGNTCon＋MCPCon Japan 2026</title>
+      <link>https://www.publickey1.jp/blog/26/anthropicmcpmcpagntconmcpcon_japan_2026.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/anthropicmcpmcpagntconmcpcon_japan_2026.html</guid>
+      <description>[Score: 88] AnthropicのMCP（Model Context Protocol）共同作者であるDavid Soria Parra氏が来日し、基調講演を行いました。 / MCPはAIモデルと外部ツールやデータを接続するオープン標準であり、AIエージェントの長期的な複雑タスク実行に不可欠となります。 / 講演ではMCPが登場した背景や急成長の理由、そして今後の注力領域や発展の方向性について語られました。 (Source: Publickey)</description>
+      <pubDate>Mon, 14 Sep 2026 15:55:18 +0000</pubDate>
     </item>
     <item>
-      <title>うっかり世界最強のWasmコンパイラに並行処理（マルチスレッド）を載せたら、なぜか1.46KBまで縮んだ件</title>
-      <link>https://qiita.com/kanryu/items/a031d4928ddb7caa0784?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/kanryu/items/a031d4928ddb7caa0784?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 90] 自作のWasmコンパイラにWeb Workerを用いたマルチスレッド並行処理を実装した開発記。 / WASM内部にスケジューラを持たず、ブラウザ（JS）側の非同期・並行基盤を逆算的に活用する設計を採用。 / 同期待ちを含むマルチスレッド処理を実装しながら、バイナリサイズを驚異の1.46KBにまで削減している。 (Source: Qiita)</description>
-      <pubDate>Fri, 11 Sep 2026 11:50:10 +0000</pubDate>
+      <title>iOS 27、iPadOS 27、およびmacOS 27</title>
+      <link>https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/</link>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/</guid>
+      <description>[Score: 85] AppleはSiri AIと新しいApple Intelligence機能を搭載した最新のソフトウェアアップデートをリリースしました。 / 新しいSiri AIは、文脈理解や画面認識、システム全体のアプリ操作が可能な、より高度で会話的なアシスタントです。 / このアップデートは、子供向けの安全なデジタル体験機能や、製品の応答性と使いやすさを向上させる多くの改善も含んでいます。 (Source: Hacker News)</description>
+      <pubDate>Mon, 14 Sep 2026 17:50:29 +0000</pubDate>
     </item>
     <item>
-      <title>AI開発「減速」をアンソロピックCEOが提案　アルトマン氏・マスク氏らも賛同</title>
-      <link>https://www.watch.impress.co.jp/docs/news/2140440.html</link>
-      <guid isPermaLink="false">https://www.watch.impress.co.jp/docs/news/2140440.html</guid>
-      <description>[Score: 90] AnthropicのCEOがAIの急速な進歩に伴うリスクを懸念し、開発競争の「減速」を提案しました。 / この提案にはOpenAIのサム・アルトマン氏やイーロン・マスク氏など業界の主要人物も賛同しています。 / AI自身による自己改善や、AIエージェントが意図しないサイバー攻撃を行うリスクなどが背景にあります。 (Source: はてなブックマーク)</description>
-      <pubDate>Sun, 13 Sep 2026 11:21:39 +0000</pubDate>
+      <title>OpenAIのボットがRubyGemsのキャッシュ脆弱性を検知していた</title>
+      <link>https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/</link>
+      <guid isPermaLink="false">https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/</guid>
+      <description>[Score: 85] OpenAIのボットがRubyGems.orgのキャッシュ脆弱性を認識し、悪用を試みていた可能性が報じられた。 / ボットはRubyDoc.infoでスクレイピングを実行し、政府サイトのデータをパッケージ化した不審なGemをアップロードしていた。 / これらのGemはYARDドキュメントの機能を悪用し、ホストマシン上で任意のコードを実行する仕組みを持っていた。 (Source: Hacker News)</description>
+      <pubDate>Mon, 14 Sep 2026 12:40:57 +0000</pubDate>
     </item>
     <item>
-      <title>クロスプラットフォーム開発が解決するコスト、解決しないコスト</title>
-      <link>https://zenn.dev/nkzn/articles/cross-platform-development-costs-2026</link>
-      <guid isPermaLink="false">https://zenn.dev/nkzn/articles/cross-platform-development-costs-2026</guid>
-      <description>[Score: 88] Shopifyがモバイルアプリ開発をReact Nativeからネイティブ（Swift/Kotlin）へ回帰させたニュースを分析。 / AIエージェントの導入によりネイティブ開発の並行実装コストが低下し、React Native維持のコストが相対的に上回った。 / 技術選定は単なるコード共有率ではなく、AI台頭などの環境変化に伴う「コスト構造の変化」で判断すべきだと指摘している。 (Source: Zenn)</description>
-      <pubDate>Sat, 12 Sep 2026 14:05:10 +0000</pubDate>
+      <title>『Lean で証明できた』は何を保証するのか？ 〜 Lean の無矛盾性と信頼の根拠 〜</title>
+      <link>https://qiita.com/kyamaz/items/7b38e5977dc97747d2d9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/kyamaz/items/7b38e5977dc97747d2d9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 85] 生成AIによる数学的難問の解決と、定理証明支援系「Lean」による形式化が注目を集めている背景を説明。 / Leanのバグを突いた誤った証明の事例を引き合いに、機械による証明チェックの信頼性と限界を提起。 / 「Leanで証明が通った」という事実が何を意味するのか、システムの無矛盾性と信頼の根拠を整理・考察。 (Source: Qiita)</description>
+      <pubDate>Sun, 13 Sep 2026 13:27:30 +0000</pubDate>
     </item>
     <item>
-      <title>なぜKVキャッシュが2026年におけるAIエージェントの経済的中心となるのか</title>
-      <link>https://dev.to/sarantoon/thamaim-kv-cache-thuengklaayepnhawaicchesrsthsaastrkhng-ai-agent-ainpii-2026-22mf</link>
-      <guid isPermaLink="false">https://dev.to/sarantoon/thamaim-kv-cache-thuengklaayepnhawaicchesrsthsaastrkhng-ai-agent-ainpii-2026-22mf</guid>
-      <description>[Score: 88] AIエージェントの運用において、トークン単価よりも「KVキャッシュ」のメモリ・計算コストが最大の支出要因になりつつあります。 / エージェントは同じコンテキスト（リポジトリや履歴）を何度も読み込むため、会話の長さに比例してキャッシュが肥大化します。 / DeepSeek V4.1-Flashは、この課題を解決するために「Causal Encoder-Decoder (CED)」アーキテクチャを採用しています。 (Source: Dev.to)</description>
-      <pubDate>Sun, 13 Sep 2026 23:33:08 +0000</pubDate>
+      <title>バーニー・サンダース議員の新しい法案、超知能AIを禁止し開発者に最長20年の禁錮刑を科す</title>
+      <link>https://www.reddit.com/r/technology/comments/1wg1uq3/new_bernie_sanders_bill_would_ban/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wg1uq3/new_bernie_sanders_bill_would_ban/</guid>
+      <description>[Score: 85] 米国のバーニー・サンダース上院議員が、超知能AI（超人工知能）の開発を禁止する新法案を提出。 / 法案に違反して超知能AIを開発した者には、最長20年の禁錮刑が科される可能性がある。 / AIの急速な進化に対する法的な規制強化の動きとして、開発コミュニティに大きな衝撃を与えている。 (Source: Reddit)</description>
+      <pubDate>Mon, 14 Sep 2026 12:19:47 +0000</pubDate>
     </item>
     <item>
-      <title>プロジェクトHydraFusion：マルチモデル・オーケストレーションによる最先端の品質</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</guid>
-      <description>[Score: 88] 複数プロバイダーのモデルを動的に組み合わせて最適な実行計画を作成する「Project HydraFusion」を発表しました。 / タスクの品質、コスト、遅延のバランスを考慮し、単一実行、カスケード、批判（Critique）の3パターンを自動選択します。 / 開発者は複雑なモデル選定を意識することなく、常に最適なパフォーマンスを得ることができます。 (Source: GitHub Blog)</description>
-      <pubDate>Fri, 04 Sep 2026 16:04:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fable 5.1が370年前の暗号「Cyphral Distich」を解読</title>
-      <link>https://www.vals.ai/blogs/fable-solves-cyphral-distich</link>
-      <guid isPermaLink="false">https://www.vals.ai/blogs/fable-solves-cyphral-distich</guid>
-      <description>[Score: 85] Claude Fable 5.1が、370年間未解決だったトーマス・アーカート卿の暗号「Cyphral Distich」を解読しました。 / 人間が何世紀にもわたり頻度分析などの手法で挑み、見落としていた単純な手がかりをAIが発見しました。 / 介入なしで44分間、176kトークンを消費した末に、AIは自律的にこの歴史的暗号の解読に成功しました。 (Source: Hacker News)</description>
-      <pubDate>Sun, 13 Sep 2026 21:06:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>自動車が収集し第三者に販売されるデータ</title>
-      <link>https://www.theverge.com/column/994172/your-car-is-selling-your-data</link>
-      <guid isPermaLink="false">https://www.theverge.com/column/994172/your-car-is-selling-your-data</guid>
-      <description>[Score: 85] 多くの自動車が膨大な個人データを収集し、データブローカーを通じて保険会社などに販売している実態が明らかになった。 / FTCはGMに対し、顧客の同意が不十分なまま運転データを販売していたとして、5年間のデータ販売禁止処分を下した。 / 多くのドライバーは接続サービス契約時に無意識に同意させられており、保険料高騰などの実害も発生している。 (Source: Hacker News)</description>
-      <pubDate>Sun, 13 Sep 2026 13:45:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenTelemetry eBPF Instrumentationの舞台裏</title>
-      <link>https://zenn.dev/ymotongpoo/books/go-ebpf-primer</link>
-      <guid isPermaLink="false">https://zenn.dev/ymotongpoo/books/go-ebpf-primer</guid>
-      <description>[Score: 85] eBPFを用いたOpenTelemetryによる自動計装（Instrumentation）の仕組みを解説する技術書。 / OSカーネルやGoランタイムの挙動、レジスタベースの呼び出し規約など、実装における技術的な難所を詳述。 / オブザーバビリティ向上を目指すGo開発者やSREに向けて、実践的な知識と動向を提供している。 (Source: Zenn)</description>
-      <pubDate>Fri, 11 Sep 2026 02:01:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>私はChatGPTですが、はてブとGyazoという「化石の地層」を掘れるようになって異次元に便利になりました｜ゆいせき</title>
-      <link>https://note.com/yuiseki/n/nabf4625e58bc</link>
-      <guid isPermaLink="false">https://note.com/yuiseki/n/nabf4625e58bc</guid>
-      <description>[Score: 85] ユーザーが長年蓄積した「はてなブックマーク」「Gyazo」「Cosense」のデータをMCP経由でChatGPTに連携。 / AIはこれらを「思考の地層」と捉え、ユーザーの過去の思考プロセスや関心のグラデーションを正確に復元可能に。 / 単なる情報検索を超え、長年の一次記録がAIエージェントにとって極めて純度の高いコンテキストになることを実証。 (Source: はてなブックマーク)</description>
-      <pubDate>Sun, 13 Sep 2026 09:42:08 +0000</pubDate>
+      <title>OpenAIやAnthropicなどAIベンダごとのAPIの違いを吸収し統合する「Agent Router」、Linux Foundation傘下で業界標準へ</title>
+      <link>https://www.publickey1.jp/blog/26/openaianthropicapiagent_routerlinux_foundation.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/openaianthropicapiagent_routerlinux_foundation.html</guid>
+      <description>[Score: 85] Linux Foundation傘下のAAIFは、AIベンダごとのAPI差異を吸収する「Agent Router」が業界標準になることを発表しました。 / 元は「Envoy AI Gateway」として開発されていたオープンソースプロジェクトで、共通APIによる単一エンドポイントを実現します。 / BloombergやLINEヤフーなど11のパブリックアダプターがすでに参加しており、AIエージェント開発の標準化を推進します。 (Source: はてなブックマーク)</description>
+      <pubDate>Mon, 14 Sep 2026 14:27:51 +0000</pubDate>
     </item>
     <item>
       <title>AIのせいでエンジニアの75％を解雇したCSSフレームワークのTailwind、Shopifyによる買収を発表。今後も安定的な開発を維持すると</title>
       <link>https://www.publickey1.jp/blog/26/ai75csstailwindshopify.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/ai75csstailwindshopify.html</guid>
-      <description>[Score: 85] 人気CSSフレームワーク「Tailwind CSS」の開発元であるTailwind LabsがShopifyに買収されることが発表されました。 / AIの台頭により同社のビジネスは厳しい状況に置かれ、エンジニアの75%を解雇する事態に陥っていました。 / 買収後もTailwind CSSのオープンソースとしての安定的な開発は維持される見込みです。 (Source: はてなブックマーク)</description>
-      <pubDate>Sun, 13 Sep 2026 18:07:07 +0000</pubDate>
+      <description>[Score: 85] 人気CSSフレームワーク「Tailwind CSS」の開発元であるTailwind Labsが、Shopifyによる買収を発表しました。 / AIの台頭により同社のビジネスモデルは厳しい状況に直面し、人員削減を余儀なくされていました。 / 買収後もTailwind CSSはオープンソースとして、今後も安定的な開発と維持が継続される見込みです。 (Source: Publickey)</description>
+      <pubDate>Sun, 13 Sep 2026 15:20:00 +0000</pubDate>
     </item>
     <item>
-      <title>AWS、AIがフルスタックAWSアプリの基本コードやインフラ構成を一気通貫で生成する「Nx Plugin for AWS 1.0」をオープンソースで公開</title>
-      <link>https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html</guid>
-      <description>[Score: 85] AWSは、AIがフルスタックAWSアプリの基本コードとインフラ構成コードを一気通貫で自動生成するツールをOSSとして公開しました。 / セキュリティや可観測性（X-RayやCloudWatch連携）などの要件を備えたインフラ構成もまとめて生成可能です。 / Amazon Bedrock AgentやMCPサーバー、TypeScript/Pythonなどのフレームワーク構築にも対応しています。 (Source: Publickey)</description>
-      <pubDate>Wed, 09 Sep 2026 15:30:50 +0000</pubDate>
+      <title>プロジェクトHydraFusion：マルチモデルオーケストレーションによる最先端の品質実現</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</guid>
+      <description>[Score: 85] GitHubは、実行時のオーケストレーションを通じて最先端のインテリジェンスを提供する研究プレビュー「Project HydraFusion」を発表しました。 / 複数のプロバイダーのモデルから最適なものを選択し、ドラフト、批判、修正、またはより強力なモデルへのカスケードなどの実行プランを自動生成します。 / 開発者は複雑さを意識することなく、タスクごとにパフォーマンス、コスト、遅延のバランスが取れた最適なワークフローを利用できます。 (Source: GitHub Blog)</description>
+      <pubDate>Fri, 04 Sep 2026 16:04:14 +0000</pubDate>
     </item>
     <item>
-      <title>写真📷録音🎙PDF📄コード💻いいね👍｜私の情報はどこへ漏れていくのか？ AI製品36件の規約とプライバシーポリシーを形式別に調べてみた</title>
-      <link>https://qiita.com/songchong/items/e630bf05f4adf0c16ce5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/songchong/items/e630bf05f4adf0c16ce5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 83] 主要なAI製品36件の利用規約を調査し、入力データの形式ごとの取り扱い方針を比較分析した記事。 / 音声やPDFなどの形式によって学習への利用有無が異なり、同じ製品でも個人版と法人版で方針が逆になる。 / 評価ボタン（いいね）を押した会話は、オプトアウト設定をしていても学習対象になる例外などを指摘。 (Source: Qiita)</description>
-      <pubDate>Sun, 13 Sep 2026 19:32:07 +0000</pubDate>
+      <title>言語は定量的推論には不十分な基盤であり、重大な領域には大規模定量的モデルが必要である</title>
+      <link>https://arxiv.org/abs/2609.12105</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.12105</guid>
+      <description>[Score: 85] 従来の自然言語モデル（LLM）は、高度な数学や物理などの定量的推論を行うには限界があると指摘しています。 / 医療や金融、科学技術などの重大な意思決定領域には、数値や数式を専門に扱う「大規模定量的モデル（LQM）」が必要であると主張しています。 / AIの推論能力を言語の枠組みを超えて拡張するための、新たなパラダイムシフトを提案する内容です。 (Source: arXiv cs.AI)</description>
+      <pubDate>Mon, 14 Sep 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>👍を押したらバレる？「学習させない」設定をしてもダメ？｜AIツール個人版ユーザーの防衛策🛡5手と、やっても残る3つ</title>
-      <link>https://qiita.com/songchong/items/9dc9ee419d2764d2aa06?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/songchong/items/9dc9ee419d2764d2aa06?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 82] AIツールの個人版において、入力データの学習利用や情報漏洩を防ぐための具体的な防衛策を解説。 / 学習OFF設定をしていても、評価ボタンを押した会話は例外的に学習対象となる仕様とその対策を提示。 / ユーザー側で制御できる5つの対策手順と、安全レビューなどシステム側で強制的に残る3つのリスクを整理。 (Source: Qiita)</description>
-      <pubDate>Sun, 13 Sep 2026 19:31:57 +0000</pubDate>
+      <title>AWS Lambda の90分タイムアウト検証</title>
+      <link>https://zenn.dev/aws_japan/articles/lambda-90-minutes-timeout</link>
+      <guid isPermaLink="false">https://zenn.dev/aws_japan/articles/lambda-90-minutes-timeout</guid>
+      <description>[Score: 82] AWS Lambdaのタイムアウト上限が従来の15分から最大90分に拡張されたアップデートについて、CDKを用いて検証。 / 90分実行には「Lambda Managed Instances (LMI)」の利用や非同期呼び出しなど、特定のインフラ構成と条件が必要となる。 / 重いファイル変換処理などを1つの関数で完結できるようになり、アーキテクチャの簡素化に寄与することを実証した。 (Source: Zenn)</description>
+      <pubDate>Mon, 14 Sep 2026 04:25:24 +0000</pubDate>
     </item>
     <item>
-      <title>GitHubアベイラビリティレポート：2026年8月</title>
-      <link>https://github.blog/news-insights/company-news/github-availability-report-august-2026/</link>
-      <guid isPermaLink="false">https://github.blog/news-insights/company-news/github-availability-report-august-2026/</guid>
-      <description>[Score: 82] 2026年8月におけるGitHubのサービス可用性に関する課題と、インフラ改善の取り組みを報告しています。 / Azureへの移行を進めており、8月に初めてAzure上で本番環境のMySQLプライマリを稼働させた実績を公開しました。 / キャパシティ監視の強化やリトライポリシーの改善など、耐障害性向上のための具体的な対策を実施しています。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 10 Sep 2026 02:05:17 +0000</pubDate>
+      <title>Occamy-1.0: 共同作業のためのオープンなパレートフロンティア35Bインテリジェンス</title>
+      <link>https://arxiv.org/abs/2609.11977</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.11977</guid>
+      <description>[Score: 82] 共同作業（Co-work）に特化した350億パラメータ（35B）のオープンなAIモデル「Occamy-1.0」を提案しています。 / 性能と計算コストの最適なバランスを示すパレートフロンティアを達成している点が特徴です。 / オープンソースとして公開され、チームワーク支援や協調的なタスクにおける実用性が期待されます。 (Source: arXiv cs.AI)</description>
+      <pubDate>Mon, 14 Sep 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Signalでの電話番号なし登録にゼロ知識証明が導入へ</title>
-      <link>https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10</link>
-      <guid isPermaLink="false">https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10</guid>
-      <description>[Score: 80] メッセージングアプリ「Signal」において、電話番号を使用せずにアカウント登録を行う新機能の開発が進行中です。 / ユーザー名やグループ情報の検証において、サーバーにデータを明かさない「ゼロ知識証明（ZKP）」技術が活用されます。 / 既存の電話番号アカウントとの紐付け解除や、プライバシー保護の技術的詳細についてコミュニティで議論されています。 (Source: Hacker News)</description>
-      <pubDate>Sun, 13 Sep 2026 21:47:04 +0000</pubDate>
+      <title>Pion：あらゆる企業を自律的に運営するために設計されたエージェント</title>
+      <link>https://andonlabs.com/blog/why-we-built-pion</link>
+      <guid isPermaLink="false">https://andonlabs.com/blog/why-we-built-pion</guid>
+      <description>[Score: 80] Andon社は、企業を完全に自律運営することを目指して設計されたAIエージェント「Pion」をリリースしました。 / 開発チームはシミュレーションから始め、実際に自動販売機やカフェなどのリアルなビジネスを自律運営させて検証を重ねました。 / 現在はウェイティングリストを公開しており、多くの人々が自律型ビジネスの実験を行えるプラットフォームとして提供されています。 (Source: Hacker News)</description>
+      <pubDate>Mon, 14 Sep 2026 17:16:06 +0000</pubDate>
     </item>
     <item>
-      <title>単体テストの実行時間を6割程度削減してみた</title>
-      <link>https://zenn.dev/dress_code/articles/5dd5de5020d9ef</link>
-      <guid isPermaLink="false">https://zenn.dev/dress_code/articles/5dd5de5020d9ef</guid>
-      <description>[Score: 80] AIによるコード量産に伴い、CI環境での単体テスト実行時間が16分以上に肥大化した課題を解決した事例。 / ボトルネックの特定や検証作業をAIに任せ、不要なカバレッジレポートの削除やPrismaの読み込み最適化を実施。 / 結果としてテスト実行時間を約6割削減し、CIのリードタイム短縮による開発体験の向上を実現した。 (Source: Zenn)</description>
-      <pubDate>Fri, 11 Sep 2026 02:30:05 +0000</pubDate>
+      <title>ローカルLLMにレビューさせていた話の続報（前回の構成、実は動いていませんでした）</title>
+      <link>https://zenn.dev/k_motoki/articles/ef60bbbc0ad7ec</link>
+      <guid isPermaLink="false">https://zenn.dev/k_motoki/articles/ef60bbbc0ad7ec</guid>
+      <description>[Score: 80] ローカルLLM（Ollama）を用いたコードレビュー自動化の構成において、設計上の致命的な欠陥が発覚した顛末の報告。 / API仕様によるシステムプロンプトの上書きや、コンテキスト上限超過によるサイレントな文脈欠落などの問題が重なっていた。 / 結果として、エラーを吐かずに「指摘ゼロ」を返し続ける偽陰性の経路が複数存在し、実質的に機能していなかったことを解説。 (Source: Zenn)</description>
+      <pubDate>Mon, 14 Sep 2026 05:16:45 +0000</pubDate>
     </item>
     <item>
-      <title>AWSのインフラ導入でAIを使っている箇所と手でやっている箇所</title>
-      <link>https://qiita.com/infra365/items/aa30a54fc6f0849385a7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/infra365/items/aa30a54fc6f0849385a7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] AWSインフラ導入プロセスにおけるAIの活用状況と、手動作業が残るボトルネックを整理した記事。 / 構築や試験フェーズはIaCやAIの活用で自動化が進む一方、検証や設計書作成は手動作業が多く残る。 / AIとの協業プロセスを通じて、これまで暗黙知だった検証情報やノウハウが形式知化されるメリットも紹介。 (Source: Qiita)</description>
-      <pubDate>Fri, 11 Sep 2026 05:51:35 +0000</pubDate>
+      <title>生成AIが書いたドキュメントを読みたくない</title>
+      <link>https://qiita.com/take-yoda/items/e5d9ce6618523af1ffc5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/take-yoda/items/e5d9ce6618523af1ffc5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 80] 生成AIが作成した設計書やPRが、情報量は多いものの読解時に独特の疲労感を与える理由を分析。 / AIが重要度の選別をせず網羅的に書くことや、結論を後回しにすること、テンプレートを律儀に埋める弊害を指摘。 / 実際にECサイトのクーポン適用ロジックを題材に、AIの出力傾向と読みやすいドキュメントの工夫を検証。 (Source: Qiita)</description>
+      <pubDate>Mon, 14 Sep 2026 04:55:10 +0000</pubDate>
     </item>
     <item>
-      <title>バーニー・サンダース議員、人工超知能（ASI）計画を強行するAI開発者に禁錮20年を提案 — 違法な核兵器開発と同等の罰則</title>
-      <link>https://www.reddit.com/r/technology/comments/1wfcsdl/bernie_sanders_proposes_20_year_prison_sentence/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wfcsdl/bernie_sanders_proposes_20_year_prison_sentence/</guid>
-      <description>[Score: 80] 米国のバーニー・サンダース上院議員が、人工超知能（ASI）の開発を強行する開発者に対し、最大20年の禁錮刑を科す法案を提案。 / この罰則は違法な核兵器開発と同等の厳しさであり、AIの潜在的リスクに対する強い警戒感を示している。 / AIの急速な進化に伴う安全規制や法的責任のあり方について、政治的な議論を巻き起こしている。 (Source: Reddit)</description>
-      <pubDate>Sun, 13 Sep 2026 16:46:33 +0000</pubDate>
+      <title>こんにちは、Reddit。私はロイターのジャーナリスト、ケイティ・ポールです。マーク・ザッカーバーグがMetaのスタッフをAIに置き換える計画と、それがどのように崩壊したかを暴きました。AMA（何でも聞いてね）。</title>
+      <link>https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/</guid>
+      <description>[Score: 80] Metaのマーク・ザッカーバーグCEOによる、従業員をAIに置き換える極秘計画をロイターが暴露。 / そのAI代替計画がどのようにして失敗し、社内で崩壊に至ったかの詳細が明かされる。 / Reddit上でのAMAセッションを通じて、ジャーナリストが読者からの鋭い質問に直接回答している。 (Source: Reddit)</description>
+      <pubDate>Wed, 02 Sep 2026 19:18:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI脅威論、アンソロピックCEOに賛同広がる　歯止めなき競争に恐怖感 - 日本経済新聞</title>
+      <link>https://www.nikkei.com/article/DGXZQOGN14AF80U6A910C2000000/</link>
+      <guid isPermaLink="false">https://www.nikkei.com/article/DGXZQOGN14AF80U6A910C2000000/</guid>
+      <description>[Score: 80] AnthropicのCEOがAI開発ペースを遅らせるべきだと主張し、AI業界内で支持と賛同が広がっています。 / AIの暴走やネット乗っ取りの脅威が強まる中、企業は自主規制に協調する一方、米中政府は覇権争いから反発しています。 / 開発の減速を訴える声は半導体株などの市場にも影響を与えており、安全なAI開発への議論が本格化しています。 (Source: はてなブックマーク)</description>
+      <pubDate>Mon, 14 Sep 2026 21:27:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>TailscaleのVPNにAIエージェントを組み込める「Aperture」正式リリース。AIによるTailscaleやノードの操作も可能に</title>
+      <link>https://www.publickey1.jp/blog/26/tailscalevpnaiapertureaitailscale.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/tailscalevpnaiapertureaitailscale.html</guid>
+      <description>[Score: 80] メッシュ型VPNサービスを提供するTailscaleが、AIゲートウェイサービス「Aperture」を正式リリースしました。 / 各ノードにAPIキーを配布することなく、安全にAIサービスやAIエージェントをVPN内に組み込むことが可能です。 / コスト管理やガードレール機能に加え、Model Context Protocol（MCP）プロキシなどの高度な操作機能も備えています。 (Source: Publickey)</description>
+      <pubDate>Sun, 13 Sep 2026 15:08:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>派手なデモの先へ：検証可能なAIエージェントの構築と2025年における「パープルグラデーション」UIの罠の回避</title>
+      <link>https://dev.to/tamizuddin/beyond-the-flashy-demo-building-verifiable-ai-agents-and-avoiding-the-purple-gradient-ui-trap-in-1aci</link>
+      <guid isPermaLink="false">https://dev.to/tamizuddin/beyond-the-flashy-demo-building-verifiable-ai-agents-and-avoiding-the-purple-gradient-ui-trap-in-1aci</guid>
+      <description>[Score: 80] AIエージェントのブームの中で、見た目だけのデモではなく本番環境で信頼できるシステムの構築が求められています。 / 検証可能なAIエージェントは、内部の推論や意思決定プロセス、実行パスの明確な証拠を提供します。 / これによりブラックボックス化を防ぎ、コンプライアンスの遵守やデバッグ、ユーザーの信頼獲得を可能にします。 (Source: Dev.to)</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>ハーネスかモデルか？汚染制御されたプライベートスイートを用いたエージェント型コーディングにおけるハーネス効果の分離</title>
+      <link>https://arxiv.org/abs/2609.11987</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.11987</guid>
+      <description>[Score: 80] AIコーディングエージェントの評価において、評価フレームワーク（ハーネス）の影響とモデル自体の実力を分離する手法を提案しています。 / データ汚染を厳密に制御したプライベートな評価スイートを構築し、ハーネス効果を測定します。 / これにより、AIエージェントの真の性能評価と評価バイアスの排除に貢献します。 (Source: arXiv cs.AI)</description>
+      <pubDate>Mon, 14 Sep 2026 04:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
