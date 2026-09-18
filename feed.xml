@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 17 Sep 2026 00:16:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 00:04:46 +0000</lastBuildDate>
+    <item>
+      <title>GitHub Copilotを使用してCopilotランタイムをRustに移行する</title>
+      <link>https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/</guid>
+      <description>[Score: 95] GitHub Copilotのランタイムを、TypeScriptから80万行以上のRustコードへ完全に書き換えたプロジェクトの事例。 / GitHub Copilot自身（AIエージェント）を活用することで、通常ならチームで1〜2年かかる規模の移行を1人の開発者が数ヶ月で完遂した。 / 段階的なリリースによりデグレを迅速に修正しつつ、ランタイムのパフォーマンスを劇的に向上させることに成功した。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 17 Sep 2026 00:26:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Astra for Law</title>
+      <link>https://openai.com/index/astra-for-law/</link>
+      <guid isPermaLink="false">https://openai.com/index/astra-for-law/</guid>
+      <description>[Score: 92] OpenAIは、法律実務に特化した新しいAI基盤「Astra for Law」を発表した。 / 最新モデル「GPT-6 Astra」をベースに、法律検索インデックスや専門ツールとの連携機能を備える。 / 機密情報を扱う法律事務所向けに、プライバシーとガバナンスの制御機能も拡張されている。 (Source: Hacker News)</description>
+      <pubDate>Thu, 17 Sep 2026 20:17:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>新言語「Hike」をシステムに採用したらバイナリ99.8%削減・ネットワークも実働処理も爆速になった話</title>
+      <link>https://qiita.com/kinop3/items/fdb57313458c2aa1bcdc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/kinop3/items/fdb57313458c2aa1bcdc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 90] 新興のWasmコンパイラ・言語「Hike」を自社のファイル暗号化・送信システムに実務導入した事例。 / 標準Go WASMと比較して、Wasmバイナリサイズを約99.8%削減（15.4KB）し、圧倒的な軽量化と高速化を達成。 / Goライクな構文によるスムーズな移植性や、VSCodeでのソースレベルデバッグ、AIとの相性の良さを評価。 (Source: Qiita)</description>
+      <pubDate>Tue, 15 Sep 2026 05:32:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開</title>
+      <link>https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html</guid>
+      <description>[Score: 90] PlanetScaleが、PostgreSQLのシャーディングを自動化する新しいデータベースサービス「Neki」のプレビュー版を公開。 / MySQLをスケールさせる「Vitess」にインスパイアされた仕組みを採用し、1億1800万QPSという驚異的な処理性能を達成。 / 多数のシャードへの分割と分散処理を自動化することで、開発者が意識することなくスケーラブルなPostgreSQLを利用可能にする。 (Source: Publickey)</description>
+      <pubDate>Thu, 17 Sep 2026 15:59:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bonsai 2 27B：9倍小さいフットプリントでほぼロスレスな圧縮を実現</title>
+      <link>https://prismml.com/news/bonsai-2-27b</link>
+      <guid isPermaLink="false">https://prismml.com/news/bonsai-2-27b</guid>
+      <description>[Score: 88] PrismMLは、27Bクラスのマルチモーダルモデルを極限まで圧縮した「Ternary Bonsai 2 27B」をリリースした。 / 3値重み技術により、モデルサイズを元の9分の1以下である5.9GBに削減しつつ、性能の98.2%を維持している。 / 262Kの長文コンテキストやマルチモーダルに対応し、ローカルデバイスでの実用的な動作を可能にする。 (Source: Hacker News)</description>
+      <pubDate>Thu, 17 Sep 2026 21:13:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>WebMCPを試してみた感想。フロントエンドの必須技術になりそうな予感。</title>
+      <link>https://zenn.dev/chot/articles/268804cd6694ab</link>
+      <guid isPermaLink="false">https://zenn.dev/chot/articles/268804cd6694ab</guid>
+      <description>[Score: 88] Webページ側がAI向けに操作ツールを直接ブラウザ上で提供する仕組み「WebMCP」の検証レポートです。 / 従来のサーバー側MCPとは異なり、フロントエンドにツールを登録するため、宣言型と命令型の2種類で定義可能です。 / 自社CMSのデザインエディターに組み込み、AIエージェントによるブラウザ操作と自動入稿の可能性を実証しました。 (Source: Zenn)</description>
+      <pubDate>Thu, 17 Sep 2026 04:12:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code「スキル」が凄すぎる…毎日のコピペ指示を“全自動化”する神スキル5選</title>
+      <link>https://www.sbbit.jp/article/cont1/186367</link>
+      <guid isPermaLink="false">https://www.sbbit.jp/article/cont1/186367</guid>
+      <description>[Score: 88] Anthropicの「Claude Code」における、開発や日常業務を効率化する「スキル」機能の活用法を紹介。 / 毎日のコピペ作業や定型的な指示を全自動化し、開発者の生産性を劇的に向上させる具体的な5つのスキルを解説。 / 生成AIをコマンドラインや開発フローに深く統合することで、自律的なエージェントとしての実用性が高まっている。 (Source: はてなブックマーク)</description>
+      <pubDate>Thu, 17 Sep 2026 11:02:25 +0000</pubDate>
+    </item>
     <item>
       <title>Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行</title>
       <link>https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html</guid>
-      <description>[Score: 92] 自律型AIコーディングエージェント「Devin」が、ホストする仮想環境内でのmacOSの提供を開始した。 / ユーザーはMacの実機を持たなくても、Devin上でiOSやmacOS向けコードの生成、テスト、デバッグ、実行が可能になる。 / 開発したアプリをApp Store配信前のテスト用「TestFlight」でベータ公開するまでの全工程をDevinに任せられる。 (Source: Publickey)</description>
+      <description>[Score: 88] 自律型コーディングAI「Devin」が、ホストする仮想環境内でのmacOSの提供を開始した。 / これにより、開発者はMacの実機を持たなくても、Devin上でiOSやmacOS向けアプリのコード生成からテスト、実行まで完結可能に。 / さらに、App Store配信前のベータテストを行う「TestFlight」への公開作業までDevinが自動で実行できる。 (Source: Publickey)</description>
       <pubDate>Wed, 16 Sep 2026 16:00:51 +0000</pubDate>
     </item>
     <item>
-      <title>イランによるAmazonデータセンターへの攻撃により、顧客データが永久に消失</title>
-      <link>https://www.reddit.com/r/technology/comments/1wicbvw/iran_strikes_on_amazon_data_centers_caused/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wicbvw/iran_strikes_on_amazon_data_centers_caused/</guid>
-      <description>[Score: 90] イランによるAmazonのデータセンターへの攻撃が発生し、顧客データが永久に失われました。 / 物理的またはサイバー攻撃によるデータセンターへの直接的な打撃が深刻な被害をもたらしたとされています。 / クラウドサービスの安全性や、地政学的リスクに対するデータバックアップの重要性が改めて浮き彫りになりました。 (Source: Reddit)</description>
-      <pubDate>Wed, 16 Sep 2026 22:45:26 +0000</pubDate>
+      <title>AnthropicとAdaptyv Bio、Claudeを活用したタンパク質設計コンペティションを開催</title>
+      <link>https://dev.to/alifar/anthropic-and-adaptyv-bio-launch-claude-powered-protein-design-competition-jg</link>
+      <guid isPermaLink="false">https://dev.to/alifar/anthropic-and-adaptyv-bio-launch-claude-powered-protein-design-competition-jg</guid>
+      <description>[Score: 88] AnthropicとAdaptyv Bioが、Claudeを活用したタンパク質設計コンペティションの開催を発表した。 / AIによる設計と自動化されたウェットラボでの実験検証を組み合わせたエンドツーエンドのプログラム。 / 参加者には最大100万ドルのClaudeクレジットや実験検証用の資金などが提供される。 (Source: Dev.to)</description>
+      <pubDate>Thu, 17 Sep 2026 23:45:30 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Codeで開発期間を2.5か月から1か月に縮めた「ハーネス」の設計手法 - SmartHR Tech Blog</title>
-      <link>https://tech.smarthr.jp/entry/2026/09/16/110205</link>
-      <guid isPermaLink="false">https://tech.smarthr.jp/entry/2026/09/16/110205</guid>
-      <description>[Score: 90] SmartHRにて、Claude Code向けに「ハーネス」と呼ばれるAIエージェントの成果を最大化する仕組みを設計。 / ハーネスは手順ファイル、状態JSON、完了判定スクリプトで構成され、コンテキストの肥大化や手戻りを防ぐ。 / この設計手法により、当初2.5ヶ月と見積もられた新規機能開発を大きな手戻りなく約1ヶ月で完了させた。 (Source: はてなブックマーク)</description>
-      <pubDate>Wed, 16 Sep 2026 06:59:14 +0000</pubDate>
+      <title>Project HydraFusion: マルチモデルオーケストレーションによるフロンティア品質の実現</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</guid>
+      <description>[Score: 88] GitHubは、複数モデルを最適に組み合わせる「Project HydraFusion」を発表した。 / 開発者のタスクに応じて、異なるプロバイダーのモデルを動的に選択・連携させる。 / 速度重視のSingle、段階的に強力なモデルへ繋ぐCascade、検証を挟むCritiqueの3パターンで最適化する。 (Source: GitHub Blog)</description>
+      <pubDate>Fri, 04 Sep 2026 16:04:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bend – 証明によってAIのミスを防ぐ、CPUおよびGPU対応のプログラミング言語</title>
+      <link>https://bend-lang.com/</link>
+      <guid isPermaLink="false">https://bend-lang.com/</guid>
+      <description>[Score: 85] 「Bend」は、AIによるコード生成の誤りを「証明」によって防ぐ新しいプログラミング言語である。 / Python風の構文を持ちながら、C言語並みの速度やGPUによる高度な並列処理をサポートする。 / LeanやRocqのような証明チェッカーを内蔵し、AIエージェントが即座にコードの正当性を検証できる。 (Source: Hacker News)</description>
+      <pubDate>Thu, 17 Sep 2026 20:36:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>富士通、国産の次世代CPU「FUJITSU-MONAKA」を発表</title>
+      <link>https://global.fujitsu/en-global/pr/news/2026/09/14-02</link>
+      <guid isPermaLink="false">https://global.fujitsu/en-global/pr/news/2026/09/14-02</guid>
+      <description>[Score: 85] 富士通が日本国内で開発・製造する次世代CPU「FUJITSU-MONAKA」を発表しました。 / 省電力性能と高い処理能力を両立させ、データセンターやAI処理向けに最適化されています。 / 国産半導体技術の復権と、グリーンデータセンターの実現に向けた重要な一歩となります。 (Source: Hacker News)</description>
+      <pubDate>Tue, 15 Sep 2026 17:28:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jevとは何か？ 従来型LLMやAIエージェントとの違いを理解する</title>
+      <link>https://qiita.com/nasuvitz/items/44f20ed515b9734afb26?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/nasuvitz/items/44f20ed515b9734afb26?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 85] TypeSafe AIが発表した、分類や条件判定の結果を型付きの値で返す新しいAIモデル「Jev」を解説。 / 従来のLLMやAIエージェントが自律的にツールを選択するのに対し、Jevはプログラムの条件分岐に直接利用可能。 / 直感的に素早く判断する「システム1」を模した設計で、業務システムへの組み込みやすさを重視している。 (Source: Qiita)</description>
+      <pubDate>Thu, 17 Sep 2026 13:26:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ハッカーが盗まれたFlock製カメラから暗号化キーを発見、企業の否定を覆す。21日間に撮影された2万7000本以上の動画と160万枚の画像を抽出</title>
+      <link>https://www.reddit.com/r/technology/comments/1wiv3uy/hackers_find_encryption_keys_stored_on_stolen/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wiv3uy/hackers_find_encryption_keys_stored_on_stolen/</guid>
+      <description>[Score: 85] 監視カメラメーカーFlock Safetyの盗難デバイスから、ハッカーが暗号化キーを抽出することに成功。 / 企業側は暗号化キーのローカル保存を否定していたが、ハッカーは21日間で撮影された大量の動画や画像を復元した。 / 物理的なデバイス盗難から大規模なデータ漏洩に繋がる脆弱性が露呈し、監視技術のセキュリティ対策に疑問が投げかけられている。 (Source: Reddit)</description>
+      <pubDate>Thu, 17 Sep 2026 14:10:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>TypeSafeのJevを正しく驚く、それってLLMでできませんか？</title>
+      <link>https://zenn.dev/nwn/articles/824026c76116e0</link>
+      <guid isPermaLink="false">https://zenn.dev/nwn/articles/824026c76116e0</guid>
+      <description>[Score: 85] 高速に判断と確率を返す新モデル「Jev」に対し、既存のLLMでも同様の高速化手法が可能かを検証した記事。 / JSON出力を自己回帰的に行うのではなく、回答候補のlogit（出力確率）を直接比較することで77倍の高速化を達成。 / Jevを用いたリアルタイムなゲームプレイのデモを参考に、LLMとの性能や実装アプローチの比較を行う。 (Source: はてなブックマーク)</description>
+      <pubDate>Thu, 17 Sep 2026 14:05:53 +0000</pubDate>
     </item>
     <item>
       <title>Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応</title>
       <link>https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html</guid>
-      <description>[Score: 88] GoogleはAndroidにおいて、異なるパスワードマネージャー間でパスキーを直接転送できる機能を発表した。 / これにより、Googleパスワードマネージャーから1PasswordやBitwardenなどへの移行が、ファイルを介さず安全かつ容易になる。 / フィッシング耐性が高く安全なパスキーの普及を阻んでいた「移行の難しさ」という課題が解決され、普及の加速が期待される。 (Source: Publickey)</description>
+      <description>[Score: 85] GoogleがAndroid上でパスワードマネージャ間のパスキー転送を可能にしたと発表。 / Googleパスワードマネージャや1Password、Bitwarden、Dashlaneなどが対応する。 / これにより、ファイルダウンロードを介さずに安全かつ容易にパスキーの移行が可能になる。 (Source: Publickey)</description>
       <pubDate>Wed, 16 Sep 2026 15:51:54 +0000</pubDate>
     </item>
     <item>
-      <title>AnthropicのMCP共同作者が来日、基調講演で語るこれからのMCP注力領域。AGNTCon＋MCPCon Japan 2026</title>
-      <link>https://www.publickey1.jp/blog/26/anthropicmcpmcpagntconmcpcon_japan_2026.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/anthropicmcpmcpagntconmcpcon_japan_2026.html</guid>
-      <description>[Score: 88] AIエージェントとModel Context Protocol（MCP）をテーマにしたイベントが東京で開催された。 / AnthropicのMCP共同作者が登壇し、MCPの登場背景や今後の注力領域について基調講演を行った。 / 複雑な長期タスク（Long-Horizon Tasks）におけるAIモデルの性能向上と、接続性のオープン標準の重要性が語られた。 (Source: Publickey)</description>
-      <pubDate>Mon, 14 Sep 2026 15:55:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Project HydraFusion：マルチモデル・オーケストレーションによる最先端の品質</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</guid>
-      <description>[Score: 88] GitHubは、複数モデルを最適に組み合わせる「Project HydraFusion」の研究プレビューを発表した。 / タスクに応じて異なるプロバイダーのモデルを組み合わせ、ドラフトや検証、カスケード処理を自動で実行する。 / 開発者は複雑な設定をすることなく、コスト、速度、品質のバランスが最適化されたAI支援を受けられる。 (Source: GitHub Blog)</description>
-      <pubDate>Fri, 04 Sep 2026 16:04:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenSpec – 軽量で設定可能なAI仕様書フレームワーク</title>
-      <link>https://openspec.dev/</link>
-      <guid isPermaLink="false">https://openspec.dev/</guid>
-      <description>[Score: 85] OpenSpecは、ソフトウェア仕様の作成と管理を行うための軽量で設定可能なフレームワークです。 / 開発チームとAIコーディングエージェントの要件定義や実装の整合性を保つ役割を果たします。 / GitHubで6.8万スターを獲得し、毎月26万人以上の開発者に利用されるなど急速に普及しています。 (Source: Hacker News)</description>
-      <pubDate>Wed, 16 Sep 2026 23:06:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>2026年9月時点 Microsoft の AI 戦略について</title>
-      <link>https://qiita.com/yoshioterada/items/c42534895d5ca89b91b1?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/yoshioterada/items/c42534895d5ca89b91b1?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] 2026年9月時点におけるMicrosoftの包括的なAI戦略と関連サービスを整理した解説。 / 企業の強みである専門性やデータをAIで活かし、安全に管理しながら働く人を支える方針を説明。 / 個人の効率化に留まらず、業務プロセス自体を変革する「Frontier Transformation」の重要性を説く。 (Source: Qiita)</description>
-      <pubDate>Mon, 14 Sep 2026 01:44:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>ハッカーがFlockのカメラソフトウェアを盗み出し、同社が車や人々を追跡する方法を暴露</title>
-      <link>https://www.reddit.com/r/technology/comments/1whthe5/hackers_stole_flocks_camera_software_revealing/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1whthe5/hackers_stole_flocks_camera_software_revealing/</guid>
-      <description>[Score: 85] ハッカーが監視カメラ企業Flock Safetyのソフトウェアを盗み出し、その追跡技術の詳細を暴露しました。 / 同社のシステムがどのように車両や個人を追跡・監視しているかの内部メカニズムが明らかになりました。 / プライバシー侵害の懸念や、監視インフラにおけるセキュリティ脆弱性の問題が浮き彫りになっています。 (Source: Reddit)</description>
-      <pubDate>Wed, 16 Sep 2026 10:32:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>「APIキーは.envに」はもはや通用しない　AIエージェントの“内通者化”をどう防ぐ？</title>
-      <link>https://atmarkit.itmedia.co.jp/ait/articles/2609/17/news006.html</link>
-      <guid isPermaLink="false">https://atmarkit.itmedia.co.jp/ait/articles/2609/17/news006.html</guid>
-      <description>[Score: 85] AIエージェントの普及に伴い、APIキーやトークンなどの認証情報管理におけるセキュリティリスクが急増している。 / 従来の「.env」ファイルを用いた環境変数による管理は、ツール汚染や間接プロンプトインジェクションなどの攻撃に対して限界がある。 / 対策として、認証情報の安全な保管、動的な短寿命トークンの発行、アクセスログの記録と監査という3つのレイヤーが重要となる。 (Source: はてなブックマーク)</description>
-      <pubDate>Wed, 16 Sep 2026 07:51:41 +0000</pubDate>
+      <title>AIがあなたのデータで学習することは合法なのか？</title>
+      <link>https://dev.to/theaidownside/is-it-legal-for-ai-to-train-on-your-data-43b5</link>
+      <guid isPermaLink="false">https://dev.to/theaidownside/is-it-legal-for-ai-to-train-on-your-data-43b5</guid>
+      <description>[Score: 85] AIモデルの学習に個人の公開データやプライベートデータが使用されることの法的是非について解説する。 / 2026年現在、多くの地域で概ね合法とされているが、司法の場での議論や法整備は現在進行形である。 / 著作権で保護された公開データと、ツールの利用規約に基づくプライベートデータの2つの観点から現状を整理している。 (Source: Dev.to)</description>
+      <pubDate>Thu, 17 Sep 2026 23:34:34 +0000</pubDate>
     </item>
     <item>
       <title>オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして</title>
       <link>https://www.publickey1.jp/blog/26/javaai.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/javaai.html</guid>
-      <description>[Score: 85] オラクルはJavaのセキュリティパッチの提供サイクルを、従来の3ヶ月から1ヶ月毎へと大幅に短縮した。 / AIの普及により脆弱性の発見ペースが加速しており、迅速な修正対応が必要になったことが背景にある。 / ユーザーは3ヶ月ごとのアップデートを待たずに、高優先度の脆弱性に対処可能になる。 (Source: Publickey)</description>
+      <description>[Score: 82] オラクルはJavaのセキュリティパッチの提供サイクルを従来の3ヶ月から1ヶ月へと短縮した。 / AIの登場により脆弱性の発見と修正が高速化している現状に対応するための措置。 / これにより、ユーザーは高優先度の脆弱性に対してより迅速に対処可能となる。 (Source: Publickey)</description>
       <pubDate>Tue, 15 Sep 2026 15:49:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>初心者向けGitHub Copilotアプリ：複数のエージェントを同時に実行する</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/</guid>
-      <description>[Score: 85] GitHub Copilotアプリにおいて、複数のAIエージェントを同時に並行実行する機能が紹介されています。 / 各エージェントセッションはGit worktree上で独立して動作するため、互いに干渉することなく作業を進められます。 / 開発者はコンテキストの切り替えを最小限に抑え、エージェントの処理を待つことなく効率的に開発を行えます。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 03 Sep 2026 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>自己適応型物理AIに向けて：LLMエージェントは長期的な物理タスクを管理できるか？</title>
-      <link>https://arxiv.org/abs/2609.13436</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.13436</guid>
-      <description>[Score: 83] 現実世界の物理的な環境において、LLMエージェントが長期にわたる複雑なタスクを自律的に管理・実行できるかを検証しています。 / 環境の変化に動的に適応する「自己適応型物理AI」の実現に向けた課題と可能性を明らかにしています。 / ロボティクスやスマートファクトリーなど、物理世界とデジタルAIが融合する領域における重要な研究です。 (Source: arXiv cs.AI)</description>
-      <pubDate>Wed, 16 Sep 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Expo SDK 58 Betaの変更点まとめ</title>
-      <link>https://zenn.dev/tellernovel_inc/articles/5b4b947db4f2cd</link>
-      <guid isPermaLink="false">https://zenn.dev/tellernovel_inc/articles/5b4b947db4f2cd</guid>
-      <description>[Score: 82] Expo SDK 58のベータ版が公開され、多数の重要な変更点や破壊的変更がまとめされています。 / iOS 27（Xcode 27）への対応に伴い、UISceneベースのライフサイクルへの移行が必須となります。 / シミュレーター操作をブラウザ上で行える「expo-device-hub」などの新ツールも導入されています。 (Source: Zenn)</description>
-      <pubDate>Wed, 16 Sep 2026 03:28:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>拒否ルールを全部消しても、Claude Code は eval を止めた。守っていたのは別の仕組みだった</title>
-      <link>https://qiita.com/suwa_nobu/items/5145961004e38e2fe316?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/suwa_nobu/items/5145961004e38e2fe316?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 82] Claude Codeのアップデートに伴い、コマンド実行の拒否ルールとセキュリティ挙動を検証。 / 拒否ルールを削除しても危険なコマンドが実行されなかったのは、手前の「Bash静的解析」が機能していたためと判明。 / 静的解析をスキップするオプションを使用した場合のみ、拒否ルールによる制御が機能する多層防御の仕組みを解説。 (Source: Qiita)</description>
-      <pubDate>Wed, 16 Sep 2026 00:22:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>住んでいる場所に関係なく、あなたのコンピュータが間もなく年齢確認を要求するようになるかもしれない | 新しい州法により、macOSやWindowsへの年齢確認の導入が推進。2027年までに、ログインに顔スキャンや政府発行のIDが必要になる可能性</title>
-      <link>https://www.reddit.com/r/technology/comments/1wi8fn0/your_computer_might_demand_your_age_soon_no/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wi8fn0/your_computer_might_demand_your_age_soon_no/</guid>
-      <description>[Score: 82] 米国の新しい州法の影響により、WindowsやmacOSなどのOSレベルで年齢確認が義務付けられる可能性が出てきました。 / 2027年までに、PCへのログイン時に顔スキャンや政府発行の身分証明書の提示が求められるかもしれません。 / プライバシー保護やユーザーの利便性、OSベンダーの対応方針を巡り大きな議論を呼んでいます。 (Source: Reddit)</description>
-      <pubDate>Wed, 16 Sep 2026 20:13:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>Landlock LSM：root権限なしでLinuxアプリをセキュアにする方法</title>
-      <link>https://dev.to/uhltak/landlock-lsm-secure-linux-apps-ohne-root-rechte-17o</link>
-      <guid isPermaLink="false">https://dev.to/uhltak/landlock-lsm-secure-linux-apps-ohne-root-rechte-17o</guid>
-      <description>[Score: 82] Linuxカーネルのセキュリティ機能「Landlock LSM」を使用し、root権限なしでアプリをサンドボックス化する手法を解説。 / 従来のSELinuxやAppArmorのような複雑な設定や管理者権限を必要とせず、ユーザーごとに安全な制限を適用できる。 / 信頼できないアプリケーションからホームディレクトリや機密データを保護するための強力な手段となる。 (Source: Dev.to)</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:19 +0000</pubDate>
     </item>
     <item>
       <title>GitHub可用性レポート：2026年8月</title>
       <link>https://github.blog/news-insights/company-news/github-availability-report-august-2026/</link>
       <guid isPermaLink="false">https://github.blog/news-insights/company-news/github-availability-report-august-2026/</guid>
-      <description>[Score: 82] 2026年8月はGitHubにとって可用性の面で課題の多い月であり、インフラ改善への投資を強化している。 / 対策として、容量監視の改善やリトライポリシーの見直し、コアサービスの回復力向上を実施した。 / Azureへの移行が進んでおり、8月には初めて本番環境のMySQLプライマリをAzure上で稼働させることに成功した。 (Source: GitHub Blog)</description>
+      <description>[Score: 82] 2026年8月におけるGitHubのサービス可用性と、発生したインシデントへの対策に関するレポート。 / 信頼性向上のためAzureへの移行を積極的に進めており、初めてMySQLのプライマリDBをAzure上で稼働させることに成功した。 / 読み取りトラフィックの約6割がAzureに移行するなど、大規模なインフラ移行が着実に進行している。 (Source: GitHub Blog)</description>
       <pubDate>Thu, 10 Sep 2026 02:05:17 +0000</pubDate>
     </item>
     <item>
-      <title>一般化エージェント反復：反復的な方策改善と再帰的自己改善のための統合フォーマルフレームワーク</title>
-      <link>https://arxiv.org/abs/2609.13406</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.13406</guid>
-      <description>[Score: 82] AIエージェントの反復的な方策改善と再帰的な自己改善を統一的に扱うための数理的フレームワーク「Generalized Agent Iteration」を提案しています。 / エージェントが自律的に能力を向上させるプロセスの理論的基盤を構築し、より安全で制御可能な自己進化AIの実現に寄与します。 / 強化学習やLLMベースのエージェント設計における、理論と実践のギャップを埋める重要な一歩となります。 (Source: arXiv cs.AI)</description>
-      <pubDate>Wed, 16 Sep 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI開発チームの作り方と育て方 — マルチエージェント開発組織の設計と運用</title>
-      <link>https://zenn.dev/hampen2929/books/ai-dev-team-guide</link>
-      <guid isPermaLink="false">https://zenn.dev/hampen2929/books/ai-dev-team-guide</guid>
-      <description>[Score: 80] マルチエージェントを活用したAI開発組織の設計と運用方法を解説する技術書です。 / 役割設計やコミュニケーション設計、混成チームのオーケストレーションなど、実践的な章立てで構成されています。 / AIエージェントを自律的な開発チームとして機能させるための段階的なアプローチを学べます。 (Source: Zenn)</description>
-      <pubDate>Wed, 16 Sep 2026 09:54:07 +0000</pubDate>
+      <title>常駐コンテキストを削りClaude Codeのコストを抑えてみた</title>
+      <link>https://qiita.com/ya-mizobuchi/items/6ae906dd28bf61b32329?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/ya-mizobuchi/items/6ae906dd28bf61b32329?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 80] Claude Codeでの開発において、精度を維持しつつトークン消費とコストを大幅に削減した手法を紹介。 / 毎回読み込まれる常駐コンテキストを削減し、必要な時だけ関連ファイルを読み込む「索引」システムを構築。 / 1ヶ月の検証で、使われないルールの読み込みを排除し、キャッシュからの読み直しコストを劇的に抑制。 (Source: Qiita)</description>
+      <pubDate>Thu, 17 Sep 2026 02:06:07 +0000</pubDate>
     </item>
   </channel>
 </rss>
