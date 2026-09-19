@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 18 Sep 2026 00:04:46 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 00:08:09 +0000</lastBuildDate>
     <item>
-      <title>GitHub Copilotを使用してCopilotランタイムをRustに移行する</title>
-      <link>https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/</guid>
-      <description>[Score: 95] GitHub Copilotのランタイムを、TypeScriptから80万行以上のRustコードへ完全に書き換えたプロジェクトの事例。 / GitHub Copilot自身（AIエージェント）を活用することで、通常ならチームで1〜2年かかる規模の移行を1人の開発者が数ヶ月で完遂した。 / 段階的なリリースによりデグレを迅速に修正しつつ、ランタイムのパフォーマンスを劇的に向上させることに成功した。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 17 Sep 2026 00:26:43 +0000</pubDate>
+      <title>OpenAIが自社製LLMを用いてAIアクセラレータチップ「Jalapeño」を設計した方法</title>
+      <link>https://spectrum.ieee.org/llms-for-chip-design</link>
+      <guid isPermaLink="false">https://spectrum.ieee.org/llms-for-chip-design</guid>
+      <description>[Score: 92] OpenAIは、初の自社製AIアクセラレータチップ「Jalapeño」の設計プロセスに自社のLLMを活用した。 / LLMの導入により、アーキテクチャ構想からシリコン製造まで20ヶ月未満、RTLからテープアウトまで9ヶ月という異例の高速設計を実現。 / JalapeñoはNvidia GB300と比較して最大3.6倍の低遅延と低消費電力を誇り、今後のAIチップ設計のあり方を変える可能性がある。 (Source: Hacker News)</description>
+      <pubDate>Fri, 18 Sep 2026 23:04:17 +0000</pubDate>
     </item>
     <item>
-      <title>Astra for Law</title>
-      <link>https://openai.com/index/astra-for-law/</link>
-      <guid isPermaLink="false">https://openai.com/index/astra-for-law/</guid>
-      <description>[Score: 92] OpenAIは、法律実務に特化した新しいAI基盤「Astra for Law」を発表した。 / 最新モデル「GPT-6 Astra」をベースに、法律検索インデックスや専門ツールとの連携機能を備える。 / 機密情報を扱う法律事務所向けに、プライバシーとガバナンスの制御機能も拡張されている。 (Source: Hacker News)</description>
-      <pubDate>Thu, 17 Sep 2026 20:17:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>新言語「Hike」をシステムに採用したらバイナリ99.8%削減・ネットワークも実働処理も爆速になった話</title>
-      <link>https://qiita.com/kinop3/items/fdb57313458c2aa1bcdc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/kinop3/items/fdb57313458c2aa1bcdc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 90] 新興のWasmコンパイラ・言語「Hike」を自社のファイル暗号化・送信システムに実務導入した事例。 / 標準Go WASMと比較して、Wasmバイナリサイズを約99.8%削減（15.4KB）し、圧倒的な軽量化と高速化を達成。 / Goライクな構文によるスムーズな移植性や、VSCodeでのソースレベルデバッグ、AIとの相性の良さを評価。 (Source: Qiita)</description>
-      <pubDate>Tue, 15 Sep 2026 05:32:59 +0000</pubDate>
+      <title>Unityの1万超アセット配信を3時間→13分にした設計</title>
+      <link>https://qiita.com/harusann2/items/50d638e7a3c2d76e0531?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/harusann2/items/50d638e7a3c2d76e0531?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 90] Unity製ゲームにおいて、1万ファイルを超えるアセットの初回ダウンロード時間を3時間から13分へと大幅に短縮した事例。 / 全アセットを1つに連結した「Asset Ball」を設計し、更新アセットを常に末尾に配置する運用ルールを導入した。 / この配置により、任意の過去バージョンからの差分更新も1回のHTTP Range Requestで取得可能にし、通信オーバーヘッドを激減させた。 (Source: Qiita)</description>
+      <pubDate>Thu, 17 Sep 2026 07:19:57 +0000</pubDate>
     </item>
     <item>
       <title>PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開</title>
       <link>https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html</guid>
-      <description>[Score: 90] PlanetScaleが、PostgreSQLのシャーディングを自動化する新しいデータベースサービス「Neki」のプレビュー版を公開。 / MySQLをスケールさせる「Vitess」にインスパイアされた仕組みを採用し、1億1800万QPSという驚異的な処理性能を達成。 / 多数のシャードへの分割と分散処理を自動化することで、開発者が意識することなくスケーラブルなPostgreSQLを利用可能にする。 (Source: Publickey)</description>
+      <description>[Score: 90] PlanetScaleが、PostgreSQLのシャーディングを自動化する新データベースサービス「Neki」のプレビューを公開。 / MySQLをスケールさせる「Vitess」にインスパイアされた仕組みを用い、1億1800万QPSと1.22PiBのデータを達成。 / データベースを多数のシャードに自動分割して分散処理することで、PostgreSQLの極めて高いスケーラビリティを実現する。 (Source: Publickey)</description>
       <pubDate>Thu, 17 Sep 2026 15:59:39 +0000</pubDate>
     </item>
     <item>
-      <title>Bonsai 2 27B：9倍小さいフットプリントでほぼロスレスな圧縮を実現</title>
-      <link>https://prismml.com/news/bonsai-2-27b</link>
-      <guid isPermaLink="false">https://prismml.com/news/bonsai-2-27b</guid>
-      <description>[Score: 88] PrismMLは、27Bクラスのマルチモーダルモデルを極限まで圧縮した「Ternary Bonsai 2 27B」をリリースした。 / 3値重み技術により、モデルサイズを元の9分の1以下である5.9GBに削減しつつ、性能の98.2%を維持している。 / 262Kの長文コンテキストやマルチモーダルに対応し、ローカルデバイスでの実用的な動作を可能にする。 (Source: Hacker News)</description>
-      <pubDate>Thu, 17 Sep 2026 21:13:31 +0000</pubDate>
+      <title>さらに100TBのRAMを削減する方法</title>
+      <link>https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/</link>
+      <guid isPermaLink="false">https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/</guid>
+      <description>[Score: 88] Cloudflareは、自社開発のPingoraベースのサービスにおいて、グローバルで100TB以上のRAM削減に成功した。 / 一貫性ハッシュを処理するオープンソースライブラリ「pingora-ketama」のアルゴリズムに微細な改良を加えた。 / 超大規模インフラにおけるわずかなアルゴリズム最適化が、極めて巨大なリソース節約につながる好例を示している。 (Source: Hacker News)</description>
+      <pubDate>Fri, 18 Sep 2026 18:51:46 +0000</pubDate>
     </item>
     <item>
-      <title>WebMCPを試してみた感想。フロントエンドの必須技術になりそうな予感。</title>
-      <link>https://zenn.dev/chot/articles/268804cd6694ab</link>
-      <guid isPermaLink="false">https://zenn.dev/chot/articles/268804cd6694ab</guid>
-      <description>[Score: 88] Webページ側がAI向けに操作ツールを直接ブラウザ上で提供する仕組み「WebMCP」の検証レポートです。 / 従来のサーバー側MCPとは異なり、フロントエンドにツールを登録するため、宣言型と命令型の2種類で定義可能です。 / 自社CMSのデザインエディターに組み込み、AIエージェントによるブラウザ操作と自動入稿の可能性を実証しました。 (Source: Zenn)</description>
-      <pubDate>Thu, 17 Sep 2026 04:12:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Code「スキル」が凄すぎる…毎日のコピペ指示を“全自動化”する神スキル5選</title>
-      <link>https://www.sbbit.jp/article/cont1/186367</link>
-      <guid isPermaLink="false">https://www.sbbit.jp/article/cont1/186367</guid>
-      <description>[Score: 88] Anthropicの「Claude Code」における、開発や日常業務を効率化する「スキル」機能の活用法を紹介。 / 毎日のコピペ作業や定型的な指示を全自動化し、開発者の生産性を劇的に向上させる具体的な5つのスキルを解説。 / 生成AIをコマンドラインや開発フローに深く統合することで、自律的なエージェントとしての実用性が高まっている。 (Source: はてなブックマーク)</description>
-      <pubDate>Thu, 17 Sep 2026 11:02:25 +0000</pubDate>
+      <title>既存の LLM が CPU なら、 Jev はその GPU 版みたいなやつ</title>
+      <link>https://zenn.dev/mizchi/articles/jev-is-gpu-for-llms</link>
+      <guid isPermaLink="false">https://zenn.dev/mizchi/articles/jev-is-gpu-for-llms</guid>
+      <description>[Score: 88] TypeSafe AIが開発した構造化データ出力に特化したモデル「Jev」の検証レポート。 / 自然言語の生成を経由せず、最初からJSONなどの構造化データを直接出力するため極めて高速に動作する。 / 深い推論には向かないが、ツール呼び出しや選択肢の評価などのタスクにおいて圧倒的な速度とコスト効率を誇る。 (Source: Zenn)</description>
+      <pubDate>Fri, 18 Sep 2026 07:27:47 +0000</pubDate>
     </item>
     <item>
       <title>Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行</title>
       <link>https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html</guid>
-      <description>[Score: 88] 自律型コーディングAI「Devin」が、ホストする仮想環境内でのmacOSの提供を開始した。 / これにより、開発者はMacの実機を持たなくても、Devin上でiOSやmacOS向けアプリのコード生成からテスト、実行まで完結可能に。 / さらに、App Store配信前のベータテストを行う「TestFlight」への公開作業までDevinが自動で実行できる。 (Source: Publickey)</description>
+      <description>[Score: 88] 自律型コーディングAI「Devin」が、ホストする仮想環境内でのmacOSの提供を開始した。 / ユーザーはMacの実機を持たなくても、Devin上でiOS/macOSアプリのコード生成からテスト、デバッグを実行可能。 / App Store配信前のベータテストを行う「TestFlight」への公開まで、一連の開発プロセスをDevinに任せられる。 (Source: Publickey)</description>
       <pubDate>Wed, 16 Sep 2026 16:00:51 +0000</pubDate>
     </item>
     <item>
-      <title>AnthropicとAdaptyv Bio、Claudeを活用したタンパク質設計コンペティションを開催</title>
-      <link>https://dev.to/alifar/anthropic-and-adaptyv-bio-launch-claude-powered-protein-design-competition-jg</link>
-      <guid isPermaLink="false">https://dev.to/alifar/anthropic-and-adaptyv-bio-launch-claude-powered-protein-design-competition-jg</guid>
-      <description>[Score: 88] AnthropicとAdaptyv Bioが、Claudeを活用したタンパク質設計コンペティションの開催を発表した。 / AIによる設計と自動化されたウェットラボでの実験検証を組み合わせたエンドツーエンドのプログラム。 / 参加者には最大100万ドルのClaudeクレジットや実験検証用の資金などが提供される。 (Source: Dev.to)</description>
-      <pubDate>Thu, 17 Sep 2026 23:45:30 +0000</pubDate>
+      <title>光子放射ガイド付きレーザー故障注入によるRP2350のセキュアデバッグの有効化</title>
+      <link>https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/</link>
+      <guid isPermaLink="false">https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/</guid>
+      <description>[Score: 85] 光子放射顕微鏡とレーザー故障注入を用いてRP2350のセキュアデバッグ機能を突破する手法が公開。 / デバッグ機能が永久に無効化されている状態からでも、レーザー照射によりデバッガアクセスを復旧しOTPメモリの秘密情報を回収可能。 / この攻撃には物理的なアクセスと約25万ドルの高額な研究設備が必要となる。 (Source: Hacker News)</description>
+      <pubDate>Fri, 18 Sep 2026 16:54:18 +0000</pubDate>
     </item>
     <item>
-      <title>Project HydraFusion: マルチモデルオーケストレーションによるフロンティア品質の実現</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/</guid>
-      <description>[Score: 88] GitHubは、複数モデルを最適に組み合わせる「Project HydraFusion」を発表した。 / 開発者のタスクに応じて、異なるプロバイダーのモデルを動的に選択・連携させる。 / 速度重視のSingle、段階的に強力なモデルへ繋ぐCascade、検証を挟むCritiqueの3パターンで最適化する。 (Source: GitHub Blog)</description>
-      <pubDate>Fri, 04 Sep 2026 16:04:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bend – 証明によってAIのミスを防ぐ、CPUおよびGPU対応のプログラミング言語</title>
-      <link>https://bend-lang.com/</link>
-      <guid isPermaLink="false">https://bend-lang.com/</guid>
-      <description>[Score: 85] 「Bend」は、AIによるコード生成の誤りを「証明」によって防ぐ新しいプログラミング言語である。 / Python風の構文を持ちながら、C言語並みの速度やGPUによる高度な並列処理をサポートする。 / LeanやRocqのような証明チェッカーを内蔵し、AIエージェントが即座にコードの正当性を検証できる。 (Source: Hacker News)</description>
-      <pubDate>Thu, 17 Sep 2026 20:36:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>富士通、国産の次世代CPU「FUJITSU-MONAKA」を発表</title>
-      <link>https://global.fujitsu/en-global/pr/news/2026/09/14-02</link>
-      <guid isPermaLink="false">https://global.fujitsu/en-global/pr/news/2026/09/14-02</guid>
-      <description>[Score: 85] 富士通が日本国内で開発・製造する次世代CPU「FUJITSU-MONAKA」を発表しました。 / 省電力性能と高い処理能力を両立させ、データセンターやAI処理向けに最適化されています。 / 国産半導体技術の復権と、グリーンデータセンターの実現に向けた重要な一歩となります。 (Source: Hacker News)</description>
-      <pubDate>Tue, 15 Sep 2026 17:28:38 +0000</pubDate>
+      <title>全社に OpenCode + LiteLLM を導入してコストを抑えつつ AI 活用を進めている話</title>
+      <link>https://zenn.dev/jtcc/articles/7e74fef42580a1</link>
+      <guid isPermaLink="false">https://zenn.dev/jtcc/articles/7e74fef42580a1</guid>
+      <description>[Score: 85] 全社約200名規模でAIエージェント「OpenCode」とゲートウェイ「LiteLLM」を導入した事例。 / LiteLLMをECS Fargateでホストし、社員ごとの予算上限設定やプロンプトのログ監視、モデルの切り替えを一元化。 / ツールの乱立を防ぎセキュリティを担保しつつ、AI利用コストを導入前の10分の1以下に削減することに成功。 (Source: Zenn)</description>
+      <pubDate>Fri, 18 Sep 2026 00:08:15 +0000</pubDate>
     </item>
     <item>
       <title>Jevとは何か？ 従来型LLMやAIエージェントとの違いを理解する</title>
       <link>https://qiita.com/nasuvitz/items/44f20ed515b9734afb26?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/nasuvitz/items/44f20ed515b9734afb26?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] TypeSafe AIが発表した、分類や条件判定の結果を型付きの値で返す新しいAIモデル「Jev」を解説。 / 従来のLLMやAIエージェントが自律的にツールを選択するのに対し、Jevはプログラムの条件分岐に直接利用可能。 / 直感的に素早く判断する「システム1」を模した設計で、業務システムへの組み込みやすさを重視している。 (Source: Qiita)</description>
+      <description>[Score: 85] TypeSafe AIが発表した「Jev」は、文章を生成せず分類や判定結果を確率付きで返す新しいAIモデルである。 / 従来のLLMとは異なり、プログラムが直接利用しやすい型付きの値を返すため、アプリの条件分岐に適している。 / 応答速度が速くコストも低い特徴を持ち、従来のAIエージェント技術を補完・代替する可能性が注目されている。 (Source: Qiita)</description>
       <pubDate>Thu, 17 Sep 2026 13:26:18 +0000</pubDate>
     </item>
     <item>
-      <title>ハッカーが盗まれたFlock製カメラから暗号化キーを発見、企業の否定を覆す。21日間に撮影された2万7000本以上の動画と160万枚の画像を抽出</title>
-      <link>https://www.reddit.com/r/technology/comments/1wiv3uy/hackers_find_encryption_keys_stored_on_stolen/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wiv3uy/hackers_find_encryption_keys_stored_on_stolen/</guid>
-      <description>[Score: 85] 監視カメラメーカーFlock Safetyの盗難デバイスから、ハッカーが暗号化キーを抽出することに成功。 / 企業側は暗号化キーのローカル保存を否定していたが、ハッカーは21日間で撮影された大量の動画や画像を復元した。 / 物理的なデバイス盗難から大規模なデータ漏洩に繋がる脆弱性が露呈し、監視技術のセキュリティ対策に疑問が投げかけられている。 (Source: Reddit)</description>
-      <pubDate>Thu, 17 Sep 2026 14:10:55 +0000</pubDate>
+      <title>米国の半導体工場が15万7,000人の深刻な人材不足に直面、工学系新卒者のわずか3%しか半導体製造に進まず — 高額な給与にもかかわらず技術者が極めて不足</title>
+      <link>https://www.reddit.com/r/technology/comments/1wjp1yc/us_chip_fabs_face_massive_157000_worker_shortfall/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wjp1yc/us_chip_fabs_face_massive_157000_worker_shortfall/</guid>
+      <description>[Score: 85] 米国の半導体製造業界が、将来的に15万7,000人規模の深刻な労働力不足に直面している。 / 高額な給与が提示されているものの、米国の工学系卒業生のうち半導体分野に進むのはわずか3%に留まる。 / 国内での半導体自給率向上を目指す米国の戦略において、人材確保が最大のボトルネックとなっている。 (Source: Reddit)</description>
+      <pubDate>Fri, 18 Sep 2026 12:38:23 +0000</pubDate>
     </item>
     <item>
-      <title>TypeSafeのJevを正しく驚く、それってLLMでできませんか？</title>
-      <link>https://zenn.dev/nwn/articles/824026c76116e0</link>
-      <guid isPermaLink="false">https://zenn.dev/nwn/articles/824026c76116e0</guid>
-      <description>[Score: 85] 高速に判断と確率を返す新モデル「Jev」に対し、既存のLLMでも同様の高速化手法が可能かを検証した記事。 / JSON出力を自己回帰的に行うのではなく、回答候補のlogit（出力確率）を直接比較することで77倍の高速化を達成。 / Jevを用いたリアルタイムなゲームプレイのデモを参考に、LLMとの性能や実装アプローチの比較を行う。 (Source: はてなブックマーク)</description>
-      <pubDate>Thu, 17 Sep 2026 14:05:53 +0000</pubDate>
+      <title>【徹底解説】DeepSeek v4.1 Flashの内部構造【最適化したから解ること】｜shi3z</title>
+      <link>https://note.com/shi3zblog/n/n6d4fbe03218e</link>
+      <guid isPermaLink="false">https://note.com/shi3zblog/n/n6d4fbe03218e</guid>
+      <description>[Score: 85] DeepSeek v4.1 Flashの推論エンジン高速化の過程で判明した、同モデルのアーキテクチャの秘密を解説。 / 従来の「スケールの法則」とは異なり、計算しなくていいものをいかに計算しないかという思想を追求。 / オープンウェイトだからこそ理解できる、極端なダウンサイジングと効率的な構造の魅力を時系列で紐解く。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 18 Sep 2026 14:45:34 +0000</pubDate>
     </item>
     <item>
       <title>Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応</title>
       <link>https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html</guid>
-      <description>[Score: 85] GoogleがAndroid上でパスワードマネージャ間のパスキー転送を可能にしたと発表。 / Googleパスワードマネージャや1Password、Bitwarden、Dashlaneなどが対応する。 / これにより、ファイルダウンロードを介さずに安全かつ容易にパスキーの移行が可能になる。 (Source: Publickey)</description>
+      <description>[Score: 85] GoogleはAndroid上で異なるパスワードマネージャ間でのパスキー転送を可能にしたと発表した。 / これにより、Googleパスワードマネージャから1PasswordやBitwardenなどへの移行が容易になる。 / これまで困難だったパスキーの移行プロセスが簡略化され、パスワードレス社会への移行促進が期待される。 (Source: Publickey)</description>
       <pubDate>Wed, 16 Sep 2026 15:51:54 +0000</pubDate>
     </item>
     <item>
-      <title>AIがあなたのデータで学習することは合法なのか？</title>
-      <link>https://dev.to/theaidownside/is-it-legal-for-ai-to-train-on-your-data-43b5</link>
-      <guid isPermaLink="false">https://dev.to/theaidownside/is-it-legal-for-ai-to-train-on-your-data-43b5</guid>
-      <description>[Score: 85] AIモデルの学習に個人の公開データやプライベートデータが使用されることの法的是非について解説する。 / 2026年現在、多くの地域で概ね合法とされているが、司法の場での議論や法整備は現在進行形である。 / 著作権で保護された公開データと、ツールの利用規約に基づくプライベートデータの2つの観点から現状を整理している。 (Source: Dev.to)</description>
-      <pubDate>Thu, 17 Sep 2026 23:34:34 +0000</pubDate>
+      <title>Cloudflare Quick Tunnels</title>
+      <link>https://try.cloudflare.com/</link>
+      <guid isPermaLink="false">https://try.cloudflare.com/</guid>
+      <description>[Score: 83] Cloudflareは、アカウント登録やDNS設定、ポート開放なしでローカルサーバーを公開できる「Quick Tunnels」を提供。 / `cloudflared`コマンドを実行するだけで、自動HTTPS化やDDoS保護が施された暗号化URLが即座に生成される。 / 開発中のWebフックのテストや、コーディングエージェントによる検証ループの構築などを安全かつ迅速に行うことができる。 (Source: Hacker News)</description>
+      <pubDate>Fri, 18 Sep 2026 14:18:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>話題のJevとは？文章を書かずに判断だけを返すAIモデルをざっくり解説</title>
+      <link>https://qiita.com/yushibats/items/472325ce548da370ed5d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/yushibats/items/472325ce548da370ed5d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 83] 新しいAIモデル「Jev」は、文章を生成する代わりに用意された選択肢の確率を返す「マークシート型」の仕組みを持つ。 / 記述式のLLMと比べて応答速度が極めて速く、APIコストも低く抑えられるというメリットがある。 / 出力形式が固定されるため型エラーは発生しないが、選択肢の中での判定ミスは起こり得る点に注意が必要である。 (Source: Qiita)</description>
+      <pubDate>Fri, 18 Sep 2026 05:21:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jevでハーネスエンジニアリング</title>
+      <link>https://zenn.dev/watany/articles/36e11a20ce3743</link>
+      <guid isPermaLink="false">https://zenn.dev/watany/articles/36e11a20ce3743</guid>
+      <description>[Score: 82] 確率論的なLLMの挙動を制御するため、高速かつ安価な「Jev」を用いた決定論的ガードレールの構築。 / Claude Codeの自動実行時におけるユーザーへの実行許可判断などをJevで代替する仕組みを試作。 / Rust等で自作するよりも実装が容易で、ほぼ無料に近い予算感で高速な判断ロジックを組み込めるメリットを提示。 (Source: Zenn)</description>
+      <pubDate>Fri, 18 Sep 2026 02:16:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>緊急で社内Jev勉強会を開催したらアイデアがバンバン出て頭が柔らかくなった - LayerX エンジニアブログ</title>
+      <link>https://tech.layerx.co.jp/entry/2026/09/18/185816</link>
+      <guid isPermaLink="false">https://tech.layerx.co.jp/entry/2026/09/18/185816</guid>
+      <description>[Score: 82] LayerX社内にて、TypeSafe AIの「Jev」をテーマにした勉強会が開催され、50人以上のエンジニアが参加した。 / Jevは「判断」に特化したツールであり、従来のLLM呼び出しに比べ低コストかつ高速に業務システムへ組み込める。 / 信頼度（confidence）のキャリブレーション機能を活かし、自動処理の閾値調整など具体的な活用アイデアが多数創出された。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 18 Sep 2026 10:21:35 +0000</pubDate>
     </item>
     <item>
       <title>オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして</title>
       <link>https://www.publickey1.jp/blog/26/javaai.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/javaai.html</guid>
-      <description>[Score: 82] オラクルはJavaのセキュリティパッチの提供サイクルを従来の3ヶ月から1ヶ月へと短縮した。 / AIの登場により脆弱性の発見と修正が高速化している現状に対応するための措置。 / これにより、ユーザーは高優先度の脆弱性に対してより迅速に対処可能となる。 (Source: Publickey)</description>
+      <description>[Score: 82] オラクルはJavaのセキュリティパッチの提供サイクルを従来の3ヶ月から毎月に短縮した。 / AIの台頭により脆弱性の発見と修正が以前よりも高速化している現状に対応するための措置である。 / これにより、ユーザーは重大な脆弱性に対してより迅速に対処することが可能になる。 (Source: Publickey)</description>
       <pubDate>Tue, 15 Sep 2026 15:49:38 +0000</pubDate>
     </item>
     <item>
-      <title>GitHub可用性レポート：2026年8月</title>
-      <link>https://github.blog/news-insights/company-news/github-availability-report-august-2026/</link>
-      <guid isPermaLink="false">https://github.blog/news-insights/company-news/github-availability-report-august-2026/</guid>
-      <description>[Score: 82] 2026年8月におけるGitHubのサービス可用性と、発生したインシデントへの対策に関するレポート。 / 信頼性向上のためAzureへの移行を積極的に進めており、初めてMySQLのプライマリDBをAzure上で稼働させることに成功した。 / 読み取りトラフィックの約6割がAzureに移行するなど、大規模なインフラ移行が着実に進行している。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 10 Sep 2026 02:05:17 +0000</pubDate>
+      <title>ポジション：自己進化型オペレーティングシステム層による基盤モデルの仮想化の時が来た</title>
+      <link>https://arxiv.org/abs/2609.19203</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.19203</guid>
+      <description>[Score: 82] 基盤モデルを効率的に管理・活用するため、自己進化するオペレーティングシステム（OS）層による仮想化を提案するポジションペーパー。 / ハードウェアとアプリケーションの間で基盤モデルを抽象化し、リソースの最適化や動的な能力向上を可能にする新しいシステムアーキテクチャを提唱。 / AI中心のコンピューティング環境における、次世代のシステムソフトウェアのあり方を示している。 (Source: arXiv cs.AI)</description>
+      <pubDate>Fri, 18 Sep 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>常駐コンテキストを削りClaude Codeのコストを抑えてみた</title>
-      <link>https://qiita.com/ya-mizobuchi/items/6ae906dd28bf61b32329?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/ya-mizobuchi/items/6ae906dd28bf61b32329?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] Claude Codeでの開発において、精度を維持しつつトークン消費とコストを大幅に削減した手法を紹介。 / 毎回読み込まれる常駐コンテキストを削減し、必要な時だけ関連ファイルを読み込む「索引」システムを構築。 / 1ヶ月の検証で、使われないルールの読み込みを排除し、キャッシュからの読み直しコストを劇的に抑制。 (Source: Qiita)</description>
-      <pubDate>Thu, 17 Sep 2026 02:06:07 +0000</pubDate>
+      <title>Android 17、AOSPへのリリースなしで新しいAPIを追加した3.x以来初のバージョンに</title>
+      <link>https://grapheneos.social/@GrapheneOS/117282080803799576</link>
+      <guid isPermaLink="false">https://grapheneos.social/@GrapheneOS/117282080803799576</guid>
+      <description>[Score: 80] Android 17 QPR1は、Android 3.x以来初めてAOSP（Android Open Source Project）への公開なしに新規APIを追加したリリースとなった。 / オープンソースとしてのAndroidのリリースサイクルや透明性に変化が生じていることを示唆している。 / GrapheneOSなどのカスタムROM開発コミュニティや、Androidエコシステム全体に影響を与える可能性がある。 (Source: Hacker News)</description>
+      <pubDate>Fri, 18 Sep 2026 19:03:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cache-to-Cache: LLM間の直接的な意味論的通信 (2025)</title>
+      <link>https://arxiv.org/abs/2510.03215</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2510.03215</guid>
+      <description>[Score: 80] LLM間でテキストを介さずに直接意味表現をやり取りする通信技術に関する研究。 / KVキャッシュなどの内部状態を直接共有することで、通信の高速化と効率化を図る。 / 将来的なマルチエージェントシステムや協調型AIにおける基盤技術として期待される。 (Source: Hacker News)</description>
+      <pubDate>Fri, 18 Sep 2026 18:55:35 +0000</pubDate>
     </item>
   </channel>
 </rss>
