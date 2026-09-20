@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-09-13T08:53:37.097108+09:00",
-  "week_start": "2026-09-07",
-  "week_end": "2026-09-13",
-  "article_count": 242,
-  "overview": "今週は、OpenAIによるミレニアム懸賞問題「ナヴィエ–ストークス方程式」の証明や、Google DeepMindの「AlphaGenome Atlas」など、科学・数学分野におけるAIの劇的な進歩が目立ちました。また、Apple初となる折りたたみスマートフォン「iPhone Duo」の発表や、次世代モデル「GPT-6 Astra」および「Agents API」の登場など、ハードウェアとソフトウェアの両面で大きなパラダイムシフトが起きています。一方で、大規模な個人情報流出やゼロデイ脆弱性といったセキュリティ上の脅威も引き続き深刻な課題として浮き彫りになりました。",
+  "generated_at": "2026-09-20T09:04:03.737658+09:00",
+  "week_start": "2026-09-14",
+  "week_end": "2026-09-20",
+  "article_count": 249,
+  "overview": "今週は、AI技術がハードウェア設計や法律実務、開発プロセスなど、より具体的かつ専門的な領域へ深く浸透している様子が強く示されました。一方で、AIエージェントの急速な進化に伴うセキュリティリスクや開発競争の「減速」議論など、安全性やガバナンスに関する懸念も表面化しています。また、RustのTier 1言語昇格やWasmの極限的な最適化など、システム開発における効率性と安全性の追求も目立つ1週間でした。",
   "trends": [
-    "AIによる科学・数学の難問解決",
-    "折りたたみスマートフォン市場へのAppleの参入",
-    "次世代AI「GPT-6 Astra」と自律型エージェントの台頭",
-    "大規模な個人情報流出と認証セキュリティの課題"
+    "AIによるハードウェア・専門業務の自動設計",
+    "AIエージェントの台頭とそれに伴う開発プロセスの変革",
+    "AI開発の安全性と「減速」を巡る議論",
+    "WasmやRustによるシステム開発の極限最適化"
   ],
   "highlights": [
     {
-      "title": "ナヴィエ–ストークス方程式のミレニアム懸賞問題について",
-      "url": "https://openai.com/index/navier-stokes-solution/",
-      "comment": "OpenAIの高度なAIモデルがミレニアム懸賞問題の1つを証明したという、科学・数学史における極めて重大なマイルストーンであるため。"
+      "title": "OpenAIが自社製LLMを用いてAIアクセラレータチップ「Jalapeño」を設計した方法",
+      "url": "https://spectrum.ieee.org/llms-for-chip-design",
+      "comment": "LLMをハードウェア設計に適用し、異例の高速開発を実現した画期的な事例であるため選定しました。"
     },
     {
-      "title": "「iPhone Duo」はApple初の7.6型折りたたみで36万円強から",
-      "url": "https://pc.watch.impress.co.jp/docs/news/2139675.html",
-      "comment": "Apple初となる折りたたみスマートフォンの発表であり、今後のモバイルデバイス市場のトレンドを大きく左右するプロダクトであるため。"
+      "title": "Astra for Law",
+      "url": "https://openai.com/index/astra-for-law/",
+      "comment": "法律実務という高度な専門領域に特化したAI基盤の登場は、今後の実務適用における重要なマイルストーンとなるため選定しました。"
     },
     {
-      "title": "AlphaGenome Atlas：ヒトDNAの高解像度マップ",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
-      "comment": "Google DeepMindがヒトゲノムの全一塩基変異の影響を予測した画期的な成果であり、今後の医療やゲノム研究を加速させる可能性が高いため。"
+      "title": "マイクロソフトがRust言語をC++/C#/TSに並ぶ社内のTier 1言語にしたことを明らかに。Windowsネイティブな社内の開発環境と統合",
+      "url": "https://www.publickey1.jp/blog/26/rustcctstier_1.html",
+      "comment": "巨大テック企業におけるRustの本格採用は、今後のシステム開発の安全性と標準化に大きな影響を与えるため選定しました。"
     },
     {
-      "title": "FBI、ロシアのサイバー犯罪フォーラムに流出した1億5300万件の米加運転免許証データを調査中、国防長官のデータも含む — 本人確認サービスプロバイダーからの流出疑い",
-      "url": "https://www.reddit.com/r/technology/comments/1w91w0v/fbi_investigating_153_million_us_and_canadian/",
-      "comment": "国家の要人を含む1億5,000万件以上の運転免許証データが流出した、今週最も深刻なセキュリティインシデントであるため。"
+      "title": "AI開発「減速」をアンソロピックCEOが提案　アルトマン氏・マスク氏らも賛同",
+      "url": "https://www.watch.impress.co.jp/docs/news/2140440.html",
+      "comment": "業界のトップリーダーたちがAIの急速な進化に伴うリスクを認め、開発の減速に賛同したことは極めて重要な局面であるため選定しました。"
     },
     {
-      "title": "OpenAI Agents API",
-      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
-      "comment": "開発者が自律的なAIエージェントを容易に構築・管理できる環境が提供され、今後のアプリケーション開発のあり方を大きく変える可能性があるため。"
+      "title": "イランによるAmazonデータセンターへの攻撃により、顧客データが永久に消失",
+      "url": "https://www.reddit.com/r/technology/comments/1wicbvw/iran_strikes_on_amazon_data_centers_caused/",
+      "comment": "地政学的リスクがクラウドインフラに直接的な被害をもたらし、データの永久消失という深刻な事態を招いた衝撃的なニュースであるため選定しました。"
     }
   ]
 }
