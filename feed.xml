@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 21 Sep 2026 00:01:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 00:46:58 +0000</lastBuildDate>
     <item>
       <title>Copilotを活用したGitHub CopilotランタイムのRustへの移行</title>
       <link>https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/</link>
       <guid isPermaLink="false">https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/</guid>
-      <description>[Score: 95] GitHub Copilotのランタイムを、TypeScriptから80万行以上のRustコードへ完全に書き換えたプロジェクトの紹介。 / GitHub Copilot自身を活用することで、通常ならチームで1〜2年かかる規模の移行を、1人の開発者がわずか数ヶ月で達成した。 / AIエージェント主導の開発プロセスにより、パフォーマンスの大幅な向上と迅速なリリースを両立している。 (Source: GitHub Blog)</description>
+      <description>[Score: 95] TypeScriptとNode.jsで構築されていたGitHub Copilotのランタイムを、GitHub Copilot自身を活用して80万行を超えるRustコードへ完全に書き換えました。 / AIエージェントがコードの大部分を生成し、128件のプルリクエストに分割して段階的にリリースすることで、パフォーマンスを劇的に向上させつつ迅速なバグ修正を実現しました。 / 本来なら開発チーム全体で1〜2年かかる規模のプロジェクトを、AIの支援によりわずか数ヶ月で、かつ主担当者1名で完遂することに成功しました。 (Source: GitHub Blog)</description>
       <pubDate>Thu, 17 Sep 2026 00:26:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>ChatGPTは広告コレクターを介して他のウェブサイトでのあなたの行動を把握している</title>
-      <link>https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/</link>
-      <guid isPermaLink="false">https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/</guid>
-      <description>[Score: 92] OpenAIの広告コレクターが、ユーザーのChatGPTアカウントと紐付いた識別子クッキー「__obi」を設定していることが判明。 / ChatGPTに広告を出稿する外部サイトをユーザーが訪れると、閲覧した商品や記事などの行動データがOpenAIに送信される仕組み。 / 著者は自身のスマートフォンでこの挙動を再現・検証し、外部サイトでの行動がChatGPTアカウントに紐付け可能であることを実証した。 (Source: Hacker News)</description>
-      <pubDate>Sun, 20 Sep 2026 15:18:44 +0000</pubDate>
     </item>
     <item>
       <title>Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行</title>
       <link>https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html</guid>
-      <description>[Score: 90] 自律型AIエンジニア「Devin」が、ホストする仮想環境内でのmacOSの提供を開始した。 / 実機のMacがなくても、iOS/macOS向けアプリのコード生成、テスト、デバッグ、実行が可能になる。 / さらに、App Store配信前のTestFlightを用いたベータ公開までの一連のプロセスをAIに任せられる。 (Source: Publickey)</description>
+      <description>[Score: 90] 自律型コーディングAIエージェント「Devin」が、ホストする仮想環境内でのmacOSの提供を開始しました。 / これにより、開発者は実機のMacを持たなくても、Devin上でiOSやmacOS向けアプリのコード生成、テスト、デバッグを実行可能になります。 / さらに、完成したアプリをApp Store配信前のテスト用プラットフォーム「TestFlight」へベータ公開するまでの全工程をAIに任せられます。 (Source: Publickey)</description>
       <pubDate>Wed, 16 Sep 2026 16:00:51 +0000</pubDate>
     </item>
     <item>
-      <title>Googleのオープンなエージェント・オーケストレーター</title>
-      <link>https://agentexecutor.io</link>
-      <guid isPermaLink="false">https://agentexecutor.io</guid>
-      <description>[Score: 85] Googleが開発したオープンなエージェント・オーケストレーター「AX」に関する紹介。 / タスクのサンドボックス化やネットワーク制限、クラスタ内での大量タスク実行を支援する。 / 状態の蓄積や厳格な分離が必要なAIエージェント向けに、YAMLでワークスペースやタスクを定義可能。 (Source: Hacker News)</description>
-      <pubDate>Sun, 20 Sep 2026 22:32:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>新しい Amazon Bedrock AgentCore Runtime が利用可能に!!</title>
-      <link>https://zenn.dev/aws_japan/articles/agentcore-runtime-v2-platform-version</link>
-      <guid isPermaLink="false">https://zenn.dev/aws_japan/articles/agentcore-runtime-v2-platform-version</guid>
-      <description>[Score: 85] Amazon Bedrock AgentCore Runtimeの新しいプラットフォームバージョン「V2」が一般提供開始。 / AIエージェントの実行基盤において、課題であった新規セッションのコールドスタート時間とコストを大幅に削減。 / セッションごとのハードウェア分離やサーバーレスの利点を維持しつつ、常駐型エージェントの運用効率を向上。 (Source: Zenn)</description>
-      <pubDate>Sat, 19 Sep 2026 14:55:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>オレゴン州のデータセンターが州全体の電力の約25%を消費</title>
-      <link>https://www.reddit.com/r/technology/comments/1wldygn/oregon_data_centers_use_almost_25_of_the_states/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wldygn/oregon_data_centers_use_almost_25_of_the_states/</guid>
-      <description>[Score: 85] 米国オレゴン州に位置するデータセンター群が、州全体の総電力消費量の約4分の1を占めていることが判明しました。 / クラウドサービスやAI需要の急増に伴い、データセンターの電力消費が急激に拡大しています。 / 地域インフラや環境への負荷、今後の持続可能なエネルギー供給に関する議論が活発化しています。 (Source: Reddit)</description>
-      <pubDate>Sun, 20 Sep 2026 10:53:56 +0000</pubDate>
+      <title>ウォーターマークではなく「スパイマーク」</title>
+      <link>https://brand.io/article/spymarks/</link>
+      <guid isPermaLink="false">https://brand.io/article/spymarks/</guid>
+      <description>[Score: 88] AI生成物の識別のために開発された電子透かしが、個人を追跡する「スパイマーク」へと進化している。 / GoogleのSynthIDなどは、画像や音声に人間に知覚できない信号を埋め込み、個人情報と紐付けることが可能。 / 便利さの裏で、ユーザーの同意なき監視やプライバシー侵害のツールとして悪用される懸念が高まっている。 (Source: Hacker News)</description>
+      <pubDate>Mon, 21 Sep 2026 23:03:49 +0000</pubDate>
     </item>
     <item>
       <title>PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開</title>
       <link>https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html</guid>
-      <description>[Score: 85] PlanetScaleがPostgreSQLのシャーディングを自動化する新データベースサービス「Neki」をプレビュー公開した。 / Vitessにインスパイアされた仕組みにより、1億1800万QPS、1.22PiBのデータ、512シャードを達成。 / データベースを多数のシャードに自動分割・分散処理することで、極めて高いスケーラビリティを実現する。 (Source: Publickey)</description>
+      <description>[Score: 88] PlanetScaleは、PostgreSQLのシャーディングを自動化する新しいデータベースサービス「Neki」のプレビュー公開を開始しました。 / MySQL向け分散データベース技術「Vitess」にインスパイアされた仕組みを採用し、1億1800万QPSという驚異的な処理性能を達成しています。 / データベースを自動で多数のシャードに分割・分散処理することで、大規模な同時接続やクエリに対応するスケーラビリティを実現します。 (Source: Publickey)</description>
       <pubDate>Thu, 17 Sep 2026 15:59:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>コーディングエージェントがすべてのテストに合格しても、次の変更をより困難にしている可能性がある</title>
+      <link>https://dev.to/amiran_kurtanidze_b040174/your-coding-agent-passed-every-test-it-may-still-have-made-the-next-change-harder-5do</link>
+      <guid isPermaLink="false">https://dev.to/amiran_kurtanidze_b040174/your-coding-agent-passed-every-test-it-may-still-have-made-the-next-change-harder-5do</guid>
+      <description>[Score: 88] AIコーディングエージェントは個別のタスクやテストをクリアできるが、コードの複雑性を蓄積させがちである。 / 局所的な最適化の繰り返しにより、リポジトリ全体の結合度や重複コードが増加する問題が生じる。 / この課題に対処するため、モデルの判断に頼らない、決定論的で静的なコード監査ツールの必要性を提唱している。 (Source: Dev.to)</description>
+      <pubDate>Tue, 22 Sep 2026 00:25:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>アイルランドデータ保護委員会、位置データの処理を巡りGoogleに4億300万ユーロの制裁金</title>
+      <link>https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-fines-google-eu403-million-following-inquiry-googles-processing-location</link>
+      <guid isPermaLink="false">https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-fines-google-eu403-million-following-inquiry-googles-processing-location</guid>
+      <description>[Score: 85] アイルランドデータ保護委員会（DPC）は、位置データの不適切な処理を理由にGoogleに4億300万ユーロの制裁金を科した。 / 調査は「ロケーション履歴」や「位置情報の精度」など3つの機能におけるGDPR違反を対象としている。 / Googleは6ヶ月以内にデータ処理プロセスを法的に準拠させるよう命じられている。 (Source: Hacker News)</description>
+      <pubDate>Mon, 21 Sep 2026 22:33:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>最近話題のJevはBigQueryのAI関数を安くできるのか？</title>
+      <link>https://zenn.dev/jackojacko05/articles/08df79d47f4219</link>
+      <guid isPermaLink="false">https://zenn.dev/jackojacko05/articles/08df79d47f4219</guid>
+      <description>[Score: 85] 意思決定や分類タスクに特化した安価な小規模AIモデル「Jev」の実用性を検証した記事。 / BigQueryのデータを用い、Stack Overflowの質問タグ分類タスクでGeminiとJevの精度およびコストを比較。 / 選択肢が限定された単純な分類タスクにおいて、Jevは精度を維持しつつコストを大幅に削減できることを示した。 (Source: Zenn)</description>
+      <pubDate>Sun, 20 Sep 2026 12:52:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>高速判断AI Jevのユースケースとオープン実装を雑にまとめる</title>
+      <link>https://zenn.dev/karaage0703/articles/jev-use-cases-open-implementations</link>
+      <guid isPermaLink="false">https://zenn.dev/karaage0703/articles/jev-use-cases-open-implementations</guid>
+      <description>[Score: 85] Jevは文章を生成せず、定義済みの選択肢や尺度に対する判断と確率を高速に返すAIモデルである。 / 通常のLLMのStructured Output等と異なり、最初から判断に特化しているため低遅延かつ低コスト。 / 公式は非オープンだが、既存の言語モデル等を用いたオープンな類似実装が急速に登場している。 (Source: Zenn)</description>
+      <pubDate>Sun, 20 Sep 2026 07:59:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>macOS 27にはローカルLLMが入っている - Qiita</title>
+      <link>https://qiita.com/chibicco/items/ef1a9e40c4cdf15d8e21</link>
+      <guid isPermaLink="false">https://qiita.com/chibicco/items/ef1a9e40c4cdf15d8e21</guid>
+      <description>[Score: 85] macOS 27にAppleのオンデバイスLLMをターミナルから直接利用できる「fm」コマンドが標準搭載されました。 / 追加アプリのインストールやAPIキーは不要で、対応Macであれば「fm chat」などのコマンドで即座に会話が可能です。 / 実機検証では「AFM 3 Core Advanced」モデルが動作し、画像入力や簡易的なコード生成の質問にも対応しています。 (Source: はてなブックマーク)</description>
+      <pubDate>Sat, 19 Sep 2026 08:41:31 +0000</pubDate>
     </item>
     <item>
       <title>Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応</title>
       <link>https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html</guid>
-      <description>[Score: 85] Android上で異なるパスワードマネージャ間でパスキーを直接転送できる新機能が発表されました。 / Googleや1Password、Bitwardenなどの主要なパスワードマネージャがこの機能に対応します。 / これにより、ファイルを介さずに安全かつ容易に他のマネージャへ移行することが可能になります。 (Source: Publickey)</description>
+      <description>[Score: 85] GoogleがAndroid上で異なるパスワードマネージャ間のパスキー転送を可能にしたと発表。 / 1PasswordやBitwarden、Dashlaneなどの主要なマネージャがこの機能に対応する。 / これにより、これまで困難だったパスキーの移行が容易になり、パスワードレスの普及が加速する。 (Source: Publickey)</description>
       <pubDate>Wed, 16 Sep 2026 15:51:54 +0000</pubDate>
     </item>
     <item>
-      <title>初心者向けGitHub Copilotアプリ：diff、ターミナル、ブラウザの活用方法</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/</guid>
-      <description>[Score: 85] GitHub Copilotアプリに、コードの変更確認、コマンド実行、UI表示をアプリ内で完結できる新機能が追加された。 / diffパネルで変更箇所を視認し、内蔵ターミナルでコードを実行し、ブラウザパネルで実際の表示を確認できる。 / エディタやブラウザ間を行き来する手間を省き、AIを活用した開発ループをよりスムーズにする。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 10 Sep 2026 21:31:19 +0000</pubDate>
+      <title>ビジュアルで理解するTransformer</title>
+      <link>https://poloclub.github.io/transformer-explainer/</link>
+      <guid isPermaLink="false">https://poloclub.github.io/transformer-explainer/</guid>
+      <description>[Score: 82] 現代の生成AIの基盤となっている「Transformer」の仕組みを視覚的に学べるインタラクティブツールの紹介。 / GPT-2（1.24億パラメータ）をベースに、セルフアテンションやトークン予測のプロセスを可視化している。 / 数式やコードだけでなく、ビジュアルを通じて直感的にディープラーニングの核心を理解できる。 (Source: Hacker News)</description>
+      <pubDate>Mon, 21 Sep 2026 19:43:49 +0000</pubDate>
     </item>
     <item>
-      <title>Qwen Image 2.1</title>
-      <link>https://qwen.ai/blog?id=qwen-image-2.1</link>
-      <guid isPermaLink="false">https://qwen.ai/blog?id=qwen-image-2.1</guid>
-      <description>[Score: 83] Alibabaが開発するオープンソースのAIモデルシリーズ「Qwen」の最新画像生成・理解モデル「Qwen Image 2.1」の発表。 / 画像の理解能力や生成能力がさらに向上し、マルチモーダルなタスクにおいて高いパフォーマンスを発揮する。 / オープンなAIエコシステムにおける強力な選択肢として、開発者や研究者向けに提供が開始された。 (Source: Hacker News)</description>
-      <pubDate>Sun, 20 Sep 2026 13:09:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>話題のJevとは？文章を書かずに判断だけを返すAIモデルをざっくり解説</title>
-      <link>https://qiita.com/yushibats/items/472325ce548da370ed5d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/yushibats/items/472325ce548da370ed5d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 82] 文章を生成せず、あらかじめ用意された選択肢に対する確率（判断）のみを返す新しいAIモデル「Jev」の解説記事。 / 従来のLLMを「記述式」、Jevを「マークシート方式」に例え、応答速度の速さと低コストというメリットを説明。 / リクエストの構成要素である「state」と「questions」の仕組みや、型エラーが起きない特徴について紹介している。 (Source: Qiita)</description>
-      <pubDate>Fri, 18 Sep 2026 05:21:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>GitHub - minorun365/agent-builder-skills: AWSでAIエージェントのWebアプリを作るためのスキル集</title>
-      <link>https://github.com/minorun365/agent-builder-skills</link>
-      <guid isPermaLink="false">https://github.com/minorun365/agent-builder-skills</guid>
-      <description>[Score: 82] AWS上でAIエージェントのWebアプリを構築するための、コーディングエージェント向けスキル集です。 / Bedrock AgentCoreやAWS CDK、Lambda Web Adapterなどを組み合わせた実践的な構成を提案しています。 / 公式ドキュメント通りに動かない際の原因と対処法をまとめ、Lambdaの制限を回避する構成も紹介しています。 (Source: はてなブックマーク)</description>
-      <pubDate>Sun, 20 Sep 2026 14:59:58 +0000</pubDate>
+      <title>AWSの最軽量LLM「Amazon Nova Micro」がJevの代わりとなるか検証してみた</title>
+      <link>https://qiita.com/nasuvitz/items/4d27833640ff36b5d8c5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/nasuvitz/items/4d27833640ff36b5d8c5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 82] AWSの最軽量・最安LLM「Amazon Nova Micro」が、高速判断AI「Jev」の代替になり得るかを検証。 / 顧客メールの評価タスクにおいて、応答速度、コスト、出力の正確性のすべてでJevがNova Microを上回る結果となった。 / Nova Microは入力単価が安いものの、Jevは出力トークンが無料であり、総合的なコストパフォーマンスでもJevが優位。 (Source: Qiita)</description>
+      <pubDate>Sun, 20 Sep 2026 12:47:53 +0000</pubDate>
     </item>
     <item>
       <title>オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして</title>
       <link>https://www.publickey1.jp/blog/26/javaai.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/javaai.html</guid>
-      <description>[Score: 82] オラクルはJavaのセキュリティパッチの提供サイクルを、従来の3ヶ月から毎月へと短縮しました。 / AIの台頭によって脆弱性の発見と修正のペースが劇的に加速している現状に対応するための措置です。 / 「CSPU」と呼ばれる新しい月次パッチにより、ユーザーは迅速に重要脆弱性に対処できるようになります。 (Source: Publickey)</description>
+      <description>[Score: 82] オラクルがJavaのセキュリティパッチの提供サイクルを従来の3ヶ月から1ヶ月に短縮した。 / AIの台頭により脆弱性の発見ペースが加速している現状に対応するための措置である。 / これにより、ユーザーは重大な脆弱性に対してより迅速に対処することが可能になる。 (Source: Publickey)</description>
       <pubDate>Tue, 15 Sep 2026 15:49:38 +0000</pubDate>
     </item>
     <item>
-      <title>コードとしてのマーケティング運用：GitHubでのイベント自動化</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/</guid>
-      <description>[Score: 82] GitHubのマーケティング担当者が、GitHub Copilotを活用してイベント運営業務を自動化した事例を紹介。 / Copilotとの対話を通じて、1つのGitHub Issueからイベントのセットアップや登録者選別、フォローアップまでを自動で行う仕組みを構築した。 / 非開発部門や元エンジニアがAIを活用して日常の定型業務を効率化する、実践的なアプローチを示している。 (Source: GitHub Blog)</description>
-      <pubDate>Fri, 11 Sep 2026 18:26:10 +0000</pubDate>
+      <title>初心者のためのGitHub Copilotアプリ：diff、ターミナル、ブラウザの活用方法</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/</guid>
+      <description>[Score: 82] GitHub Copilotアプリに統合された「diff」「ターミナル」「ブラウザ」の3つのパネルを活用し、アプリ内でAIコーディングのループを完結させる方法を解説しています。 / diffパネルではAIが提案した変更箇所を視覚的に比較・確認でき、ターミナルパネルではエディタを離れることなくコマンドを実行して動作検証が行えます。 / さらにブラウザパネルを組み合わせることで、WebサイトなどのUI変更を即座に確認でき、開発効率とコントロール性を大幅に向上させます。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 10 Sep 2026 21:31:19 +0000</pubDate>
     </item>
     <item>
-      <title>サムスン、HBM4およびHBM4E DRAMの生産量を2倍以上に拡大する見込み</title>
-      <link>https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say</link>
-      <guid isPermaLink="false">https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say</guid>
-      <description>[Score: 80] サムスン電子が来年、次世代高帯域幅メモリ「HBM4」および「HBM4E」の生産量を2倍以上に増やす見込み。 / HBMの薄型化プロセスでウェハの反りや破損を防ぐために不可欠な「ガラスキャリア」の需要が2.5倍に急増。 / 12層以上の積層技術に対応するため、ガラスキャリアの洗浄外注量などを大幅に拡大する計画。 (Source: Hacker News)</description>
-      <pubDate>Sun, 20 Sep 2026 17:38:50 +0000</pubDate>
+      <title>LLMにおけるハルシネーションの検出：損なわれた文脈共有のトポロジカルな特徴の追跡</title>
+      <link>https://arxiv.org/abs/2609.21096</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.21096</guid>
+      <description>[Score: 82] 大規模言語モデル（LLM）におけるハルシネーション（事実とは異なる情報の生成）を検出する新しいアプローチを提案しています。 / モデル内部の文脈共有が損なわれた状態を、トポロジカルな特徴（Topological Signatures）として追跡・分析します。 / LLMの出力の信頼性を評価し、ハルシネーションを効果的に検知・抑制するための新たな道を開く研究です。 (Source: arXiv cs.AI)</description>
+      <pubDate>Mon, 21 Sep 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Pirate Face：LLMモデルを削除から救う分散型P2Pミラーリング</title>
-      <link>https://pirateface.co/</link>
-      <guid isPermaLink="false">https://pirateface.co/</guid>
-      <description>[Score: 80] Hugging Faceのオープンモデルをマグネットリンク化し、削除不可能なP2Pネットワークで共有するプロジェクト。 / 中央集権的な単一障害点を排除し、SHA-256ハッシュによる改ざん防止と整合性検証を実現。 / 既存のパイプラインのAPIエンドポイントを変更するだけで、コードを書き換えずに移行可能。 (Source: Hacker News)</description>
-      <pubDate>Sun, 20 Sep 2026 15:16:07 +0000</pubDate>
+      <title>C# Kaigi 2026 参加レポート!!</title>
+      <link>https://zenn.dev/prozolic/articles/3bb3f91f7408cc</link>
+      <guid isPermaLink="false">https://zenn.dev/prozolic/articles/3bb3f91f7408cc</guid>
+      <description>[Score: 80] 2026年9月に初開催されたC#er向け技術カンファレンス「C# Kaigi 2026」の参加レポート。 / 基調講演ではC#の進化の歴史や、AI時代におけるエディターフレンドリーな特徴、MessagePackでのAI活用が紹介された。 / 著者は自身の.NETランタイムへのコントリビュート経験に関する登壇内容やセッションの様子を報告している。 (Source: Zenn)</description>
+      <pubDate>Mon, 21 Sep 2026 10:24:08 +0000</pubDate>
     </item>
     <item>
-      <title>MCP × Claude Code × BedrockでPlaywrightの自動化フローを構築</title>
-      <link>https://zenn.dev/hirata_infosys/articles/598068e56ae342</link>
-      <guid isPermaLink="false">https://zenn.dev/hirata_infosys/articles/598068e56ae342</guid>
-      <description>[Score: 80] 既存システムへのAIエージェント導入において、Playwrightを用いた画面操作による自動化フローの検証記事。 / MCP、Claude Code、Amazon Bedrockを組み合わせ、Dockerコンテナ環境でVNCを用いたデバッグ可能な構成を構築。 / Node.js（MCP）とPython（自動化スクリプト）でChromiumを共有し、コンテナサイズ削減とパス競合を解決している。 (Source: Zenn)</description>
-      <pubDate>Fri, 18 Sep 2026 21:00:05 +0000</pubDate>
+      <title>生成AIセキュリティを学んで変わった「AIを安全に使う」という考え方</title>
+      <link>https://qiita.com/kf_webdev/items/cbd1d7bb724676a3b686?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/kf_webdev/items/cbd1d7bb724676a3b686?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 80] 生成AIセキュリティの学習を通じ、「漏洩の防止」だけでなく「そもそも外部に渡してよい情報か」という視点への変化を解説。 / 個人情報や機密情報を4つの基準に分類し、必要に応じてマスキングしてAIに渡すなどの具体的な対策を整理。 / AIサービスの規約やオプトアウト設定を確認し、学習利用の有無に関わらず安全な利用基準を持つ重要性を提唱。 (Source: Qiita)</description>
+      <pubDate>Sat, 19 Sep 2026 07:56:25 +0000</pubDate>
     </item>
     <item>
       <title>「Java 27」正式リリース。全環境でG1 GCがデフォルトに、TLS 1.3用に耐量子暗号のハイブリッドキー交換など新機能</title>
       <link>https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html</guid>
-      <description>[Score: 80] オラクルがJavaの最新バージョンとなる「Java 27」を正式にリリースしました。 / すべての環境でG1 GCがデフォルトになり、TLS 1.3向けに耐量子暗号のハイブリッドキー交換が導入されています。 / 本バージョンはLTS（長期サポート）ではなく、6ヶ月間のサポート期間が提供されるフィーチャーリリースです。 (Source: Publickey)</description>
+      <description>[Score: 80] オラクルが最新バージョンとなる「Java 27」の正式版をリリースした。 / 全環境でG1 GCがデフォルトになり、TLS 1.3向けに耐量子暗号のハイブリッドキー交換が導入された。 / 本バージョンはLTS（長期サポート）ではなく、6ヶ月間のサポート期間となる。 (Source: Publickey)</description>
       <pubDate>Tue, 15 Sep 2026 15:52:17 +0000</pubDate>
     </item>
     <item>
-      <title>大規模なWebRTCの構築</title>
-      <link>https://dev.to/karanpratapsingh/webrtc-at-scale-2di1</link>
-      <guid isPermaLink="false">https://dev.to/karanpratapsingh/webrtc-at-scale-2di1</guid>
-      <description>[Score: 80] WebRTCはブラウザ間で音声、ビデオ、データを直接送受信するためのオープン標準である。 / 接続に必要なシグナリングやNATトラバーサルは仕様外であり、独自に実装する必要がある。 / 本記事では、3つの主要API、シグナリングサーバーの実装、およびmesh/SFU/MCUのトレードオフを解説する。 (Source: Dev.to)</description>
-      <pubDate>Sun, 20 Sep 2026 23:35:51 +0000</pubDate>
+      <title>自身の銀行残高に連動したキルスイッチをAIエージェントに実装した話</title>
+      <link>https://dev.to/jigi_capsule26/i-gave-my-ai-agent-a-kill-switch-tied-to-its-own-bank-balance-2ll6</link>
+      <guid isPermaLink="false">https://dev.to/jigi_capsule26/i-gave-my-ai-agent-a-kill-switch-tied-to-its-own-bank-balance-2ll6</guid>
+      <description>[Score: 80] 自律的に動作しAPI予算を消費するAIエージェントに、自身の資金残高や稼働可能日数、売上状況に連動したキルスイッチを導入しました。 / エージェント自身が予算超過やルール違反を判断して回避することを防ぐため、実行時に書き換え不可能な外部コードとしてチェック機能を構築しています。 / SQLiteのトリガーを用いて後からの編集を物理的に防ぐ台帳システムを組み合わせることで、エージェントの自己評価による不正を防ぐ仕組みを実現しています。 (Source: Dev.to)</description>
+      <pubDate>Tue, 22 Sep 2026 00:08:57 +0000</pubDate>
     </item>
     <item>
-      <title>誰もFOSSにお金を払わない、私たちは彼らに支払わせることができる</title>
-      <link>https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/</link>
-      <guid isPermaLink="false">https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/</guid>
-      <description>[Score: 78] 誰もお金を払おうとしないオープンソースソフトウェア（FOSS）の持続可能性に関する経済的課題を指摘。 / 進化生物学の「タカ派とハト派」モデルを用いて、現在のオープンソースエコシステムが不安定な状態にあると分析。 / パッケージレジストリなどの仕組みを通じて、企業に強制的に対価を支払わせる新たなアプローチを提案している。 (Source: Hacker News)</description>
-      <pubDate>Sun, 20 Sep 2026 21:04:32 +0000</pubDate>
+      <title>GitHub稼働状況レポート：2026年8月</title>
+      <link>https://github.blog/news-insights/company-news/github-availability-report-august-2026/</link>
+      <guid isPermaLink="false">https://github.blog/news-insights/company-news/github-availability-report-august-2026/</guid>
+      <description>[Score: 80] 2026年8月はGitHubにとって可用性の面で課題が残る月となったが、Azureへの移行とアーキテクチャ改善を積極的に進めています。 / 8月11日にはAzure上で初のプロダクションMySQLプライマリの稼働に成功し、顧客への影響を最小限に抑えて移行を完了しました。 / 移行に伴いAzureでのリードトラフィックの割合が大幅に増加しており、キャパシティ監視や回復性の向上にも継続して取り組んでいます。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 10 Sep 2026 02:05:17 +0000</pubDate>
     </item>
   </channel>
 </rss>
