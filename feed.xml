@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 22 Sep 2026 00:46:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 00:14:47 +0000</lastBuildDate>
     <item>
-      <title>Copilotを活用したGitHub CopilotランタイムのRustへの移行</title>
-      <link>https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/</guid>
-      <description>[Score: 95] TypeScriptとNode.jsで構築されていたGitHub Copilotのランタイムを、GitHub Copilot自身を活用して80万行を超えるRustコードへ完全に書き換えました。 / AIエージェントがコードの大部分を生成し、128件のプルリクエストに分割して段階的にリリースすることで、パフォーマンスを劇的に向上させつつ迅速なバグ修正を実現しました。 / 本来なら開発チーム全体で1〜2年かかる規模のプロジェクトを、AIの支援によりわずか数ヶ月で、かつ主担当者1名で完遂することに成功しました。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 17 Sep 2026 00:26:43 +0000</pubDate>
+      <title>GPT-6 SolおよびLunaの発表</title>
+      <link>https://openai.com/index/introducing-gpt-6-sol-and-luna/</link>
+      <guid isPermaLink="false">https://openai.com/index/introducing-gpt-6-sol-and-luna/</guid>
+      <description>[Score: 92] OpenAIは、GPT-6ファミリーの新しい軽量・高速モデル「GPT-6 Sol」と「GPT-6 Luna」を発表した。 / 先行して発表された最上位モデル「GPT-6 Astra」と同等の高度なアライメントや推論能力を、より低コストで提供する。 / キャッシュや推論の改善により、API価格はGPT-5.6のプロモーション価格から50%削減されている。 (Source: Hacker News)</description>
+      <pubDate>Tue, 22 Sep 2026 18:00:34 +0000</pubDate>
     </item>
     <item>
-      <title>Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行</title>
-      <link>https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html</guid>
-      <description>[Score: 90] 自律型コーディングAIエージェント「Devin」が、ホストする仮想環境内でのmacOSの提供を開始しました。 / これにより、開発者は実機のMacを持たなくても、Devin上でiOSやmacOS向けアプリのコード生成、テスト、デバッグを実行可能になります。 / さらに、完成したアプリをApp Store配信前のテスト用プラットフォーム「TestFlight」へベータ公開するまでの全工程をAIに任せられます。 (Source: Publickey)</description>
-      <pubDate>Wed, 16 Sep 2026 16:00:51 +0000</pubDate>
+      <title>Claude Opus 5.5登場　Fable 5.1並みの性能をOpus 5より40%安価に</title>
+      <link>https://www.watch.impress.co.jp/docs/news/2142619.html</link>
+      <guid isPermaLink="false">https://www.watch.impress.co.jp/docs/news/2142619.html</guid>
+      <description>[Score: 92] Anthropicが最新のAIモデル「Claude Opus 5.5」の提供を開始した。 / 最上位モデル「Fable 5.1」と同等の性能を持ちながら、現行のOpus 5より40%低コストで動作する。 / コード移行やWebアプリ改善で高い成果を示し、安全性やプロンプトインジェクション耐性も向上している。 (Source: はてなブックマーク)</description>
+      <pubDate>Tue, 22 Sep 2026 18:06:19 +0000</pubDate>
     </item>
     <item>
-      <title>ウォーターマークではなく「スパイマーク」</title>
-      <link>https://brand.io/article/spymarks/</link>
-      <guid isPermaLink="false">https://brand.io/article/spymarks/</guid>
-      <description>[Score: 88] AI生成物の識別のために開発された電子透かしが、個人を追跡する「スパイマーク」へと進化している。 / GoogleのSynthIDなどは、画像や音声に人間に知覚できない信号を埋め込み、個人情報と紐付けることが可能。 / 便利さの裏で、ユーザーの同意なき監視やプライバシー侵害のツールとして悪用される懸念が高まっている。 (Source: Hacker News)</description>
-      <pubDate>Mon, 21 Sep 2026 23:03:49 +0000</pubDate>
+      <title>Claude Opus 5.5の発表</title>
+      <link>https://www.anthropic.com/claude-opus-5-5</link>
+      <guid isPermaLink="false">https://www.anthropic.com/claude-opus-5-5</guid>
+      <description>[Score: 90] Anthropicは、新たなClaude 5.5ファミリーの最初のモデルとなる「Claude Opus 5.5」を発表した。 / 前世代のOpus 5と比較して実行コストが40%削減され、複雑なコード移行作業などを劇的に高速化する。 / 同社独自の自動行動監査において、これまでにテストされたモデルの中で最も優れたアライメントと安全性を記録している。 (Source: Hacker News)</description>
+      <pubDate>Tue, 22 Sep 2026 16:29:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>「FBIをハッキングした」ハッカー集団が全職員のデータを保有と主張</title>
+      <link>https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/</link>
+      <guid isPermaLink="false">https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/</guid>
+      <description>[Score: 88] 著名なハッカー集団「ShinyHunters」が、FBI関連サービスから全職員および応募者の個人情報を盗み出したと主張した。 / 流出したとされるデータには、捜査官の氏名、自宅住所、電話番号、配偶者の情報などが含まれている。 / メディアの調査によりサンプルデータの一部が実在の人物と一致しており、国家安全保障上の重大な脅威となる可能性がある。 (Source: Hacker News)</description>
+      <pubDate>Tue, 22 Sep 2026 17:46:02 +0000</pubDate>
     </item>
     <item>
       <title>PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開</title>
       <link>https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html</guid>
-      <description>[Score: 88] PlanetScaleは、PostgreSQLのシャーディングを自動化する新しいデータベースサービス「Neki」のプレビュー公開を開始しました。 / MySQL向け分散データベース技術「Vitess」にインスパイアされた仕組みを採用し、1億1800万QPSという驚異的な処理性能を達成しています。 / データベースを自動で多数のシャードに分割・分散処理することで、大規模な同時接続やクエリに対応するスケーラビリティを実現します。 (Source: Publickey)</description>
+      <description>[Score: 88] PlanetScaleが、PostgreSQLのシャーディングを自動化する新データベースサービス「Neki」のプレビュー版を公開した。 / MySQLをスケールさせる「Vitess」にインスパイアされた仕組みを採用し、1億1800万QPSという驚異的な処理性能を達成している。 / データベースを自動で多数のシャードに分割・分散処理することで、大規模な同時接続とクエリに対応する。 (Source: Publickey)</description>
       <pubDate>Thu, 17 Sep 2026 15:59:39 +0000</pubDate>
     </item>
     <item>
-      <title>コーディングエージェントがすべてのテストに合格しても、次の変更をより困難にしている可能性がある</title>
-      <link>https://dev.to/amiran_kurtanidze_b040174/your-coding-agent-passed-every-test-it-may-still-have-made-the-next-change-harder-5do</link>
-      <guid isPermaLink="false">https://dev.to/amiran_kurtanidze_b040174/your-coding-agent-passed-every-test-it-may-still-have-made-the-next-change-harder-5do</guid>
-      <description>[Score: 88] AIコーディングエージェントは個別のタスクやテストをクリアできるが、コードの複雑性を蓄積させがちである。 / 局所的な最適化の繰り返しにより、リポジトリ全体の結合度や重複コードが増加する問題が生じる。 / この課題に対処するため、モデルの判断に頼らない、決定論的で静的なコード監査ツールの必要性を提唱している。 (Source: Dev.to)</description>
-      <pubDate>Tue, 22 Sep 2026 00:25:50 +0000</pubDate>
+      <title>OpenAIのGPT-6 Astraが2005年から解読不能だったエニグマ暗号の解読に成功</title>
+      <link>https://www.cryptocellar.org/bgac/the-mvueh-break.html</link>
+      <guid isPermaLink="false">https://www.cryptocellar.org/bgac/the-mvueh-break.html</guid>
+      <description>[Score: 85] OpenAIの最新AIモデル「GPT-6 Astra」が、2005年から未解読だった1941年のドイツ陸軍のエニグマ暗号メッセージ「MVUEH」を解読した。 / このメッセージは通常の暗号キーとは異なる特殊な設定が用いられていたため、長年の解読の試みを拒んできた。 / 今回の成功は、最先端AIが歴史的な暗号解読や複雑なパターン認識において極めて高い能力を持つことを実証した。 (Source: Hacker News)</description>
+      <pubDate>Tue, 22 Sep 2026 13:52:15 +0000</pubDate>
     </item>
     <item>
-      <title>アイルランドデータ保護委員会、位置データの処理を巡りGoogleに4億300万ユーロの制裁金</title>
-      <link>https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-fines-google-eu403-million-following-inquiry-googles-processing-location</link>
-      <guid isPermaLink="false">https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-fines-google-eu403-million-following-inquiry-googles-processing-location</guid>
-      <description>[Score: 85] アイルランドデータ保護委員会（DPC）は、位置データの不適切な処理を理由にGoogleに4億300万ユーロの制裁金を科した。 / 調査は「ロケーション履歴」や「位置情報の精度」など3つの機能におけるGDPR違反を対象としている。 / Googleは6ヶ月以内にデータ処理プロセスを法的に準拠させるよう命じられている。 (Source: Hacker News)</description>
-      <pubDate>Mon, 21 Sep 2026 22:33:45 +0000</pubDate>
+      <title>JevでRAG検索の爆速化＆コスト削減は実現できるのか検証してみた</title>
+      <link>https://qiita.com/kikuziro/items/2be9091b328d8b844640?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/kikuziro/items/2be9091b328d8b844640?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 85] テキストを生成せず確率を返す新モデル「Jev」をRAGの各工程に適用し、速度とコストの改善効果を検証しています。 / 架空の社内規程データを用いた検証において、Jevをリランカーとして使用する際の実装方法や他モデルとの比較を提示しています。 / Jevの特性である「型付きの質問に一発で答える」仕組みが、RAGのパイプライン高速化にどう寄与するかを具体的に評価しています。 (Source: Qiita)</description>
+      <pubDate>Sun, 20 Sep 2026 23:45:56 +0000</pubDate>
     </item>
     <item>
-      <title>最近話題のJevはBigQueryのAI関数を安くできるのか？</title>
-      <link>https://zenn.dev/jackojacko05/articles/08df79d47f4219</link>
-      <guid isPermaLink="false">https://zenn.dev/jackojacko05/articles/08df79d47f4219</guid>
-      <description>[Score: 85] 意思決定や分類タスクに特化した安価な小規模AIモデル「Jev」の実用性を検証した記事。 / BigQueryのデータを用い、Stack Overflowの質問タグ分類タスクでGeminiとJevの精度およびコストを比較。 / 選択肢が限定された単純な分類タスクにおいて、Jevは精度を維持しつつコストを大幅に削減できることを示した。 (Source: Zenn)</description>
-      <pubDate>Sun, 20 Sep 2026 12:52:36 +0000</pubDate>
+      <title>「FBIをハッキングした」ハッカー集団が全FBI職員のデータを保有していると主張</title>
+      <link>https://www.reddit.com/r/technology/comments/1wnevnd/we_hacked_the_fbi_hackers_say_they_have_data_on/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wnevnd/we_hacked_the_fbi_hackers_say_they_have_data_on/</guid>
+      <description>[Score: 85] ハッカー集団が米連邦捜査局（FBI）へのハッキングに成功したと主張しています。 / 彼らはすべてのFBI職員に関する機密データを保有していると宣言しました。 / 国家の主要捜査機関における重大なデータ漏洩の懸念が高まっています。 (Source: Reddit)</description>
+      <pubDate>Tue, 22 Sep 2026 16:50:24 +0000</pubDate>
     </item>
     <item>
-      <title>高速判断AI Jevのユースケースとオープン実装を雑にまとめる</title>
-      <link>https://zenn.dev/karaage0703/articles/jev-use-cases-open-implementations</link>
-      <guid isPermaLink="false">https://zenn.dev/karaage0703/articles/jev-use-cases-open-implementations</guid>
-      <description>[Score: 85] Jevは文章を生成せず、定義済みの選択肢や尺度に対する判断と確率を高速に返すAIモデルである。 / 通常のLLMのStructured Output等と異なり、最初から判断に特化しているため低遅延かつ低コスト。 / 公式は非オープンだが、既存の言語モデル等を用いたオープンな類似実装が急速に登場している。 (Source: Zenn)</description>
-      <pubDate>Sun, 20 Sep 2026 07:59:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>macOS 27にはローカルLLMが入っている - Qiita</title>
-      <link>https://qiita.com/chibicco/items/ef1a9e40c4cdf15d8e21</link>
-      <guid isPermaLink="false">https://qiita.com/chibicco/items/ef1a9e40c4cdf15d8e21</guid>
-      <description>[Score: 85] macOS 27にAppleのオンデバイスLLMをターミナルから直接利用できる「fm」コマンドが標準搭載されました。 / 追加アプリのインストールやAPIキーは不要で、対応Macであれば「fm chat」などのコマンドで即座に会話が可能です。 / 実機検証では「AFM 3 Core Advanced」モデルが動作し、画像入力や簡易的なコード生成の質問にも対応しています。 (Source: はてなブックマーク)</description>
-      <pubDate>Sat, 19 Sep 2026 08:41:31 +0000</pubDate>
+      <title>Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行</title>
+      <link>https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html</guid>
+      <description>[Score: 85] AIコーディングエージェント「Devin」が、ホストする仮想環境内でのmacOSの提供を開始した。 / これにより、開発者はMacの実機を持たなくても、Devin上でmacOSやiOS向けアプリの開発・テスト・デバッグが可能になる。 / コード生成からシミュレータでの動作確認、TestFlightを通じたベータ公開までの一連のプロセスをAIが自動で実行する。 (Source: Publickey)</description>
+      <pubDate>Wed, 16 Sep 2026 16:00:51 +0000</pubDate>
     </item>
     <item>
       <title>Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応</title>
       <link>https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html</guid>
-      <description>[Score: 85] GoogleがAndroid上で異なるパスワードマネージャ間のパスキー転送を可能にしたと発表。 / 1PasswordやBitwarden、Dashlaneなどの主要なマネージャがこの機能に対応する。 / これにより、これまで困難だったパスキーの移行が容易になり、パスワードレスの普及が加速する。 (Source: Publickey)</description>
+      <description>[Score: 85] GoogleはAndroid上でパスワードマネージャ間のパスキー転送を可能にしたと発表した。 / これによりGoogleパスワードマネージャから1PasswordやBitwardenなどへの移行が容易になる。 / ファイルダウンロードを必要とせず、安全かつ簡単にパスキーを移行できる仕組みを提供する。 (Source: Publickey)</description>
       <pubDate>Wed, 16 Sep 2026 15:51:54 +0000</pubDate>
     </item>
     <item>
-      <title>ビジュアルで理解するTransformer</title>
-      <link>https://poloclub.github.io/transformer-explainer/</link>
-      <guid isPermaLink="false">https://poloclub.github.io/transformer-explainer/</guid>
-      <description>[Score: 82] 現代の生成AIの基盤となっている「Transformer」の仕組みを視覚的に学べるインタラクティブツールの紹介。 / GPT-2（1.24億パラメータ）をベースに、セルフアテンションやトークン予測のプロセスを可視化している。 / 数式やコードだけでなく、ビジュアルを通じて直感的にディープラーニングの核心を理解できる。 (Source: Hacker News)</description>
-      <pubDate>Mon, 21 Sep 2026 19:43:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>AWSの最軽量LLM「Amazon Nova Micro」がJevの代わりとなるか検証してみた</title>
-      <link>https://qiita.com/nasuvitz/items/4d27833640ff36b5d8c5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/nasuvitz/items/4d27833640ff36b5d8c5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 82] AWSの最軽量・最安LLM「Amazon Nova Micro」が、高速判断AI「Jev」の代替になり得るかを検証。 / 顧客メールの評価タスクにおいて、応答速度、コスト、出力の正確性のすべてでJevがNova Microを上回る結果となった。 / Nova Microは入力単価が安いものの、Jevは出力トークンが無料であり、総合的なコストパフォーマンスでもJevが優位。 (Source: Qiita)</description>
-      <pubDate>Sun, 20 Sep 2026 12:47:53 +0000</pubDate>
+      <title>エンジニアが「Claude Code」により仕事が「魂を吸い取られるよう」になったと吐露、1日12時間Enterキーを押し続ける日々に</title>
+      <link>https://www.reddit.com/r/technology/comments/1wn7qdj/engineer_says_claude_code_has_made_his_job/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wn7qdj/engineer_says_claude_code_has_made_his_job/</guid>
+      <description>[Score: 82] AIコード生成ツール「Claude Code」の導入により、エンジニアの業務内容が激変しています。 / 開発者が1日12時間もただEnterキーを押し続けるだけの単純作業を強いられていると不満を漏らしています。 / AIによる開発自動化がもたらす、エンジニアの労働環境や仕事のやりがいの変化が浮き彫りになりました。 (Source: Reddit)</description>
+      <pubDate>Tue, 22 Sep 2026 12:10:10 +0000</pubDate>
     </item>
     <item>
       <title>オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして</title>
       <link>https://www.publickey1.jp/blog/26/javaai.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/javaai.html</guid>
-      <description>[Score: 82] オラクルがJavaのセキュリティパッチの提供サイクルを従来の3ヶ月から1ヶ月に短縮した。 / AIの台頭により脆弱性の発見ペースが加速している現状に対応するための措置である。 / これにより、ユーザーは重大な脆弱性に対してより迅速に対処することが可能になる。 (Source: Publickey)</description>
+      <description>[Score: 82] オラクルはJavaのセキュリティパッチの提供サイクルを従来の3ヶ月から1ヶ月に短縮した。 / AIの登場により脆弱性の発見と修正のペースが加速している現状に対応するための措置である。 / これによりユーザーは重大な脆弱性に対してより迅速に対処することが可能になる。 (Source: Publickey)</description>
       <pubDate>Tue, 15 Sep 2026 15:49:38 +0000</pubDate>
     </item>
     <item>
-      <title>初心者のためのGitHub Copilotアプリ：diff、ターミナル、ブラウザの活用方法</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/</guid>
-      <description>[Score: 82] GitHub Copilotアプリに統合された「diff」「ターミナル」「ブラウザ」の3つのパネルを活用し、アプリ内でAIコーディングのループを完結させる方法を解説しています。 / diffパネルではAIが提案した変更箇所を視覚的に比較・確認でき、ターミナルパネルではエディタを離れることなくコマンドを実行して動作検証が行えます。 / さらにブラウザパネルを組み合わせることで、WebサイトなどのUI変更を即座に確認でき、開発効率とコントロール性を大幅に向上させます。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 10 Sep 2026 21:31:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>LLMにおけるハルシネーションの検出：損なわれた文脈共有のトポロジカルな特徴の追跡</title>
+      <title>LLMにおけるハルシネーションの検出：コンテキスト共有不全のトポロジカルな特徴の追跡</title>
       <link>https://arxiv.org/abs/2609.21096</link>
       <guid isPermaLink="false">https://arxiv.org/abs/2609.21096</guid>
-      <description>[Score: 82] 大規模言語モデル（LLM）におけるハルシネーション（事実とは異なる情報の生成）を検出する新しいアプローチを提案しています。 / モデル内部の文脈共有が損なわれた状態を、トポロジカルな特徴（Topological Signatures）として追跡・分析します。 / LLMの出力の信頼性を評価し、ハルシネーションを効果的に検知・抑制するための新たな道を開く研究です。 (Source: arXiv cs.AI)</description>
-      <pubDate>Mon, 21 Sep 2026 04:00:00 +0000</pubDate>
+      <description>[Score: 82] 大規模言語モデル（LLM）の大きな課題であるハルシネーション（事実とは異なる出力）を検出する新手法を提案しています。 / モデル内部のコンテキスト共有の不全を、トポロジカルな特徴（Topological Signatures）として捉えて追跡します。 / 外部知識に頼ることなく、モデルの内部状態からハルシネーションを早期かつ高精度に検知することを目指します。 (Source: arXiv cs.AI)</description>
+      <pubDate>Tue, 22 Sep 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>C# Kaigi 2026 参加レポート!!</title>
-      <link>https://zenn.dev/prozolic/articles/3bb3f91f7408cc</link>
-      <guid isPermaLink="false">https://zenn.dev/prozolic/articles/3bb3f91f7408cc</guid>
-      <description>[Score: 80] 2026年9月に初開催されたC#er向け技術カンファレンス「C# Kaigi 2026」の参加レポート。 / 基調講演ではC#の進化の歴史や、AI時代におけるエディターフレンドリーな特徴、MessagePackでのAI活用が紹介された。 / 著者は自身の.NETランタイムへのコントリビュート経験に関する登壇内容やセッションの様子を報告している。 (Source: Zenn)</description>
-      <pubDate>Mon, 21 Sep 2026 10:24:08 +0000</pubDate>
+      <title>ローカル動作するJevっぽいものを調べてたら、なんとマルチモーダル対応もできてた！</title>
+      <link>https://qiita.com/moritalous/items/41c9402a5dd9d80fc7a9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/moritalous/items/41c9402a5dd9d80fc7a9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 80] テキストを生成しないAIモデル「Jev」に類似したローカル動作環境を、llama.cppとQwen3-VLモデルを用いて構築する方法を解説しています。 / Mac環境でllama-serverを起動し、マルチモーダル対応の軽量モデルを動かす手順を紹介しています。 / ローカルLLMを活用して、APIコストを抑えつつ高速かつセキュアにマルチモーダルな処理を行う仕組みを検証しています。 (Source: Qiita)</description>
+      <pubDate>Mon, 21 Sep 2026 02:47:44 +0000</pubDate>
     </item>
     <item>
-      <title>生成AIセキュリティを学んで変わった「AIを安全に使う」という考え方</title>
-      <link>https://qiita.com/kf_webdev/items/cbd1d7bb724676a3b686?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/kf_webdev/items/cbd1d7bb724676a3b686?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] 生成AIセキュリティの学習を通じ、「漏洩の防止」だけでなく「そもそも外部に渡してよい情報か」という視点への変化を解説。 / 個人情報や機密情報を4つの基準に分類し、必要に応じてマスキングしてAIに渡すなどの具体的な対策を整理。 / AIサービスの規約やオプトアウト設定を確認し、学習利用の有無に関わらず安全な利用基準を持つ重要性を提唱。 (Source: Qiita)</description>
-      <pubDate>Sat, 19 Sep 2026 07:56:25 +0000</pubDate>
+      <title>ロイター記者ケイティ・ポールです。マーク・ザッカーバーグによるMeta社員のAI置き換え計画とその崩壊の裏側を暴きました。AMA（何でも聞いてね）。</title>
+      <link>https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/</guid>
+      <description>[Score: 80] ロイターの記者が、Metaのマーク・ザッカーバーグCEOによる社員のAI代替計画とその失敗の裏側を暴露しました。 / Reddit上でユーザーからの質問に答えるAMA（Ask Me Anything）セッションを開催しています。 / AIによる人員削減計画の実態や、それがどのように破綻したのかについて詳細が語られています。 (Source: Reddit)</description>
+      <pubDate>Wed, 02 Sep 2026 19:18:30 +0000</pubDate>
     </item>
     <item>
       <title>「Java 27」正式リリース。全環境でG1 GCがデフォルトに、TLS 1.3用に耐量子暗号のハイブリッドキー交換など新機能</title>
       <link>https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html</guid>
-      <description>[Score: 80] オラクルが最新バージョンとなる「Java 27」の正式版をリリースした。 / 全環境でG1 GCがデフォルトになり、TLS 1.3向けに耐量子暗号のハイブリッドキー交換が導入された。 / 本バージョンはLTS（長期サポート）ではなく、6ヶ月間のサポート期間となる。 (Source: Publickey)</description>
+      <description>[Score: 80] オラクルが最新バージョンとなる「Java 27」の正式版をリリースした。 / 全環境でG1 GCがデフォルトになり、TLS 1.3向けに耐量子暗号のハイブリッドキー交換などが導入された。 / 本バージョンはLTS（長期サポート）ではなく、6ヶ月間のサポート期間となる。 (Source: Publickey)</description>
       <pubDate>Tue, 15 Sep 2026 15:52:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>自身の銀行残高に連動したキルスイッチをAIエージェントに実装した話</title>
-      <link>https://dev.to/jigi_capsule26/i-gave-my-ai-agent-a-kill-switch-tied-to-its-own-bank-balance-2ll6</link>
-      <guid isPermaLink="false">https://dev.to/jigi_capsule26/i-gave-my-ai-agent-a-kill-switch-tied-to-its-own-bank-balance-2ll6</guid>
-      <description>[Score: 80] 自律的に動作しAPI予算を消費するAIエージェントに、自身の資金残高や稼働可能日数、売上状況に連動したキルスイッチを導入しました。 / エージェント自身が予算超過やルール違反を判断して回避することを防ぐため、実行時に書き換え不可能な外部コードとしてチェック機能を構築しています。 / SQLiteのトリガーを用いて後からの編集を物理的に防ぐ台帳システムを組み合わせることで、エージェントの自己評価による不正を防ぐ仕組みを実現しています。 (Source: Dev.to)</description>
-      <pubDate>Tue, 22 Sep 2026 00:08:57 +0000</pubDate>
     </item>
     <item>
       <title>GitHub稼働状況レポート：2026年8月</title>
       <link>https://github.blog/news-insights/company-news/github-availability-report-august-2026/</link>
       <guid isPermaLink="false">https://github.blog/news-insights/company-news/github-availability-report-august-2026/</guid>
-      <description>[Score: 80] 2026年8月はGitHubにとって可用性の面で課題が残る月となったが、Azureへの移行とアーキテクチャ改善を積極的に進めています。 / 8月11日にはAzure上で初のプロダクションMySQLプライマリの稼働に成功し、顧客への影響を最小限に抑えて移行を完了しました。 / 移行に伴いAzureでのリードトラフィックの割合が大幅に増加しており、キャパシティ監視や回復性の向上にも継続して取り組んでいます。 (Source: GitHub Blog)</description>
+      <description>[Score: 80] 2026年8月はGitHubにとって可用性の面で課題の多い月であり、インフラ改善への投資を強化しています。 / Azureへの移行が進められており、8月11日には初のMySQLプライマリのAzure移行を顧客への影響なしに実施しました。 / キャパシティ監視の改善やリトライポリシーの最適化、コアサービスの回復力向上などの対策を講じています。 (Source: GitHub Blog)</description>
       <pubDate>Thu, 10 Sep 2026 02:05:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>エンジニア不要論の真実！AIの進化と具体抽象から完全解説</title>
+      <link>https://qiita.com/Sicut_study/items/b2ef2f7a6ee0dbbf0001?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/Sicut_study/items/b2ef2f7a6ee0dbbf0001?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 78] AIエージェントの普及に伴い、エンジニアのキャリアが「AIを使いこなす人」と「指示を出すだけの作業者」に二極化している現状を分析しています。 / システム開発における「具体（コーディングや下請け業務）」と「抽象（問題発見や設計）」の思考フレームワークを用いてエンジニアの価値を解説しています。 / AIが具体の仕事を代替する時代において、エンジニアが生き残るためには抽象的な思考力と上流工程へのシフトが必要であると提唱しています。 (Source: Qiita)</description>
+      <pubDate>Mon, 21 Sep 2026 03:52:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>思考の外注割合を増やし、理解は外注しない - Konifar's ZATSU</title>
+      <link>https://konifar-zatsu.hatenadiary.jp/entry/2026/09/22/112134</link>
+      <guid isPermaLink="false">https://konifar-zatsu.hatenadiary.jp/entry/2026/09/22/112134</guid>
+      <description>[Score: 78] AI時代における「思考は外注できるが理解は外注できない」という考え方について考察したブログ記事です。 / 人間は思考のプロセスを通じて理解を深めるため、単純に切り離すことの難しさを指摘しています。 / AIの急速な進化に適応するため、タスクの切り出し方を工夫し思考の外注割合を調整する重要性を説いています。 (Source: はてなブックマーク)</description>
+      <pubDate>Tue, 22 Sep 2026 02:43:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>「AIは意識を持ち得ない」――世界的SF作家から届いたアンソロピックへの“メッセージ”</title>
+      <link>https://que.dailyshincho.jp/node/20880/</link>
+      <guid isPermaLink="false">https://que.dailyshincho.jp/node/20880/</guid>
+      <description>[Score: 78] SF作家テッド・チャン氏が、AIに意識を持たせようとするAnthropic社などの試みを強く批判した。 / 同氏は、現在のLLMには意識ある存在に必要な身体性や生命システムなどの基本要件が欠けていると指摘する。 / プロンプトがない限り静的な状態のままであるLLMのアーキテクチャでは、意識を持つことはあり得ないと主張している。 (Source: はてなブックマーク)</description>
+      <pubDate>Mon, 21 Sep 2026 14:16:47 +0000</pubDate>
     </item>
   </channel>
 </rss>
