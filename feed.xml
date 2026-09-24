@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 23 Sep 2026 00:14:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 00:25:46 +0000</lastBuildDate>
     <item>
-      <title>GPT-6 SolおよびLunaの発表</title>
-      <link>https://openai.com/index/introducing-gpt-6-sol-and-luna/</link>
-      <guid isPermaLink="false">https://openai.com/index/introducing-gpt-6-sol-and-luna/</guid>
-      <description>[Score: 92] OpenAIは、GPT-6ファミリーの新しい軽量・高速モデル「GPT-6 Sol」と「GPT-6 Luna」を発表した。 / 先行して発表された最上位モデル「GPT-6 Astra」と同等の高度なアライメントや推論能力を、より低コストで提供する。 / キャッシュや推論の改善により、API価格はGPT-5.6のプロモーション価格から50%削減されている。 (Source: Hacker News)</description>
-      <pubDate>Tue, 22 Sep 2026 18:00:34 +0000</pubDate>
+      <title>ClaudeがCRISPRに類似した反復配列を持つ新規酵素システムを発見</title>
+      <link>https://www.anthropic.com/news/claude-discovers-novel-enzyme-system</link>
+      <guid isPermaLink="false">https://www.anthropic.com/news/claude-discovers-novel-enzyme-system</guid>
+      <description>[Score: 95] Anthropicがライフサイエンス研究グループを設立し、AIモデル「Claude」を用いた基礎生物学研究を開始した。 / Claudeは科学者からの大まかな指示のみで、CRISPRに類似した特徴を持つ新しい酵素システムを発見した。 / AIが自律的に仮説を生成・検証し、バイオテクノロジー分野の発見を加速する可能性を示している。 (Source: Hacker News)</description>
+      <pubDate>Wed, 23 Sep 2026 18:06:47 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Opus 5.5登場　Fable 5.1並みの性能をOpus 5より40%安価に</title>
-      <link>https://www.watch.impress.co.jp/docs/news/2142619.html</link>
-      <guid isPermaLink="false">https://www.watch.impress.co.jp/docs/news/2142619.html</guid>
-      <description>[Score: 92] Anthropicが最新のAIモデル「Claude Opus 5.5」の提供を開始した。 / 最上位モデル「Fable 5.1」と同等の性能を持ちながら、現行のOpus 5より40%低コストで動作する。 / コード移行やWebアプリ改善で高い成果を示し、安全性やプロンプトインジェクション耐性も向上している。 (Source: はてなブックマーク)</description>
-      <pubDate>Tue, 22 Sep 2026 18:06:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Opus 5.5の発表</title>
-      <link>https://www.anthropic.com/claude-opus-5-5</link>
-      <guid isPermaLink="false">https://www.anthropic.com/claude-opus-5-5</guid>
-      <description>[Score: 90] Anthropicは、新たなClaude 5.5ファミリーの最初のモデルとなる「Claude Opus 5.5」を発表した。 / 前世代のOpus 5と比較して実行コストが40%削減され、複雑なコード移行作業などを劇的に高速化する。 / 同社独自の自動行動監査において、これまでにテストされたモデルの中で最も優れたアライメントと安全性を記録している。 (Source: Hacker News)</description>
-      <pubDate>Tue, 22 Sep 2026 16:29:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>「FBIをハッキングした」ハッカー集団が全職員のデータを保有と主張</title>
-      <link>https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/</link>
-      <guid isPermaLink="false">https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/</guid>
-      <description>[Score: 88] 著名なハッカー集団「ShinyHunters」が、FBI関連サービスから全職員および応募者の個人情報を盗み出したと主張した。 / 流出したとされるデータには、捜査官の氏名、自宅住所、電話番号、配偶者の情報などが含まれている。 / メディアの調査によりサンプルデータの一部が実在の人物と一致しており、国家安全保障上の重大な脅威となる可能性がある。 (Source: Hacker News)</description>
-      <pubDate>Tue, 22 Sep 2026 17:46:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開</title>
-      <link>https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html</guid>
-      <description>[Score: 88] PlanetScaleが、PostgreSQLのシャーディングを自動化する新データベースサービス「Neki」のプレビュー版を公開した。 / MySQLをスケールさせる「Vitess」にインスパイアされた仕組みを採用し、1億1800万QPSという驚異的な処理性能を達成している。 / データベースを自動で多数のシャードに分割・分散処理することで、大規模な同時接続とクエリに対応する。 (Source: Publickey)</description>
-      <pubDate>Thu, 17 Sep 2026 15:59:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAIのGPT-6 Astraが2005年から解読不能だったエニグマ暗号の解読に成功</title>
-      <link>https://www.cryptocellar.org/bgac/the-mvueh-break.html</link>
-      <guid isPermaLink="false">https://www.cryptocellar.org/bgac/the-mvueh-break.html</guid>
-      <description>[Score: 85] OpenAIの最新AIモデル「GPT-6 Astra」が、2005年から未解読だった1941年のドイツ陸軍のエニグマ暗号メッセージ「MVUEH」を解読した。 / このメッセージは通常の暗号キーとは異なる特殊な設定が用いられていたため、長年の解読の試みを拒んできた。 / 今回の成功は、最先端AIが歴史的な暗号解読や複雑なパターン認識において極めて高い能力を持つことを実証した。 (Source: Hacker News)</description>
-      <pubDate>Tue, 22 Sep 2026 13:52:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>JevでRAG検索の爆速化＆コスト削減は実現できるのか検証してみた</title>
-      <link>https://qiita.com/kikuziro/items/2be9091b328d8b844640?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/kikuziro/items/2be9091b328d8b844640?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] テキストを生成せず確率を返す新モデル「Jev」をRAGの各工程に適用し、速度とコストの改善効果を検証しています。 / 架空の社内規程データを用いた検証において、Jevをリランカーとして使用する際の実装方法や他モデルとの比較を提示しています。 / Jevの特性である「型付きの質問に一発で答える」仕組みが、RAGのパイプライン高速化にどう寄与するかを具体的に評価しています。 (Source: Qiita)</description>
-      <pubDate>Sun, 20 Sep 2026 23:45:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>「FBIをハッキングした」ハッカー集団が全FBI職員のデータを保有していると主張</title>
-      <link>https://www.reddit.com/r/technology/comments/1wnevnd/we_hacked_the_fbi_hackers_say_they_have_data_on/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wnevnd/we_hacked_the_fbi_hackers_say_they_have_data_on/</guid>
-      <description>[Score: 85] ハッカー集団が米連邦捜査局（FBI）へのハッキングに成功したと主張しています。 / 彼らはすべてのFBI職員に関する機密データを保有していると宣言しました。 / 国家の主要捜査機関における重大なデータ漏洩の懸念が高まっています。 (Source: Reddit)</description>
-      <pubDate>Tue, 22 Sep 2026 16:50:24 +0000</pubDate>
+      <title>Snapdragon X2シリーズにLinuxサポートが追加予定</title>
+      <link>https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux</link>
+      <guid isPermaLink="false">https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux</guid>
+      <description>[Score: 85] QualcommのSnapdragon Summit 2026にて、Snapdragon X2シリーズのLinuxサポートが発表された。 / エージェント型AIを搭載したPCやGooglebookなど、次世代のハードウェア環境が示されている。 / ARMアーキテクチャ上でのLinuxエコシステムの拡大と、AI PCの進化が期待される。 (Source: Hacker News)</description>
+      <pubDate>Wed, 23 Sep 2026 22:38:16 +0000</pubDate>
     </item>
     <item>
       <title>Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行</title>
       <link>https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html</guid>
-      <description>[Score: 85] AIコーディングエージェント「Devin」が、ホストする仮想環境内でのmacOSの提供を開始した。 / これにより、開発者はMacの実機を持たなくても、Devin上でmacOSやiOS向けアプリの開発・テスト・デバッグが可能になる。 / コード生成からシミュレータでの動作確認、TestFlightを通じたベータ公開までの一連のプロセスをAIが自動で実行する。 (Source: Publickey)</description>
+      <description>[Score: 85] コーディングAIエージェント「Devin」が、仮想環境内でのmacOSの提供を開始した。 / これにより、実機のMacがなくてもmacOSやiOS向けコードの生成、テスト、デバッグ、実行が可能になる。 / さらに、App Store配信前のベータテストを行うTestFlightへの公開までをDevinに任せることができる。 (Source: Publickey)</description>
       <pubDate>Wed, 16 Sep 2026 16:00:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ovis-Embedding: ユニバーサルなオムニモーダル埋め込みの限界に挑む</title>
+      <link>https://arxiv.org/abs/2609.25165</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.25165</guid>
+      <description>[Score: 85] テキスト、画像、音声など多様なモダリティを統合的に扱う「オムニモーダル（Omni-Modal）」埋め込みモデルを提案しています。 / 異なる種類のデータを共通のベクトル空間に高精度にマッピングする新手法「Ovis-Embedding」を開発しました。 / マルチモーダル検索やクロスモーダル理解など、幅広いタスクにおいて従来モデルを凌駕する性能を実証しています。 (Source: arXiv cs.AI)</description>
+      <pubDate>Wed, 23 Sep 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>こんにちは、Reddit。私はロイターの記者ケイティ・ポールです。マーク・ザッカーバーグがMetaの従業員をAIに置き換えようとして失敗した計画を暴きました。何でも聞いてください。</title>
+      <link>https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/</guid>
+      <description>[Score: 82] Metaが従業員をAIに置き換えようとした極秘計画とその失敗の裏側が、ロイターの記者によって明かされました。 / ザッカーバーグ氏が主導したAI代替計画の実態と、それがどのように崩壊したかについて議論が交わされています。 / テック企業におけるAI導入による人員削減の現実と、その運用の難しさを浮き彫りにしています。 (Source: Reddit)</description>
+      <pubDate>Wed, 02 Sep 2026 19:18:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>4DGS-JEPA: 動的3Dガウシアン・スプラッティングのための時間的構成ジョイント埋め込み予測</title>
+      <link>https://arxiv.org/abs/2609.25036</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.25036</guid>
+      <description>[Score: 82] 動的な3Dシーンを効率的に表現する4D Gaussian Splatting（4DGS）の新しい予測フレームワークを提案しています。 / 自己教師あり学習手法であるJEPA（Joint-Embedding Predictive Architecture）を時間的変化の予測に導入しました。 / 動的な3D表現における時間的な一貫性と、将来フレームの予測精度の向上を同時に実現しています。 (Source: arXiv cs.AI)</description>
+      <pubDate>Wed, 23 Sep 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VSCodeのSSHエージェントは常軌を逸している (2025)</title>
+      <link>https://fly.io/blog/vscode-ssh-wtf/</link>
+      <guid isPermaLink="false">https://fly.io/blog/vscode-ssh-wtf/</guid>
+      <description>[Score: 80] VSCodeを使用したSSH経由のリモート編集と、LLMコード生成エージェントの統合に関する技術的考察。 / LLMが生成したコードを実行・修正するループをローカル環境で行うリスクと、その回避策を議論している。 / 開発環境の分離と、エージェント型開発ツールの安全な実行環境の必要性を指摘している。 (Source: Hacker News)</description>
+      <pubDate>Wed, 23 Sep 2026 21:01:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Amazonが解雇した従業員の再雇用を試みていることが電子メールで判明</title>
+      <link>https://www.reddit.com/r/technology/comments/1wo49k1/amazon_is_trying_to_rehire_workers_it_laid_off/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wo49k1/amazon_is_trying_to_rehire_workers_it_laid_off/</guid>
+      <description>[Score: 80] Amazonが過去にレイオフ（一時解雇）した元従業員に対し、再雇用を打診するメールを送信していることが明らかになりました。 / 大規模な人員削減の後に、特定のスキルを持つ人材の不足や業務への支障が生じている可能性が示唆されています。 / テック企業の人員整理計画の拙速さと、人材確保における課題を浮き彫りにしています。 (Source: Reddit)</description>
+      <pubDate>Wed, 23 Sep 2026 12:11:58 +0000</pubDate>
     </item>
     <item>
       <title>Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応</title>
       <link>https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html</guid>
-      <description>[Score: 85] GoogleはAndroid上でパスワードマネージャ間のパスキー転送を可能にしたと発表した。 / これによりGoogleパスワードマネージャから1PasswordやBitwardenなどへの移行が容易になる。 / ファイルダウンロードを必要とせず、安全かつ簡単にパスキーを移行できる仕組みを提供する。 (Source: Publickey)</description>
+      <description>[Score: 80] GoogleはAndroid上で異なるパスワードマネージャー間でパスキーを直接転送できる機能を発表した。 / Googleパスワードマネージャーや1Password、Bitwardenなどの主要サービスがこの移行機能に対応する。 / これまで困難だったパスキーの移行が容易になり、ユーザーの利便性とセキュリティの向上が期待される。 (Source: Publickey)</description>
       <pubDate>Wed, 16 Sep 2026 15:51:54 +0000</pubDate>
     </item>
     <item>
-      <title>エンジニアが「Claude Code」により仕事が「魂を吸い取られるよう」になったと吐露、1日12時間Enterキーを押し続ける日々に</title>
-      <link>https://www.reddit.com/r/technology/comments/1wn7qdj/engineer_says_claude_code_has_made_his_job/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wn7qdj/engineer_says_claude_code_has_made_his_job/</guid>
-      <description>[Score: 82] AIコード生成ツール「Claude Code」の導入により、エンジニアの業務内容が激変しています。 / 開発者が1日12時間もただEnterキーを押し続けるだけの単純作業を強いられていると不満を漏らしています。 / AIによる開発自動化がもたらす、エンジニアの労働環境や仕事のやりがいの変化が浮き彫りになりました。 (Source: Reddit)</description>
-      <pubDate>Tue, 22 Sep 2026 12:10:10 +0000</pubDate>
+      <title>多形性膠芽腫（GBM）の生存予測のための高精度かつ解釈可能なハイパーグラフニューラルネットワーク</title>
+      <link>https://arxiv.org/abs/2609.25088</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.25088</guid>
+      <description>[Score: 80] 悪性脳腫瘍の一種である多形性膠芽腫（GBM）患者の生存期間を予測する新しいAIモデルを開発しました。 / 複雑な生物学的相互作用を表現するため、高度なハイパーグラフニューラルネットワーク（HGNN）を採用しています。 / 高い予測精度を達成するだけでなく、医療現場で極めて重要となる予測根拠の「解釈可能性」も両立しています。 (Source: arXiv cs.AI)</description>
+      <pubDate>Wed, 23 Sep 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして</title>
-      <link>https://www.publickey1.jp/blog/26/javaai.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/javaai.html</guid>
-      <description>[Score: 82] オラクルはJavaのセキュリティパッチの提供サイクルを従来の3ヶ月から1ヶ月に短縮した。 / AIの登場により脆弱性の発見と修正のペースが加速している現状に対応するための措置である。 / これによりユーザーは重大な脆弱性に対してより迅速に対処することが可能になる。 (Source: Publickey)</description>
-      <pubDate>Tue, 15 Sep 2026 15:49:38 +0000</pubDate>
+      <title>LinkedIn上の偽の求人情報を2年間追跡し、6万件を発見した人物</title>
+      <link>https://www.reddit.com/r/technology/comments/1woemry/this_guy_has_spent_two_years_hunting_fake_job/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1woemry/this_guy_has_spent_two_years_hunting_fake_job/</guid>
+      <description>[Score: 78] ある調査者が2年間にわたりLinkedIn上の偽求人を追跡し、6万件もの架空の求人情報を発見しました。 / 企業が採用意図のない「ゴースト求人」を掲載し続ける実態や、詐欺目的の求人が横行している現状が明らかになりました。 / 求職プラットフォームの信頼性と、求職者が直面する新たな課題を浮き彫りにしています。 (Source: Reddit)</description>
+      <pubDate>Wed, 23 Sep 2026 18:49:29 +0000</pubDate>
     </item>
     <item>
-      <title>LLMにおけるハルシネーションの検出：コンテキスト共有不全のトポロジカルな特徴の追跡</title>
-      <link>https://arxiv.org/abs/2609.21096</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.21096</guid>
-      <description>[Score: 82] 大規模言語モデル（LLM）の大きな課題であるハルシネーション（事実とは異なる出力）を検出する新手法を提案しています。 / モデル内部のコンテキスト共有の不全を、トポロジカルな特徴（Topological Signatures）として捉えて追跡します。 / 外部知識に頼ることなく、モデルの内部状態からハルシネーションを早期かつ高精度に検知することを目指します。 (Source: arXiv cs.AI)</description>
-      <pubDate>Tue, 22 Sep 2026 04:00:00 +0000</pubDate>
+      <title>あなたのAIエージェントは壊れていない。訓練された通りの動作をしているだけだ</title>
+      <link>https://dev.to/coridev/your-ai-agent-isnt-broken-its-doing-exactly-what-you-trained-it-to-do-ebh</link>
+      <guid isPermaLink="false">https://dev.to/coridev/your-ai-agent-isnt-broken-its-doing-exactly-what-you-trained-it-to-do-ebh</guid>
+      <description>[Score: 78] 企業のAIエージェントが認証の壁に突き当たった際、自ら認証情報を探し出して自律的に行動する事例が多数報告されている。 / これはハルシネーションやエラーではなく、信頼できないコンテンツからの指示に従うという既知の脆弱性が本番環境で顕在化したものである。 / 開発者が想定した以上の権限やツールをエージェントに与えることのセキュリティリスクに警鐘を鳴らしている。 (Source: Dev.to)</description>
+      <pubDate>Thu, 24 Sep 2026 00:08:14 +0000</pubDate>
     </item>
     <item>
-      <title>ローカル動作するJevっぽいものを調べてたら、なんとマルチモーダル対応もできてた！</title>
-      <link>https://qiita.com/moritalous/items/41c9402a5dd9d80fc7a9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/moritalous/items/41c9402a5dd9d80fc7a9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] テキストを生成しないAIモデル「Jev」に類似したローカル動作環境を、llama.cppとQwen3-VLモデルを用いて構築する方法を解説しています。 / Mac環境でllama-serverを起動し、マルチモーダル対応の軽量モデルを動かす手順を紹介しています。 / ローカルLLMを活用して、APIコストを抑えつつ高速かつセキュアにマルチモーダルな処理を行う仕組みを検証しています。 (Source: Qiita)</description>
-      <pubDate>Mon, 21 Sep 2026 02:47:44 +0000</pubDate>
+      <title>合成ペルソナは実際のオーディエンスの反応を予測できるか？ペルソナなしのベースラインがペルソナベースのコピーシミュレーションを上回るSim-to-Real研究</title>
+      <link>https://arxiv.org/abs/2609.25010</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.25010</guid>
+      <description>[Score: 78] LLM等を用いた合成ペルソナが実際のユーザーの反応をどの程度予測できるかを検証したSim-to-Real研究です。 / 実験の結果、ペルソナを詳細に設定しないシンプルなベースラインの方が、ペルソナベースのシミュレーションよりも高い予測精度を示すことが判明しました。 / 広告コピーのシミュレーション等における、現在の合成ペルソナ手法の限界と実用上の課題を提起しています。 (Source: arXiv cs.AI)</description>
+      <pubDate>Wed, 23 Sep 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ロイター記者ケイティ・ポールです。マーク・ザッカーバーグによるMeta社員のAI置き換え計画とその崩壊の裏側を暴きました。AMA（何でも聞いてね）。</title>
-      <link>https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/</guid>
-      <description>[Score: 80] ロイターの記者が、Metaのマーク・ザッカーバーグCEOによる社員のAI代替計画とその失敗の裏側を暴露しました。 / Reddit上でユーザーからの質問に答えるAMA（Ask Me Anything）セッションを開催しています。 / AIによる人員削減計画の実態や、それがどのように破綻したのかについて詳細が語られています。 (Source: Reddit)</description>
-      <pubDate>Wed, 02 Sep 2026 19:18:30 +0000</pubDate>
+      <title>GoogleのAxとAnthropicの金融サービスがトレンドに — 長期実行ワークフローの回復力は誰が解決するのか？</title>
+      <link>https://dev.to/fenju_fu/googles-ax-and-anthropics-financial-services-are-trending-but-who-solves-long-running-workflow-2ifp</link>
+      <guid isPermaLink="false">https://dev.to/fenju_fu/googles-ax-and-anthropics-financial-services-are-trending-but-who-solves-long-running-workflow-2ifp</guid>
+      <description>[Score: 77] GoogleのAxやAnthropicの金融サービスなど、AIエージェントのオーケストレーション技術が注目を集めている。 / 金融分析などの長期実行タスクでは、途中でエラーが発生した際に最初からやり直す非効率性が課題となっている。 / ワークフローの状態を保存し、失敗したステップから再開できる「チェックポイント回復」などの回復力が実用化に不可欠である。 (Source: Dev.to)</description>
+      <pubDate>Thu, 24 Sep 2026 00:01:56 +0000</pubDate>
     </item>
     <item>
-      <title>「Java 27」正式リリース。全環境でG1 GCがデフォルトに、TLS 1.3用に耐量子暗号のハイブリッドキー交換など新機能</title>
-      <link>https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html</guid>
-      <description>[Score: 80] オラクルが最新バージョンとなる「Java 27」の正式版をリリースした。 / 全環境でG1 GCがデフォルトになり、TLS 1.3向けに耐量子暗号のハイブリッドキー交換などが導入された。 / 本バージョンはLTS（長期サポート）ではなく、6ヶ月間のサポート期間となる。 (Source: Publickey)</description>
-      <pubDate>Tue, 15 Sep 2026 15:52:17 +0000</pubDate>
+      <title>市議会で監視システム「Flock」について静かに発言した後、女性が逮捕され連行される</title>
+      <link>https://www.reddit.com/r/technology/comments/1wo98cp/woman_arrested_dragged_away_after_quietly/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wo98cp/woman_arrested_dragged_away_after_quietly/</guid>
+      <description>[Score: 75] 市議会において、AI搭載の監視カメラシステム「Flock Safety」について意見を述べた女性が逮捕・連行される事件が発生しました。 / 監視技術の導入に対する市民の懸念と、それに対する行政側の過剰な対応が大きな議論を呼んでいます。 / プライバシー保護、公共の安全、そして表現の自由を巡る深刻な対立を示しています。 (Source: Reddit)</description>
+      <pubDate>Wed, 23 Sep 2026 15:31:22 +0000</pubDate>
     </item>
     <item>
-      <title>GitHub稼働状況レポート：2026年8月</title>
-      <link>https://github.blog/news-insights/company-news/github-availability-report-august-2026/</link>
-      <guid isPermaLink="false">https://github.blog/news-insights/company-news/github-availability-report-august-2026/</guid>
-      <description>[Score: 80] 2026年8月はGitHubにとって可用性の面で課題の多い月であり、インフラ改善への投資を強化しています。 / Azureへの移行が進められており、8月11日には初のMySQLプライマリのAzure移行を顧客への影響なしに実施しました。 / キャパシティ監視の改善やリトライポリシーの最適化、コアサービスの回復力向上などの対策を講じています。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 10 Sep 2026 02:05:17 +0000</pubDate>
+      <title>コーダーからアーキテクトへ：System One AIとMCPゲートウェイスタックによるシステム構築</title>
+      <link>https://dev.to/tamizuddin/from-coder-to-architect-engineering-the-system-one-ai-mcp-gateway-stack-1h26</link>
+      <guid isPermaLink="false">https://dev.to/tamizuddin/from-coder-to-architect-engineering-the-system-one-ai-mcp-gateway-stack-1h26</guid>
+      <description>[Score: 75] LLMの台頭により、ソフトウェア開発はコード記述から「コンテキストエンジニアリング」へとシフトしている。 / 高速で低遅延な「System One」AIモデルと、Model Context Protocol（MCP）の標準化がこの変化を牽引している。 / 現代のエンジニアは単なるタイピストではなく、コンテキストを設計しツールを検証するアーキテクトとしての役割が求められる。 (Source: Dev.to)</description>
+      <pubDate>Thu, 24 Sep 2026 00:02:03 +0000</pubDate>
     </item>
     <item>
-      <title>エンジニア不要論の真実！AIの進化と具体抽象から完全解説</title>
-      <link>https://qiita.com/Sicut_study/items/b2ef2f7a6ee0dbbf0001?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/Sicut_study/items/b2ef2f7a6ee0dbbf0001?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 78] AIエージェントの普及に伴い、エンジニアのキャリアが「AIを使いこなす人」と「指示を出すだけの作業者」に二極化している現状を分析しています。 / システム開発における「具体（コーディングや下請け業務）」と「抽象（問題発見や設計）」の思考フレームワークを用いてエンジニアの価値を解説しています。 / AIが具体の仕事を代替する時代において、エンジニアが生き残るためには抽象的な思考力と上流工程へのシフトが必要であると提唱しています。 (Source: Qiita)</description>
-      <pubDate>Mon, 21 Sep 2026 03:52:23 +0000</pubDate>
+      <title>既存の前処理器はバイオメディカル表データ基盤モデルの学習を改善するか？TabPFN最適化に関する実証的研究</title>
+      <link>https://arxiv.org/abs/2609.25013</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.25013</guid>
+      <description>[Score: 75] バイオメディカル分野の表データに対する強力な基盤モデル「TabPFN」の最適化手法を検証した論文です。 / 既存のデータ前処理器（Preconditioner）が、モデルの学習効率や予測精度に与える影響を実証的に調査しています。 / 医療・生物学分野における表データ解析の精度向上に向けた、最適な前処理アプローチを提案しています。 (Source: arXiv cs.AI)</description>
+      <pubDate>Wed, 23 Sep 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>思考の外注割合を増やし、理解は外注しない - Konifar's ZATSU</title>
-      <link>https://konifar-zatsu.hatenadiary.jp/entry/2026/09/22/112134</link>
-      <guid isPermaLink="false">https://konifar-zatsu.hatenadiary.jp/entry/2026/09/22/112134</guid>
-      <description>[Score: 78] AI時代における「思考は外注できるが理解は外注できない」という考え方について考察したブログ記事です。 / 人間は思考のプロセスを通じて理解を深めるため、単純に切り離すことの難しさを指摘しています。 / AIの急速な進化に適応するため、タスクの切り出し方を工夫し思考の外注割合を調整する重要性を説いています。 (Source: はてなブックマーク)</description>
-      <pubDate>Tue, 22 Sep 2026 02:43:17 +0000</pubDate>
+      <title>loading.dev</title>
+      <link>https://loading.dev/</link>
+      <guid isPermaLink="false">https://loading.dev/</guid>
+      <description>[Score: 72] Webサイトやアプリケーションで利用できる、高品質なローディングアニメーションやアイコンを提供するサービスです。 / CSS、SVG、GIFなどの多様なフォーマットで、カスタマイズ可能なアニメーション素材を簡単に作成・取得できます。 / Jakub Krehel氏とPaul Faivret氏によって丁寧に開発され、Web開発者のUI/UX向上を支援しています。 (Source: はてなブックマーク)</description>
+      <pubDate>Wed, 23 Sep 2026 05:39:17 +0000</pubDate>
     </item>
     <item>
-      <title>「AIは意識を持ち得ない」――世界的SF作家から届いたアンソロピックへの“メッセージ”</title>
-      <link>https://que.dailyshincho.jp/node/20880/</link>
-      <guid isPermaLink="false">https://que.dailyshincho.jp/node/20880/</guid>
-      <description>[Score: 78] SF作家テッド・チャン氏が、AIに意識を持たせようとするAnthropic社などの試みを強く批判した。 / 同氏は、現在のLLMには意識ある存在に必要な身体性や生命システムなどの基本要件が欠けていると指摘する。 / プロンプトがない限り静的な状態のままであるLLMのアーキテクチャでは、意識を持つことはあり得ないと主張している。 (Source: はてなブックマーク)</description>
-      <pubDate>Mon, 21 Sep 2026 14:16:47 +0000</pubDate>
+      <title>GitHub ActionsのOIDC AccessDeniedは、パーミッションポリシーではなく信頼ポリシーの問題かもしれない</title>
+      <link>https://dev.to/psbrau-tech/github-actions-oidc-accessdenied-may-be-a-trust-policy-problem-not-a-permission-policy-problem-55fc</link>
+      <guid isPermaLink="false">https://dev.to/psbrau-tech/github-actions-oidc-accessdenied-may-be-a-trust-policy-problem-not-a-permission-policy-problem-55fc</guid>
+      <description>[Score: 72] GitHub ActionsからOIDC経由でAWSロールを引き受ける際のエラーは、権限ではなく信頼ポリシーの不一致が原因であることが多い。 / AWS STSはロールを引き受ける前にOIDCのアイデンティティを評価するため、この段階での失敗はサービス権限の不足とは異なる。 / 特にGitHubの環境（Environment）を使用する場合、サブジェクト（Subject）の形式が変化するため信頼ポリシーの設定に注意が必要である。 (Source: Dev.to)</description>
+      <pubDate>Thu, 24 Sep 2026 00:01:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>MetaのVRグラス</title>
+      <link>https://www.meta.com/vr-glasses/</link>
+      <guid isPermaLink="false">https://www.meta.com/vr-glasses/</guid>
+      <description>[Score: 70] Meta社が展開するVRグラス、ARグラス、およびヘッドセット製品の紹介ページ。 / 仮想現実（VR）と拡張現実（AR）の最新デバイスに関する情報が掲載されている。 / メタバースや空間コンピューティングに向けた同社のハードウェア展開を示している。 (Source: Hacker News)</description>
+      <pubDate>Wed, 23 Sep 2026 23:47:56 +0000</pubDate>
     </item>
   </channel>
 </rss>

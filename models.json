@@ -614,6 +614,40 @@
       "thinking": true
     },
     {
+      "name": "models/gemini-3.8-flash-tts",
+      "version": "3.8-flash-tts",
+      "displayName": "Gemini 3.8 Flash TTS",
+      "description": "Gemini 3.8 Flash TTS",
+      "inputTokenLimit": 8192,
+      "outputTokenLimit": 16384,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ],
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "maxTemperature": 2
+    },
+    {
+      "name": "models/gemini-3.8-flash-lite-tts",
+      "version": "3.8-flash-lite-tts",
+      "displayName": "Gemini 3.8 Flash Lite TTS",
+      "description": "Gemini 3.8 Flash Lite TTS",
+      "inputTokenLimit": 8192,
+      "outputTokenLimit": 16384,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ],
+      "temperature": 1,
+      "topP": 0.95,
+      "topK": 64,
+      "maxTemperature": 2
+    },
+    {
       "name": "models/gemini-robotics-er-2-preview",
       "version": "2-preview",
       "displayName": "Gemini Robotics-ER 2 Preview",
@@ -813,33 +847,7 @@
       "supportedGenerationMethods": [
         "predictLongRunning"
       ]
-    },
-    {
-      "name": "models/veo-3.1-lite-generate-preview",
-      "version": "3.1",
-      "displayName": "Veo 3.1 lite",
-      "description": "Veo 3.1 lite",
-      "inputTokenLimit": 480,
-      "outputTokenLimit": 8192,
-      "supportedGenerationMethods": [
-        "predictLongRunning"
-      ]
-    },
-    {
-      "name": "models/gemini-3.5-transcribe-live",
-      "version": "3.5-transcribe-live-08-2026",
-      "displayName": "Gemini 3.5 Transcribe Live",
-      "description": "Gemini 3.5 Transcribe Live",
-      "inputTokenLimit": 131072,
-      "outputTokenLimit": 65536,
-      "supportedGenerationMethods": [
-        "bidiGenerateContent"
-      ],
-      "temperature": 1,
-      "topP": 0.95,
-      "topK": 64,
-      "maxTemperature": 2
     }
   ],
-  "nextPageToken": "CiFtb2RlbHMvZ2VtaW5pLTMuNS10cmFuc2NyaWJlLWxpdmU="
+  "nextPageToken": "CiRtb2RlbHMvdmVvLTMuMS1mYXN0LWdlbmVyYXRlLXByZXZpZXc="
 }
