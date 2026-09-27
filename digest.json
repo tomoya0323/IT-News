@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-09-20T09:04:03.737658+09:00",
-  "week_start": "2026-09-14",
-  "week_end": "2026-09-20",
-  "article_count": 249,
-  "overview": "今週は、AI技術がハードウェア設計や法律実務、開発プロセスなど、より具体的かつ専門的な領域へ深く浸透している様子が強く示されました。一方で、AIエージェントの急速な進化に伴うセキュリティリスクや開発競争の「減速」議論など、安全性やガバナンスに関する懸念も表面化しています。また、RustのTier 1言語昇格やWasmの極限的な最適化など、システム開発における効率性と安全性の追求も目立つ1週間でした。",
+  "generated_at": "2026-09-27T09:27:14.632632+09:00",
+  "week_start": "2026-09-21",
+  "week_end": "2026-09-27",
+  "article_count": 246,
+  "overview": "今週は、OpenAIの「GPT-6 Sol/Luna」やAnthropicの「Claude Opus 5.5」など、主要AIベンダーによる次世代モデルの発表が相次ぎ、AIの低コスト化と高性能化がさらに加速しました。また、Claudeがバイオテクノロジー分野で新規酵素システムを発見したニュースや、GPT-6による歴史的暗号の解読など、AIが科学や歴史研究のブレイクスルーを自律的に生み出す事例が注目を集めています。一方で、AIエージェントのセキュリティリスクや、広告コレクターを介したプライバシー追跡、ハッキング事件など、AIの急速な普及に伴う倫理的・安全面での課題も浮き彫りとなった1週間でした。",
   "trends": [
-    "AIによるハードウェア・専門業務の自動設計",
-    "AIエージェントの台頭とそれに伴う開発プロセスの変革",
-    "AI開発の安全性と「減速」を巡る議論",
-    "WasmやRustによるシステム開発の極限最適化"
+    "次世代AIモデルの低コスト・高速化",
+    "AIによる科学的発見と自律的ブレイクスルー",
+    "AIエージェントのセキュリティと倫理的課題",
+    "サーバーレス開発環境の進化"
   ],
   "highlights": [
     {
-      "title": "OpenAIが自社製LLMを用いてAIアクセラレータチップ「Jalapeño」を設計した方法",
-      "url": "https://spectrum.ieee.org/llms-for-chip-design",
-      "comment": "LLMをハードウェア設計に適用し、異例の高速開発を実現した画期的な事例であるため選定しました。"
+      "title": "ClaudeがCRISPRに類似した反復配列を持つ新規酵素システムを発見",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "comment": "AIが自律的に仮説を生成・検証し、バイオテクノロジー分野で具体的な科学的発見を成し遂げた画期的な事例であるため。"
     },
     {
-      "title": "Astra for Law",
-      "url": "https://openai.com/index/astra-for-law/",
-      "comment": "法律実務という高度な専門領域に特化したAI基盤の登場は、今後の実務適用における重要なマイルストーンとなるため選定しました。"
+      "title": "GPT-6 SolおよびLunaの発表",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "comment": "OpenAIの最新GPT-6ファミリーにおいて、高度な推論能力を低コストで提供する軽量モデルの登場は市場に大きな影響を与えるため。"
     },
     {
-      "title": "マイクロソフトがRust言語をC++/C#/TSに並ぶ社内のTier 1言語にしたことを明らかに。Windowsネイティブな社内の開発環境と統合",
-      "url": "https://www.publickey1.jp/blog/26/rustcctstier_1.html",
-      "comment": "巨大テック企業におけるRustの本格採用は、今後のシステム開発の安全性と標準化に大きな影響を与えるため選定しました。"
+      "title": "Claude Opus 5.5登場　Fable 5.1並みの性能をOpus 5より40%安価に",
+      "url": "https://www.watch.impress.co.jp/docs/news/2142619.html",
+      "comment": "Anthropicの最上位クラスの性能を大幅な低コストで実現し、実務でのAI活用をさらに加速させる重要なアップデートであるため。"
     },
     {
-      "title": "AI開発「減速」をアンソロピックCEOが提案　アルトマン氏・マスク氏らも賛同",
-      "url": "https://www.watch.impress.co.jp/docs/news/2140440.html",
-      "comment": "業界のトップリーダーたちがAIの急速な進化に伴うリスクを認め、開発の減速に賛同したことは極めて重要な局面であるため選定しました。"
+      "title": "ChatGPTは広告コレクターを介して他のウェブサイトでのあなたの行動を把握している",
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+      "comment": "広く普及しているChatGPTが、外部サイトでのユーザー行動を追跡しているというプライバシー上の重大な懸念を指摘しているため。"
     },
     {
-      "title": "イランによるAmazonデータセンターへの攻撃により、顧客データが永久に消失",
-      "url": "https://www.reddit.com/r/technology/comments/1wicbvw/iran_strikes_on_amazon_data_centers_caused/",
-      "comment": "地政学的リスクがクラウドインフラに直接的な被害をもたらし、データの永久消失という深刻な事態を招いた衝撃的なニュースであるため選定しました。"
+      "title": "Microsoft、新しい業務向け「Copilot」を発表 ～エージェント機能などを統合／新機能「Home」「Code」「Autopilot」を追加",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2143487.html",
+      "comment": "常時稼働する自律型AIエージェントなど、業務プロセスを根本から変えるMicrosoftの次世代AI戦略が示されたため。"
     }
   ]
 }
