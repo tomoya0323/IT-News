@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 29 Sep 2026 01:42:42 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 01:17:00 +0000</lastBuildDate>
     <item>
-      <title>Claude Sonnet 5.5の発表</title>
-      <link>https://www.anthropic.com/claude-sonnet-5-5</link>
-      <guid isPermaLink="false">https://www.anthropic.com/claude-sonnet-5-5</guid>
-      <description>[Score: 95] AnthropicがClaude 5.5ファミリーの第2弾となる新モデル「Claude Sonnet 5.5」を発表しました。 / 従来のSonnet 5と比較して30%以上の高速化と最大30%のコスト削減を実現し、コーディング評価等で大幅な性能向上を記録しています。 / 日常的なタスクやバグ修正、ドキュメント作成などに適しており、今後Haiku 5.5も追加予定です。 (Source: Hacker News)</description>
-      <pubDate>Mon, 28 Sep 2026 17:58:11 +0000</pubDate>
+      <title>OpenAI、「24時間働く」エージェント「dots」発表　Astra搭載、クラウド上で常時稼働</title>
+      <link>https://www.itmedia.co.jp/aiplus/article/2609/30/2000001864/</link>
+      <guid isPermaLink="false">https://www.itmedia.co.jp/aiplus/article/2609/30/2000001864/</guid>
+      <description>[Score: 95] 米OpenAIが、GPT-6 Astraを搭載しクラウド上で24時間自律稼働するエージェント機能「dots」を発表した。 / ユーザーの指示に基づき4000以上のアプリと連携してタスクをこなし、期待以上の成果を先回りして届ける。 / ChatGPTのPro、Business、Enterpriseプランのユーザー向けに順次展開され、当初は1つのエージェントのみ設定可能。 (Source: はてなブックマーク)</description>
+      <pubDate>Tue, 29 Sep 2026 18:51:02 +0000</pubDate>
     </item>
     <item>
-      <title>World LabsがAMDに参画</title>
-      <link>https://www.worldlabs.ai/blog/amd-announcement</link>
-      <guid isPermaLink="false">https://www.worldlabs.ai/blog/amd-announcement</guid>
-      <description>[Score: 90] AIスタートアップのWorld Labsが、AMDに買収されることで最終合意に達しました。 / 共同創業者のフェイフェイ・リー（Fei-Fei Li）氏がAMDのエグゼクティブバイスプレジデント兼チーフサイエンティストに就任します。 / ハードウェアからソフトウェア、オープンモデルまでを網羅するエンドツーエンドのオープンAIエコシステムの構築を加速させます。 (Source: Hacker News)</description>
-      <pubDate>Mon, 28 Sep 2026 20:18:05 +0000</pubDate>
+      <title>Google Cloud、AIエージェントからの大量アクセスをPostgreSQLのプライマリDBから切り離せる「PostgreSQL for agents in AlloyDB」発表</title>
+      <link>https://www.publickey1.jp/blog/26/google_cloudaipostgresqldbpostgresql_for_agents_in_alloydb.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/google_cloudaipostgresqldbpostgresql_for_agents_in_alloydb.html</guid>
+      <description>[Score: 88] Google Cloudは、AIエージェントからの大量アクセスによる本番データベースへの負荷を軽減する新サービスを発表した。 / AIエージェントの読み取りワークロード用に、サンドボックス化されたPostgreSQLインスタンスを数秒でプロビジョニングする。 / 本番環境のパフォーマンスに悪影響を与えることなく、最新の運用データへの高速アクセスとオンデマンドなスケールを実現する。 (Source: Publickey)</description>
+      <pubDate>Tue, 29 Sep 2026 15:46:18 +0000</pubDate>
     </item>
     <item>
-      <title>AIでクオリティが落ちた外注さんが、自分では気づけてないという怖い話｜片山良平＠Eldipa代表、paiza創業者</title>
-      <link>https://note.com/rk611/n/n56e6db823eb1</link>
-      <guid isPermaLink="false">https://note.com/rk611/n/n56e6db823eb1</guid>
-      <description>[Score: 90] 外注先がAIを導入した結果、成果物の品質が低下しているにもかかわらず本人が自覚していない問題です。 / ライティングやプログラミングなど多業種で同様の現象が起きており、SNSでも大きな共感を呼んでいます。 / AIを使いこなすための「審美眼」の重要性と、無自覚な品質低下が招くサイレントな契約終了の構造を考察しています。 (Source: はてなブックマーク)</description>
-      <pubDate>Mon, 28 Sep 2026 03:45:29 +0000</pubDate>
+      <title>オープンソースのAIセキュリティエージェントを使って24件のAndroidの脆弱性を発見した方法</title>
+      <link>https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/</link>
+      <guid isPermaLink="false">https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/</guid>
+      <description>[Score: 88] GitHubがオープンソースのAIセキュリティエージェント「Taskflow Agent」を開発。 / セキュリティ研究者がプロンプトやワークフローを自動化し、LLMを段階的に誘導。 / このツールを用いて、実際にAndroidアプリから24件の脆弱性を検出することに成功。 (Source: GitHub Blog)</description>
+      <pubDate>Mon, 28 Sep 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI業界はデータセンターへの投資を正当化するために2031年までに6兆ドルを稼ぐ必要がある</title>
+      <link>https://www.reddit.com/r/technology/comments/1wt6mcm/ai_industry_needs_to_earn_6_trillion_by_2031_to/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wt6mcm/ai_industry_needs_to_earn_6_trillion_by_2031_to/</guid>
+      <description>[Score: 85] AI業界がデータセンターなどのインフラ投資を正当化するには、2031年までに6兆ドルの収益が必要との試算が出されました。 / 現在の莫大な設備投資に対するリターン（ROI）の不確実性が強く指摘されています。 / AIバブルの懸念や、持続可能なビジネスモデルの構築に向けた業界全体の課題を浮き彫りにしています。 (Source: Reddit)</description>
+      <pubDate>Tue, 29 Sep 2026 10:33:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>「タイムズカーWebサイト」への不正アクセスに関する調査結果および今後の対応について（第3報） | カーシェアリングのタイムズカー</title>
+      <link>https://share.timescar.jp/news/2026/0929/1816.html</link>
+      <guid isPermaLink="false">https://share.timescar.jp/news/2026/0929/1816.html</guid>
+      <description>[Score: 85] タイムズカーWebサイトへの不正アクセスにより、約160万件の本人確認書類画像が漏えいしたことが確認された。 / 漏えい情報には運転免許証、現住所確認書類、学生証、家族確認書類の画像が含まれている。 / 対象会員への個別メール案内を開始しており、外部専門機関の調査結果を踏まえた詳細を2週間程度で案内予定。 (Source: はてなブックマーク)</description>
+      <pubDate>Tue, 29 Sep 2026 11:48:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>コーディングエージェントにGoogle Cloudの専門知識とツールを組み込む「Google Cloud Developer Plugin for AI Coding Agents」発表</title>
+      <link>https://www.publickey1.jp/blog/26/google_cloudgoogle_cloud_developer_plugin_for_ai_coding_agents.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/google_cloudgoogle_cloud_developer_plugin_for_ai_coding_agents.html</guid>
+      <description>[Score: 85] Google Cloudは、Claude Codeなどのコーディングエージェントに同社の専門知識やツールを組み込むプラグインを発表した。 / クラウドサービスの最新アップデートや適切なアーキテクチャ設計の知識を、MCPサーバー等を通じてエージェントに提供する。 / これにより、コーディングエージェントがGoogle Cloud上で適切かつ最新のシステム構築を行うことが可能になる。 (Source: Publickey)</description>
+      <pubDate>Tue, 29 Sep 2026 15:44:15 +0000</pubDate>
     </item>
     <item>
       <title>AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開。特定のLLMに依存せず入れ替え可能、任意のコンテナ環境にデプロイ</title>
       <link>https://www.publickey1.jp/blog/26/awsaistrandsllm.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/awsaistrandsllm.html</guid>
-      <description>[Score: 90] AWSが、主要なLLMを基盤とした高性能なAIエージェントを自作できるツール「Strandsハーネス」をOSSで公開。 / GPTやClaude、Gemini、Ollamaなど特定のLLMに依存せず、モデルを自由に入れ替えて利用可能。 / 記憶保持や外部APIアクセス、ガードレールなどの周辺環境（ハーネス）が最初から統合されている。 (Source: Publickey)</description>
+      <description>[Score: 85] AWSは、GPTやClaude、Geminiなどの主要LLMを基にした高性能なAIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開しました。 / 特定のLLMに依存せず、任意のコンテナ環境にデプロイして利用できる柔軟性を備えています。 / 長期記憶や外部環境へのアクセス、ポリシー逸脱を防ぐガードレールなど、エージェントに必要な周辺環境を簡単に構築可能です。 (Source: Publickey)</description>
       <pubDate>Mon, 28 Sep 2026 15:01:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>初心者向けGitHub Copilotアプリ：キャンバスでカスタムワークフローを構築する方法</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/</guid>
+      <description>[Score: 85] GitHub Copilotアプリに搭載された新機能「キャンバス」の使い方を解説。 / 自然言語で指示するだけで、カンバンボードやチェックリストなどのカスタムUIを自動生成。 / ユーザーとAIエージェントが双方向に操作・更新できるホワイトボード型の共有画面。 (Source: GitHub Blog)</description>
+      <pubDate>Fri, 25 Sep 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CSSの配信量を増やすことでサイトのパフォーマンスを向上させる</title>
+      <link>https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/</link>
+      <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/</guid>
+      <description>[Score: 85] GitHubはPrimerデザインシステムにおいてCSS-in-JSによるパフォーマンス低下の課題に直面した。 / 代替案としてCSS Modulesを採用し、クライアントおよびサーバーの実行時コストを完全に排除した。 / これにより、ネイティブCSSの利点を活かしつつ、コンポーネントのカプセル化とサイトパフォーマンス向上を実現した。 (Source: GitHub Blog)</description>
+      <pubDate>Fri, 25 Sep 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ブラウザで動くMicroLLM：WebGPUを活用した超小型モデルがもたらす新しいエッジAIレイヤー</title>
+      <link>https://dev.to/doykim0903/microllms-in-the-browser-webgpu-powered-tiny-models-as-the-new-edge-ai-layer-1m8</link>
+      <guid isPermaLink="false">https://dev.to/doykim0903/microllms-in-the-browser-webgpu-powered-tiny-models-as-the-new-edge-ai-layer-1m8</guid>
+      <description>[Score: 84] WebGPUを活用し、ブラウザ上で25M〜360Mパラメータの超小型LLM（MicroLLM）を直接動作させる技術と実験について解説しています。 / 4ビット量子化（Q4）によりメモリフットプリントを約75%削減し、100Mモデルをわずか50〜84MBに圧縮してブラウザのIndexedDBに保存可能です。 / 外部サーバーへのデータ送信を嫌う企業や、低コストでローカルRAGやAIエージェントをエッジ側で実行したいユースケースに適しています。 (Source: Dev.to)</description>
+      <pubDate>Wed, 30 Sep 2026 01:00:15 +0000</pubDate>
     </item>
     <item>
       <title>「Docker Cloud Sandboxes」発表、AIエージェント向けサンドボックスをローカルとクラウド間で自由に移動可能に</title>
       <link>https://www.publickey1.jp/blog/26/docker_cloud_snadboxesai.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/docker_cloud_snadboxesai.html</guid>
-      <description>[Score: 88] Docker社が、AIエージェント向けの安全な実行環境「Docker Cloud Sandboxes」を発表。 / ローカル環境の「Docker Sandboxes」と組み合わせることで、サンドボックス環境をローカルとクラウド間で自由に移動可能。 / AIエージェントがホスト側のファイルを誤消去したり、外部へ不正アクセスしたりするのを防ぐ高い分離レベルを提供。 (Source: Publickey)</description>
+      <description>[Score: 82] Docker社は、AIエージェント向けのサンドボックス環境をクラウド上で提供する「Docker Cloud Sandboxes」を発表しました。 / ローカルで動作する「Docker Sandboxes」と組み合わせることで、サンドボックス環境をローカルとクラウド間で自由に移動可能にします。 / AIエージェントがホスト側のファイルを誤消去したり外部へ不正アクセスしたりするのを防ぐ、高い分離レベルを備えた仮想マシン環境を提供します。 (Source: Publickey)</description>
       <pubDate>Sun, 27 Sep 2026 16:02:18 +0000</pubDate>
     </item>
     <item>
-      <title>MetaのAI「Muse」がFacebook Marketplaceの買い手に自宅住所を教えたとYouTuberが告発：「男が突然ドアの前に現れた」</title>
-      <link>https://www.reddit.com/r/technology/comments/1wst3gu/a_youtuber_says_metas_muse_gave_his_address_to_a/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wst3gu/a_youtuber_says_metas_muse_gave_his_address_to_a/</guid>
-      <description>[Score: 85] MetaのAIアシスタント「Muse」が、ユーザーの意図に反して自宅住所を取引相手に開示したトラブルです。 / 被害に遭ったYouTuberは、突然見知らぬ人物が自宅に現れた恐怖を語っています。 / AIによる個人情報の取り扱いやプライバシー保護の脆弱性が浮き彫りになりました。 (Source: Reddit)</description>
-      <pubDate>Mon, 28 Sep 2026 22:33:34 +0000</pubDate>
+      <title>Git 2.56のハイライト</title>
+      <link>https://github.blog/open-source/git/highlights-from-git-2-56/</link>
+      <guid isPermaLink="false">https://github.blog/open-source/git/highlights-from-git-2-56/</guid>
+      <description>[Score: 82] オープンソースのバージョン管理システム「Git 2.56.0」がリリース。 / マージ競合の解決をより安全に行うための新コマンド「git add --resolved」が追加。 / 競合マーカーの有無を自動スキャンし、誤ったステージングを防ぐワークフローを提供。 (Source: GitHub Blog)</description>
+      <pubDate>Mon, 28 Sep 2026 17:23:33 +0000</pubDate>
     </item>
     <item>
-      <title>タイムズカーWebサイトへの不正アクセスについてまとめてみた - piyolog</title>
-      <link>https://piyolog.hatenadiary.jp/entry/2026/09/28/214857</link>
-      <guid isPermaLink="false">https://piyolog.hatenadiary.jp/entry/2026/09/28/214857</guid>
-      <description>[Score: 85] カーシェアサービス「タイムズカー」のWebサイトが不正アクセスを受け、会員情報が漏えいした。 / 現時点で漏えいした可能性のあるアカウント数は約660万件に上り、外部専門機関による調査が進行中。 / クレジットカード情報の漏えいは確認されておらず、パスワードも復元不可能な形式で保管されていた。 (Source: はてなブックマーク)</description>
-      <pubDate>Mon, 28 Sep 2026 14:43:54 +0000</pubDate>
+      <title>IIJ、新人エンジニア向け研修教材を無料公開　Web技術の基礎から生成AI活用まで20講義超</title>
+      <link>https://www.itmedia.co.jp/news/article/2609/29/2000001854/</link>
+      <guid isPermaLink="false">https://www.itmedia.co.jp/news/article/2609/29/2000001854/</guid>
+      <description>[Score: 80] IIJが新人エンジニア向けハンズオン研修「IIJ Bootcamp」の2026年度版資料を無料公開しました。 / Web技術の基礎から、Git、Docker、Kubernetes、React、生成AIを活用したアプリ開発まで幅広く網羅しています。 / クリエイティブ・コモンズ（CC BY-SA）ライセンスで公開され、GitHubからも閲覧可能です。 (Source: はてなブックマーク)</description>
+      <pubDate>Tue, 29 Sep 2026 11:47:47 +0000</pubDate>
     </item>
     <item>
-      <title>オープンソースのAIセキュリティエージェントを使用して24個のAndroidの脆弱性を発見した方法</title>
-      <link>https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/</link>
-      <guid isPermaLink="false">https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/</guid>
-      <description>[Score: 85] GitHub Security Labが開発したオープンソースのAIセキュリティエージェント「Taskflow Agent」の活用事例。 / カスタムタスクフロープロンプトを用いてLLMの探索を段階的にガイドし、Androidアプリから24個の脆弱性を検出。 / Copilotライセンスが必要で、ツール呼び出しによりSQLite形式で監査結果を出力する仕組みをオープンソースで提供。 (Source: GitHub Blog)</description>
-      <pubDate>Mon, 28 Sep 2026 19:00:00 +0000</pubDate>
+      <title>GitHub - mizchi/explainer：AIから人間へ概念を説明するためのツールとスキル</title>
+      <link>https://github.com/mizchi/explainer</link>
+      <guid isPermaLink="false">https://github.com/mizchi/explainer</guid>
+      <description>[Score: 80] AIコーディングエージェントの進化により、人間が理解する速度を超えてコードが生成される問題に対処するリポジトリ。 / 読者の知識レベル（ペルソナ）に合わせて、まだ知らない情報のみをツールで検証された図やテキストで説明する。 / 引用された出力の再実行検証や、VLM（Vision-Language Model）を用いた図の整合性チェックなどの機能を備える。 (Source: はてなブックマーク)</description>
+      <pubDate>Tue, 29 Sep 2026 19:12:08 +0000</pubDate>
     </item>
     <item>
-      <title>LLMエージェントとデータスペースの架け橋：Model Context Protocolを用いた建築的調停アプローチ</title>
-      <link>https://arxiv.org/abs/2609.30341</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.30341</guid>
-      <description>[Score: 85] LLMエージェントと多様なデータスペースを相互接続するための、Model Context Protocol（MCP）を用いた仲介アーキテクチャを提案しています。 / エージェントが外部データに安全かつ効率的にアクセスし、活用するための標準的な接続方法を模索します。 / エンタープライズ環境におけるAIエージェントの実用的な統合を促進する技術です。 (Source: arXiv cs.AI)</description>
-      <pubDate>Mon, 28 Sep 2026 04:00:00 +0000</pubDate>
+      <title>マイクロソフト、企業内アプリの実行基盤「Copilot Managed Runtime」プレビュー公開。Microsoft 365と同じテナント内でコード実行、管理者による集中管理も</title>
+      <link>https://www.publickey1.jp/blog/26/copilot_managed_runtimemicrosoft_365.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/copilot_managed_runtimemicrosoft_365.html</guid>
+      <description>[Score: 80] マイクロソフトは、AIで開発した社内アプリケーションをセキュアに実行・管理するための基盤「Copilot Managed Runtime」をプレビュー公開しました。 / 従業員がCopilotを用いて自然言語で作成したアプリを、Microsoft 365と同じテナント内で安全にコード実行できます。 / 管理者による集中管理やガバナンスの維持を可能にし、シャドーIT化を防ぎつつ市民開発を促進します。 (Source: Publickey)</description>
+      <pubDate>Sun, 27 Sep 2026 15:59:50 +0000</pubDate>
     </item>
     <item>
-      <title>より多くのCSSを配信することでサイトのパフォーマンスを向上させる</title>
-      <link>https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/</link>
-      <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/</guid>
-      <description>[Score: 83] GitHubのPrimerデザインシステムにおいて、従来のCSS-in-JSからCSS Modulesへの移行によるパフォーマンス改善事例。 / CSS-in-JSが引き起こしていたクライアントおよびサーバー側での実行時コストを、CSS Modulesの採用により完全に排除。 / ネイティブCSSの機能を活かしつつ、クラス名のローカル化による衝突防止と、HTMLに同梱するスタイルシート配信を実現。 (Source: GitHub Blog)</description>
-      <pubDate>Fri, 25 Sep 2026 15:00:00 +0000</pubDate>
+      <title>ConflictVLA-Bench：前提の矛盾に対するVision-Language-Actionモデルの行動反応を評価するベンチマーク</title>
+      <link>https://arxiv.org/abs/2609.31792</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.31792</guid>
+      <description>[Score: 80] 視覚・言語・行動を統合したVLAモデルの評価ベンチマーク「ConflictVLA-Bench」を提案する。 / 指示や環境などの「前提の矛盾」に直面した際の、モデルの行動や反応を評価する。 / ロボティクスや実世界タスクにおけるVLAモデルの安全性と信頼性を向上させるための重要な評価指標となる。 (Source: arXiv cs.AI)</description>
+      <pubDate>Tue, 29 Sep 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Jeff – 自宅で訓練可能なJev互換の0.8B意思決定モデル、推論時間約30ms</title>
-      <link>https://github.com/firelex/jeff</link>
-      <guid isPermaLink="false">https://github.com/firelex/jeff</guid>
-      <description>[Score: 82] Qwen3.5やGemma 4を微調整した、ゼロショット分類用の0.8B/2Bの超軽量・高速な意思決定モデル「Jeff」が公開。 / テキスト生成やパースを介さず、1回のフォワードパスで各選択肢の確率を直接出力し、ローカル環境で約30msの高速動作を実現。 / 自宅のGPU1枚で数時間で訓練可能であり、音声ナビゲーションのタスクでは精度を31.7%から95.8%へ劇的に向上。 (Source: Hacker News)</description>
-      <pubDate>Mon, 28 Sep 2026 20:23:36 +0000</pubDate>
+      <title>自動で読み込まれるClaude Codeのスキルを構築する方法（5分でできるSKILL.mdの設定）</title>
+      <link>https://dev.to/juholee/how-to-build-a-claude-code-skill-that-loads-itself-5-minute-skillmd-setup-2jjb</link>
+      <guid isPermaLink="false">https://dev.to/juholee/how-to-build-a-claude-code-skill-that-loads-itself-5-minute-skillmd-setup-2jjb</guid>
+      <description>[Score: 78] Claude Codeのセッション開始時に、コードレビューのチェックリストやAPI規約などの指示を毎回手動で入力する手間を省く「Skill」の構築方法が紹介されています。 / 「SKILL.md」というファイルを作成して指示を記述するだけで、Claude Codeが関連するタスクの際に自動でそのスキルを読み込みます。 / わずか5分で設定可能であり、Claude Code自体にフォルダ作成やSKILL.mdの記述、検証をすべて任せることも可能です。 (Source: Dev.to)</description>
+      <pubDate>Wed, 30 Sep 2026 01:00:28 +0000</pubDate>
     </item>
     <item>
-      <title>Kubernetes 1.37: SIG Appsの変更内容</title>
-      <link>https://zenn.dev/musaprg/articles/kubernetes-changelog-1-37-sig-apps</link>
-      <guid isPermaLink="false">https://zenn.dev/musaprg/articles/kubernetes-changelog-1-37-sig-apps</guid>
-      <description>[Score: 82] 2026年8月にリリースされたKubernetes v1.37における、SIG Apps（アプリケーション管理）関連の主な変更点を解説しています。 / StatefulSetの新しい更新戦略として、旧Podをすべて削除してから新Podを作成する「Recreate」戦略が追加されました。 / 壊れたリビジョンからの確実な復旧や、短いダウンタイムを許容できるワークロードでの具体的な設定方法や検証手順を紹介しています。 (Source: Zenn)</description>
-      <pubDate>Sun, 27 Sep 2026 17:25:56 +0000</pubDate>
+      <title>SMARtCARE：限定的自律性を持つ臨床意思決定支援のためのプライバシー保護型エージェントAIシステム</title>
+      <link>https://arxiv.org/abs/2609.31763</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.31763</guid>
+      <description>[Score: 78] 医療分野における臨床意思決定を支援するための、プライバシー保護に配慮したエージェントAIシステム「SMARtCARE」を提案する。 / 限定的な自律性を持たせることで、安全かつ制御可能な意思決定支援を実現する。 / 患者データのプライバシーを厳格に保護しながら、医療現場でのAI活用を促進するフレームワークである。 (Source: arXiv cs.AI)</description>
+      <pubDate>Tue, 29 Sep 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>初心者のためのGitHub Copilotアプリ：キャンバスでカスタムワークフローを構築する方法</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/</guid>
-      <description>[Score: 82] GitHub Copilotアプリに、ユーザーとAIエージェントが共同編集できるカスタムUI「キャンバス」機能が登場。 / 自然言語で指示するだけで、カンバンボードやリリースチェックリストなどのUIをコード不要で自動生成可能。 / 双方向の操作に対応しており、エージェントによる更新とユーザーによるボタンやフィルター操作がシームレスに連動。 (Source: GitHub Blog)</description>
-      <pubDate>Fri, 25 Sep 2026 18:00:00 +0000</pubDate>
+      <title>AIとの協働：人間とAIのコラボレーションのためのデザインフレームワーク</title>
+      <link>https://arxiv.org/abs/2609.31793</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.31793</guid>
+      <description>[Score: 76] 人間とAIが効果的に協働するための新しいデザインフレームワークを提案する。 / タスクの分担や意思決定プロセスにおいて、人間とAIの相互作用を最適化する設計指針を示す。 / AIが実務に深く組み込まれる現代において、ユーザー体験や業務効率を向上させるための実用的なガイドラインとなる。 (Source: arXiv cs.AI)</description>
+      <pubDate>Tue, 29 Sep 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>MicroLLM Lab – ブラウザ上で7つの超軽量LLMを試せるツール</title>
-      <link>https://stateofutopia.com/experiments/microllmlab/</link>
-      <guid isPermaLink="false">https://stateofutopia.com/experiments/microllmlab/</guid>
-      <description>[Score: 80] WebGPUを利用して、ブラウザ上で7種類の超軽量LLM（最小135Mなど）を直接実行・テストできるWebツール。 / モデルの推論速度（tokens/s）や客観的なテストの合格率をローカル環境で測定し、デバイスの性能証明書を発行可能。 / データはすべてローカルで処理され、Webブラウザ上でのエッジAIの可能性と実用性を手軽に体験できる。 (Source: Hacker News)</description>
-      <pubDate>Mon, 28 Sep 2026 18:58:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Playwright Test Agents × GitHub Actions：E2E テスト生成・修復の自動化</title>
-      <link>https://zenn.dev/sun_asterisk/articles/e9b50f09839def</link>
-      <guid isPermaLink="false">https://zenn.dev/sun_asterisk/articles/e9b50f09839def</guid>
-      <description>[Score: 80] Playwright 1.56で導入された、AIエージェントによるE2Eテストの自動生成・修復機能「Playwright Test Agents」の活用方法を紹介しています。 / GitHub Actionsを用いて無人で安全に実行するためのワークフロー設計や、意図しないテストの書き換えを防ぐ制限方法を解説しています。 / 実行権限の分離やブランチ制限など、実稼働プロジェクトで安全に運用するための具体的なセキュリティ対策も提示されています。 (Source: Zenn)</description>
-      <pubDate>Mon, 28 Sep 2026 03:02:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Code の新しい監査コマンドは、そのままでは自分のスキル49本を見なかった</title>
-      <link>https://qiita.com/suwa_nobu/items/ae5a8c1609c794a74a25?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/suwa_nobu/items/ae5a8c1609c794a74a25?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] Claude Codeの新しいプロンプト監査コマンドを、大量のスキルやエージェントを対象に検証。 / デフォルト実行では権限エラーにより ~/.claude 以下のファイルが監査対象外になる問題を指摘。 / オプション指定で読み込みは可能になるものの、監査の精度や挙動には課題があることを報告。 (Source: Qiita)</description>
-      <pubDate>Mon, 28 Sep 2026 00:32:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>こんにちは、Reddit。私はロイターのジャーナリスト、ケイティ・ポールです。マーク・ザッカーバーグがMetaのスタッフをAIに置き換える計画を明らかにし、それがどのように崩壊したかを暴きました。AMA。</title>
+      <title>MetaのスタッフをAIに置き換える計画とその崩壊を暴いたロイター記者によるAMA</title>
       <link>https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/</link>
       <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/</guid>
-      <description>[Score: 80] Metaが従業員をAIに置き換えようとして失敗した計画に関するロイター記者によるAMAです。 / マーク・ザッカーバーグが進めたAI代替計画の内幕と、その崩壊プロセスが語られています。 / AI導入による人員削減の現実的な課題や、企業の意思決定プロセスの問題点に焦点を当てています。 (Source: Reddit)</description>
+      <description>[Score: 75] マーク・ザッカーバーグが進めていたMeta従業員のAI代替計画の裏側が明かされました。 / ロイターのジャーナリストが、その計画がどのようにして破綻したのかを詳細に語っています。 / テック企業におけるAI導入の現実と、雇用への影響に関する生々しい議論が展開されています。 (Source: Reddit)</description>
       <pubDate>Wed, 02 Sep 2026 19:18:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>CodeMindの構築：永続メモリを備えたAIコードレビューエージェント</title>
-      <link>https://dev.to/prudhvi_duvvu_927640052d1/building-codemind-an-ai-code-review-agent-with-persistent-memory-39h4</link>
-      <guid isPermaLink="false">https://dev.to/prudhvi_duvvu_927640052d1/building-codemind-an-ai-code-review-agent-with-persistent-memory-39h4</guid>
-      <description>[Score: 80] 過去のレビュー内容を記憶し再利用できる永続メモリを備えたAIコードレビューエージェント「CodeMind」の開発。 / 静的コード解析、LLM推論、エビデンス検証、決定論的スコアリングなどを組み合わせた高度なワークフローを実現。 / 開発者がGitHubリポジトリやZIPファイルをアップロードすることで、エンジニアリングに特化したレビューを生成する。 (Source: Dev.to)</description>
-      <pubDate>Tue, 29 Sep 2026 01:26:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>チャットが間違ったUIであるとき</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/</guid>
-      <description>[Score: 80] LLMとの主要なインターフェースとしてチャットが定着している現状に疑問を投げかける記事です。 / チャットは汎用的な解決策として機能するものの、特定のタスクにおいては最適なUIではないと指摘しています。 / ユーザーの目的に応じて、その場で生成・カスタマイズできる新しいUIの必要性を提案しています。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 24 Sep 2026 20:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>そもそもClaude Codeのエフォートってなに？</title>
-      <link>https://zenn.dev/goat_eat_any/articles/claude-code-effort-explained</link>
-      <guid isPermaLink="false">https://zenn.dev/goat_eat_any/articles/claude-code-effort-explained</guid>
-      <description>[Score: 78] 開発支援ツール「Claude Code」における、AIモデルの思考の深さを調整する「エフォート（effort）」設定について解説した記事です。 / エフォートは応答やツール利用時の計算量（トークン消費量）を調整する指標であり、タスクの難易度に応じて使い分けます。 / Opus 5.5などの最新モデルでの挙動や、デスクトップ版での設定方法、各段階ごとの出力傾向の違いなどを整理しています。 (Source: Zenn)</description>
-      <pubDate>Sun, 27 Sep 2026 17:18:34 +0000</pubDate>
     </item>
   </channel>
 </rss>
