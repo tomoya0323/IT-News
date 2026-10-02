@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 01 Oct 2026 01:16:44 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 01:32:41 +0000</lastBuildDate>
     <item>
-      <title>Gemini 4 Argon</title>
-      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/</link>
-      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/</guid>
-      <description>[Score: 95] Googleが新しいフロンティアAIモデル「Gemini 4 Argon」を発表しました。 / ソフトウェア開発や法務・財務、サイバーセキュリティなどの複雑なワークフローで高い性能を発揮します。 / まずは一部のテスター向けに展開され、入力100万トークンあたり2ドルという低価格で提供されます。 (Source: Hacker News)</description>
-      <pubDate>Wed, 30 Sep 2026 20:04:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI DevDay 2026 発表まとめ</title>
-      <link>https://zenn.dev/schroneko/articles/openai-devday-2026</link>
-      <guid isPermaLink="false">https://zenn.dev/schroneko/articles/openai-devday-2026</guid>
-      <description>[Score: 95] OpenAI DevDay 2026にて、25個の発表が行われ、新エージェント「dots」などが公開された。 / 「dots」はGPT-6 Astraを搭載し、専用クラウド上で24時間稼働して4,000以上のアプリと連携可能。 / 長時間実行におけるセキュリティ評価も公開され、権限境界の課題などが示された。 (Source: Zenn)</description>
-      <pubDate>Tue, 29 Sep 2026 17:20:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>著作権物のAI学習は「フェアユース」に該当せず：米第3巡回区控訴裁判所が判断</title>
-      <link>https://www.reddit.com/r/technology/comments/1wuhnax/ai_training_of_copyrighted_material_not_fair_use/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wuhnax/ai_training_of_copyrighted_material_not_fair_use/</guid>
-      <description>[Score: 90] 米国の第3巡回区控訴裁判所が、著作権で保護された素材を用いたAIの学習はフェアユース（公正利用）に当たらないとの判断を示しました。 / この判決は、AI開発企業が許諾なしに著作物を利用することに対する法的な制限を強化するものとなります。 / 今後の生成AIモデルの開発プロセスやライセンス契約のあり方に極めて大きな影響を与える可能性があります。 (Source: Reddit)</description>
-      <pubDate>Wed, 30 Sep 2026 21:39:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>JavaScriptの統合ツールチェーン「Vite+ 1.0」正式リリース。ランタイム、パッケージマネージャー、ビルドツール、リンター、フォーマッターなどを統一</title>
-      <link>https://www.publickey1.jp/blog/26/javascriptvite_10.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/javascriptvite_10.html</guid>
-      <description>[Score: 90] VoidZeroがJavaScriptの統合ツールチェーン「Vite+ 1.0」を正式リリースした。 / ランタイム、パッケージマネージャー、ビルド、リンター、フォーマッターなどを1つのCLI「vp」に統合。 / Rust製の高速なRolldownやOxc、Viteなどをベースに構築され、単一の設定ファイルで管理可能。 (Source: Publickey)</description>
-      <pubDate>Wed, 30 Sep 2026 15:22:55 +0000</pubDate>
+      <title>他者の編集著作物でのAI学習は「フェアユース」ではないと裁判所が判決</title>
+      <link>https://www.reddit.com/r/technology/comments/1wv7prd/a_court_just_ruled_that_training_an_ai_on_someone/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wv7prd/a_court_just_ruled_that_training_an_ai_on_someone/</guid>
+      <description>[Score: 88] 他者の編集著作物を用いてAIをトレーニングすることはフェアユース（公正利用）に当たらないという司法判断が下された。 / AI開発における著作権侵害の境界線を明確にする重要な判例となる可能性がある。 / 今後の生成AIモデルの開発やデータ収集プロセスに大きな制約を課す可能性がある。 (Source: Reddit)</description>
+      <pubDate>Thu, 01 Oct 2026 18:46:52 +0000</pubDate>
     </item>
     <item>
       <title>WindowsでLinuxコンテナの作成や実行を可能にする「WSL Containers」正式リリース。コマンドラインとAPIから利用可能</title>
       <link>https://www.publickey1.jp/blog/26/windowslinuxwsl_containersapi.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/windowslinuxwsl_containersapi.html</guid>
-      <description>[Score: 88] Microsoftは、Windows上でLinuxコンテナを作成・実行できる「WSL Containers」を正式リリースした。 / Docker等のサードパーティ製ソフトを導入せず、WSLの標準機能としてコンテナ仮想化を利用可能にする。 / コマンドラインやAPIからの操作に対応し、Microsoft IntuneやDefender for Endpointとの統合管理も可能。 (Source: Publickey)</description>
+      <description>[Score: 88] MicrosoftがWindows上でLinuxコンテナを直接作成・実行できる「WSL Containers」を正式リリース。 / Dockerなどの外部ツールを導入することなく、コマンドラインやAPIからコンテナ仮想化を利用可能。 / Microsoft IntuneやDefender for Endpointと統合されており、企業での一括管理にも対応。 (Source: Publickey)</description>
       <pubDate>Wed, 30 Sep 2026 02:43:18 +0000</pubDate>
     </item>
     <item>
-      <title>初心者のためのGitHub Copilotアプリ：キャンバスでカスタムワークフローを構築する方法</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/</guid>
-      <description>[Score: 88] GitHub Copilotアプリに、ユーザーとAIエージェントが共同で編集・操作できるカスタムUI「キャンバス（Canvas）」機能が導入された。 / 開発者はコードを書くことなく、自然言語で指示するだけで、カンバンボードやリリースチェックリストなどの専用UIをAIに作成させることができる。 / 双方向の操作に対応しており、AIによる自動更新とユーザーによるボタンやフィルター操作を組み合わせた柔軟なワークフローが実現する。 (Source: GitHub Blog)</description>
-      <pubDate>Fri, 25 Sep 2026 18:00:00 +0000</pubDate>
+      <title>terraform applyしたら、1ヶ月半前のコードが本番に出ていた</title>
+      <link>https://zenn.dev/gonta_ganbareyo/articles/6256bf2008b2ef</link>
+      <guid isPermaLink="false">https://zenn.dev/gonta_ganbareyo/articles/6256bf2008b2ef</guid>
+      <description>[Score: 85] TerraformでCloud Runを管理する際、デプロイの競合を防ぐための「ignore_changes」設定に起因する本番障害の事例を紹介している。 / 不要な環境変数を削除して適用したところ、意図せず1ヶ月半前の古いコンテナイメージに巻き戻ってデプロイされる現象が発生した。 / アプリのデプロイをCDで行い、インフラ管理をTerraformで行う際の構造的な課題と、その注意喚起を行っている。 (Source: Zenn)</description>
+      <pubDate>Wed, 30 Sep 2026 23:45:42 +0000</pubDate>
     </item>
     <item>
-      <title>効果的なLLMのファインチューニングに人間が読めるテキストは必要なのか？</title>
-      <link>https://arxiv.org/abs/2609.35868</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.35868</guid>
-      <description>[Score: 88] 大規模言語モデル（LLM）の微調整（ファインチューニング）における学習データの形式に関する調査です。 / 人間が理解可能なテキスト形式が、モデルの学習効率や性能向上に本当に不可欠であるかを検証しています。 / トークン表現や非構造化データの活用など、新たな学習アプローチの可能性を示唆しています。 (Source: arXiv cs.AI)</description>
-      <pubDate>Wed, 30 Sep 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Launch HN: Magnitude (YC S25) – エージェント向け自己最適化推論エンジン</title>
-      <link>https://github.com/magnitudedev/magnitude</link>
-      <guid isPermaLink="false">https://github.com/magnitudedev/magnitude</guid>
-      <description>[Score: 85] ハードウェアに合わせて自己最適化するオープンソースのエージェント向け推論エンジン「Magnitude」が登場。 / デバイス上でカーネルをコンパイル・チューニングすることで、llama.cppと比較して最大2倍の高速化を実現。 / Apple Silicon、NVIDIA、AMD、CPUに対応し、主要なオープンモデルやエージェントとワンクリックで連携可能。 (Source: Hacker News)</description>
-      <pubDate>Wed, 30 Sep 2026 17:37:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>【被害者は語る】タイムズカー660万件情報漏洩はなぜ起きたのかの考察</title>
-      <link>https://qiita.com/miruky/items/6577a57b9b62c8f97e11?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/miruky/items/6577a57b9b62c8f97e11?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] タイムズカーで発生した約660万件の個人情報および免許証画像などの漏洩事案について、被害者の視点から考察。 / 公開HTMLから、同システムがJava向けフレームワーク「Seasar2（Teeda）」を使用している可能性を指摘。 / サポート終了済みの古い技術スタックやフレームワークの脆弱性が原因となった可能性について、セキュアプログラミングの観点から分析している。 (Source: Qiita)</description>
-      <pubDate>Tue, 29 Sep 2026 16:00:06 +0000</pubDate>
+      <title>AI生成コードを全部同じ密度で読む必要はある？―レビューを契約とテストで絞る設計</title>
+      <link>https://qiita.com/masashige0904/items/43beaaabc2c0ef2dcb1c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/masashige0904/items/43beaaabc2c0ef2dcb1c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 85] AIによる大量のコード生成に伴い、人間のコードレビューがボトルネックになる課題を指摘。 / 「契約による設計（Design by Contract）」を用いて、事前条件・事後条件・不変条件を定義する手法を提案。 / 人間が仕様を設計しテストで検証することで、レビューの密度を重要な判断に集中させるアプローチを解説している。 (Source: Qiita)</description>
+      <pubDate>Wed, 30 Sep 2026 13:08:39 +0000</pubDate>
     </item>
     <item>
       <title>Next.jsアプリをCloudflare WorkersやAWS LambdaなどVercel以外のサーバレス基盤へデプロイできる「Vinext 1.0」リリース</title>
       <link>https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html</guid>
-      <description>[Score: 85] Cloudflareは、Next.jsアプリをVercel以外のサーバーレス基盤へデプロイ可能にする「Vinext 1.0」をリリースした。 / Turbopackの代わりにViteを用いてビルドを行い、Cloudflare WorkersやAWS Lambda等へのデプロイを容易にする。 / キャッシュウォーミングの高度化や互換性の向上、自動テストパイプラインなどの機能を備える。 (Source: Publickey)</description>
+      <description>[Score: 85] CloudflareがNext.jsアプリをVercel以外のサーバーレス環境へデプロイ可能にする「Vinext 1.0」をリリース。 / 従来のTurbopackに代わりViteをビルドツールとして採用し、互換性とキャッシュ機能を向上。 / AWS LambdaやCloudflare Workers、Netlifyなどへの簡単なデプロイと本番環境での利用を実現。 (Source: Publickey)</description>
       <pubDate>Wed, 30 Sep 2026 15:10:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>初心者向けGitHub Copilotアプリ：キャンバスを使用してカスタムワークフローを構築する方法</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/</guid>
+      <description>[Score: 85] GitHub Copilotアプリに搭載された新機能「キャンバス」の使い方を解説する記事。 / 自然言語で指示するだけで、カンバンボードやチェックリストなどのカスタムUIをコード不要で構築可能。 / ユーザーとAIエージェントが双方向に操作・更新できるため、柔軟な共同作業ワークフローを実現する。 (Source: GitHub Blog)</description>
+      <pubDate>Fri, 25 Sep 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Google Cloud、AIエージェントからの大量アクセスをPostgreSQLのプライマリDBから切り離せる「PostgreSQL for agents in AlloyDB」発表</title>
       <link>https://www.publickey1.jp/blog/26/google_cloudaipostgresqldbpostgresql_for_agents_in_alloydb.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/google_cloudaipostgresqldbpostgresql_for_agents_in_alloydb.html</guid>
-      <description>[Score: 85] Google Cloudは新サービス「PostgreSQL for agents in AlloyDB」を発表しました。 / AIエージェントによる大量の読み取りアクセスを本番データベースから切り離すことができます。 / これにより、本番環境のパフォーマンスに影響を与えることなく、リアルタイムデータへの高速アクセスを可能にします。 (Source: Publickey)</description>
+      <description>[Score: 83] Google CloudがAIエージェントの大量アクセスから本番DBを保護する新サービスを発表。 / AIの読み取り要求用にサンドボックス化されたPostgreSQLインスタンスを数秒で自動構築。 / 本番環境のパフォーマンスを維持しつつ、最大1,000以上のリーダーへオンデマンドでスケール可能。 (Source: Publickey)</description>
       <pubDate>Tue, 29 Sep 2026 15:46:18 +0000</pubDate>
     </item>
     <item>
-      <title>オープンソースのAIセキュリティエージェントを使用して24個のAndroidの脆弱性を発見した方法</title>
-      <link>https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/</link>
-      <guid isPermaLink="false">https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/</guid>
-      <description>[Score: 85] GitHub Security Labは、セキュリティ研究者がAIプロンプトとワークフローを自動化・共有できるツール「Taskflow Agent」を開発した。 / このエージェントを用いてAndroidアプリの監査タスクフローを作成し、実際に20件以上の脆弱性を発見・報告することに成功した。 / Taskflowはオープンソースとして公開されており、GitHub Copilotライセンスがあれば誰でも実行して脆弱性診断を自動化できる。 (Source: GitHub Blog)</description>
-      <pubDate>Mon, 28 Sep 2026 19:00:00 +0000</pubDate>
+      <title>Janus – AMD/Intel/Nvidia上でVulkanを介してGGUFモデルを実行するGoバイナリ</title>
+      <link>https://github.com/Vibra-Ingenn/Janus</link>
+      <guid isPermaLink="false">https://github.com/Vibra-Ingenn/Janus</guid>
+      <description>[Score: 82] PythonやDocker、Ollamaを必要とせず、ローカルでGGUFモデルを実行できる単一のGoバイナリ「Janus」が公開された。 / Vulkanを介してAMD、Intel、NvidiaのGPUやCPUで動作し、OpenAI互換のAPIエンドポイントを提供する。 / CursorやClineなどの外部ツールと容易に連携でき、軽量かつシンプルなローカルLLM実行環境を実現する。 (Source: Hacker News)</description>
+      <pubDate>Thu, 01 Oct 2026 20:36:47 +0000</pubDate>
     </item>
     <item>
-      <title>リソース制約のあるエッジデバイスにおける信頼性の高い推論のためのニューロシンボリックルーティング</title>
-      <link>https://arxiv.org/abs/2609.35833</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.35833</guid>
-      <description>[Score: 85] 計算リソースが限られたエッジデバイス上で、信頼性の高い推論を実現する手法を提案しています。 / ディープラーニング（ニューラル）と論理推論（シンボリック）を組み合わせたニューロシンボリックアプローチを採用しています。 / 効率的なルーティングにより、低リソース環境でも高精度かつ高速な処理を可能にします。 (Source: arXiv cs.AI)</description>
-      <pubDate>Wed, 30 Sep 2026 04:00:00 +0000</pubDate>
+      <title>AI時代の勉強法(2026)</title>
+      <link>https://iwashi.co/2026/10/01/how-to-study-in-ai-era</link>
+      <guid isPermaLink="false">https://iwashi.co/2026/10/01/how-to-study-in-ai-era</guid>
+      <description>[Score: 82] 生成AIの普及により「わかった気になる」罠に陥りやすくなっている現状を指摘し、その対策を解説している。 / 理解度を確認するために、何も見ずに他者へ説明する「ファインマンテクニック」の有効性を提唱している。 / 英語の講義動画をAIで翻訳・要約し、GPT-Live等との対話を通じてアウトプットする具体的な学習法を紹介している。 (Source: はてなブックマーク)</description>
+      <pubDate>Thu, 01 Oct 2026 23:26:31 +0000</pubDate>
     </item>
     <item>
-      <title>コーディングエージェントにGoogle Cloudの専門知識とツールを組み込む「Google Cloud Developer Plugin for AI Coding Agents」発表</title>
-      <link>https://www.publickey1.jp/blog/26/google_cloudgoogle_cloud_developer_plugin_for_ai_coding_agents.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/google_cloudgoogle_cloud_developer_plugin_for_ai_coding_agents.html</guid>
-      <description>[Score: 82] Google CloudはAIコーディングエージェント向けのプラグインを発表しました。 / Claude CodeなどのエージェントにGoogle Cloudの専門知識やツールを組み込むことができます。 / MCPサーバーなどを提供することで、エージェントによる適切なクラウドシステム構築を支援します。 (Source: Publickey)</description>
-      <pubDate>Tue, 29 Sep 2026 15:44:15 +0000</pubDate>
+      <title>ffmpeg.wasmなしでブラウザ上で動画を処理する：WebCodecs + MediaBunnyで処理時間を95秒から9秒に短縮</title>
+      <link>https://dev.to/sharksevenro/processing-video-in-the-browser-without-ffmpegwasm-webcodecs-mediabunny-95s-9s-34p</link>
+      <guid isPermaLink="false">https://dev.to/sharksevenro/processing-video-in-the-browser-without-ffmpegwasm-webcodecs-mediabunny-95s-9s-34p</guid>
+      <description>[Score: 82] ブラウザ上での動画処理において、ffmpeg.wasmからWebCodecsとMediaBunnyの構成へ移行した事例。 / ハードウェアデコード/エンコードとストリーミング設計により、処理時間を95秒から9秒へ劇的に短縮。 / メモリ使用量をO(1)に抑えることで、処理可能な動画の長さ制限を30秒から120秒へと拡大。 (Source: Dev.to)</description>
+      <pubDate>Fri, 02 Oct 2026 01:22:55 +0000</pubDate>
     </item>
     <item>
-      <title>より多くのCSSを配信することでサイトのパフォーマンスを向上させる</title>
-      <link>https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/</link>
-      <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/</guid>
-      <description>[Score: 82] GitHubのPrimerデザインシステムにおいて、CSS-in-JSの採用に伴うクライアントおよびサーバー側でのパフォーマンス低下が課題となっていた。 / 移行時の破損を防ぎつつ課題を解決するため、ランタイムコストが発生しない「CSS Modules」への移行を決定した。 / CSS Modulesの導入により、ネイティブCSSの機能を活かしつつカプセル化を実現し、パフォーマンスの大幅な改善を達成した。 (Source: GitHub Blog)</description>
-      <pubDate>Fri, 25 Sep 2026 15:00:00 +0000</pubDate>
+      <title>AIエージェントは過激化に対して脆弱である</title>
+      <link>https://arxiv.org/abs/2609.38296</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.38296</guid>
+      <description>[Score: 82] 自律的に行動するAIエージェントが、外部からの入力や学習データによって過激化（Radicalization）する脆弱性を指摘。 / エージェントが偏った情報や悪意あるプロンプトに曝された際のリスクと安全性の課題を分析。 / 安全なAIエージェントの設計とガバナンスに向けた対策の必要性を提起する。 (Source: arXiv cs.AI)</description>
+      <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI-HuggingFace：アライメントテストの再現と教訓</title>
-      <link>https://arxiv.org/abs/2609.35799</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.35799</guid>
-      <description>[Score: 82] OpenAIとHuggingFaceのモデルを用いたアライメント（調整）テストの再現実験に関する研究です。 / AIモデルが人間の意図や倫理に沿うようにするためのアライメント手法の有効性を検証しています。 / 再現プロセスから得られた知見と、今後のアライメント評価における重要な教訓を提示しています。 (Source: arXiv cs.AI)</description>
-      <pubDate>Wed, 30 Sep 2026 04:00:00 +0000</pubDate>
+      <title>オブザーバビリティのAIエージェントをどう評価するか</title>
+      <link>https://zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop</link>
+      <guid isPermaLink="false">https://zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop</guid>
+      <description>[Score: 80] AIエージェントにオブザーバビリティの仕事をさせた際、最終応答の見た目だけでは真の品質を判定できない課題を指摘している。 / Grafana Assistantチームの事例を元に、実行手順全体を評価するための「シナリオ」と「グレーダー」を用いた評価基盤の重要性を解説する。 / 決定的な事実チェックとLLMによる基準判定を組み合わせ、継続的にベンチマーク検証を行う評価ループの構築方法を提案している。 (Source: Zenn)</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>EDGのC++フロントエンドがオープンソース化</title>
-      <link>https://edgcpp.org/#transition</link>
-      <guid isPermaLink="false">https://edgcpp.org/#transition</guid>
-      <description>[Score: 80] 30年間にわたり業界のC++コンパイルを支えてきたEDGのC++フロントエンドのソースコードが一般公開された。 / 非営利団体「The C++ Alliance」が新たな管理母体となり、プロフェッショナルなメンテナンス体制を維持する。 / 今後は誰でも貢献可能なオープンソースプロジェクトとして、品質を保ちながら開発が継続される。 (Source: Hacker News)</description>
-      <pubDate>Wed, 30 Sep 2026 19:26:37 +0000</pubDate>
+      <title>【被害者は語る】タイムズカー660万件情報漏えいはなぜ起きたのかの矮小な考察</title>
+      <link>https://qiita.com/miruky/items/6577a57b9b62c8f97e11?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/miruky/items/6577a57b9b62c8f97e11?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 80] タイムズカーで発生した約660万件の個人情報および免許証画像などの漏洩事件について被害者が考察。 / 公開されているHTMLから、サポート終了済みのJavaフレームワーク「Seasar2（Teeda）」の利用を指摘。 / レガシーシステムにおける脆弱性の放置や、セキュリティ対策の不備が原因である可能性を分析している。 (Source: Qiita)</description>
+      <pubDate>Tue, 29 Sep 2026 16:00:06 +0000</pubDate>
     </item>
     <item>
-      <title>Amazon BedrockのClaudeに暗黙的なプロンプトキャッシュが登場</title>
-      <link>https://qiita.com/moritalous/items/1b6a05842724fc1fff66?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/moritalous/items/1b6a05842724fc1fff66?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] Amazon BedrockのClaudeにおいて、明示的な指定なしで機能する「暗黙的なプロンプトキャッシュ」の存在をドキュメントから発見。 / OpenAIのGPT系と同様に、特定の条件を満たす長いプロンプトが自動的にキャッシュされる仕組みと推測される。 / Python（boto3）を用いて、実際にキャッシュが機能するかどうかを検証するコードを実装し、動作確認を行っている。 (Source: Qiita)</description>
-      <pubDate>Tue, 29 Sep 2026 12:34:51 +0000</pubDate>
+      <title>CVE-2026-67401の分析 — cPanel &amp; WHMのEmailTrackにおけるSQLインジェクション、メールアカウントからRoot権限奪取まで</title>
+      <link>https://dev.to/guidance_white/cve-2026-67401-analysis-cpanel-whm-emailtrack-sql-injection-from-mail-account-to-root-3e45</link>
+      <guid isPermaLink="false">https://dev.to/guidance_white/cve-2026-67401-analysis-cpanel-whm-emailtrack-sql-injection-from-mail-account-to-root-3e45</guid>
+      <description>[Score: 80] cPanelのEmailTrack機能に存在する、深刻なSQLインジェクション脆弱性（CVE-2026-67401）の分析。 / 単一のメールアカウントを持つ攻撃者が、SQLインジェクションからファイル書き込みを経てRoot権限を奪取可能。 / 共有ホスティング環境において、1つの侵害されたアカウントからサーバー全体が制御される危険性がある。 (Source: Dev.to)</description>
+      <pubDate>Fri, 02 Oct 2026 01:23:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pi Durable：長期実行可能なAIエージェント向けフレームワーク</title>
+      <link>https://earendil.com/posts/pi-durable/</link>
+      <guid isPermaLink="false">https://earendil.com/posts/pi-durable/</guid>
+      <description>[Score: 78] EarendilとPiコミュニティが、コーディングエージェント「Pi 1.0」と新パッケージ「Pi Durable」をリリースした。 / Pi Durableは、長期実行可能で、どこでも動作し、複数の人間が協調して操作できるAIエージェント構築用のフレームワークである。 / ミニマリズムと可鍛性の原則を共有し、障害耐性や無限の会話サポートなど、エージェントアプリケーション開発の基盤を提供する。 (Source: Hacker News)</description>
+      <pubDate>Thu, 01 Oct 2026 19:24:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>メタ社が一晩で全アカウントを削除、AIカスタマーサービスにより人間に繋がらず / 専門家は規制導入までこの傾向は続くと指摘</title>
+      <link>https://www.reddit.com/r/technology/comments/1wv03ep/overnight_meta_deleted_all_her_accounts_ai/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wv03ep/overnight_meta_deleted_all_her_accounts_ai/</guid>
+      <description>[Score: 78] Meta社がユーザーのアカウントを突然すべて削除し、AIによる顧客対応のため人間の担当者に連絡できない問題が発生した。 / 自動化されたAIカスタマーサービスが、ユーザーの救済措置を事実上遮断している現状が浮き彫りになった。 / 専門家は、このようなプラットフォームの横暴を防ぐには法的な規制の導入が不可欠であると指摘している。 (Source: Reddit)</description>
+      <pubDate>Thu, 01 Oct 2026 13:55:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>AREX-2：長期的な内省タスクを通じた自己改善エージェントの進化</title>
+      <link>https://arxiv.org/abs/2609.38288</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.38288</guid>
+      <description>[Score: 78] 長期的なタスクにおいて自己改善能力を持つAIエージェントのフレームワーク「AREX-2」を提案。 / 「内省タスク（Reflective Tasks）」を通じて、エージェントが自らの行動を振り返り学習する仕組みを導入。 / 複雑で長期にわたるタスクの実行精度と自律性を大幅に向上させる。 (Source: arXiv cs.AI)</description>
+      <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました</title>
       <link>https://zenn.dev/algoartis/articles/0b1c731881b25c</link>
       <guid isPermaLink="false">https://zenn.dev/algoartis/articles/0b1c731881b25c</guid>
-      <description>[Score: 80] AIが生成する不自然で読みにくい日本語（AI-Slop）を、自然な表現に書き直すツール「yomiyasu」が開発されました。 / 単語の禁止といった表面的な対策ではなく、統語構造の復元や比喩動詞の具体化に特化しているのが特徴です。 / Claude CodeやCursorなどの主要なAIエージェントから簡単に呼び出して利用することができます。 (Source: はてなブックマーク)</description>
-      <pubDate>Wed, 30 Sep 2026 19:49:24 +0000</pubDate>
+      <description>[Score: 77] AIが生成した不自然で読みにくい日本語（AI-Slop）を、自然で読みやすい文章に書き直すツール「yomiyasu」がリリースされた。 / 単語を禁止する従来の手法とは異なり、文章の統語構造の復元や比喩表現の具体化に特化して修正を行う。 / Claude CodeやCursorなどの主要なAIエージェントから簡単に呼び出すことができ、開発ドキュメント等の品質向上に寄与する。 (Source: Zenn)</description>
+      <pubDate>Wed, 30 Sep 2026 18:28:20 +0000</pubDate>
     </item>
     <item>
-      <title>テスト未実施のプロンプトのリリースをやめよう：promptfooでプロンプトをコードのようにテストする実践ガイド</title>
-      <link>https://dev.to/aifrontierpost/stop-shipping-untested-prompts-test-your-llm-prompts-like-code-with-promptfoo-hands-on-398n</link>
-      <guid isPermaLink="false">https://dev.to/aifrontierpost/stop-shipping-untested-prompts-test-your-llm-prompts-like-code-with-promptfoo-hands-on-398n</guid>
-      <description>[Score: 80] LLMのプロンプトをコードのようにテスト駆動開発できるオープンソースツール「promptfoo」を紹介しています。 / YAML設定ファイルでプロンプト、プロバイダー、テストケースを定義し、出力を自動評価できます。 / CI/CDパイプラインへの組み込みも可能で、本番環境への安全なプロンプトデプロイを実現します。 (Source: Dev.to)</description>
-      <pubDate>Thu, 01 Oct 2026 01:00:42 +0000</pubDate>
+      <title>CARAT：材料科学LLMは推論しているのか、それとも暗記しているのか？</title>
+      <link>https://arxiv.org/abs/2609.38340</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.38340</guid>
+      <description>[Score: 76] 材料科学分野に特化した大規模言語モデル（LLM）の能力を評価するフレームワーク「CARAT」を提案。 / モデルが真に科学的な推論を行っているのか、単に訓練データを暗記（Recite）して出力しているのかを検証。 / 専門分野におけるLLMの信頼性と真の理解度を明らかにする。 (Source: arXiv cs.AI)</description>
+      <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code の使用量はどう数えられているのか ── Max 20x で実測した重みは API 料金表と違った</title>
+      <link>https://zenn.dev/tksfjt1024/articles/25c0ab111c277c</link>
+      <guid isPermaLink="false">https://zenn.dev/tksfjt1024/articles/25c0ab111c277c</guid>
+      <description>[Score: 75] Claude CodeのProやMaxプランにおける「使用量制限」の消費ルールを、実験を通じて検証し計算式を明らかにした。 / 1回のリクエスト消費量は、入力・出力・キャッシュの読み書きトークン数に特定の重みを掛け合わせた式で算出される。 / キャッシュ読み込み（cache read）の重みは非常に低く抑えられており、ツール呼び出しが多い作業でも効率的に枠を消費する仕組みを解説している。 (Source: Zenn)</description>
+      <pubDate>Thu, 01 Oct 2026 02:34:27 +0000</pubDate>
     </item>
   </channel>
 </rss>
