@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 03 Oct 2026 01:04:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 00:30:41 +0000</lastBuildDate>
     <item>
-      <title>ほとんどの情報が隠されたゲーム「ストラテジー」で、AIがついに人間を破る</title>
-      <link>https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/</link>
-      <guid isPermaLink="false">https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/</guid>
-      <description>[Score: 90] 不完全情報ゲームの難関とされていた「ストラテジー」において、新たなAI「Ataraxos」が世界最高峰の人間プレイヤーを圧倒した。 / ストラテジーはチェスや囲碁と異なり、相手の駒の正体が隠された状態で長期的な戦略を立てる必要がある極めて複雑なゲームである。 / このAIはわずか16台のGPUと数千ドルの低予算で訓練されており、効率的な学習アルゴリズムの進化を示している。 (Source: Hacker News)</description>
-      <pubDate>Fri, 02 Oct 2026 14:11:24 +0000</pubDate>
+      <title>【Cursor pstack】AIエージェントに開発を任せる環境をつくる ―月2,500件のPRを支えた開発基盤とは？</title>
+      <link>https://zenn.dev/sc30gsw/books/080faba713547b</link>
+      <guid isPermaLink="false">https://zenn.dev/sc30gsw/books/080faba713547b</guid>
+      <description>[Score: 88] 月2,500件のプルリクエストを処理するAIエージェント開発基盤「pstack」の設計と運用手法を解説する書籍。 / エージェントではなく成果物を信頼し、検証を再現可能にする仕組みやコードベースを記憶にする方法を提示。 / Playbook、Skill、Principleの3要素を用いて、エージェントの判断支援や並列運用、品質維持を実現している。 (Source: Zenn)</description>
+      <pubDate>Fri, 02 Oct 2026 13:19:46 +0000</pubDate>
     </item>
     <item>
-      <title>Google Cloud、ローカルマシンにインストールできる大規模分散型マルチモデルDB「Spanner Omni」正式版リリースを発表</title>
-      <link>https://www.publickey1.jp/blog/26/google_clouddbspanner_omni.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/google_clouddbspanner_omni.html</guid>
-      <description>[Score: 90] Google Cloudが、大規模分散型マルチモデルデータベース「Spanner Omni」の正式版（GA）リリースを発表。 / Google Cloud Spannerのソフトウェア版であり、LinuxやmacOSなどのローカル環境、AWS、Kubernetesなど多様な環境にデプロイ可能。 / リレーショナルモデルに加え、グラフ、キーバリュー、ベクトル検索、テキスト検索などのマルチモデルに対応し、高い一貫性とスケーラビリティを維持。 (Source: Publickey)</description>
-      <pubDate>Thu, 01 Oct 2026 18:28:43 +0000</pubDate>
+      <title>OpenAIの安全性リーダーが辞任、AI企業の文化は「壊れている」と警告</title>
+      <link>https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken</link>
+      <guid isPermaLink="false">https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken</guid>
+      <description>[Score: 85] OpenAIで安全性レポートの執筆を率いていたDavid Robinson氏が、同社の開発文化が壊れているとして辞任した。 / 同氏は、AI企業が技術開発において十分な注意を払っておらず、自律エージェントの暴走などの問題が起きていると指摘。 / 規制や法律だけでなく、開発スピードを優先する業界全体の文化的な見直しが必要であると警告している。 (Source: Hacker News)</description>
+      <pubDate>Sat, 03 Oct 2026 22:18:13 +0000</pubDate>
     </item>
     <item>
       <title>アルゴリズムの最先端に挑戦：「四色定理」はどこまでバランスよく塗れるのか？</title>
       <link>https://qiita.com/square1001/items/4714dd9e2ddb97c32057?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/square1001/items/4714dd9e2ddb97c32057?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 88] トップ国際会議SODA 2027に採択された、四色定理のバランス良い塗り分けに関する最先端研究の紹介。 / 従来の四色定理を超えて、各色の使用数をできるだけ均等にする「Balanced Four-Color Theorem」を提唱。 / 難解なアルゴリズムやグラフ理論の最先端研究の面白さを、図を用いて分かりやすく解説している。 (Source: Qiita)</description>
+      <description>[Score: 85] アルゴリズム分野のトップ国際会議「SODA 2027」に採択された、四色定理に関する最新の研究論文について解説している。 / 従来の四色定理から一歩進め、地図を4色で塗り分ける際に「各色の使用数をどこまでバランスよく均等にできるか」という課題に挑戦。 / 最先端のアルゴリズム研究の面白さや、理論的な背景を一般の読者にも分かりやすく紹介している。 (Source: Qiita)</description>
       <pubDate>Fri, 02 Oct 2026 13:28:45 +0000</pubDate>
     </item>
     <item>
-      <title>JavaScriptの統合ツールチェーン「Vite+ 1.0」正式リリース。ランタイム、パッケージマネージャー、ビルドツール、リンター、フォーマッターなどを統一</title>
-      <link>https://www.publickey1.jp/blog/26/javascriptvite_10.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/javascriptvite_10.html</guid>
-      <description>[Score: 88] VoidZeroが、JavaScript用の統合ツールチェーン「Vite+ 1.0」の正式リリースを発表。 / ランタイム、パッケージマネージャー、ビルドツール、リンター、フォーマッターなどの多様な開発ツールを1つのCLI「vp」と設定ファイルに統合。 / Rust製の高速バンドラ「Rolldown」や「Vite」などをベースに構築されており、フロントエンド開発の複雑さを大幅に解消する。 (Source: Publickey)</description>
-      <pubDate>Wed, 30 Sep 2026 15:22:55 +0000</pubDate>
+      <title>オランダがMicrosoft依存からの脱却を目指し、独自のLinux OSを開発中</title>
+      <link>https://www.reddit.com/r/technology/comments/1wwjq2t/the_netherlands_is_building_its_own_linux_os_to/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wwjq2t/the_netherlands_is_building_its_own_linux_os_to/</guid>
+      <description>[Score: 85] オランダ政府が、Microsoft製品への依存から脱却するために独自のLinuxオペレーティングシステム（OS）を開発していることが明らかになりました。 / この取り組みは、デジタル主権の確保とライセンス費用の削減、セキュリティの向上を目的としています。 / 欧州におけるオープンソースソフトウェアの採用と、ビッグテック企業への依存軽減の動きを象徴する事例です。 (Source: Reddit)</description>
+      <pubDate>Sat, 03 Oct 2026 10:14:39 +0000</pubDate>
     </item>
     <item>
-      <title>Next.jsアプリをCloudflare WorkersやAWS LambdaなどVercel以外のサーバレス基盤へデプロイできる「Vinext 1.0」リリース</title>
-      <link>https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html</guid>
-      <description>[Score: 86] Cloudflareが、Next.jsアプリをVercel以外のサーバーレス環境へデプロイ可能にするビルドツール「Vinext 1.0」をリリース。 / Turbopackの代わりにViteを用いてビルドを行うことで、Cloudflare WorkersやAWS Lambda、Netlify等への容易なデプロイを実現。 / 高度なキャッシュウォーミングや自動テストパイプラインなどの機能を備え、AI実験段階から本番環境対応のフレームワークへと進化。 (Source: Publickey)</description>
-      <pubDate>Wed, 30 Sep 2026 15:10:38 +0000</pubDate>
+      <title>オブザーバビリティのAIエージェントをどう評価するか</title>
+      <link>https://zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop</link>
+      <guid isPermaLink="false">https://zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop</guid>
+      <description>[Score: 83] Grafana Assistantの開発チームの事例を元に、非決定的なAIエージェントの品質評価手法を考察。 / 最終応答の見た目だけでは判断できないため、実行プロセス全体を「シナリオ」と「グレーダー」で評価する。 / 決定的な事実チェックとLLMによる基準判定を使い分け、評価ループを継続する重要性を解説している。 (Source: Zenn)</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>忘れっぽいCPU（M4でのLinux起動）</title>
-      <link>https://yuka.dev/blog-2026-10-02-linux-m4.html</link>
-      <guid isPermaLink="false">https://yuka.dev/blog-2026-10-02-linux-m4.html</guid>
-      <description>[Score: 85] M4搭載Mac miniでLinuxを起動させるための技術的な取り組みと課題を解説する記事。 / M4はセキュリティ機能SPTMを強制するため、従来のM1-M3世代よりも移植の難易度が大幅に向上している。 / ハイパーバイザの修正や起動セキュリティの無効化など、Linux対応に向けた試行錯誤が紹介されている。 (Source: Hacker News)</description>
-      <pubDate>Fri, 02 Oct 2026 14:22:12 +0000</pubDate>
+      <title>Kolibri: 主権を持つオープンウェイトモデル</title>
+      <link>https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/</link>
+      <guid isPermaLink="false">https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/</guid>
+      <description>[Score: 82] Aleph Alphaが英語・ドイツ語に対応した780億パラメータのオープンウェイトモデル「Kolibri」をリリース。 / 最大100万トークンのコンテキスト長をサポートし、Apache 2.0ライセンスでHugging Faceからダウンロード可能。 / 公共管理や産業、航空宇宙などの規制領域におけるミッションクリティカルな業務向けに特化している。 (Source: Hacker News)</description>
+      <pubDate>Sat, 03 Oct 2026 09:36:04 +0000</pubDate>
     </item>
     <item>
-      <title>【Cursor pstack】AIエージェントに開発を任せる環境をつくる ―月2,500件のPRを支えた開発基盤とは？</title>
-      <link>https://zenn.dev/sc30gsw/books/080faba713547b</link>
-      <guid isPermaLink="false">https://zenn.dev/sc30gsw/books/080faba713547b</guid>
-      <description>[Score: 85] AIエージェントに開発を委ね、月2,500件のプルリクエストを処理した開発基盤の紹介。 / エージェントの成果物を検証・再現する仕組みや、コードベースを記憶とするアプローチを解説。 / 独自のフレームワーク「pstack」におけるPlaybookやPrincipleを用いた自律的な開発手法を提案。 (Source: Zenn)</description>
-      <pubDate>Fri, 02 Oct 2026 13:19:46 +0000</pubDate>
+      <title>terraform applyしたら、1ヶ月半前のコードが本番に出ていた</title>
+      <link>https://zenn.dev/gonta_ganbareyo/articles/6256bf2008b2ef</link>
+      <guid isPermaLink="false">https://zenn.dev/gonta_ganbareyo/articles/6256bf2008b2ef</guid>
+      <description>[Score: 82] GCPのCloud Run環境において、Terraformで環境変数を削除してapplyした際に本番環境が1ヶ月半前のコンテナイメージに巻き戻るトラブルが発生した。 / CD側でのデプロイとTerraformの管理を分離するためにignore_changesを設定していたが、意図しない挙動により巻き戻りが発生。 / コンテナをTerraformで扱う際の構造的な課題と、同様のトラブルを防ぐための注意喚起や解決策の模索について共有している。 (Source: Zenn)</description>
+      <pubDate>Wed, 30 Sep 2026 23:45:42 +0000</pubDate>
     </item>
     <item>
-      <title>普通のメガネなのに網膜投影　TDKがレンズに埋め込める透明ミラー</title>
-      <link>https://www.watch.impress.co.jp/docs/news/2145266.html</link>
-      <guid isPermaLink="false">https://www.watch.impress.co.jp/docs/news/2145266.html</guid>
-      <description>[Score: 85] TDKが、スマートグラス向けに眼鏡レンズへ埋め込める超薄型透明ミラーを用いた網膜直接投影の実証に成功。 / 厚さ150nmで可視光透過率80%のミラーにより、従来の曲面ミラーが不要となり、通常の眼鏡に近い外観が実現可能に。 / QDレーザと事業協力し、数年以内のフルカラー化と量産化を目指し、スマートグラス向け光学エンジンの開発を進める。 (Source: はてなブックマーク)</description>
-      <pubDate>Fri, 02 Oct 2026 12:11:08 +0000</pubDate>
+      <title>高市首相がAppleに要請――「自殺防止機能の搭載を」　生成AIへの相談増加を受け</title>
+      <link>https://www.itmedia.co.jp/mobile/articles/2610/03/news015.html</link>
+      <guid isPermaLink="false">https://www.itmedia.co.jp/mobile/articles/2610/03/news015.html</guid>
+      <description>[Score: 82] 高市首相がAppleに対し、デバイスへの自殺防止機能の搭載など適切な対策を講じるよう直接要請しました。 / 若者の間で生成AIへの相談が増加している現状や、海外での深刻な事例を踏まえた安全対策の強化が求められています。 / Apple側は前向きな回答を示しており、日本政府と連携してユーザーを支援する仕組みの推進に合意しました。 (Source: はてなブックマーク)</description>
+      <pubDate>Sat, 03 Oct 2026 09:12:10 +0000</pubDate>
     </item>
     <item>
-      <title>WindowsでLinuxコンテナの作成や実行を可能にする「WSL Containers」正式リリース。コマンドラインとAPIから利用可能</title>
-      <link>https://www.publickey1.jp/blog/26/windowslinuxwsl_containersapi.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/windowslinuxwsl_containersapi.html</guid>
-      <description>[Score: 85] MicrosoftはWSLの新機能として「WSL Containers」を正式リリースした。 / Dockerなどの外部ツールなしで、Windows上でLinuxコンテナの作成や実行が可能になる。 / コマンドラインやAPIからの操作に対応し、Intune等による一括管理もサポートする。 (Source: Publickey)</description>
-      <pubDate>Wed, 30 Sep 2026 02:43:18 +0000</pubDate>
+      <title>連邦判事、Flockを「無差別な大量監視」と呼ぶ</title>
+      <link>https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/</link>
+      <guid isPermaLink="false">https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/</guid>
+      <description>[Score: 80] 米連邦判事が、令状なしでのFlock Safety（ナンバープレート監視システム）による捜索を違憲と判断しました。 / 容疑者の旅行履歴を令状なしで追跡・利用した捜査は、憲法修正第4条に違反するとされています。 / この判決は、警察による無差別かつ受動的な位置情報の監視活動に警鐘を鳴らすものとなります。 (Source: Hacker News)</description>
+      <pubDate>Sat, 03 Oct 2026 22:07:13 +0000</pubDate>
     </item>
     <item>
-      <title>オープンソースのAIセキュリティエージェントで24件のAndroidの脆弱性を発見した方法</title>
-      <link>https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/</link>
-      <guid isPermaLink="false">https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/</guid>
-      <description>[Score: 85] GitHub Security Labが開発したオープンソースのAIセキュリティエージェントを用いて、Androidアプリから24件の脆弱性を検出した事例。 / カスタムの「Taskflow」プロンプトを使用することで、LLMを段階的に誘導し、通常は見逃しがちな複雑な脆弱性を迅速に特定。 / このツールはオープンソースとして公開されており、GitHub Copilotのライセンスがあれば誰でも実行可能である。 (Source: GitHub Blog)</description>
-      <pubDate>Mon, 28 Sep 2026 19:00:00 +0000</pubDate>
+      <title>実務において敵対的レビューはどの程度有効なのか</title>
+      <link>https://zenn.dev/edash_tech_blog/articles/4577f7d4780bef</link>
+      <guid isPermaLink="false">https://zenn.dev/edash_tech_blog/articles/4577f7d4780bef</guid>
+      <description>[Score: 80] AIエージェントにコードレビューをさせる「敵対的レビュー」手法の実務における有効性を検証した記事。 / 複数エージェントの並列実行による時間・トークンコストや、細かい指摘の大量発生といった運用負荷の課題を指摘。 / 実際の業務差分85件に対する検証データをもとに、重大な指摘の検出率や標準レビューとの比較を分析している。 (Source: Zenn)</description>
+      <pubDate>Thu, 01 Oct 2026 10:48:47 +0000</pubDate>
     </item>
     <item>
-      <title>提案から検証された効果へ：ガバナンスされたAIエージェント実行のための証拠拘束型ハーネス「Praxa」</title>
-      <link>https://arxiv.org/abs/2610.00015</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.00015</guid>
-      <description>[Score: 85] AIエージェントの安全で統制された実行を支援するフレームワーク「Praxa」を提案しています。 / エージェントの行動提案からその実行結果の検証までを証拠に基づいて管理します。 / 信頼性の高いAIエージェントの運用とガバナンスの強化に貢献します。 (Source: arXiv cs.AI)</description>
-      <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+      <title>日本企業「ハッキングされないでくれ」ランキング</title>
+      <link>https://qiita.com/konaito/items/16a6d2c5da7d144efe95?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/konaito/items/16a6d2c5da7d144efe95?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 80] 近年相次ぐ国内企業の不正アクセスや情報漏洩事案を受け、漏洩時の社会的影響や個人への被害の深刻さを基準に業界別ランキングを考察。 / 単なる金銭的被害だけでなく、免許証画像や行動履歴、病歴など「取り返しのつかない個人情報」の流出リスクに着目している。 / セキュリティ対策の重要性と、私たちが日常的に利用するサービスが抱える情報管理の重い責任について警鐘を鳴らす。 (Source: Qiita)</description>
+      <pubDate>Fri, 02 Oct 2026 10:12:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>法廷で被害者のAI生成動画が上映されたため、米国のあおり運転殺人犯の判決が破棄される</title>
+      <link>https://www.reddit.com/r/technology/comments/1wwnhq6/us_road_rage_killers_sentence_quashed_because_ai/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wwnhq6/us_road_rage_killers_sentence_quashed_because_ai/</guid>
+      <description>[Score: 80] 米国のあおり運転殺人事件において、法廷で被害者のAI生成動画が証拠として上映されたため、被告の判決が破棄されました。 / 裁判所は、AIによって作成された動画が陪審員に不当な感情的影響を与えた可能性があると判断しました。 / 司法の場におけるAI生成コンテンツの証拠能力やその利用制限に関する議論に一石を投じています。 (Source: Reddit)</description>
+      <pubDate>Sat, 03 Oct 2026 13:38:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Git 2.56の主な変更点</title>
+      <link>https://github.blog/open-source/git/highlights-from-git-2-56/</link>
+      <guid isPermaLink="false">https://github.blog/open-source/git/highlights-from-git-2-56/</guid>
+      <description>[Score: 80] オープンソースのGit 2.56.0がリリースされ、104名以上の貢献者による新機能やバグ修正が追加された。 / マージ競合の解決を安全に行うための新しいオプション「git add --resolved」が導入された。 / この新機能は、競合マーカーが残っているファイルを誤ってステージングするのを防ぎ、開発者のワークフローを改善する。 (Source: GitHub Blog)</description>
+      <pubDate>Mon, 28 Sep 2026 17:23:33 +0000</pubDate>
     </item>
     <item>
       <title>glibc の strlen は文字列範囲外を読むことで高速に計算する</title>
       <link>https://zenn.dev/peloeil/articles/glibc-strlen-2023</link>
       <guid isPermaLink="false">https://zenn.dev/peloeil/articles/glibc-strlen-2023</guid>
-      <description>[Score: 82] glibcにおける strlen 関数の高速化アルゴリズムと実装を解説した記事。 / 複数バイトをまとめて読み込み、引き算とビット演算を用いて終端文字を高速に探索する。 / 2023年の変更で追加された、文字列先頭より前から読み込むことでさらに処理を効率化する工夫を紹介。 (Source: Zenn)</description>
+      <description>[Score: 78] glibcのstrlen関数が、複数バイトをまとめて読みビット演算を行うことで高速化を図る仕組みを解説。 / 文字列範囲外（隣のページなど）へのアクセスによるセグメンテーションフォールトを防ぐ境界処理の工夫を紹介。 / 2023年の変更で加わった、文字列の先頭より前から読み始めることで先頭付近も高速処理するアルゴリズムを紐解く。 (Source: Zenn)</description>
       <pubDate>Thu, 01 Oct 2026 17:56:12 +0000</pubDate>
     </item>
     <item>
       <title>新しい日本語推敲スキル「yomiyasu」がバズっていたので、Claudeで日本語推敲スキル3つを比べてみた</title>
       <link>https://qiita.com/inoyu-qiita/items/0ffe6e74ecaf3aaa8b14?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/inoyu-qiita/items/0ffe6e74ecaf3aaa8b14?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 82] 話題の日本語推敲AIスキル「yomiyasu」を含む3つのプロンプト/スキルをClaudeで比較検証。 / 各スキル（yomiyasu、natural-japanese、japanese-tech-writing）の書き換えの傾向や特徴を整理。 / AI特有の不自然さを解消しつつ、用途に応じた推敲ツールの使い分け方を提示している。 (Source: Qiita)</description>
+      <description>[Score: 78] SNSで話題の日本語推敲プロンプト「yomiyasu」と、既存の2つの推敲スキルをClaudeを用いて比較検証した。 / 「yomiyasu」は原文を活かしつつ文の骨格を修正し、「natural-japanese」は段落から再構成、「japanese-tech-writing」は技術文書向けに冗長さを削る特徴がある。 / 同じLLMや原文でも、プロンプトの設計によって文章の修正方針や仕上がりに明確な個性の違いが出ることを示している。 (Source: Qiita)</description>
       <pubDate>Thu, 01 Oct 2026 13:03:12 +0000</pubDate>
     </item>
     <item>
-      <title>データセンターが水と電力の消費量を隠蔽している実態</title>
-      <link>https://www.reddit.com/r/technology/comments/1ww6sa6/data_centers_are_hiding_how_much_water_and_power/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1ww6sa6/data_centers_are_hiding_how_much_water_and_power/</guid>
-      <description>[Score: 82] 急増するAI需要の裏で、データセンターが膨大な水と電力の実際の消費量を非公開にしている実態が指摘されている。 / 環境負荷への懸念が高まる中、多くの事業者が企業秘密や競争上の理由を盾に具体的な消費データの開示を拒んでいる。 / 持続可能なITインフラの構築に向けて、データセンターの環境影響に関する透明性の確保が急務となっている。 (Source: Reddit)</description>
-      <pubDate>Fri, 02 Oct 2026 22:12:47 +0000</pubDate>
+      <title>ValveのTimur Kristóf氏によるLinux上の古いAMD GPUの改善作業</title>
+      <link>https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU</link>
+      <guid isPermaLink="false">https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU</guid>
+      <description>[Score: 75] Valveのエンジニアが、Linux環境における古いAMD製GPUのパフォーマンス改善に取り組んでいます。 / この取り組みにより、古いハードウェアでも最新のLinuxゲーム環境がより快適に動作するようになります。 / ValveのSteam DeckやLinuxゲーミングエコシステム全体の向上に寄与する活動です。 (Source: Hacker News)</description>
+      <pubDate>Sat, 03 Oct 2026 19:14:48 +0000</pubDate>
     </item>
     <item>
-      <title>Google Cloud、AIエージェントからの大量アクセスをPostgreSQLのプライマリDBから切り離せる「PostgreSQL for agents in AlloyDB」発表</title>
-      <link>https://www.publickey1.jp/blog/26/google_cloudaipostgresqldbpostgresql_for_agents_in_alloydb.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/google_cloudaipostgresqldbpostgresql_for_agents_in_alloydb.html</guid>
-      <description>[Score: 82] Google Cloudは「PostgreSQL for agents in AlloyDB」を発表した。 / AIエージェントによる大量の読み取りアクセスを本番データベースから分離する。 / サンドボックス化されたインスタンスを即座に用意し、本番環境の性能低下を防ぐ。 (Source: Publickey)</description>
-      <pubDate>Tue, 29 Sep 2026 15:46:18 +0000</pubDate>
+      <title>連邦判事がFlockによる捜索を違憲と判断、AOCとバーニー・サンダース議員がナンバープレート読取装置禁止法案を提出</title>
+      <link>https://www.reddit.com/r/technology/comments/1wwpqg7/federal_judge_calls_flock_search_unconstitutional/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wwpqg7/federal_judge_calls_flock_search_unconstitutional/</guid>
+      <description>[Score: 75] 米連邦地裁の判事が、Flock Safety社の監視システムを用いた捜索を違憲であると判断しました。 / これを受け、オカシオ＝コルテス議員とサンダース議員が自動ナンバープレート読取装置の禁止法案を提出しました。 / プライバシー保護と警察による監視技術の利用を巡る議論が米国で急速に高まっています。 (Source: Reddit)</description>
+      <pubDate>Sat, 03 Oct 2026 15:16:24 +0000</pubDate>
     </item>
     <item>
-      <title>因果世界モデルはどのような場合にモジュール型LLMエージェントを支援するのか</title>
-      <link>https://arxiv.org/abs/2610.00012</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.00012</guid>
-      <description>[Score: 82] モジュール型LLMエージェントにおける因果世界モデルの有効性を検証した研究です。 / どのようなタスクや環境下で因果関係の予測モデルがエージェントの意思決定を向上させるかを分析しています。 / エージェントの設計において因果推論を統合するための具体的な指針を提供します。 (Source: arXiv cs.AI)</description>
-      <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+      <title>非エンジニアの私が、社内エンジニアと業務効率化ツールを作ってみた件</title>
+      <link>https://qiita.com/ayanonn/items/411fc08854b9fe4c9be7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/ayanonn/items/411fc08854b9fe4c9be7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 70] 非エンジニアの企画職が、社内エンジニアと協力してメルマガ作成業務を大幅に効率化するツールを開発した体験談。 / 要件定義の具体化や境界値の考慮、非機能要件の重要性など、実際のシステム開発プロセスを通じて得た学びを記録している。 / 見た目の美しさだけでなく、パフォーマンスやユーザー体験を考慮した「引き算の設計」の重要性に気づく過程が描かれている。 (Source: Qiita)</description>
+      <pubDate>Fri, 02 Oct 2026 01:48:01 +0000</pubDate>
     </item>
     <item>
-      <title>裁判所がEFFに同意：ユタ州のVPN法は技術的に不可能な要求を課している</title>
-      <link>https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility</link>
-      <guid isPermaLink="false">https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility</guid>
-      <description>[Score: 80] ユタ州のVPN規制法（SB 73）に対し、連邦地裁が技術的に不可能かつ憲法違反の疑いがあるとして差し止め命令を下した。 / この法律は、成人向けサイト等にVPNユーザーの検知や物理的位置の特定を義務付けるものであった。 / 電子フロンティア財団（EFF）は、この判決をユーザーのプライバシーとデジタル権利を守る重要な勝利として歓迎している。 (Source: Hacker News)</description>
-      <pubDate>Thu, 01 Oct 2026 22:23:07 +0000</pubDate>
+      <title>米移民・関税執行局（ICE）が抗議活動参加者の写真をPalantirの監視データベースに登録</title>
+      <link>https://www.reddit.com/r/technology/comments/1wws0rf/ice_put_protester_photos_into_palantirs/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wws0rf/ice_put_protester_photos_into_palantirs/</guid>
+      <description>[Score: 70] 米移民・関税執行局（ICE）が、抗議活動参加者の写真をPalantir社の監視データベースに登録していたことが判明しました。 / この行為は、市民の監視や表現の自由に対する侵害として大きな批判を浴びています。 / 政府機関による民間監視技術の利用実態と、その倫理的・法的な問題が改めて浮き彫りになりました。 (Source: Reddit)</description>
+      <pubDate>Sat, 03 Oct 2026 16:54:23 +0000</pubDate>
     </item>
     <item>
-      <title>Strands Decider 2Bについて理解する</title>
-      <link>https://zenn.dev/fusic/articles/db6e62832a4a1f</link>
-      <guid isPermaLink="false">https://zenn.dev/fusic/articles/db6e62832a4a1f</guid>
-      <description>[Score: 80] AWSが開発するAIエージェント用SDK「Strands Agents」の判断用モデルの解説。 / Qwen3.5-2B-Baseをベースに、候補選択に特化した追加学習を施している。 / Pointer HeadとLoRAを組み合わせることで、トークン生成を伴わずに候補を直接採点・選択する。 (Source: Zenn)</description>
-      <pubDate>Fri, 02 Oct 2026 13:37:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>連邦判事、Flock社製カメラによる捜索を「無差別な大量監視」であり違憲と判断</title>
-      <link>https://www.reddit.com/r/technology/comments/1ww4uxq/federal_judge_rules_a_flock_search_was/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1ww4uxq/federal_judge_rules_a_flock_search_was/</guid>
-      <description>[Score: 80] 米連邦地裁判事は、Flock Safety社のネットワークを用いた警察の捜索を「無差別な大量監視」にあたり違憲であるとの判決を下した。 / 判事は、同社の全国的な監視ネットワークが地引き網式の法執行に近づいており、警察は捜索令状を取得すべきだったと指摘した。 / 監視技術の急速な普及と、憲法が保障するプライバシー権利との衝突を示す重要な司法判断となった。 (Source: Reddit)</description>
-      <pubDate>Fri, 02 Oct 2026 20:51:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>ゲームポータルから「WASDキーが動かない」という1行でゲームを却下された。彼らは正しく、私のテストはすべてパスしていた。</title>
-      <link>https://dev.to/nightdrivelabs/a-game-portal-rejected-my-game-with-one-line-the-wasd-keys-arent-working-they-were-right-and-3p11</link>
-      <guid isPermaLink="false">https://dev.to/nightdrivelabs/a-game-portal-rejected-my-game-with-one-line-the-wasd-keys-arent-working-they-were-right-and-3p11</guid>
-      <description>[Score: 80] 自動テストをパスしたブラウザゲームが、ポータル審査でキー操作不能として却下された事例を紹介している。 / 原因はpointerdownイベントでのpreventDefault()呼び出しにより、iframeへのフォーカス遷移が阻害されたことだった。 / ローカル環境や単体テストでは検出が難しい、iframe埋め込み特有の落とし穴を解説している。 (Source: Dev.to)</description>
-      <pubDate>Sat, 03 Oct 2026 00:53:12 +0000</pubDate>
+      <title>パラマウントとオラクルによる巨額の債務がラリー・エリソン氏のリスクを浮き彫りに</title>
+      <link>https://www.reddit.com/r/technology/comments/1wwsbem/larry_ellison_risk_exposed_by_paramount_and/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wwsbem/larry_ellison_risk_exposed_by_paramount_and/</guid>
+      <description>[Score: 65] オラクルの共同創業者ラリー・エリソン氏が、パラマウント・グローバルとオラクルによる巨額の債務蓄積によって財務リスクに直面しています。 / 積極的な買収や投資戦略に伴う負債の増加が、同氏の資産や企業の安定性に与える影響が懸念されています。 / IT大手とエンターテインメント大手の財務状況が、業界のリーダーに及ぼすリスクを分析しています。 (Source: Reddit)</description>
+      <pubDate>Sat, 03 Oct 2026 17:06:41 +0000</pubDate>
     </item>
   </channel>
 </rss>
