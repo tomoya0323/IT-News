@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 05 Oct 2026 00:37:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 02:09:51 +0000</lastBuildDate>
     <item>
-      <title>何これ、すごすぎる！！ PhotoshopやIllustratorをオープンソースで再構築、しかもWin、Mac、Linux、Web対応で無料</title>
-      <link>https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html</link>
-      <guid isPermaLink="false">https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html</guid>
-      <description>[Score: 92] Adobeの主要アプリ7種類を、Adobeのコードを一切使わずにRustで完全再構築したオープンソースアプリ「Crafting Apps」が登場した。 / Windows、macOS、Linuxに対応するほか、WebAssemblyを介してブラウザ上でも動作し、商用利用も無料で可能。 / 現在はRC版としてリリースされており、GitHubからダウンロードして利用することができる。 (Source: はてなブックマーク)</description>
-      <pubDate>Sun, 04 Oct 2026 23:05:07 +0000</pubDate>
+      <title>Dust：誤差逆伝播法を用いないトランスフォーマーの事前学習</title>
+      <link>https://qlabs.sh/research/dust</link>
+      <guid isPermaLink="false">https://qlabs.sh/research/dust</guid>
+      <description>[Score: 90] ディープラーニングの根幹である誤差逆伝播法（バックプロパゲーション）を使用せずにトランスフォーマーを事前学習する手法「Dust」が提案された。 / 微分可能性や勾配計算の制約から解放され、計算資源の増加に伴ってスケールするより一般的な探索アルゴリズムの活用を目指す。 / 「苦い教訓（The Bitter Lesson）」に基づき、ハードウェアの進化に最適化された新しい学習パラダイムの可能性を示唆している。 (Source: Hacker News)</description>
+      <pubDate>Mon, 05 Oct 2026 21:15:07 +0000</pubDate>
     </item>
     <item>
-      <title>Google Cloud、ローカルマシンにインストールできる大規模分散型マルチモデルDB「Spanner Omni」正式版リリースを発表</title>
-      <link>https://www.publickey1.jp/blog/26/google_clouddbspanner_omni.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/google_clouddbspanner_omni.html</guid>
-      <description>[Score: 92] Google Cloudは、ローカル環境や他社クラウドで動作する分散データベース「Spanner Omni」の正式版をリリースした。 / LinuxやmacOSに対応し、リレーショナルだけでなくグラフやベクトル検索などのマルチモデルをサポートする。 / これまでクラウド専用だった高信頼性データベースSpannerを、プライベート環境やローカルで検証・運用可能にする。 (Source: Publickey)</description>
-      <pubDate>Thu, 01 Oct 2026 18:28:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Supabase、1サーバーあたり数百万ものSQLiteをホストする「Turso」買収を発表。AIエージェントで加速するDB需要に対応</title>
-      <link>https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html</guid>
-      <description>[Score: 90] PostgreSQLベースのSupabaseが、SQLiteベースのデータベースサービス「Turso」の買収を発表した。 / Tursoは1サーバーで数百万の軽量データベースを高速かつ安価にホストできる点が最大の特徴である。 / AIエージェントの普及に伴い急増する、個別の軽量データベース需要に対応するための戦略的買収となる。 (Source: Publickey)</description>
-      <pubDate>Sun, 04 Oct 2026 15:56:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>JavaScriptの統合ツールチェーン「Vite+ 1.0」正式リリース。ランタイム、パッケージマネージャー、ビルドツール、リンター、フォーマッターなどを統一</title>
-      <link>https://www.publickey1.jp/blog/26/javascriptvite_10.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/javascriptvite_10.html</guid>
-      <description>[Score: 90] VoidZeroはJavaScriptの統合ツールチェーン「Vite+ 1.0」を正式リリースした。 / 単一のCLI「vp」でランタイム、パッケージマネージャー、ビルド、リンターなどを統一管理できる。 / Rust製の高速なRolldownやOxcなどを内包し、設定ファイルを1つに集約して開発効率を向上させる。 (Source: Publickey)</description>
-      <pubDate>Wed, 30 Sep 2026 15:22:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>オープンソースのAIセキュリティエージェントを使って24件のAndroidの脆弱性を発見した方法</title>
-      <link>https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/</link>
-      <guid isPermaLink="false">https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/</guid>
-      <description>[Score: 90] GitHub Security Labは、セキュリティ研究者がAIプロンプトやワークフローを自動化・共有できるツール「Taskflow Agent」を開発した。 / このツールを用いてAndroidアプリの監査タスクフローを作成し、実際に20件以上の脆弱性を発見・報告することに成功した。 / オープンソースとして公開されており、GitHub Copilotライセンスがあれば誰でも実行して脆弱性診断を行うことができる。 (Source: GitHub Blog)</description>
-      <pubDate>Mon, 28 Sep 2026 19:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qwen 3.8 Flash Next (125B) をコンシューマー向けハードウェア (RTX 4090) で 100T/s で実行する</title>
-      <link>https://github.com/Niko1221/Strata</link>
-      <guid isPermaLink="false">https://github.com/Niko1221/Strata</guid>
-      <description>[Score: 88] 1250億パラメータのAIモデル「Qwen3.8-Flash-Next」を一般のPCで実行可能にするツール「Strata」が登場。 / RTX 4090や3090などのコンシューマー向けGPUを用いて、最大100〜140トークン/秒の高速なローカル実行を実現する。 / データの外部送信なしで、コード生成や画像認識、チャットなどのタスクを完全にローカル環境で処理できる。 (Source: Hacker News)</description>
-      <pubDate>Sun, 04 Oct 2026 12:51:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>「シークレットスキャン」とは？漏れた API キー、誰が止めてくれるのか？ 業務システム 65 件と GitHub・GitLab を調べてみた</title>
-      <link>https://qiita.com/songchong/items/5ee39ef5b71510e36c2a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/songchong/items/5ee39ef5b71510e36c2a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 88] GitHubの「シークレットスキャン」は、登録されたAPIキーのパターンを検知してプッシュを阻止したり提供元に通知する仕組みである。 / しかし、日本の主要な業務SaaSの多くはGitHubの対応表に未登録であり、漏洩しても自動で検知・通知されない現状がある。 / 漏洩した鍵の無効化対応は提供元に委ねられており、開発者自身による厳重な鍵管理が不可欠であることを強調している。 (Source: Qiita)</description>
-      <pubDate>Sun, 04 Oct 2026 19:05:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Next.jsアプリをCloudflare WorkersやAWS LambdaなどVercel以外のサーバレス基盤へデプロイできる「Vinext 1.0」リリース</title>
-      <link>https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html</guid>
-      <description>[Score: 88] CloudflareはNext.jsアプリをVercel以外のサーバーレス基盤へデプロイ可能にする「Vinext 1.0」をリリースした。 / ビルドツールにTurbopackではなくViteを採用し、Cloudflare WorkersやAWS Lambda等への容易なデプロイを実現する。 / AIの実験的プロジェクトから本番環境対応のフレームワークへと昇格し、キャッシュ機能やテストパイプラインも強化された。 (Source: Publickey)</description>
-      <pubDate>Wed, 30 Sep 2026 15:10:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>不適切な黒塗り処理によりGoogleデータセンターの水と電力の使用量が明らかに</title>
-      <link>https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/</link>
-      <guid isPermaLink="false">https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/</guid>
-      <description>[Score: 85] ネブラスカ州にあるGoogleデータセンターの報告書で、不適切な黒塗り処理により機密情報である電力と水の使用量が漏洩した。 / PDF上の黒塗り部分をカーソルで選択して別文書にコピー＆ペーストするだけで、隠されていた数値が簡単に読み取れる状態だった。 / 漏洩したデータにより、特定のデータセンターがピーク時に52.65MWの電力と年間1300万ガロンの水を使用していることが判明した。 (Source: Hacker News)</description>
-      <pubDate>Sun, 04 Oct 2026 19:37:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Homa：AIクラスターにおけるTCPの終焉 [動画]</title>
-      <link>https://www.youtube.com/watch?v=eZ8WWZzoaR0</link>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=eZ8WWZzoaR0</guid>
-      <description>[Score: 85] AIクラスターなどの大規模ネットワークにおいて、従来のTCPプロトコルが抱える限界と課題を指摘する。 / TCPに代わる新しい超低遅延・高スループットなトランスポートプロトコル「Homa」の有用性を解説。 / 次世代のデータセンターやAIインフラにおけるネットワーク設計の新たな方向性を提示する。 (Source: Hacker News)</description>
-      <pubDate>Sun, 04 Oct 2026 19:42:25 +0000</pubDate>
+      <title>Claude Opus 5.5のエージェントが2つの室温磁性半導体候補を発見</title>
+      <link>https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors</link>
+      <guid isPermaLink="false">https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors</guid>
+      <description>[Score: 90] Claude Opus 5.5のAIエージェントチームが、次世代メモリ向けとなる2つの室温磁性半導体候補を発見。 / 1つは新規設計された化合物、もう1つは1999年に作られた既存材料で、いずれもスピンによる電子選別が可能と予測。 / AIエージェントによる計算結果、コード、および既知の注意点（caveats）のリストが公開されている。 (Source: Hacker News)</description>
+      <pubDate>Mon, 05 Oct 2026 21:00:21 +0000</pubDate>
     </item>
     <item>
       <title>API キーはどこから漏れるのか？ 自分のサイトに来た .env 探し 1,566 件と、公開事例を 7 つの経路に分けてみた</title>
       <link>https://qiita.com/songchong/items/02672765fe53f911a1a0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/songchong/items/02672765fe53f911a1a0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] APIキーの漏洩経路をサーバー、AI、ブラウザなどの置き場に基づき7つのパターンに分類して解説している。 / GitHubへの誤公開が最多である一方、公開フォルダの「.env」ファイルを狙った悪意あるスキャンが多発している実態を報告。 / 漏洩を防ぐためには、鍵の管理場所の適切な設定やシークレットスキャンなどの対策が重要であることを示している。 (Source: Qiita)</description>
+      <description>[Score: 88] APIキーが漏洩する経路を「公開リポジトリ」「公開フォルダの.env」「AI」など7つのパターンに分類し、それぞれの対策を解説した。 / 自社サイトへのアクセスログを分析した結果、秘密情報を探す要求の半数以上が「.env」ファイルを狙ったものであった。 / 鍵を置く場所の公開範囲の誤認が主な原因であり、シークレットスキャンや公開フォルダの適切な管理が重要であると警鐘を鳴らしている。 (Source: Qiita)</description>
       <pubDate>Sun, 04 Oct 2026 17:13:59 +0000</pubDate>
     </item>
     <item>
-      <title>サム・アルトマン氏がDecodedで発言「AIの恩恵のために、世界はある程度の悪い出来事を受け入れるべきだ」</title>
-      <link>https://www.reddit.com/r/technology/comments/1wxr6az/sam_altman_to_decoded_the_world_should_accept/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wxr6az/sam_altman_to_decoded_the_world_should_accept/</guid>
-      <description>[Score: 85] OpenAIのサム・アルトマンCEOが、AIがもたらす多大な恩恵を享受するためには、多少の弊害は許容されるべきだと主張した。 / 同氏は、新技術の導入に伴うリスクを完全に排除することは不可能であり、過度な規制は進歩を妨げると示唆している。 / この発言は、AIの安全性や倫理的規制を重視する専門家や市民の間で大きな議論を巻き起こしている。 (Source: Reddit)</description>
-      <pubDate>Sun, 04 Oct 2026 21:30:38 +0000</pubDate>
+      <title>Google Cloud、ローカルマシンにインストールできる大規模分散型マルチモデルDB「Spanner Omni」正式版リリースを発表</title>
+      <link>https://www.publickey1.jp/blog/26/google_clouddbspanner_omni.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/google_clouddbspanner_omni.html</guid>
+      <description>[Score: 88] Google Cloudが、大規模分散マルチモデルDB「Spanner Omni」の正式版をリリースした。 / Cloud Spannerのソフトウェア版であり、ローカル環境（Linux/macOS）やAWS、Kubernetes等に導入可能。 / リレーショナルに加え、グラフ、キーバリュー、ベクトル検索など多様なデータモデルをサポートする。 (Source: Publickey)</description>
+      <pubDate>Thu, 01 Oct 2026 18:28:43 +0000</pubDate>
     </item>
     <item>
-      <title>世界中のソフトウェア開発者の実態を調べた「State of Devs 2026」公開</title>
-      <link>https://www.publickey1.jp/blog/26/state_of_devs_2026_ai.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/state_of_devs_2026_ai.html</guid>
-      <description>[Score: 85] 世界中の開発者5,463人を対象にした実態調査「State of Devs 2026」の集計結果が公開された。 / 回答者の年齢層は30代が最多で中央値は36歳、開発経験年数の中央値は12年となっている。 / 開発者の年収やモニター数、AIによるコード生成の活用度合いなど、多角的な統計データが示されている。 (Source: Publickey)</description>
-      <pubDate>Sun, 04 Oct 2026 15:59:31 +0000</pubDate>
+      <title>Beam：Reflectionの5010億パラメータのオープンウェイトモデル</title>
+      <link>https://reflection.ai/blog/introducing-beam</link>
+      <guid isPermaLink="false">https://reflection.ai/blog/introducing-beam</guid>
+      <description>[Score: 85] Reflection社が、5010億パラメータ（アクティブ230億）のオープンウェイトMoEモデル「Beam」を発表した。 / コーディングや推論、エージェントタスクに特化しており、23.8兆トークンの高品質データと大規模な強化学習を用いて開発された。 / 競合するオープンモデルと比較して、推論時の高い効率性と競争力のあるパフォーマンスを両立している。 (Source: Hacker News)</description>
+      <pubDate>Mon, 05 Oct 2026 19:16:35 +0000</pubDate>
     </item>
     <item>
-      <title>AIは開発者の仕事をどう変えるか：今強化すべき3つのスキル</title>
+      <title>ロボットモデルなしでアームを動かす — Claude × MCP で SO-101 を直接操作する</title>
+      <link>https://zenn.dev/oggata/articles/0893726c1ebf3d</link>
+      <guid isPermaLink="false">https://zenn.dev/oggata/articles/0893726c1ebf3d</guid>
+      <description>[Score: 85] ロボット学習をしていない汎用LLM（Claude）に、カメラ映像とMCP（Model Context Protocol）を用いてロボットアームを直接操作させる試み。 / 逆運動学やマクロを使わず、関節角の指令と画像のみをClaudeに与えて「ゲームのコマを進める」などの操作を実現。 / 最新のロボット操作ベンチマーク「RoboDojo」の知見に基づき、個人環境でL3レベルのロボット操作システムを構築している。 (Source: Zenn)</description>
+      <pubDate>Mon, 05 Oct 2026 12:19:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI エージェントに API キーを渡しても大丈夫か？ 対話文・.env・環境変数・MCP・OAuth — 6 つの渡し方を Claude Code・Codex・Gemini CLI・Copilot・Cursor で調べてみた</title>
+      <link>https://qiita.com/songchong/items/873b4f14d26296176cfd?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/songchong/items/873b4f14d26296176cfd?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 85] AIエージェントにAPIキーを渡す6つの方法について、主要な5つのAIツールの公式ドキュメントを基にセキュリティリスクを調査した。 / 対話文への貼り付けや.envの読み込みは、会話履歴への混入や意図しない漏洩のリスクが高いことを指摘している。 / 環境変数の制限やOAuthの利用など、安全にAPIキーを扱うための具体的な設定方法や対策を解説している。 (Source: Qiita)</description>
+      <pubDate>Mon, 05 Oct 2026 19:05:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>連日の不正アクセスの件、マジでシャレにならないが、こんなやばいの日本だけ？他の国で問題になってないん？「今世界中で起きてる」</title>
+      <link>https://togetter.com/li/2754581</link>
+      <guid isPermaLink="false">https://togetter.com/li/2754581</guid>
+      <description>[Score: 85] 日本国内で相次ぐ不正アクセスや情報漏洩は日本特有の現象ではなく、世界規模で発生しています。 / デンマークでの全国民規模のデータ流出や、米国の政府機関、韓国の大手銀行などでも深刻な被害が報告されています。 / サイバー攻撃の手法が高度化しており、世界全体でセキュリティ脅威のレベルが一段階上がっている状況が示唆されています。 (Source: はてなブックマーク)</description>
+      <pubDate>Mon, 05 Oct 2026 18:31:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>TCPに代わる通信プロトコル「Homa」をスタンフォード大学名誉教授が提唱、AI時代は1ミリ秒の遅延でもGPUが待たされる</title>
+      <link>https://gigazine.net/news/20261006-homa-protocol-replace-tcp/</link>
+      <guid isPermaLink="false">https://gigazine.net/news/20261006-homa-protocol-replace-tcp/</guid>
+      <description>[Score: 85] スタンフォード大学の名誉教授が、AIデータセンター向けにTCPに代わる新プロトコル「Homa」を提唱。 / 従来のTCPは接続管理や送信順序の保証による遅延があり、AIクラスターの高速な通信要求に適さない。 / Homaは短いメッセージを優先処理して遅延を極小化し、高価なGPUの待機時間を削減することを目指す。 (Source: はてなブックマーク)</description>
+      <pubDate>Mon, 05 Oct 2026 23:08:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Supabase、1サーバあたり数百万ものSQLiteをホストする「Turso」買収を発表。AIエージェントで加速するDB需要に対応</title>
+      <link>https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html</guid>
+      <description>[Score: 85] Supabaseが、SQLiteベースの分散データベースサービス「Turso」の買収を発表した。 / Tursoは1サーバーで数百万のDBをホスト可能で、迅速かつ安価に大量のDBを提供できる。 / AIエージェントの普及に伴い急増する、個別かつ軽量なデータベース需要への対応を強化する。 (Source: Publickey)</description>
+      <pubDate>Sun, 04 Oct 2026 15:56:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ReviewBench：AIコードレビューのためのオープンなベンチマーク</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/</guid>
+      <description>[Score: 85] AIによるコードレビューが普及する中、各AIレビュアーの品質や得意分野を正確に測定・比較することが困難である課題に対応。 / 実際のプルリクエストの多様性を反映し、深刻度やカテゴリごとに再現性の高い評価が可能なベンチマークの必要性を説明。 / GitHubが開発した、AIコードレビューの性能をオフラインで高精度に評価できる新しいオープンベンチマーク「ReviewBench」を紹介。 (Source: GitHub Blog)</description>
+      <pubDate>Mon, 05 Oct 2026 15:59:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>オープンソースのAIセキュリティエージェントを使用して24個のAndroidの脆弱性を発見した方法</title>
+      <link>https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/</link>
+      <guid isPermaLink="false">https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/</guid>
+      <description>[Score: 85] GitHub Security LabがオープンソースのAIセキュリティエージェント「Taskflow Agent」を開発。 / カスタムプロンプトとワークフローの自動化により、Androidアプリから24個の脆弱性を検出することに成功。 / LLMの段階的な推論をガイドすることで、従来は見逃されていた複雑な脆弱性の効率的な発見を可能にする。 (Source: GitHub Blog)</description>
+      <pubDate>Mon, 28 Sep 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>JevとClefを画像生成AIのプロダクトに組み込もう!</title>
+      <link>https://zenn.dev/radius5/articles/20261004-j3v7cl3f</link>
+      <guid isPermaLink="false">https://zenn.dev/radius5/articles/20261004-j3v7cl3f</guid>
+      <description>[Score: 82] 画像生成AIプロダクトにおいて、リクエストが拒否されても課金される外部モデルのコスト削減対策を紹介。 / 自然言語バリデータ「Jev」と画像対応モデル「Clef」を使い、プロンプトと参照画像を2段階で事前判定する仕組みを構築。 / LLMのテキストパースを不要にする「Decisionモデル」の特性を活かし、高速かつ低コストなバリデーションを実現している。 (Source: Zenn)</description>
+      <pubDate>Mon, 05 Oct 2026 08:26:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>文章で要件定義するのをやめた。AIでモックを先に作ったら、認識ズレが実装前に全部見つかった</title>
+      <link>https://qiita.com/kazuki_ogawa/items/f1a15a199d9f91fe6080?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/kazuki_ogawa/items/f1a15a199d9f91fe6080?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 82] 従来の「文章による要件定義」を廃止し、AIを活用して実物に近いモックを先行して作成する手法を導入した。 / 視覚的なモックをベースに合意形成を行うことで、文章では隠れがちな認識のズレを実装前に早期発見できた。 / AIによるモック作成コストの劇的な低下が、開発プロセスの順序を逆転させるパラダイムシフトをもたらした。 (Source: Qiita)</description>
+      <pubDate>Mon, 05 Oct 2026 07:31:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>700のスキル、ガバナンスはゼロ：エージェントのスキルスタックにおける欠落したレイヤー</title>
+      <link>https://dev.to/fenju_fu/700-skills-0-governance-the-missing-layer-in-agent-skill-stacks-14e4</link>
+      <guid isPermaLink="false">https://dev.to/fenju_fu/700-skills-0-governance-the-missing-layer-in-agent-skill-stacks-14e4</guid>
+      <description>[Score: 82] AIエージェントのスキルや機能が急速に増加する一方で、それらを管理・監査するガバナンスレイヤーが不足している課題を指摘。 / 単なるメモリ機能（履歴保持）だけでは、誰がいつどのバージョンを実行したかというチーム開発に必要な監査に対応できない。 / この課題を解決するため、スキルを第一級の成果物として管理するオープンソースのレジストリ「skillhub」などの必要性を提唱している。 (Source: Dev.to)</description>
+      <pubDate>Tue, 06 Oct 2026 01:58:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>2年間の学校実験におけるKhanmigoを用いたAIチュータリング</title>
+      <link>https://edworkingpapers.com/ai26-1551</link>
+      <guid isPermaLink="false">https://edworkingpapers.com/ai26-1551</guid>
+      <description>[Score: 80] カーンアカデミーのAIチューター「Khanmigo」を導入した、中学校18校での2年間にわたる大規模な実証実験の結果が発表された。 / AIの導入により数学の成績向上は見られたものの、その効果はAIアシスタントなしの通常の練習と同等にとどまった。 / 生徒がAIと実質的な対話を行う頻度が低かったことが原因であり、AI教育の普及にはアクセスだけでなくエンゲージメントの向上が不可欠であると指摘している。 (Source: Hacker News)</description>
+      <pubDate>Tue, 06 Oct 2026 00:00:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>判事、令状なしのFlock（自動ナンバープレート認識）捜索を違憲の大量監視と呼び、薬物の証拠を却下</title>
+      <link>https://www.reddit.com/r/technology/comments/1wy8uo3/judge_calls_warrantless_flock_search/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wy8uo3/judge_calls_warrantless_flock_search/</guid>
+      <description>[Score: 80] 裁判官が、令状なしで行われたFlock社の自動ナンバープレート認識システムによる捜索を違憲の大量監視と判断しました。 / この違憲判断に伴い、捜索によって得られた薬物関連の証拠が裁判から排除されました。 / 監視技術の警察利用におけるプライバシー保護と憲法上の権利のバランスを巡る重要な判決です。 (Source: Reddit)</description>
+      <pubDate>Mon, 05 Oct 2026 13:40:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>ランサムウェア集団「Qilin」の中心メンバー、日本で拘束 アサヒグループへの攻撃にも関与</title>
+      <link>https://news.yahoo.co.jp/articles/e8c753300f37b0f2ba619bfe706422fe59ed0d6b</link>
+      <guid isPermaLink="false">https://news.yahoo.co.jp/articles/e8c753300f37b0f2ba619bfe706422fe59ed0d6b</guid>
+      <description>[Score: 80] 世界的ランサムウェア集団「Qilin」の中心メンバーであるロシア国籍の男が日本国内で拘束された。 / 男はドイツの物流会社への恐喝容疑で指名手配されており、逃亡犯罪人引渡法に基づきドイツへ引き渡された。 / 同集団はアサヒグループへのサイバー攻撃にも関与しており、国際共同捜査の大きな成果となった。 (Source: はてなブックマーク)</description>
+      <pubDate>Mon, 05 Oct 2026 23:08:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare ContainersがAIエージェント向けに刷新、起動が6倍高速化しスナップショット機能などを追加</title>
+      <link>https://www.publickey1.jp/blog/26/cloudflare_containersai6.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/cloudflare_containersai6.html</guid>
+      <description>[Score: 80] Cloudflareがエッジでコンテナを実行する「Cloudflare Containers」をAIエージェント向けに刷新。 / 起動速度が従来比で6倍に高速化し、実行時のイメージやインスタンスタイプの選択が可能になった。 / ファイルシステムのスナップショット機能なども追加され、大量のAIエージェント用サンドボックス需要に対応する。 (Source: Publickey)</description>
+      <pubDate>Mon, 05 Oct 2026 15:29:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>AIは開発者の仕事をどう変えるか。強化すべき3つのスキル。</title>
       <link>https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/</link>
       <guid isPermaLink="false">https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/</guid>
-      <description>[Score: 85] AIの普及により、コードを書くこと以上に、AIへの指示、出力の評価、技術的意思決定の重要性が高まっている。 / 開発者は自ら手を動かす時間を減らし、複数のAIエージェントを調整・管理する役割へとシフトしていく。 / これからの開発者キャリアにおいて、AIエージェントを適切に導き、成果物をレビューするスキルが不可欠となる。 (Source: GitHub Blog)</description>
+      <description>[Score: 80] AIの進化に伴い、開発者には単にコードを書くだけでなく、AIを指示・評価し、技術的な意思決定を行うスキルが求められている。 / 開発ワークフローは、自身で実装するスタイルから、複数のAIエージェントを調整・管理するスタイルへと移行しつつある。 / 開発者が今後キャリアを築く上で、AIエージェントのコントロールや成果物の厳密なレビュー能力を強化することの重要性を説く。 (Source: GitHub Blog)</description>
       <pubDate>Fri, 02 Oct 2026 15:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Code ModsとJevでモデルルーターを構築（サブスクで使えるゾ！！）</title>
-      <link>https://qiita.com/moritalous/items/8b663db633dde3c49d62?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/moritalous/items/8b663db633dde3c49d62?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 82] Claude Codeの新機能「Mods」と「Jev」を組み合わせ、プロンプトに応じて適切なLLMモデルを自動で切り替えるルーターを構築。 / 簡単な質問にはHaiku、複雑な問題にはSonnetやOpusを割り振ることで、効率的なモデル運用が可能になる。 / さらに、Modsの標準機能である「$.model.classify」を利用することで、よりシンプルな実装も可能であることを紹介している。 (Source: Qiita)</description>
-      <pubDate>Fri, 02 Oct 2026 11:20:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>AIモデルの引用文献が信用できなくなったため、コードで検証することにした</title>
-      <link>https://dev.to/2sdtechnologiesdotcom/we-stopped-trusting-our-models-citations-so-we-check-them-in-code-3j0a</link>
-      <guid isPermaLink="false">https://dev.to/2sdtechnologiesdotcom/we-stopped-trusting-our-models-citations-so-we-check-them-in-code-3j0a</guid>
-      <description>[Score: 82] 規制対象チーム向けの文書質問回答システムにおいて、AIモデルが生成する引用の信頼性を担保するため、コードによる検証ステップを導入した。 / モデルが返した回答と引用箇所を、文字単位ではなくトークン単位で元の文書と機械的に比較検証する仕組みを構築した。 / これにより、意図的な捏造や不正確な言い換えを検知し、基準を満たさない不確かな回答をユーザーに表示させないようにした。 (Source: Dev.to)</description>
-      <pubDate>Mon, 05 Oct 2026 00:24:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>SSHとNginxを使用したセルフホスト型HTTPトンネルの構築</title>
-      <link>https://vincent.bernat.ch/en/blog/2026-http-over-ssh</link>
-      <guid isPermaLink="false">https://vincent.bernat.ch/en/blog/2026-http-over-ssh</guid>
-      <description>[Score: 80] ngrokなどの外部サービスを使わずに、OpenSSHとNginxのみでセルフホスト型のHTTPトンネルを構築する方法を紹介。 / SSHのリモートポートフォワーディング機能（ssh -R）を利用し、ローカルのポートをリモートサーバーに転送する。 / NginxのワイルドカードサブドメインとLet's Encryptを組み合わせることで、動的なHTTPS接続を簡単に実現する。 (Source: Hacker News)</description>
-      <pubDate>Sun, 04 Oct 2026 22:25:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Codeの「Claude Mods」とは？ 入れてみた3つのmodと、安全に入れる手順</title>
-      <link>https://zenn.dev/yoshihiko555/articles/ea2db6070058b3</link>
-      <guid isPermaLink="false">https://zenn.dev/yoshihiko555/articles/ea2db6070058b3</guid>
-      <description>[Score: 80] AIコーディングアシスタント「Claude Code」の公式拡張機能「Claude Mods」の概要と特徴を解説。 / 画面にペインを追加したり、プロンプトやツール呼び出しをカスタマイズできる仕組みを説明。 / 実際に導入した3つの便利なmodの紹介と、安全にインストールするための検証手順を提示している。 (Source: Zenn)</description>
-      <pubDate>Sun, 04 Oct 2026 17:22:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>アルゴリズムの最先端に挑戦：「四色定理」はどこまでバランスよく塗れるのか？</title>
-      <link>https://qiita.com/square1001/items/4714dd9e2ddb97c32057?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/square1001/items/4714dd9e2ddb97c32057?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] 「どんな地図も4色で塗り分けられる」という四色定理において、色のバランスを極限まで均等にできるかという研究を紹介。 / 共同研究による論文「The Balanced Four-Color Theorem」が、アルゴリズム分野の難関国際会議 SODA 2027 に採択された。 / 学術的な最先端アルゴリズム研究の面白さと、理論的なアプローチの一端を分かりやすく解説している。 (Source: Qiita)</description>
-      <pubDate>Fri, 02 Oct 2026 13:28:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>フロリダ州の女性がClaudeを日記として使用、Anthropic社がその内容を警察に通報</title>
-      <link>https://www.reddit.com/r/technology/comments/1wxgn8c/florida_woman_used_claude_as_a_diary_then/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1wxgn8c/florida_woman_used_claude_as_a_diary_then/</guid>
-      <description>[Score: 80] フロリダ州の女性がAIアシスタント「Claude」を日記代わりに使っていたところ、その入力内容が警察に通報された。 / 開発元のAnthropic社が、利用規約や安全基準に抵触する内容を検知して通報に踏み切ったとみられる。 / AIサービスのプライバシー保護と、犯罪防止や安全性確保の境界線について議論を呼んでいる。 (Source: Reddit)</description>
-      <pubDate>Sun, 04 Oct 2026 14:10:58 +0000</pubDate>
     </item>
   </channel>
 </rss>
