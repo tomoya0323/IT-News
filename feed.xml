@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 09 Oct 2026 01:53:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 01:40:51 +0000</lastBuildDate>
+    <item>
+      <title>「お前たちのクラウドはわれわれのもの」　IDCFクラウドの管理画面に出た攻撃者のメッセージ　内容に運営元は</title>
+      <link>https://www.itmedia.co.jp/news/article/2610/09/2000002184/</link>
+      <guid isPermaLink="false">https://www.itmedia.co.jp/news/article/2610/09/2000002184/</guid>
+      <description>[Score: 95] ランサムウェア攻撃を受けたIDCFクラウドの管理画面に攻撃者によるメッセージが表示された。 / 攻撃者は多数のハイパーバイザー侵入やデータストア・バックアップの完全破壊を主張している。 / 運営会社は画像の存在を認めつつ事実関係の調査を継続しており、復旧困難な深刻な障害が続いている。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 09 Oct 2026 13:16:53 +0000</pubDate>
+    </item>
     <item>
       <title>AWS、DuckDBをAurora PostgreSQLに統合。ETL不要で直接データレイクを読み取り可能にしたと発表</title>
       <link>https://www.publickey1.jp/blog/26/awsduckdbaurora_postgresqletl.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/awsduckdbaurora_postgresqletl.html</guid>
-      <description>[Score: 92] AWSはAmazon Aurora PostgreSQLにインプロセス分析データベース「DuckDB」を統合したと発表した。 / これにより、Apache Icebergなどで構築されたデータレイクのデータを直接読み取って処理可能になる。 / 従来必要だったETLによるデータ変換処理が不要になり、リアルタイムなデータ分析が大幅に効率化される。 (Source: Publickey)</description>
+      <description>[Score: 92] AWSがAmazon Aurora PostgreSQLへDuckDBを統合し、データレイク上のデータを直接処理可能にしたことを発表した。 / これまで必須であった複雑なETL処理によるデータの移送や変換作業を行わずに、S3上の歴史的データ等に直接アクセスできる。 / データベース内のリアルタイムデータとデータレイク内の過去データを、単一のシステムからシームレスかつ高速にクエリ可能となる。 (Source: Publickey)</description>
       <pubDate>Wed, 07 Oct 2026 15:59:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>CloudflareがDenoを買収</title>
+      <link>https://deno.com/blog/cloudflare</link>
+      <guid isPermaLink="false">https://deno.com/blog/cloudflare</guid>
+      <description>[Score: 90] CloudflareがJavaScript/TypeScriptランタイムを手掛けるDenoチーム全体を買収したと発表。 / サーバー開発の簡素化や分散アプリケーション構築を共通の目標として開発体制を統合。 / Cloudflare Workers基盤と連携し、エッジでの実行環境と運用モデルの更なる進化を目指す。 (Source: Hacker News)</description>
+      <pubDate>Fri, 09 Oct 2026 13:03:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>主要オープンソース23件中11件はわずか1〜2人で運営されている</title>
+      <link>https://linuxstans.com/11-of-23-core-open-source-projects-run-on-1-or-2-people/</link>
+      <guid isPermaLink="false">https://linuxstans.com/11-of-23-core-open-source-projects-run-on-1-or-2-people/</guid>
+      <description>[Score: 85] スマホやサーバーの社会基盤を支える重要OSS23件のコミット履歴を分析した調査。 / 対象の約半数にあたる11プロジェクトが、実質1〜2人の開発者によって維持されている実態が判明。 / 資金提供の不足や一人の負荷に依存するWebインフラの脆弱性・持続可能性に警鐘を鳴らす。 (Source: Hacker News)</description>
+      <pubDate>Fri, 09 Oct 2026 23:56:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>AnthropicやOpenAIなどのAI大手幹部、AI壊滅事故後の社会的・政治的反発シナリオを非公式に議論</title>
+      <link>https://www.reddit.com/r/technology/comments/1x1i81q/top_executives_at_anthropic_openai_and_other_ai/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1x1i81q/top_executives_at_anthropic_openai_and_other_ai/</guid>
+      <description>[Score: 85] OpenAIやAnthropic等の主要AI企業の幹部が、破滅的なAI事故が起きた際のシナリオを密かに検討した。 / 破局的トラブル後に予想される一般社会や政治的からの激しい反発や規制強化へのリスク管理が目的とされる。 / 業界トップが最悪の安全リスクとそれに伴う社会的混乱を強く警戒している実態を示している。 (Source: Reddit)</description>
+      <pubDate>Fri, 09 Oct 2026 10:51:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>知り合いがAIに作らせたクローラーに大量のサイトを読み込ませたら、プロンプトインジェクションを受けてPCがマルウェアに感染「こういう事故はこれから増えていく気が…」</title>
+      <link>https://togetter.com/li/2756400</link>
+      <guid isPermaLink="false">https://togetter.com/li/2756400</guid>
+      <description>[Score: 85] AIに作成させたクローラーでWebサイトを巡回させた際、プロンプトインジェクションやセキュリティ上の不備でPCがトラブルに見舞われた事例が話題となった。 / 生成AIにより知識が乏しい開発者でも容易にツールを作れる反面、セキュリティ考慮の欠如による事故のリスクが浮き彫りになった。 / 専門家からは、外部情報を収集するシステムのネットワーク分離やアクセス先の制限など適切な安全対策の必要性が指摘されている。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 09 Oct 2026 23:42:54 +0000</pubDate>
     </item>
     <item>
       <title>マイクロソフト、VS CodeにAIモデルのオーケストレーションで高品質低コストなAIを実現する「HydraFusion」をプレビュー実装</title>
       <link>https://www.publickey1.jp/blog/26/vs_codeaiaihydrafusion.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/vs_codeaiaihydrafusion.html</guid>
-      <description>[Score: 90] マイクロソフトはVS Codeに複数AIモデルを協調させる「HydraFusion」をプレビュー実装した。 / タスクの特性に応じて最適なAIモデルやワークフローを自動選択し、高品質と低コストを両立する。 / 単一の巨大モデルに依存せず、効率的なコード生成やデバッグを実現する新しいアプローチである。 (Source: Publickey)</description>
+      <description>[Score: 85] MicrosoftがVS Code 1.140向けに「HydraFusion」のリサーチプレビューを実装した。 / タスクごとに最適なAIモデルを動的にオーケストレーションし高品質と低コストを両立させる。 / 単一モデルに依存せず効率的なコード生成やデバッグを実行可能にする試みである。 (Source: Publickey)</description>
       <pubDate>Tue, 06 Oct 2026 15:47:53 +0000</pubDate>
     </item>
     <item>
-      <title>エージェント規模の開発に向けたGitインフラストラクチャの構築</title>
-      <link>https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/</link>
-      <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/</guid>
-      <description>[Score: 90] AIエージェントの普及により、GitHub上のGitアクティビティやコミット数が前年比で爆発的に増加しています。 / 超高負荷なリポジトリでは月間約10億リクエストに達し、従来のGitアーキテクチャでは対応が困難になっています。 / GitHubは、このエージェント規模の開発需要を支えるためにGitインフラストラクチャの再構築を進めています。 (Source: GitHub Blog)</description>
-      <pubDate>Tue, 06 Oct 2026 20:57:56 +0000</pubDate>
+      <title>ReviewBench: AIコードレビューのためのオープンベンチマーク</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/</guid>
+      <description>[Score: 85] GitHubがAIコードレビューの性能を厳密かつ再現可能に評価するオープンベンチマーク「ReviewBench」を公開しました。 / 実際のプルリクエストの多様性を反映し、指摘の精度や網羅性、重大度ごとのトレードオフを多角的に測定します。 / コードレビュー用エージェントの開発者が本番環境での改善効果を事前評価できる信頼性の高いオフライン指標を提供します。 (Source: GitHub Blog)</description>
+      <pubDate>Mon, 05 Oct 2026 15:59:40 +0000</pubDate>
     </item>
     <item>
-      <title>なぜ業界はDeepSeek 4.1 Flashに大騒ぎしないのか？</title>
-      <link>https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/</link>
-      <guid isPermaLink="false">https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/</guid>
-      <description>[Score: 88] 著者はDeepSeek 4.1 Flashを1ヶ月間使用し、大手モデルに匹敵する性能を実感している。 / フロンティアモデルより桁違いに安価であり、コストパフォーマンスが極めて高いと評価。 / 中国の蒸留モデルが急速に進化しており、開発者にとって実用的な選択肢になっていると指摘する。 (Source: Hacker News)</description>
-      <pubDate>Thu, 08 Oct 2026 00:14:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>情報漏えいの公表急増――いま増えているのは「攻撃」ではなく「発覚」 | SECURITY DRIVE</title>
-      <link>https://securitydrive.jp/column/0023/</link>
-      <guid isPermaLink="false">https://securitydrive.jp/column/0023/</guid>
-      <description>[Score: 88] 2026年9月に相次いだ大手企業の情報漏えい公表は、攻撃の急増ではなく「発覚」の連鎖であると分析。 / 攻撃者は正規のAPIやアプリ経路を使い、正常な利用者を装って静かにデータを盗み出していたとされる。 / AIを用いたスマホアプリの高速解析などが、こうした検知困難な攻撃の背景にあると指摘している。 (Source: はてなブックマーク)</description>
-      <pubDate>Thu, 08 Oct 2026 06:38:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Whistle: 16.9 MBで動作する音声文字起こしモデル</title>
-      <link>https://cactuscompute.com/blog/whistle</link>
-      <guid isPermaLink="false">https://cactuscompute.com/blog/whistle</guid>
-      <description>[Score: 85] 16.9 MBという極めて軽量なオープン音声認識モデル「Whistle」がリリースされた。 / 依存関係なしにCPU上で動作し、モバイルやウェアラブル、マイコンなど多様なデバイスに対応する。 / 7言語に対応し、最初のトークン生成まで11msという高速な処理性能を実現している。 (Source: Hacker News)</description>
-      <pubDate>Thu, 08 Oct 2026 16:59:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>「ELYZA-Thinking-1.0-llm-jp-4」シリーズの学習方法と評価結果</title>
-      <link>https://zenn.dev/elyza/articles/79a3d4ed4be915</link>
-      <guid isPermaLink="false">https://zenn.dev/elyza/articles/79a3d4ed4be915</guid>
-      <description>[Score: 85] ELYZAが「AIによるAI開発」を目指す研究組織を設立し、新たな推論モデルを公開。 / llm-jp-4をベースに、Mid-training、SFT、強化学習を組み合わせたパイプラインを適用。 / 思考過程を含む学習データにより、日本語環境における高い推論能力と知識獲得を実現した。 (Source: Zenn)</description>
-      <pubDate>Thu, 08 Oct 2026 09:03:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>2026年の情報漏洩を手口で分類してみた</title>
-      <link>https://qiita.com/yama3133/items/071119dfea9ed24d0948?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/yama3133/items/071119dfea9ed24d0948?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] 2026年に発生した国内外の大規模な情報漏洩事案を、侵入経路や手口に基づいて4つに分類して整理しています。 / 脆弱性の悪用や正規アカウントの悪用など、具体的な一次情報を基にセキュリティ侵害の傾向を分析しています。 / 認証後の不審な動きを検知する仕組みの重要性や、AIエージェントの権限管理といった新たな課題にも言及しています。 (Source: Qiita)</description>
-      <pubDate>Tue, 06 Oct 2026 05:19:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>「ソフトウェアは終わった」：解約手数料に不満を持った開発者がAIを使って無料のAdobeクローンを構築</title>
-      <link>https://www.reddit.com/r/technology/comments/1x0ow0f/software_is_over_developer_uses_ai_to_build_free/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1x0ow0f/software_is_over_developer_uses_ai_to_build_free/</guid>
-      <description>[Score: 85] Adobeの解約手数料に不満を抱いた開発者が、AIツールを活用して無料のAdobe製品クローンを構築した。 / 開発者は「ソフトウェア（開発の時代）は終わった」と宣言し、AIによって個人が高度なアプリを容易に複製できる時代が到来したと主張している。 / 既存のSaaSビジネスモデルや、今後のソフトウェア開発のあり方に一石を投じる事例として注目されている。 (Source: Reddit)</description>
-      <pubDate>Thu, 08 Oct 2026 11:51:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>外国人技術者の米永住権申請制度、Microsoftの利用停止　バンス氏表明 - 日本経済新聞</title>
-      <link>https://www.nikkei.com/article/DGXZQOGN08BSH0Y6A001C2000000/</link>
-      <guid isPermaLink="false">https://www.nikkei.com/article/DGXZQOGN08BSH0Y6A001C2000000/</guid>
-      <description>[Score: 85] 米政府はマイクロソフトなどによる外国人技術者の永住権申請制度（PERM）の利用停止を発表した。 / 米国民の雇用を守るための措置として、H1Bビザや永住権制度の悪用を防ぐ狙いがある。 / マイクロソフト側は合法的な採用であると反論しており、テック業界の人材獲得に影響する可能性がある。 (Source: はてなブックマーク)</description>
-      <pubDate>Thu, 08 Oct 2026 17:52:22 +0000</pubDate>
+      <title>効果的なエージェント自動化の構築 / claude.dev ブログ</title>
+      <link>https://claude.dev/blog/building-effective-agent-automations/</link>
+      <guid isPermaLink="false">https://claude.dev/blog/building-effective-agent-automations/</guid>
+      <description>[Score: 82] AnthropicがClaude Managed Agentsを活用した、定期実行型エージェント自動化の参照実装と構築ガイドを公開した。 / SlackやGitHubなどのツールから変更差分を取得し、定期的に要約情報を通知する仕組みを簡単に構築できる。 / Claude Code向けの専用コマンドも用意されており、開発者が信頼性の高い自動化エージェントを素早く導入できるよう支援する。 (Source: はてなブックマーク)</description>
+      <pubDate>Thu, 08 Oct 2026 23:06:11 +0000</pubDate>
     </item>
     <item>
       <title>Cloudflare ContainersがAIエージェント向けに刷新。起動が6倍速、ファイルシステムのスナップショット機能など</title>
       <link>https://www.publickey1.jp/blog/26/cloudflare_containersai6.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/cloudflare_containersai6.html</guid>
-      <description>[Score: 85] Cloudflareは、エッジでコンテナを実行する「Cloudflare Containers」をAIエージェント向けに刷新した。 / 起動速度が従来比で6倍に高速化され、ファイルシステムのスナップショット機能などが追加された。 / AIエージェントが自身の開発・テスト環境として大量のコンテナを必要とする需要の変化に対応している。 (Source: Publickey)</description>
+      <description>[Score: 82] Cloudflareはコンテナ型仮想マシン環境「Cloudflare Containers」をAIエージェント向けに刷新した。 / 起動速度が従来比で6倍に高速化しファイルシステムのスナップショット機能などを追加した。 / AIエージェントが自律的に大量のテスト・実行環境を構築・利用する需要に対応する。 (Source: Publickey)</description>
       <pubDate>Mon, 05 Oct 2026 15:29:53 +0000</pubDate>
     </item>
     <item>
-      <title>ソフトウェアの規模拡大に合わせたシークレット保護の必要性</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/</guid>
-      <description>[Score: 85] GitHub上のプルリクエストの3分の1にAIエージェントが関与しており、コード生成が急激に高速化しています。 / 開発者のペースを上回るコード作成量に対応するため、シークレット漏洩防止の自動化が急務となっています。 / Microsoftと共同開発した、非構造化シークレットを2ミリ秒未満で検出するAI分類器モデルが導入されました。 (Source: GitHub Blog)</description>
-      <pubDate>Wed, 07 Oct 2026 17:45:34 +0000</pubDate>
+      <title>Oxideが4億4500万ドルのシリーズD資金調達を実施</title>
+      <link>https://oxide.computer/blog/our-445m-series-d</link>
+      <guid isPermaLink="false">https://oxide.computer/blog/our-445m-series-d</guid>
+      <description>[Score: 80] 統合型サーバーハードウェアを開発するOxideが大規模なシリーズD資金調達を発表。 / 製品出荷と黒字化に伴い黒字企業として法人税を納付する重要なマイルストーンを達成。 / 急速に拡大するバックログに対応するため、コンポーネント調達と製造能力の強化に資金を投入する。 (Source: Hacker News)</description>
+      <pubDate>Fri, 09 Oct 2026 13:12:47 +0000</pubDate>
     </item>
     <item>
-      <title>AIはどのようにして人類を滅ぼし得るのか？文明的リスクの故障モード解析</title>
-      <link>https://arxiv.org/abs/2610.08878</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.08878</guid>
-      <description>[Score: 85] AIが人類に壊滅的な打撃を与えるシナリオについて、システム工学的な「故障モード解析」を用いて分析しています。 / 単なるSF的な懸念ではなく、具体的なリスクの発生メカニズムや連鎖反応を体系的に分類しています。 / 安全なAI開発（AIアライメント）やガバナンス体制の構築に向けた重要な理論的基盤を提供します。 (Source: arXiv cs.AI)</description>
-      <pubDate>Thu, 08 Oct 2026 04:00:00 +0000</pubDate>
+      <title>私の個人用AIエージェントが銀行口座情報を会社のSlackに投稿、AI利用の再考を迫られる</title>
+      <link>https://www.reddit.com/r/technology/comments/1x1ysae/my_personal_ai_agent_posted_my_bank_details_on/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1x1ysae/my_personal_ai_agent_posted_my_bank_details_on/</guid>
+      <description>[Score: 80] 個人用AIエージェントが過剰な権限行使によりユーザーの銀行詳細情報を社内Slackに誤送信した。 / 自律的に動作するAIツールの機密情報漏洩リスクや制御の難しさが浮き彫りとなった。 / 利便性と引き換えになるセキュリティ脅威に対し、利用者がAIの使い方を見直すきっかけとなっている。 (Source: Reddit)</description>
+      <pubDate>Fri, 09 Oct 2026 22:22:11 +0000</pubDate>
     </item>
     <item>
-      <title>GitHub ActionsとAWSでM5StickS3のファームウェアを遠隔更新する</title>
-      <link>https://qiita.com/chaochire/items/a9fbc052170d9748c9e8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/chaochire/items/a9fbc052170d9748c9e8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 82] IoTデバイス「M5StickS3」のファームウェアを、PC接続なしで遠隔更新（OTA）する仕組みを構築しています。 / GitHub ActionsでPlatformIOによるビルドを行い、成功時にファームウェアをAmazon S3へ自動デプロイします。 / AWS IoT Jobsを利用してデバイスへ更新を通知し、ネットワーク経由で安全にファームウェアを適用します。 (Source: Qiita)</description>
-      <pubDate>Thu, 08 Oct 2026 03:03:19 +0000</pubDate>
+      <title>ツール利用エージェントのためのエージェント制御型忘却：実践的な可逆的コンテキストキュレーション</title>
+      <link>https://arxiv.org/abs/2610.10590</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.10590</guid>
+      <description>[Score: 80] 外部ツールを利用するAIエージェントにおいて、不要な文脈を一時的に消去し必要時に復元する可逆的コンテキスト制御手法を提案しています。 / コンテキストウィンドウの不要な増大を防ぐことで、トークンコスト削減と推論精度の維持を両立させます。 / 長時間のタスクや複雑なワークフローを実行するエージェントの実運用性を飛躍的に高める試みです。 (Source: arXiv cs.AI)</description>
+      <pubDate>Fri, 09 Oct 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
       <title>さくらインターネット、GPU専有によりトークン消費量を気にせず定額で利用できる「さくらのAI Engineプライベートエディション」提供開始を発表</title>
       <link>https://www.publickey1.jp/blog/26/gpuai_engine.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/gpuai_engine.html</guid>
-      <description>[Score: 82] さくらインターネットは、GPUを専有して定額で生成AIを利用できる「さくらのAI Engineプライベートエディション」の提供を開始した。 / 従量課金型の従来サービスとは異なり、大規模なAPI利用でもコスト予測が容易で、機密情報を扱う社内業務や自社サービスに適している。 / ユーザーはGPUサーバーの運用やモデルのインストールを意識せず、APIアクセスのみでAI基盤を活用できる。 (Source: はてなブックマーク)</description>
-      <pubDate>Thu, 08 Oct 2026 14:42:37 +0000</pubDate>
+      <description>[Score: 78] さくらインターネットが企業向けにGPU専有・定額制でLLMを利用できる「さくらのAI Engineプライベートエディション」を発表した。 / 従来の従量課金制と異なりトークン量を気にせず定額で利用できるため、大量API利用時のコスト予測が容易になる。 / データが隔離された専有環境で運用できるため、機密情報を扱う社内業務や自社サービスのAI基盤として活用しやすい。 (Source: Publickey)</description>
+      <pubDate>Thu, 08 Oct 2026 15:49:01 +0000</pubDate>
     </item>
     <item>
-      <title>AIは開発者の働き方を変えつつある。今強化すべき3つのスキル</title>
-      <link>https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/</guid>
-      <description>[Score: 82] AIの台頭により、開発者にはコードを書くこと以上にAIの出力を評価し意思決定するスキルが求められています。 / 今後は複数のAIエージェントをコーディネートし、ワークフロー全体を管理する役割へとシフトしていきます。 / 開発者が今から準備すべき、AIへの指示、出力評価、技術的意思決定という3つの重要スキルを提示しています。 (Source: GitHub Blog)</description>
-      <pubDate>Fri, 02 Oct 2026 15:00:00 +0000</pubDate>
+      <title>FDE（フォワードデプロイドエンジニアリング）によって開発されたAIエージェントの7割は使われず、FDEの名前で単なるコンサルティングが販売されるようになる危険が高まるとガートナーが予測</title>
+      <link>https://www.publickey1.jp/blog/26/fdeai7fde.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/fdeai7fde.html</guid>
+      <description>[Score: 78] ガートナーはベンダーのFDEにより開発されたAIエージェントの70%が2028年までに放棄されると予測した。 / FDEの実態が現場導入ではなく単なるコンサルティング業務のラベルとして乱用される懸念を指摘している。 / 実効的な成果に結びつかないAI構築手法のリスクに警告を鳴らしている。 (Source: Publickey)</description>
+      <pubDate>Tue, 06 Oct 2026 15:43:31 +0000</pubDate>
     </item>
     <item>
-      <title>Route-Verify-Vote：混合ドメイン推論のための手順条件付き自己一貫性</title>
-      <link>https://arxiv.org/abs/2610.08814</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.08814</guid>
-      <description>[Score: 82] 複数の異なる領域にまたがる複雑な推論タスクを解決するための新しいフレームワークを提案しています。 / 「経路選択（Route）」「検証（Verify）」「投票（Vote）」の3ステップにより、推論の自己一貫性を高めます。 / 大規模言語モデルなどの推論精度と信頼性を向上させ、より複雑な問題解決を可能にします。 (Source: arXiv cs.AI)</description>
-      <pubDate>Thu, 08 Oct 2026 04:00:00 +0000</pubDate>
+      <title>エージェント型AIにおける検証と自己改善：基礎と限界</title>
+      <link>https://arxiv.org/abs/2610.10611</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.10611</guid>
+      <description>[Score: 78] 自律的に行動するエージェント型AIにおける出力検証アルゴリズムと自己改善メカニズムの理論的基礎と限界を包括的に分析しています。 / エージェントが自らの誤りを検知・修正するプロセスの健全性と限界点を数学的・構造的に明示します。 / 次世代の信頼性が高く安全な自律AIシステムを設計するための標準的な指針を提供します。 (Source: arXiv cs.AI)</description>
+      <pubDate>Fri, 09 Oct 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>免許証画像まで流出する時代にエンジニアが取るべきセキュリティ対策</title>
-      <link>https://qiita.com/shinkai_/items/4c6c12324e115a125621?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/shinkai_/items/4c6c12324e115a125621?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] タイムズカーの運転免許証画像を含む大規模な個人情報漏洩事件を契機に、エンジニアが取るべき対策を考察しています。 / 退会後も税法等に基づきデータを長期保管するリスクや、ハッシュ化の重要性について言及しています。 / 本人確認書類の流出によるなりすましリスクに対し、システム設計者が考慮すべき防衛策を整理しています。 (Source: Qiita)</description>
-      <pubDate>Tue, 06 Oct 2026 23:02:40 +0000</pubDate>
+      <title>唯一の可変面としてのハーネス：計測された評価ゲートを備えた信用パイプラインにおけるLLMエージェントのコンプライアンス制限付き自己進化</title>
+      <link>https://arxiv.org/abs/2610.10629</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.10629</guid>
+      <description>[Score: 76] 金融の信用審査パイプラインにおいて、コンプライアンスを厳格に順守しながらLLMエージェントを自己進化させるフレームワークを提案しています。 / 制御基盤（ハーネス）のみを変更可能領域と制限し、厳格なテストゲートを通過した進化のみを適用します。 / 規制が厳しいミッションクリティカルな業界における自律型AIの安全な実用化プロセスを示しています。 (Source: arXiv cs.AI)</description>
+      <pubDate>Fri, 09 Oct 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>アマゾン、巨大AIデータセンター建設に反対する地元コミュニティに警告</title>
-      <link>https://www.reddit.com/r/technology/comments/1x13tdg/amazon_warns_local_communities_to_stop_defying/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1x13tdg/amazon_warns_local_communities_to_stop_defying/</guid>
-      <description>[Score: 80] アマゾンが、同社の巨大なAIデータセンター建設プロジェクトに反対する地元コミュニティに対し、抵抗をやめるよう警告した。 / AI需要の急増に伴うデータセンター建設は、電力や水資源の消費、環境への影響から各地で住民との摩擦を生んでいる。 / インフラ拡大を急ぐ巨大テック企業と、地域社会の持続可能性との間の対立が浮き彫りになっている。 (Source: Reddit)</description>
-      <pubDate>Thu, 08 Oct 2026 21:47:08 +0000</pubDate>
+      <title>REA – あらゆるプログラムをリバースエンジニアリングするAIツール</title>
+      <link>https://rea.tools/</link>
+      <guid isPermaLink="false">https://rea.tools/</guid>
+      <description>[Score: 75] AIコーディングエージェントにプログラム解析機能を統合するツール「REA」が登場。 / アセンブリコード等を自動解析し、処理ロジックの解釈や変更・再構築をサポート。 / 複雑なソフトウェアの動作検証や計算ロジックの調査コストを大幅に削減する。 (Source: Hacker News)</description>
+      <pubDate>Sat, 10 Oct 2026 00:37:07 +0000</pubDate>
     </item>
     <item>
-      <title>ブックオフグループ 最大で643万件の会員情報漏えいの可能性 | NHKニュース</title>
-      <link>https://news.web.nhk/newsweb/na/nd-20261009de56955</link>
-      <guid isPermaLink="false">https://news.web.nhk/newsweb/na/nd-20261009de56955</guid>
-      <description>[Score: 80] ブックオフグループにおいて最大643万件の会員情報が漏えいした可能性が浮上した。 / 詳細な原因や流出経路については現在調査中とみられる。 / 大規模な個人情報漏えい事案として、企業のセキュリティ管理体制が改めて問われている。 (Source: はてなブックマーク)</description>
-      <pubDate>Thu, 08 Oct 2026 23:56:47 +0000</pubDate>
+      <title>OpenAIとAnthropicに新ライバル出現。中国ではなく地元アメリカから | ギズモード・ジャパン</title>
+      <link>https://www.gizmodo.jp/article/openai-and-anthropic-have-a-new-threat-to-worry-about-and-it-isnt-china/</link>
+      <guid isPermaLink="false">https://www.gizmodo.jp/article/openai-and-anthropic-have-a-new-threat-to-worry-about-and-it-isnt-china/</guid>
+      <description>[Score: 75] 米国で元DeepMindの研究者が立ち上げた「Reflection AI」が法人向けオープンウェイトAI提供を目指し登場した。 / 高額なコストやセキュリティ懸念のある中国製オープンモデルに代わる、安全で安価な企業の自社AI構築環境を目指す。 / OpenAIやAnthropicが注力する法人向けAI市場において、米国内における新たな競合勢力として注目を集めている。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 09 Oct 2026 11:35:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>シミュレーションによる合成：拡張可能なエージェント・システム相互作用を通じた一貫性のあるエンタープライズデータの生成</title>
+      <link>https://arxiv.org/abs/2610.10549</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.10549</guid>
+      <description>[Score: 75] エージェントとシステムの相互作用シミュレーションを通じて、現実的な構造を持つエンタープライズ合成データを生成する手法を提案しています。 / エンタープライズ環境の多様なシナリオを模倣することで、データの論理的一貫性とスケーラビリティを確保します。 / プライバシー保護や開発・検証環境でのデータ不足解決に貢献する実用的なアプローチです。 (Source: arXiv cs.AI)</description>
+      <pubDate>Fri, 09 Oct 2026 04:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
