@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 11 Oct 2026 00:51:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 01:10:46 +0000</lastBuildDate>
     <item>
       <title>AWS、DuckDBをAurora PostgreSQLに統合。ETL不要で直接データレイクを読み取り可能にしたと発表</title>
       <link>https://www.publickey1.jp/blog/26/awsduckdbaurora_postgresqletl.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/awsduckdbaurora_postgresqletl.html</guid>
-      <description>[Score: 92] AWSがAmazon Aurora PostgreSQLにDuckDBを統合し、データレイク内のデータを直接処理可能にしたことを発表。 / 従来のPostgreSQLとデータレイクの連携で必須だったETLによるデータ移動・コピー処理が不要になる。 / ライブデータとS3等に保管された過去データを単一のデータベース環境から効率的にクエリ可能。 (Source: Publickey)</description>
+      <description>[Score: 92] AWSがAmazon Aurora PostgreSQLにDuckDBを統合したことを発表。 / S3上のデータレイクにあるApache IcebergなどのデータをETL処理なしで直接クエリ可能になった。 / リアルタイムデータと過去ログの分析・統合が単一のデータベース上で大幅に簡略化される。 (Source: Publickey)</description>
       <pubDate>Wed, 07 Oct 2026 15:59:06 +0000</pubDate>
     </item>
     <item>
       <title>エージェント規模の開発に向けたGitインフラストラクチャの構築</title>
       <link>https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/</link>
       <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/</guid>
-      <description>[Score: 90] AIエージェントの普及に伴い、GitHub上のコミット数やGitイベント数が爆発的に増加。 / 最頻利用リポジトリでは月間10億リクエストを超え、従来のインフラでは限界に直面している。 / エージェントスケールの超大規模開発に耐えうる次世代Gitインフラの再構築を進めている。 (Source: GitHub Blog)</description>
+      <description>[Score: 90] AIエージェントによる自動開発の急速な普及に伴い、GitHub全体のGitアクティビティが前年比で激増している。 / 月間10億リクエストに達する超大規模リポジトリや並列コミットに耐えるため、Gitインフラを全面再構築。 / 人間とAIが共存する未来の「エージェントスケール」な開発を支える次世代アーキテクチャの設計思想を解説。 (Source: GitHub Blog)</description>
       <pubDate>Tue, 06 Oct 2026 20:57:56 +0000</pubDate>
     </item>
     <item>
-      <title>SQLite 本体にベクトル検索拡張 vec1 がやってきた</title>
-      <link>https://zenn.dev/mattn/articles/6e9996319ac099</link>
-      <guid isPermaLink="false">https://zenn.dev/mattn/articles/6e9996319ac099</guid>
-      <description>[Score: 88] SQLiteの公式リポジトリに公式のベクトル検索拡張機能である「vec1」が取り込まれました。 / IVFADCやOPQなどの手法をサポートし、大規模データでの高速かつ省メモリな近似最近傍探索が可能です。 / 現在はソースからのビルドが必要な段階ですが、RAGやセマンティック検索の実装において大きな注目を集めています。 (Source: Zenn)</description>
-      <pubDate>Sat, 10 Oct 2026 17:16:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI の Decisions API を触ってみた</title>
-      <link>https://qiita.com/hiroshi_ito9854/items/ff26fe2e239e23305f26?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/hiroshi_ito9854/items/ff26fe2e239e23305f26?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 88] 選択肢からの分類やスコアリングに特化したOpenAIの「Decisions API」の試用レビュー。 / 文章を生成せず判断結果と確信度のみを返すため、高速かつ出力トークン費用なしで利用できる。 / Responses APIのStructured Outputsとの比較や、家計簿カテゴリ分類の実装例を紹介している。 (Source: Qiita)</description>
-      <pubDate>Thu, 08 Oct 2026 11:23:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>マイクロソフト、VS CodeにAIモデルのオーケストレーションで高品質低コストなAIを実現する「HydraFusion」をプレビュー実装</title>
-      <link>https://www.publickey1.jp/blog/26/vs_codeaiaihydrafusion.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/vs_codeaiaihydrafusion.html</guid>
-      <description>[Score: 88] マイクロソフトがVS Codeにおいて、複数のAIモデルを自動的に連携・最適化する機能「HydraFusion」をプレビュー公開。 / 推論、コード生成、デバッグなどタスクごとの能力シグナルに応じ、最適なモデルと実行パターンを自動選択する。 / 単一モデルへの依存を避け、開発作業におけるAI出力の高品質化と低コスト化を同時に達成する。 (Source: Publickey)</description>
-      <pubDate>Tue, 06 Oct 2026 15:47:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Code Routines で Notion や Slack から AI に仕事を依頼できる仕組みを作った</title>
-      <link>https://zenn.dev/terass_dev/articles/6e6562d54d5505</link>
-      <guid isPermaLink="false">https://zenn.dev/terass_dev/articles/6e6562d54d5505</guid>
-      <description>[Score: 85] Claude Code Routinesを活用し、NotionやSlackからAIエージェントへ開発作業を依頼するチーム運用基盤の構築事例です。 / 自然文の依頼からPR作成、テスト実行、ブラウザ確認、セルフレビューまでを自動で完結させます。 / NotionとSlack相互でやり取りを転記・同期することで、チーム全体での状況把握と介入を容易にしています。 (Source: Zenn)</description>
-      <pubDate>Fri, 09 Oct 2026 02:47:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>Renovate の更新 PR を AI エージェントにレビューさせ、自動マージまでつなげる</title>
-      <link>https://zenn.dev/greendrop/articles/2026-10-09-4664c51706f346</link>
-      <guid isPermaLink="false">https://zenn.dev/greendrop/articles/2026-10-09-4664c51706f346</guid>
-      <description>[Score: 85] DependabotやRenovateの更新PR確認作業をAIエージェントで自動化する手法の紹介。 / GitHub Actions上でClaude Codeを動かしリリースノートとコードの影響を自動判定する。 / CIテストとAIレビューを組み合わせることで安全かつ効率的な自動マージを実現している。 (Source: Zenn)</description>
-      <pubDate>Thu, 08 Oct 2026 22:00:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>国内で相次ぐ不正アクセスに対する注意喚起についてまとめてみた - piyolog</title>
-      <link>https://piyolog.hatenadiary.jp/entry/2026/10/11/004353</link>
-      <guid isPermaLink="false">https://piyolog.hatenadiary.jp/entry/2026/10/11/004353</guid>
-      <description>[Score: 85] 2026年9月前後に国内組織で大規模な個人情報漏えいを伴う不正アクセスが相次ぎ注意喚起が出された。 / Metabaseのゼロデイ脆弱性悪用やWebシェル設置など、多様な手口による侵害が確認されている。 / 外部公開アプリのみならず、社内向け管理システム等のセキュリティ対策徹底が強く求められている。 (Source: はてなブックマーク)</description>
-      <pubDate>Sat, 10 Oct 2026 15:48:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>ゼロトラストを導入していたはずのデジタル庁に不正アクセス……原因は導入後の「見えない借金」にあった</title>
-      <link>https://enterprisezine.jp/article/detail/25178</link>
-      <guid isPermaLink="false">https://enterprisezine.jp/article/detail/25178</guid>
-      <description>[Score: 85] ゼロトラストセキュリティを導入していたデジタル庁で不正アクセスが発生した背景を分析する記事。 / 原因はセキュリティアーキテクチャ導入後に積み重なった管理不足や設定漏れなどの「見えない借金（技術的負債）」とされる。 / 単に先進的な概念を導入するだけでなく、導入後の継続運用と管理体制の構築が不可欠であることを示唆。 (Source: はてなブックマーク)</description>
-      <pubDate>Fri, 09 Oct 2026 23:38:25 +0000</pubDate>
+      <title>無料Adobe代替ソフトの開発者がMicrosoft Officeのオープンソース版を発表：次はAutodeskツールの開発も示唆</title>
+      <link>https://www.reddit.com/r/technology/comments/1x35i3s/creator_of_free_adobe_clones_unveils_opensource/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1x35i3s/creator_of_free_adobe_clones_unveils_opensource/</guid>
+      <description>[Score: 88] 無料のAdobe代替ツール開発者が、新たにMicrosoft Office代替のオープンソース版を発表した。 / WordやExcel、PowerPointの機能を再現し、高額なサブスク依存からの脱却を目指す。 / 今後はAutodesk製品など他のサブスク型ソフトウェアのクローンの開発も示唆している。 (Source: Reddit)</description>
+      <pubDate>Sun, 11 Oct 2026 11:08:28 +0000</pubDate>
     </item>
     <item>
       <title>Cloudflare ContainersがAIエージェント向けに刷新。起動が6倍速、ファイルシステムのスナップショット機能など</title>
       <link>https://www.publickey1.jp/blog/26/cloudflare_containersai6.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/cloudflare_containersai6.html</guid>
-      <description>[Score: 85] Cloudflareはエッジでコンテナ型仮想マシンを実行する「Cloudflare Containers」をAIエージェント向けに刷新した。 / 起動速度が従来の6倍となり、ランタイムでのサンドボックス画像選択やスナップショット機能が追加された。 / 大量の実行環境を必要とするAIエージェントの普及に伴うインフラ需要の変化に対応している。 (Source: Publickey)</description>
+      <description>[Score: 88] Cloudflareがエッジで仮想マシンを実行する「Cloudflare Containers」をAIエージェント向けに刷新しました。 / 起動速度が6倍向上したほか、ランタイムでのイメージ選択やスナップショット機能に対応しています。 / 人間向けからAIエージェントによる自動的な開発・実行環境需要への変化に対応した機能強化です。 (Source: Publickey)</description>
       <pubDate>Mon, 05 Oct 2026 15:29:53 +0000</pubDate>
     </item>
     <item>
-      <title>秘密情報の保護はソフトウェアのスケールに合わせて拡大しなければならない</title>
+      <title>AI時代の開発費は「お客さんが自分でやったらいくら？」で決まる</title>
+      <link>https://qiita.com/kotowazaman/items/3a82a47b39bacf7f02d7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/kotowazaman/items/3a82a47b39bacf7f02d7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 85] 生成AIの普及に伴い従来の人月見積もりが通用しなくなる背景を論じています。 / ベンダーが提示できる金額の上限は顧客がAIを使って自力構築する際の費用（EVC）で決まると提言します。 / 顧客価値に基づいた価格設定モデルと開発コスト変化の実態を理論的に解説しています。 (Source: Qiita)</description>
+      <pubDate>Sat, 10 Oct 2026 12:16:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ウクライナのドローン攻撃で「ロシアのGoogle」データセンターが壊滅、ロシアの偽情報ボットトラフィックが一夜にして激減</title>
+      <link>https://www.reddit.com/r/technology/comments/1x38098/russian_disinformation_bot_traffic_nearly/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1x38098/russian_disinformation_bot_traffic_nearly/</guid>
+      <description>[Score: 85] ウクライナによるドローン攻撃がロシア大手ITのデータセンター複数箇所に大きな損害を与えた。 / この影響により、ロシア発の偽情報拡散ボットのトラフィックが一夜にしてほぼ消失。 / 物理的なインフラ破壊がサイバー空間の情報戦能力に直接的影響を与えた重要な事例となった。 (Source: Reddit)</description>
+      <pubDate>Sun, 11 Oct 2026 13:17:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>「AIに指示するだけでひとりでそこそこのゲームが作れてしまいます」ゲームクリエイター・堀井雄二氏がAIを使い30分ほどでゲームを作成し、様々な反応が寄せられる</title>
+      <link>https://togetter.com/li/2756939</link>
+      <guid isPermaLink="false">https://togetter.com/li/2756939</guid>
+      <description>[Score: 85] ゲームクリエイターの堀井雄二氏がClaudeを使用し約30分で試作ゲームを作成したと報告。 / プログラミングやイラスト作成を行わずにAI指示だけで作品が作れる時代の到来を示した。 / 著名クリエイターのAI活用事例として、クリエイター界隈やユーザー間で大きな話題となっている。 (Source: はてなブックマーク)</description>
+      <pubDate>Sun, 11 Oct 2026 12:39:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>マイクロソフト、VS CodeにAIモデルのオーケストレーションで高品質低コストなAIを実現する「HydraFusion」をプレビュー実装</title>
+      <link>https://www.publickey1.jp/blog/26/vs_codeaiaihydrafusion.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/vs_codeaiaihydrafusion.html</guid>
+      <description>[Score: 85] マイクロソフトがVS Codeに新機能「HydraFusion」のプレビューを実装しました。 / 複数ベンダーのAIモデルを連携・調整し、タスクごとに最適な実行パターンを選択します。 / AIの応答品質を維持しつつ開発コストを抑える試みとして注目されています。 (Source: Publickey)</description>
+      <pubDate>Tue, 06 Oct 2026 15:47:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>シークレット保護はソフトウェアの拡張に合わせてスケールしなければならない</title>
       <link>https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/</link>
       <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/</guid>
-      <description>[Score: 85] AIエージェントによるコード作成の急増に伴い、秘密情報の漏洩リスクが拡大している。 / GitHubはMicrosoftと共同で、2ミリ秒未満でシークレットを判定するAI分類器を開発。 / プッシュ保護機能を強化することで、非構造化データの秘密情報漏洩を未然に防止する。 (Source: GitHub Blog)</description>
+      <description>[Score: 85] GitHub上のPRの3分の1にAIエージェントが関与し、生成されるコードの急増に伴い機密情報漏洩リスクが増加している。 / Microsoftと共同開発した判定モデルにより、2ミリ秒未満で未構造化シークレットを高速検知する保護機能を導入。 / コード作成の高速化に追従するため、手動対応に頼らない自動化された秘密保護スケールの必要性を提示している。 (Source: GitHub Blog)</description>
       <pubDate>Wed, 07 Oct 2026 17:45:34 +0000</pubDate>
     </item>
     <item>
-      <title>エージェント型AIにおける検証と自己改善：基礎と限界</title>
-      <link>https://arxiv.org/abs/2610.10611</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.10611</guid>
-      <description>[Score: 85] 自律型AIエージェントの検証可能性と自己改善能力に関する基礎理論を展開。 / モデルが自律的に誤りを修正・向上するためのメカニズムと限界を究明。 / 安全性と信頼性が求められる高度なAIシステム構築の指標となる一冊。 (Source: arXiv cs.AI)</description>
-      <pubDate>Sat, 10 Oct 2026 04:00:00 +0000</pubDate>
+      <title>さくらインターネット、GPU専有によりトークン消費量を気にせず定額で利用できる「さくらのAI Engineプライベートエディション」提供開始を発表</title>
+      <link>https://www.publickey1.jp/blog/26/gpuai_engine.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/gpuai_engine.html</guid>
+      <description>[Score: 82] さくらインターネットがGPUを専有して利用できる定額制クラウドサービスを発表。 / 従来の従量課金APIと異なり、トークン消費を気にせず利用できコスト予測が容易になる。 / 基盤構築や運用が不要な専有環境として、機密情報を扱う社内業務や自社サービスの開発に適している。 (Source: Publickey)</description>
+      <pubDate>Thu, 08 Oct 2026 15:49:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>ReviewBench: AIコードレビューのためのオープンベンチマーク</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/</guid>
+      <description>[Score: 82] AIによるコードレビューの普及に伴い、各モデルの精度や特徴を客観的に比較・評価する基準が求められています。 / GitHubは、実際のプルリクエストの多様性を反映したオープンベンチマーク「ReviewBench」を公開しました。 / 問題の重要度やカテゴリ別の評価が可能であり、開発ワークフローに最適なAIレビューエージェントの選定や改善に寄与します。 (Source: GitHub Blog)</description>
+      <pubDate>Mon, 05 Oct 2026 15:59:40 +0000</pubDate>
     </item>
     <item>
       <title>Microsoft セキュリティ、これをやってください！～ 実践ベストプラクティス</title>
       <link>https://qiita.com/carol0226/items/bdb16dbd5c16a2c43ad5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/carol0226/items/bdb16dbd5c16a2c43ad5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 83] Microsoft Entra IDを中心としたセキュリティ対策の実践ベストプラクティスを解説。 / パスワードレスな認証手法であるパスキーの導入を筆頭に、多角的なセキュリティ強化手順を紹介している。 / 最新の攻撃傾向やAIエージェントによる新たな脅威にも配慮した運用設計の重要性を提示した。 (Source: Qiita)</description>
+      <description>[Score: 80] 相次ぐサイバー攻撃に対抗するためのMicrosoft環境におけるセキュリティ対策を解説しています。 / フィッシング耐性のあるパスキー導入から特権管理（PIM）までの推奨手順を提示しています。 / Microsoft Entra IDを活用して組織や個人の安全性を高める実践的なロードマップです。 (Source: Qiita)</description>
       <pubDate>Sat, 10 Oct 2026 07:41:11 +0000</pubDate>
     </item>
     <item>
-      <title>判断特化型GraphRAGをJevを使って構築してみた（ベクトル未使用）</title>
-      <link>https://qiita.com/kikuziro/items/6191b5ad83520d181f38?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/kikuziro/items/6191b5ad83520d181f38?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 82] ベクトルDBやエンベディングを使わず、判断特化型モデルJevを利用したGraphRAGの構築事例。 / 「はい/いいえ」の確からしさ判定をJevに任せることで、LLM呼び出しコストとブレを削減している。 / 名探偵コナンのデータを題材に、条件分岐による効率的な知識グラフ検索を実現した。 (Source: Qiita)</description>
-      <pubDate>Thu, 08 Oct 2026 17:49:14 +0000</pubDate>
+      <title>証券口座パスキーの安全性を高めよ！”物理キー”を本格導入した話</title>
+      <link>https://toruoka.xyz/202610_security_key/</link>
+      <guid isPermaLink="false">https://toruoka.xyz/202610_security_key/</guid>
+      <description>[Score: 80] 証券口座のセキュリティを極限まで高めるため、パスキーに加えて物理セキュリティキーを導入した体験談。 / フィッシング詐欺やアカウント乗っ取りリスクに対する最も強固な防御策として機能。 / 資産を守るための高度な認証技術の具体的な導入手順と活用法が解説されている。 (Source: はてなブックマーク)</description>
+      <pubDate>Sun, 11 Oct 2026 12:13:54 +0000</pubDate>
     </item>
     <item>
-      <title>ツール利用エージェントのためのエージェント制御型忘却：実践における可逆的なコンテキストキュレーション</title>
-      <link>https://arxiv.org/abs/2610.10590</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.10590</guid>
-      <description>[Score: 82] ツール利用AIエージェント向けに可逆的なコンテキスト管理手法を提案。 / エージェント自身がコンテキストの忘却と復元を自律的に制御。 / コンテキスト長制限の緩和と長期的タスクの実行精度向上を実現。 (Source: arXiv cs.AI)</description>
-      <pubDate>Sat, 10 Oct 2026 04:00:00 +0000</pubDate>
+      <title>GPU不要で驚きの精度。リアルタイム多言語文字起こしツール「hayamimi」使ってみましたー。｜ゆいまる‐IT界隈以外でAIを使いまくる2005年生まれ</title>
+      <link>https://note.com/humble_bobcat51/n/n64602c64db6c</link>
+      <guid isPermaLink="false">https://note.com/humble_bobcat51/n/n64602c64db6c</guid>
+      <description>[Score: 80] CPUのみで高速・高精度に多言語文字起こしと翻訳を行えるオープンソースツール「hayamimi」の解説。 / 量子化モデルと軽量エンジンを採用することで高価なGPUを必要とせずノートPC等で完全ローカル動作可能。 / ライブ字幕や話者識別にも対応し、プライバシー保護や低スペック環境での活用に適している。 (Source: はてなブックマーク)</description>
+      <pubDate>Sun, 11 Oct 2026 08:37:11 +0000</pubDate>
     </item>
     <item>
-      <title>Nixが私のデバッガの半分を書いてくれた</title>
-      <link>https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger</link>
-      <guid isPermaLink="false">https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger</guid>
-      <description>[Score: 80] 決定論的VM「Rewind VM」におけるレース条件検出用デバッガの開発事例を紹介。 / デバッガに必要な依存関係・ソース・デバッグシンボルの管理がNixの導出（derivation）概念と完全に一致することを発見。 / Nixの持つエコシステムを活用することでデバッガ構築を大幅に省力化・効率化した構想を解説。 (Source: Hacker News)</description>
-      <pubDate>Fri, 09 Oct 2026 07:29:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>DuckDB 2.0が高速化された理由</title>
-      <link>https://motherduck.com/blog/why-duckdb-20-is-faster/</link>
-      <guid isPermaLink="false">https://motherduck.com/blog/why-duckdb-20-is-faster/</guid>
-      <description>[Score: 80] DuckDB 2.0のアルファ版が登場し、主要な新機能や高速化の仕組みが検証されています。 / 特に非同期I/Oの導入により、S3上の大規模Parquetファイルの読み込み速度が大幅に改善されています。 / 高速化の恩恵を最大限に受けるには、データの構造やモデリングの理解が重要です。 (Source: Hacker News)</description>
-      <pubDate>Sat, 10 Oct 2026 18:08:49 +0000</pubDate>
+      <title>FDE（フォワードデプロイドエンジニアリング）によって開発されたAIエージェントの7割は使われず、FDEの名前で単なるコンサルティングが販売されるようになる危険が高まるとガートナーが予測</title>
+      <link>https://www.publickey1.jp/blog/26/fdeai7fde.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/fdeai7fde.html</guid>
+      <description>[Score: 80] ガートナーはFDE手法で構築されたAIエージェントの7割が2028年までに放棄されると予測しました。 / 多くのベンダーがFDEの名称を単なるシステム導入やコンサル業務のラベルとして乱用していると指摘しています。 / 企業のAIエージェント活用における実効性とベンダー選定の課題を警告しています。 (Source: Publickey)</description>
+      <pubDate>Tue, 06 Oct 2026 15:43:31 +0000</pubDate>
     </item>
     <item>
       <title>攻撃者はWebアプリのどこを狙う？ 初心者でも今すぐできるセキュリティチェックリスト</title>
       <link>https://qiita.com/Koukyosyumei/items/8aaa44ff15a3b404fd8b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/Koukyosyumei/items/8aaa44ff15a3b404fd8b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] Webアプリケーションの攻撃者が最初に行う偵察手法や注目ポイントを解説した記事。 / 設定ファイルの露出確認など初心者でも簡単に実践できるセキュリティチェック手順を紹介している。 / ローカルやステージング環境で安全にテストと対策を行うための具体的な方法をまとめている。 (Source: Qiita)</description>
+      <description>[Score: 78] Webアプリケーションへの攻撃者が最初に行う偵察手法と注目ポイントを解説しています。 / .envや.gitなどの重要な設定ファイル漏洩の有無を確認する方法を具体的に示しています。 / 専門知識がなくても自分のWebサービスで実践できるセキュリティチェックリストを掲載しています。 (Source: Qiita)</description>
       <pubDate>Thu, 08 Oct 2026 22:11:35 +0000</pubDate>
     </item>
     <item>
-      <title>Google Chrome、同意なしで4GBのローカルAIモデルをダウンロードさせている | ギズモード・ジャパン</title>
-      <link>https://www.gizmodo.jp/article/2610-google-chrome-gemini-nano-4gb-model/</link>
-      <guid isPermaLink="false">https://www.gizmodo.jp/article/2610-google-chrome-gemini-nano-4gb-model/</guid>
-      <description>[Score: 80] Google Chromeがユーザーに事前同意を得ず、約4GBのローカルAIモデル（Gemini Nano）を自動保存していることが判明。 / ローカル動作により低コストかつ高速でプライバシーに配慮した生成AI体験の提供を目的としている。 / 一方で無断での大容量ストレージ消費や、実験的機能の有効化に伴うセキュリティ懸念について物議を醸している。 (Source: はてなブックマーク)</description>
-      <pubDate>Sat, 10 Oct 2026 22:12:05 +0000</pubDate>
+      <title>ライセンスレイヤー — 足元の利用規約を書き換えられるのは誰か？</title>
+      <link>https://dev.to/goodpa/the-license-layer-or-who-can-rewrite-the-terms-underneath-you-47a7</link>
+      <guid isPermaLink="false">https://dev.to/goodpa/the-license-layer-or-who-can-rewrite-the-terms-underneath-you-47a7</guid>
+      <description>[Score: 78] ソフトウェアスタックにおけるライセンス規約の変更リスクについて論じた考察記事です。 / Bitwardenのデュアルライセンス化やmacOSのUnix認証削除などの最近の事例を挙げています。 / 自分が所有・コントロールできないライセンス層こそが最大の依存リスクになり得ると警告します。 (Source: Dev.to)</description>
+      <pubDate>Mon, 12 Oct 2026 01:01:32 +0000</pubDate>
     </item>
     <item>
-      <title>ReviewBench：AIコードレビューのためのオープンベンチマーク</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/</guid>
-      <description>[Score: 80] AIコードレビューエージェントの性能を公平かつ正確に比較する「ReviewBench」を公開。 / 実際のPRデータに基づき、問題の検出率や深刻度ごとの精度を多角的に評価可能。 / AIコードレビューツールを開発・導入するチームに対し、信頼性の高いオフライン評価を提供する。 (Source: GitHub Blog)</description>
-      <pubDate>Mon, 05 Oct 2026 15:59:40 +0000</pubDate>
+      <title>GitHub Actionsでよくある3つの『見えない』脆弱性を、自前の静的解析で検出してみた</title>
+      <link>https://qiita.com/vakoya_village/items/f7a457e6f51ad9c8aa4c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/vakoya_village/items/f7a457e6f51ad9c8aa4c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 75] GitHub Actionsのワークフローに潜む見落とされがちなセキュリティリスクを解説しています。 / permissions未設定など権限過剰のリスクを検出する自作の静的解析ツールを紹介しています。 / 解析ロジックの実装例とともに静的チェックで捉えきれない制限事項についても解説しています。 (Source: Qiita)</description>
+      <pubDate>Sat, 10 Oct 2026 04:26:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>バグバウンティ研究者はどのように調査対象の機能を選ぶのか</title>
+      <link>https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/</link>
+      <guid isPermaLink="false">https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/</guid>
+      <description>[Score: 75] GitHubのバグバウンティプログラムにおいて高品質な成果を上げるセキュリティ研究者の取り組みを紹介。 / AI機能の急速な拡大を受け、報告件数ではなく深刻度や品質に応じた報酬体系とVIP制度へと改定。 / 新旧の攻撃面に対するセキュリティ研究者との強力なパートナーシップがプラットフォームの安全を支えている。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 08 Oct 2026 17:02:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>2025年10月から2026年10月までのMozcに対する主な変更</title>
+      <link>https://zenn.dev/komatsuh/articles/komatsuh_mozc_updates_from_2025_10</link>
+      <guid isPermaLink="false">https://zenn.dev/komatsuh/articles/komatsuh_mozc_updates_from_2025_10</guid>
+      <description>[Score: 72] 日本語入力ソフトMozcが約12年ぶりにメジャーバージョン3へ更新されました。 / ビルドシステムのBazel完全移行やARM対応などコードベースの改修が行われました。 / 辞書データ更新やダークテーマ対応、ユーザー辞書の優先順位調整などが実施されています。 (Source: Zenn)</description>
+      <pubDate>Sat, 10 Oct 2026 14:30:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
