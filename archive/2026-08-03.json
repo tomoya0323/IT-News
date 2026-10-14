@@ -1,0 +1,765 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-08-03T08:00:54.146441+09:00",
+  "total_count": 43,
+  "success_count": 43,
+  "error_count": 0,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "GitHubにスタック型プルリクエストが登場。gh stackでPRを分割して積み上げよう",
+      "url": "https://zenn.dev/ubie_dev/articles/gh-stack-introduction",
+      "source": "Zenn",
+      "published": "2026-07-31T13:33:10+00:00",
+      "summary": "GitHubに新導入された、プルリクエストを細かく分割して数珠つなぎに管理できる「スタック型プルリクエスト」の紹介。\nAIエージェントの普及に伴い肥大化しがちなPRを、意味のある単位に分割してレビューしやすくする背景を解説。\n新機能の `gh stack` コマンドを使用することで、依存関係のある複数PRの管理や更新の反映が容易になる。",
+      "tags": [
+        "GitHub",
+        "Git",
+        "PullRequest"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 90,
+      "score_reason": "開発ワークフローにおいて長年の課題だった複数PRの依存関係管理を、GitHub公式が強力にサポートする極めて重要な新機能であるため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "Windowsユーザーは「ホテルのWi-Fiは使うな」マイクロソフトが緊急警告",
+      "url": "https://forbesjapan.com/articles/detail/102130",
+      "source": "はてなブックマーク",
+      "published": "2026-08-02T10:15:14+00:00",
+      "summary": "マイクロソフトは、ホテルのWi-Fiなどのゲストネットワークを介したサイバー攻撃「CaptiveCrunch」について警告した。\nロシアの脅威アクター「Storm-2945」がAIを悪用し、出張者を標的に認証情報の窃取やマルウェア配信を行っている。\n対策として、公共Wi-Fiの利用を避け、VPNの使用やモバイルデータ通信の活用が推奨されている。",
+      "tags": [
+        "サイバーセキュリティ",
+        "Wi-Fi",
+        "マイクロソフト"
+      ],
+      "category": "セキュリティ",
+      "score": 90,
+      "score_reason": "多くのビジネスパーソンに直接影響する重大なセキュリティ脅威であり、AIが悪用されている点も含めて極めて重要度が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ＡＩで生成した画像や動画、ＥＵが識別できる表示義務づけ…違反なら最大２７億円か年売上高３％の制裁金",
+      "url": "https://www.yomiuri.co.jp/economy/20260801-GYT1T00222/",
+      "source": "はてなブックマーク",
+      "published": "2026-08-01T11:23:54+00:00",
+      "summary": "EUはAIで生成・加工された画像や動画、音声に対し、AIによるものであることを示す表示を事業者に義務づけ。\n2024年8月に発効した「AI法」に基づく規制で、違反した場合は最大27億円または年間売上高の3%の制裁金。\n生成AIサービスの開発者や利用事業者が対象となり、先端モデルの一般公開制限を要請する方針も示された。",
+      "tags": [
+        "AI規制",
+        "EU AI法",
+        "生成AI"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 90,
+      "score_reason": "生成AIの利用に対する法的規制が本格化し、違反時の巨額な制裁金を含め、グローバルなITビジネスに極めて大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Google Cloud、AIが自律的にコードの脆弱性検出からサンドボックス内でのリスク検証、修正までを自動実行。「CodeMender」プレビュー公開",
+      "url": "https://www.publickey1.jp/blog/26/google_cloudaicodemender.html",
+      "source": "Publickey",
+      "published": "2026-07-28T15:54:06+00:00",
+      "summary": "Google Cloudは、コードの脆弱性検出からリスク検証、修正までを自律的に実行するAIエージェント「CodeMender」のプレビューを公開した。\n検出した脆弱性が実際にリスクをもたらすかを検証するため、サンドボックス内でエクスプロイトコードを自動作成・実行して誤検知を排除する。\nC/C++、Go、Java、Pythonなどの言語に対応し、修正コードの自動生成までを一貫して行う。",
+      "tags": [
+        "Google Cloud",
+        "CodeMender",
+        "セキュリティ"
+      ],
+      "category": "セキュリティ",
+      "score": 90,
+      "score_reason": "脆弱性の検出だけでなく、サンドボックスでの実証と修正コード生成までを自律的に行うAIエージェントは、セキュリティ運用の自動化を大きく進展させるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "npmとGitHub Actionsにおけるサプライチェーン攻撃の阻止",
+      "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+      "source": "GitHub Blog",
+      "published": "2026-07-28T16:00:00+00:00",
+      "summary": "npmやGitHub Actionsを標的としたサプライチェーン攻撃を阻止するための、GitHubの最新のセキュリティ対策状況を報告している。\n攻撃者はパッケージリポジトリやCI/CDの脆弱性を突いてマルウェアを拡散し、認証情報を窃取しようとする。\nGitHubは攻撃チェーンの主要なリンクを遮断するため、コミュニティと連携してnpmおよびGitHub Actionsに複数のセキュリティ改善を導入した。",
+      "tags": [
+        "セキュリティ",
+        "npm",
+        "GitHub Actions"
+      ],
+      "category": "セキュリティ",
+      "score": 90,
+      "score_reason": "開発エコシステム全体に甚大な影響を及ぼすサプライチェーン攻撃に対し、主要プラットフォームが実施した具体的な防御策であり、業界全体のセキュリティ向上に直結します。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIのアウトプットをそのまま出すだけの人にならないために",
+      "url": "https://qiita.com/ktdatascience/items/8d2dace07c9c7a9d0453?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-01T06:25:03+00:00",
+      "summary": "AIエージェントの普及により、言語化・構造化できる定型業務が自動化される現状を分析。\nAIの出力をそのまま流すだけの「人間ルーター」にならず、介在価値を示す必要性を主張。\nコンテキストに乗らない「人間の仕事」の領域を定義し、今後のエンジニアのあり方を提示。",
+      "tags": [
+        "AIエージェント",
+        "キャリアパス",
+        "Claude Code"
+      ],
+      "category": "AI・機械学習",
+      "score": 88,
+      "score_reason": "AIエージェント時代におけるエンジニアの役割変化と生存戦略を鋭く考察しており、業界全体への啓発性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub Copilotアプリにおけるスタックセッションとプルリクエスト",
+      "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
+      "source": "GitHub Blog",
+      "published": "2026-07-30T17:30:24+00:00",
+      "summary": "GitHub Copilotアプリに搭載された、同一リポジトリ内で複数のタスクを連鎖的に処理する「スタックセッション」機能を紹介している。\nReact 15などの極めて古い依存関係を持つ個人アプリのフロントエンド近代化を、AIを活用して効率的に進める事例を解説している。\nこれまで手作業では困難だった大規模なリファクタリングや依存関係の更新が、AIの支援により容易になることを示している。",
+      "tags": [
+        "GitHub Copilot",
+        "AIアシスタント",
+        "リファクタリング"
+      ],
+      "category": "AI・機械学習",
+      "score": 88,
+      "score_reason": "開発者の生産性を劇的に向上させるGitHub Copilotの強力な新機能と、レガシーコード刷新における具体的なAI活用事例を示しており影響度が大きいです。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "検証！Claude Codeのサブエージェント並列はお得なのか",
+      "url": "https://qiita.com/tamashiro_nobuyuki/items/ff9004b66b7761c4d34c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-07-31T01:46:31+00:00",
+      "summary": "Claude Codeのサブエージェント（Agentツール）を並列実行した際の効果を実測検証。\n並列実行により、所要時間が半分以下になり、トークン消費量も大幅に削減されることを確認。\nキャッシュの共有効果により、独立した複数タスクはまとめて並列処理する方が効率的と結論。",
+      "tags": [
+        "Claude Code",
+        "AIエージェント",
+        "コスト最適化"
+      ],
+      "category": "AI・機械学習",
+      "score": 86,
+      "score_reason": "注目度の高いClaude Codeの実用的なコスト・パフォーマンス検証であり、開発者にとって即座に役立つ知見であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "カーパシーのペリカン (Karpathy’s Pelican)",
+      "url": "https://twitter.com/karpathy/status/2083749667410727319",
+      "source": "Hacker News",
+      "published": "2026-08-02T04:05:56+00:00",
+      "hn_score": 367,
+      "hn_comments": 293,
+      "summary": "Andrej Karpathy氏がLLM（Opus 5）に「指輪物語」の第1段落と100万トークンの予算を与え、3D JSレンダリングコードの作成を指示。\nLLMは2時間かけて5500行のコードを生成し、ストーリーを3D空間に配置・アニメーション化することに成功した。\nLLMは根気強くカスタムワールドを構築できるが、自身の成果物を効率的に視覚評価できないという弱点も浮き彫りになった。",
+      "tags": [
+        "LLM",
+        "3Dグラフィックス",
+        "Andrej Karpathy"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "LLMを用いた自律的な3D空間生成の可能性と、視覚的フィードバックの欠如という現在の限界を著名な研究者が示した興味深い実験であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Kimi K3を441GBに枝刈りして、Mac Studio 1台で動かした",
+      "url": "https://zenn.dev/hellohazime/articles/kimi_k3_reap640_512gb_mac",
+      "source": "Zenn",
+      "published": "2026-08-02T00:43:07+00:00",
+      "summary": "最新のLLM「Kimi K3」を枝刈りし、Mac Studio（M3 Ultra、512GB RAM）1台で動作させた検証記録。\n多言語やコーディングに関係ないエキスパートを削減することで、モデルサイズを441GBに収めることに成功。\nKimi Code CLIと連携させ、SWE-Lancerの実タスク8本中5本を正解する実用的な性能を確認した。",
+      "tags": [
+        "LLM",
+        "MacStudio",
+        "KimiK3"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "超巨大LLMをローカル環境で動作させるための実践的な枝刈り手法と、エージェントとしての高い実用性を実証しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "メテオフォール開発",
+      "url": "https://zenn.dev/hisaju01/books/meteorfall-development",
+      "source": "Zenn",
+      "published": "2026-07-31T06:16:08+00:00",
+      "summary": "AIエージェントを活用した新しい開発手法「メテオフォール開発」の解説書。\nAIへの依頼設計からチーム運用、失敗パターンと対策までを体系的に網羅。\nプログラミングスクール運営者による、実践的な開発プロセスと品質管理の知見を提供。",
+      "tags": [
+        "AIエージェント",
+        "システム開発",
+        "ChatGPT"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "AIエージェントを組み込んだ新しい開発プロセスの体系化は、今後のソフトウェア開発手法に大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "日本におけるクラウドネイティブコミュニティの開発者数が約100万人に、CNCFが調査結果を発表",
+      "url": "https://www.publickey1.jp/blog/26/100cncf.html",
+      "source": "Publickey",
+      "published": "2026-08-02T15:28:02+00:00",
+      "summary": "CNCFとSlashDataが、日本におけるクラウドネイティブ開発の現状に関する調査レポートを発表。\n日本のクラウドネイティブコミュニティにおける開発者数が約95万人（約100万人）に達したことが判明。\n日本でのクラウドネイティブ技術の導入は過去2年間で大幅に増加しており、業界全体のトレンドを反映。",
+      "tags": [
+        "クラウドネイティブ",
+        "CNCF",
+        "開発者コミュニティ"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "日本国内におけるクラウドネイティブ技術の普及規模が定量的に示され、今後のインフラ技術の主流化を裏付ける重要なデータであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "JetBrains、AIが少ないトークンでコンテキストを取得しやすく、よりよいコード生成を可能にする「JetBrains Context」発表",
+      "url": "https://www.publickey1.jp/blog/26/jetbrainsaijetbrains_context.html",
+      "source": "Publickey",
+      "published": "2026-07-30T17:48:59+00:00",
+      "summary": "JetBrainsは、AIエージェント向けに適切なコードコンテキストを提供する新サービス「JetBrains Context」を発表した。\nリポジトリを事前に読み込んでインデックスを構築し、質問の意図を理解するセマンティック検索をAIに提供する。\nこれにより、AIエージェントは少ないトークンで効率的にコンテキストを取得でき、コード生成の品質向上とコスト削減が期待できる。",
+      "tags": [
+        "JetBrains",
+        "AIエージェント",
+        "コード生成"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "開発者向けAIエージェントのコンテキスト理解を効率化し、コード生成の精度向上とコスト削減に直接寄与する実用性の高い技術であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "途中で止めるな：メモリ速度でソースコードをケースフォールディングする",
+      "url": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
+      "source": "GitHub Blog",
+      "published": "2026-07-31T16:00:00+00:00",
+      "summary": "GitHubのコード検索エンジンにおける、大文字小文字を区別しない検索（ケースフォールディング）の高速化手法を紹介している。\n非ASCII文字で早期終了する最適化を削除し、分岐なしでバッファ全体を走査する方が高速であるという逆説的な発見を示した。\nこの成果はRustのクレート「casefold」としてオープンソース化され、大規模テキスト処理の効率化に貢献している。",
+      "tags": [
+        "GitHub",
+        "Rust",
+        "パフォーマンス最適化"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "大規模検索エンジンにおける極限のパフォーマンス最適化手法を解説しており、オープンソースの成果物も含め技術的新規性と実用性が非常に高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "アトラシアン、AI時代の仕事用ブラウザ「Diaブラウザ」のWindows版リリースへ。ウェイトリストへの登録開始",
+      "url": "https://www.publickey1.jp/blog/26/aidiawindows.html",
+      "source": "Publickey",
+      "published": "2026-08-02T15:56:09+00:00",
+      "summary": "アトラシアンが、AI時代の業務向けブラウザ「Diaブラウザ」のWindows版を今秋リリースすると発表。\n元々は「Arcブラウザ」の開発元が後継として開発していたもので、アトラシアンによる買収を経て開発が継続。\n現在はベータ版の配布希望者に向けたウェイトリストの登録が開始されている。",
+      "tags": [
+        "Diaブラウザ",
+        "Atlassian",
+        "Webブラウザ"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 82,
+      "score_reason": "人気のArcブラウザの後継であり、アトラシアン傘下でAI時代の業務ブラウザとしてWindows版が展開されることは注目度が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "6502プロセッサ上で動作する自己回帰型言語モデル",
+      "url": "https://mattbeton.com/blog/bitnet-6502.html",
+      "source": "Hacker News",
+      "published": "2026-07-31T13:08:30+00:00",
+      "hn_score": 12,
+      "hn_comments": 0,
+      "summary": "1975年発売の8ビットCPU「MOS 6502」を搭載したレトロPC「BBC Micro」上で言語モデルを動作させるプロジェクト。\n25KBのメモリ制限に対応するため、9KBの推論コードと13KBのモデル重み（BitNet）に極限まで軽量化。\nC言語から6502命令へのコンパイルや、音声テープ入力を模したデータ転送など、様々な工夫によりブラウザ上のエミュレータでも動作可能。",
+      "tags": [
+        "レトロPC",
+        "LLM",
+        "エッジAI"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "極めて制限されたレトロハードウェア上でLLMを動作させるという、技術的挑戦と最適化の極致を示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AI フレンドリーな CLI を開発するテクニック",
+      "url": "https://zenn.dev/shunsuke_suzuki/articles/make-cli-ai-friendly",
+      "source": "Zenn",
+      "published": "2026-08-01T01:35:46+00:00",
+      "summary": "AIエージェントがCLIツールを自律的に操作・トラブルシューティングしやすくするための開発手法の紹介。\nWeb Fetchに頼らずにCLI自体からドキュメントを読み込めるコマンドの実装などを提案。\n対話型プロセスの制限や機密情報の出力を防ぐための、AI向けの指示メッセージの埋め込み方法を解説。",
+      "tags": [
+        "CLI",
+        "AIAgent",
+        "OSS"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "AIエージェントによる自動開発時代を見据え、CLIツールをAIに最適化させるための実践的かつ先駆的なアプローチを提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "カリフォルニア州のデータブローカー、8月1日より個人データ削除要請への対応義務化",
+      "url": "https://www.reddit.com/r/technology/comments/1vdrugg/california_data_brokers_must_start_deleting/",
+      "source": "Reddit",
+      "published": "2026-08-02T19:57:31+00:00",
+      "summary": "カリフォルニア州のデータブローカーに対し、消費者からの個人データ削除要請への対応が8月1日から義務付けられる。\nこれは「Delete Act（削除法）」に基づくもので、消費者が一括でデータ削除を要求できる仕組みが導入される。\nデータプライバシーの保護において、全米で最も厳格な規制の一つとなる。",
+      "tags": [
+        "データプライバシー",
+        "カリフォルニア州",
+        "Delete Act"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 80,
+      "score_reason": "個人データの取り扱いに関する法規制が強化され、データビジネスに大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 2,
+      "topic_size": 2
+    },
+    {
+      "title": "大阪・関西万博関連ドメインの一部で起きているドロップキャッチについてまとめてみた - piyolog",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/08/02/165033",
+      "source": "はてなブックマーク",
+      "published": "2026-08-02T09:00:51+00:00",
+      "summary": "大阪・関西万博の関連事業で過去に使用され、運用終了したドメインが第三者に取得された問題を解説。\n一部のドメインでは旧事業と無関係なコンテンツの表示や外部サイトへの転送が確認されている。\n自治体ドメインのドロップキャッチ問題も含め、運用終了後のドメイン管理の重要性を警鐘。",
+      "tags": [
+        "ドロップキャッチ",
+        "ドメイン管理",
+        "大阪・関西万博"
+      ],
+      "category": "セキュリティ",
+      "score": 80,
+      "score_reason": "運用終了後のドメイン管理の不備がもたらすセキュリティリスクと、実際のインシデント事例を詳細にまとめているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "KubernetesはAIを動かすプラットフォームに。横浜でKubeCon＋CloudNativeCon Japan 2026が開幕",
+      "url": "https://www.publickey1.jp/blog/26/kubernetesaikubeconcloudnativecon_japan_2026.html",
+      "source": "Publickey",
+      "published": "2026-07-29T15:02:00+00:00",
+      "summary": "クラウドネイティブ技術の最大級イベント「KubeCon+CloudNativeCon Japan 2026」がパシフィコ横浜で開幕した。\n基調講演では、AIワークロード、特に推論処理の拡大に伴う計算量の急増とそれに伴う課題が指摘された。\nKubernetesが今後の膨大なAIワークロードを支え、AIを動かすための主要なプラットフォームになりつつあることが示された。",
+      "tags": [
+        "Kubernetes",
+        "KubeCon",
+        "AIワークロード"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 80,
+      "score_reason": "クラウドネイティブの標準であるKubernetesがAIインフラとしての役割を急速に強めている業界動向を示す重要なイベントであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Dependabotを飼い慣らす：アップデートのグループ化、頻度の抑制、そしてセキュリティの迅速維持",
+      "url": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
+      "source": "GitHub Blog",
+      "published": "2026-07-29T16:00:00+00:00",
+      "summary": "頻繁なDependabotのプルリクエストによる通知ノイズと開発者の負担を軽減する方法を解説している。\nMicrosoftのオープンソースライブラリの事例を元に、毎日個別に届くPRを月次かつエコシステムごとにグループ化する設定変更を紹介している。\n適切な設定により、開発のメンテナンスコストを下げつつ、重要なセキュリティアップデートを見逃さない環境を構築できる。",
+      "tags": [
+        "Dependabot",
+        "GitHub",
+        "依存関係管理"
+      ],
+      "category": "その他",
+      "score": 80,
+      "score_reason": "多くの開発者が直面するDependabotのノイズ問題を解決する、具体的かつ即座に導入可能な設定ノウハウを提供しており実用性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ハーネスこそがすべて（ほぼ）",
+      "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+      "source": "GitHub Blog",
+      "published": "2026-07-27T18:00:00+00:00",
+      "summary": "AIツールの氾濫に圧倒される中、重要なのは奇抜なプロンプトや新機能ではなく既存の「ハーネス（基盤）」を理解することである。\nGitHub Copilotを例に、CLIやVS Codeなど様々な環境で共通するコアなワークフローを使いこなす重要性を説く。\nツールを増やすのではなく、手元にある開発基盤（ハーネス）を深く理解することが生産性向上の最大の鍵となる。",
+      "tags": [
+        "GitHub Copilot",
+        "AIアシスタント",
+        "生産性向上"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "AIツールの乱立に対する現実的なアプローチとして、既存のGitHub Copilotの基盤（ハーネス）を使いこなすことの重要性と具体的な生産性向上手法を提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Show HN: Kakehashi – Linux ARM上でmacOSバイナリを実行する実験的ユーザ空間レイヤー",
+      "url": "https://github.com/wie-project/kakehashi",
+      "source": "Hacker News",
+      "published": "2026-08-02T16:26:40+00:00",
+      "hn_score": 150,
+      "hn_comments": 36,
+      "summary": "Linux aarch64上でmacOS ARM64バイナリを直接実行するための実験的な翻訳レイヤー「Kakehashi」が公開。\nJITコンパイラを使わず、Mach-Oのロード、libSystemのマップ、BSDシステムコールの変換を行う。\nDockerやUTM環境で動作が検証されており、clangや7-Zip、curlなどのコマンドラインツールが動作する。",
+      "tags": [
+        "macOS",
+        "Linux",
+        "エミュレーション"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 78,
+      "score_reason": "ARMアーキテクチャ間でOSの壁を越えてバイナリを直接実行する試みであり、開発環境のポータビリティ向上に寄与するため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "社内IT推進で「作っても使われない」をゼロにするために、僕が現場で学んだ5つのこと",
+      "url": "https://qiita.com/rira__/items/dab9765ffd6aae8f0c07?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-07-31T11:28:10+00:00",
+      "summary": "社内ITやAIの導入において「使われないシステム」を防ぐための実務的な知見を紹介。\n全体最適を見据えた課題の抽象化や、現場のキーマンを巻き込む重要性を解説。\n技術的な実装よりも、ユーザーの真のニーズやカルチャーの理解が価値を左右すると指摘。",
+      "tags": [
+        "DX",
+        "IT推進",
+        "プロジェクトマネジメント"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 78,
+      "score_reason": "DX推進や社内システム開発における失敗を避けるための実践的なノウハウが詰まっており、多くの企業で有用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "カリフォルニア州在住者はデータブローカーに個人情報の削除を要求可能に：その方法とは",
+      "url": "https://www.reddit.com/r/technology/comments/1vds56z/if_you_live_in_california_you_can_now_tell_data/",
+      "source": "Reddit",
+      "published": "2026-08-02T20:08:49+00:00",
+      "summary": "カリフォルニア州の住民は、データブローカーに対して個人情報の削除を簡単に要求できるようになった。\n新法「Delete Act」の施行に伴い、消費者が自身のプライバシーを守るための具体的な手順が紹介されている。\n個人データの自己決定権を強化する動きとして、他州や他国への波及も期待される。",
+      "tags": [
+        "データプライバシー",
+        "カリフォルニア州",
+        "個人情報保護"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 78,
+      "score_reason": "消費者のプライバシー権利行使に関する実用的なニュースであり、データビジネスへの影響も大きいため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 2,
+      "topic_size": 2
+    },
+    {
+      "title": "ニューヨーク州、Kalshiを「違法な賭博行為」を行っているとして360億ドルの訴訟を提起",
+      "url": "https://www.reddit.com/r/technology/comments/1vdleip/new_york_files_36_billion_lawsuit_against_kalshi/",
+      "source": "Reddit",
+      "published": "2026-08-02T15:45:03+00:00",
+      "summary": "ニューヨーク州が予測市場プラットフォーム「Kalshi」に対し、360億ドルの訴訟を提起した。\n州政府は、Kalshiが提供する金融予測市場が「違法な賭博行為」に該当すると主張している。\nこの訴訟は、予測市場や分散型金融（DeFi）の規制に大きな影響を与える可能性がある。",
+      "tags": [
+        "Kalshi",
+        "予測市場",
+        "規制"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "予測市場の法的地位や今後の規制に大きな影響を与える可能性のある大規模な訴訟であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "クラウドセキュリティ入門 ～安全なクラウド利用のための基礎知識～",
+      "url": "https://speakerdeck.com/lhazy/kuraudosekiyuriteiru-men-an-quan-nakuraudoli-yong-notamenoji-chu-zhi-shi",
+      "source": "はてなブックマーク",
+      "published": "2026-08-02T10:08:24+00:00",
+      "summary": "クラウドを支える技術から実際の攻撃手法までを体系的に解説するスライド資料の紹介。\nインシデント事例や濫用されている手法の解説を通じて、安全なクラウド利用の基礎知識を提供。\nパブリッククラウド特有の脅威やソフトウェアサプライチェーン攻撃への対策なども網羅。",
+      "tags": [
+        "クラウドセキュリティ",
+        "インシデント事例",
+        "セキュリティ対策"
+      ],
+      "category": "セキュリティ",
+      "score": 75,
+      "score_reason": "クラウド利用におけるセキュリティの基礎から実践的な攻撃手法までを体系的に学べる有益な資料であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "MongoDB AtlasからFTDC（フルタイム診断データキャプチャ）を取得する方法",
+      "url": "https://dev.to/zelmario/getting-ftdc-out-of-mongodb-atlas-12mo",
+      "source": "Dev.to",
+      "published": "2026-08-02T22:10:03+00:00",
+      "summary": "MongoDBのパフォーマンス分析に不可欠な詳細診断データ「FTDC」は、マネージドサービスであるMongoDB AtlasのUIからは直接取得できない。\n著者は、AtlasのAdmin API（v1.0）に存在する非公開に近いエンドポイントを利用してFTDCをオンデマンドで取得する回避策を発見した。\n取得にはプログラム用APIキー、プロジェクトID、およびレプリカセット名が必要であり、その具体的な手順を解説している。",
+      "tags": [
+        "MongoDB",
+        "MongoDB Atlas",
+        "パフォーマンスチューニング"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 75,
+      "score_reason": "MongoDB Atlasの制限を回避し、本番環境のトラブルシューティングに極めて重要な診断データを取得する実用的なテクニックを提供しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "269個のShopifyストアでLighthouseを実行した結果、モバイルのスコア中央値は48だった",
+      "url": "https://dev.to/bkocdur/i-ran-lighthouse-on-269-shopify-stores-the-median-mobile-score-was-48-3p3e",
+      "source": "Dev.to",
+      "published": "2026-08-02T22:09:29+00:00",
+      "summary": "269のShopifyストアでLighthouseを実行した結果、モバイルスコアの中央値は48と低いことが判明した。\n大手ブランドほどスコアが低く、主な原因はアプリスクリプトの重複やレンダリングをブロックするCSS/JSなどである。\nレイアウトの安定性（CLS）は良好であり、真の課題はメイン画像やメインスレッドをブロックする読み込み速度にある。",
+      "tags": [
+        "Shopify",
+        "Lighthouse",
+        "パフォーマンス"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 75,
+      "score_reason": "実際のECサイトにおけるパフォーマンス測定データに基づき、具体的なボトルネックと改善点を提示しているため実用性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "開発者がツールに愛着を持つのは、ツールが信頼をコード化しているから",
+      "url": "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/",
+      "source": "Hacker News",
+      "published": "2026-07-29T14:25:54+00:00",
+      "hn_score": 114,
+      "hn_comments": 55,
+      "summary": "開発者がVimやEmacsなどのツールに強い愛着を持つのは、それらが手の一部のように馴染み、信頼関係が築かれているためである。\nツールを自分好みにカスタマイズし、習熟することは、開発者の生産性とコードの品質に大きな恩恵をもたらす。\n自然言語で指示するAIエージェント時代において、開発者がツールに寄せる「信頼」と「精度」がどう変化するかが問われている。",
+      "tags": [
+        "開発ツール",
+        "生産性",
+        "AIエージェント"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 72,
+      "score_reason": "AI時代における開発者とツールの関係性の変化について、信頼という観点から深く考察しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ポッドキャストクライアントって自作できるのを知っていましたか？",
+      "url": "https://qiita.com/i-icc/items/f505055cbc13f03b1fd7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-02T09:50:28+00:00",
+      "summary": "既存の配信アプリに満足できないため、自分好みのポッドキャストクライアントを自作するプロセスを紹介。\nポッドキャストがRSS（XML）を介して音声ファイルを配信する仕組みであることを解説。\nAIを活用することで、個人向けのカスタムアプリ開発のハードルが下がっていることを示す。",
+      "tags": [
+        "ポッドキャスト",
+        "RSS",
+        "個人開発"
+      ],
+      "category": "モバイル",
+      "score": 72,
+      "score_reason": "AIを活用した個人開発の具体例として、ポッドキャストの仕組みの解説も含めて実用的な内容になっているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "人々のデジタル分身を作成するAIメッセージングプラットフォーム「Kikar」を開発",
+      "url": "https://dev.to/bhavya4907/i-built-kikar-an-ai-messaging-platform-that-creates-digital-versions-of-people-52i9",
+      "source": "Dev.to",
+      "published": "2026-08-02T22:14:14+00:00",
+      "summary": "著者はユーザーの会話スタイルを学習し、デジタル分身としてチャットができるAIメッセージングプラットフォーム「Kikar」を開発した。\nNext.jsやSupabase、Groq APIなどのモダンな技術スタックを採用し、単なるチャットボットではない進化するAI人格の構築を目指した。\n開発を通じてAI技術だけでなく、認証やデータベース、API連携などWebアプリケーション全体の統合プロセスを深く学んだと述べている。",
+      "tags": [
+        "Next.js",
+        "デジタルツイン",
+        "Groq"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 72,
+      "score_reason": "個人開発においてLLM APIとモダンなWeb技術を組み合わせ、実用的なデジタルツインプラットフォームを構築した興味深い事例であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ローカルタスク管理アプリを設計してみた",
+      "url": "https://zenn.dev/headwaters/articles/76f20490b76952",
+      "source": "Zenn",
+      "published": "2026-07-31T23:36:46+00:00",
+      "summary": "Claude Codeの音声入力機能（/voice）を活用した、ローカル完結型のタスク管理アプリの設計事例。\n音声で入力した内容をAIがテキスト整形し、Markdownファイルに自動で追加・更新する仕組みを構築。\nセキュリティ対策として、Claude Codeが実行できるコマンドを許可リスト方式で制限する設定も導入。",
+      "tags": [
+        "ClaudeCode",
+        "タスク管理",
+        "Python"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "Claude Codeの音声機能とローカルスクリプトを組み合わせ、実用的かつ安全なタスク管理環境を構築する具体的な設計を示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "プラットフォームの劣化（Enshittification）は破綻した経済数学に依存している",
+      "url": "https://www.reddit.com/r/technology/comments/1vdirp1/enshittification_relies_on_broken_economic_math/",
+      "source": "Reddit",
+      "published": "2026-08-02T13:57:14+00:00",
+      "summary": "インターネットプラットフォームが徐々に劣化していく現象「Enshittification」について分析した記事。\nこの現象は、持続不可能な成長モデルや破綻した経済的計算に基づいていると指摘されている。\nユーザーやビジネスを囲い込んだ後に収益化を急ぐ、現代のテック企業のビジネスモデルの限界を示唆している。",
+      "tags": [
+        "Enshittification",
+        "ビジネスモデル",
+        "プラットフォーム"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 70,
+      "score_reason": "テック企業のビジネスモデルの構造的欠陥を指摘し、今後のインターネットエコシステムを考える上で重要な視点を提供しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "『エンジニアのための自己管理入門』で自身の”行動を設計”する - Magnolia Tech",
+      "url": "https://blog.magnolia.tech/entry/2026/08/02/133343",
+      "source": "はてなブックマーク",
+      "published": "2026-08-02T04:43:57+00:00",
+      "summary": "書籍『エンジニアのための自己管理入門』を読み、自身の行動設計や自己管理について考察した書評。\nモチベーションやタスク、タイムマネジメントなど、エンジニアに必要な幅広い管理手法を体系的に紹介。\n「認知の余白」や「時間の余白」といった概念を通じ、日々の業務に追われるエンジニアが立ち止まるきっかけを提供。",
+      "tags": [
+        "自己管理",
+        "エンジニアキャリア",
+        "書評"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "エンジニアの生産性向上やキャリア形成に役立つ自己管理手法を体系的に紹介しており、実用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "30日間で7つの放置ゲームを作って学んだ、インクリメンタル設計の本質",
+      "url": "https://dev.to/aguier/i-built-7-idle-games-in-30-days-what-i-learned-about-incremental-design-5d3f",
+      "source": "Dev.to",
+      "published": "2026-08-02T22:23:08+00:00",
+      "summary": "著者はAI支援ツールを活用し、30日間で依存関係のない軽量な放置ゲームを7つ開発した。\n放置ゲームの本質はシンプルなループ処理にあり、退屈なクリックゲームと中毒性のあるゲームの差は数値の演出やテーマ設定にあると指摘。\n5分間のセッションが50時間の単調な作業に勝る理由など、インクリメンタルなゲーム設計の奥深さを解説している。",
+      "tags": [
+        "ゲーム開発",
+        "JavaScript",
+        "AI開発支援"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "AIを活用した個人開発の好例であり、シンプルなゲーム設計におけるユーザー体験の重要性を実践的に解説しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "FamilyWildを使用してホスト間でX11サーバーを共有する",
+      "url": "https://dobrowolski.dev/article/sharing-an-x-server-across-hosts-with-familywild/",
+      "source": "Hacker News",
+      "published": "2026-08-02T20:26:47+00:00",
+      "hn_score": 21,
+      "hn_comments": 5,
+      "summary": "コンテナやSSH経由でX11アプリを実行する際の認証エラーの原因を解説する記事。\n.Xauthorityファイル内のクッキーが特定のホスト名に紐づいていることが原因である。\nワイルドカードであるFamilyWild（0xffff）に書き換えることで、任意のホストから接続可能にする解決策を提示している。",
+      "tags": [
+        "X11",
+        "Linux",
+        "Docker"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 65,
+      "score_reason": "コンテナやリモート環境でのGUIアプリケーション実行における、古典的かつ実践的な認証トラブルの解決策を提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "【開催！】2026 Japan AWS Jr. Champions 真夏のQiitaリレー",
+      "url": "https://qiita.com/ys-yoshida/items/6f7c7f85155a993e2c86?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-07-31T06:59:06+00:00",
+      "summary": "114名選出された「2026 Japan AWS Jr. Champions」によるQiitaリレー連載の開催告知。\n若手エンジニアがAWSを学び、周囲に影響を与えるための日本独自の認定プログラムの一環。\n8月1日からほぼ毎日、様々なAWSサービスに関する技術記事が投稿される予定。",
+      "tags": [
+        "AWS",
+        "Qiita",
+        "コミュニティ"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 65,
+      "score_reason": "若手AWSエンジニアのコミュニティ活動の告知であり、技術的な新規性は低いが、学習リソースとしての価値があるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "メモ作成と個人知識管理（PKM）",
+      "url": "https://unattributed.cc/note-taking-and-personal-knowledge-management",
+      "source": "Hacker News",
+      "published": "2026-07-28T14:21:10+00:00",
+      "hn_score": 89,
+      "hn_comments": 25,
+      "summary": "Obsidianなどの個人知識管理（PKM）ツールが世の中の知識向上にどう貢献したかという問いに対する考察。\nツール単体の社会貢献度を測定することは困難であり、EmacsやVimのように長年愛用されるツールと同様の視点が必要。\nツールは個人の思考を整理するためのものであり、その価値は公開された成果物だけで測れるものではないと主張。",
+      "tags": [
+        "生産性ツール",
+        "ナレッジマネジメント",
+        "Obsidian"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "開発技術そのものではなく、生産性ツールや知識管理に関する概念的な議論であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Show HN: Framework 12のヒンジ音を「きしむドア」の音にするツール",
+      "url": "https://github.com/ArcaEge/creakwork12",
+      "source": "Hacker News",
+      "published": "2026-08-02T20:33:01+00:00",
+      "hn_score": 30,
+      "hn_comments": 2,
+      "summary": "ノートPC「Framework 12」のヒンジの動きに合わせて、きしむ木製のドアのような音を鳴らすジョークツール。\nFramework 12のヒンジの硬さに最適化されたフィルタリング処理が施されており、Rustで開発されている。\nFedoraでビルドされており、加速度センサーなどのハードウェア情報を利用して音を制御している。",
+      "tags": [
+        "Framework Laptop",
+        "ジョークツール",
+        "Rust"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 55,
+      "score_reason": "実用性は皆無だが、ハードウェアのセンサーとRustを組み合わせたユニークでユーモアのあるハックであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ユーチューバーのハンク・グリーン氏、自身のAI利用は「不健全」と語る",
+      "url": "https://www.reddit.com/r/technology/comments/1vdguq8/youtuber_hank_green_says_his_ai_usage_is_not/",
+      "source": "Reddit",
+      "published": "2026-08-02T12:29:13+00:00",
+      "summary": "人気YouTuberのハンク・グリーン氏が、自身のAIツールの使用頻度や依存度について「不健全」であると懸念を表明した。\nクリエイター活動におけるAIの急速な普及と、それに伴う精神的・倫理的な課題を浮き彫りにしている。\nAI技術が個人の生産性や創造性に与える影響について、コミュニティ内で議論を呼んでいる。",
+      "tags": [
+        "AI",
+        "クリエイター",
+        "メンタルヘルス"
+      ],
+      "category": "その他",
+      "score": 55,
+      "score_reason": "著名クリエイターによるAI利用への警鐘であり、AIの倫理的・心理的影響に関する議論を促すものであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "クライアントは提案書を読んだか？ 開封確認が教えてくれることと、絶対にやってはいけない1つのこと",
+      "url": "https://dev.to/blueticks/did-the-client-read-my-proposal-what-an-open-tells-you-and-the-one-thing-you-must-never-do-with-it-13f8",
+      "source": "Dev.to",
+      "published": "2026-08-02T22:08:33+00:00",
+      "summary": "フリーランサーや小規模エージェンシー向けに、提案書の開封確認（既読追跡）ツールの有用性と注意点を解説している。\n開封確認はメッセージが受信トレイに届き表示されたことを示すが、それ以上の意味を過信すべきではない。\n追跡データを誤った方法（クライアントへの過度な催促など）で使用すると、案件を失うリスクがある。",
+      "tags": [
+        "フリーランス",
+        "ビジネス",
+        "メール追跡"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 50,
+      "score_reason": "フリーランサーや小規模ビジネスにおけるクライアント対応のノウハウであり、技術的な新規性は低いものの実用的なアドバイスです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "小説を読み、他のことはすべて忘れよう",
+      "url": "https://hedgehogreview.com/web-features/thr/posts/read-the-novels-and-forget-everything-else",
+      "source": "Hacker News",
+      "published": "2026-07-31T23:31:28+00:00",
+      "hn_score": 19,
+      "hn_comments": 5,
+      "summary": "1998年に文学的地位の絶頂に達した作家パトリック・オブライアンの生涯を紹介する記事。\n代表作「オーブリー＆マチュリン」シリーズは史上最高の歴史小説と称賛された。\nしかし、彼がアイルランド育ちなどの経歴や本名を偽っていたことが後に暴露された。",
+      "tags": [
+        "文学",
+        "歴史小説",
+        "パトリック・オブライアン"
+      ],
+      "category": "その他",
+      "score": 15,
+      "score_reason": "IT技術や業界動向とは直接関係のない、著名な歴史小説家の経歴詐称に関する文学的な読み物であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}

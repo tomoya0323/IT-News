@@ -1,0 +1,846 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-08-25T07:32:54.617919+09:00",
+  "total_count": 48,
+  "success_count": 48,
+  "error_count": 0,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "Rustに移植された「Bun 1.4」正式リリース。Node.jsとの互換性向上でPlaywrightやvitestが動作、CPUとメモリの使用率が大幅改善、正規表現が高速化など",
+      "url": "https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html",
+      "source": "Publickey",
+      "published": "2026-08-23T15:58:41+00:00",
+      "summary": "JavaScriptランタイム「Bun 1.4」が正式リリースされ、主要部分がZigからRustへと移植されました。\nAI（Claude）を活用して短期間で移植が行われ、メモリ使用量の最大35%削減や起動の高速化を実現しています。\nNode.jsとの互換性が大幅に向上し、Playwrightやvitestなどの主要ツールがそのまま動作可能になりました。",
+      "tags": [
+        "Bun",
+        "Rust",
+        "JavaScript"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 90,
+      "score_reason": "AIを用いた大規模なRustへの移植という先進的な開発手法と、劇的なパフォーマンス向上・互換性強化を同時に達成しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "8月17日の障害と今後の取り組み",
+      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "source": "GitHub Blog",
+      "published": "2026-08-20T18:36:11+00:00",
+      "summary": "8月17日にGitHubで約7時間47分に及ぶ大規模なサービス障害が発生し、世界中の開発者に影響を与えました。\n障害の原因はトラフィック急増時に重要インフラがスケールアウトに失敗したキャパシティの問題です。\nコード変更によるものではなく、今後はインフラの信頼性向上とスケーラビリティの強化を加速させるとしています。",
+      "tags": [
+        "GitHub",
+        "システム障害",
+        "インフラ"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 90,
+      "score_reason": "世界中の開発者に影響を与える主要プラットフォームの大規模障害に関する詳細なポストモルテムであり、業界への影響度が非常に高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "MSペイントとフォト、ローカル生成された画像にもGUIDによる不可視の透かしを埋め込み",
+      "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
+      "source": "Hacker News",
+      "published": "2026-08-24T15:28:04+00:00",
+      "hn_score": 477,
+      "hn_comments": 188,
+      "summary": "Windowsの「ペイント」や「フォト」に搭載されたローカルAI機能の解析により、生成画像に不可視の透かしが埋め込まれていることが判明した。\nこの透かしにはGUIDが含まれており、ローカルで生成された画像であっても個別に識別可能になっている。\nアプリ内部には暗号化されたONNXモデルが同梱されており、それらを利用して画像生成や処理が行われている。",
+      "tags": [
+        "Windows",
+        "AI",
+        "プライバシー"
+      ],
+      "category": "セキュリティ",
+      "score": 88,
+      "score_reason": "Windows標準アプリのローカルAI機能におけるプライバシーや追跡可能性に関する重要な発見であり、セキュリティとプライバシーの観点から影響が大きいため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Xiaomiの新しいCPU、シングルスレッドでAppleコアに匹敵、マルチスレッドでは大幅に高速化",
+      "url": "https://twitter.com/lemire/status/2091894299289874926",
+      "source": "Hacker News",
+      "published": "2026-08-24T15:08:17+00:00",
+      "hn_score": 654,
+      "hn_comments": 448,
+      "summary": "Xiaomiが開発した新しいCPU「Xring O3」は、シングルスレッド性能でAppleのコアに匹敵する。\nマルチスレッド処理においてはAppleを大幅に上回る性能を発揮し、合計44MBの大容量キャッシュを搭載している。\nAI加速用のSME2やデータ並列処理用のSVE2をサポートする強力な「C1-Ultra」コアを採用している。",
+      "tags": [
+        "CPU",
+        "Xiaomi",
+        "プロセッサ"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 85,
+      "score_reason": "モバイル向けプロセッサ市場におけるXiaomiの技術的躍進と、Appleへの対抗馬としての影響力が極めて高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Uber、人間の確認なしにアルゴリズムがドライバーをアカウント停止にしたとして約10億ドルの制裁金",
+      "url": "https://www.reddit.com/r/technology/comments/1vx1a0d/uber_hit_with_nearly_1_billion_fine_after/",
+      "source": "Reddit",
+      "published": "2026-08-24T12:22:25+00:00",
+      "summary": "Uberは、人間のレビューを経ずにアルゴリズムのみでドライバーのアカウントを停止したとして、約10億ドルの巨額の制裁金を科された。\n自動化された意思決定プロセスが労働者の権利を侵害したと判断された形である。\nAIやアルゴリズムによる自動判定における「人間の関与（Human-in-the-loop）」の重要性を強く示す事例となった。",
+      "tags": [
+        "Uber",
+        "アルゴリズム",
+        "制裁金"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 85,
+      "score_reason": "AIや自動化アルゴリズムの運用における法的責任と倫理的基準に一石を投じる、極めて影響の大きい判決です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "謎のAI「Ox Alpha」が出現し無料テスト中、コンテキストウィンドウは100万トークンで1日数兆トークンを処理できる匿名ラボがAPIを提供",
+      "url": "https://gigazine.net/news/20260824-ox-alpha/",
+      "source": "はてなブックマーク",
+      "published": "2026-08-24T13:32:26+00:00",
+      "summary": "OpenRouter等で、開発組織や詳細が伏せられた謎の高性能AI「Ox Alpha」の無料テストが開始されました。\n100万トークンのコンテキストウィンドウに対応し、テキスト・画像・動画を処理できるマルチモーダルモデルです。\n1日数兆トークン規模のトラフィックを処理可能な巨大なインフラを背景に持っていると推測されています。",
+      "tags": [
+        "AI",
+        "LLM",
+        "OpenRouter"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "極めて高い処理能力と長いコンテキストを持つ謎の高性能AIの登場は、今後のAI市場の競争を加速させる可能性があるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Slack上の開発チームの会話をAIエージェントが把握してコーディング。ドキュメント作成もする「Slack Code」登場",
+      "url": "https://www.publickey1.jp/blog/26/slackaislack_code.html",
+      "source": "Publickey",
+      "published": "2026-08-23T15:52:28+00:00",
+      "summary": "Slack上で開発チームの会話をAIエージェントが把握してコーディングやドキュメント作成を行う「Slack Code」が登場しました。\nClaude CodeやDevin、GitHub Copilot、ChatGPTなど、主要なAIエージェントに対応しています。\nチームの議論やチャット内容をコンテキストとして理解し、リアルタイムに開発を進めることが可能です。",
+      "tags": [
+        "Slack",
+        "AIエージェント",
+        "GitHub Copilot"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "開発チームの主要なコミュニケーションツールであるSlackに強力なAIエージェントが統合されることで、開発プロセスが大きく効率化されるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "キャンバスがエージェント型ワークフローを可視化し、制御可能で、コスト効率よくする方法",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+      "source": "GitHub Blog",
+      "published": "2026-08-17T16:00:00+00:00",
+      "summary": "AIエージェントによる開発は高速ですが、ワークフローが断片化し人間によるレビューが追いつかない課題があります。\nGitHub Copilotの「canvases」機能は、開発者とAIが共有する持続的な作業スペースを提供します。\nこれにより、AIの作業プロセスを可視化し、人間が適切に制御・承認できる協調型ワークフローを実現します。",
+      "tags": [
+        "GitHub Copilot",
+        "AIエージェント",
+        "UI・UX"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "AIエージェントと人間の協調における課題を解決する新しいインターフェース「キャンバス」の有用性を提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "エージェントアプリを使用してソフトウェア配信ワークフローをGitHubに統合する方法",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+      "source": "GitHub Blog",
+      "published": "2026-08-14T16:00:00+00:00",
+      "summary": "GitHub Copilotのプラットフォームを活用し、外部ツールをエージェントアプリとしてGitHubに統合する方法を紹介。\nAmplitudeやPagerDutyなどのツールをGitHub上から直接操作し、コンテキストの切り替えを減らすことが可能。\n開発者がGitHubから離れることなく、意思決定からデプロイまでのワークフローを完結できる。",
+      "tags": [
+        "GitHub Copilot",
+        "AI Agent",
+        "DevOps"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "GitHub上での開発ワークフローをAIエージェントで効率化する実用性の高い取り組みであり、開発者の生産性向上に大きく寄与するため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "Docker社、コンテナ向けの高性能な新ハイパーバイザ「Docker VMM」パブリックベータ公開",
+      "url": "https://www.publickey1.jp/blog/26/dockerdocker_vmm.html",
+      "source": "Publickey",
+      "published": "2026-08-19T17:43:24+00:00",
+      "summary": "Docker社が独自開発したコンテナ向けの高性能な新仮想化ハイパーバイザ「Docker VMM」のパブリックベータを公開しました。\nWindowsおよびmacOS向けの「Docker Desktop v4.86」から利用可能となっています。\nコンテナの起動速度向上や、ホストOSとコンテナ間におけるファイルI/Oの劇的な高速化が実現されています。",
+      "tags": [
+        "Docker",
+        "ハイパーバイザ",
+        "仮想化"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 82,
+      "score_reason": "多くの開発者が日常的に利用するDocker Desktopの基盤が刷新され、開発環境のパフォーマンスが大幅に向上するためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "真実は深層にあり：潜在的意図の検証によるセマンティック・カモフラージュへの対抗",
+      "url": "https://arxiv.org/abs/2608.20378",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-24T04:00:00+00:00",
+      "summary": "悪意ある意図を無害な表現で隠蔽する「セマンティック・カモフラージュ」に対抗する手法を提案。\nAIモデルの潜在的な意図（Latent Intent）を検証することで、巧妙に偽装された攻撃やプロンプトインジェクションを検出。\nLLMやAIシステムのセキュリティと信頼性を向上させるためのアプローチ。",
+      "tags": [
+        "AI Security",
+        "LLM",
+        "Semantic Camouflage"
+      ],
+      "category": "セキュリティ",
+      "score": 82,
+      "score_reason": "AIモデルに対する巧妙な攻撃手法であるセマンティック・カモフラージュに対し、潜在的意図の検証という新しい防御アプローチを提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "欧州の規制はいかにして個人開発者やマイクロ起業家を追い詰めているか",
+      "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
+      "source": "Hacker News",
+      "published": "2026-08-24T13:05:25+00:00",
+      "hn_score": 968,
+      "hn_comments": 613,
+      "summary": "EUが導入する新しい包装・包装廃棄物規則（PPWR）が、個人開発者や小規模な電子工作メーカーの脅威となっている。\nこの規制は、製品の包装資材に対する回収・リサイクル費用の負担を事業者に義務付けるものである。\n資金力のない個人やマイクロ起業家にとって、この複雑な規制対応コストは事業継続を困難にし、イノベーションを阻害する懸念がある。",
+      "tags": [
+        "EU規制",
+        "ハードウェア",
+        "オープンソース"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 80,
+      "score_reason": "欧州の環境規制が世界のオープンソースハードウェアや個人開発者のエコシステムに深刻な打撃を与える可能性があり、業界全体への影響が大きいため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "動かして理解するOpenTelemetry",
+      "url": "https://zenn.dev/simplex/articles/c24bd2788f5831",
+      "source": "Zenn",
+      "published": "2026-08-24T07:18:58+00:00",
+      "summary": "分散システムにおけるオブザーバビリティを確保するため、OpenTelemetryの基礎と導入方法を解説しています。\n複数サービス間でリクエストを追跡する「コンテキスト伝播」や「Baggage」の仕組みを詳しく説明しています。\nユーザーのセッション単位でシステム全体のログを紐付け、トラブルシューティングを容易にする手法を提示します。",
+      "tags": [
+        "OpenTelemetry",
+        "オブザーバビリティ",
+        "マイクロサービス"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 80,
+      "score_reason": "マイクロサービスや分散システムにおけるオブザーバビリティの標準規格であるOpenTelemetryの、実用的な解説であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "MITRE ATT&CK の7つの戦術からみた AWS のセキュリティに関するイベント",
+      "url": "https://zenn.dev/cscloud_blog/articles/b42eeb86af4d06",
+      "source": "Zenn",
+      "published": "2026-08-24T02:56:08+00:00",
+      "summary": "MITRE ATT&CKの戦術を用いてAWS環境での脅威検知やCloudTrailログの発生イベントを整理。\nGuardDutyの検知名とATT&CKの戦術が連動しているため、攻撃者のフェーズや対応優先度の把握に実用的。\nAWS特有の初期侵入手法や、単発イベントではなく複数イベントの相関分析の重要性について解説。",
+      "tags": [
+        "AWS",
+        "セキュリティ",
+        "MITRE ATT&CK"
+      ],
+      "category": "セキュリティ",
+      "score": 80,
+      "score_reason": "AWS環境における実用的な脅威検知の手法をMITRE ATT&CKのフレームワークを用いて体系的に解説しており、セキュリティ実務への影響度が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "米国の電力網が18ヶ月の停電リスクに直面、1都市が1週間以上暗闇に包まれる中で当局者が警告",
+      "url": "https://www.reddit.com/r/technology/comments/1vxchgi/us_power_grid_at_risk_of_18month_blackout/",
+      "source": "Reddit",
+      "published": "2026-08-24T19:15:54+00:00",
+      "summary": "米国の電力網が最長18ヶ月に及ぶ大規模なブラックアウト（停電）の危機に瀕していると当局が警告した。\n実際に1つの都市がすでに1週間以上にわたり停電状態に置かれている。\n重要インフラの脆弱性と、サイバー攻撃や物理的脅威に対する防御の必要性が浮き彫りになっている。",
+      "tags": [
+        "電力網",
+        "インフラ",
+        "ブラックアウト"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 80,
+      "score_reason": "国家規模の重要インフラの脆弱性は、ITシステムや社会全体に極めて甚大な影響を及ぼす可能性があるため重要度が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "アンソロピック、AIの使い方を学べる「Claude Academy」　日本語対応",
+      "url": "https://www.watch.impress.co.jp/docs/news/2134964.html",
+      "source": "はてなブックマーク",
+      "published": "2026-08-24T06:28:43+00:00",
+      "summary": "Anthropicは、AIを安全かつ効果的に活用する方法を学べる学習サイト「Claude Academy」を公開した。\n単なる機能紹介にとどまらず、AIに任せる作業の見極め方など、モデルに依存しないAI活用の考え方を学べる。\n同社の従業員教育プログラムをベースにしており、日本語表示にも対応している。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "AI教育"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "AIの普及に伴い、単なるツール利用を超えた「AIリテラシー」の教育コンテンツを開発元が公式に提供する意義は大きいです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「うわ、すげえ！」Unreal EngineをCodexに操作させたら制作の常識が変わった",
+      "url": "https://ascii.jp/elem/000/004/428/4428658/",
+      "source": "はてなブックマーク",
+      "published": "2026-08-24T03:17:16+00:00",
+      "summary": "Unreal Engine 5.8にて、AIによるアプリ操作を可能にするMCP（モデル・コンテキスト・プロトコル）が実験的に導入されました。\nOpenAIのCodex（GPT-5.6 Sol）を用いて、UE5上でのイベントシーン作成などの作業を大幅に自動化・短縮可能です。\n3DモデリングAI「Hi3D v3.0」などと組み合わせることで、3D制作のハードルが劇的に下がることが示されています。",
+      "tags": [
+        "Unreal Engine",
+        "MCP",
+        "3D制作"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "AIが直接ゲームエンジンを操作するMCPの実用性を示しており、クリエイティブ制作のワークフローを根本から変える可能性があるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "シングルバイナリなOLAP DBの次期版「DuckDB 2.0」プレビュー。クライアント／サーバ機能が安定版に、スキーマレスのVARIANT型、トリガー、非同期I/Oなど新機能",
+      "url": "https://www.publickey1.jp/blog/26/olap_dbduckdb_20variantio.html",
+      "source": "Publickey",
+      "published": "2026-08-24T15:29:33+00:00",
+      "summary": "軽量かつ高速な組み込み向けOLAPデータベース「DuckDB 2.0」のプレビュー情報が公開されました。\n別マシンから接続して操作できるクライアント／サーバ機能が安定版として提供されます。\nスキーマレスなVARIANT型、トリガー機能、非同期I/Oのサポートなど、多くの強力な新機能が搭載予定です。",
+      "tags": [
+        "DuckDB",
+        "データベース",
+        "OLAP"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 80,
+      "score_reason": "データ分析分野で急速に普及しているDuckDBのメジャーアップデートであり、実用性と適用領域が大幅に広がるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Flutter 3.47正式リリース。UIライブラリが分離され独立してアップデート可能、デフォルトでWebAssemblyを生成する方向に、など新機能",
+      "url": "https://www.publickey1.jp/blog/26/fluter_347uiwebassembly.html",
+      "source": "Publickey",
+      "published": "2026-08-20T15:02:15+00:00",
+      "summary": "Googleがアプリ開発フレームワークの最新版「Flutter 3.47」を正式リリースしました。\nUIライブラリのMaterialとCupertinoが独立したパッケージとして分離され、個別にアップデート可能になりました。\nデスクトップ向けにImpellerがデフォルトレンダラーとなり、Web向けにはWebAssemblyのデフォルト生成が進められています。",
+      "tags": [
+        "Flutter",
+        "WebAssembly",
+        "Dart"
+      ],
+      "category": "モバイル",
+      "score": 80,
+      "score_reason": "モバイルやWeb、デスクトップのマルチプラットフォーム開発で広く使われるFlutterの重要なアップデートであり、パフォーマンスと開発の柔軟性が向上するためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "代替テキストが自動チェックを通過しても、それが優れているとは限らない",
+      "url": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
+      "source": "GitHub Blog",
+      "published": "2026-08-24T20:56:32+00:00",
+      "summary": "Web上の多くの画像で代替テキスト（alt属性）が欠落しているか、無意味な内容になっている現状があります。\n従来の自動チェッカーは属性の存在のみを検証し、内容が適切かどうかまでは判断できないという限界があります。\nGitHubはアクセシビリティスキャナー用のプラグインを開発し、AIモデルなどを活用した品質評価の取り組みを紹介しています。",
+      "tags": [
+        "アクセシビリティ",
+        "alt属性",
+        "GitHub"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 80,
+      "score_reason": "Webアクセシビリティの向上における自動化ツールの限界と、AIを活用した新たなアプローチを示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "マルチモーダル・エージェント・フレームワークの基礎と最前線に関するサーベイ：技術と応用",
+      "url": "https://arxiv.org/abs/2608.20379",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-24T04:00:00+00:00",
+      "summary": "テキスト、画像、音声などを統合して処理するマルチモーダルなAIエージェントフレームワークに関する包括的なサーベイ論文。\n現在提案されている主要な技術、アーキテクチャ、および様々な分野への応用事例を整理。\n今後のマルチモーダルAIエージェント研究における課題と発展の方向性を提示。",
+      "tags": [
+        "Multimodal AI",
+        "AI Agent",
+        "Survey"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "急速に発展するマルチモーダルAIエージェント分野の技術と応用を網羅したサーベイであり、研究者や開発者にとって価値の高いロードマップとなるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "SDAD：AIネイティブなSDLCのための仕様駆動型エージェント開発",
+      "url": "https://arxiv.org/abs/2608.20341",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-24T04:00:00+00:00",
+      "summary": "AIネイティブなソフトウェア開発ライフサイクル（SDLC）に向けた、仕様駆動型エージェント開発（SDAD）を提案。\n仕様書（Spec）をベースにAIエージェントが自律的に開発を進めるフレームワークについて議論。\n開発プロセスの自動化と品質向上を目指す新しいアプローチ。",
+      "tags": [
+        "AI Agent",
+        "SDLC",
+        "Software Engineering"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "AIを活用したソフトウェア開発の自動化（SDLC）における新しいフレームワークの提案であり、今後の開発手法に影響を与える可能性があるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "IPFSのメンテナーが活動を縮小へ",
+      "url": "https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/",
+      "source": "Hacker News",
+      "published": "2026-08-24T15:48:45+00:00",
+      "hn_score": 295,
+      "hn_comments": 147,
+      "summary": "Protocol Labsが開発企業Shipyardへの資金提供を更新しないことを決定しました。\nこれによりShipyardは2026年9月30日をもって、IPFS関連の開発やインフラ運用を終了します。\n今後はIPFSエコシステムを次の段階へ引き継ぐための移行作業に注力するとのことです。",
+      "tags": [
+        "IPFS",
+        "P2P",
+        "OSS"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 75,
+      "score_reason": "分散型Webの基盤技術であるIPFSの主要メンテナーが活動を終了することは、エコシステム全体に大きな影響を与えるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Flock社のナンバープレート認識カメラを不正利用した疑いで元警察職員4人が逮捕",
+      "url": "https://www.reddit.com/r/technology/comments/1vx9viw/four_former_police_employees_arrested_over/",
+      "source": "Reddit",
+      "published": "2026-08-24T17:46:11+00:00",
+      "summary": "Flock Safety社の自動ナンバープレート認識カメラシステムを不正に利用したとして、4人の元警察職員が逮捕された。\n監視技術の私的利用や権限外アクセスの問題が改めて浮き彫りになっている。\n法執行機関における監視データの管理体制やプライバシー保護のあり方に疑問が投げかけられている。",
+      "tags": [
+        "監視カメラ",
+        "プライバシー",
+        "不正利用"
+      ],
+      "category": "セキュリティ",
+      "score": 75,
+      "score_reason": "監視技術の普及に伴うプライバシー侵害や内部不正のリスクを示しており、セキュリティ管理の重要性を強調しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "現代的なProtobufのワークフロー - Buf",
+      "url": "https://buf.build/blog/the-modern-protobuf-workflow",
+      "source": "はてなブックマーク",
+      "published": "2026-08-24T11:02:49+00:00",
+      "summary": "かつて開発体験の悪さが課題だったProtobufを、Bufがスキーマファースト開発ツールとしてモダンに改善しました。\nJSON APIで発生しがちな、変数名変更に伴う意図しないAPIの破壊的変更を防ぐことができます。\n.protoファイルを契約とすることで、プログラム間の境界に静的型付けの強力な保証をもたらします。",
+      "tags": [
+        "Protobuf",
+        "API開発",
+        "Buf"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 75,
+      "score_reason": "マイクロサービスやAPI開発において、堅牢で保守性の高いスキーマ駆動開発を実現するための重要なアプローチを提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "エラーを見つけたら、その原因はエラーの前の行にある",
+      "url": "https://dev.to/_156a59a8566fe532e165/you-found-the-error-the-cause-is-in-the-lines-before-it-1ij2",
+      "source": "Dev.to",
+      "published": "2026-08-24T22:07:36+00:00",
+      "summary": "障害調査においてエラーログは結果に過ぎず、真の原因はそれより前の行に存在することが多いです。\n前後のコンテキストを含めた検索や、ドリルダウン・シーケンス検索などの手法が重要となります。\n巨大なファイルを解凍せずに直接探索する具体例を用い、効率的なログ解析のアプローチを解説しています。",
+      "tags": [
+        "ログ解析",
+        "デバッグ",
+        "トラブルシューティング"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 75,
+      "score_reason": "開発者や運用担当者にとって実用的なログ解析の思考法とアプローチを提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "初心者のためのGitHub Copilotアプリ：ワークマネジメント",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
+      "source": "GitHub Blog",
+      "published": "2026-08-19T17:50:23+00:00",
+      "summary": "GitHub Copilotアプリ初心者向けシリーズの第3弾として、作業管理機能に焦点を当てています。\n「My work」ペインを使用することで、複数のプルリクエストやイシューを1箇所で一元管理できます。\n開発者が並行して進める様々なタスクの進捗状況を、直感的に把握し整理する方法を解説しています。",
+      "tags": [
+        "GitHub Copilot",
+        "タスク管理",
+        "開発ツール"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "開発者の生産性を向上させるGitHub Copilotアプリの具体的な活用方法を解説しており、実用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "PrimeAgentOrchestrator：パーソナルAIインフラのためのメモリプライム型エージェント生成",
+      "url": "https://arxiv.org/abs/2608.20342",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-24T04:00:00+00:00",
+      "summary": "個人向けAIインフラにおいて、メモリ（記憶）を事前に注入してエージェントを生成する「PrimeAgentOrchestrator」を提案。\n個人の文脈や過去のデータを引き継いだエージェントを動的に生成・管理するオーケストレーション技術。\nパーソナルアシスタントや自律型エージェントの効率的な運用を実現する。",
+      "tags": [
+        "AI Agent",
+        "Orchestration",
+        "Personal AI"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "個人用AIインフラにおけるエージェントの動的生成とメモリ管理という、実用的なエージェントオーケストレーションの課題に焦点を当てているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIが途中で出力を止めずにコードやメール、エッセイを最後まで書き切るようにする6つの秘訣",
+      "url": "https://dev.to/scobsmett/6-sneaky-ways-to-get-ai-to-actually-finish-the-codeemailessay-instead-of-trailing-off-mid-sentence-253d",
+      "source": "Dev.to",
+      "published": "2026-08-24T22:21:14+00:00",
+      "summary": "AIチャットボットが長文や長いコードの生成途中で出力を突然停止してしまう問題の背景を解説しています。\nこの現象はモデルのトークン制限やサーバーコスト管理のための出力制限が原因で発生します。\nユーザーが途中で「続けて」と何度も指示する手間を省き、最初から最後まで出力を完了させるための6つのテクニックを紹介しています。",
+      "tags": [
+        "生成AI",
+        "プロンプトエンジニアリング",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 73,
+      "score_reason": "生成AIを実務で利用する多くのユーザーが直面する「途中で止まる」という実用的な課題に対する、具体的かつ即効性のある解決策を提供しているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "線形判別木アンサンブルによる解釈可能なマルチモーダル分類",
+      "url": "https://arxiv.org/abs/2608.20384",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-24T04:00:00+00:00",
+      "summary": "マルチモーダルデータの分類において、高い精度と解釈可能性を両立する「線形判別木アンサンブル」を提案。\n複雑なマルチモーダル情報を処理しつつ、意思決定プロセスを人間が理解しやすい形で提示する手法。\n医療や金融など、説明責任が求められる領域でのAI活用を促進。",
+      "tags": [
+        "Explainable AI",
+        "Multimodal Classification",
+        "Machine Learning"
+      ],
+      "category": "AI・機械学習",
+      "score": 73,
+      "score_reason": "AIのブラックボックス問題を解決するため、マルチモーダル分類における解釈可能性（説明可能性）と精度の両立に挑む実用的な研究であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "iCloud+の「メールを非公開」アドレスは今後もicloud.comドメインを維持",
+      "url": "https://developer.apple.com/news/?id=1ptvdtcm",
+      "source": "Hacker News",
+      "published": "2026-08-24T22:13:40+00:00",
+      "hn_score": 21,
+      "hn_comments": 8,
+      "summary": "Appleは「Appleでサインイン」の新規アドレスのドメインをprivate.icloud.comに変更することを発表した。\n一方で、コミュニティの要望を受けてiCloud+の「メールを非公開」アドレスはicloud.comのまま維持される。\n開発者は、自社システムが両方のドメインからのメールやサインインを受け入れられるよう対応が必要となる。",
+      "tags": [
+        "Apple",
+        "iCloud",
+        "認証"
+      ],
+      "category": "セキュリティ",
+      "score": 70,
+      "score_reason": "Appleのエコシステムを利用する開発者にとって、認証やメール配信の仕様変更への対応が必要となる実用的なニュースであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "最近育てているフロントエンド開発用テンプレートの話",
+      "url": "https://zenn.dev/newt_st21/articles/next-template-2026",
+      "source": "Zenn",
+      "published": "2026-08-24T12:23:26+00:00",
+      "summary": "著者が開発・運用しているフロントエンド開発用のテンプレートリポジトリを紹介しています。\npnpm 11の機能を活用し、公開直後のパッケージをインストールしない設定などでサプライチェーン攻撃を防ぎます。\nAI Agentに指示を出して部分的に設定を取り込ませるなど、現代的な開発フローにも対応しています。",
+      "tags": [
+        "フロントエンド",
+        "pnpm",
+        "セキュリティ"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 70,
+      "score_reason": "実用的なフロントエンドのテンプレート構成と、近年重要視されるサプライチェーン攻撃への具体的な対策が示されているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "元ヤフーエンジニア社長が考える、AI時代のエンジニアに必要な3つのスキル",
+      "url": "https://qiita.com/ryoheiiwamoto/items/5f21adcca8aff1b0357a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-24T07:31:36+00:00",
+      "summary": "AI時代において、指示されたものを作るだけの受け身のエンジニアは不要になると指摘。\n生存に必要な「AIを使いこなす力」「ビジネス戦闘力」「人間力」の3つのスキルを提示。\n新しいAIツールを自ら試す姿勢や、論理的思考力・全体俯瞰力などのビジネススキルの重要性を強調。",
+      "tags": [
+        "キャリア",
+        "AI",
+        "エンジニアリング"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 70,
+      "score_reason": "AIの普及に伴うエンジニアの役割変化と、今後求められるビジネス・人間系スキルの重要性を的確に整理しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "イラン戦争により米国を除く世界中でEV（電気自動車）の販売が急増",
+      "url": "https://www.reddit.com/r/technology/comments/1vx2nme/iran_war_supercharged_ev_sales_everywhere_except/",
+      "source": "Reddit",
+      "published": "2026-08-24T13:20:42+00:00",
+      "summary": "イランでの紛争を契機に、米国を除く世界各地で電気自動車（EV）の販売が急激に増加している。\n燃料価格の高騰や地政学的リスクへの懸念が、EVシフトを世界的に加速させる要因となった。\n一方で、米国市場のみがこのEV販売急増のトレンドから取り残されている状況が示されている。",
+      "tags": [
+        "EV",
+        "電気自動車",
+        "地政学リスク"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 70,
+      "score_reason": "地政学的要因がクリーンエネルギー技術の普及に与える影響を示しており、自動車業界の動向として重要です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "優秀なエンジニアが書くDesign Docは何が違うのか? - pospomeのプログラミング日記",
+      "url": "https://www.pospome.work/entry/2026/08/24/223309",
+      "source": "はてなブックマーク",
+      "published": "2026-08-24T14:11:35+00:00",
+      "summary": "開発に入る前に不確実性を可視化し排除するためのDesign Docの重要性を解説しています。\n優秀なエンジニアほど代替案の提示やトレードオフの言語化、判断基準がクリアであると指摘しています。\n設計の適切さに加え、懸念点の言語化やリスクの深掘りがレビューにおける重要な評価ポイントとなります。",
+      "tags": [
+        "Design Doc",
+        "システム設計",
+        "開発プロセス"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "開発プロセスにおけるドキュメンテーションと設計の質を向上させるための実践的な知見が言語化されているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": ".NET 10のNU1510パッケージプルーニング：レガシーターゲットを壊さずにCIを修正する",
+      "url": "https://dev.to/ssukhpinder/net-10-nu1510-package-pruning-fix-ci-without-breaking-legacy-targets-5ggd",
+      "source": "Dev.to",
+      "published": "2026-08-24T22:23:40+00:00",
+      "summary": ".NET 10からデフォルトで有効になるパッケージプルーニング機能と、それに伴うNU1510警告への対処法を解説しています。\nSDKが提供するアセンブリと重複する参照を削除する際、レガシーなnetstandard2.0などをターゲットにするライブラリが破損するリスクがあります。\n警告をエラーとして扱うCI環境において、ターゲット固有の依存関係を適切に管理しビルドエラーを防ぐアプローチを提案しています。",
+      "tags": [
+        ".NET 10",
+        "NuGet",
+        "CI/CD"
+      ],
+      "category": "プログラミング言語",
+      "score": 70,
+      "score_reason": ".NET 10への移行期において、マルチターゲットのライブラリ開発者が直面するビルドエラーの具体的な解決策を提示しているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "なぜ.env.exampleは同期がずれるのか、そしてそれを本当に解決する方法",
+      "url": "https://dev.to/rabbilyasar/why-envexample-gets-out-of-sync-and-what-actually-fixes-it-1a76",
+      "source": "Dev.to",
+      "published": "2026-08-24T21:59:00+00:00",
+      "summary": "環境変数のテンプレートである.env.exampleは、プレーンテキストのためコードの変更に伴い同期がずれやすい課題があります。\n解決策としてスキーマファイルを定義し、そこからテンプレートの自動生成や検証を行うアプローチを提案しています。\nEnvShieldなどのツールやpre-commitフックを導入することで、環境変数の不整合によるエラーを未然に防げます。",
+      "tags": [
+        "環境変数",
+        "EnvShield",
+        "開発プロセス"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "多くの開発チームが直面する環境変数の管理問題を、スキーマ駆動で自動解決する実用的な手法を提案しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「これで進めますね」と自分から言ってしまうと、後で仕様がひっくり返る",
+      "url": "https://qiita.com/sumomoo/items/e5065bd0e6daaf38ac62?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-24T07:16:23+00:00",
+      "summary": "要件定義などで開発者側から確定を宣言すると、後から仕様がひっくり返るリスクが高まる現象を分析。\n心理学の「一貫性の原理」を基に、相手自身に「確定させる」言葉を選び取らせることの重要性を説明。\n質問の仕方を工夫し、相手に合意の実感を持たせることで「言った・言わない」のトラブルを防ぐ手法を提案。",
+      "tags": [
+        "要件定義",
+        "コミュニケーション",
+        "プロジェクトマネジメント"
+      ],
+      "category": "その他",
+      "score": 68,
+      "score_reason": "心理学の知見をシステム開発の要件定義や合意形成に応用し、手戻りを防ぐための具体的な対話術を提案しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "サンフランシスコの街全体を再現したビデオゲーム",
+      "url": "https://sf.thijs.gg/",
+      "source": "Hacker News",
+      "published": "2026-08-24T17:05:38+00:00",
+      "hn_score": 276,
+      "hn_comments": 98,
+      "summary": "サンフランシスコの街全体を3Dで再現し、ブラウザ上で探索できるWebゲームが公開された。\nプレイヤーはWASDキーやマウス操作で街を自由に移動し、テレポートやカメラの切り替えなどを行える。\nAppleの著作権表記が含まれており、マップデータや3Dタイルのストリーミング技術が活用されている。",
+      "tags": [
+        "Webゲーム",
+        "3Dグラフィックス",
+        "シミュレーター"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 65,
+      "score_reason": "Webブラウザ上で大規模な都市データをレンダリングする技術的な面白さがあり、フロントエンド技術のデモンストレーションとして優れているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Claude Designを使ったポスター制作について",
+      "url": "https://zenn.dev/kaiyo/articles/65f98a5abadac5",
+      "source": "Zenn",
+      "published": "2026-08-24T10:25:38+00:00",
+      "summary": "学会発表用のポスター制作において、Claude Designを活用したプロセスと知見を解説しています。\n構成やレイアウトを決定する「0から1」のフェーズにおいて、制作速度を2倍にするなどの高い効果を発揮しました。\n一方で内容の添削や詳細なブラッシュアップには人間の介入が不可欠であり、AIと人間の役割分担が重要となります。",
+      "tags": [
+        "Claude Design",
+        "生成AI",
+        "デザイン"
+      ],
+      "category": "AI・機械学習",
+      "score": 65,
+      "score_reason": "生成AIをデザインや資料作成の実務に適用する具体的なユースケースと、その限界・役割分担を示しているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "個人開発をiOSアプリで半年やって「勝てない」と悟った話",
+      "url": "https://qiita.com/gts/items/8c94ac8b76d7caa1b530?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-22T08:28:15+00:00",
+      "summary": "AIの進化によりアプリ開発の敷居は下がったものの、個人開発における厳しい現実を綴った体験談。\n開発において直面した「アイデアの枯渇」「孤独との戦い」「リリース後の無風」という3つの壁を解説。\n会社開発との違いや、ユーザーの課題解決につながるアイデア創出の難しさについてリアルに描写。",
+      "tags": [
+        "個人開発",
+        "iOS",
+        "アプリ開発"
+      ],
+      "category": "モバイル",
+      "score": 65,
+      "score_reason": "個人開発のリアルな課題やAI時代の開発環境の変化を等身大で描いており、多くの開発者に共感と教訓を与える内容です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "PAGI::Server 0.002007：1つのコントラクト、2つのトランスポート",
+      "url": "https://dev.to/jjn1056/pagiserver-0002007-one-contract-two-transports-4mce",
+      "source": "Dev.to",
+      "published": "2026-08-24T22:11:44+00:00",
+      "summary": "PAGI::Serverの最新バージョン「0.002007」がリリースされ、仕様への準拠性が徹底的に強化されました。\n新機能の追加ではなく、HTTP/1.1とHTTP/2における動作の不一致やエラーパス、タイミング問題の解決に焦点を当てています。\nアプリケーション側からはトランスポート層の違いを意識せず、同一のイベントや保証のもとで動作するよう正規化されました。",
+      "tags": [
+        "PAGI",
+        "HTTP/2",
+        "Webサーバー"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 65,
+      "score_reason": "特定のWebサーバー仕様の実装に関するアップデートであり、堅牢性は向上するものの、影響範囲が比較的限定的であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "あなたのHTML資料には、魂が込められていますか？",
+      "url": "https://zenn.dev/tokium_dev/articles/html-shiryo-ni-tamashii",
+      "source": "Zenn",
+      "published": "2026-08-24T07:06:24+00:00",
+      "summary": "AIで生成した綺麗なHTML資料は読み流しやすく、内容が頭に入りにくいという課題に直面した体験談です。\n対策として、あえて認知負荷を上げるために「最悪なデザイン手法」を取り入れたダサいHTML資料を生成しました。\n視覚的な引っかかりを作ることで、一言一句を強制的に読ませて学習効果を高めるユニークなアプローチを提案しています。",
+      "tags": [
+        "HTML",
+        "デザイン",
+        "Claude Code"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "綺麗すぎるAI生成資料に対する「あえてダサくする」という逆転の発想がユニークで、学習の認知負荷に関する興味深い知見であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "新人エンジニア、「言いたいことがある」がいつも遅すぎる",
+      "url": "https://qiita.com/prumnn/items/15c75c024c4b38011afd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-24T07:25:45+00:00",
+      "summary": "会議で考えを完璧にまとめようとするあまり、発言のタイミングを逃してしまう新人エンジニアの悩み。\n「その部分について意見があります」と結論や意思表示を先に口に出すことで、発言権を確保する手法を紹介。\n7〜8割の完成度で話し始め、対話の中で補足していくコミュニケーションの重要性を解説。",
+      "tags": [
+        "コミュニケーション",
+        "新人エンジニア",
+        "会議"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "若手エンジニアが直面しやすい会議での発言の難しさに対し、実践的で即効性のある解決策を提示しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "YouTube Premiumが世界中のユーザーを対象にさらなる値上げを実施",
+      "url": "https://www.reddit.com/r/technology/comments/1vx5g5o/youtube_premium_is_getting_yet_another_price_hike/",
+      "source": "Reddit",
+      "published": "2026-08-24T15:07:31+00:00",
+      "summary": "YouTube Premiumの月額料金が世界規模で再び値上げされることが明らかになった。\nユーザーからは度重なる値上げに対する不満の声が上がっている。\n広告ブロック対策の強化と並行し、有料プランへの移行や維持のコストが増加している。",
+      "tags": [
+        "YouTube Premium",
+        "サブスクリプション",
+        "値上げ"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 60,
+      "score_reason": "世界的な大手プラットフォームの値上げは多くのユーザーに影響を与え、サブスクリプションモデルの価格設定動向を示しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "入社1ヶ月目、「全然役に立てていない」と焦るときに考えてほしいこと",
+      "url": "https://qiita.com/m__ikeda/items/caac6a305b6f190676da?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-24T07:27:04+00:00",
+      "summary": "未経験でIT業界に入社したばかりの人が、周囲との知識差から焦りを感じる悩みに対してアドバイス。\n最初から大きな成果を狙うのではなく、依頼された小さな仕事を確実にこなし、報告・連絡を行う重要性を解説。\n新人ならではの「分かりにくい手順書」への気づきを共有・修正することが、組織にとって価値になると指摘。",
+      "tags": [
+        "キャリア",
+        "新人研修",
+        "マインドセット"
+      ],
+      "category": "その他",
+      "score": 58,
+      "score_reason": "新入社員や未経験者が抱きがちな不安を和らげ、初期段階で取るべき現実的な行動指針を示しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "中国のインターネットの一部で「唐王朝は存在しなかった」という主張が拡散",
+      "url": "https://www.cnn.com/2026/08/19/style/china-tang-dynasty-never-existed-hoax-intl-hnk",
+      "source": "Hacker News",
+      "published": "2026-08-24T21:03:06+00:00",
+      "hn_score": 64,
+      "hn_comments": 46,
+      "summary": "中国のインターネット上で、歴史上実在した唐王朝は架空の存在であるという奇妙なデマが拡散している。\nある歴史系インフルエンサーが占星術データを用いて唐の存在を否定した動画が発端とされている。\n歴史の言論統制を重視する中国政府にとって、このデマの広がりは新たな課題となっている。",
+      "tags": [
+        "中国",
+        "ソーシャルメディア",
+        "デマ"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 55,
+      "score_reason": "インターネット上のデマの拡散力と、それが国家の歴史認識や統制に与える影響を示す興味深い事例だが、直接的なIT技術への影響は限定的であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ビンテージ人工知能：気まずくなる前のAI",
+      "url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward/",
+      "source": "Hacker News",
+      "published": "2026-08-24T21:01:38+00:00",
+      "hn_score": 24,
+      "hn_comments": 2,
+      "summary": "現代のLLMや生成AIが普及する以前の、歴史的な人工知能や人工生命の概念を振り返る記事です。\nSF作品や過去の広告など、人類が長年抱いてきたAIへの好奇心と表現の歴史を紹介しています。\nインターネットアーカイブに保存されている、教育や研究向けのビンテージAIプロジェクトに焦点を当てています。",
+      "tags": [
+        "AI",
+        "歴史",
+        "インターネットアーカイブ"
+      ],
+      "category": "AI・機械学習",
+      "score": 50,
+      "score_reason": "AIの歴史や文化的背景に関する読み物であり、技術的な新規性や実用性は低いものの教養として興味深いためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}

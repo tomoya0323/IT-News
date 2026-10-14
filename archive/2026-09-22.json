@@ -1,0 +1,824 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-22T09:46:58.713982+09:00",
+  "total_count": 48,
+  "success_count": 42,
+  "error_count": 6,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "Copilotを活用したGitHub CopilotランタイムのRustへの移行",
+      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "source": "GitHub Blog",
+      "published": "2026-09-17T00:26:43+00:00",
+      "summary": "TypeScriptとNode.jsで構築されていたGitHub Copilotのランタイムを、GitHub Copilot自身を活用して80万行を超えるRustコードへ完全に書き換えました。\nAIエージェントがコードの大部分を生成し、128件のプルリクエストに分割して段階的にリリースすることで、パフォーマンスを劇的に向上させつつ迅速なバグ修正を実現しました。\n本来なら開発チーム全体で1〜2年かかる規模のプロジェクトを、AIの支援によりわずか数ヶ月で、かつ主担当者1名で完遂することに成功しました。",
+      "tags": [
+        "Rust",
+        "GitHub Copilot",
+        "AI Agent"
+      ],
+      "category": "プログラミング言語",
+      "score": 95,
+      "score_reason": "大規模なプロダクションコードをAIエージェント主導でRustへ移行し、開発期間を劇的に短縮しつつ性能向上を達成したという、AI開発の極めて先駆的な成功事例であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行",
+      "url": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
+      "source": "Publickey",
+      "published": "2026-09-16T16:00:51+00:00",
+      "summary": "自律型コーディングAIエージェント「Devin」が、ホストする仮想環境内でのmacOSの提供を開始しました。\nこれにより、開発者は実機のMacを持たなくても、Devin上でiOSやmacOS向けアプリのコード生成、テスト、デバッグを実行可能になります。\nさらに、完成したアプリをApp Store配信前のテスト用プラットフォーム「TestFlight」へベータ公開するまでの全工程をAIに任せられます。",
+      "tags": [
+        "Devin",
+        "AIエージェント",
+        "iOS開発"
+      ],
+      "category": "AI・機械学習",
+      "score": 90,
+      "score_reason": "AIエージェントが仮想macOS環境を自律的に操作し、iOSアプリのビルドからTestFlight配信まで一気通貫で自動化できるようになったことは、開発プロセスの未来を示す画期的な進歩であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ウォーターマークではなく「スパイマーク」",
+      "url": "https://brand.io/article/spymarks/",
+      "source": "Hacker News",
+      "published": "2026-09-21T23:03:49+00:00",
+      "hn_score": 46,
+      "hn_comments": 14,
+      "summary": "AI生成物の識別のために開発された電子透かしが、個人を追跡する「スパイマーク」へと進化している。\nGoogleのSynthIDなどは、画像や音声に人間に知覚できない信号を埋め込み、個人情報と紐付けることが可能。\n便利さの裏で、ユーザーの同意なき監視やプライバシー侵害のツールとして悪用される懸念が高まっている。",
+      "tags": [
+        "電子透かし",
+        "プライバシー",
+        "AIセキュリティ"
+      ],
+      "category": "セキュリティ",
+      "score": 88,
+      "score_reason": "AI生成コンテンツの追跡技術がプライバシー侵害や監視社会につながる技術的・倫理的課題を提起しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開",
+      "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
+      "source": "Publickey",
+      "published": "2026-09-17T15:59:39+00:00",
+      "summary": "PlanetScaleは、PostgreSQLのシャーディングを自動化する新しいデータベースサービス「Neki」のプレビュー公開を開始しました。\nMySQL向け分散データベース技術「Vitess」にインスパイアされた仕組みを採用し、1億1800万QPSという驚異的な処理性能を達成しています。\nデータベースを自動で多数のシャードに分割・分散処理することで、大規模な同時接続やクエリに対応するスケーラビリティを実現します。",
+      "tags": [
+        "PostgreSQL",
+        "PlanetScale",
+        "データベース"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 88,
+      "score_reason": "PostgreSQLのスケーラビリティ課題を自動シャーディングで解決し、1億QPSを超える超高パフォーマンスを実証したことは、大規模システム開発に革新をもたらすためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "コーディングエージェントがすべてのテストに合格しても、次の変更をより困難にしている可能性がある",
+      "url": "https://dev.to/amiran_kurtanidze_b040174/your-coding-agent-passed-every-test-it-may-still-have-made-the-next-change-harder-5do",
+      "source": "Dev.to",
+      "published": "2026-09-22T00:25:50+00:00",
+      "summary": "AIコーディングエージェントは個別のタスクやテストをクリアできるが、コードの複雑性を蓄積させがちである。\n局所的な最適化の繰り返しにより、リポジトリ全体の結合度や重複コードが増加する問題が生じる。\nこの課題に対処するため、モデルの判断に頼らない、決定論的で静的なコード監査ツールの必要性を提唱している。",
+      "tags": [
+        "AIコーディング",
+        "コード品質",
+        "ソフトウェアアーキテクチャ"
+      ],
+      "category": "AI・機械学習",
+      "score": 88,
+      "score_reason": "AIによる自動コード生成が普及する中で、技術的負債の蓄積という本質的な課題と解決アプローチを鋭く指摘しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "アイルランドデータ保護委員会、位置データの処理を巡りGoogleに4億300万ユーロの制裁金",
+      "url": "https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-fines-google-eu403-million-following-inquiry-googles-processing-location",
+      "source": "Hacker News",
+      "published": "2026-09-21T22:33:45+00:00",
+      "hn_score": 70,
+      "hn_comments": 31,
+      "summary": "アイルランドデータ保護委員会（DPC）は、位置データの不適切な処理を理由にGoogleに4億300万ユーロの制裁金を科した。\n調査は「ロケーション履歴」や「位置情報の精度」など3つの機能におけるGDPR違反を対象としている。\nGoogleは6ヶ月以内にデータ処理プロセスを法的に準拠させるよう命じられている。",
+      "tags": [
+        "Google",
+        "GDPR",
+        "プライバシー"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 85,
+      "score_reason": "巨大テック企業に対する巨額の制裁金であり、プライバシー規制とデータ処理のあり方に大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "最近話題のJevはBigQueryのAI関数を安くできるのか？",
+      "url": "https://zenn.dev/jackojacko05/articles/08df79d47f4219",
+      "source": "Zenn",
+      "published": "2026-09-20T12:52:36+00:00",
+      "summary": "意思決定や分類タスクに特化した安価な小規模AIモデル「Jev」の実用性を検証した記事。\nBigQueryのデータを用い、Stack Overflowの質問タグ分類タスクでGeminiとJevの精度およびコストを比較。\n選択肢が限定された単純な分類タスクにおいて、Jevは精度を維持しつつコストを大幅に削減できることを示した。",
+      "tags": [
+        "Jev",
+        "BigQuery",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "大規模データ処理におけるLLMのコスト課題に対し、特化型軽量モデルJevを用いた具体的な解決策と検証結果を提示しており実用性が極めて高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "高速判断AI Jevのユースケースとオープン実装を雑にまとめる",
+      "url": "https://zenn.dev/karaage0703/articles/jev-use-cases-open-implementations",
+      "source": "Zenn",
+      "published": "2026-09-20T07:59:17+00:00",
+      "summary": "Jevは文章を生成せず、定義済みの選択肢や尺度に対する判断と確率を高速に返すAIモデルである。\n通常のLLMのStructured Output等と異なり、最初から判断に特化しているため低遅延かつ低コスト。\n公式は非オープンだが、既存の言語モデル等を用いたオープンな類似実装が急速に登場している。",
+      "tags": [
+        "Jev",
+        "LLM",
+        "AIモデル"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "文章生成を省き判断に特化した新しいAIモデル「Jev」の登場と、そのオープンな類似実装の広がりは、AIの実用性と高速化において高い新規性と影響力を持つため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 3
+    },
+    {
+      "title": "macOS 27にはローカルLLMが入っている - Qiita",
+      "url": "https://qiita.com/chibicco/items/ef1a9e40c4cdf15d8e21",
+      "source": "はてなブックマーク",
+      "published": "2026-09-19T08:41:31+00:00",
+      "summary": "macOS 27にAppleのオンデバイスLLMをターミナルから直接利用できる「fm」コマンドが標準搭載されました。\n追加アプリのインストールやAPIキーは不要で、対応Macであれば「fm chat」などのコマンドで即座に会話が可能です。\n実機検証では「AFM 3 Core Advanced」モデルが動作し、画像入力や簡易的なコード生成の質問にも対応しています。",
+      "tags": [
+        "macOS",
+        "LLM",
+        "Apple"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "OS標準でオンデバイスLLMが搭載され、ターミナルから直接利用可能になったことは、開発環境や日常のPC利用におけるAIの民主化を大きく進めるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応",
+      "url": "https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html",
+      "source": "Publickey",
+      "published": "2026-09-16T15:51:54+00:00",
+      "summary": "GoogleがAndroid上で異なるパスワードマネージャ間のパスキー転送を可能にしたと発表。\n1PasswordやBitwarden、Dashlaneなどの主要なマネージャがこの機能に対応する。\nこれにより、これまで困難だったパスキーの移行が容易になり、パスワードレスの普及が加速する。",
+      "tags": [
+        "Android",
+        "パスキー",
+        "パスワードマネージャー"
+      ],
+      "category": "セキュリティ",
+      "score": 85,
+      "score_reason": "パスキーの移行性を高めることで、ベンダーロックインを防ぎ、パスワードレス認証の普及を大きく後押しする重要なアップデートであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ビジュアルで理解するTransformer",
+      "url": "https://poloclub.github.io/transformer-explainer/",
+      "source": "Hacker News",
+      "published": "2026-09-21T19:43:49+00:00",
+      "hn_score": 173,
+      "hn_comments": 30,
+      "summary": "現代の生成AIの基盤となっている「Transformer」の仕組みを視覚的に学べるインタラクティブツールの紹介。\nGPT-2（1.24億パラメータ）をベースに、セルフアテンションやトークン予測のプロセスを可視化している。\n数式やコードだけでなく、ビジュアルを通じて直感的にディープラーニングの核心を理解できる。",
+      "tags": [
+        "Transformer",
+        "可視化ツール",
+        "ディープラーニング"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "複雑なAIモデルの内部構造を直感的に理解できる優れた教育用ツールであり、AI学習のハードルを下げるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AWSの最軽量LLM「Amazon Nova Micro」がJevの代わりとなるか検証してみた",
+      "url": "https://qiita.com/nasuvitz/items/4d27833640ff36b5d8c5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-20T12:47:53+00:00",
+      "summary": "AWSの最軽量・最安LLM「Amazon Nova Micro」が、高速判断AI「Jev」の代替になり得るかを検証。\n顧客メールの評価タスクにおいて、応答速度、コスト、出力の正確性のすべてでJevがNova Microを上回る結果となった。\nNova Microは入力単価が安いものの、Jevは出力トークンが無料であり、総合的なコストパフォーマンスでもJevが優位。",
+      "tags": [
+        "Amazon Nova",
+        "Jev",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "注目されるJevとAWSの最新軽量モデルを、コスト・速度・精度の多角的な観点から直接比較検証した極めて実用的なデータであるため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 3
+    },
+    {
+      "title": "オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして",
+      "url": "https://www.publickey1.jp/blog/26/javaai.html",
+      "source": "Publickey",
+      "published": "2026-09-15T15:49:38+00:00",
+      "summary": "オラクルがJavaのセキュリティパッチの提供サイクルを従来の3ヶ月から1ヶ月に短縮した。\nAIの台頭により脆弱性の発見ペースが加速している現状に対応するための措置である。\nこれにより、ユーザーは重大な脆弱性に対してより迅速に対処することが可能になる。",
+      "tags": [
+        "Java",
+        "セキュリティパッチ",
+        "AI"
+      ],
+      "category": "セキュリティ",
+      "score": 82,
+      "score_reason": "AIによる脅威の高速化に対応するため、主要プラットフォームのパッチサイクルが月次に短縮されたことは、セキュリティ運用に大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "初心者のためのGitHub Copilotアプリ：diff、ターミナル、ブラウザの活用方法",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+      "source": "GitHub Blog",
+      "published": "2026-09-10T21:31:19+00:00",
+      "summary": "GitHub Copilotアプリに統合された「diff」「ターミナル」「ブラウザ」の3つのパネルを活用し、アプリ内でAIコーディングのループを完結させる方法を解説しています。\ndiffパネルではAIが提案した変更箇所を視覚的に比較・確認でき、ターミナルパネルではエディタを離れることなくコマンドを実行して動作検証が行えます。\nさらにブラウザパネルを組み合わせることで、WebサイトなどのUI変更を即座に確認でき、開発効率とコントロール性を大幅に向上させます。",
+      "tags": [
+        "GitHub Copilot",
+        "Developer Tools",
+        "UI"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 82,
+      "score_reason": "開発者がエディタやブラウザを行き来する手間を省き、AIとの協調開発をシームレスに行うための新機能とワークフローを初心者向けに分かりやすく提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "LLMにおけるハルシネーションの検出：損なわれた文脈共有のトポロジカルな特徴の追跡",
+      "url": "https://arxiv.org/abs/2609.21096",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T04:00:00+00:00",
+      "summary": "大規模言語モデル（LLM）におけるハルシネーション（事実とは異なる情報の生成）を検出する新しいアプローチを提案しています。\nモデル内部の文脈共有が損なわれた状態を、トポロジカルな特徴（Topological Signatures）として追跡・分析します。\nLLMの出力の信頼性を評価し、ハルシネーションを効果的に検知・抑制するための新たな道を開く研究です。",
+      "tags": [
+        "LLM",
+        "ハルシネーション",
+        "トポロジカルデータ解析"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "LLMの実用化における最大の課題であるハルシネーションに対し、トポロジーという数学的手法を用いた新しい検出アプローチを提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "C# Kaigi 2026 参加レポート!!",
+      "url": "https://zenn.dev/prozolic/articles/3bb3f91f7408cc",
+      "source": "Zenn",
+      "published": "2026-09-21T10:24:08+00:00",
+      "summary": "2026年9月に初開催されたC#er向け技術カンファレンス「C# Kaigi 2026」の参加レポート。\n基調講演ではC#の進化の歴史や、AI時代におけるエディターフレンドリーな特徴、MessagePackでのAI活用が紹介された。\n著者は自身の.NETランタイムへのコントリビュート経験に関する登壇内容やセッションの様子を報告している。",
+      "tags": [
+        "C#",
+        ".NET",
+        "カンファレンス"
+      ],
+      "category": "プログラミング言語",
+      "score": 80,
+      "score_reason": "国内初のC#専門カンファレンスの詳細なレポートであり、C#の最新動向やAIとの親和性に関する有益な情報が含まれています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "生成AIセキュリティを学んで変わった「AIを安全に使う」という考え方",
+      "url": "https://qiita.com/kf_webdev/items/cbd1d7bb724676a3b686?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-19T07:56:25+00:00",
+      "summary": "生成AIセキュリティの学習を通じ、「漏洩の防止」だけでなく「そもそも外部に渡してよい情報か」という視点への変化を解説。\n個人情報や機密情報を4つの基準に分類し、必要に応じてマスキングしてAIに渡すなどの具体的な対策を整理。\nAIサービスの規約やオプトアウト設定を確認し、学習利用の有無に関わらず安全な利用基準を持つ重要性を提唱。",
+      "tags": [
+        "生成AIセキュリティ",
+        "情報漏洩対策",
+        "データガバナンス"
+      ],
+      "category": "セキュリティ",
+      "score": 80,
+      "score_reason": "AIの日常的な利用において、単なる技術的対策に留まらず、ユーザー自身の情報取り扱いに対する意識改革と具体的な分類手法を提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「Java 27」正式リリース。全環境でG1 GCがデフォルトに、TLS 1.3用に耐量子暗号のハイブリッドキー交換など新機能",
+      "url": "https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html",
+      "source": "Publickey",
+      "published": "2026-09-15T15:52:17+00:00",
+      "summary": "オラクルが最新バージョンとなる「Java 27」の正式版をリリースした。\n全環境でG1 GCがデフォルトになり、TLS 1.3向けに耐量子暗号のハイブリッドキー交換が導入された。\n本バージョンはLTS（長期サポート）ではなく、6ヶ月間のサポート期間となる。",
+      "tags": [
+        "Java",
+        "G1GC",
+        "耐量子暗号"
+      ],
+      "category": "プログラミング言語",
+      "score": 80,
+      "score_reason": "主要言語であるJavaの最新リリースであり、デフォルトGCの変更や耐量子暗号への対応など、先進的な機能追加が行われているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "自身の銀行残高に連動したキルスイッチをAIエージェントに実装した話",
+      "url": "https://dev.to/jigi_capsule26/i-gave-my-ai-agent-a-kill-switch-tied-to-its-own-bank-balance-2ll6",
+      "source": "Dev.to",
+      "published": "2026-09-22T00:08:57+00:00",
+      "summary": "自律的に動作しAPI予算を消費するAIエージェントに、自身の資金残高や稼働可能日数、売上状況に連動したキルスイッチを導入しました。\nエージェント自身が予算超過やルール違反を判断して回避することを防ぐため、実行時に書き換え不可能な外部コードとしてチェック機能を構築しています。\nSQLiteのトリガーを用いて後からの編集を物理的に防ぐ台帳システムを組み合わせることで、エージェントの自己評価による不正を防ぐ仕組みを実現しています。",
+      "tags": [
+        "AI Agent",
+        "SQLite",
+        "Fintech"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "自律型AIエージェントの暴走や予算超過を防ぐための、外部コードと不変台帳を組み合わせた実践的なセーフガードの設計例を示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub稼働状況レポート：2026年8月",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
+      "source": "GitHub Blog",
+      "published": "2026-09-10T02:05:17+00:00",
+      "summary": "2026年8月はGitHubにとって可用性の面で課題が残る月となったが、Azureへの移行とアーキテクチャ改善を積極的に進めています。\n8月11日にはAzure上で初のプロダクションMySQLプライマリの稼働に成功し、顧客への影響を最小限に抑えて移行を完了しました。\n移行に伴いAzureでのリードトラフィックの割合が大幅に増加しており、キャパシティ監視や回復性の向上にも継続して取り組んでいます。",
+      "tags": [
+        "GitHub",
+        "Azure",
+        "データベース"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 80,
+      "score_reason": "開発者にとって極めて重要なインフラであるGitHubのAzure移行の進捗と、大規模システムにおける可用性向上の取り組みが詳細に示されているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Re: Vercel に Go サーバーを無料でデプロイできるんです！",
+      "url": "https://zenn.dev/otakakot/articles/14d162ea65f67d",
+      "source": "Zenn",
+      "published": "2026-09-21T04:46:05+00:00",
+      "summary": "VercelのGo言語サポートが大幅にアップデートされ、よりシンプルなデプロイが可能になった。\n新方式の「Zero-configuration」では、ルートにgo.modとmain.goを置くだけで通常のGoサーバーを動かせる。\n従来の特殊なルーティングやディレクトリ構成が不要になり、開発体験が大幅に向上している。",
+      "tags": [
+        "Go",
+        "Vercel",
+        "サーバーレス"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 78,
+      "score_reason": "VercelにおけるGoサポートの劇的な改善は、Go開発者のデプロイの選択肢を広げる実用性の高いニュースです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "エンジニア不要論の真実！AIの進化と具体抽象から完全解説",
+      "url": "https://qiita.com/Sicut_study/items/b2ef2f7a6ee0dbbf0001?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-21T03:52:23+00:00",
+      "summary": "AIエージェントの普及により、指示を出すだけの「考えていない」エンジニアと自ら考えるエンジニアの二極化が進んでいる。\n従来のシステム開発は下流の「具体」の仕事が多く、これがAIによって代替されやすい領域であると指摘。\n今後のエンジニアには、問題発見や設計といった上流の「抽象」の思考力が不可欠になると解説している。",
+      "tags": [
+        "キャリアパス",
+        "AI駆動開発",
+        "システム開発"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 78,
+      "score_reason": "AIの台頭に伴うエンジニアの役割変化とキャリアの分水嶺を「具体と抽象」の観点から論理的に分析しており、業界への啓発性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "中国AIのKimi、米Claudeに「代理回答」させる　アンソロピックが指摘 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN15BV70V10C26A9000000/",
+      "source": "はてなブックマーク",
+      "published": "2026-09-21T19:48:44+00:00",
+      "summary": "米アンソロピックは、中国のAIサービス「Kimi」がユーザーの質問を裏で「Claude」に転送して回答させていたと指摘しました。\nこの行為は、他社の高性能AIの応答データを自社AIに学習させて性能を高める「蒸留」と呼ばれる不正使用の疑いがあります。\n米中間のAI技術競争が激化する中、安全対策の欠如や知的財産のただ乗りといったリスクが改めて浮き彫りになっています。",
+      "tags": [
+        "Anthropic",
+        "Kimi",
+        "AI倫理"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 78,
+      "score_reason": "大手AIモデルのデータを不正に転送・学習に利用する「蒸留」問題は、AI業界の知的財産保護やセキュリティにおいて重大な懸念事項であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "音波から睡眠の健康へ：WhisperとTensorFlow.jsを使用したローカルAIいびき・無呼吸検出器の構築",
+      "url": "https://dev.to/beck_moulton/from-soundwaves-to-sleep-health-building-a-local-ai-snoring-apnea-detector-with-whisper-and-17kl",
+      "source": "Dev.to",
+      "published": "2026-09-22T00:34:00+00:00",
+      "summary": "プライバシーを重視し、100%ローカルで動作するいびき・睡眠時無呼吸症候群の検出システムを構築。\nWeb Audio APIで音声をキャプチャし、Whisper.cppで会話をフィルタリングしてプライバシーを保護する。\nTensorFlow.jsのCNNモデルをブラウザ上で実行し、リアルタイムで異常な呼吸パターンを検出する。",
+      "tags": [
+        "TensorFlow.js",
+        "Whisper",
+        "エッジAI"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "ブラウザ上でのエッジAIとプライバシー保護を両立した実用的なヘルスケアアプリケーションの実装例として価値が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "コードとしてのマーケティング運用：GitHub上での企画からフォローアップまでのイベント自動化",
+      "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+      "source": "GitHub Blog",
+      "published": "2026-09-11T18:26:10+00:00",
+      "summary": "日本と韓国のGitHubマーケティング担当者が、手作業によるミスが発生しやすいイベント運営業務の自動化に取り組んだ事例を紹介しています。\n元エンジニアの経験を活かし、GitHub Copilotとの対話を通じてランブック（手順書）を自動化スクリプトへと落とし込みました。\n現在では、1つのGitHub Issueを作成するだけで、参加者の審査からイベント後のクリーンアップまでが完全に自動で実行されるパイプラインが稼働しています。",
+      "tags": [
+        "GitHub Copilot",
+        "Automation",
+        "Marketing Ops"
+      ],
+      "category": "その他",
+      "score": 78,
+      "score_reason": "非エンジニアリング領域（マーケティング運用）におけるGitHub Copilotを活用した業務自動化の具体的なプロセスと、その高い実用性を示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Attention-Aware Routing：MoEにおけるルーティングとアテンションの結合",
+      "url": "https://arxiv.org/abs/2609.20974",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T04:00:00+00:00",
+      "summary": "混合専門家（MoE: Mixture of Experts）モデルにおける、ルーティングとアテンション機構を結合する新しい手法を提案しています。\nアテンションの情報を考慮したルーティング（Attention-Aware Routing）により、モデルの表現力と計算効率を同時に向上させます。\nMoEベースのLLMなどの性能向上に寄与し、より高度なマルチタスク処理や効率的な学習を可能にする技術です。",
+      "tags": [
+        "MoE",
+        "Attention",
+        "ディープラーニング"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "MoEモデルの効率化と性能向上は現在のLLM開発のトレンドであり、ルーティングとアテンションの結合というアプローチが興味深いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "SAS Vision Transformerを用いたLoRA強化型対照学習",
+      "url": "https://arxiv.org/abs/2609.21061",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T04:00:00+00:00",
+      "summary": "Vision Transformer（ViT）の一種であるSAS ViTにおいて、LoRA（Low-Rank Adaptation）を適用した対照学習手法を提案しています。\nパラメータ効率の良い微調整手法であるLoRAを組み合わせることで、計算資源を抑えつつ高性能な視覚表現学習を実現します。\n画像認識やマルチモーダルモデルの事前学習など、幅広いコンピュータビジョンタスクへの応用と効率化が期待されます。",
+      "tags": [
+        "Vision Transformer",
+        "LoRA",
+        "対照学習"
+      ],
+      "category": "AI・機械学習",
+      "score": 76,
+      "score_reason": "パラメータ効率の良いLoRAとVision Transformerを組み合わせた対照学習は、実用的な画像認識モデルの構築において有用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "あなたが書いていない文章は読みたくない",
+      "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
+      "source": "Hacker News",
+      "published": "2026-09-21T22:30:41+00:00",
+      "hn_score": 170,
+      "hn_comments": 55,
+      "summary": "AIの普及により、設計書やドキュメント、PRの要約などがAIで大量に自動生成されるようになった。\nしかし、これらは文脈や執筆者の視点を欠いており、読む側にとっては非常に苦痛で不毛なものとなっている。\n著者はAI生成文書の氾濫に警鐘を鳴らし、人間が思考して書くことの重要性とAIの正しい活用法を訴えている。",
+      "tags": [
+        "生成AI",
+        "ドキュメンテーション",
+        "コミュニケーション"
+      ],
+      "category": "その他",
+      "score": 75,
+      "score_reason": "AI時代のエンジニアリングコミュニケーションにおける実用的な課題と、ドキュメント作成のあり方に一石を投じる内容であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Ubieに入社していました",
+      "url": "https://zenn.dev/hagino3000/articles/b3278502b1f47b",
+      "source": "Zenn",
+      "published": "2026-09-21T03:22:01+00:00",
+      "summary": "アドテク業界から医療スタートアップのUbieに転職し、4年間機械学習エンジニアとして活動した振り返り。\nLLMの進化により、医療従事者のドキュメントワーク削減や非構造テキストの活用といった課題に挑んでいる。\nLLMの精度評価や、既存の医療辞書を活用したトークン削減など、実践的な技術的アプローチを紹介している。",
+      "tags": [
+        "医療IT",
+        "LLM",
+        "機械学習"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "医療分野におけるLLMの具体的な活用事例と、トークン削減や精度評価といった実務的な課題解決プロセスが示されています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "5分でJev入門（すぐ使う）",
+      "url": "https://qiita.com/Ninagawa123/items/8ec3f5fe18c20fab1b2a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-19T14:29:27+00:00",
+      "summary": "高速かつ短文の回答に特化したAIモデル「Jev」の基本的な使い方を初心者向けに解説。\nTypeSafe.aiのコンソールからPlaygroundを利用し、ポエムがAI生成かどうかを判定する手順を紹介。\nYes/Noの2択を判定する「noul」タイプなどの具体的な設定方法と実行結果を示している。",
+      "tags": [
+        "Jev",
+        "TypeSafe",
+        "AIモデル"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "注目される高速判断AI「Jev」の具体的な導入手順と動作検証を分かりやすく解説しており、開発者の実用的な参考になるため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 3
+    },
+    {
+      "title": "ワークスペース参加におけるドメイン検証とメール確認の比較 — 2026年における制御",
+      "url": "https://dev.to/oskarholm4968/domain-verification-vs-email-confirmation-for-workspace-joining-control-in-2026-30o2",
+      "source": "Dev.to",
+      "published": "2026-09-22T00:17:01+00:00",
+      "summary": "組織の制御を確立するDNSドメイン検証と、個人のメールアクセスを確認するメール確認の役割の違いを解説しています。\nこれらは永続的なアイデンティティ表明ではないため、検証結果は不変のステータスではなく証拠イベントとして記録すべきです。\n特にヘルスケア技術などの厳格なオンボーディングにおいて、この区別とイベントベースのデータモデル設計が監査可能性を担保します。",
+      "tags": [
+        "DNS",
+        "Security",
+        "Backend"
+      ],
+      "category": "セキュリティ",
+      "score": 75,
+      "score_reason": "ワークスペースのセキュリティ管理におけるドメイン検証とメール確認の設計思想の違いと、イベント駆動型データモデルによる監査性の向上について実用的なアプローチを提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "RBS-Attention：長文コンテキストLLMのための半径制限付き疎なプリフィル",
+      "url": "https://arxiv.org/abs/2609.20971",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T04:00:00+00:00",
+      "summary": "長文コンテキストを扱う大規模言語モデル（LLM）向けの新しいアテンション機構「RBS-Attention」を提案しています。\n半径制限付きの疎なプリフィル（Radius-Bounded Sparse Prefill）により、計算コストを抑えつつ長文処理の効率化を図ります。\nLLMの推論速度向上やメモリ節約に寄与し、より長いコンテキストの処理を実用的なコストで実現する技術として期待されます。",
+      "tags": [
+        "LLM",
+        "Attention",
+        "自然言語処理"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "長文コンテキスト処理におけるLLMの計算効率向上は、実用化において非常に重要な課題であり、新規性があるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "CaLR：堅牢な拡散推論のための因果的潜在空間修正",
+      "url": "https://arxiv.org/abs/2609.20981",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-21T04:00:00+00:00",
+      "summary": "拡散モデル（Diffusion Models）における推論の堅牢性を高めるための新手法「CaLR」を提案しています。\n因果的潜在空間修正（Causal Latent Revision）を用いることで、生成プロセスにおける論理的・因果的な一貫性を向上させます。\n画像生成やその他の拡散モデルベースのタスクにおいて、より正確で信頼性の高い推論と高品質な生成を可能にします。",
+      "tags": [
+        "拡散モデル",
+        "因果推論",
+        "画像生成"
+      ],
+      "category": "AI・機械学習",
+      "score": 73,
+      "score_reason": "拡散モデルの弱点である論理的・因果的な一貫性の欠如を、潜在空間の修正によって解決しようとする実用的な研究であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "NASAの火星サンプルリターンミッションが中止に",
+      "url": "https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead",
+      "source": "Hacker News",
+      "published": "2026-09-21T19:14:12+00:00",
+      "hn_score": 289,
+      "hn_comments": 220,
+      "summary": "NASAが計画していた火星からの土壌サンプル回収ミッション（Mars Sample Return）が中止された。\n予算の膨張や技術的な難易度の高さ、スケジュールの遅延が主な原因とみられる。\n宇宙開発における重要なマイルストーンの断念であり、今後の火星探査計画に大きな影響を与える。",
+      "tags": [
+        "NASA",
+        "宇宙開発",
+        "火星探査"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "宇宙科学分野における極めて重要なプロジェクトの中止であり、今後の宇宙探査の方向性に影響するため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "みのるん式 登壇資料の作成ノウハウをスキルとして公開しました！",
+      "url": "https://qiita.com/minorun365/items/ed4c760f616cf3c0a958?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-21T02:29:12+00:00",
+      "summary": "AIエージェント（Claude Code等）が読み込んでスライドを作成できるMarp用スキルを公開。\n問いと答えの連動、情報の段階的提示、見出しの表現、図の簡素化など、実践的なスライド作成ノウハウを収録。\nスライドのレイアウト崩れや文字サイズを自動でチェックする検査スクリプトも同梱されている。",
+      "tags": [
+        "Marp",
+        "AIエージェント",
+        "スライド作成"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "AIエージェントに特定の役割やノウハウ（スキル）を学習させてドキュメント作成を自動化する、実用的なアプローチを提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIでMVを作るのは想像以上に大変だった　制作34時間、繰り返した“ダメ出し”でわかったこと (1/6)",
+      "url": "https://ascii.jp/elem/000/004/436/4436544/",
+      "source": "はてなブックマーク",
+      "published": "2026-09-20T22:42:42+00:00",
+      "summary": "最新のAIモデル「GPT-6 Astra」や「Suno v6」などを活用し、1曲のミュージックビデオを制作した体験レポートです。\nAIの芸術的理解力や表現力は劇的に向上しているものの、意図通りの作品にするには人間による細かなディレクションが必要です。\n制作には34時間を要したものの、AIの進化によって個人によるメディア制作やパーソナル化がさらに加速すると指摘しています。",
+      "tags": [
+        "生成AI",
+        "動画制作",
+        "GPT-6"
+      ],
+      "category": "AI・機械学習",
+      "score": 70,
+      "score_reason": "最新のマルチモーダルAIを用いた実践的なコンテンツ制作プロセスと、現時点での人間によるコントロールの必要性を具体的に示しているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "コードを読むべきか、RAGは死んだのか、そしてSkillsはMCPを終わらせたのか？",
+      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
+      "source": "GitHub Blog",
+      "published": "2026-09-18T15:00:00+00:00",
+      "summary": "AIに関する極端な意見（ホットテイク）を鵜呑みにせず、その前提条件や背景にある文脈を深く掘り下げて検証することの重要性を説いています。\nAIが生成したコードであっても開発者が最終的な責任を持つべきですが、CSSの実験と本番環境の認証リファクタリングではレビューの厳密さを変えるなど、リスクに応じた対応が必要です。\nGitHub Podcastの最新エピソードに基づき、RAGの現状やMCP（Model Context Protocol）とSkillsの関係性など、AI開発における議論の本質を探索しています。",
+      "tags": [
+        "AI",
+        "GitHub Copilot",
+        "Software Development"
+      ],
+      "category": "AI・機械学習",
+      "score": 70,
+      "score_reason": "AI生成コードのレビュー方針や最新のAI技術トレンドに対する批判的思考の重要性を、開発者の実務に即して解説しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Sun Microsystemsが犯した過ち",
+      "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+      "source": "Hacker News",
+      "published": "2026-09-21T14:03:18+00:00",
+      "hn_score": 489,
+      "hn_comments": 273,
+      "summary": "Oxide社のミートアップを機に、かつての名門企業Sun Microsystemsへのノスタルジーと議論が再燃した。\n著者はSunが残した偉大な功績を認めつつも、同社が犯した多くの失敗について振り返っている。\n最終的にSunは「ビジネスを運営するという実務的なメカニズムに飽きてしまっていた」と分析している。",
+      "tags": [
+        "Sun Microsystems",
+        "歴史",
+        "ビジネスモデル"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 65,
+      "score_reason": "かつて業界を牽引したSun Microsystemsの失敗から学ぶビジネスの教訓であり、歴史的価値が高い内容です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "テックリードとアーキテクトの違い、テックリードとEMの違い - mtx2s’s blog",
+      "url": "https://mtx2s.hatenablog.com/entry/2026/09/21/182658",
+      "source": "はてなブックマーク",
+      "published": "2026-09-21T10:25:50+00:00",
+      "summary": "開発組織において混同されがちな「テックリード」「アーキテクト」「エンジニアリングマネージャー（EM）」の役割の違いを整理しています。\nテックリードは技術的リーダーシップを発揮し自らコードを書くICであり、ピープルマネジメントを行うEMとは異なります。\nこれらの役割定義の曖昧さが組織のパフォーマンス低下を招くため、それぞれの責務と境界を明確にすることが重要と説いています。",
+      "tags": [
+        "キャリアパス",
+        "エンジニアリングマネジメント",
+        "組織論"
+      ],
+      "category": "その他",
+      "score": 65,
+      "score_reason": "開発組織における役割定義の明確化は、チームの生産性向上やエンジニアのキャリア形成において普遍的かつ重要な課題であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "人気のNeovimディストリビューションに対するSnaxVimの起動パフォーマンスのベンチマーク",
+      "url": "https://dev.to/glmlm/benchmarking-snaxvims-startup-performance-against-popular-neovim-distros-205h",
+      "source": "Dev.to",
+      "published": "2026-09-22T00:29:00+00:00",
+      "summary": "軽量なNeovim設定である「SnaxVim」の起動パフォーマンスを、他の主要ディストリビューションと比較。\nhyperfineやvim-startuptimeなどの複数の測定手法を用いて、多角的に起動時間をベンチマークした。\nエディタの快適性に直結する起動速度において、SnaxVimの設計思想と優位性を検証している。",
+      "tags": [
+        "Neovim",
+        "ベンチマーク",
+        "SnaxVim"
+      ],
+      "category": "その他",
+      "score": 65,
+      "score_reason": "開発者向けテキストエディタのカスタマイズとパフォーマンス検証に関するニッチだが実用的な比較記事であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "あなたが持っているのはアテンション（注意）だけ",
+      "url": "https://alicegg.tech/2026/09/21/attention",
+      "source": "Hacker News",
+      "published": "2026-09-21T14:26:56+00:00",
+      "hn_score": 559,
+      "hn_comments": 164,
+      "summary": "テトリス効果が示すように、人間が長時間フォーカスするものは最終的にその人の思考を形成する。\nしかし現代では、YouTubeやSpotifyなどのアルゴリズムにより、私たちの注意が意図せず他者に奪われている。\nプラットフォームが提示するコンテンツに流されず、自らの注意を主体的に管理することの重要性を説く。",
+      "tags": [
+        "メンタルヘルス",
+        "アルゴリズム",
+        "ソーシャルメディア"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "現代のデジタル社会におけるアテンション・エコノミーと個人の認知への影響について警鐘を鳴らす内容です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Hi Reddit, I'm Katie Paul, a Reuters journalist who unveiled Mark Zuckerberg's plan to replace Meta staff with AI — and how it imploded. AMA.",
+      "url": "https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/",
+      "source": "Reddit",
+      "published": "2026-09-02T19:18:30+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Robin Williams’ Daughter Calls for Fans Creating AI Videos of the Actor to ‘Have Some Shame’: ‘Leave Him Out of Your Delusional Bulls—’",
+      "url": "https://www.reddit.com/r/technology/comments/1wmt3h0/robin_williams_daughter_calls_for_fans_creating/",
+      "source": "Reddit",
+      "published": "2026-09-21T23:31:11+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Boomers love AI images of their grandkids; millennial parents hate it",
+      "url": "https://www.reddit.com/r/technology/comments/1wmcl22/boomers_love_ai_images_of_their_grandkids/",
+      "source": "Reddit",
+      "published": "2026-09-21T13:18:56+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "U.S. President and family’s large AI-related investments pose possible conflicts",
+      "url": "https://www.reddit.com/r/technology/comments/1wmkmqz/us_president_and_familys_large_airelated/",
+      "source": "Reddit",
+      "published": "2026-09-21T18:12:40+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Larry Page, Sergey Brin, and Peter Thiel All Fled California’s Billionaire Tax. Nvidia’s CEO Isn’t Going Anywhere. Even With an $8 Billion Bill Coming His Way",
+      "url": "https://www.reddit.com/r/technology/comments/1wmsmg0/larry_page_sergey_brin_and_peter_thiel_all_fled/",
+      "source": "Reddit",
+      "published": "2026-09-21T23:11:32+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "夫がフォルダ名を「2026-09-19」とつけていたので、 「何そのフォルダ名」と（20260919でええやろ、の意味で）言ったら、 「こうすると新しい順に並ぶから便利だよ」と言われた。 そうか……フィンランドでは普通は「19.9.2026」か……。→「yymmddで世界統一すべきシンプルな理由」",
+      "url": "https://posfie.com/@petaritape/p/Es0IJEZ",
+      "source": "はてなブックマーク",
+      "published": "2026-09-20T18:31:17+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Xiaomi MiMo v2.6",
+      "url": "https://mimo.xiaomi.com/mimo-v2-6",
+      "source": "Hacker News",
+      "published": "2026-09-21T20:12:12+00:00",
+      "hn_score": 481,
+      "hn_comments": 243,
+      "summary": "Xiaomiが提供する「MiMo」のバージョン2.6がリリースされた。\n詳細な機能やアップデート内容は抜粋からは不明だが、Xiaomiのエコシステムに関連するツールとみられる。\nモバイルやスマートデバイス向けの機能向上やバグ修正が含まれていると推測される。",
+      "tags": [
+        "Xiaomi",
+        "モバイル",
+        "アップデート"
+      ],
+      "category": "モバイル",
+      "score": 40,
+      "score_reason": "Xiaomiの特定ツールに関するアップデートであり、業界全体への影響度は限定的であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}

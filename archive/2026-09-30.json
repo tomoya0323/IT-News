@@ -1,0 +1,770 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-30T10:17:00.617988+09:00",
+  "total_count": 48,
+  "success_count": 30,
+  "error_count": 18,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "OpenAI、「24時間働く」エージェント「dots」発表　Astra搭載、クラウド上で常時稼働",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/30/2000001864/",
+      "source": "はてなブックマーク",
+      "published": "2026-09-29T18:51:02+00:00",
+      "summary": "米OpenAIが、GPT-6 Astraを搭載しクラウド上で24時間自律稼働するエージェント機能「dots」を発表した。\nユーザーの指示に基づき4000以上のアプリと連携してタスクをこなし、期待以上の成果を先回りして届ける。\nChatGPTのPro、Business、Enterpriseプランのユーザー向けに順次展開され、当初は1つのエージェントのみ設定可能。",
+      "tags": [
+        "OpenAI",
+        "AIエージェント",
+        "GPT-6 Astra"
+      ],
+      "category": "AI・機械学習",
+      "score": 95,
+      "score_reason": "24時間自律稼働するAIエージェントの登場は、ビジネスプロセス自動化のパラダイムシフトを象徴する極めて重要な発表である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Google Cloud、AIエージェントからの大量アクセスをPostgreSQLのプライマリDBから切り離せる「PostgreSQL for agents in AlloyDB」発表",
+      "url": "https://www.publickey1.jp/blog/26/google_cloudaipostgresqldbpostgresql_for_agents_in_alloydb.html",
+      "source": "Publickey",
+      "published": "2026-09-29T15:46:18+00:00",
+      "summary": "Google Cloudは、AIエージェントからの大量アクセスによる本番データベースへの負荷を軽減する新サービスを発表した。\nAIエージェントの読み取りワークロード用に、サンドボックス化されたPostgreSQLインスタンスを数秒でプロビジョニングする。\n本番環境のパフォーマンスに悪影響を与えることなく、最新の運用データへの高速アクセスとオンデマンドなスケールを実現する。",
+      "tags": [
+        "Google Cloud",
+        "AlloyDB",
+        "PostgreSQL"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 88,
+      "score_reason": "AIエージェントの普及に伴うデータベース負荷の急増という、インフラ運用の新たな課題に対する非常に実用的な解決策である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オープンソースのAIセキュリティエージェントを使って24件のAndroidの脆弱性を発見した方法",
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "source": "GitHub Blog",
+      "published": "2026-09-28T19:00:00+00:00",
+      "summary": "GitHubがオープンソースのAIセキュリティエージェント「Taskflow Agent」を開発。\nセキュリティ研究者がプロンプトやワークフローを自動化し、LLMを段階的に誘導。\nこのツールを用いて、実際にAndroidアプリから24件の脆弱性を検出することに成功。",
+      "tags": [
+        "セキュリティ",
+        "AI",
+        "Android"
+      ],
+      "category": "セキュリティ",
+      "score": 88,
+      "score_reason": "AIエージェントを活用した脆弱性検知の実用性と、オープンソースツールによる具体的な成果が示されており、セキュリティ分野への影響が大きいため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AI業界はデータセンターへの投資を正当化するために2031年までに6兆ドルを稼ぐ必要がある",
+      "url": "https://www.reddit.com/r/technology/comments/1wt6mcm/ai_industry_needs_to_earn_6_trillion_by_2031_to/",
+      "source": "Reddit",
+      "published": "2026-09-29T10:33:27+00:00",
+      "summary": "AI業界がデータセンターなどのインフラ投資を正当化するには、2031年までに6兆ドルの収益が必要との試算が出されました。\n現在の莫大な設備投資に対するリターン（ROI）の不確実性が強く指摘されています。\nAIバブルの懸念や、持続可能なビジネスモデルの構築に向けた業界全体の課題を浮き彫りにしています。",
+      "tags": [
+        "AI投資",
+        "データセンター",
+        "収益性"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 85,
+      "score_reason": "AIインフラへの巨額投資に対する経済的合理性を問う分析であり、今後のIT市場全体の動向を左右する極めて重要な課題であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「タイムズカーWebサイト」への不正アクセスに関する調査結果および今後の対応について（第3報） | カーシェアリングのタイムズカー",
+      "url": "https://share.timescar.jp/news/2026/0929/1816.html",
+      "source": "はてなブックマーク",
+      "published": "2026-09-29T11:48:26+00:00",
+      "summary": "タイムズカーWebサイトへの不正アクセスにより、約160万件の本人確認書類画像が漏えいしたことが確認された。\n漏えい情報には運転免許証、現住所確認書類、学生証、家族確認書類の画像が含まれている。\n対象会員への個別メール案内を開始しており、外部専門機関の調査結果を踏まえた詳細を2週間程度で案内予定。",
+      "tags": [
+        "不正アクセス",
+        "個人情報漏えい",
+        "セキュリティインシデント"
+      ],
+      "category": "セキュリティ",
+      "score": 85,
+      "score_reason": "160万件という大規模な運転免許証等の画像漏えいは、社会的影響が極めて大きく、企業のセキュリティ対策への警鐘となる。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "コーディングエージェントにGoogle Cloudの専門知識とツールを組み込む「Google Cloud Developer Plugin for AI Coding Agents」発表",
+      "url": "https://www.publickey1.jp/blog/26/google_cloudgoogle_cloud_developer_plugin_for_ai_coding_agents.html",
+      "source": "Publickey",
+      "published": "2026-09-29T15:44:15+00:00",
+      "summary": "Google Cloudは、Claude Codeなどのコーディングエージェントに同社の専門知識やツールを組み込むプラグインを発表した。\nクラウドサービスの最新アップデートや適切なアーキテクチャ設計の知識を、MCPサーバー等を通じてエージェントに提供する。\nこれにより、コーディングエージェントがGoogle Cloud上で適切かつ最新のシステム構築を行うことが可能になる。",
+      "tags": [
+        "Google Cloud",
+        "AIエージェント",
+        "MCP"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "MCPを活用してクラウドベンダー公式の知識をAIエージェントに直接統合する動きは、今後の開発自動化を加速させる重要な一歩である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開。特定のLLMに依存せず入れ替え可能、任意のコンテナ環境にデプロイ",
+      "url": "https://www.publickey1.jp/blog/26/awsaistrandsllm.html",
+      "source": "Publickey",
+      "published": "2026-09-28T15:01:25+00:00",
+      "summary": "AWSは、GPTやClaude、Geminiなどの主要LLMを基にした高性能なAIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開しました。\n特定のLLMに依存せず、任意のコンテナ環境にデプロイして利用できる柔軟性を備えています。\n長期記憶や外部環境へのアクセス、ポリシー逸脱を防ぐガードレールなど、エージェントに必要な周辺環境を簡単に構築可能です。",
+      "tags": [
+        "AWS",
+        "AIエージェント",
+        "オープンソース"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "AWSによるAIエージェント構築の標準化に向けたOSS公開であり、LLMに依存しない高い柔軟性と実用性を備えているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "初心者向けGitHub Copilotアプリ：キャンバスでカスタムワークフローを構築する方法",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+      "source": "GitHub Blog",
+      "published": "2026-09-25T18:00:00+00:00",
+      "summary": "GitHub Copilotアプリに搭載された新機能「キャンバス」の使い方を解説。\n自然言語で指示するだけで、カンバンボードやチェックリストなどのカスタムUIを自動生成。\nユーザーとAIエージェントが双方向に操作・更新できるホワイトボード型の共有画面。",
+      "tags": [
+        "GitHub Copilot",
+        "AIアシスタント",
+        "UI生成"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "自然言語から動的なUIを生成し、AIエージェントとの協調作業を効率化する新しいインターフェースの形を提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "CSSの配信量を増やすことでサイトのパフォーマンスを向上させる",
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "source": "GitHub Blog",
+      "published": "2026-09-25T15:00:00+00:00",
+      "summary": "GitHubはPrimerデザインシステムにおいてCSS-in-JSによるパフォーマンス低下の課題に直面した。\n代替案としてCSS Modulesを採用し、クライアントおよびサーバーの実行時コストを完全に排除した。\nこれにより、ネイティブCSSの利点を活かしつつ、コンポーネントのカプセル化とサイトパフォーマンス向上を実現した。",
+      "tags": [
+        "CSS",
+        "GitHub",
+        "Webパフォーマンス"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 85,
+      "score_reason": "大規模なWebサービスであるGitHubがCSS-in-JSからCSS Modulesへ移行した事例は、フロントエンド開発のトレンドやパフォーマンス最適化において非常に影響力が大きいため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ブラウザで動くMicroLLM：WebGPUを活用した超小型モデルがもたらす新しいエッジAIレイヤー",
+      "url": "https://dev.to/doykim0903/microllms-in-the-browser-webgpu-powered-tiny-models-as-the-new-edge-ai-layer-1m8",
+      "source": "Dev.to",
+      "published": "2026-09-30T01:00:15+00:00",
+      "summary": "WebGPUを活用し、ブラウザ上で25M〜360Mパラメータの超小型LLM（MicroLLM）を直接動作させる技術と実験について解説しています。\n4ビット量子化（Q4）によりメモリフットプリントを約75%削減し、100Mモデルをわずか50〜84MBに圧縮してブラウザのIndexedDBに保存可能です。\n外部サーバーへのデータ送信を嫌う企業や、低コストでローカルRAGやAIエージェントをエッジ側で実行したいユースケースに適しています。",
+      "tags": [
+        "WebGPU",
+        "エッジAI",
+        "LLM"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 84,
+      "score_reason": "WebGPUの普及に伴い、ブラウザ上での軽量かつセキュアなローカルAI実行という新たなエッジAIの可能性を提示しているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「Docker Cloud Sandboxes」発表、AIエージェント向けサンドボックスをローカルとクラウド間で自由に移動可能に",
+      "url": "https://www.publickey1.jp/blog/26/docker_cloud_snadboxesai.html",
+      "source": "Publickey",
+      "published": "2026-09-27T16:02:18+00:00",
+      "summary": "Docker社は、AIエージェント向けのサンドボックス環境をクラウド上で提供する「Docker Cloud Sandboxes」を発表しました。\nローカルで動作する「Docker Sandboxes」と組み合わせることで、サンドボックス環境をローカルとクラウド間で自由に移動可能にします。\nAIエージェントがホスト側のファイルを誤消去したり外部へ不正アクセスしたりするのを防ぐ、高い分離レベルを備えた仮想マシン環境を提供します。",
+      "tags": [
+        "Docker",
+        "AIエージェント",
+        "サンドボックス"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 82,
+      "score_reason": "AIエージェントの安全な実行環境をローカルとクラウドのシームレスな連携で実現する、実用性の高い開発インフラ技術であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Git 2.56のハイライト",
+      "url": "https://github.blog/open-source/git/highlights-from-git-2-56/",
+      "source": "GitHub Blog",
+      "published": "2026-09-28T17:23:33+00:00",
+      "summary": "オープンソースのバージョン管理システム「Git 2.56.0」がリリース。\nマージ競合の解決をより安全に行うための新コマンド「git add --resolved」が追加。\n競合マーカーの有無を自動スキャンし、誤ったステージングを防ぐワークフローを提供。",
+      "tags": [
+        "Git",
+        "バージョン管理",
+        "オープンソース"
+      ],
+      "category": "その他",
+      "score": 82,
+      "score_reason": "開発者の日常的なワークフローであるマージ競合解決の安全性を高める重要な機能追加であり、影響範囲が非常に広いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "IIJ、新人エンジニア向け研修教材を無料公開　Web技術の基礎から生成AI活用まで20講義超",
+      "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001854/",
+      "source": "はてなブックマーク",
+      "published": "2026-09-29T11:47:47+00:00",
+      "summary": "IIJが新人エンジニア向けハンズオン研修「IIJ Bootcamp」の2026年度版資料を無料公開しました。\nWeb技術の基礎から、Git、Docker、Kubernetes、React、生成AIを活用したアプリ開発まで幅広く網羅しています。\nクリエイティブ・コモンズ（CC BY-SA）ライセンスで公開され、GitHubからも閲覧可能です。",
+      "tags": [
+        "IIJ",
+        "エンジニア研修",
+        "教材無料公開"
+      ],
+      "category": "プログラミング言語",
+      "score": 80,
+      "score_reason": "高品質な新人研修資料がオープンライセンスで公開され、業界全体のエンジニア育成や教育に大きく貢献する内容であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub - mizchi/explainer：AIから人間へ概念を説明するためのツールとスキル",
+      "url": "https://github.com/mizchi/explainer",
+      "source": "はてなブックマーク",
+      "published": "2026-09-29T19:12:08+00:00",
+      "summary": "AIコーディングエージェントの進化により、人間が理解する速度を超えてコードが生成される問題に対処するリポジトリ。\n読者の知識レベル（ペルソナ）に合わせて、まだ知らない情報のみをツールで検証された図やテキストで説明する。\n引用された出力の再実行検証や、VLM（Vision-Language Model）を用いた図の整合性チェックなどの機能を備える。",
+      "tags": [
+        "AIエージェント",
+        "GitHub",
+        "ドキュメンテーション"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "AIの生成速度に人間が追いつけないという「理解のボトルネック」に対し、ペルソナに最適化した検証可能な説明を自動生成する先進的なアプローチである。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "マイクロソフト、企業内アプリの実行基盤「Copilot Managed Runtime」プレビュー公開。Microsoft 365と同じテナント内でコード実行、管理者による集中管理も",
+      "url": "https://www.publickey1.jp/blog/26/copilot_managed_runtimemicrosoft_365.html",
+      "source": "Publickey",
+      "published": "2026-09-27T15:59:50+00:00",
+      "summary": "マイクロソフトは、AIで開発した社内アプリケーションをセキュアに実行・管理するための基盤「Copilot Managed Runtime」をプレビュー公開しました。\n従業員がCopilotを用いて自然言語で作成したアプリを、Microsoft 365と同じテナント内で安全にコード実行できます。\n管理者による集中管理やガバナンスの維持を可能にし、シャドーIT化を防ぎつつ市民開発を促進します。",
+      "tags": [
+        "Microsoft",
+        "Copilot",
+        "ガバナンス"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 80,
+      "score_reason": "企業内でのAIによる市民開発を安全に運用するためのガバナンス基盤として、実務への影響度が非常に大きいためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ConflictVLA-Bench：前提の矛盾に対するVision-Language-Actionモデルの行動反応を評価するベンチマーク",
+      "url": "https://arxiv.org/abs/2609.31792",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-29T04:00:00+00:00",
+      "summary": "視覚・言語・行動を統合したVLAモデルの評価ベンチマーク「ConflictVLA-Bench」を提案する。\n指示や環境などの「前提の矛盾」に直面した際の、モデルの行動や反応を評価する。\nロボティクスや実世界タスクにおけるVLAモデルの安全性と信頼性を向上させるための重要な評価指標となる。",
+      "tags": [
+        "VLAモデル",
+        "ベンチマーク",
+        "ロボティクス"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "実世界で動作するマルチモーダルAIが矛盾した状況にどう対処するかを評価するベンチマークは、AIの安全性と実用化において極めて重要であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "自動で読み込まれるClaude Codeのスキルを構築する方法（5分でできるSKILL.mdの設定）",
+      "url": "https://dev.to/juholee/how-to-build-a-claude-code-skill-that-loads-itself-5-minute-skillmd-setup-2jjb",
+      "source": "Dev.to",
+      "published": "2026-09-30T01:00:28+00:00",
+      "summary": "Claude Codeのセッション開始時に、コードレビューのチェックリストやAPI規約などの指示を毎回手動で入力する手間を省く「Skill」の構築方法が紹介されています。\n「SKILL.md」というファイルを作成して指示を記述するだけで、Claude Codeが関連するタスクの際に自動でそのスキルを読み込みます。\nわずか5分で設定可能であり、Claude Code自体にフォルダ作成やSKILL.mdの記述、検証をすべて任せることも可能です。",
+      "tags": [
+        "Claude Code",
+        "AIエージェント",
+        "生産性向上"
+      ],
+      "category": "プログラミング言語",
+      "score": 78,
+      "score_reason": "開発者の日常的なAIコーディングツールの利便性と生産性を大幅に向上させる、具体的かつ実用的なTipsであるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "SMARtCARE：限定的自律性を持つ臨床意思決定支援のためのプライバシー保護型エージェントAIシステム",
+      "url": "https://arxiv.org/abs/2609.31763",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-29T04:00:00+00:00",
+      "summary": "医療分野における臨床意思決定を支援するための、プライバシー保護に配慮したエージェントAIシステム「SMARtCARE」を提案する。\n限定的な自律性を持たせることで、安全かつ制御可能な意思決定支援を実現する。\n患者データのプライバシーを厳格に保護しながら、医療現場でのAI活用を促進するフレームワークである。",
+      "tags": [
+        "医療AI",
+        "プライバシー保護",
+        "AIエージェント"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "医療という機密性の高い分野において、プライバシー保護と制御可能なAIエージェントを組み合わせたアプローチは実用性と信頼性の観点から重要度が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIとの協働：人間とAIのコラボレーションのためのデザインフレームワーク",
+      "url": "https://arxiv.org/abs/2609.31793",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-29T04:00:00+00:00",
+      "summary": "人間とAIが効果的に協働するための新しいデザインフレームワークを提案する。\nタスクの分担や意思決定プロセスにおいて、人間とAIの相互作用を最適化する設計指針を示す。\nAIが実務に深く組み込まれる現代において、ユーザー体験や業務効率を向上させるための実用的なガイドラインとなる。",
+      "tags": [
+        "人間とAIの協働",
+        "デザインフレームワーク",
+        "HCI"
+      ],
+      "category": "AI・機械学習",
+      "score": 76,
+      "score_reason": "AIの実用化が進む中で、人間とAIの役割分担やインターフェース設計の標準的な枠組みを提供することは、今後のシステム開発において重要であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "MetaのスタッフをAIに置き換える計画とその崩壊を暴いたロイター記者によるAMA",
+      "url": "https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/",
+      "source": "Reddit",
+      "published": "2026-09-02T19:18:30+00:00",
+      "summary": "マーク・ザッカーバーグが進めていたMeta従業員のAI代替計画の裏側が明かされました。\nロイターのジャーナリストが、その計画がどのようにして破綻したのかを詳細に語っています。\nテック企業におけるAI導入の現実と、雇用への影響に関する生々しい議論が展開されています。",
+      "tags": [
+        "Meta",
+        "AI代替",
+        "雇用問題"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "大手テック企業におけるAIによる人員削減計画の失敗事例であり、業界の雇用とAI導入の現実を示す重要なトピックであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "開発者ポリシーのアップデート：透明性、州の政策、そして今後の展望",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead/",
+      "source": "GitHub Blog",
+      "published": "2026-09-29T15:00:00+00:00",
+      "summary": "GitHubが最新の透明性レポートと開発者ポリシーのアップデートを公開。\n政府からの削除要請数が急増した背景には、報告基準の変更と追跡方法の更新がある。\nオープンソースコミュニティに影響を与える法案や政策動向への注視を表明。",
+      "tags": [
+        "GitHub",
+        "ポリシー",
+        "オープンソース"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "開発者プラットフォームにおける政府の関与やポリシー変更は、オープンソースエコシステム全体に大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "重み重複：オープンウェイトモデルファミリーにおける方向性のあるプロベナンス（由来）",
+      "url": "https://arxiv.org/abs/2609.31784",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-29T04:00:00+00:00",
+      "summary": "オープンウェイトモデルファミリー内部における、モデル間の関係性や由来（プロベナンス）を特定する手法を提案する。\nモデルの重みの重複を分析することで、どのモデルがどのモデルから派生したかという方向性を明らかにする。\nオープンソースAIのライセンス遵守や、モデルの進化プロセスの透明性を高める技術である。",
+      "tags": [
+        "オープンウェイトモデル",
+        "LLM",
+        "モデルプロベナンス"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "乱立するオープンソースLLMの派生関係や著作権・ライセンス管理を技術的に追跡する手法として、今後のAIエコシステムにおいて重要となるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "CP-Agent：結晶塑性シミュレーションワークフローのためのハーネス設計されたエージェント",
+      "url": "https://arxiv.org/abs/2609.31790",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-29T04:00:00+00:00",
+      "summary": "材料科学における結晶塑性シミュレーションのワークフローを自動化・最適化するAIエージェント「CP-Agent」を提案する。\n複雑なシミュレーションプロセスを効率的に実行するためのハーネス（制御機構）が設計されている。\n専門的な科学シミュレーション分野におけるAIエージェントの適用事例として、研究開発の高速化に貢献する。",
+      "tags": [
+        "材料科学",
+        "AIエージェント",
+        "シミュレーション"
+      ],
+      "category": "AI・機械学習",
+      "score": 72,
+      "score_reason": "専門的な科学シミュレーション分野へのAIエージェントの適用は、研究開発プロセスの自動化において高い実用性を持つため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "マクドナルドがバーガーの価格を「動的」に設定するためにAIを使用しているとの報道",
+      "url": "https://www.reddit.com/r/technology/comments/1wtm5mp/mcdonalds_is_reportedly_using_ai_to_dynamically/",
+      "source": "Reddit",
+      "published": "2026-09-29T21:06:04+00:00",
+      "summary": "マクドナルドが需要や時間帯に応じて価格を変動させるダイナミックプライシングにAIを導入したと報じられました。\nリアルタイムでの価格最適化を目指す試みですが、消費者からの反発も予想されます。\n飲食業界におけるAI活用の新たなトレンドとして、ビジネスモデルへの影響が注目されています。",
+      "tags": [
+        "マクドナルド",
+        "ダイナミックプライシング",
+        "AI活用"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 70,
+      "score_reason": "身近な飲食業界におけるAIを用いた価格変動システムの導入は、消費者への影響が大きく議論を呼ぶテーマであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オレのClaude Code作業環境、控えめにいって最高すぎる〜Stream Deckでherdrを操作、完了はずんだもんが読み上げ〜 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/54936",
+      "source": "はてなブックマーク",
+      "published": "2026-09-29T23:26:36+00:00",
+      "summary": "Claude CodeなどのAIエージェントによる開発を効率化するため、Stream Deckとherdrを連携した作業環境を構築。\n複数立ち上がるターミナルの状態をStream Deckのボタン色やドット絵で可視化し、一発で切り替え可能にした。\nタスク完了時にはローカルLLMとVOICEVOXを組み合わせ、ずんだもんの声で作業内容や次のアクションを読み上げる。",
+      "tags": [
+        "Claude Code",
+        "Stream Deck",
+        "AIエージェント"
+      ],
+      "category": "AI・機械学習",
+      "score": 70,
+      "score_reason": "AIエージェントを用いた開発のマルチタスク化という最新の課題に対し、ハードウェアと音声を組み合わせた極めて実用的な解決策を提示している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "TVLトレンド分析と流動性リスク評価：Veda",
+      "url": "https://dev.to/dannydoes_2abdf9c/tvl-trend-analysis-liquidity-risk-assessment-veda-389n",
+      "source": "Dev.to",
+      "published": "2026-09-30T01:01:18+00:00",
+      "summary": "DeFiプロトコル「Veda」のTVLトレンド分析と流動性リスク評価レポートが公開され、リスクスコアは6.4（中〜高リスク）と判定されました。\nTVLの集中や静的なリスク制御、オラクルやブリッジの設計により、市場のストレス時に攻撃を受けるリスクが指摘されています。\nフラッシュローンによる価格操作やオラクルドリフトなど7つの具体的な攻撃ベクトルが特定され、優先的な技術対策が推奨されています。",
+      "tags": [
+        "DeFi",
+        "セキュリティ",
+        "ブロックチェーン"
+      ],
+      "category": "セキュリティ",
+      "score": 70,
+      "score_reason": "特定のDeFiプロトコルに関する詳細なセキュリティ監査とリスク評価であり、DeFiエコシステムにおける流動性リスク管理の重要性を示しているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "あなたのネットワークは本当にIPv6対応？10秒で確認する方法",
+      "url": "https://dev.to/graysally223/is-your-network-really-ipv6-ready-check-in-10-seconds-4hpf",
+      "source": "Dev.to",
+      "published": "2026-09-30T00:57:22+00:00",
+      "summary": "IPv4枯渇とCGNAT普及により自宅サーバー等の運用が難しくなっている現状を指摘。\n自身のネットワークがIPv6に対応しているかを10秒で判定できる無料ツールを紹介。\nブラウザ上でIPv4とIPv6の並行通信を行い、実際の接続性を即座に可視化する。",
+      "tags": [
+        "IPv6",
+        "ネットワーク",
+        "Webツール"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 70,
+      "score_reason": "CGNAT環境下でのネットワーク接続性の問題を解決するための実用的な簡易検証ツールを提供しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ホワイトハウスの新しいAI搭載America.govウェブサイト、米大統領が2020年大統領選挙で敗北したことを確認",
+      "url": "https://www.reddit.com/r/technology/comments/1wtpzj9/white_houses_new_aipowered_americagov_website/",
+      "source": "Reddit",
+      "published": "2026-09-29T23:50:34+00:00",
+      "summary": "ホワイトハウスが新たに導入したAI搭載の公式ウェブサイトが話題を呼んでいます。\n同サイトのAIは、2020年の大統領選挙で当時の大統領が敗北したという事実を明確に回答しました。\n政府公式のAIチャットボットが政治的に敏感な質問に対してどのように回答するかの実例となっています。",
+      "tags": [
+        "ホワイトハウス",
+        "AIチャットボット",
+        "ファクトチェック"
+      ],
+      "category": "その他",
+      "score": 65,
+      "score_reason": "政府公式のAIシステムが政治的ファクトチェックにおいて正しい回答を出力した事例であり、AIの信頼性と政治利用の観点から興味深い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "DOGFOOD 26'：ハッカソンでのプラットフォーム開発体験記",
+      "url": "https://dev.to/robo_deepl_c95dd19e445b7/dogfood-26-han",
+      "source": "Dev.to",
+      "published": "2026-09-30T00:57:48+00:00",
+      "summary": "ハッカソン「Dogfood 2026」におけるプラットフォーム開発の体験談。\nDjango 5.2やPostgreSQL 16、Dockerを用いて提出・審査システムを構築。\n開発期間変更に伴うコードの全書き直しやCSRF対策の技術的葛藤を解説。",
+      "tags": [
+        "Django",
+        "ハッカソン",
+        "Web開発"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 65,
+      "score_reason": "ハッカソンにおける具体的な技術選定やトラブルシューティングの知見が共有されており、Web開発者にとって参考になるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "カリフォルニア州、ICEが捜査官への配備計画を明らかにしたことを受け、警察官による電気ショック手袋の使用を禁止",
+      "url": "https://www.reddit.com/r/technology/comments/1wtny7k/california_bans_officers_use_of_electricshock/",
+      "source": "Reddit",
+      "published": "2026-09-29T22:18:37+00:00",
+      "summary": "カリフォルニア州は、法執行機関の捜査官による電気ショック手袋の使用を禁止する措置をとりました。\nこれは、移民税関捜査局（ICE）が同デバイスを捜査官に配備する計画を明らかにしたことを受けたものです。\n法執行テクノロジーの倫理的・人権的観点からの規制強化の動きを示しています。",
+      "tags": [
+        "カリフォルニア州",
+        "電気ショック手袋",
+        "法執行規制"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "法執行機関における新技術の導入と、それに対する法的な規制・禁止措置の動きを示す事例であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+      "url": "https://github.com/ninjahawk/livenerf",
+      "source": "Hacker News",
+      "published": "2026-09-29T22:36:14+00:00",
+      "hn_score": 179,
+      "hn_comments": 92,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "U.S. postal inspectors shut down website selling counterfeit postage labels",
+      "url": "https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/",
+      "source": "Hacker News",
+      "published": "2026-09-29T19:30:17+00:00",
+      "hn_score": 165,
+      "hn_comments": 89,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Vermont replacing power plants with home batteries",
+      "url": "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms",
+      "source": "Hacker News",
+      "published": "2026-09-29T18:19:02+00:00",
+      "hn_score": 69,
+      "hn_comments": 42,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "NASA asked several former SR-71A staffers to help secret restart",
+      "url": "https://aviationweek.com/defense/aircraft-propulsion/nasa-asked-several-former-sr-71a-staffers-help-secret-restart",
+      "source": "Hacker News",
+      "published": "2026-09-29T10:10:20+00:00",
+      "hn_score": 57,
+      "hn_comments": 47,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "source": "Hacker News",
+      "published": "2026-09-29T17:06:45+00:00",
+      "hn_score": 770,
+      "hn_comments": 717,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
+      "url": "https://space.bl2.net/",
+      "source": "Hacker News",
+      "published": "2026-09-29T19:08:01+00:00",
+      "hn_score": 99,
+      "hn_comments": 27,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "How Delhi cut electricity loss from 50 to 5 percent",
+      "url": "https://spectrum.ieee.org/delhi-electricity-loss",
+      "source": "Hacker News",
+      "published": "2026-09-29T12:43:29+00:00",
+      "hn_score": 435,
+      "hn_comments": 253,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "America.gov",
+      "url": "https://america.gov/",
+      "source": "Hacker News",
+      "published": "2026-09-29T14:04:57+00:00",
+      "hn_score": 330,
+      "hn_comments": 269,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Rustで作った自作OS「octox」がサンフランシスコ大学の教材になっていました",
+      "url": "https://zenn.dev/o8vm/articles/3934806424cd85",
+      "source": "Zenn",
+      "published": "2026-09-29T09:00:05+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "AI 駆動開発で「設計」はどこに書くのか ― 振る舞いをテストで検証できる「仕様」にしてみる",
+      "url": "https://zenn.dev/softbank/articles/6f98cf7c4ebfd3",
+      "source": "Zenn",
+      "published": "2026-09-29T07:02:41+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Cloudflare の CLI を wrangler から cf に移行する",
+      "url": "https://zenn.dev/sora_kumo/articles/cloudflare-to-cf",
+      "source": "Zenn",
+      "published": "2026-09-29T04:43:50+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "高校生がマネーフォワードの2weeksインターンに参加してきたので振り返り",
+      "url": "https://zenn.dev/ngstk/articles/d69408a046d831",
+      "source": "Zenn",
+      "published": "2026-09-29T03:30:06+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Claude Code / Codexで「私のlimit、減りすぎ…？」と思ったときに見る記事",
+      "url": "https://zenn.dev/tokium_dev/articles/ai-agent-usage-limit-long-sessions",
+      "source": "Zenn",
+      "published": "2026-09-29T03:00:09+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "荒れたテストケースをコード管理で立て直してみた",
+      "url": "https://qiita.com/hamham999/items/ebee7540a82db6933854?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-28T23:10:50+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Twitter（現X）に貼ったURLのサムネイル画像、キャッシュクリアできるの知ってた？",
+      "url": "https://qiita.com/minorun365/items/f1f6a45fa9aff8d624af?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-29T07:16:02+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "【JavaScript】Promise.resolveはPromiseでないオブジェクトもresolveするしそのせいで脆弱性がたくさんある",
+      "url": "https://qiita.com/rana_kualu/items/4bf77973ab94453a2699?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-28T10:59:42+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "バッチ監視で学んだ4つの確認観点 ― 起動/生存/終了/復旧を確認しよう",
+      "url": "https://qiita.com/sewiihidekikudo/items/71d588760efd8224cd1f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-29T02:46:30+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "【自社開発1年目】「チーム経験ゼロ」の27歳元営業が、ダイレクト出版でAIを使い倒し本番コードを書くエンジニアになるまで",
+      "url": "https://qiita.com/kanzawa_kentaro/items/f69db1682fdc5ddb3ea8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-28T14:51:38+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    }
+  ]
+}

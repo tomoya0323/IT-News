@@ -1,0 +1,733 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-08T09:18:47.977000+09:00",
+  "total_count": 47,
+  "success_count": 24,
+  "error_count": 23,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "WeatherNext 3",
+      "url": "https://deepmind.google/science/weathernext/",
+      "source": "Hacker News",
+      "published": "2026-09-03T16:06:08+00:00",
+      "hn_score": 201,
+      "hn_comments": 41,
+      "summary": "Google DeepMindが発表した、1時間ごとに予報を生成する初の全球気象AIモデル。\n従来の数値予報とは異なり、生の衛星画像を直接入力として活用することで、急速に変化する気象条件を迅速に追跡可能。\n5km〜10kmの高解像度で気温や風速などの地表変数を極めて正確に予測し、Google製品にも統合される。",
+      "tags": [
+        "AI・機械学習",
+        "気象予測",
+        "DeepMind"
+      ],
+      "category": "AI・機械学習",
+      "score": 90,
+      "score_reason": "衛星データを直接活用して1時間ごとの高精度な全球気象予測を実現した、実用性と社会的影響が極めて高いAI技術であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Show HN: Stuxnet – 悪名高いサイバー兵器の再構築されたソースコード",
+      "url": "https://github.com/Sadpainy/Stuxnet",
+      "source": "Hacker News",
+      "published": "2026-09-07T22:12:38+00:00",
+      "hn_score": 23,
+      "hn_comments": 5,
+      "summary": "2010年に発見されたサイバー兵器「Stuxnet」のバイナリをリバースエンジニアリングし、教育・研究目的で再構築したGitHubリポジトリ。\nSiemensのPLC（産業用コントローラー）を標的とした物理的破壊工作のロジックが忠実に再現されている。\n産業用制御システム（ICS）への攻撃手法や高度なステルス技術の構造を学術的に分析可能にする。",
+      "tags": [
+        "セキュリティ",
+        "Stuxnet",
+        "リバースエンジニアリング"
+      ],
+      "category": "セキュリティ",
+      "score": 88,
+      "score_reason": "歴史上最も有名なサイバー兵器の内部構造を学術的に分析可能にしたリポジトリであり、セキュリティ研究において高い価値を持つためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "マジックリンクでログインできない原因はメールのURLスキャンだった",
+      "url": "https://qiita.com/kuma_3838/items/1fc232b42c344260021d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-06T21:48:44+00:00",
+      "summary": "1回限りのマジックリンクが、ユーザーがクリックする前にメールセキュリティ製品のURLスキャンによって消費される問題を解説。\nHTTPのGETリクエストに「認証トークンの消費」という副作用を持たせていたことが構造的な原因であると指摘。\nMicrosoft DefenderやCisco等のセキュリティ製品の挙動の違いや、この問題が発生する条件と対策についてまとめている。",
+      "tags": [
+        "セキュリティ",
+        "マジックリンク",
+        "HTTP"
+      ],
+      "category": "セキュリティ",
+      "score": 88,
+      "score_reason": "一般的な認証手法における盲点となるセキュリティ製品との競合問題を、HTTP仕様の観点から明快に解説しており実用性と影響度が非常に高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Linuxディストリビューション全体に対するTrusting-Trust攻撃",
+      "url": "https://arxiv.org/abs/2607.24888",
+      "source": "Hacker News",
+      "published": "2026-09-05T11:25:18+00:00",
+      "hn_score": 127,
+      "hn_comments": 31,
+      "summary": "Linuxディストリビューション全体を対象としたTrusting-Trust攻撃に関する研究論文。\nコンパイラなどのビルドツールチェーンを汚染し、検出が極めて困難なバックドアを埋め込む手法を検証している。\nソフトウェアサプライチェーンの脆弱性と、それに対する新たな防御策の必要性を再提起する内容。",
+      "tags": [
+        "セキュリティ",
+        "Linux",
+        "サプライチェーン攻撃"
+      ],
+      "category": "セキュリティ",
+      "score": 85,
+      "score_reason": "Linuxディストリビューション全体へのTrusting-Trust攻撃という、サプライチェーンセキュリティにおける極めて深刻な脅威を実証・分析しているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "科学者たちが量子世界でアインシュタインの重力を観測",
+      "url": "https://www.ox.ac.uk/news/2026-08-28-scientists-observe-einsteins-gravity-in-the-quantum-world",
+      "source": "Hacker News",
+      "published": "2026-09-04T20:28:52+00:00",
+      "hn_score": 121,
+      "hn_comments": 27,
+      "summary": "オックスフォード大学などの研究チームが、量子力学的なスケールにおいてアインシュタインの一般相対性理論（重力）の効果を初めて観測しました。\nマクロな宇宙を説明する相対性理論とミクロな量子世界を繋ぐ、物理学における歴史的な一歩となる可能性があります。\nこの発見は、長年の課題である量子重力理論の解明や、新たな量子デバイス・センシング技術の開発への応用が期待されます。",
+      "tags": [
+        "量子力学",
+        "一般相対性理論",
+        "物理学"
+      ],
+      "category": "その他",
+      "score": 85,
+      "score_reason": "物理学の長年の課題である一般相対性理論と量子力学の融合に迫る画期的な発見であり、将来的な量子技術への影響も大きいと考えられます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "HTMLを社内共有するサービスを、コードを読まずに作る - 1人で25万行を回す自動運用の記録",
+      "url": "https://zenn.dev/coji/articles/solo-software-factory-without-reading-code",
+      "source": "Zenn",
+      "published": "2026-09-07T00:05:00+00:00",
+      "summary": "1人で25万行のTypeScriptコードを抱えるWebサービスを、AIを活用してコードを読まずに自動運用する試行錯誤の記録。\nAIと壁打ちして作成したIssue、PRタイトル、CIの成功確認のみで、有料課金サービスを安定稼働させている。\n事故が起きるたびにAI自身に対策を考えさせてガードレールを構築し、自動運用のループを回す手法を解説。",
+      "tags": [
+        "AI協調開発",
+        "TypeScript",
+        "自動化"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "AIを開発プロセスに極限まで組み込んだ実践的な自動運用の事例であり、今後のソフトウェア開発のあり方に強い影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Microsoft、“世界でもっとも高速・高精度で安価”とうたう音声認識モデルを発表、「MAI-Transcribe-2」／60言語の平均単語誤り率（WER）で比較対象中トップ、処理速度も向上",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2138699.html",
+      "source": "はてなブックマーク",
+      "published": "2026-09-07T06:35:00+00:00",
+      "summary": "Microsoftが高速・高精度かつ安価な新しい音声認識AIモデル「MAI-Transcribe-2」を発表した。\n60言語の評価で平均単語誤り率5.2%を記録し、競合モデルを上回る処理速度と精度を両立している。\n価格は1時間あたり0.10ドルと従来比で約72%安価になり、騒音環境下での文字起こしにも強い。",
+      "tags": [
+        "AI",
+        "音声認識",
+        "Microsoft"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "既存の主要モデルを大幅に上回るコストパフォーマンスと処理速度を実現しており、音声認識分野への影響が大きい。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Astraのリリースに合わせてAGENTS.mdを修正するなら「request_user_input」も使って体験良くチューニングしよう",
+      "url": "https://zenn.dev/cureapp/articles/9dd3298ce84b47",
+      "source": "Zenn",
+      "published": "2026-09-07T00:10:42+00:00",
+      "summary": "新モデル「GPT-6 Astra」のリリースに伴い、AIエージェントの指示書である「AGENTS.md」を最適化する手法を提案しています。\nCodexなどで利用できる「request_user_input」ツールを使い、AIからユーザーへヒアリングを行わせることで、理想とのズレを効率的に解消します。\nAIに修正理由を説明させ、対話を通じて自分仕様にAGENTS.mdを洗練させていく具体的なプロンプトとプロセスを解説しています。",
+      "tags": [
+        "GPT-6",
+        "AIエージェント",
+        "プロンプトエンジニアリング"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "最新のGPT-6 AstraやAIエージェント開発において、対話型ツールを活用してプロンプトを効率的に最適化する実用的なテクニックを紹介しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "BroadcomがVDDKのダウンロードを停止したことでVMwareからの移行がさらに困難に",
+      "url": "https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/",
+      "source": "Hacker News",
+      "published": "2026-09-07T20:32:55+00:00",
+      "hn_score": 62,
+      "hn_comments": 25,
+      "summary": "BroadcomがVMwareの仮想ディスク開発キット（VDDK）の一般ダウンロード提供を停止した。\nVDDKは、他社製移行ツールやバックアップツールがVMware環境と連携するために広く利用している重要なライブラリ。\nこの突然の措置により、VMwareから他プラットフォームへの移行を検討する顧客に新たな障壁が生じている。",
+      "tags": [
+        "VMware",
+        "Broadcom",
+        "仮想化"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 80,
+      "score_reason": "VMwareユーザーの他社移行を妨げるBroadcomの戦略的決定であり、企業のインフラ移行計画に大きな影響を与えるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "WebエンジニアのためのReact Native + NativeWind v5事始め — Webの常識が通用しない18のポイント",
+      "url": "https://zenn.dev/my_vision/articles/2bbf47bb0db842",
+      "source": "Zenn",
+      "published": "2026-09-07T01:17:48+00:00",
+      "summary": "WebエンジニアがReact NativeとNativeWind v5を用いてモバイルアプリを開発する際の、18のハマりどころをまとめた解説記事です。\nReact NativeにはCSSエンジンがなく、スタイルはJSオブジェクトとしてYogaやネイティブ描画エンジンに渡される仕組みを解説しています。\nWebのTailwind CSSの常識が通用せず、サポート外のクラスがエラーを出さずに静かに無視される仕様などの具体的な注意点を提示しています。",
+      "tags": [
+        "React Native",
+        "NativeWind",
+        "Tailwind CSS"
+      ],
+      "category": "モバイル",
+      "score": 80,
+      "score_reason": "Web技術をモバイルアプリ開発に応用する際の実践的なトラブルシューティングが網羅されており、開発効率の向上に直結する内容です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "CLAUDE.mdをそろそろ見直す時期かも ── Claude 5世代向けの最適化手順・スキル・プロジェクト種類別の例",
+      "url": "https://qiita.com/nogataka/items/d6a54f3694726b9141f3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-05T03:19:18+00:00",
+      "summary": "Claude Codeなどのツールで使われるCLAUDE.mdが肥大化し、過剰な制約で性能低下を招く問題とその見直し手順を解説。\nAnthropicの知見に基づき、モデルの進化に伴って不要になった古い制約や重複した指示を削減することを推奨している。\n最新の/doctorコマンドを活用したCLAUDE.mdの診断や、スキル・メモリへの移行による最適化手順を紹介。",
+      "tags": [
+        "Claude Code",
+        "LLM",
+        "プロンプトエンジニアリング"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "最新のAI開発ツールであるClaude Codeの最適化手法を具体的に解説しており、AIを活用する開発者にとって実用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "巨大オンラインゲーム「EVE Online」。ゲームを支える240万行のPython 2.7のコードをPython 3へ移行すると発表",
+      "url": "https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html",
+      "source": "はてなブックマーク",
+      "published": "2026-09-07T20:56:35+00:00",
+      "summary": "巨大オンラインゲーム「EVE Online」が、システムを支える240万行のPython 2.7コードをPython 3へ移行すると発表した。\n同作は2003年のサービス開始当初から、高い並行性を実現できる「Stackless Python」で構築されている。\n長年運用されてきた大規模なレガシーコードの近代化に向けた、非常に大規模な移行プロジェクトとなる。",
+      "tags": [
+        "Python",
+        "EVE Online",
+        "マイグレーション"
+      ],
+      "category": "プログラミング言語",
+      "score": 80,
+      "score_reason": "20年以上稼働する大規模オンラインゲームにおける、Python 2から3への大規模な移行事例として技術的に注目される。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ドメインモデル貧血症はなぜ生まれるのか — Decision パターンで DDD トリレンマを解く",
+      "url": "https://zenn.dev/tellernovel_inc/articles/0193eb68cabb6e",
+      "source": "Zenn",
+      "published": "2026-09-07T03:03:17+00:00",
+      "summary": "DDDの実践において、ビジネスロジックがドメイン層に集まらず「ドメインモデル貧血症」に陥る構造的な原因を分析しています。\n判断に必要なデータが判断してみないと分からないという「DDDトリレンマ」が、貧血モデルを生む要因であることを指摘しています。\nこの課題を解決し、ビジネスロジックをドメイン層に綺麗に閉じるための「Decisionパターン」の適用方法を提案しています。",
+      "tags": [
+        "DDD",
+        "ドメイン駆動設計",
+        "ソフトウェア設計"
+      ],
+      "category": "その他",
+      "score": 78,
+      "score_reason": "DDDの実践において多くの開発者が直面する「ドメインモデル貧血症」の根本原因を論理的に解き明かし、具体的な解決策を提示しているため実用性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "HTMX 4.0正式リリース。内部実装がXHRからfetchに移行しStreaming HTMLが可能に、属性はデフォルトで子要素に継承されないように変更など",
+      "url": "https://www.publickey1.jp/blog/26/htmx_40xhrfetchstreaming_html.html",
+      "source": "Publickey",
+      "published": "2026-09-07T15:39:27+00:00",
+      "summary": "HTML属性を追加するだけで動的なWebページを構築できるJavaScriptライブラリ「HTMX 4.0」が正式リリースされた。\n内部実装が従来のXHRからfetch APIへ移行したことで、Streaming HTMLの受信が可能になった。\nまた、属性がデフォルトで子要素に継承されないように変更されるなど、仕様の整理が行われている。",
+      "tags": [
+        "HTMX",
+        "JavaScript",
+        "フロントエンド"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 78,
+      "score_reason": "JavaScriptを極力書かずに動的Webアプリを作る人気ライブラリのメジャーアップデートであり、開発効率向上に寄与する。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "最近取り入れたClaude Codeの個人的tips 4選",
+      "url": "https://qiita.com/kuma_3838/items/00cb0b8d61ca76769c88?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-06T21:48:30+00:00",
+      "summary": "ターミナル用AIツール「Claude Code」をより便利に使いこなすための、個人的な4つのTipsを紹介。\n複数セッションを並行稼働する際のセッション名自動設定や、フック機能（UserPromptSubmit等）を活用した自動化を解説。\n大がかりな仕組みを使わずに、日々の開発効率を向上させるための具体的なスクリプト例を提示している。",
+      "tags": [
+        "Claude Code",
+        "生産性向上",
+        "開発ツール"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "注目度の高いClaude Codeの具体的なカスタマイズ方法を提示しており、開発者の日常的な生産性向上に直結するため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Fable 5を使用した経済学の研究",
+      "url": "https://wilsoniumite.com/2026/08/03/working-on-economics-with-fable-5/",
+      "source": "Hacker News",
+      "published": "2026-09-07T21:18:15+00:00",
+      "hn_score": 40,
+      "hn_comments": 20,
+      "summary": "F#をJavaScript等に変換するFable 5やAIツールを活用して、経済学の理論構築を行った事例を紹介。\nノーベル賞受賞者のタスクベースモデルに古典派経済学の論理を組み合わせ、新たな賃金決定モデルを定式化した。\nプログラミング技術とAIの支援が、学術的な経済理論の発展に大きく寄与することを示している。",
+      "tags": [
+        "F#",
+        "Fable",
+        "経済学"
+      ],
+      "category": "プログラミング言語",
+      "score": 70,
+      "score_reason": "F#とFableという技術スタックを経済学の研究やモデル構築に適用したユニークな事例であり、学際的な応用を示しているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "TALAがオープンソース化",
+      "url": "https://d2lang.com/blog/tala-is-open-source/",
+      "source": "Hacker News",
+      "published": "2026-09-07T23:37:42+00:00",
+      "hn_score": 4,
+      "hn_comments": 1,
+      "summary": "Terrastructが開発する、ソフトウェアアーキテクチャ図に特化した自動レイアウトアルゴリズム「TALA」がオープンソース化されました。\n従来のDAGベースとは異なり、ホワイトボードに描くような直交レイアウトを採用し、対称性やノードの近さを考慮した美しい図を生成します。\nD2 v0.9.0に標準でバンドルされており、コマンドラインやWeb上のプレイグラウンドから手軽に試すことができます。",
+      "tags": [
+        "D2",
+        "オープンソース",
+        "ダイアグラム"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "開発者にとって有用なアーキテクチャ図自動生成ツール「D2」のコアアルゴリズムがオープンソース化され、コミュニティによる今後の発展が期待されます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "【AWS初心者向け】インフラ構成を図解で理解しよう！ALB・ECS・RDS・Lambda・NAT Gateway・VPCエンドポイントを一気に学ぶ",
+      "url": "https://qiita.com/Nao52/items/35441e4b0009aa128610?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-06T22:40:31+00:00",
+      "summary": "AWSの主要サービスを組み合わせた、実務でよく使われる標準的なインフラ構成を図解で分かりやすく解説。\nパブリックとプライベートのサブネット分割の重要性や、ALBによる負荷分散とHTTPS化の役割を説明。\nECS、Lambda、RDS、NAT Gateway、VPCエンドポイントなどの各コンポーネントの役割と接続理由を整理している。",
+      "tags": [
+        "AWS",
+        "インフラ設計",
+        "クラウド"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 70,
+      "score_reason": "AWS初心者向けに定番のインフラ構成を体系的に分かりやすく解説しており、教育的価値と実用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "VS Code誕生から現在までの物語「The Story of VS Code」YouTubeで公開。作者のエリック・ガンマ氏はなぜIBMからMSへ移籍してVS Codeを作ることになったか",
+      "url": "https://www.publickey1.jp/blog/26/vs_codethe_story_of_vs_codeyoutubeibmmsvs_code.html",
+      "source": "Publickey",
+      "published": "2026-09-06T15:07:10+00:00",
+      "summary": "Visual Studio Code（VS Code）の誕生から現在までを振り返る公式ドキュメンタリー動画がYouTubeで公開された。\n作者のエリック・ガンマ氏がIBMからマイクロソフトへ移籍し、VS Codeを開発するに至った経緯が紹介されている。\n当時オープンソースを敵視していたMSにおいて、どのようにしてマルチプラットフォーム対応のエディタが生まれたかが描かれる。",
+      "tags": [
+        "VS Code",
+        "ドキュメンタリー",
+        "Microsoft"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 70,
+      "score_reason": "現代のエンジニアに最も使われているエディタの歴史と、MSのオープンソース戦略への転換期を知る貴重な資料である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ロサンゼルスが建設されていく様子を建物ごとに見る (1880–2026)",
+      "url": "https://lax-skyline.parcelscope.net/",
+      "source": "Hacker News",
+      "published": "2026-09-07T18:52:06+00:00",
+      "hn_score": 190,
+      "hn_comments": 92,
+      "summary": "1880年から2026年までにロサンゼルスに建設された建物を可視化したインタラクティブな3Dマップ。\n現存する建物を建設年ごとに表示し、都市がどのように発展してきたかの歴史を視覚的に追体験できる。\nロサンゼルス郡の査定データや衛星データなどを活用し、建物の高さや形状を忠実に再現している。",
+      "tags": [
+        "データ可視化",
+        "地図・GIS",
+        "3Dグラフィックス"
+      ],
+      "category": "その他",
+      "score": 65,
+      "score_reason": "歴史的な都市データをインタラクティブな3Dマップとして可視化した興味深いプロジェクトだが、技術的な新規性や業界への影響度は限定的です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "【XP祭り2026】エンジニアにコミュ力を求めるな、と言われて頷いた",
+      "url": "https://zenn.dev/nexta_/articles/51fdb6f774d1ca",
+      "source": "Zenn",
+      "published": "2026-09-07T02:32:05+00:00",
+      "summary": "アジャイル開発手法の一種であるXP（エクストリーム・プログラミング）の原則や態度について紹介するイベント参加レポートです。\n基調講演で引用されたダイクストラの「エンジニアにコミュニケーション力を求めるのはナンセンス」という主張に対する共感を綴っています。\nものづくりを好むエンジニアの特性や、言葉の裏を読まないシンプルなコミュニケーションの価値について自身の経験を交えて考察しています。",
+      "tags": [
+        "XP",
+        "アジャイル開発",
+        "キャリア"
+      ],
+      "category": "その他",
+      "score": 65,
+      "score_reason": "エンジニアの適性やコミュニケーションのあり方について、歴史的な知見と個人の経験を交えて共感を呼ぶ考察を展開しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「効率よく成長したい」は悪くない。でも、近道ばかり探してしまうと損をする。",
+      "url": "https://qiita.com/m__ikeda/items/dec5350f38c748cb5b6e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-07T02:19:40+00:00",
+      "summary": "未経験からIT業界を目指す人が陥りがちな「効率よく学びたい」が「自分で考えずに答えだけ知りたい」に変わる罠を指摘。\n採用担当者の視点から、エラーに直面した際に自分で考え、試行錯誤する姿勢こそが「自走力」として評価されると解説。\n効率的な学習を求めつつも、自分で手を動かして考える泥臭いプロセスの重要性を説いている。",
+      "tags": [
+        "キャリア",
+        "プログラミング学習",
+        "マインドセット"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 65,
+      "score_reason": "IT業界への転職希望者や初心者向けのマインドセットに関する記事であり、技術的な新規性は低いがキャリア形成において有益な内容であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "新宿駅に「ゴミ箱ロボ」　混雑する構内を自走　JR東日本",
+      "url": "https://japan.cnet.com/article/35252342/",
+      "source": "はてなブックマーク",
+      "published": "2026-09-07T06:06:37+00:00",
+      "summary": "JR東日本が新宿駅改札内コンコースで自動走行する「移動式ごみ箱ロボット」の実証実験を開始する。\n米Cartken開発のロボットを用い、混雑時の安全性や乗客への影響、社会的受容性を検証する。\n駅のサービス品質向上と清掃業務の効率化を目指し、11月20日までの平日に稼働する。",
+      "tags": [
+        "ロボット",
+        "JR東日本",
+        "自動運転"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 65,
+      "score_reason": "公共スペースにおける自動走行ロボットの実用化に向けた実証実験であり、社会実装の観点から興味深い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Hi Reddit, I'm Katie Paul, a Reuters journalist who unveiled Mark Zuckerberg's plan to replace Meta staff with AI — and how it imploded. AMA.",
+      "url": "https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/",
+      "source": "Reddit",
+      "published": "2026-09-02T19:18:30+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "CD and vinyl sales are surging as frustration with digital media keeps growing",
+      "url": "https://www.reddit.com/r/technology/comments/1w9r1kr/cd_and_vinyl_sales_are_surging_as_frustration/",
+      "source": "Reddit",
+      "published": "2026-09-07T12:39:03+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Dolly Parton's sister pleads for end to 'AI garbage' posts after singer's death",
+      "url": "https://www.reddit.com/r/technology/comments/1w9t690/dolly_partons_sister_pleads_for_end_to_ai_garbage/",
+      "source": "Reddit",
+      "published": "2026-09-07T14:07:42+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "GTA 6 boss says \"there will always be things to satirize,\" but Rockstar has to \"be careful about what we pick\" because after 11 years of development \"it could be gone, it could change, it could be dated\"",
+      "url": "https://www.reddit.com/r/technology/comments/1wa2271/gta_6_boss_says_there_will_always_be_things_to/",
+      "source": "Reddit",
+      "published": "2026-09-07T19:35:25+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "LG smart TVs caught logging audio with screen off and snooping on local devices",
+      "url": "https://www.reddit.com/r/technology/comments/1w9jmjn/lg_smart_tvs_caught_logging_audio_with_screen_off/",
+      "source": "Reddit",
+      "published": "2026-09-07T05:56:11+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "AIセキュリティ短信 | 社会・産業のデジタル変革 | IPA 独立行政法人 情報処理推進機構",
+      "url": "https://www.ipa.go.jp/digital/ai/security/ai-security-bulletin.html",
+      "source": "はてなブックマーク",
+      "published": "2026-07-06T09:17:22+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "JavaScriptをC言語にコンパイルする「porffor」がアルファ版に到達。ネイティブやWASMを生成可能",
+      "url": "https://www.publickey1.jp/blog/26/javascriptcporfforwasm.html",
+      "source": "Publickey",
+      "published": "2026-09-06T15:04:34+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Java誕生から現代に至る歴史をゴスリン氏ら関係者が語る公式ドキュメンタリー「The Java Story」、YouTubeで公開中",
+      "url": "https://www.publickey1.jp/blog/26/javathe_java_storyyoutube.html",
+      "source": "Publickey",
+      "published": "2026-09-03T15:27:07+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Stop Coding the AI, Code the World: A Simple Guide to Markov Decision Processes",
+      "url": "https://dev.to/includefahim/stop-coding-the-ai-code-the-world-a-simple-guide-to-markov-decision-processes-jld",
+      "source": "Dev.to",
+      "published": "2026-09-07T23:49:16+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Permission Withdrawal: Auditable Data Consent and Active Session Access",
+      "url": "https://dev.to/leopoldholm3736/permission-withdrawal-auditable-data-consent-and-active-session-access-lg0",
+      "source": "Dev.to",
+      "published": "2026-09-07T23:40:30+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "The Sneaky Coordinator Leak in UIViewRepresentable",
+      "url": "https://dev.to/suprie_32/the-sneaky-coordinator-leak-in-uiviewrepresentable-h0p",
+      "source": "Dev.to",
+      "published": "2026-09-07T23:36:02+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Gemini Often Won't Search the Web — and Won't Tell You It Didn't",
+      "url": "https://dev.to/theaidownside/gemini-often-wont-search-the-web-and-wont-tell-you-it-didnt-4nkj",
+      "source": "Dev.to",
+      "published": "2026-09-07T23:35:03+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "I built a free image preprocessor to get better OCR results (PrepOCR)",
+      "url": "https://dev.to/aranadedoros/i-built-a-free-image-preprocessor-to-get-better-ocr-results-prepocr-52do",
+      "source": "Dev.to",
+      "published": "2026-09-07T23:30:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "source": "GitHub Blog",
+      "published": "2026-09-04T16:04:14+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: Run several agents at once",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
+      "source": "GitHub Blog",
+      "published": "2026-09-03T16:00:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
+      "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
+      "source": "GitHub Blog",
+      "published": "2026-09-02T21:00:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "How we make AI coding more cost efficient without sacrificing task quality",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+      "source": "GitHub Blog",
+      "published": "2026-09-02T18:00:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "OpenClaw went viral. Meet the maintainers building and securing it.",
+      "url": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
+      "source": "GitHub Blog",
+      "published": "2026-08-27T16:00:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "EXAONE Forecast for Finance",
+      "url": "https://arxiv.org/abs/2609.04239",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-07T04:00:00+00:00",
+      "summary": "(解析スキップ)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "タイムアウトのため解析スキップ",
+      "analysis_status": "skipped",
+      "is_hot": false
+    },
+    {
+      "title": "From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems, Evaluation, and Governance",
+      "url": "https://arxiv.org/abs/2609.04286",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-07T04:00:00+00:00",
+      "summary": "(解析スキップ)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "タイムアウトのため解析スキップ",
+      "analysis_status": "skipped",
+      "is_hot": false
+    },
+    {
+      "title": "Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
+      "url": "https://arxiv.org/abs/2609.04298",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-07T04:00:00+00:00",
+      "summary": "(解析スキップ)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "タイムアウトのため解析スキップ",
+      "analysis_status": "skipped",
+      "is_hot": false
+    },
+    {
+      "title": "Data-Optimized Contingency Screening: A Machine Learning Approach to Power System Security",
+      "url": "https://arxiv.org/abs/2609.04300",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-07T04:00:00+00:00",
+      "summary": "(解析スキップ)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "タイムアウトのため解析スキップ",
+      "analysis_status": "skipped",
+      "is_hot": false
+    },
+    {
+      "title": "Iris: Climbing to the Search Frontier",
+      "url": "https://arxiv.org/abs/2609.04304",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-07T04:00:00+00:00",
+      "summary": "(解析スキップ)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "タイムアウトのため解析スキップ",
+      "analysis_status": "skipped",
+      "is_hot": false
+    },
+    {
+      "title": "性格悪い離婚増田の記事を読んで、自分の頭で一定程度考えながら生成AIと壁打ちして問題点を深掘りしてみた",
+      "url": "https://anond.hatelabo.jp/20260907191254",
+      "source": "はてなブックマーク",
+      "published": "2026-09-07T10:19:34+00:00",
+      "summary": "離婚に関する匿名のネット記事を読み、違和感を言語化するために生成AIと壁打ちを行った。\nAIの分析を通じて、論理的な正しさで相手を追い詰め、感情的な疲弊を考慮しない言動の問題点を整理した。\n正論をぶつけて相手を傷つける行為の危険性を指摘し、自身の言動にブレーキをかける重要性を考察している。",
+      "tags": [
+        "生成AI",
+        "プロンプト",
+        "コミュニケーション"
+      ],
+      "category": "その他",
+      "score": 45,
+      "score_reason": "生成AIを個人の思考整理やコミュニケーション分析に活用した一事例であり、技術的な新規性は低い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}

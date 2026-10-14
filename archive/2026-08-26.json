@@ -1,0 +1,776 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-08-26T07:36:44.768277+09:00",
+  "total_count": 48,
+  "success_count": 30,
+  "error_count": 18,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "OpenAI Jalapeño：Nvidia Blackwellを超える性能",
+      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+      "source": "Hacker News",
+      "published": "2026-08-25T14:06:02+00:00",
+      "hn_score": 244,
+      "hn_comments": 163,
+      "summary": "OpenAIがBroadcomと共同開発した、LLM推論に特化した自社設計ASIC「Jalapeño」の詳細が公開された。\n開発開始からわずか16ヶ月で製造にこぎつけ、ハードウェアとソフトウェアの極限の共同設計により高い汎用性を実現している。\nベンチマークでは、NvidiaのBlackwellを含む既存の主要な競合チップを上回る性能と優れたTCOを達成したとされる。",
+      "tags": [
+        "OpenAI",
+        "AIチップ",
+        "ASIC"
+      ],
+      "category": "AI・機械学習",
+      "score": 95,
+      "score_reason": "OpenAIによる自社製AIチップの登場は、Nvidia一強のAIハードウェア市場の勢力図を塗り替える可能性があり、極めて影響度が大きいため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AppleがM6とM5 Ultraを発表",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "source": "Hacker News",
+      "published": "2026-08-25T13:01:22+00:00",
+      "hn_score": 874,
+      "hn_comments": 804,
+      "summary": "Appleが最新のMac mini向けに初の2nmプロセスチップ「M6」と、Mac Studio向けに「M5 Ultra」を発表した。\nM6は12コアCPU/GPUやデュアル16コアNeural Engineを搭載し、電力効率とAI処理能力を大幅に向上させている。\nM5 Ultraは初のクアッドダイ構成を採用し、最大36コアCPU、80コアGPU、1.2TB/sのメモリ帯域幅を実現している。",
+      "tags": [
+        "Apple",
+        "Apple Silicon",
+        "プロセッサ"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 92,
+      "score_reason": "初の2nmプロセス採用やクアッドダイ構成など、半導体技術における大きな進歩とPC市場への高い影響力を持つため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 3
+    },
+    {
+      "title": "Apple、新しいM6とM5 Proを搭載し、さらにパワフルになったMac miniを発表",
+      "url": "https://www.apple.com/jp/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
+      "source": "はてなブックマーク",
+      "published": "2026-08-25T14:42:13+00:00",
+      "summary": "Appleが次世代のM6チップおよびM5 Proチップを搭載した、超コンパクトな新型「Mac mini」を発表した。\nM6搭載モデルはAIパフォーマンスが最大4倍、CPU性能が40%向上し、エージェント型AIワークフローをローカルで高速処理できる。\nWi-Fi 7やBluetooth 6、次世代のApple Intelligenceに対応し、9月22日より販売を開始する。",
+      "tags": [
+        "Mac mini",
+        "M6チップ",
+        "Apple Intelligence"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 90,
+      "score_reason": "次世代のM6チップによる劇的なAI性能向上と、エージェント型AIのローカル実行を推進するハードウェアとして極めて重要であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 3
+    },
+    {
+      "title": "M5 MaxおよびM5 Ultraを搭載した新型Mac Studio",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
+      "source": "Hacker News",
+      "published": "2026-08-25T13:03:17+00:00",
+      "hn_score": 666,
+      "hn_comments": 407,
+      "summary": "Appleは、M5 Maxおよび新型M5 Ultraチップを搭載した、プロ向けのデスクトップPC「Mac Studio」を発表した。\n前世代と比較してAI性能が最大4.3倍、グラフィックスが最大1.8倍に向上し、最大512GBのユニファイドメモリをサポートする。\nWi-Fi 7やThunderbolt 5を初搭載し、複数台のMac Studioを接続して分散AI推論を行うクラスタリング機能も利用可能。",
+      "tags": [
+        "Apple",
+        "Mac Studio",
+        "PC"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 88,
+      "score_reason": "プロフェッショナルやAI研究者向けの強力なデスクトップ環境を提供し、Thunderbolt 5によるクラスタリングなど実用的な新機能を備えているため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 3
+    },
+    {
+      "title": "Next.js 16.3正式版リリース。Turbopackのメモリ使用量が最大90％減、SSRが最大22％高速化、TypeScript 7による型チェック高速化など",
+      "url": "https://www.publickey1.jp/blog/26/nextjs_163turbopack90ssr22typescript_7.html",
+      "source": "Publickey",
+      "published": "2026-08-25T17:58:38+00:00",
+      "summary": "Webアプリケーションフレームワークの最新版「Next.js 16.3」が正式にリリースされた。\nバンドルツール「Turbopack」のメモリ使用量が最大90%削減され、再ビルド速度が5倍以上高速化。\nSSRの高速化やTypeScript 7による型チェックの高速化に加え、SPA並みの画面遷移を実現する「Instant Navigations」が導入された。",
+      "tags": [
+        "Next.js",
+        "Turbopack",
+        "Web開発"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 88,
+      "score_reason": "主要なWebフレームワークの大幅なパフォーマンス向上と新機能の追加であり、Web開発者への影響が非常に大きいためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "FDAがケトン体と血糖値を測定する初のウェアラブルデバイスを承認",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
+      "source": "Hacker News",
+      "published": "2026-08-25T19:07:01+00:00",
+      "hn_score": 169,
+      "hn_comments": 111,
+      "summary": "米食品医薬品局（FDA）が、ケトン体と血糖値の両方を継続的に測定できる初のウェアラブルデバイスを承認した。\n糖尿病患者や健康管理に関心のあるユーザーが、リアルタイムで代謝状態を把握できるようになる。\nヘルスケア分野におけるウェアラブル技術の進化と、個別化医療の進展を示す重要な一歩となる。",
+      "tags": [
+        "ウェアラブル",
+        "ヘルスケア",
+        "FDA"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 85,
+      "score_reason": "医療分野におけるウェアラブルデバイスの進化を示す重要なマイルストーンであり、実用性と社会的影響度が非常に高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "TanStack Start + Hono + oRPC + Cloudflare Workersで社内ERPを作った設計と学び",
+      "url": "https://zenn.dev/yosashusaku/articles/enterprise-erp-tanstack-hono-orpc",
+      "source": "Zenn",
+      "published": "2026-08-25T00:00:05+00:00",
+      "summary": "TanStack Start、Hono、oRPC、Cloudflare Workersを組み合わせたFull-Stack TypeScriptによる社内ERPの構築事例。\nEVM（アーンドバリューマネジメント）を用いた複雑な原価・工期管理の計算ロジックをどこに配置すべきかの設計判断を解説。\nモダンな技術構成が実業務システムの規模に成長した際の、モジュール境界の引き方や設計上の学びを共有している。",
+      "tags": [
+        "TypeScript",
+        "Cloudflare Workers",
+        "Software Architecture"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 85,
+      "score_reason": "最先端のFull-Stack TypeScript構成を実際の業務システム（ERP）に適用し、具体的な設計判断やアーキテクチャの境界について深く考察しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "シングルバイナリなOLAP DBの次期版「DuckDB 2.0」プレビュー。クライアント／サーバ機能が安定版に、スキーマレスのVARIANT型、トリガー、非同期I/Oなど新機能",
+      "url": "https://www.publickey1.jp/blog/26/olap_dbduckdb_20variantio.html",
+      "source": "Publickey",
+      "published": "2026-08-24T15:29:33+00:00",
+      "summary": "シングルバイナリで動作する高速なOLAPデータベース「DuckDB 2.0」のプレビュー版が公開された。\nクライアント／サーバ機能が安定版となり、スキーマレスなデータを扱う「VARIANT型」やトリガー機能が追加。\nSQLパーサーの刷新や非同期I/Oのサポートなど、データ分析や組み込み用途での利便性と性能がさらに向上している。",
+      "tags": [
+        "DuckDB",
+        "データベース",
+        "OLAP"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "データ分析分野で急速に普及しているDuckDBのメジャーアップデートであり、機能拡張による実用性の向上が著しいためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた",
+      "url": "https://zenn.dev/layerx/articles/e01465a15e79c2",
+      "source": "Zenn",
+      "published": "2026-08-25T05:00:05+00:00",
+      "summary": "マイクロサービス間をまたぐリクエストにおいて、ユーザー検証や認可の文脈が途中で消失する課題を解説している。\nこの課題を解決するためにIETFで標準化が進められている「Transaction Tokens」の仕様を紹介している。\n自社での独自実装と比較しながら、短命な署名付きJWTを用いた安全な認可情報の伝播方法を考察している。",
+      "tags": [
+        "Microservices",
+        "Authorization",
+        "JWT"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 82,
+      "score_reason": "マイクロサービス共通の課題である認可伝播に対し、最新のIETF標準化仕様と実務での独自実装を比較した実用性の高い解説であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Show HN: Raspberry PiとQwenでローカル車載AIを作ってみた",
+      "url": "https://github.com/ThinkOffApp/CarWatch",
+      "source": "Hacker News",
+      "published": "2026-08-25T15:20:20+00:00",
+      "hn_score": 73,
+      "hn_comments": 16,
+      "summary": "Raspberry Pi 5とQwenの35Bモデルを用いて、完全オフラインで動作する車載AIエージェントを構築したプロジェクト。\n音声認識やOBD経由の車両データ取得、マニュアルのRAG検索などをローカル環境で統合している。\nスマートウォッチやスマートフォンと連携し、車の状態監視や通知の送受信を可能にしている。",
+      "tags": [
+        "Raspberry Pi",
+        "LLM",
+        "Edge AI"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 80,
+      "score_reason": "エッジデバイス上で大規模な言語モデルを実用的に動作させ、車載システムと統合する先進的なDIY事例であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "【ローカルLLM】国産LLM「LLM-jp-4-33B」と「Qwen3.8-27B」の推論性能比較（RTX 5070 Ti + RTX 3070 Ti）",
+      "url": "https://qiita.com/h-nabata/items/b80484406e839ee6507b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-23T17:34:14+00:00",
+      "summary": "新たに公開された国産のDense型大規模言語モデル「LLM-jp-4-33B」の性能検証を実施。\n同等規模の中国製モデル「Qwen3.8-27B」を比較対象とし、独自のテストセットを用いて推論性能を比較。\nローカル環境（RTX 5070 Ti + 3070 Ti）における量子化モデルの挙動や推論精度を評価している。",
+      "tags": [
+        "ローカルLLM",
+        "LLM-jp",
+        "Qwen"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "最新の国産LLMと海外の有力モデルをローカル環境で直接比較し、詳細な推論性能を検証した技術的価値の高い記事であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "新API「HTML-in-Canvas」を紹介 - CanvasにHTMLを描くAPIは何を解決するのか？",
+      "url": "https://ics.media/entry/260825/",
+      "source": "はてなブックマーク",
+      "published": "2026-08-25T09:34:12+00:00",
+      "summary": "Canvas内にHTML要素を直接描画・表示できるようにする新しいAPI「HTML-in-Canvas」を紹介。\n描画したHTML要素をWebGLなどでリアルタイムに加工することで、高度なビジュアル表現やエフェクトが容易になる。\nWebデザインのアワードサイトなどで必須の技術になる可能性があり、各種ライブラリも実験的サポートを開始している。",
+      "tags": [
+        "HTML-in-Canvas",
+        "Canvas",
+        "WebGL"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 80,
+      "score_reason": "Webフロントエンドにおける表現力を大幅に向上させる可能性を秘めた新しいAPIであり、技術的新規性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オンコール手当の相場を50社分調べて、1社も見つからなかった話",
+      "url": "https://zenn.dev/cscloud_blog/articles/e0ea529d061906",
+      "source": "Zenn",
+      "published": "2026-08-25T01:27:28+00:00",
+      "summary": "IT業界におけるオンコール（待機）手当の相場を調査したものの、具体的な金額を公開している企業は1社もなかった事例を紹介。\n医療・介護業界とは異なり、IT業界では手当の有無や算出仕組みは語られても金額自体は非公開にする傾向がある。\nアラート件数に応じた出来高制の手当が、システムの改善意欲を削ぐ逆インセンティブになり得る問題点を指摘している。",
+      "tags": [
+        "On-call",
+        "SRE",
+        "Labor Management"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 78,
+      "score_reason": "ITエンジニアの労働環境や運用設計において重要なオンコール手当の実態と、報酬設計における逆インセンティブの課題を鋭く分析しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ブラックホールの特異点は点ではなく面である",
+      "url": "https://arxiv.org/abs/2608.21590",
+      "source": "Hacker News",
+      "published": "2026-08-25T17:02:49+00:00",
+      "hn_score": 153,
+      "hn_comments": 107,
+      "summary": "ブラックホールの中心にあるとされる「特異点」が、従来の理論のような無限小の「点」ではなく「面」であるとする新しい物理学の論文。\n宇宙物理学における長年の謎である一般相対性理論と量子力学の矛盾を解決する新たなアプローチを提示している。\n物理学の基礎理論に大きな影響を与える可能性があり、宇宙の構造理解を深める研究として注目される。",
+      "tags": [
+        "物理学",
+        "ブラックホール",
+        "宇宙論"
+      ],
+      "category": "その他",
+      "score": 75,
+      "score_reason": "IT技術に直接関連するものではないが、物理学における基礎理論の重要な再解釈であり、学術的な新規性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Pythonにおいてstr.lower()がセキュリティ脆弱性になる場合",
+      "url": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
+      "source": "Hacker News",
+      "published": "2026-08-25T20:49:03+00:00",
+      "hn_score": 27,
+      "hn_comments": 14,
+      "summary": "UnicodeからASCIIへのマッピング処理において大文字小文字の変換挙動が脆弱性を生む可能性がある。\nPython標準のIDNA 2003実装ではなく、最新のIDNA 2008に対応した外部パッケージの使用が推奨される。\nStringPrepアルゴリズムにおけるケースフォールディングの例外処理の重要性を解説している。",
+      "tags": [
+        "Python",
+        "Security",
+        "Unicode"
+      ],
+      "category": "セキュリティ",
+      "score": 75,
+      "score_reason": "Pythonの標準的な文字列処理に潜むセキュリティリスクと、適切なライブラリ選択の重要性を具体的に解説しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Bitgetの異常価格で1800万損したが、fableと共闘して取り戻せた話",
+      "url": "https://zenn.dev/kobao/articles/0638f3976c6ef8",
+      "source": "Zenn",
+      "published": "2026-08-24T23:42:53+00:00",
+      "summary": "Bitgetでの急激な価格乖離により、著者は約1800万円の資産を清算で失う大打撃を受ける。\nAIエージェント「Claude Code (fable)」を活用し、他取引所との詳細な価格データを比較・分析。\n異常な価格乖離の決定的な証拠を突き止め、取引所との交渉により損失を取り戻すことに成功した。",
+      "tags": [
+        "Claude Code",
+        "暗号資産",
+        "AIエージェント"
+      ],
+      "category": "その他",
+      "score": 75,
+      "score_reason": "AIエージェントを活用したデータ分析により、取引所の異常な価格乖離を証明して多額の損失を取り戻した極めて実用的な事例であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "スマホのデータを削除して起訴された米国市民、プライバシーの危機を訴える",
+      "url": "https://www.reddit.com/r/technology/comments/1vxykxp/us_citizen_who_deleted_phones_data_says_his/",
+      "source": "Reddit",
+      "published": "2026-08-25T12:34:15+00:00",
+      "summary": "自身のスマートフォンのデータを削除したことで司法妨害として起訴された米国人男性が、この訴追はプライバシー権を脅かすと主張している。\n捜査機関によるデバイスデータの押収権限と、個人のデータ管理・消去権の衝突が浮き彫りになった。\nデジタル時代におけるプライバシーの法的境界線を巡る、重要な判例となる可能性がある。",
+      "tags": [
+        "プライバシー",
+        "暗号化",
+        "司法"
+      ],
+      "category": "セキュリティ",
+      "score": 75,
+      "score_reason": "個人のデバイスデータ削除が犯罪とされるかどうかの判断は、デジタルプライバシーの権利範囲に重大な影響を及ぼすためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「まるでキャバクラ」――「ライザのアトリエ」主人公と話せるAIアプリに「課金圧強すぎ」の声　「10日に会話15回」で月額980円",
+      "url": "https://www.itmedia.co.jp/news/article/2608/25/2000000774/",
+      "source": "はてなブックマーク",
+      "published": "2026-08-25T11:27:47+00:00",
+      "summary": "人気RPG「ライザのアトリエ」の主人公と会話できるAIアプリ「RyzaChat」が配信開始された。\n独自LLMや合成音声の品質は評価される一方、無料枠の少なさや有料プランの厳しい制限にユーザーから不満が続出。\nリアルタイム処理に伴うGPUリソースの負荷や、接続の不安定さによるロード時間の長さなども課題となっている。",
+      "tags": [
+        "生成AI",
+        "キャラクターAI",
+        "アプリ開発"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "キャラクターIPと生成AIを組み合わせたビジネスモデルの課題と、ユーザーのリアルな反応を示す具体的な事例として注目度が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ソニー、購入したPlayStationゲームをプレイヤーが「所有」しているわけではないと改めて説明",
+      "url": "https://www.reddit.com/r/technology/comments/1vxzt65/sony_reminds_players_they_dont_actually_own_the/",
+      "source": "Reddit",
+      "published": "2026-08-25T13:25:36+00:00",
+      "summary": "ソニーがユーザーに対し、購入したPlayStationゲームは「所有」ではなく「ライセンス利用」であると注意喚起を行った。\nデジタル配信の普及に伴い、サービス終了などによって購入コンテンツへのアクセス権が失われるリスクが改めて浮き彫りになった。\nデジタル資産の所有権や消費者保護に関する議論が再燃している。",
+      "tags": [
+        "PlayStation",
+        "デジタルライセンス",
+        "消費者権利"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 72,
+      "score_reason": "デジタルコンテンツの所有権という現代の消費者保護における重要な課題を浮き彫りにしており、ゲーム業界全体に影響するためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Pythonの事前定義された定数は少し奇妙である",
+      "url": "https://sebsite.pw/w/20260801-pythonconstants.html",
+      "source": "Hacker News",
+      "published": "2026-08-25T21:39:02+00:00",
+      "hn_score": 36,
+      "hn_comments": 4,
+      "summary": "Pythonに存在する6つの事前定義された「定数」の挙動が、それぞれ微妙に異なっている点を解説している。\nTrue、False、Noneは字句解析トークン（キーワード）であり、オブジェクトの属性名として使用すると構文エラーになる。\n一方、__debug__は通常の識別子でありながら、言語仕様として唯一代入が禁止されている特殊な性質を持つ。",
+      "tags": [
+        "Python",
+        "プログラミング言語",
+        "仕様"
+      ],
+      "category": "プログラミング言語",
+      "score": 70,
+      "score_reason": "Pythonの内部仕様や言語設計のユニークな側面に焦点を当てており、開発者にとって興味深い技術的知見を提供しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "状態空間モデルにおけるFilteringとSmoothingの違いを理解する",
+      "url": "https://zenn.dev/ca_kagglers/articles/ssm-filtering-smoothing",
+      "source": "Zenn",
+      "published": "2026-08-25T02:04:16+00:00",
+      "summary": "状態空間モデルにおいて、直接観測できない状態を推定する手法であるフィルタリングと平滑化の違いを整理している。\nフィルタリングは過去から現在、平滑化は未来を含む全期間の観測データを用いて状態を推定する特徴がある。\n単純な一次元モデルを例に挙げ、それぞれの定式化と計算手順の導出を数式を用いて詳しく解説している。",
+      "tags": [
+        "State Space Model",
+        "Statistics",
+        "Kaggle"
+      ],
+      "category": "AI・機械学習",
+      "score": 70,
+      "score_reason": "時系列解析やデータ分析で重要な状態空間モデルの基礎概念を、数式を用いて明快に解説しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "元ヤフーエンジニア社長が考える、AI時代のエンジニアに必要な3つのスキル",
+      "url": "https://qiita.com/ryoheiiwamoto/items/5f21adcca8aff1b0357a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-24T07:31:36+00:00",
+      "summary": "AIの普及に伴い、指示されたものを作るだけの受け身のエンジニアは淘汰されると指摘。\n今後必要なスキルとして「AIを使いこなす力」「ビジネス戦闘力」「人間力」の3つを提示。\n新しいツールを自ら試す姿勢や、論理的思考・提案力などのコンセプチュアルスキルの重要性を説く。",
+      "tags": [
+        "キャリアパス",
+        "AI時代",
+        "マインドセット"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 70,
+      "score_reason": "AIの普及に伴い変化するエンジニアの役割と、今後生き残るために必要なビジネス・人間力の重要性を分かりやすく提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オーストラリアの音楽業界、AI生成曲をチャートから排除",
+      "url": "https://www.reddit.com/r/technology/comments/1vxxb3n/australias_music_industry_bans_ai_songs_from/",
+      "source": "Reddit",
+      "published": "2026-08-25T11:36:48+00:00",
+      "summary": "オーストラリアの音楽業界が、AIによって生成された楽曲を公式音楽チャートから除外することを決定した。\nこの措置は、人間のアーティストの権利保護や著作権の尊重、業界の公平性を維持することを目的としている。\n生成AIの急速な普及に伴い、エンターテインメント業界における規制やルール策定の動きが具体化している。",
+      "tags": [
+        "生成AI",
+        "著作権",
+        "音楽業界"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 70,
+      "score_reason": "生成AIコンテンツの商業的扱いに対する業界ルール策定の動きとして、今後のクリエイティブ産業に大きな影響を与えるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "povo、「5G SA(スタンドアローン)」サービスを提供開始",
+      "url": "https://povo.jp/news/newsrelease/20260825_01/",
+      "source": "はてなブックマーク",
+      "published": "2026-08-25T05:55:57+00:00",
+      "summary": "KDDI等の「povo2.0」において、5G専用の技術と設備で構成された「5G SA（スタンドアローン）」サービスが提供開始。\n4G LTEの混雑状況に影響されず、5G本来の高速・大容量通信がSub6対応エリア全域で利用可能となる。\n利用には対応スマートフォンと対応SIMが必要で、提供開始を記念したデータ使い放題キャンペーンも実施される。",
+      "tags": [
+        "povo",
+        "5G SA",
+        "モバイル通信"
+      ],
+      "category": "モバイル",
+      "score": 70,
+      "score_reason": "格安プランであるpovoにおいて、より高度な5G通信技術であるSA方式が導入され、モバイルインフラの利便性が向上するためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "プロも毎日ググっている。エラーで固まらないための「検索力」の話",
+      "url": "https://qiita.com/m__ikeda/items/5da484e533d0d574045d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-25T08:08:11+00:00",
+      "summary": "未経験や新人エンジニアがエラーに直面した際、パニックにならず自力で解決する「検索力」の重要性を解説。\n伸びるエンジニアの検索習慣として、エラーの固有部分の除外、英語での検索、情報の鮮度確認を挙げる。\n生成AIを単なるコピペ元にせず、仕組みを理解するための壁打ち相手として活用することの重要性を指摘。",
+      "tags": [
+        "エラーハンドリング",
+        "検索技術",
+        "新人エンジニア"
+      ],
+      "category": "その他",
+      "score": 68,
+      "score_reason": "エラー解決における具体的な検索テクニックや、生成AIをコピペではなく理解のために活用するマインドセットを解説しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "米移民税関捜査局（ICE）、不正摘発を目的に全米の有権者データの処理を計画",
+      "url": "https://www.reddit.com/r/technology/comments/1vyb1wp/ice_wants_the_countrys_voter_data_voting_data_is/",
+      "source": "Reddit",
+      "published": "2026-08-25T20:12:08+00:00",
+      "summary": "米移民税関捜査局（ICE）が、不正行為の発見を名目に有権者登録や投票履歴データを処理する民間業者を募集している。\n有権者データは公開設計されているものの、連邦機関による大規模なデータ集約と分析はプライバシー上の懸念を呼んでいる。\n政府による市民データの監視やプロファイリングの強化に対する批判が高まる可能性がある。",
+      "tags": [
+        "プライバシー",
+        "監視社会",
+        "有権者データ"
+      ],
+      "category": "セキュリティ",
+      "score": 68,
+      "score_reason": "政府機関による公開データの監視・分析利用がもたらすプライバシーへの懸念と、データ活用の倫理的課題を示しているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "文系上司が知りたいのは「仕組み」ではなく、「どう影響するか」のことが多い",
+      "url": "https://qiita.com/sumomoo/items/4912f4efa2e2a5cd49d5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-25T08:06:49+00:00",
+      "summary": "エンジニアが非エンジニアや上司に説明する際、技術的な仕組みから話しがちで齟齬が生じる問題を指摘。\n相手が求めているのは仕組みではなく、「自分の仕事や生活がどう変わるか」という影響であると解説。\n抽象度を相手に合わせ、判断や報告にそのまま使える言葉で伝えることの重要性を説いている。",
+      "tags": [
+        "コミュニケーション",
+        "非エンジニア連携",
+        "ドキュメンテーション"
+      ],
+      "category": "その他",
+      "score": 65,
+      "score_reason": "エンジニアと非エンジニアの間で発生しがちなコミュニケーションの齟齬に対し、相手の関心に合わせた説明方法を具体的に提案しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "自分が \"コントロールできる\" と思い込んで \"引き出しを増やす\"",
+      "url": "https://speakerdeck.com/konifar/jibun-ga-kontororu-dekiru-to-omoikon-de-hikidashi-o-fuyasu",
+      "source": "はてなブックマーク",
+      "published": "2026-08-25T09:13:25+00:00",
+      "summary": "シンプレクス株式会社の社内イベント「Simplex Biz Day 2026」におけるkonifar氏の登壇資料。\n自分がコントロールできる領域を広げるというマインドセットを持ち、自身の「引き出し」を増やすアプローチを解説。\nAIの活用や提案レベルの向上、チーム開発の改善など、エンジニアやマネージャーに役立つ実践的な知見を共有している。",
+      "tags": [
+        "キャリア",
+        "マインドセット",
+        "チーム開発"
+      ],
+      "category": "その他",
+      "score": 65,
+      "score_reason": "エンジニアのキャリア形成やマインドセットに関する著名な登壇資料であり、多くの開発者に参考になる内容です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "新人エンジニア、先輩ごとに言う内容が違って「何が正解かわからない」",
+      "url": "https://qiita.com/prumnn/items/001b49e080f580aea96b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-25T08:04:59+00:00",
+      "summary": "新人エンジニアが複数の先輩から異なるコードの書き方を指摘され、混乱する悩みを分析。\n意見の食い違いはどちらかが誤っているのではなく、重視する前提や過去の経験が異なるためと解説。\n「どちらが正しいか」ではなく「なぜその書き方が良いか」の理由を聞くことで、納得感と学びを得る手法を提案。",
+      "tags": [
+        "新人エンジニア",
+        "コミュニケーション",
+        "メンターシップ"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "複数の先輩からの異なる指摘に悩む新人に対し、前提の違いを理解し理由を質問することで学びを深めるアプローチを提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Rustに移植された「Bun 1.4」正式リリース。Node.jsとの互換性向上でPlaywrightやvitestが動作、CPUとメモリの使用率が大幅改善、正規表現が高速化など",
+      "url": "https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html",
+      "source": "Publickey",
+      "published": "2026-08-23T15:58:41+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Slack上の開発チームの会話をAIエージェントが把握してコーディング。ドキュメント作成もする「Slack Code」登場",
+      "url": "https://www.publickey1.jp/blog/26/slackaislack_code.html",
+      "source": "Publickey",
+      "published": "2026-08-23T15:52:28+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Flutter 3.47正式リリース。UIライブラリが分離され独立してアップデート可能、デフォルトでWebAssemblyを生成する方向に、など新機能",
+      "url": "https://www.publickey1.jp/blog/26/fluter_347uiwebassembly.html",
+      "source": "Publickey",
+      "published": "2026-08-20T15:02:15+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Modeling three markets (BR / US / Crypto) with one rebalancing engine",
+      "url": "https://dev.to/diegocard117/modeling-three-markets-br-us-crypto-with-one-rebalancing-engine-4jkd",
+      "source": "Dev.to",
+      "published": "2026-08-25T22:01:13+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Make your writing easier to read without AI",
+      "url": "https://dev.to/drew_gallagher_0785c86b20/make-your-writing-easier-to-read-without-ai-iag",
+      "source": "Dev.to",
+      "published": "2026-08-25T21:54:32+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Your RAG Demo Works Because Someone Picked the Documents",
+      "url": "https://dev.to/nabeelbaghoor/your-rag-demo-works-because-someone-picked-the-documents-3980",
+      "source": "Dev.to",
+      "published": "2026-08-25T21:49:24+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub Copilot Premium Requests: Allowances, Multipliers, Billing, and What Replaced Them",
+      "url": "https://dev.to/rebeca_vb/github-copilot-premium-requests-allowances-multipliers-billing-and-what-replaced-them-d3p",
+      "source": "Dev.to",
+      "published": "2026-08-25T21:48:38+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "The Upgrade That Wasn’t: When ‘Newer’ AI Feels Like a Downgrade",
+      "url": "https://dev.to/theaidownside/the-upgrade-that-wasnt-when-newer-ai-feels-like-a-downgrade-4ngo",
+      "source": "Dev.to",
+      "published": "2026-08-25T21:48:07+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "How to evaluate LLMs before production",
+      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
+      "source": "GitHub Blog",
+      "published": "2026-08-25T21:35:11+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
+      "url": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
+      "source": "GitHub Blog",
+      "published": "2026-08-24T20:56:32+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "The August 17 outage, and the work ahead",
+      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "source": "GitHub Blog",
+      "published": "2026-08-20T18:36:11+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: Managing your work",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
+      "source": "GitHub Blog",
+      "published": "2026-08-19T17:50:23+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+      "source": "GitHub Blog",
+      "published": "2026-08-17T16:00:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
+      "url": "https://arxiv.org/abs/2608.21362",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-25T04:00:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance",
+      "url": "https://arxiv.org/abs/2608.21363",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-25T04:00:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Reviewing Model Collapse and Countermeasures",
+      "url": "https://arxiv.org/abs/2608.21366",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-25T04:00:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "AI Learning and Conceptual Transfer in the Game of Hidden Rules",
+      "url": "https://arxiv.org/abs/2608.21372",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-25T04:00:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "LitReview Arena: Evaluating Literature Review Agents with Battle-Style Peer Review Platform",
+      "url": "https://arxiv.org/abs/2608.21374",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-25T04:00:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "データセンターに関する市議会で拍手をして起訴された人物、起訴が取り下げられる",
+      "url": "https://www.reddit.com/r/technology/comments/1vy4v79/charges_dropped_against_person_who_clapped_at_a/",
+      "source": "Reddit",
+      "published": "2026-08-25T16:34:29+00:00",
+      "summary": "データセンター建設に関する市の会議で拍手をした市民が警察妨害で起訴される事件が発生した。\nプレゼンテーション中に拍手したことで会場から引きずり出され起訴されていたが、最終的に起訴は取り下げられた。\nデータセンター誘致を巡る地域社会の緊張と、市民の表現の自由に関する議論を呼んでいる。",
+      "tags": [
+        "データセンター",
+        "地方自治体",
+        "表現の自由"
+      ],
+      "category": "その他",
+      "score": 35,
+      "score_reason": "技術的な新規性は低いものの、データセンター建設を巡る地域住民との対立や社会的影響を示す事例です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}

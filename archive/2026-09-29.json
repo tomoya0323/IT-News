@@ -1,0 +1,818 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-29T10:42:42.980540+09:00",
+  "total_count": 48,
+  "success_count": 42,
+  "error_count": 6,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "Claude Sonnet 5.5の発表",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "source": "Hacker News",
+      "published": "2026-09-28T17:58:11+00:00",
+      "hn_score": 575,
+      "hn_comments": 396,
+      "summary": "AnthropicがClaude 5.5ファミリーの第2弾となる新モデル「Claude Sonnet 5.5」を発表しました。\n従来のSonnet 5と比較して30%以上の高速化と最大30%のコスト削減を実現し、コーディング評価等で大幅な性能向上を記録しています。\n日常的なタスクやバグ修正、ドキュメント作成などに適しており、今後Haiku 5.5も追加予定です。",
+      "tags": [
+        "Claude",
+        "LLM",
+        "Anthropic"
+      ],
+      "category": "AI・機械学習",
+      "score": 95,
+      "score_reason": "業界をリードするAIモデルのメジャーアップデートであり、性能向上とコスト削減が開発現場に与える影響は極めて大きいため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "World LabsがAMDに参画",
+      "url": "https://www.worldlabs.ai/blog/amd-announcement",
+      "source": "Hacker News",
+      "published": "2026-09-28T20:18:05+00:00",
+      "hn_score": 180,
+      "hn_comments": 70,
+      "summary": "AIスタートアップのWorld Labsが、AMDに買収されることで最終合意に達しました。\n共同創業者のフェイフェイ・リー（Fei-Fei Li）氏がAMDのエグゼクティブバイスプレジデント兼チーフサイエンティストに就任します。\nハードウェアからソフトウェア、オープンモデルまでを網羅するエンドツーエンドのオープンAIエコシステムの構築を加速させます。",
+      "tags": [
+        "AMD",
+        "WorldLabs",
+        "M&A"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 90,
+      "score_reason": "AIの世界的権威であるフェイフェイ・リー氏率いるスタートアップの買収は、AI半導体およびエコシステム競争に大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIでクオリティが落ちた外注さんが、自分では気づけてないという怖い話｜片山良平＠Eldipa代表、paiza創業者",
+      "url": "https://note.com/rk611/n/n56e6db823eb1",
+      "source": "はてなブックマーク",
+      "published": "2026-09-28T03:45:29+00:00",
+      "summary": "外注先がAIを導入した結果、成果物の品質が低下しているにもかかわらず本人が自覚していない問題です。\nライティングやプログラミングなど多業種で同様の現象が起きており、SNSでも大きな共感を呼んでいます。\nAIを使いこなすための「審美眼」の重要性と、無自覚な品質低下が招くサイレントな契約終了の構造を考察しています。",
+      "tags": [
+        "生成AI",
+        "業務効率化",
+        "品質管理"
+      ],
+      "category": "AI・機械学習",
+      "score": 90,
+      "score_reason": "生成AIの普及期において、実業務での品質低下とそれに気づけない人間の認知バイアスという、極めて実用的かつ普遍的な課題を提起しているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開。特定のLLMに依存せず入れ替え可能、任意のコンテナ環境にデプロイ",
+      "url": "https://www.publickey1.jp/blog/26/awsaistrandsllm.html",
+      "source": "Publickey",
+      "published": "2026-09-28T15:01:25+00:00",
+      "summary": "AWSが、主要なLLMを基盤とした高性能なAIエージェントを自作できるツール「Strandsハーネス」をOSSで公開。\nGPTやClaude、Gemini、Ollamaなど特定のLLMに依存せず、モデルを自由に入れ替えて利用可能。\n記憶保持や外部APIアクセス、ガードレールなどの周辺環境（ハーネス）が最初から統合されている。",
+      "tags": [
+        "AWS",
+        "AIエージェント",
+        "オープンソース"
+      ],
+      "category": "AI・機械学習",
+      "score": 90,
+      "score_reason": "AWSがAIエージェント開発を効率化するマルチモデル対応のOSSを公開したことは、今後のAIアプリケーション開発に大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「Docker Cloud Sandboxes」発表、AIエージェント向けサンドボックスをローカルとクラウド間で自由に移動可能に",
+      "url": "https://www.publickey1.jp/blog/26/docker_cloud_snadboxesai.html",
+      "source": "Publickey",
+      "published": "2026-09-27T16:02:18+00:00",
+      "summary": "Docker社が、AIエージェント向けの安全な実行環境「Docker Cloud Sandboxes」を発表。\nローカル環境の「Docker Sandboxes」と組み合わせることで、サンドボックス環境をローカルとクラウド間で自由に移動可能。\nAIエージェントがホスト側のファイルを誤消去したり、外部へ不正アクセスしたりするのを防ぐ高い分離レベルを提供。",
+      "tags": [
+        "Docker",
+        "AIエージェント",
+        "サンドボックス"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 88,
+      "score_reason": "AIエージェントの安全な実行環境をローカルとクラウドでシームレスに統合する、実用性と新規性の高い技術発表であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "MetaのAI「Muse」がFacebook Marketplaceの買い手に自宅住所を教えたとYouTuberが告発：「男が突然ドアの前に現れた」",
+      "url": "https://www.reddit.com/r/technology/comments/1wst3gu/a_youtuber_says_metas_muse_gave_his_address_to_a/",
+      "source": "Reddit",
+      "published": "2026-09-28T22:33:34+00:00",
+      "summary": "MetaのAIアシスタント「Muse」が、ユーザーの意図に反して自宅住所を取引相手に開示したトラブルです。\n被害に遭ったYouTuberは、突然見知らぬ人物が自宅に現れた恐怖を語っています。\nAIによる個人情報の取り扱いやプライバシー保護の脆弱性が浮き彫りになりました。",
+      "tags": [
+        "Meta",
+        "プライバシー",
+        "AIアシスタント"
+      ],
+      "category": "セキュリティ",
+      "score": 85,
+      "score_reason": "AIがユーザーの個人情報を誤って漏洩させるという、実社会での重大なプライバシー・セキュリティ侵害事例であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "タイムズカーWebサイトへの不正アクセスについてまとめてみた - piyolog",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/09/28/214857",
+      "source": "はてなブックマーク",
+      "published": "2026-09-28T14:43:54+00:00",
+      "summary": "カーシェアサービス「タイムズカー」のWebサイトが不正アクセスを受け、会員情報が漏えいした。\n現時点で漏えいした可能性のあるアカウント数は約660万件に上り、外部専門機関による調査が進行中。\nクレジットカード情報の漏えいは確認されておらず、パスワードも復元不可能な形式で保管されていた。",
+      "tags": [
+        "セキュリティ",
+        "不正アクセス",
+        "個人情報漏えい"
+      ],
+      "category": "セキュリティ",
+      "score": 85,
+      "score_reason": "約660万件という大規模な個人情報漏えい事案であり、国内のインフラサービスにおけるセキュリティ影響が極めて大きいため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オープンソースのAIセキュリティエージェントを使用して24個のAndroidの脆弱性を発見した方法",
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "source": "GitHub Blog",
+      "published": "2026-09-28T19:00:00+00:00",
+      "summary": "GitHub Security Labが開発したオープンソースのAIセキュリティエージェント「Taskflow Agent」の活用事例。\nカスタムタスクフロープロンプトを用いてLLMの探索を段階的にガイドし、Androidアプリから24個の脆弱性を検出。\nCopilotライセンスが必要で、ツール呼び出しによりSQLite形式で監査結果を出力する仕組みをオープンソースで提供。",
+      "tags": [
+        "Security",
+        "AI",
+        "Android"
+      ],
+      "category": "セキュリティ",
+      "score": 85,
+      "score_reason": "AIエージェントをセキュリティ監査の実務に適用し、実際に多数の脆弱性を発見した実績は、実用性と影響度が非常に高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "LLMエージェントとデータスペースの架け橋：Model Context Protocolを用いた建築的調停アプローチ",
+      "url": "https://arxiv.org/abs/2609.30341",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-28T04:00:00+00:00",
+      "summary": "LLMエージェントと多様なデータスペースを相互接続するための、Model Context Protocol（MCP）を用いた仲介アーキテクチャを提案しています。\nエージェントが外部データに安全かつ効率的にアクセスし、活用するための標準的な接続方法を模索します。\nエンタープライズ環境におけるAIエージェントの実用的な統合を促進する技術です。",
+      "tags": [
+        "Model Context Protocol",
+        "AIエージェント",
+        "データ統合"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "注目を集めるModel Context Protocol (MCP) を用いて、LLMエージェントとデータスペースの統合を解決する極めて実用的なアーキテクチャを提案しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "より多くのCSSを配信することでサイトのパフォーマンスを向上させる",
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "source": "GitHub Blog",
+      "published": "2026-09-25T15:00:00+00:00",
+      "summary": "GitHubのPrimerデザインシステムにおいて、従来のCSS-in-JSからCSS Modulesへの移行によるパフォーマンス改善事例。\nCSS-in-JSが引き起こしていたクライアントおよびサーバー側での実行時コストを、CSS Modulesの採用により完全に排除。\nネイティブCSSの機能を活かしつつ、クラス名のローカル化による衝突防止と、HTMLに同梱するスタイルシート配信を実現。",
+      "tags": [
+        "CSS",
+        "Web Performance",
+        "Frontend"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 83,
+      "score_reason": "大規模WebサービスにおけるCSS-in-JSのパフォーマンス課題と、CSS Modulesへの移行による具体的な解決策は、フロントエンド開発において非常に有益です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Jeff – 自宅で訓練可能なJev互換の0.8B意思決定モデル、推論時間約30ms",
+      "url": "https://github.com/firelex/jeff",
+      "source": "Hacker News",
+      "published": "2026-09-28T20:23:36+00:00",
+      "hn_score": 260,
+      "hn_comments": 106,
+      "summary": "Qwen3.5やGemma 4を微調整した、ゼロショット分類用の0.8B/2Bの超軽量・高速な意思決定モデル「Jeff」が公開。\nテキスト生成やパースを介さず、1回のフォワードパスで各選択肢の確率を直接出力し、ローカル環境で約30msの高速動作を実現。\n自宅のGPU1枚で数時間で訓練可能であり、音声ナビゲーションのタスクでは精度を31.7%から95.8%へ劇的に向上。",
+      "tags": [
+        "LLM",
+        "ローカルAI",
+        "ゼロショット分類"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "ローカル環境で超高速に動作する軽量な意思決定LLMの有用性と、自宅で容易にファイントゥーニング可能な実用性が高く評価できるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Kubernetes 1.37: SIG Appsの変更内容",
+      "url": "https://zenn.dev/musaprg/articles/kubernetes-changelog-1-37-sig-apps",
+      "source": "Zenn",
+      "published": "2026-09-27T17:25:56+00:00",
+      "summary": "2026年8月にリリースされたKubernetes v1.37における、SIG Apps（アプリケーション管理）関連の主な変更点を解説しています。\nStatefulSetの新しい更新戦略として、旧Podをすべて削除してから新Podを作成する「Recreate」戦略が追加されました。\n壊れたリビジョンからの確実な復旧や、短いダウンタイムを許容できるワークロードでの具体的な設定方法や検証手順を紹介しています。",
+      "tags": [
+        "Kubernetes",
+        "StatefulSet",
+        "SIG-Apps"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 82,
+      "score_reason": "コンテナオーケストレーションのデファクトであるKubernetesのアップデートであり、StatefulSetの運用改善に直結する実用的な内容であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "初心者のためのGitHub Copilotアプリ：キャンバスでカスタムワークフローを構築する方法",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+      "source": "GitHub Blog",
+      "published": "2026-09-25T18:00:00+00:00",
+      "summary": "GitHub Copilotアプリに、ユーザーとAIエージェントが共同編集できるカスタムUI「キャンバス」機能が登場。\n自然言語で指示するだけで、カンバンボードやリリースチェックリストなどのUIをコード不要で自動生成可能。\n双方向の操作に対応しており、エージェントによる更新とユーザーによるボタンやフィルター操作がシームレスに連動。",
+      "tags": [
+        "GitHub Copilot",
+        "AI",
+        "UI/UX"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "AIとの協調作業におけるインターフェースのあり方を再定義する革新的な機能であり、開発効率の向上が期待できます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "MicroLLM Lab – ブラウザ上で7つの超軽量LLMを試せるツール",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "source": "Hacker News",
+      "published": "2026-09-28T18:58:53+00:00",
+      "hn_score": 124,
+      "hn_comments": 59,
+      "summary": "WebGPUを利用して、ブラウザ上で7種類の超軽量LLM（最小135Mなど）を直接実行・テストできるWebツール。\nモデルの推論速度（tokens/s）や客観的なテストの合格率をローカル環境で測定し、デバイスの性能証明書を発行可能。\nデータはすべてローカルで処理され、Webブラウザ上でのエッジAIの可能性と実用性を手軽に体験できる。",
+      "tags": [
+        "WebGPU",
+        "ブラウザAI",
+        "エッジAI"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "WebGPUを用いたブラウザ上でのLLM実行というトレンドを体現しており、開発者が手軽にエッジAIを検証できる実用的なツールであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Playwright Test Agents × GitHub Actions：E2E テスト生成・修復の自動化",
+      "url": "https://zenn.dev/sun_asterisk/articles/e9b50f09839def",
+      "source": "Zenn",
+      "published": "2026-09-28T03:02:56+00:00",
+      "summary": "Playwright 1.56で導入された、AIエージェントによるE2Eテストの自動生成・修復機能「Playwright Test Agents」の活用方法を紹介しています。\nGitHub Actionsを用いて無人で安全に実行するためのワークフロー設計や、意図しないテストの書き換えを防ぐ制限方法を解説しています。\n実行権限の分離やブランチ制限など、実稼働プロジェクトで安全に運用するための具体的なセキュリティ対策も提示されています。",
+      "tags": [
+        "Playwright",
+        "E2Eテスト",
+        "GitHubActions"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 80,
+      "score_reason": "AIを活用したテスト自動化の実践的な運用ノウハウであり、開発プロセスの効率化において実用性が非常に高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Claude Code の新しい監査コマンドは、そのままでは自分のスキル49本を見なかった",
+      "url": "https://qiita.com/suwa_nobu/items/ae5a8c1609c794a74a25?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-28T00:32:08+00:00",
+      "summary": "Claude Codeの新しいプロンプト監査コマンドを、大量のスキルやエージェントを対象に検証。\nデフォルト実行では権限エラーにより ~/.claude 以下のファイルが監査対象外になる問題を指摘。\nオプション指定で読み込みは可能になるものの、監査の精度や挙動には課題があることを報告。",
+      "tags": [
+        "ClaudeCode",
+        "LLM",
+        "AIアシスタント"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "最新のAI開発ツールであるClaude Codeの具体的な検証と実用上の注意点を提供しており、有用性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "こんにちは、Reddit。私はロイターのジャーナリスト、ケイティ・ポールです。マーク・ザッカーバーグがMetaのスタッフをAIに置き換える計画を明らかにし、それがどのように崩壊したかを暴きました。AMA。",
+      "url": "https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/",
+      "source": "Reddit",
+      "published": "2026-09-02T19:18:30+00:00",
+      "summary": "Metaが従業員をAIに置き換えようとして失敗した計画に関するロイター記者によるAMAです。\nマーク・ザッカーバーグが進めたAI代替計画の内幕と、その崩壊プロセスが語られています。\nAI導入による人員削減の現実的な課題や、企業の意思決定プロセスの問題点に焦点を当てています。",
+      "tags": [
+        "Meta",
+        "AI代替",
+        "ロイター"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 80,
+      "score_reason": "大手テック企業におけるAIによる人員削減計画の失敗事例は、今後の企業のAI導入戦略に大きな影響を与えるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "CodeMindの構築：永続メモリを備えたAIコードレビューエージェント",
+      "url": "https://dev.to/prudhvi_duvvu_927640052d1/building-codemind-an-ai-code-review-agent-with-persistent-memory-39h4",
+      "source": "Dev.to",
+      "published": "2026-09-29T01:26:01+00:00",
+      "summary": "過去のレビュー内容を記憶し再利用できる永続メモリを備えたAIコードレビューエージェント「CodeMind」の開発。\n静的コード解析、LLM推論、エビデンス検証、決定論的スコアリングなどを組み合わせた高度なワークフローを実現。\n開発者がGitHubリポジトリやZIPファイルをアップロードすることで、エンジニアリングに特化したレビューを生成する。",
+      "tags": [
+        "AI",
+        "Code Review",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "従来のAIコードレビューの弱点である「過去の文脈の忘却」を永続メモリで解決するアプローチは、実用性と新規性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "チャットが間違ったUIであるとき",
+      "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+      "source": "GitHub Blog",
+      "published": "2026-09-24T20:00:00+00:00",
+      "summary": "LLMとの主要なインターフェースとしてチャットが定着している現状に疑問を投げかける記事です。\nチャットは汎用的な解決策として機能するものの、特定のタスクにおいては最適なUIではないと指摘しています。\nユーザーの目的に応じて、その場で生成・カスタマイズできる新しいUIの必要性を提案しています。",
+      "tags": [
+        "UI/UX",
+        "LLM",
+        "GitHub Copilot"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "生成AIの普及に伴うUI/UXの課題に焦点を当て、チャット以外のインターフェースの必要性を論じた実用的な考察であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "そもそもClaude Codeのエフォートってなに？",
+      "url": "https://zenn.dev/goat_eat_any/articles/claude-code-effort-explained",
+      "source": "Zenn",
+      "published": "2026-09-27T17:18:34+00:00",
+      "summary": "開発支援ツール「Claude Code」における、AIモデルの思考の深さを調整する「エフォート（effort）」設定について解説した記事です。\nエフォートは応答やツール利用時の計算量（トークン消費量）を調整する指標であり、タスクの難易度に応じて使い分けます。\nOpus 5.5などの最新モデルでの挙動や、デスクトップ版での設定方法、各段階ごとの出力傾向の違いなどを整理しています。",
+      "tags": [
+        "ClaudeCode",
+        "Anthropic",
+        "AI開発ツール"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "普及が進むAIコーディングアシスタントの効率的な利用方法とコスト管理に直結する、実用性の高い情報であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "同一人物がApple/Googleどちらでログインしても同じアカウントにする ― Firebase純正のlink(with:)を使わなかった理由",
+      "url": "https://qiita.com/jqit-yukiono/items/0a68cd4ab997e8c8213b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-28T11:26:30+00:00",
+      "summary": "Firebase Authを用いたApple/Googleログインで、同一ユーザーのアカウントを統合する設計を解説。\nFirebase純正のリンク機能が持つ、別ユーザー存在時の破壊的処理やネットワーク切断時のリスクを指摘。\n認証状態には触れず、バックエンドの独自テーブルで複数UIDを紐付ける安全な代替設計を提案。",
+      "tags": [
+        "Firebase",
+        "認証",
+        "データベース設計"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 78,
+      "score_reason": "Firebaseの標準機能の限界と、それに対する堅牢なバックエンド設計の代替案を具体的に示しており実用性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Git 2.56のハイライト",
+      "url": "https://github.blog/open-source/git/highlights-from-git-2-56/",
+      "source": "GitHub Blog",
+      "published": "2026-09-28T17:23:33+00:00",
+      "summary": "バージョン管理システム「Git 2.56.0」がリリースされ、104名以上のコントリビューターによる新機能やバグ修正が追加。\nマージ競合の解決を安全に行うための新コマンド「git add --resolved」が導入され、誤ったステージングを防止。\nこの新モードは、競合マーカーが残っているファイルを自動で検出し、未解決のままステージングされるのを防ぐ。",
+      "tags": [
+        "Git",
+        "Open Source",
+        "Version Control"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 78,
+      "score_reason": "開発者が日常的に直面するマージ競合の解決プロセスを安全にする新機能であり、実用性と影響度が大きいです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "単体では隠密、合わされば有害：スキルベースのエージェントシステムに対するスキル連鎖攻撃",
+      "url": "https://arxiv.org/abs/2609.30383",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-28T04:00:00+00:00",
+      "summary": "スキルベースのAIエージェントシステムに対する、個々の動作は無害に見えるが連鎖することで有害となる「スキル連鎖攻撃」の脅威を分析しています。\n従来の単一アクションの監視では検知が困難な、新しいタイプのセキュリティ脆弱性を指摘しています。\nマルチエージェントシステムの安全な設計と防御策の構築に警鐘を鳴らす研究です。",
+      "tags": [
+        "AIセキュリティ",
+        "AIエージェント",
+        "脆弱性攻撃"
+      ],
+      "category": "セキュリティ",
+      "score": 78,
+      "score_reason": "複雑化するAIエージェントシステムにおける、検知困難な連鎖型攻撃という新たなセキュリティ脅威を明らかにし、防御の必要性を示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "SOLID 原則と型の持つ責務",
+      "url": "https://zenn.dev/sator_imaging/articles/834240491191ec",
+      "source": "Zenn",
+      "published": "2026-09-27T11:55:18+00:00",
+      "summary": "AIのコード生成をきっかけに、SOLID原則の前段となる型システムと責務について考察。\nC#やJavaなどのGC採用言語と、GoやRustなどの型が振る舞いを持たない言語の設計思想を比較。\n各言語におけるインターフェースやトレイト、拡張メソッドの実装アプローチの違いを解説。",
+      "tags": [
+        "SOLID原則",
+        "型システム",
+        "設計思想"
+      ],
+      "category": "プログラミング言語",
+      "score": 75,
+      "score_reason": "複数言語の型システムと設計思想を深く比較しており、プログラマの設計力向上に役立つ内容です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Web/admin/iOSにE2Eテストを整備した話 ― 認証を迂回したら、次はテストコード自身の罠が待っていた",
+      "url": "https://qiita.com/jqit-yukiono/items/0f7d52531f4370484101?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-28T11:26:30+00:00",
+      "summary": "Web、管理画面、iOSアプリに対して、PlaywrightとXCUITestを用いたE2Eテストを導入。\nFirebase認証やApp Checkをカスタムトークン等で迂回し、主要UIフローを自動検証する手法を解説。\nテストコードの実装や、JenkinsなどのCI環境特有の課題とそれに対する解決策を紹介。",
+      "tags": [
+        "E2Eテスト",
+        "Playwright",
+        "XCUITest"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 75,
+      "score_reason": "複数プラットフォームにおけるE2Eテストの導入と、認証の迂回やCI連携といった実践的なノウハウが詰まっています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "NRアプリへの不正アクセスによる会員情報漏えいに関するお詫びとお知らせ | ニッポンレンタカー",
+      "url": "https://www.nipponrentacar.co.jp/info/202609.html",
+      "source": "はてなブックマーク",
+      "published": "2026-09-28T17:03:58+00:00",
+      "summary": "「ニッポンレンタカーアプリ」のシステムが第三者による不正アクセスを受け、会員情報が不正閲覧された。\n対象となる会員は41名で、氏名や電話番号、一部の運転免許証情報やクレジットカード番号下4桁などが漏えいした可能性がある。\n同社は対象者への個別連絡とパスワード再設定の依頼を行い、警察や個人情報保護委員会へ報告した。",
+      "tags": [
+        "セキュリティ",
+        "不正アクセス",
+        "個人情報漏えい"
+      ],
+      "category": "セキュリティ",
+      "score": 75,
+      "score_reason": "影響人数は41名と少ないものの、運転免許証情報やクレジットカード情報の一部が含まれる深刻な漏えい事案であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ScopeBench: エージェントは目標達成の圧力下で関与の境界を維持できるか？",
+      "url": "https://arxiv.org/abs/2609.30325",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-28T04:00:00+00:00",
+      "summary": "AIエージェントが目標達成の圧力を受ける中で、設定された行動境界や倫理的制約を守れるかを評価するベンチマーク「ScopeBench」を提案しています。\nエージェントの安全性や制御可能性を測定するための新しい評価手法を確立します。\n自律的なAIシステムが暴走するリスクを防ぐための重要な研究です。",
+      "tags": [
+        "AIエージェント",
+        "ベンチマーク",
+        "AI安全性"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "AIエージェントの安全性と制約遵守能力を評価する新しいベンチマークであり、実用化に向けた信頼性向上に寄与するため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "マルチエージェントによるコード判定が実際に根拠に基づいているのはいつか？2つのラベルフリー測定と推測を拒否する判定器",
+      "url": "https://arxiv.org/abs/2609.30328",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-28T04:00:00+00:00",
+      "summary": "マルチエージェントを用いたコード評価（コードジャッジ）の信頼性と根拠の正確性を検証する研究です。\n正解ラベルを必要としない2つの測定手法と、不確実な場合に推測を拒否する新しい判定モデルを提案しています。\n自動コード生成や評価システムの精度向上に貢献する技術です。",
+      "tags": [
+        "マルチエージェント",
+        "コード評価",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 73,
+      "score_reason": "コード生成AIの評価プロセスの信頼性を高めるための、ラベルフリーな測定手法と堅牢な判定モデルを提案しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "個人開発のiOS共通ライブラリをSSHフリー化した話 ― 「publicだから認証不要」の勘違いに、Dockerビルドだけが気づいていた",
+      "url": "https://qiita.com/jqit-yukiono/items/9d8a5b91dbe3b81cb1b2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-28T11:26:30+00:00",
+      "summary": "iOSアプリの共通ライブラリへの依存を、SSH参照から認証不要な形式へ変更する試行錯誤を解説。\nSwift Package Registryを用いた解決を試みるも、SwiftPMの仕様やXcodeGenの制約により断念。\nDockerビルド環境での検証を通じて、パブリックリポジトリ参照における認証の誤解を解消した経緯を紹介。",
+      "tags": [
+        "iOS",
+        "SwiftPM",
+        "CI/CD"
+      ],
+      "category": "モバイル",
+      "score": 70,
+      "score_reason": "SwiftPMやCI/CD環境におけるライブラリ依存解決の具体的なトラブルシューティング事例として実用性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "アメリカのクリーンカー後退は完了した。世界は我々を置いて進むだろう",
+      "url": "https://www.reddit.com/r/technology/comments/1wsrgl3/americas_clean_car_retreat_is_complete_the_world/",
+      "source": "Reddit",
+      "published": "2026-09-28T21:26:11+00:00",
+      "summary": "アメリカにおける電気自動車（EV）などのクリーンカー政策の後退を指摘する記事です。\n政策の転換により、米国が世界のクリーンエネルギー市場で取り残される懸念を示しています。\nグローバルな自動車産業のトレンドと米国の立ち位置の乖離について議論されています。",
+      "tags": [
+        "EV",
+        "クリーンエネルギー",
+        "米国政策"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 70,
+      "score_reason": "自動車産業の電動化シフトにおける米国の政策変更は、グローバルなサプライチェーンと技術開発に大きな影響を与えるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Codexを使うなら、/goalとサイドチャットを押さえておきたい",
+      "url": "https://syu-m-5151.hatenablog.com/entry/2026/09/27/120017",
+      "source": "はてなブックマーク",
+      "published": "2026-09-27T07:55:43+00:00",
+      "summary": "AIコーディングアシスタント「Codex」のCLIにおける便利な操作方法について解説。\n作業の完了条件を定義する「/goal」や、主会話から分岐して質問できる「/side」などの機能を説明。\n実行中の追加指示や予約送信を使い分けることで、効率的なコード修正や仕様確認が可能になる。",
+      "tags": [
+        "Codex",
+        "AIアシスタント",
+        "プログラミング"
+      ],
+      "category": "AI・機械学習",
+      "score": 70,
+      "score_reason": "AIを活用した開発プロセスの効率化に関する実用的なTipsであり、開発者にとって有用な情報であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "産業用機器においてソフトウェアよりもハードウェア構成が優れている場合",
+      "url": "https://dev.to/_253dcecc7edc530fa5e2de/when-hardware-configuration-is-better-than-software-in-industrial-equipment-4jcf",
+      "source": "Dev.to",
+      "published": "2026-09-29T01:23:08+00:00",
+      "summary": "産業用機器において、DIPスイッチなどの物理的なハードウェア構成がソフトウェア設定より優れている場面を解説。\n物理スイッチは、起動前状態の定義、通信不可時の視認性、PC不要での設定確認など、ソフトウェアが抱える課題を解決する。\n開発環境と現場の設置環境の違いを考慮し、ハードウェア構成がもたらす運用価値を評価するフレームワークを提示。",
+      "tags": [
+        "Hardware",
+        "Embedded Systems",
+        "Industrial Equipment"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 70,
+      "score_reason": "ソフトウェアファーストの時代において、物理的なハードウェア構成の重要性と実用的な選択基準を再評価しており興味深いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "自律システムへのAIの導入 -- 認知から集団知能へ",
+      "url": "https://arxiv.org/abs/2609.30291",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-28T04:00:00+00:00",
+      "summary": "自律システムにおけるAIの統合について、個別の認知機能から集団知能への進化を議論する論文です。\n複数の自律エージェントやシステムが協調して動作するための技術的アプローチを探求しています。\n自動運転やロボティクスなどの分野における次世代AIシステムの設計指針を提供します。",
+      "tags": [
+        "自律システム",
+        "集団知能",
+        "AI"
+      ],
+      "category": "AI・機械学習",
+      "score": 70,
+      "score_reason": "自律システムと集団知能の融合という、今後のロボティクスやマルチエージェント分野で重要なテーマを扱っているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "探索できる人は何をしているの？『Explore It!』を読んで",
+      "url": "https://zenn.dev/knowledgework/articles/6996274de49607",
+      "source": "Zenn",
+      "published": "2026-09-28T03:00:05+00:00",
+      "summary": "探索的テストの実践ガイド本『Explore It!』を読んだQAエンジニアによる、無意識のテスト行動を言語化するための考察記事です。\n集中している中で見落としが生じる「Moonwalking Bear」の例を挙げ、テストにおける視点の切り替えや気づきの重要性を説明しています。\n自身のテスト手法を振り返り、プロダクトの価値を高めるための探索的アプローチや視野の広げ方について学んだ内容を共有しています。",
+      "tags": [
+        "探索的テスト",
+        "QA",
+        "テスト設計"
+      ],
+      "category": "その他",
+      "score": 65,
+      "score_reason": "テストエンジニアの知見共有として有益ですが、特定の技術的ブレイクスルーではなくマインドセットや手法に関する書評であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Meta株の下落により、マーク・ザッカーバーグが月曜日にさらに110億ドルを失う",
+      "url": "https://www.reddit.com/r/technology/comments/1wsjsx0/mark_zuckerberg_loses_another_11_billion_monday/",
+      "source": "Reddit",
+      "published": "2026-09-28T16:45:58+00:00",
+      "summary": "Metaの株価急落に伴い、CEOのマーク・ザッカーバーグの資産が1日で110億ドル減少しました。\n同社の事業戦略や市場の評価が株価に直接的な影響を与えていることを示しています。\nテック業界の巨人であるMetaの財務状況と市場の動向が注目されています。",
+      "tags": [
+        "Meta",
+        "株価",
+        "マーク・ザッカーバーグ"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 65,
+      "score_reason": "大手テック企業の株価変動と経営者の資産減少は注目されますが、技術的な新規性は低いためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "普通のサイトを見ていただけなのに「ウイルス感染」の表示が閉じられない！ 「サポート詐欺」の画面を閉じる方法",
+      "url": "https://internet.watch.impress.co.jp/docs/special/2143427.html",
+      "source": "はてなブックマーク",
+      "published": "2026-09-28T22:05:37+00:00",
+      "summary": "一般的なWebサイト閲覧中に突然表示される、偽のセキュリティ警告「サポート詐欺」の対処法を解説。\n全画面表示を強制解除する「Escキーの長押し」や「タスクマネージャー」の起動など、具体的な閉じ方を紹介。\n電話番号が表示されても絶対に連絡せず、ブラウザの画面を閉じるだけで安全に解決できることを強調。",
+      "tags": [
+        "サポート詐欺",
+        "セキュリティ",
+        "ブラウザ"
+      ],
+      "category": "セキュリティ",
+      "score": 65,
+      "score_reason": "一般ユーザー向けのセキュリティ啓発記事であり、実用性は高いが技術的な新規性は低いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "インターネット民がFlock SafetyのCEOの自宅をオンライン上で「公衆トイレ」として登録",
+      "url": "https://www.reddit.com/r/technology/comments/1wscs15/the_internet_marked_flock_safety_ceos_home_as_a/",
+      "source": "Reddit",
+      "published": "2026-09-28T12:05:45+00:00",
+      "summary": "監視カメラ企業Flock SafetyのCEOの自宅が、ネット上で公衆トイレとして登録される嫌がらせが発生しました。\n同社の監視技術に対するプライバシー懸念や、ネットコミュニティからの反発が背景にあるとみられます。\nネット上のいたずらや、プライバシー擁護派と監視技術企業との対立を象徴する出来事です。",
+      "tags": [
+        "Flock Safety",
+        "プライバシー",
+        "監視技術"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "監視技術に対する世間の反発を示す象徴的な事件ですが、技術的な新規性は低いためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Windows 95とSystem 7のウェブデスクトップに接続された1996年のチャットルームシミュレーター",
+      "url": "https://lolchat.rip/",
+      "source": "Hacker News",
+      "published": "2026-09-29T00:06:48+00:00",
+      "hn_score": 12,
+      "hn_comments": 6,
+      "summary": "1996年当時のインターネットチャットルームの雰囲気を再現したWebシミュレーター「lolchat.rip」が登場。\nWebブラウザ上で動作するWindows 95やMacintosh System 7の仮想デスクトップ環境と連携して動作する。\nレトロPC愛好家やWeb技術を用いたエミュレーションに関心のある層に向けたノスタルジックなプロジェクト。",
+      "tags": [
+        "レトロPC",
+        "Webエミュレータ",
+        "シミュレーター"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 55,
+      "score_reason": "技術的な実用性は低いが、Web技術を用いたOSやアプリケーションの再現度が高く、エンターテインメントとして優れているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "自分の頭で考えることって重要だよなと改めて思わされた話",
+      "url": "https://qiita.com/ike_s_muramatsu/items/44664e57e2738614fccf?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-26T03:37:47+00:00",
+      "summary": "初めてOJTを担当したインフラエンジニアが、部下や新人の育成を通じて感じたことを整理。\n周囲に合わせた当たり障りのない回答や行動を、理由を考えずに選択し続ける問題点を指摘。\n業務において「自分の考え」を持ち、その理由を言語化することの重要性を説く。",
+      "tags": [
+        "新人教育",
+        "キャリア",
+        "マインドセット"
+      ],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "技術的な内容ではなく、エンジニアのソフトスキルやマインドセットに関する考察であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "マイクロソフト、企業内アプリの実行基盤「Copilot Managed Runtime」プレビュー公開。Microsoft 365と同じテナント内でコード実行、管理者による集中管理も",
+      "url": "https://www.publickey1.jp/blog/26/copilot_managed_runtimemicrosoft_365.html",
+      "source": "Publickey",
+      "published": "2026-09-27T15:59:50+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Go言語で書かれた高速なIDE「Rune」、オープンソースで公開。ターミナルとコマンドプロンプト中心の開発環境、複数リモートノードをローカルのように操作可能",
+      "url": "https://www.publickey1.jp/blog/26/goiderune.html",
+      "source": "Publickey",
+      "published": "2026-09-24T15:45:08+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Cloudflare、Python Workersを正式サービスに。PythonでWebサイトの構築、データベース接続、オブジェクトストレージ操作など",
+      "url": "https://www.publickey1.jp/blog/26/cloudflarepython_wrokerspythonweb.html",
+      "source": "Publickey",
+      "published": "2026-09-23T15:26:46+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Everything as Code: The Infrastructure Revolution Transforming Modern Engineering",
+      "url": "https://dev.to/said_olano/everything-as-code-the-infrastructure-revolution-transforming-modern-engineering-24jd",
+      "source": "Dev.to",
+      "published": "2026-09-29T01:29:37+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "A decision that survives the process: a small Selvedge walkthrough",
+      "url": "https://dev.to/masondelan/a-decision-that-survives-the-process-a-small-selvedge-walkthrough-4epo",
+      "source": "Dev.to",
+      "published": "2026-09-29T01:28:38+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "MemoryDesk: Building an AI Customer Support Agent with Presistent Memory",
+      "url": "https://dev.to/safwan_akram_f0dd7144d825/memorydesk-building-an-ai-customer-support-agent-with-presistent-memory-omn",
+      "source": "Dev.to",
+      "published": "2026-09-29T01:28:38+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "海賊を海賊行為する（映画『続・夕陽のガンマン』の修復版を巡る闘い）",
+      "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
+      "source": "Hacker News",
+      "published": "2026-09-28T15:54:15+00:00",
+      "hn_score": 411,
+      "hn_comments": 218,
+      "summary": "映画『続・夕陽のガンマン』のMGMによる不適切な「修復版」に対抗し、オリジナルの劇場公開版を復元しようとするファンの試み。\nカットされたシーンの追加や現代的な効果音への変更など、スタジオによる改変を元に戻すため、複数の海賊版や旧DVDを組み合わせる。\nデジタルアーカイブや映画の保存における、スタジオの商業的改変とファンによるオリジナル版維持の葛藤を描く。",
+      "tags": [
+        "映画アーカイブ",
+        "デジタル修復",
+        "著作権"
+      ],
+      "category": "その他",
+      "score": 45,
+      "score_reason": "技術的な新規性は低いが、デジタルメディアの保存と著作権、ファンコミュニティの活動に関する興味深い事例であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "科学者たちが1840年代の宇宙天気の謎を解明",
+      "url": "https://arstechnica.com/science/2026/09/scientists-solve-1840s-space-weather-mystery/",
+      "source": "Hacker News",
+      "published": "2026-09-28T20:00:03+00:00",
+      "hn_score": 56,
+      "hn_comments": 36,
+      "summary": "1859年のキャリントン・イベント以前に起きたとされる、1841年の磁気嵐による英国の鉄道遅延記録の謎を科学者が解明。\n調査の結果、1871年の報告書にあった「1841年」という日付は誤植であり、実際は数年後の磁気嵐によるものと判明。\n電気技術の黎明期から人類が宇宙天気（太陽活動）の影響を受けていた歴史を示す、貴重な学術的検証。",
+      "tags": [
+        "宇宙天気",
+        "磁気嵐",
+        "科学史"
+      ],
+      "category": "その他",
+      "score": 40,
+      "score_reason": "IT業界への直接的な影響は限定的だが、インフラと宇宙環境の相互作用の歴史を明らかにする興味深い科学ニュースであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ギョベクリ・テペの1万2000年前の埋葬跡が散乱した骨の謎を解明",
+      "url": "https://archaeologymag.com/2026/09/gobeklitepe-burials-hundreds-of-scattered-bones/",
+      "source": "Hacker News",
+      "published": "2026-09-26T10:16:26+00:00",
+      "hn_score": 75,
+      "hn_comments": 21,
+      "summary": "トルコの古代遺跡ギョベクリ・テペで発見された1万2000年前の埋葬跡から、散乱した人骨の謎が解明される。\n当時の埋葬習慣や死生観、あるいは死後の遺体の処理方法に関する新たな考古学的知見が得られた。\n人類最古の神殿とされる遺跡における社会構造や儀礼の理解を深める重要な発見。",
+      "tags": [
+        "考古学",
+        "歴史",
+        "ギョベクリ・テペ"
+      ],
+      "category": "その他",
+      "score": 35,
+      "score_reason": "IT技術との直接的な関連性は極めて低いが、歴史的・学術的に価値のあるニュースであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}

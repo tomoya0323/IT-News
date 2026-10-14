@@ -1,0 +1,697 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-20T09:04:03.728389+09:00",
+  "total_count": 43,
+  "success_count": 25,
+  "error_count": 18,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "Jevとは何か？ 従来型LLMやAIエージェントとの違いを理解する",
+      "url": "https://qiita.com/nasuvitz/items/44f20ed515b9734afb26?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-17T13:26:18+00:00",
+      "summary": "TypeSafe AIが発表した新しいAIモデル「Jev」の特徴と仕組みを解説している。\n従来のLLMが文章を生成するのに対し、Jevは分類や条件判定の結果を確率付きの型付きデータとして返す。\nアプリケーションの条件分岐や制御に直接利用しやすく、AIエージェントとの違いを比較している。",
+      "tags": [
+        "Jev",
+        "TypeSafe AI",
+        "AIエージェント"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "話題の「Jev」と従来のLLMやAIエージェントとの違いを分かりやすく比較解説しており、技術的理解を深める上で重要度が高い。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 2,
+      "topic_size": 3
+    },
+    {
+      "title": "jev-lint: コード中の命名やコメントが嘘になってないかを高速に確認",
+      "url": "https://zenn.dev/mizchi/articles/jev-lint-intro",
+      "source": "はてなブックマーク",
+      "published": "2026-09-19T15:59:25+00:00",
+      "summary": "実装と関数名・コメントの乖離（嘘）を検知する新しい静的解析ツール「jev-lint」が開発されました。\nast-grepでコードを抽出し、LLMを用いて自然言語のルールに基づき高速かつ安価に評価を行います。\n従来の静的Lintでは難しかった、コードの意図や命名の妥当性といった意味論的な検証を可能にします。",
+      "tags": [
+        "Linter",
+        "LLM",
+        "静的解析"
+      ],
+      "category": "プログラミング言語",
+      "score": 85,
+      "score_reason": "LLMとAST解析を組み合わせることで、従来の静的解析では不可能だったコードの意味論的検証を実用的なコストで実現する革新的なツールであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応",
+      "url": "https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html",
+      "source": "Publickey",
+      "published": "2026-09-16T15:51:54+00:00",
+      "summary": "GoogleがAndroid上でパスワードマネージャ間のパスキー転送を可能にしたと発表しました。\n1PasswordやBitwarden、Dashlaneなどの主要なマネージャがこの機能に対応します。\nこれまで困難だったパスキーの移行が容易になり、ユーザーの利便性と安全性が向上します。",
+      "tags": [
+        "Android",
+        "パスキー",
+        "パスワードマネージャー"
+      ],
+      "category": "モバイル",
+      "score": 85,
+      "score_reason": "パスキーのポータビリティ向上は、パスワードレス社会の普及とセキュリティ向上に大きく貢献するためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "話題のJevとは？文章を書かずに判断だけを返すAIモデルをざっくり解説",
+      "url": "https://qiita.com/yushibats/items/472325ce548da370ed5d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-18T05:21:55+00:00",
+      "summary": "文章を生成せず、選択肢に対する判断と確率のみを返すAIモデル「Jev」を分かりやすく解説している。\n従来のLLMを「記述式」、Jevを「マークシート方式」に例え、応答速度の速さと低コストな特徴を説明している。\nJevへのリクエスト構成である「state（状況）」と「questions（問い）」の具体的な仕組みを紹介している。",
+      "tags": [
+        "Jev",
+        "TypeSafe AI",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "注目を集めるJevの仕組みをマークシートに例えて直感的に分かりやすく解説しており、技術の普及に貢献する内容である。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 2,
+      "topic_size": 3
+    },
+    {
+      "title": "オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして",
+      "url": "https://www.publickey1.jp/blog/26/javaai.html",
+      "source": "Publickey",
+      "published": "2026-09-15T15:49:38+00:00",
+      "summary": "オラクルはJavaのセキュリティパッチの提供サイクルを従来の3ヶ月から1ヶ月に短縮しました。\nAIの台頭により脆弱性の発見と修正が加速している現状に対応するための措置です。\n新たなパッチ提供枠組み「CSPU」により、ユーザーは迅速に脆弱性に対処可能となります。",
+      "tags": [
+        "Java",
+        "セキュリティパッチ",
+        "AI"
+      ],
+      "category": "セキュリティ",
+      "score": 82,
+      "score_reason": "AI時代のセキュリティ脅威の高速化に対し、主要プラットフォームがパッチ頻度を上げるという重要な方針転換であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "私は1年前に強化学習を用いた非自己回帰型意思決定モデルを構築した",
+      "url": "https://laya.convaiinnovations.com/",
+      "source": "Hacker News",
+      "published": "2026-09-19T10:46:58+00:00",
+      "hn_score": 1052,
+      "hn_comments": 247,
+      "summary": "テキスト生成を行わず、構造化スキーマに対して高速な確率予測を行う非自己回帰型の意思決定モデル「Laya」の開発経緯。\n強化学習（RLCD）をベースに、100以上の言語に対応するマルチリンガルルーティングや高速な推論を実現している。\n著者が1年前に発表した手法とほぼ同様のモデルが、後に著名なAIスタートアップから発表されたことへの複雑な思いを綴る。",
+      "tags": [
+        "機械学習",
+        "強化学習",
+        "AIモデル"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "非自己回帰型かつ強化学習を用いた高速な意思決定モデルという、LLMの新たな応用先とトレンドを示す興味深い事例です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Skiaを介した描画のためのコンパイラスタイル最適化",
+      "url": "https://arxiv.org/abs/2603.23696",
+      "source": "Hacker News",
+      "published": "2026-09-17T17:30:38+00:00",
+      "hn_score": 53,
+      "hn_comments": 13,
+      "summary": "2Dグラフィックスライブラリ「Skia」を用いた描画処理において、コンパイラ技術を応用した最適化手法を提案する研究。\n描画コマンドのシーケンスをコンパイル時のように解析・最適化することで、レンダリングのパフォーマンスを向上させる。\nUI描画やブラウザのレンダリングエンジンなど、Skiaを基盤とする多くのグラフィックス処理の高速化が期待される。",
+      "tags": [
+        "Skia",
+        "グラフィックス最適化",
+        "コンパイラ技術"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 80,
+      "score_reason": "ChromeやFlutterなどで広く使われているSkiaの描画処理をコンパイラ技術で最適化するアプローチは、多くのフロントエンド技術のパフォーマンス向上に直結します。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Jevでハーネスエンジニアリング",
+      "url": "https://zenn.dev/watany/articles/36e11a20ce3743",
+      "source": "Zenn",
+      "published": "2026-09-18T02:16:33+00:00",
+      "summary": "TypeSafe AIが発表した意思決定モデル「Jev」の概要と導入方法を紹介している。\nJevは状態と質問を受け取り、型付きの回答を確率とともに返す「System One Model」である。\n決定論的なガードレールや自動化処理を、低コストかつ高速に実装する手法を解説している。",
+      "tags": [
+        "Jev",
+        "TypeSafe AI",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "新しい意思決定モデル「Jev」の実践的なユースケースとホスティング環境での利用方法を解説しており、実用性が高い。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 2,
+      "topic_size": 3
+    },
+    {
+      "title": "「Java 27」正式リリース。全環境でG1 GCがデフォルトに、TLS 1.3用に耐量子暗号のハイブリッドキー交換など新機能",
+      "url": "https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html",
+      "source": "Publickey",
+      "published": "2026-09-15T15:52:17+00:00",
+      "summary": "オラクルが最新バージョンとなる「Java 27」の正式版をリリースしました。\n全環境でG1 GCがデフォルトになり、TLS 1.3向けに耐量子暗号のハイブリッドキー交換が導入されました。\n本バージョンはLTS（長期サポート）ではなく、6ヶ月間のサポート期間となります。",
+      "tags": [
+        "Java",
+        "Java 27",
+        "ガベージコレクション"
+      ],
+      "category": "プログラミング言語",
+      "score": 80,
+      "score_reason": "主要言語であるJavaの最新リリースであり、耐量子暗号への対応など先進的な機能が追加されたためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Flockだけではない、ダラスのAIカメラがゴミ収集車から住宅をスキャンし57件の違反を摘発",
+      "url": "https://www.reddit.com/r/technology/comments/1wkrdb8/if_flock_wasnt_enough_dallas_ai_cameras_are/",
+      "source": "Reddit",
+      "published": "2026-09-19T16:58:23+00:00",
+      "summary": "テキサス州ダラス市にて、ゴミ収集車に搭載されたAIカメラが住宅をスキャンする取り組みが実施されました。\nこのAIスキャンにより、すでに57件の条例違反などの摘発（引用）が行われています。\n公共サービスを利用した監視活動の拡大に対し、プライバシー侵害への懸念と議論が再燃しています。",
+      "tags": [
+        "AIカメラ",
+        "プライバシー",
+        "スマートシティ"
+      ],
+      "category": "セキュリティ",
+      "score": 78,
+      "score_reason": "AIを用いた公共監視の新たな手法と、それに伴うプライバシーや市民生活への直接的な影響を示す重要なニュースであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub可用性レポート：2026年8月",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
+      "source": "GitHub Blog",
+      "published": "2026-09-10T02:05:17+00:00",
+      "summary": "2026年8月のGitHubは可用性において課題に直面し、容量監視の強化やコアサービスの回復性向上に注力した。\nAzureへの移行を推進しており、8月11日には初めてAzure上で本番環境のMySQLプライマリの稼働に成功した。\n移行に伴う読み取りトラフィックも増加し、移行済みサービスからのAzureでの読み取りはピーク時に60.4%に達した。",
+      "tags": [
+        "GitHub",
+        "Azure",
+        "データベース移行"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 78,
+      "score_reason": "開発プラットフォーム大手のGitHubがAzureへの移行とデータベースのプライマリ切り替えを本格化させており、インフラの可用性向上に向けた具体的な進捗と課題を示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "インターネット検閲を測定する。最大のオープンデータセットに貢献しよう",
+      "url": "https://ooni.org/install",
+      "source": "Hacker News",
+      "published": "2026-09-19T20:00:59+00:00",
+      "hn_score": 76,
+      "hn_comments": 40,
+      "summary": "世界中のインターネット検閲状況を測定し、最大のオープンデータセット構築に貢献するためのプロジェクト「OONI Probe」。\nユーザーは専用アプリを実行することで、自国でブロックされているウェブサイトやSNS、回避ツールの動作状況をテストできる。\nテスト結果はリアルタイムで公開され、インターネットの自由度と検閲の透明性を高めるために役立てられる。",
+      "tags": [
+        "インターネット検閲",
+        "オープンデータ",
+        "ネットワークセキュリティ"
+      ],
+      "category": "セキュリティ",
+      "score": 75,
+      "score_reason": "世界的なインターネット検閲の現状を可視化するための草の根活動であり、ネットワークの自由とセキュリティにおいて重要な役割を果たします。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Claude Code が AGENTS.md を読むようになった。ただし1回目のセッションでは読まれない",
+      "url": "https://qiita.com/suwa_nobu/items/c795cf89d0fd4091c9cb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-19T01:51:19+00:00",
+      "summary": "Claude Codeのアップデート（2.1.277）により、プロジェクト指示書として「AGENTS.md」がサポートされたことを紹介している。\n著者が検証を行い、CLAUDE.mdがない場合にAGENTS.mdが読み込まれる挙動や優先順位を明らかにしている。\nインストール後や特定の条件下における「1回目のセッションでは読まれない」という重要な注意点を解説している。",
+      "tags": [
+        "Claude Code",
+        "AGENTS.md",
+        "AIエージェント"
+      ],
+      "category": "その他",
+      "score": 75,
+      "score_reason": "開発者向けAIツール「Claude Code」の最新アップデートにおける挙動の検証であり、実用的なトラブルシューティング情報を含んでいる。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ロイター記者ケイティ・ポールです。マーク・ザッカーバーグによるMeta社員のAI置き換え計画とその崩壊を暴きました。AMA（何でも聞いてね）。",
+      "url": "https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/",
+      "source": "Reddit",
+      "published": "2026-09-02T19:18:30+00:00",
+      "summary": "Meta社が計画していたAIによる従業員の代替と、その計画が失敗に終わった裏側をロイター記者が暴露しました。\nReddit上でのAMAセッションを通じて、読者からの質問に記者が直接回答しています。\n大手テック企業におけるAI導入の現実と、その運用に伴う混乱や課題が浮き彫りになっています。",
+      "tags": [
+        "Meta",
+        "AI",
+        "雇用問題"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "大手テック企業におけるAIによる人員削減計画の失敗という、業界の雇用とAI導入の現実に一石を投じる重要なトピックであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ShinyHuntersがClopのリークサイトをハッキング：認証なしのファイルアップロードによりTorの秘密鍵が盗まれたと主張",
+      "url": "https://dev.to/anoymask/shinyhunters-hacks-clop-leak-site-claims-an-unauthenticated-file-upload-led-to-tor-private-key-1bl0",
+      "source": "Dev.to",
+      "published": "2026-09-19T23:46:55+00:00",
+      "summary": "ハッカー集団ShinyHuntersが、ランサムウェア集団Clopのリークサイトをハッキングしたと主張しています。\nGrav CMSの認証なしファイルアップロード脆弱性を突き、サイトの改ざんなどを行ったとされています。\nTorの秘密鍵やサーバーデータの窃取については、現時点で第三者による検証は完了していません。",
+      "tags": [
+        "ハッキング",
+        "脆弱性",
+        "CMS"
+      ],
+      "category": "セキュリティ",
+      "score": 75,
+      "score_reason": "著名なサイバー犯罪グループ間の攻防であり、CMSの脆弱性管理の重要性を再認識させる事例であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ブルードウォー・ベンチ",
+      "url": "https://bw.swerdlow.dev/report",
+      "source": "Hacker News",
+      "published": "2026-09-19T14:44:02+00:00",
+      "hn_score": 122,
+      "hn_comments": 62,
+      "summary": "人気ゲーム「スタークラフト：ブルードウォー」をAIエージェントにプレイさせ、その能力を評価するベンチマークプロジェクト。\nAIエージェントは敵の妨害などの局所的な戦術には優れるものの、持続的な生産やテクノロジー開発などの大局的な戦略に課題がある。\nまた、経済や軍事などの役割ごとに分かれたサブエージェント間の連携不足という、マルチエージェント特有の弱点も明らかになった。",
+      "tags": [
+        "AIエージェント",
+        "スタークラフト",
+        "ゲームAI"
+      ],
+      "category": "AI・機械学習",
+      "score": 70,
+      "score_reason": "複雑なリアルタイム戦略ゲームにおけるAIエージェントの現状の能力と、マルチエージェント協調における課題を具体的に示しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Game Engine Zero: ゲームエンジンの話をする前にPong、Snake、Breakoutを作る無料のGo言語書籍",
+      "url": "https://dev.to/kryotek/game-engine-zero-a-free-go-book-where-you-build-pong-snake-and-breakout-before-any-engine-talk-1ch",
+      "source": "Dev.to",
+      "published": "2026-09-19T23:49:40+00:00",
+      "summary": "ゲーム開発未経験者向けに、Go言語とEbitengineを使ってゲームを作る無料の電子書籍が公開されました。\nエンジンの解説に入る前に、PongやSnake、Breakoutなどのアーケードゲームを実際に構築します。\nAIアシスタントを用いて執筆され、コードの自動実行テストを経て公開されている点も特徴です。",
+      "tags": [
+        "Go言語",
+        "ゲーム開発",
+        "Ebitengine"
+      ],
+      "category": "プログラミング言語",
+      "score": 70,
+      "score_reason": "Go言語でのゲーム開発を実践的に学べる優れた無料教材であり、AIを活用した執筆プロセスも興味深いためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Hacker Newsのランキングアルゴリズムの仕組み：スコアリング、論争、ペナルティ (2013)",
+      "url": "https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html",
+      "source": "Hacker News",
+      "published": "2026-09-19T21:30:59+00:00",
+      "hn_score": 87,
+      "hn_comments": 43,
+      "summary": "Hacker Newsのランキングアルゴリズムとペナルティの仕組みを詳細に分析した記事。\nアップボート数と投稿からの経過時間に基づく基本数式に加え、特定のキーワードや論争に対するペナルティが存在する。\n効率化のために全記事を常に再計算するのではなく、特定のアクションやランダムなタイミングで再ランク付けが行われる。",
+      "tags": [
+        "Hacker News",
+        "アルゴリズム",
+        "ランキング"
+      ],
+      "category": "その他",
+      "score": 65,
+      "score_reason": "Hacker Newsの具体的なランキングアルゴリズムとペナルティの仕組みを数式を交えて解説しており、Webサービスの設計において参考になります。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "元ヤフーエンジニア社長が考える、AIを使いこなす人と使えない人の決定的な差",
+      "url": "https://qiita.com/ryoheiiwamoto/items/b5805321eaef46b75459?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-18T07:02:13+00:00",
+      "summary": "AIを効果的に活用できる人とそうでない人の決定的な思考プロセスの違いを解説している。\n優秀な活用者は「最初から一部だけ任せる」のではなく、「まず1から10まで全部任せられないか」から逆算して考える。\n会議での壁打ちや音声入力の活用法を紹介しつつ、最終的な意思決定は人間自身が行うべきだと説いている。",
+      "tags": [
+        "AI活用",
+        "生産性向上",
+        "マインドセット"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 65,
+      "score_reason": "技術的な解説ではないが、ビジネス現場におけるAIの具体的な活用スタンスや思考法として実践的で参考になる。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Disney+が加入者規約を変更、すべてのプランで広告表示を可能に",
+      "url": "https://www.reddit.com/r/technology/comments/1wkpix4/disney_changes_subscriber_agreement_to_allow_ads/",
+      "source": "Reddit",
+      "published": "2026-09-19T15:44:31+00:00",
+      "summary": "Disney+が利用規約を改定し、すべてのサブスクリプションプランで広告を表示できるように変更しました。\nこれにより、従来は広告なしだった上位プランでも何らかの形で広告が導入される可能性が浮上しています。\n動画配信サービスにおける収益化モデルの強化と、ユーザー体験への影響が懸念されています。",
+      "tags": [
+        "Disney+",
+        "サブスクリプション",
+        "動画配信"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 65,
+      "score_reason": "主要な動画配信プラットフォームにおけるビジネスモデルの転換であり、消費者や市場への影響が大きいため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Perlでトランスポート層に依存しないJSON APIクライアントの基盤を構築",
+      "url": "https://dev.to/pannakoota/i-built-a-transport-independent-foundation-for-json-api-clients-in-perl-1od6",
+      "source": "Dev.to",
+      "published": "2026-09-19T23:37:59+00:00",
+      "summary": "Perl向けに、HTTPトランスポート層とAPIクライアントのポリシーを分離する「HTTP::API::Core」が開発されました。\nHTTP::TinyやLWPなどの既存ライブラリと組み合わせ、リトライやエラーハンドリングを共通化できます。\nAPIクライアント開発におけるインフラコードの重複を減らし、設計をクリーンに保ちます。",
+      "tags": [
+        "Perl",
+        "APIクライアント",
+        "HTTP"
+      ],
+      "category": "プログラミング言語",
+      "score": 65,
+      "score_reason": "Perlエコシステムにおける実用的なライブラリ開発の紹介であり、設計思想は他言語にも参考になりますが、影響範囲は限定的であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AI生成のポスターは必ずしもひどいものである必要はない",
+      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+      "source": "Hacker News",
+      "published": "2026-09-19T09:20:58+00:00",
+      "hn_score": 1323,
+      "hn_comments": 734,
+      "summary": "AIで生成されたイベントポスターが、どれも似たような画一的なスタイルになりがちであるという問題を指摘。\nChatGPTに対してデフォルトのスタイルを避け、具体的なデザイン指示や「避けるべきスタイル」を指定する実験を紹介。\nプロンプトの工夫次第で、AI生成画像でも多様で魅力的なデザインを作り出せる可能性を示している。",
+      "tags": [
+        "画像生成AI",
+        "プロンプトエンジニアリング",
+        "デザイン"
+      ],
+      "category": "AI・機械学習",
+      "score": 60,
+      "score_reason": "生成AIの実用的なデザイン活用におけるプロンプトの工夫と、画一化するAI生成コンテンツへの対策を提示しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Flock、顧客離れが進む中で従業員に自主退職（バイアウト）を提示",
+      "url": "https://www.reddit.com/r/technology/comments/1wklgz3/flock_offers_employees_buyouts_as_customers_flee/",
+      "source": "Reddit",
+      "published": "2026-09-19T12:52:29+00:00",
+      "summary": "監視カメラやセキュリティ技術を提供するFlock社が、顧客の減少に伴い従業員に自主退職パッケージを提示しました。\nプライバシー懸念や技術的な問題から、顧客である自治体や警察などの離脱が進んでいるとみられます。\n急成長してきた監視テクノロジー企業のビジネスモデルと信頼性に疑問が投げかけられています。",
+      "tags": [
+        "Flock",
+        "監視テクノロジー",
+        "企業動向"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 60,
+      "score_reason": "監視技術企業のビジネス的な苦境と、プライバシーや顧客離れの影響を示す事例であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Mayday Mysteries",
+      "url": "http://www.maydaymystery.org/mayday/",
+      "source": "Hacker News",
+      "published": "2026-09-19T21:43:09+00:00",
+      "hn_score": 21,
+      "hn_comments": 3,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
+      "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+      "source": "Hacker News",
+      "published": "2026-09-19T05:48:50+00:00",
+      "hn_score": 603,
+      "hn_comments": 234,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "就活用DirectX12アクションゲーム作成　第三十二回",
+      "url": "https://zenn.dev/seisei89628/articles/b505300dc8eaac",
+      "source": "Zenn",
+      "published": "2026-09-19T00:34:29+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "【2026/9/17最新アプデ】Claude Docs が登場！Slides・Design と合わせて触ってみた",
+      "url": "https://zenn.dev/canly/articles/7ac8cea14c20e8",
+      "source": "Zenn",
+      "published": "2026-09-18T10:40:41+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "既存の LLM が CPU なら、 Jev はその GPU 版みたいなやつ",
+      "url": "https://zenn.dev/mizchi/articles/jev-is-gpu-for-llms",
+      "source": "Zenn",
+      "published": "2026-09-18T07:27:47+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 3
+    },
+    {
+      "title": "Cloudflare WorkersでJevを使ったら高速か検証してみた",
+      "url": "https://zenn.dev/henteko/articles/1d159d10413312",
+      "source": "Zenn",
+      "published": "2026-09-18T07:23:34+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 3
+    },
+    {
+      "title": "実はコミュニティ運営をやめようと思っていました",
+      "url": "https://qiita.com/sadabon444/items/6b4e0a5e4946d1a941ac?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-18T23:51:25+00:00",
+      "summary": "技術コミュニティの運営に悩み、一時は辞めようと考えていた著者の葛藤と復活のプロセスを綴っている。\n自身の技術力不足に悩む中、他の運営メンバーからの温かい言葉や、自分にできる役割の模索を通じて価値を見出した。\n営業視点のアウトプットやSNS発信など、独自の強みを活かすことでMicrosoft MVPなどの受賞に繋がった体験を紹介している。",
+      "tags": [
+        "コミュニティ運営",
+        "キャリア",
+        "マインドセット"
+      ],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "技術的な新規性は低いが、エンジニアやITコミュニティに関わる人々にとってキャリアやメンタル面で共感を呼ぶ有益な体験談である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Appleの新しいハードウェア責任者、iPhoneに画面保護フィルムが貼られているのを見ると「鳥肌が立つ」と語る",
+      "url": "https://www.reddit.com/r/technology/comments/1wkqcsy/apples_new_hardware_chief_says_seeing_screen/",
+      "source": "Reddit",
+      "published": "2026-09-19T16:17:40+00:00",
+      "summary": "Appleの新しいハードウェア部門トップが、iPhoneに画面保護フィルムが貼られているのを見るのが不快であると発言しました。\nこれはデバイス本来のガラスの質感やデザイン、耐久性に対する強い自信の裏返しと解釈されています。\nユーザーの間では、高額な修理費用を避けるための保護フィルムの必要性について議論が起きています。",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "ガジェット"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 50,
+      "score_reason": "Apple幹部の個人的な見解とデザイン哲学に関する話題であり、技術的な重要性は低いもののユーザーの関心が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "私たちはなぜキーボードでローマ字入力をしているのか - 株式会社ナカニシヤ出版",
+      "url": "https://www.nakanishiya.co.jp/book/b10205207.html",
+      "source": "はてなブックマーク",
+      "published": "2026-09-17T22:04:37+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "データセンター、お金を払わず水を1億1000万リットル使用 | ギズモード・ジャパン",
+      "url": "https://www.gizmodo.jp/article/georgia-data-center-secretly-guzzled-30-million-gallons-of-water-before-paying-a-dime-rfk/",
+      "source": "はてなブックマーク",
+      "published": "2026-09-19T15:30:11+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Jev 図解ガイド",
+      "url": "https://jev-guide.take-otani.workers.dev/",
+      "source": "はてなブックマーク",
+      "published": "2026-09-17T13:45:28+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 3
+    },
+    {
+      "title": "アルトマン氏、OpenAI内部モデルがトップ数学者を超越と明かす 学界に未曾有の焦燥感 — BigGo ファイナンス",
+      "url": "https://finance.biggo.jp/news/6c25d38e-2d47-4da2-91cc-b30b32792794",
+      "source": "はてなブックマーク",
+      "published": "2026-09-18T22:34:05+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開",
+      "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
+      "source": "Publickey",
+      "published": "2026-09-17T15:59:39+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行",
+      "url": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
+      "source": "Publickey",
+      "published": "2026-09-16T16:00:51+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "A 2,800-page free Go book that builds a living simulated world, written in 18 days with AI in the loop",
+      "url": "https://dev.to/kryotek/i-wrote-a-2800-page-free-go-book-that-builds-a-living-simulated-world-20pg",
+      "source": "Dev.to",
+      "published": "2026-09-19T23:36:53+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Jumia Product Analysis WithExcel Dashboards",
+      "url": "https://dev.to/alfred-otuko/jumia-product-analysis-withexcel-dashboards-1ha8",
+      "source": "Dev.to",
+      "published": "2026-09-19T23:27:43+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
+      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
+      "source": "GitHub Blog",
+      "published": "2026-09-18T15:00:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "source": "GitHub Blog",
+      "published": "2026-09-17T00:26:43+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+      "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+      "source": "GitHub Blog",
+      "published": "2026-09-11T18:26:10+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+      "source": "GitHub Blog",
+      "published": "2026-09-10T21:31:19+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    }
+  ]
+}

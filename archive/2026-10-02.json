@@ -1,0 +1,770 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-10-02T10:32:41.784249+09:00",
+  "total_count": 48,
+  "success_count": 30,
+  "error_count": 18,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "他者の編集著作物でのAI学習は「フェアユース」ではないと裁判所が判決",
+      "url": "https://www.reddit.com/r/technology/comments/1wv7prd/a_court_just_ruled_that_training_an_ai_on_someone/",
+      "source": "Reddit",
+      "published": "2026-10-01T18:46:52+00:00",
+      "summary": "他者の編集著作物を用いてAIをトレーニングすることはフェアユース（公正利用）に当たらないという司法判断が下された。\nAI開発における著作権侵害の境界線を明確にする重要な判例となる可能性がある。\n今後の生成AIモデルの開発やデータ収集プロセスに大きな制約を課す可能性がある。",
+      "tags": [
+        "生成AI",
+        "著作権",
+        "フェアユース"
+      ],
+      "category": "AI・機械学習",
+      "score": 88,
+      "score_reason": "AIの学習データに関する著作権侵害の判例は、今後のAI開発の根幹を揺るがす極めて重要な決定であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "WindowsでLinuxコンテナの作成や実行を可能にする「WSL Containers」正式リリース。コマンドラインとAPIから利用可能",
+      "url": "https://www.publickey1.jp/blog/26/windowslinuxwsl_containersapi.html",
+      "source": "Publickey",
+      "published": "2026-09-30T02:43:18+00:00",
+      "summary": "MicrosoftがWindows上でLinuxコンテナを直接作成・実行できる「WSL Containers」を正式リリース。\nDockerなどの外部ツールを導入することなく、コマンドラインやAPIからコンテナ仮想化を利用可能。\nMicrosoft IntuneやDefender for Endpointと統合されており、企業での一括管理にも対応。",
+      "tags": [
+        "WSL",
+        "Docker",
+        "Windows"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 88,
+      "score_reason": "Windows開発環境におけるコンテナ開発の利便性を劇的に向上させ、サードパーティ依存を減らす重要なアップデートであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "terraform applyしたら、1ヶ月半前のコードが本番に出ていた",
+      "url": "https://zenn.dev/gonta_ganbareyo/articles/6256bf2008b2ef",
+      "source": "Zenn",
+      "published": "2026-09-30T23:45:42+00:00",
+      "summary": "TerraformでCloud Runを管理する際、デプロイの競合を防ぐための「ignore_changes」設定に起因する本番障害の事例を紹介している。\n不要な環境変数を削除して適用したところ、意図せず1ヶ月半前の古いコンテナイメージに巻き戻ってデプロイされる現象が発生した。\nアプリのデプロイをCDで行い、インフラ管理をTerraformで行う際の構造的な課題と、その注意喚起を行っている。",
+      "tags": [
+        "Terraform",
+        "Cloud Run",
+        "トラブルシューティング"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "Terraformとコンテナデプロイの組み合わせで発生しがちな、深刻な巻き戻り障害の具体的なメカニズムと罠を共有しており、実用性と影響度が非常に高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AI生成コードを全部同じ密度で読む必要はある？―レビューを契約とテストで絞る設計",
+      "url": "https://qiita.com/masashige0904/items/43beaaabc2c0ef2dcb1c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-30T13:08:39+00:00",
+      "summary": "AIによる大量のコード生成に伴い、人間のコードレビューがボトルネックになる課題を指摘。\n「契約による設計（Design by Contract）」を用いて、事前条件・事後条件・不変条件を定義する手法を提案。\n人間が仕様を設計しテストで検証することで、レビューの密度を重要な判断に集中させるアプローチを解説している。",
+      "tags": [
+        "AI生成コード",
+        "コードレビュー",
+        "契約による設計"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "AI時代のソフトウェア開発におけるレビューの効率化と品質確保について、実践的な設計アプローチを提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Next.jsアプリをCloudflare WorkersやAWS LambdaなどVercel以外のサーバレス基盤へデプロイできる「Vinext 1.0」リリース",
+      "url": "https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html",
+      "source": "Publickey",
+      "published": "2026-09-30T15:10:38+00:00",
+      "summary": "CloudflareがNext.jsアプリをVercel以外のサーバーレス環境へデプロイ可能にする「Vinext 1.0」をリリース。\n従来のTurbopackに代わりViteをビルドツールとして採用し、互換性とキャッシュ機能を向上。\nAWS LambdaやCloudflare Workers、Netlifyなどへの簡単なデプロイと本番環境での利用を実現。",
+      "tags": [
+        "Next.js",
+        "Vite",
+        "Cloudflare Workers"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 85,
+      "score_reason": "Next.jsのVercel依存を解消し、マルチクラウドやエッジ環境へのデプロイの選択肢を広げる実用性の高いツールであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "初心者向けGitHub Copilotアプリ：キャンバスを使用してカスタムワークフローを構築する方法",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+      "source": "GitHub Blog",
+      "published": "2026-09-25T18:00:00+00:00",
+      "summary": "GitHub Copilotアプリに搭載された新機能「キャンバス」の使い方を解説する記事。\n自然言語で指示するだけで、カンバンボードやチェックリストなどのカスタムUIをコード不要で構築可能。\nユーザーとAIエージェントが双方向に操作・更新できるため、柔軟な共同作業ワークフローを実現する。",
+      "tags": [
+        "GitHub Copilot",
+        "AIエージェント",
+        "ノーコード"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "開発者向けAIツールのUI/UXを劇的に向上させ、ノーコードでのワークフロー構築を可能にする実用性の高い新機能であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Google Cloud、AIエージェントからの大量アクセスをPostgreSQLのプライマリDBから切り離せる「PostgreSQL for agents in AlloyDB」発表",
+      "url": "https://www.publickey1.jp/blog/26/google_cloudaipostgresqldbpostgresql_for_agents_in_alloydb.html",
+      "source": "Publickey",
+      "published": "2026-09-29T15:46:18+00:00",
+      "summary": "Google CloudがAIエージェントの大量アクセスから本番DBを保護する新サービスを発表。\nAIの読み取り要求用にサンドボックス化されたPostgreSQLインスタンスを数秒で自動構築。\n本番環境のパフォーマンスを維持しつつ、最大1,000以上のリーダーへオンデマンドでスケール可能。",
+      "tags": [
+        "Google Cloud",
+        "PostgreSQL",
+        "AlloyDB"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 83,
+      "score_reason": "AIエージェントの普及に伴うデータベース負荷の急増という、今後の実務で直面する課題に対するタイムリーな解決策であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Janus – AMD/Intel/Nvidia上でVulkanを介してGGUFモデルを実行するGoバイナリ",
+      "url": "https://github.com/Vibra-Ingenn/Janus",
+      "source": "Hacker News",
+      "published": "2026-10-01T20:36:47+00:00",
+      "hn_score": 48,
+      "hn_comments": 5,
+      "summary": "PythonやDocker、Ollamaを必要とせず、ローカルでGGUFモデルを実行できる単一のGoバイナリ「Janus」が公開された。\nVulkanを介してAMD、Intel、NvidiaのGPUやCPUで動作し、OpenAI互換のAPIエンドポイントを提供する。\nCursorやClineなどの外部ツールと容易に連携でき、軽量かつシンプルなローカルLLM実行環境を実現する。",
+      "tags": [
+        "Go言語",
+        "ローカルLLM",
+        "Vulkan"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "依存関係なしでローカルLLMを高速に実行し、OpenAI互換APIを提供する軽量ツールは、開発者の利便性を大きく向上させるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AI時代の勉強法(2026)",
+      "url": "https://iwashi.co/2026/10/01/how-to-study-in-ai-era",
+      "source": "はてなブックマーク",
+      "published": "2026-10-01T23:26:31+00:00",
+      "summary": "生成AIの普及により「わかった気になる」罠に陥りやすくなっている現状を指摘し、その対策を解説している。\n理解度を確認するために、何も見ずに他者へ説明する「ファインマンテクニック」の有効性を提唱している。\n英語の講義動画をAIで翻訳・要約し、GPT-Live等との対話を通じてアウトプットする具体的な学習法を紹介している。",
+      "tags": [
+        "生成AI",
+        "学習法",
+        "ファインマンテクニック"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "生成AIを実用的に活用した現代的な学習アプローチを具体的に提示しており、エンジニアの自己研鑽において非常に実用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ffmpeg.wasmなしでブラウザ上で動画を処理する：WebCodecs + MediaBunnyで処理時間を95秒から9秒に短縮",
+      "url": "https://dev.to/sharksevenro/processing-video-in-the-browser-without-ffmpegwasm-webcodecs-mediabunny-95s-9s-34p",
+      "source": "Dev.to",
+      "published": "2026-10-02T01:22:55+00:00",
+      "summary": "ブラウザ上での動画処理において、ffmpeg.wasmからWebCodecsとMediaBunnyの構成へ移行した事例。\nハードウェアデコード/エンコードとストリーミング設計により、処理時間を95秒から9秒へ劇的に短縮。\nメモリ使用量をO(1)に抑えることで、処理可能な動画の長さ制限を30秒から120秒へと拡大。",
+      "tags": [
+        "WebCodecs",
+        "WebAssembly",
+        "Video Processing"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 82,
+      "score_reason": "ブラウザ上での重い動画処理を、WebCodecs等の標準APIを活用して劇的に高速化・効率化する実践的なアプローチであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIエージェントは過激化に対して脆弱である",
+      "url": "https://arxiv.org/abs/2609.38296",
+      "source": "arXiv cs.AI",
+      "published": "2026-10-01T04:00:00+00:00",
+      "summary": "自律的に行動するAIエージェントが、外部からの入力や学習データによって過激化（Radicalization）する脆弱性を指摘。\nエージェントが偏った情報や悪意あるプロンプトに曝された際のリスクと安全性の課題を分析。\n安全なAIエージェントの設計とガバナンスに向けた対策の必要性を提起する。",
+      "tags": [
+        "AI安全対策",
+        "AIエージェント",
+        "セキュリティ"
+      ],
+      "category": "セキュリティ",
+      "score": 82,
+      "score_reason": "AIエージェントの普及に伴い、その自律的な意思決定が過激化するリスクはセキュリティおよび倫理面で極めて重要な課題であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オブザーバビリティのAIエージェントをどう評価するか",
+      "url": "https://zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop",
+      "source": "Zenn",
+      "published": "2026-10-01T00:00:00+00:00",
+      "summary": "AIエージェントにオブザーバビリティの仕事をさせた際、最終応答の見た目だけでは真の品質を判定できない課題を指摘している。\nGrafana Assistantチームの事例を元に、実行手順全体を評価するための「シナリオ」と「グレーダー」を用いた評価基盤の重要性を解説する。\n決定的な事実チェックとLLMによる基準判定を組み合わせ、継続的にベンチマーク検証を行う評価ループの構築方法を提案している。",
+      "tags": [
+        "AIエージェント",
+        "オブザーバビリティ",
+        "LLM評価"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "複雑なタスクを実行するAIエージェントの信頼性を担保するための、実践的な評価手法とベンチマークの考え方を提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "【被害者は語る】タイムズカー660万件情報漏えいはなぜ起きたのかの矮小な考察",
+      "url": "https://qiita.com/miruky/items/6577a57b9b62c8f97e11?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-29T16:00:06+00:00",
+      "summary": "タイムズカーで発生した約660万件の個人情報および免許証画像などの漏洩事件について被害者が考察。\n公開されているHTMLから、サポート終了済みのJavaフレームワーク「Seasar2（Teeda）」の利用を指摘。\nレガシーシステムにおける脆弱性の放置や、セキュリティ対策の不備が原因である可能性を分析している。",
+      "tags": [
+        "情報漏洩",
+        "セキュリティ",
+        "Seasar2"
+      ],
+      "category": "セキュリティ",
+      "score": 80,
+      "score_reason": "実際に起きた大規模な情報漏洩事件を元に、レガシーフレームワークの利用に伴うセキュリティリスクを技術的に考察しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "CVE-2026-67401の分析 — cPanel & WHMのEmailTrackにおけるSQLインジェクション、メールアカウントからRoot権限奪取まで",
+      "url": "https://dev.to/guidance_white/cve-2026-67401-analysis-cpanel-whm-emailtrack-sql-injection-from-mail-account-to-root-3e45",
+      "source": "Dev.to",
+      "published": "2026-10-02T01:23:25+00:00",
+      "summary": "cPanelのEmailTrack機能に存在する、深刻なSQLインジェクション脆弱性（CVE-2026-67401）の分析。\n単一のメールアカウントを持つ攻撃者が、SQLインジェクションからファイル書き込みを経てRoot権限を奪取可能。\n共有ホスティング環境において、1つの侵害されたアカウントからサーバー全体が制御される危険性がある。",
+      "tags": [
+        "CVE-2026-67401",
+        "SQL Injection",
+        "cPanel"
+      ],
+      "category": "セキュリティ",
+      "score": 80,
+      "score_reason": "共有サーバー環境において、一般メールアカウントからRoot権限を奪取される極めて危険性の高い脆弱性の詳細な分析であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Pi Durable：長期実行可能なAIエージェント向けフレームワーク",
+      "url": "https://earendil.com/posts/pi-durable/",
+      "source": "Hacker News",
+      "published": "2026-10-01T19:24:08+00:00",
+      "hn_score": 218,
+      "hn_comments": 23,
+      "summary": "EarendilとPiコミュニティが、コーディングエージェント「Pi 1.0」と新パッケージ「Pi Durable」をリリースした。\nPi Durableは、長期実行可能で、どこでも動作し、複数の人間が協調して操作できるAIエージェント構築用のフレームワークである。\nミニマリズムと可鍛性の原則を共有し、障害耐性や無限の会話サポートなど、エージェントアプリケーション開発の基盤を提供する。",
+      "tags": [
+        "AIエージェント",
+        "フレームワーク",
+        "Pi"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "長期実行や複数人での操作に対応するAIエージェント開発用フレームワークの登場は、実用的なエージェント応用を加速させるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "メタ社が一晩で全アカウントを削除、AIカスタマーサービスにより人間に繋がらず / 専門家は規制導入までこの傾向は続くと指摘",
+      "url": "https://www.reddit.com/r/technology/comments/1wv03ep/overnight_meta_deleted_all_her_accounts_ai/",
+      "source": "Reddit",
+      "published": "2026-10-01T13:55:46+00:00",
+      "summary": "Meta社がユーザーのアカウントを突然すべて削除し、AIによる顧客対応のため人間の担当者に連絡できない問題が発生した。\n自動化されたAIカスタマーサービスが、ユーザーの救済措置を事実上遮断している現状が浮き彫りになった。\n専門家は、このようなプラットフォームの横暴を防ぐには法的な規制の導入が不可欠であると指摘している。",
+      "tags": [
+        "Meta",
+        "AIカスタマーサービス",
+        "アカウントBAN"
+      ],
+      "category": "その他",
+      "score": 78,
+      "score_reason": "AIによる顧客対応の自動化がもたらす弊害と、プラットフォーム規制の必要性を提起する重要な事例であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AREX-2：長期的な内省タスクを通じた自己改善エージェントの進化",
+      "url": "https://arxiv.org/abs/2609.38288",
+      "source": "arXiv cs.AI",
+      "published": "2026-10-01T04:00:00+00:00",
+      "summary": "長期的なタスクにおいて自己改善能力を持つAIエージェントのフレームワーク「AREX-2」を提案。\n「内省タスク（Reflective Tasks）」を通じて、エージェントが自らの行動を振り返り学習する仕組みを導入。\n複雑で長期にわたるタスクの実行精度と自律性を大幅に向上させる。",
+      "tags": [
+        "AIエージェント",
+        "自己改善",
+        "強化学習"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "自律型AIエージェントの長期タスクにおける自己改善は、次世代AIの実用化に向けた極めて重要な研究テーマであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました",
+      "url": "https://zenn.dev/algoartis/articles/0b1c731881b25c",
+      "source": "Zenn",
+      "published": "2026-09-30T18:28:20+00:00",
+      "summary": "AIが生成した不自然で読みにくい日本語（AI-Slop）を、自然で読みやすい文章に書き直すツール「yomiyasu」がリリースされた。\n単語を禁止する従来の手法とは異なり、文章の統語構造の復元や比喩表現の具体化に特化して修正を行う。\nClaude CodeやCursorなどの主要なAIエージェントから簡単に呼び出すことができ、開発ドキュメント等の品質向上に寄与する。",
+      "tags": [
+        "AI-Slop",
+        "日本語生成",
+        "AIエージェント"
+      ],
+      "category": "その他",
+      "score": 77,
+      "score_reason": "AI生成テキストの増加に伴う「AI臭さ」という現代的な課題に対し、言語学的なアプローチで実用的な解決策を提供しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "CARAT：材料科学LLMは推論しているのか、それとも暗記しているのか？",
+      "url": "https://arxiv.org/abs/2609.38340",
+      "source": "arXiv cs.AI",
+      "published": "2026-10-01T04:00:00+00:00",
+      "summary": "材料科学分野に特化した大規模言語モデル（LLM）の能力を評価するフレームワーク「CARAT」を提案。\nモデルが真に科学的な推論を行っているのか、単に訓練データを暗記（Recite）して出力しているのかを検証。\n専門分野におけるLLMの信頼性と真の理解度を明らかにする。",
+      "tags": [
+        "LLM評価",
+        "材料科学",
+        "科学的推論"
+      ],
+      "category": "AI・機械学習",
+      "score": 76,
+      "score_reason": "専門領域におけるLLMの「推論」と「暗記」の境界を検証することは、科学向けAIの信頼性担保に不可欠な研究であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Claude Code の使用量はどう数えられているのか ── Max 20x で実測した重みは API 料金表と違った",
+      "url": "https://zenn.dev/tksfjt1024/articles/25c0ab111c277c",
+      "source": "Zenn",
+      "published": "2026-10-01T02:34:27+00:00",
+      "summary": "Claude CodeのProやMaxプランにおける「使用量制限」の消費ルールを、実験を通じて検証し計算式を明らかにした。\n1回のリクエスト消費量は、入力・出力・キャッシュの読み書きトークン数に特定の重みを掛け合わせた式で算出される。\nキャッシュ読み込み（cache read）の重みは非常に低く抑えられており、ツール呼び出しが多い作業でも効率的に枠を消費する仕組みを解説している。",
+      "tags": [
+        "Claude Code",
+        "LLM",
+        "API料金"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "開発者にとって関心の高いClaude Codeのコスト・使用量制限の仕組みを実測値から詳細に分析しており、実用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ニューヨーク市、悪質なサブスクリプションを禁止する全米初の都市に / 登録と同等に簡単な解約を義務付ける「クリックで解約」ルールが施行",
+      "url": "https://www.reddit.com/r/technology/comments/1wv1j68/nyc_is_now_the_first_city_in_america_that_bans/",
+      "source": "Reddit",
+      "published": "2026-10-01T14:53:16+00:00",
+      "summary": "ニューヨーク市で悪質なサブスクリプション契約を禁止する「クリックで解約」ルールが施行された。\n企業はサービスの登録手続きと同じくらい簡単に解約できる仕組みを提供することが義務付けられる。\n全米で初めての試みであり、消費者の権利保護やサブスクビジネスのあり方に大きな影響を与える。",
+      "tags": [
+        "サブスクリプション",
+        "ニューヨーク市",
+        "消費者保護"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "サブスクリプションの解約義務化は、今後のWebサービス設計やビジネスモデルに大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "MoFlow：多目的エージェントワークフロー生成",
+      "url": "https://arxiv.org/abs/2609.38294",
+      "source": "arXiv cs.AI",
+      "published": "2026-10-01T04:00:00+00:00",
+      "summary": "複数の目的や制約を同時に考慮してAIエージェントのワークフローを自動生成する手法「MoFlow」を提案。\n複雑なタスクにおいて、効率性や正確性などのトレードオフを最適化するワークフローを構築。\nエージェントの協調動作やタスク自動化の設計を高度化する。",
+      "tags": [
+        "AIエージェント",
+        "ワークフロー生成",
+        "多目的最適化"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "複雑なビジネスプロセスをAIエージェントで自動化する際の、多目的最適化アプローチとして有用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "0から学ぶセキュリティの基礎 〜CSRF編〜",
+      "url": "https://qiita.com/Pigeon_gate/items/b33b4e337c15dddae20a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-30T00:50:37+00:00",
+      "summary": "Webアプリケーションにおけるセキュリティの基礎と、CSRF（クロスサイトリクエストフォージェリ）の仕組みを解説。\nCSRFはログイン済みユーザーの権限を利用し、本人が意図しないリクエストを送信させる攻撃である。\n攻撃の特徴や狙われやすい処理（データ更新・削除など）を整理し、エンジニアが意識すべき防御策を説明している。",
+      "tags": [
+        "セキュリティ",
+        "CSRF",
+        "Web開発"
+      ],
+      "category": "セキュリティ",
+      "score": 70,
+      "score_reason": "Web開発において必須となるCSRFの基礎知識と対策が、初心者向けに分かりやすく整理されているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "米国郵政公社（USPS）、郵便トラックを移動式監視カメラへと転換",
+      "url": "https://www.reddit.com/r/technology/comments/1wvdokm/usps_is_turning_mail_trucks_into_rolling/",
+      "source": "Reddit",
+      "published": "2026-10-01T22:48:56+00:00",
+      "summary": "米国郵政公社（USPS）が、郵便トラックにカメラを搭載し移動式の監視システムとして活用していることが判明した。\n日常的な郵便配達ルートを利用して広範囲な街頭データを収集する試みとされている。\nプライバシーの侵害や政府による過剰な監視社会化への懸念が市民の間で高まっている。",
+      "tags": [
+        "USPS",
+        "監視カメラ",
+        "プライバシー"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "公共インフラを利用した大規模な監視システムの構築は、プライバシーや社会的な議論を呼ぶ重要なトピックであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ゲート付きおよび減衰オンポリシー蒸留によるOCRの忠実性の向上",
+      "url": "https://arxiv.org/abs/2609.38282",
+      "source": "arXiv cs.AI",
+      "published": "2026-10-01T04:00:00+00:00",
+      "summary": "OCR（光学文字認識）の出力結果における忠実性を向上させるための新しい手法を提案する論文。\nゲート付きおよび減衰オンポリシー蒸留（Gated and Attenuated On-Policy Distillation）というアプローチを採用。\nモデルの認識精度を高め、誤認識やハルシネーションを抑制することを目指す。",
+      "tags": [
+        "OCR",
+        "知識蒸留",
+        "深層学習"
+      ],
+      "category": "AI・機械学習",
+      "score": 70,
+      "score_reason": "OCR技術の精度向上は実務における文書デジタル化の信頼性を高める重要な研究であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "『構文解析のしくみ』が出版されました（出版にあたって宣伝と裏話）",
+      "url": "https://zenn.dev/kmizu/articles/2026-09-parser-book",
+      "source": "Zenn",
+      "published": "2026-09-30T12:12:41+00:00",
+      "summary": "2026年9月に書籍『構文解析のしくみ 電卓から言語処理系まで自分で書く』が出版された。\nかつて「終わった分野」と見なされた構文解析が、ANTLRやPEGの登場により進化し続けている歴史を解説。\n著者が修士・博士時代に取り組んだカット演算子がPythonのPEGに採用された裏話なども紹介されている。",
+      "tags": [
+        "構文解析",
+        "コンパイラ",
+        "書籍"
+      ],
+      "category": "プログラミング言語",
+      "score": 65,
+      "score_reason": "構文解析技術の歴史やPythonへの採用裏話など、言語処理系に関心のある開発者にとって興味深い知見が共有されているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Twitter（現X）に貼ったURLのサムネイル画像、キャッシュクリアできるの知ってた？",
+      "url": "https://qiita.com/minorun365/items/f1f6a45fa9aff8d624af?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-29T07:16:02+00:00",
+      "summary": "X（旧Twitter）に投稿したURLのサムネイル画像（OGP）が古いままキャッシュされる問題の対策を解説。\nX公式の「Card Validator」を使用することで、キャッシュを無視してリンク先を読み直させることが可能。\n自分のサイトであれば、画像URLにクエリパラメータを付与してキャッシュを更新する確実な方法も紹介している。",
+      "tags": [
+        "X",
+        "OGP",
+        "キャッシュ"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 60,
+      "score_reason": "Webサイト運営者やマーケターが直面しやすいSNS共有時のキャッシュ問題を解決する、実用的なTipsであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Pi 1.0",
+      "url": "https://earendil.com/posts/pi-1-0/",
+      "source": "Hacker News",
+      "published": "2026-10-01T19:33:05+00:00",
+      "hn_score": 733,
+      "hn_comments": 254,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Several vulnerabilities have been discovered in the Linux kernel",
+      "url": "https://lwn.net/Articles/1097401/",
+      "source": "Hacker News",
+      "published": "2026-10-01T23:10:44+00:00",
+      "hn_score": 65,
+      "hn_comments": 37,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "source": "Hacker News",
+      "published": "2026-10-01T16:18:57+00:00",
+      "hn_score": 426,
+      "hn_comments": 159,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "SvelteKit 3",
+      "url": "https://svelte.dev/blog/sveltekit-3-is-here",
+      "source": "Hacker News",
+      "published": "2026-10-01T20:14:23+00:00",
+      "hn_score": 113,
+      "hn_comments": 40,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Ask HN: Who is hiring? (October 2026)",
+      "url": "https://news.ycombinator.com/item?id=49922569",
+      "source": "Hacker News",
+      "published": "2026-10-01T15:02:07+00:00",
+      "hn_score": 148,
+      "hn_comments": 153,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "CSS Bed: Classless CSS themes to use as starting points in web development",
+      "url": "https://www.cssbed.com",
+      "source": "Hacker News",
+      "published": "2026-10-01T21:21:32+00:00",
+      "hn_score": 56,
+      "hn_comments": 12,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "どこかで聞いた「アウトプットしないことは知的な便秘である」って素晴らしい言葉だよなぁ！",
+      "url": "https://qiita.com/PDC-Kurashinak/items/bde0e380eeb04fa28f40?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-10-01T01:24:15+00:00",
+      "summary": "「アウトプットしないことは知的な便秘」という言葉を通じ、エンジニアのアウトプットの重要性を考察。\nアウトプットは実績作りだけでなく、より質の高いインプットを促す循環関係にあると主張。\n各自にとって適切な周期と方法で、学んだ知識や考えを外に表現することを推奨している。",
+      "tags": [
+        "アウトプット",
+        "キャリア",
+        "エンジニアリング"
+      ],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "エンジニアの学習姿勢やキャリア形成におけるマインドセットに関するエッセイであり、技術的な新規性は低いが啓発的であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "テック界の重鎮ピーター・ティール氏、「悪は『ある意味で良い』ことになり得る」という難解な主張で話題に",
+      "url": "https://www.reddit.com/r/technology/comments/1wuun39/tech_overlord_peter_thiel_is_going_viral_for_word/",
+      "source": "Reddit",
+      "published": "2026-10-01T09:10:03+00:00",
+      "summary": "著名投資家ピーター・ティール氏が、悪が「ある意味で良い」ものになり得る理由を語った発言がネット上で話題となっている。\nその発言は「ワードサラダ（意味不明な言葉の羅列）」のようだと批判的に受け止められている。\nテック業界の指導者たちの倫理観や思想に対する世間の関心と懸念を浮き彫りにしている。",
+      "tags": [
+        "ピーター・ティール",
+        "テック倫理",
+        "ネットの反応"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 50,
+      "score_reason": "著名人の発言に関する話題であり、技術的な新規性や実用性は低いものの、業界の思想的背景を示すものであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "12GB VRAMで125Bモデルを動かす「Strata」の概要｜npaka",
+      "url": "https://note.com/npaka/n/n4a1185074686",
+      "source": "はてなブックマーク",
+      "published": "2026-10-01T22:53:10+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "『六韜』「隣国の使者が有能なら何も与えず無能なら大いに歓待せよ」というのはデマだぞ",
+      "url": "https://anond.hatelabo.jp/20260514203244",
+      "source": "はてなブックマーク",
+      "published": "2026-10-01T15:45:56+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "新Kindle 計6モデル発売 頁めくりリモコンKindle Click、物理ボタンつきカバーも | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/10/02/5544.html",
+      "source": "はてなブックマーク",
+      "published": "2026-10-01T22:41:14+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "AIを業務改善につなげるための5ステップ ― サービスデザインを活用した要件定義 - Qiita",
+      "url": "https://qiita.com/TamakiSeki/items/ac268db56f92b991970b",
+      "source": "はてなブックマーク",
+      "published": "2026-10-01T14:10:57+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Google Cloud、ローカルマシンにインストールできる大規模分散型マルチモデルDB「Spanner Omni」正式版リリースを発表",
+      "url": "https://www.publickey1.jp/blog/26/google_clouddbspanner_omni.html",
+      "source": "Publickey",
+      "published": "2026-10-01T18:28:43+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "JavaScriptの統合ツールチェーン「Vite+ 1.0」正式リリース。ランタイム、パッケージマネージャー、ビルドツール、リンター、フォーマッターなどを統一",
+      "url": "https://www.publickey1.jp/blog/26/javascriptvite_10.html",
+      "source": "Publickey",
+      "published": "2026-09-30T15:22:55+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "2,315件のWordleの回答を分析して最適な最初の単語を見つける",
+      "url": "https://dev.to/michaelbrooks20760ux/i-analyzed-2315-wordle-answers-to-find-the-best-starting-words-4kg3",
+      "source": "Dev.to",
+      "published": "2026-10-02T01:21:12+00:00",
+      "summary": "Wordleの過去の回答データ2,315件を分析し、最も出現頻度の高い文字を含む最適な最初の単語を調査。\n文字の位置を考慮しないシンプルな出現頻度集計により、各単語のスコアを算出。\n分析の結果、コミュニティで人気の「ROATE」や「SOARE」、「STARE」などが上位に位置することを確認。",
+      "tags": [
+        "Wordle",
+        "Data Analysis",
+        "Python"
+      ],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "技術的な新規性や業界への影響度は低いが、身近なゲームをデータ分析の観点から検証した興味深い読み物であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Silent Cron Runs: A Backend Metrics Dashboard Beyond API Failures",
+      "url": "https://dev.to/jaxmonroe3187/silent-cron-runs-a-backend-metrics-dashboard-beyond-api-failures-1bgf",
+      "source": "Dev.to",
+      "published": "2026-10-02T01:20:46+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Why auto_prepend_file and On-Server WordPress Firewalls Cause TTFB Lag",
+      "url": "https://dev.to/stardothosting/why-autoprependfile-and-on-server-wordpress-firewalls-cause-ttfb-lag-njh",
+      "source": "Dev.to",
+      "published": "2026-10-02T01:20:32+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "10 technical talks I’m excited about at GitHub Universe 2026",
+      "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
+      "source": "GitHub Blog",
+      "published": "2026-10-01T15:07:16+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Developer policy update: Transparency, state policy, and what’s ahead",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead/",
+      "source": "GitHub Blog",
+      "published": "2026-09-29T15:00:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "source": "GitHub Blog",
+      "published": "2026-09-28T19:00:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Highlights from Git 2.56",
+      "url": "https://github.blog/open-source/git/highlights-from-git-2-56/",
+      "source": "GitHub Blog",
+      "published": "2026-09-28T17:23:33+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    }
+  ]
+}

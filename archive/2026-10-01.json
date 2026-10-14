@@ -1,0 +1,829 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-10-01T10:16:44.480159+09:00",
+  "total_count": 47,
+  "success_count": 47,
+  "error_count": 0,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "Gemini 4 Argon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "source": "Hacker News",
+      "published": "2026-09-30T20:04:37+00:00",
+      "hn_score": 938,
+      "hn_comments": 642,
+      "summary": "Googleが新しいフロンティアAIモデル「Gemini 4 Argon」を発表しました。\nソフトウェア開発や法務・財務、サイバーセキュリティなどの複雑なワークフローで高い性能を発揮します。\nまずは一部のテスター向けに展開され、入力100万トークンあたり2ドルという低価格で提供されます。",
+      "tags": [
+        "Gemini",
+        "LLM",
+        "Google"
+      ],
+      "category": "AI・機械学習",
+      "score": 95,
+      "score_reason": "Googleの最新世代AIモデルであり、実務ワークフローやセキュリティ分野における高い実用性と競争力のある価格設定が業界に大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "OpenAI DevDay 2026 発表まとめ",
+      "url": "https://zenn.dev/schroneko/articles/openai-devday-2026",
+      "source": "Zenn",
+      "published": "2026-09-29T17:20:46+00:00",
+      "summary": "OpenAI DevDay 2026にて、25個の発表が行われ、新エージェント「dots」などが公開された。\n「dots」はGPT-6 Astraを搭載し、専用クラウド上で24時間稼働して4,000以上のアプリと連携可能。\n長時間実行におけるセキュリティ評価も公開され、権限境界の課題などが示された。",
+      "tags": [
+        "OpenAI",
+        "AIエージェント",
+        "GPT-6"
+      ],
+      "category": "AI・機械学習",
+      "score": 95,
+      "score_reason": "次世代AIエージェント「dots」やGPT-6 Astraの発表は、AIの実用性と自律性を劇的に向上させるため極めて重要度が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "著作権物のAI学習は「フェアユース」に該当せず：米第3巡回区控訴裁判所が判断",
+      "url": "https://www.reddit.com/r/technology/comments/1wuhnax/ai_training_of_copyrighted_material_not_fair_use/",
+      "source": "Reddit",
+      "published": "2026-09-30T21:39:57+00:00",
+      "summary": "米国の第3巡回区控訴裁判所が、著作権で保護された素材を用いたAIの学習はフェアユース（公正利用）に当たらないとの判断を示しました。\nこの判決は、AI開発企業が許諾なしに著作物を利用することに対する法的な制限を強化するものとなります。\n今後の生成AIモデルの開発プロセスやライセンス契約のあり方に極めて大きな影響を与える可能性があります。",
+      "tags": [
+        "AI",
+        "著作権",
+        "法律"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 90,
+      "score_reason": "AIの学習データに関する著作権判断は、今後の生成AI開発の根幹を揺るがす極めて重要な法的先例となるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "JavaScriptの統合ツールチェーン「Vite+ 1.0」正式リリース。ランタイム、パッケージマネージャー、ビルドツール、リンター、フォーマッターなどを統一",
+      "url": "https://www.publickey1.jp/blog/26/javascriptvite_10.html",
+      "source": "Publickey",
+      "published": "2026-09-30T15:22:55+00:00",
+      "summary": "VoidZeroがJavaScriptの統合ツールチェーン「Vite+ 1.0」を正式リリースした。\nランタイム、パッケージマネージャー、ビルド、リンター、フォーマッターなどを1つのCLI「vp」に統合。\nRust製の高速なRolldownやOxc、Viteなどをベースに構築され、単一の設定ファイルで管理可能。",
+      "tags": [
+        "JavaScript",
+        "Vite+",
+        "フロントエンド"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 90,
+      "score_reason": "乱立していたJavaScriptのビルド・開発ツール群を1つに統合する画期的なリリースであり、今後のWeb開発に極めて大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "WindowsでLinuxコンテナの作成や実行を可能にする「WSL Containers」正式リリース。コマンドラインとAPIから利用可能",
+      "url": "https://www.publickey1.jp/blog/26/windowslinuxwsl_containersapi.html",
+      "source": "Publickey",
+      "published": "2026-09-30T02:43:18+00:00",
+      "summary": "Microsoftは、Windows上でLinuxコンテナを作成・実行できる「WSL Containers」を正式リリースした。\nDocker等のサードパーティ製ソフトを導入せず、WSLの標準機能としてコンテナ仮想化を利用可能にする。\nコマンドラインやAPIからの操作に対応し、Microsoft IntuneやDefender for Endpointとの統合管理も可能。",
+      "tags": [
+        "WSL",
+        "コンテナ",
+        "Windows"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 88,
+      "score_reason": "Windows開発環境におけるコンテナ利用の敷居を下げ、エンタープライズ管理との親和性も高める極めて重要なアップデートであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "初心者のためのGitHub Copilotアプリ：キャンバスでカスタムワークフローを構築する方法",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+      "source": "GitHub Blog",
+      "published": "2026-09-25T18:00:00+00:00",
+      "summary": "GitHub Copilotアプリに、ユーザーとAIエージェントが共同で編集・操作できるカスタムUI「キャンバス（Canvas）」機能が導入された。\n開発者はコードを書くことなく、自然言語で指示するだけで、カンバンボードやリリースチェックリストなどの専用UIをAIに作成させることができる。\n双方向の操作に対応しており、AIによる自動更新とユーザーによるボタンやフィルター操作を組み合わせた柔軟なワークフローが実現する。",
+      "tags": [
+        "GitHub Copilot",
+        "AI Agent",
+        "UI/UX"
+      ],
+      "category": "AI・機械学習",
+      "score": 88,
+      "score_reason": "生成AIを用いたノーコードでのカスタムUI構築と、人間とAIの協調ワークフローにおける新しいインターフェースの形を提示しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "効果的なLLMのファインチューニングに人間が読めるテキストは必要なのか？",
+      "url": "https://arxiv.org/abs/2609.35868",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-30T04:00:00+00:00",
+      "summary": "大規模言語モデル（LLM）の微調整（ファインチューニング）における学習データの形式に関する調査です。\n人間が理解可能なテキスト形式が、モデルの学習効率や性能向上に本当に不可欠であるかを検証しています。\nトークン表現や非構造化データの活用など、新たな学習アプローチの可能性を示唆しています。",
+      "tags": [
+        "LLM",
+        "ファインチューニング",
+        "自然言語処理"
+      ],
+      "category": "AI・機械学習",
+      "score": 88,
+      "score_reason": "LLMの学習効率化やデータ準備の常識を覆す可能性のある、学術的・実用的に極めて興味深い問いを投げかけているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Launch HN: Magnitude (YC S25) – エージェント向け自己最適化推論エンジン",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "source": "Hacker News",
+      "published": "2026-09-30T17:37:40+00:00",
+      "hn_score": 123,
+      "hn_comments": 56,
+      "summary": "ハードウェアに合わせて自己最適化するオープンソースのエージェント向け推論エンジン「Magnitude」が登場。\nデバイス上でカーネルをコンパイル・チューニングすることで、llama.cppと比較して最大2倍の高速化を実現。\nApple Silicon、NVIDIA、AMD、CPUに対応し、主要なオープンモデルやエージェントとワンクリックで連携可能。",
+      "tags": [
+        "LLM",
+        "推論エンジン",
+        "オープンソース"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "ローカルLLMの推論速度をハードウェア最適化によって劇的に向上させるオープンソースエンジンであり、エージェント開発の実用性を大きく高めるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "【被害者は語る】タイムズカー660万件情報漏洩はなぜ起きたのかの考察",
+      "url": "https://qiita.com/miruky/items/6577a57b9b62c8f97e11?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-29T16:00:06+00:00",
+      "summary": "タイムズカーで発生した約660万件の個人情報および免許証画像などの漏洩事案について、被害者の視点から考察。\n公開HTMLから、同システムがJava向けフレームワーク「Seasar2（Teeda）」を使用している可能性を指摘。\nサポート終了済みの古い技術スタックやフレームワークの脆弱性が原因となった可能性について、セキュアプログラミングの観点から分析している。",
+      "tags": [
+        "情報漏洩",
+        "脆弱性",
+        "Seasar2"
+      ],
+      "category": "セキュリティ",
+      "score": 85,
+      "score_reason": "大規模な個人情報漏洩事案を技術的側面から分析しており、レガシーシステムのセキュリティリスクに対する警鐘として重要度が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Next.jsアプリをCloudflare WorkersやAWS LambdaなどVercel以外のサーバレス基盤へデプロイできる「Vinext 1.0」リリース",
+      "url": "https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html",
+      "source": "Publickey",
+      "published": "2026-09-30T15:10:38+00:00",
+      "summary": "Cloudflareは、Next.jsアプリをVercel以外のサーバーレス基盤へデプロイ可能にする「Vinext 1.0」をリリースした。\nTurbopackの代わりにViteを用いてビルドを行い、Cloudflare WorkersやAWS Lambda等へのデプロイを容易にする。\nキャッシュウォーミングの高度化や互換性の向上、自動テストパイプラインなどの機能を備える。",
+      "tags": [
+        "Next.js",
+        "Cloudflare Workers",
+        "Vite"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 85,
+      "score_reason": "Vercelに依存しがちだったNext.jsのデプロイ先を多様化させ、インフラの選択肢を広げる重要な技術的進歩であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Google Cloud、AIエージェントからの大量アクセスをPostgreSQLのプライマリDBから切り離せる「PostgreSQL for agents in AlloyDB」発表",
+      "url": "https://www.publickey1.jp/blog/26/google_cloudaipostgresqldbpostgresql_for_agents_in_alloydb.html",
+      "source": "Publickey",
+      "published": "2026-09-29T15:46:18+00:00",
+      "summary": "Google Cloudは新サービス「PostgreSQL for agents in AlloyDB」を発表しました。\nAIエージェントによる大量の読み取りアクセスを本番データベースから切り離すことができます。\nこれにより、本番環境のパフォーマンスに影響を与えることなく、リアルタイムデータへの高速アクセスを可能にします。",
+      "tags": [
+        "Google Cloud",
+        "PostgreSQL",
+        "AlloyDB"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "AIエージェントの普及に伴うデータベース負荷問題に対する、実用的かつ新規性の高いクラウドソリューションであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オープンソースのAIセキュリティエージェントを使用して24個のAndroidの脆弱性を発見した方法",
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "source": "GitHub Blog",
+      "published": "2026-09-28T19:00:00+00:00",
+      "summary": "GitHub Security Labは、セキュリティ研究者がAIプロンプトとワークフローを自動化・共有できるツール「Taskflow Agent」を開発した。\nこのエージェントを用いてAndroidアプリの監査タスクフローを作成し、実際に20件以上の脆弱性を発見・報告することに成功した。\nTaskflowはオープンソースとして公開されており、GitHub Copilotライセンスがあれば誰でも実行して脆弱性診断を自動化できる。",
+      "tags": [
+        "Android",
+        "Security",
+        "AI Agent"
+      ],
+      "category": "セキュリティ",
+      "score": 85,
+      "score_reason": "AIエージェントを活用した脆弱性診断の自動化手法と、実際のAndroidアプリにおける多数の検出実績を示しており実用性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "リソース制約のあるエッジデバイスにおける信頼性の高い推論のためのニューロシンボリックルーティング",
+      "url": "https://arxiv.org/abs/2609.35833",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-30T04:00:00+00:00",
+      "summary": "計算リソースが限られたエッジデバイス上で、信頼性の高い推論を実現する手法を提案しています。\nディープラーニング（ニューラル）と論理推論（シンボリック）を組み合わせたニューロシンボリックアプローチを採用しています。\n効率的なルーティングにより、低リソース環境でも高精度かつ高速な処理を可能にします。",
+      "tags": [
+        "ニューロシンボリックAI",
+        "エッジコンピューティング",
+        "推論最適化"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "エッジAIの実用性を高めるニューロシンボリック技術の応用であり、IoTや組み込み分野への影響が大きいため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "コーディングエージェントにGoogle Cloudの専門知識とツールを組み込む「Google Cloud Developer Plugin for AI Coding Agents」発表",
+      "url": "https://www.publickey1.jp/blog/26/google_cloudgoogle_cloud_developer_plugin_for_ai_coding_agents.html",
+      "source": "Publickey",
+      "published": "2026-09-29T15:44:15+00:00",
+      "summary": "Google CloudはAIコーディングエージェント向けのプラグインを発表しました。\nClaude CodeなどのエージェントにGoogle Cloudの専門知識やツールを組み込むことができます。\nMCPサーバーなどを提供することで、エージェントによる適切なクラウドシステム構築を支援します。",
+      "tags": [
+        "Google Cloud",
+        "AIエージェント",
+        "MCP"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "AIコーディングエージェントの能力をクラウドインフラ設計にまで拡張する、実用性の高いプラグインであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "より多くのCSSを配信することでサイトのパフォーマンスを向上させる",
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "source": "GitHub Blog",
+      "published": "2026-09-25T15:00:00+00:00",
+      "summary": "GitHubのPrimerデザインシステムにおいて、CSS-in-JSの採用に伴うクライアントおよびサーバー側でのパフォーマンス低下が課題となっていた。\n移行時の破損を防ぎつつ課題を解決するため、ランタイムコストが発生しない「CSS Modules」への移行を決定した。\nCSS Modulesの導入により、ネイティブCSSの機能を活かしつつカプセル化を実現し、パフォーマンスの大幅な改善を達成した。",
+      "tags": [
+        "CSS Modules",
+        "Web Performance",
+        "Frontend"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 82,
+      "score_reason": "大規模なWebサービスにおけるCSS-in-JSからCSS Modulesへの移行事例であり、フロントエンドのパフォーマンス最適化において非常に参考になります。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "OpenAI-HuggingFace：アライメントテストの再現と教訓",
+      "url": "https://arxiv.org/abs/2609.35799",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-30T04:00:00+00:00",
+      "summary": "OpenAIとHuggingFaceのモデルを用いたアライメント（調整）テストの再現実験に関する研究です。\nAIモデルが人間の意図や倫理に沿うようにするためのアライメント手法の有効性を検証しています。\n再現プロセスから得られた知見と、今後のアライメント評価における重要な教訓を提示しています。",
+      "tags": [
+        "AIアライメント",
+        "LLM",
+        "再現性"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "AIの安全性と信頼性を担保するアライメント技術の再現性と評価に関する重要な知見を提供しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "EDGのC++フロントエンドがオープンソース化",
+      "url": "https://edgcpp.org/#transition",
+      "source": "Hacker News",
+      "published": "2026-09-30T19:26:37+00:00",
+      "hn_score": 145,
+      "hn_comments": 72,
+      "summary": "30年間にわたり業界のC++コンパイルを支えてきたEDGのC++フロントエンドのソースコードが一般公開された。\n非営利団体「The C++ Alliance」が新たな管理母体となり、プロフェッショナルなメンテナンス体制を維持する。\n今後は誰でも貢献可能なオープンソースプロジェクトとして、品質を保ちながら開発が継続される。",
+      "tags": [
+        "C++",
+        "コンパイラ",
+        "オープンソース"
+      ],
+      "category": "プログラミング言語",
+      "score": 80,
+      "score_reason": "長年業界を支えてきた商用品質のC++フロントエンドがオープンソース化され、今後のC++エコシステムに大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Amazon BedrockのClaudeに暗黙的なプロンプトキャッシュが登場",
+      "url": "https://qiita.com/moritalous/items/1b6a05842724fc1fff66?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-29T12:34:51+00:00",
+      "summary": "Amazon BedrockのClaudeにおいて、明示的な指定なしで機能する「暗黙的なプロンプトキャッシュ」の存在をドキュメントから発見。\nOpenAIのGPT系と同様に、特定の条件を満たす長いプロンプトが自動的にキャッシュされる仕組みと推測される。\nPython（boto3）を用いて、実際にキャッシュが機能するかどうかを検証するコードを実装し、動作確認を行っている。",
+      "tags": [
+        "Amazon Bedrock",
+        "Claude",
+        "プロンプトキャッシュ"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "LLMのAPI利用コストやレイテンシを大幅に削減できる新機能の検証であり、実用性と開発者への影響度が非常に高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました",
+      "url": "https://zenn.dev/algoartis/articles/0b1c731881b25c",
+      "source": "はてなブックマーク",
+      "published": "2026-09-30T19:49:24+00:00",
+      "summary": "AIが生成する不自然で読みにくい日本語（AI-Slop）を、自然な表現に書き直すツール「yomiyasu」が開発されました。\n単語の禁止といった表面的な対策ではなく、統語構造の復元や比喩動詞の具体化に特化しているのが特徴です。\nClaude CodeやCursorなどの主要なAIエージェントから簡単に呼び出して利用することができます。",
+      "tags": [
+        "AIエージェント",
+        "自然言語処理",
+        "開発ツール"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "AI生成テキストの品質向上という実用的な課題に対し、言語学的なアプローチで解決を試みる非常に有用なツールであるためです。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "テスト未実施のプロンプトのリリースをやめよう：promptfooでプロンプトをコードのようにテストする実践ガイド",
+      "url": "https://dev.to/aifrontierpost/stop-shipping-untested-prompts-test-your-llm-prompts-like-code-with-promptfoo-hands-on-398n",
+      "source": "Dev.to",
+      "published": "2026-10-01T01:00:42+00:00",
+      "summary": "LLMのプロンプトをコードのようにテスト駆動開発できるオープンソースツール「promptfoo」を紹介しています。\nYAML設定ファイルでプロンプト、プロバイダー、テストケースを定義し、出力を自動評価できます。\nCI/CDパイプラインへの組み込みも可能で、本番環境への安全なプロンプトデプロイを実現します。",
+      "tags": [
+        "LLM",
+        "テスト自動化",
+        "promptfoo"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "LLMアプリケーション開発におけるプロンプト管理と品質保証をシステム化する、極めて実用的なツールであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Git 2.56のハイライト",
+      "url": "https://github.blog/open-source/git/highlights-from-git-2-56/",
+      "source": "GitHub Blog",
+      "published": "2026-09-28T17:23:33+00:00",
+      "summary": "オープンソースのバージョン管理システム「Git 2.56.0」が、104人以上のコントリビューターによる新機能とバグ修正を伴ってリリースされた。\n新機能「git add --resolved」が導入され、マージ競合の解決時に未解決の競合マーカーが残っているファイルを誤ってステージングするのを防ぐ。\nこの新しいモードは、インデックス内で未マージのパスのみを対象とし、競合マーカーを検出した場合はステージングを中断して安全なワークフローを提供する。",
+      "tags": [
+        "Git",
+        "Version Control",
+        "Open Source"
+      ],
+      "category": "その他",
+      "score": 80,
+      "score_reason": "開発者が日常的に使用するGitのメジャーアップデートであり、マージ競合解決の安全性を高める実用的な新機能が含まれています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "トークン境界の代償：圧縮証明書と予測",
+      "url": "https://arxiv.org/abs/2609.35869",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-30T04:00:00+00:00",
+      "summary": "言語モデルにおけるトークン分割（トークナイズ）の境界がもたらす影響を理論的に分析しています。\nトークン境界がデータの圧縮効率やモデルの予測精度に与える「代償」を評価する枠組みを提案しています。\nより効率的で正確なトークナイザーの設計や言語モデルの性能向上に寄与する知見を提供します。",
+      "tags": [
+        "トークナイズ",
+        "データ圧縮",
+        "言語モデル"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "LLMの基礎となるトークナイズの課題に焦点を当て、モデルの効率性と予測精度の向上に向けた理論的基盤を提供しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "新規プロダクトのバックエンド自動テスト戦略 ─UT 中心から API テスト中心へ─",
+      "url": "https://zenn.dev/canary_techblog/articles/348d976da70857",
+      "source": "Zenn",
+      "published": "2026-09-30T00:45:25+00:00",
+      "summary": "新規プロダクトのバックエンドテスト戦略を、ユニットテスト中心からrunnを用いたAPIテスト中心へと移行。\n複雑なエンティティ依存やロジック増加に伴い、UTだけではAPI全体の仕様動作を保証しきれなくなった課題を解決。\nAPI GatewayからDBまでを結合した状態でテストすることで、品質保証の確実性と開発効率の向上を実現。",
+      "tags": [
+        "テスト自動化",
+        "runn",
+        "Go"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 78,
+      "score_reason": "実際のプロダクト開発におけるテスト戦略の現実的な移行事例であり、品質保証と開発速度のバランスに悩む開発者にとって非常に参考になるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ブラウザ拡張機能はユーザーの衛生問題ではなく、企業の管理問題である",
+      "url": "https://dev.to/jeffreyciend/browser-extensions-are-an-enterprise-control-problem-not-a-user-hygiene-problem-5d0m",
+      "source": "Dev.to",
+      "published": "2026-10-01T01:00:21+00:00",
+      "summary": "企業におけるブラウザ拡張機能の導入に伴うセキュリティリスクと管理の難しさを指摘しています。\n多くの拡張機能が高度な権限を持ち、特に生成AI系は機密データを外部サービスへ送信するリスクがあります。\nネットワークやOSレベルのツールでは監視が困難であり、プラットフォームポリシーによる管理が必要とされます。",
+      "tags": [
+        "セキュリティ",
+        "ブラウザ拡張機能",
+        "シャドーIT"
+      ],
+      "category": "セキュリティ",
+      "score": 78,
+      "score_reason": "生成AIの普及に伴う新たなセキュリティの盲点と、企業におけるガバナンスの重要性を鋭く指摘しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "より多くのプログラムか、それともより多くの試行か？LLM評価ハーネスにおけるカバレッジと専門化の分離",
+      "url": "https://arxiv.org/abs/2609.35873",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-30T04:00:00+00:00",
+      "summary": "大規模言語モデル（LLM）の評価フレームワーク（ハーネス）における評価手法の最適化に関する研究です。\n評価の多様性（カバレッジ）と特定のタスクへの特化（専門化）を分離して評価するアプローチを提案しています。\nテストプログラムの数と試行回数のバランスを検証し、より正確で効率的なLLM評価基準を確立します。",
+      "tags": [
+        "LLM評価",
+        "ベンチマーク",
+        "ソフトウェアテスト"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "LLMの性能評価における信頼性と効率性を向上させるための具体的な評価設計手法を提案しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "シンガポール政府のデートアプリがゲール・シャプレーの安定結婚アルゴリズムを採用",
+      "url": "https://twitter.com/tuakdotsol/status/2105105417760391258",
+      "source": "Hacker News",
+      "published": "2026-09-30T09:27:04+00:00",
+      "hn_score": 187,
+      "hn_comments": 113,
+      "summary": "シンガポール政府が開発したデートアプリ「FirstDate」がノーベル賞受賞のアルゴリズムを採用しました。\n「ゲール・シャプレー（安定結婚問題）アルゴリズム」を用いて、数学的に最適なマッチングを実現します。\n無限スクロールを排除し、1サイクルに1マッチのみを提示する設計で、ユーザーの早期離脱を目的としています。",
+      "tags": [
+        "アルゴリズム",
+        "ゲーム理論",
+        "マッチングアプリ"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "古典的かつ強力なアルゴリズムを政府主導のサービスに実用的に適用し、商業アプリとは異なる設計思想を示している点が興味深いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Web 標準動向 2026年9月版",
+      "url": "https://zenn.dev/cybozu_frontend/articles/web_standards_trends_202609",
+      "source": "Zenn",
+      "published": "2026-09-30T09:00:08+00:00",
+      "summary": "Firefox 159でScoped Custom Element Registriesが実装され、主要ブラウザでのサポートが揃う見通し。\nHTML-in-CanvasがStage 3に到達し、WebKitも実装に着手するなど、アクセシビリティを考慮した描画機能の検討が進む。\nTPAC 2026の開催を控え、agentic web関連を中心に多くのBreakout Sessionが提案されている。",
+      "tags": [
+        "Web標準",
+        "HTML5",
+        "ブラウザ"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 75,
+      "score_reason": "主要ブラウザにおけるWeb標準仕様の実装状況や、今後のWeb技術の進化トレンドを把握する上で重要な情報であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "荒れたテストケースをコード管理で立て直してみた",
+      "url": "https://qiita.com/hamham999/items/ebee7540a82db6933854?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-28T23:10:50+00:00",
+      "summary": "スプレッドシートでの手動テストケース管理が破綻したため、コードベース管理へ移行した事例を紹介。\nテストケースをYAMLで記述し、CIでの検証や重複・矛盾の自動検出を経て、マージ後にスプレッドシートへ自動反映する仕組みを構築。\n役割を「管理はコード、実施はスプレッドシート」と分離することで、複数人でのレビューや品質維持が容易になった。",
+      "tags": [
+        "テスト自動化",
+        "YAML",
+        "CI/CD"
+      ],
+      "category": "その他",
+      "score": 75,
+      "score_reason": "手動テストの運用課題をコード管理とCI/CDで解決する実践的なアプローチであり、開発プロセスの改善において有用性が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AI生成文章を自然な日本語へ書き直すAgent Skill「yomiyasu」",
+      "url": "https://github.com/nanaism/yomiyasu",
+      "source": "はてなブックマーク",
+      "published": "2026-09-30T18:28:31+00:00",
+      "summary": "AIが生成した日本語の不自然さを解消し、人間が読みやすい文章へ推敲するためのスキル。\nCodexやClaude Code、CursorなどのAIコーディング環境に読み込ませて使用する。\n統語構造を7つの変換原則として体系化し、曖昧な流行語の排除や比喩表現の修正を行う。",
+      "tags": [
+        "AI",
+        "LLM",
+        "日本語推敲"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "AIコーディング環境等での日本語生成品質を向上させる実用的なツールであり、開発者のドキュメンテーション効率化に寄与するため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "ゼロから生成するのではなく、テンプレートをコピーせよ",
+      "url": "https://dev.to/tljp/copy-the-template-dont-generate-from-zero-4mn4",
+      "source": "Dev.to",
+      "published": "2026-10-01T00:59:16+00:00",
+      "summary": "日本のAI・技術コミュニティで注目された、実用的なAIワークフローに関する動向を紹介しています。\nIllustrator内のAstraによる編集可能なベクターアート生成など、実制作に耐えうる事例が報告されました。\nスライド作成ではゼロから生成するのではなく、既存のテンプレートPDFを変換する手法が推奨されています。",
+      "tags": [
+        "生成AI",
+        "ワークフロー",
+        "デザイン"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "生成AIを実際の業務プロセスに組み込むための、具体的かつ実践的なアプローチや知見が共有されているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ゲーミングPC向けで LLMとデプロイ環境を最適化してみた話",
+      "url": "https://zenn.dev/knowledgework/articles/2691721311c2e4",
+      "source": "Zenn",
+      "published": "2026-09-30T00:45:00+00:00",
+      "summary": "ゲームプレイ中の限られたVRAM環境で動作させるため、翻訳特化LLMをゲーミングPC向けに最適化した事例。\nGemma3ベースの翻訳モデル「MiLMMT-46」を採用し、モデル、メモリ、ランタイムの3段階でリソースを削減。\n最終的に2〜3GBのVRAM消費で、商用LLMに近い精度を持つローカル翻訳環境の構築に成功。",
+      "tags": [
+        "ローカルLLM",
+        "llama.cpp",
+        "GGUF"
+      ],
+      "category": "AI・機械学習",
+      "score": 72,
+      "score_reason": "ゲーミングPCというリソース制約の厳しい環境下で、ローカルLLMを実用的なレベルまで最適化してデプロイする具体的な知見が示されているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ヘキサゴナルアーキテクチャを実装レベルで確かめてみた（その1）ポート・アダプター・アプリケーションはコードではどうなるのか",
+      "url": "https://zenn.dev/aws_japan/articles/hexagonal-architecture-lambda-1",
+      "source": "Zenn",
+      "published": "2026-09-30T01:04:42+00:00",
+      "summary": "概念理解に留まりがちなヘキサゴナルアーキテクチャを、AWS公式のLambda+DynamoDBサンプルを用いてコードレベルで解説。\nポート（interface）とアダプター（実装）の境界や、ドメイン（業務ルール）を外側の技術から分離する構造を具体的に示す。\nテストの容易性や実装の差し替えやすさなど、このアーキテクチャを採用することで得られる具体的なメリットを検証する。",
+      "tags": [
+        "アーキテクチャ",
+        "AWS Lambda",
+        "クリーンアーキテクチャ"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 70,
+      "score_reason": "抽象的な設計パターンであるヘキサゴナルアーキテクチャを、具体的なサーバーレス環境のコードで実践的に解説しており実用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "米国郵政公社（USPS）、道路をスキャンして「地域の安全」を守るカメラをトラックに搭載へ",
+      "url": "https://www.reddit.com/r/technology/comments/1wugs04/usps_to_put_cameras_in_trucks_that_scan_roads_for/",
+      "source": "Reddit",
+      "published": "2026-09-30T21:04:13+00:00",
+      "summary": "米国郵政公社（USPS）が、配達用トラックに道路をスキャンするカメラを設置する計画を進めています。\nこの取り組みは「コミュニティの安全」を目的としており、リアルタイムでの道路状況や治安の監視に役立てられます。\n一方で、市民のプライバシー侵害や監視社会化への懸念も指摘されています。",
+      "tags": [
+        "IoT",
+        "監視カメラ",
+        "プライバシー"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 70,
+      "score_reason": "公共インフラを活用した大規模なデータ収集の試みであり、プライバシー問題とスマートシティ化の観点から注目されるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Codex CLIで押さえておきたい3つのコマンド（/recap、/copy、/export）",
+      "url": "https://syu-m-5151.hatenablog.com/entry/2026/09/29/161928",
+      "source": "はてなブックマーク",
+      "published": "2026-09-30T13:28:33+00:00",
+      "summary": "Codex CLIにおける会話要約、出力コピー、会話書き出しの3つのコマンドの役割を整理。\n/recapは人間が作業状況を思い出すための要約、/compactはモデルの文脈圧縮用と目的が異なる。\n/copyは完了済み出力を対象とし、/exportは経緯を含めた会話全体の保存に利用する。",
+      "tags": [
+        "Codex",
+        "CLI",
+        "開発ツール"
+      ],
+      "category": "プログラミング言語",
+      "score": 70,
+      "score_reason": "開発支援AIツールの効率的な利用方法を解説しており、開発者の生産性向上に直結する実用的な内容であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Pythonのコード60行で認知歪み検出器を構築する",
+      "url": "https://dev.to/473185670/build-a-cognitive-distortion-detector-in-60-lines-of-python-h2e",
+      "source": "Dev.to",
+      "published": "2026-10-01T01:02:03+00:00",
+      "summary": "認知行動療法で扱われる「認知の歪み」を検出するツールをPythonで構築するチュートリアルです。\n機械学習モデルやAPIキーを使用せず、わずか60行のコードと正規表現パターンマッチングで実装します。\n言語的な特徴パターンを捉えることで、10種類の認知の歪みを検出可能にします。",
+      "tags": [
+        "Python",
+        "認知行動療法",
+        "正規表現"
+      ],
+      "category": "プログラミング言語",
+      "score": 70,
+      "score_reason": "AI全盛期において、軽量なルールベースのパターンマッチングを用いた実用的なアプローチを提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "0から学ぶセキュリティの基礎 〜CSRF編〜",
+      "url": "https://qiita.com/Pigeon_gate/items/b33b4e337c15dddae20a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-30T00:50:37+00:00",
+      "summary": "Webアプリケーション開発におけるセキュリティの基礎と、CSRF（クロスサイトリクエストフォージェリ）の仕組みを解説。\nCSRFはログイン済みユーザーの権限を悪用し、意図しないリクエストを送信させる攻撃手法である。\n攻撃の特徴や狙われやすい処理を整理し、エンジニアが取るべき防御策の重要性を説く。",
+      "tags": [
+        "セキュリティ",
+        "CSRF",
+        "Web開発"
+      ],
+      "category": "セキュリティ",
+      "score": 65,
+      "score_reason": "Web開発における基本的なセキュリティ知識の解説であり、教育的価値は高いが新規性は限定的である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "マイケル・バーリ氏、市場暴落でOpenAIやAnthropicの上場が阻止されれば「人類のためになる」と発言",
+      "url": "https://www.reddit.com/r/technology/comments/1wujpgm/michael_burry_says_it_would_be_for_the_good_of/",
+      "source": "Reddit",
+      "published": "2026-09-30T23:10:02+00:00",
+      "summary": "映画『マネー・ショート』のモデルとして知られる投資家のマイケル・バーリ氏がAI業界に言及しました。\n同氏は市場の暴落によってOpenAIやAnthropicなどのAI企業の新規公開株（IPO）が阻止されることを望んでいます。\n急激に成長するAI企業の上場が人類にとって不利益をもたらす可能性があるとの懸念を示した形です。",
+      "tags": [
+        "AI",
+        "市場動向",
+        "投資"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 65,
+      "score_reason": "著名投資家によるAIバブルへの警鐘であり、AIスタートアップの資金調達環境や市場評価に与える心理的影響が大きいためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ChatGPT連携初日のはてな匿名ダイアリーで起きたこと",
+      "url": "https://anond.hatelabo.jp/20261001070030",
+      "source": "はてなブックマーク",
+      "published": "2026-09-30T22:05:08+00:00",
+      "summary": "はてな匿名ダイアリーにChatGPT連携機能が追加され、AIによる直接投稿が可能になった。\n投稿プロセスの自動化により長文が乱立し、AIを標的にしたプロンプトインジェクションなどの遊びが発生。\nAI利用の是非を巡る議論やAIによる要約投稿など、コミュニティ内で多様な反応が巻き起こった。",
+      "tags": [
+        "ChatGPT",
+        "はてな匿名ダイアリー",
+        "コミュニティ"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 65,
+      "score_reason": "AIのWebサービス連携がコミュニティに与える影響や、ユーザーの行動変容を示す興味深い事例であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "デベロッパーポリシーの更新：透明性、州の政策、そして今後の展望",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead/",
+      "source": "GitHub Blog",
+      "published": "2026-09-29T15:00:00+00:00",
+      "summary": "GitHubは最新の透明性レポートを公開し、政府からのコンテンツ削除要請が前年から急増したことを報告した。\nこの急増はモデレーション方針の変更ではなく、重複や規約違反を含むすべての要請をカウントするよう集計方法を変更したことによるものである。\nGitHubは今後もオープンソースコミュニティに影響を与える政策動向を注視し、開発者への透明性の確保に努めるとしている。",
+      "tags": [
+        "GitHub",
+        "Policy",
+        "Open Source"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 65,
+      "score_reason": "オープンソース開発に影響を与える政府の関与やポリシーの透明性に関する重要な動向を示しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "驚くほど複雑な脳波が脳の内部の仕組みを明らかにする",
+      "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
+      "source": "Hacker News",
+      "published": "2026-09-30T19:04:50+00:00",
+      "hn_score": 114,
+      "hn_comments": 40,
+      "summary": "脳内の多数のニューロンが同調して伝播する電気的な「進行波」に関する新たな研究成果が発表されました。\n従来は単なる脳の活動のサインと考えられていましたが、情報処理において中心的な役割を果たすことが判明しました。\nこの発見は、脳がどのように環境をナビゲートし記憶にアクセスするかを解き明かす鍵となります。",
+      "tags": [
+        "神経科学",
+        "脳科学",
+        "バイオテクノロジー"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "脳の情報処理メカニズムに関する基礎研究の進展であり、将来的なニューロモルフィックコンピューティングやBMIへの応用が期待されるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "キュレーションディールは依然として通常のPMPラインに見える：OpenRTBにはキュレーションフィールドが存在しない",
+      "url": "https://dev.to/aleksuix/curated-deals-still-look-like-plain-pmp-lines-openrtb-has-no-curation-field-1mmo",
+      "source": "Dev.to",
+      "published": "2026-10-01T00:58:43+00:00",
+      "summary": "プログラマティック広告のキュレーション取引は、バイヤーには特別パッケージとして販売されるが、OpenRTBの仕様上は通常のPMPディールと区別がつかない。\nOpenRTB 2.6のDealオブジェクトには、キュレーターIDや手数料開示、フィルタリング条件を記述するフィールドが存在しない。\nこの不一致はDSPのUIではなく通信プロトコルの課題であり、キュレーションの透明性や制御に制限をもたらしている。",
+      "tags": [
+        "OpenRTB",
+        "AdTech",
+        "Programmatic Advertising"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "アドテクノロジーにおけるプロトコルの制限と、キュレーション取引の透明性に関する技術的課題を指摘しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "X（旧Twitter）に投稿したURLのサムネイル画像をキャッシュクリアする方法",
+      "url": "https://qiita.com/minorun365/items/f1f6a45fa9aff8d624af?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-29T07:16:02+00:00",
+      "summary": "X（旧Twitter）に投稿したURLのリンクカード画像が古いまま更新されない問題の解決策を紹介。\n公式の「Card Validator」を使用することで、X側のキャッシュを無視して最新のOGP情報を読み直させることができる。\nURL末尾にクエリを付与する対策の注意点や、画像URL自体を変更する確実な方法についても解説している。",
+      "tags": [
+        "X",
+        "OGP",
+        "キャッシュ"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 55,
+      "score_reason": "SNS連携における実用的なTipsであり、Web制作者やマーケターにとって役立つが、技術的な影響度は限定的である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ロバート・F・ケネディ・ジュニア氏、AIが医療の事実や専門知識という「専制政治」から我々を解放すると主張",
+      "url": "https://www.reddit.com/r/technology/comments/1wuglns/rfk_jr_thinks_ai_will_free_us_from_the_tyranny_of/",
+      "source": "Reddit",
+      "published": "2026-09-30T20:57:20+00:00",
+      "summary": "ロバート・F・ケネディ・ジュニア氏が、AIの普及に対する独自の見解を示しました。\n同氏は、AIが従来の医療事実や専門家による支配（専制政治）から人々を解放すると考えています。\nこの発言は、科学的根拠や医療専門知識の軽視につながるとして、専門家の間で懸念を呼んでいます。",
+      "tags": [
+        "AI",
+        "医療IT",
+        "社会影響"
+      ],
+      "category": "その他",
+      "score": 55,
+      "score_reason": "政府高官候補によるAIの医療応用に関する極端な見解であり、今後の医療政策やAI規制の議論に影響を与える可能性があるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "極秘衛星URSALA、RAQUEL、FARRAH",
+      "url": "https://www.thespacereview.com/article/4951/1",
+      "source": "Hacker News",
+      "published": "2026-09-30T22:03:04+00:00",
+      "hn_score": 111,
+      "hn_comments": 32,
+      "summary": "1963年から40年以上にわたり運用された米空軍の極秘衛星プログラムが最近機密解除されました。\nURSALAやRAQUELなどの小型衛星は、地上からのレーダーや電子信号（ELINT）を収集していました。\n当初は安価でシンプルな設計でしたが、1970年代には標準化され軍事支援の運用任務を担うようになりました。",
+      "tags": [
+        "宇宙開発",
+        "軍事技術",
+        "歴史"
+      ],
+      "category": "その他",
+      "score": 45,
+      "score_reason": "歴史的な軍事宇宙技術の機密解除に関するニュースであり、現代のIT業界への直接的な影響は限定的であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "PalantirのCEOアレックス・カープ氏、スウェーデンで37,000エーカーの森林を密かに購入—地元のハンターが土地の借地権を失ったことで発覚",
+      "url": "https://www.reddit.com/r/technology/comments/1wu4lnz/palantir_ceo_alex_karp_quietly_purchased_37000/",
+      "source": "Reddit",
+      "published": "2026-09-30T13:12:35+00:00",
+      "summary": "データ分析企業PalantirのCEOであるアレックス・カープ氏がスウェーデンで広大な森林を購入しました。\nこの取引は極秘に行われ、地元のハンターたちが狩猟用の借地権を失ったことで初めて明らかになりました。\nテック企業の幹部による大規模な土地購入の背景や、地域社会への影響について議論を呼んでいます。",
+      "tags": [
+        "Palantir",
+        "不動産",
+        "テックリーダー"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 45,
+      "score_reason": "テック企業CEOの個人行動に関するニュースであり、技術的な新規性や業界への直接的な影響は限定的であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "56k.rip – 1996年のダイヤルアップインターネット体験",
+      "url": "https://56k.rip/",
+      "source": "Hacker News",
+      "published": "2026-09-30T22:08:50+00:00",
+      "hn_score": 33,
+      "hn_comments": 19,
+      "summary": "1996年当時のダイヤルアップ接続によるインターネット体験を再現するWebサイトが登場しました。\n当時の低速な通信速度や独特の接続音などをシミュレートしています。\nインターネットの歴史やレトロテクノロジーを懐かしむことができるプロジェクトです。",
+      "tags": [
+        "レトロテクノロジー",
+        "Webサイト",
+        "インターネットの歴史"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 40,
+      "score_reason": "1990年代のダイヤルアップ環境を再現する体験型プロジェクトであり、技術的な新規性や実用性は低いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "なぜ青銅器時代は崩壊したのか",
+      "url": "https://www.worksinprogress.news/p/why-really-caused-the-bronze-age",
+      "source": "Hacker News",
+      "published": "2026-09-29T10:10:18+00:00",
+      "hn_score": 70,
+      "hn_comments": 44,
+      "summary": "紀元前1000年頃に起きた青銅器時代の文明崩壊の真の原因を探る歴史的考察です。\nエジプトやヒッタイトなどの高度な官僚制社会がなぜ急速に衰退し、二度と復活しなかったのかを分析します。\n従来の気候変動や侵略説にとどまらない、社会構造的な要因に焦点を当てています。",
+      "tags": [
+        "歴史",
+        "社会科学",
+        "考古学"
+      ],
+      "category": "その他",
+      "score": 30,
+      "score_reason": "歴史学・考古学に関する読み物であり、IT技術や現代のテクノロジー業界への直接的な関連性がないため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}

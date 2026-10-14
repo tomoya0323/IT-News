@@ -1,0 +1,693 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-10-04T09:30:41.644624+09:00",
+  "total_count": 43,
+  "success_count": 25,
+  "error_count": 18,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "【Cursor pstack】AIエージェントに開発を任せる環境をつくる ―月2,500件のPRを支えた開発基盤とは？",
+      "url": "https://zenn.dev/sc30gsw/books/080faba713547b",
+      "source": "Zenn",
+      "published": "2026-10-02T13:19:46+00:00",
+      "summary": "月2,500件のプルリクエストを処理するAIエージェント開発基盤「pstack」の設計と運用手法を解説する書籍。\nエージェントではなく成果物を信頼し、検証を再現可能にする仕組みやコードベースを記憶にする方法を提示。\nPlaybook、Skill、Principleの3要素を用いて、エージェントの判断支援や並列運用、品質維持を実現している。",
+      "tags": [
+        "AIエージェント",
+        "ソフトウェア開発",
+        "自動化"
+      ],
+      "category": "AI・機械学習",
+      "score": 88,
+      "score_reason": "月2,500件のPRという圧倒的なスケールでAIエージェントを実務運用するための具体的な開発基盤の知見は極めて実用的です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "OpenAIの安全性リーダーが辞任、AI企業の文化は「壊れている」と警告",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "source": "Hacker News",
+      "published": "2026-10-03T22:18:13+00:00",
+      "hn_score": 69,
+      "hn_comments": 25,
+      "summary": "OpenAIで安全性レポートの執筆を率いていたDavid Robinson氏が、同社の開発文化が壊れているとして辞任した。\n同氏は、AI企業が技術開発において十分な注意を払っておらず、自律エージェントの暴走などの問題が起きていると指摘。\n規制や法律だけでなく、開発スピードを優先する業界全体の文化的な見直しが必要であると警告している。",
+      "tags": [
+        "OpenAI",
+        "AI安全性",
+        "AI倫理"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 85,
+      "score_reason": "OpenAIの安全性責任者の辞任と内部告発は、AI業界の安全性とガバナンスに対する社会的信頼に大きな影響を与えます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "アルゴリズムの最先端に挑戦：「四色定理」はどこまでバランスよく塗れるのか？",
+      "url": "https://qiita.com/square1001/items/4714dd9e2ddb97c32057?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-10-02T13:28:45+00:00",
+      "summary": "アルゴリズム分野のトップ国際会議「SODA 2027」に採択された、四色定理に関する最新の研究論文について解説している。\n従来の四色定理から一歩進め、地図を4色で塗り分ける際に「各色の使用数をどこまでバランスよく均等にできるか」という課題に挑戦。\n最先端のアルゴリズム研究の面白さや、理論的な背景を一般の読者にも分かりやすく紹介している。",
+      "tags": [
+        "アルゴリズム",
+        "数学",
+        "四色定理"
+      ],
+      "category": "その他",
+      "score": 85,
+      "score_reason": "トップ国際会議に採択された最先端のアルゴリズム研究の紹介であり、学術的価値と新規性が非常に高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オランダがMicrosoft依存からの脱却を目指し、独自のLinux OSを開発中",
+      "url": "https://www.reddit.com/r/technology/comments/1wwjq2t/the_netherlands_is_building_its_own_linux_os_to/",
+      "source": "Reddit",
+      "published": "2026-10-03T10:14:39+00:00",
+      "summary": "オランダ政府が、Microsoft製品への依存から脱却するために独自のLinuxオペレーティングシステム（OS）を開発していることが明らかになりました。\nこの取り組みは、デジタル主権の確保とライセンス費用の削減、セキュリティの向上を目的としています。\n欧州におけるオープンソースソフトウェアの採用と、ビッグテック企業への依存軽減の動きを象徴する事例です。",
+      "tags": [
+        "Linux",
+        "オープンソース",
+        "デジタル主権"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "国家規模でのMicrosoft依存脱却と独自OS開発は、ITインフラの勢力図やオープンソースの普及に多大な影響を与えます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オブザーバビリティのAIエージェントをどう評価するか",
+      "url": "https://zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop",
+      "source": "Zenn",
+      "published": "2026-10-01T00:00:00+00:00",
+      "summary": "Grafana Assistantの開発チームの事例を元に、非決定的なAIエージェントの品質評価手法を考察。\n最終応答の見た目だけでは判断できないため、実行プロセス全体を「シナリオ」と「グレーダー」で評価する。\n決定的な事実チェックとLLMによる基準判定を使い分け、評価ループを継続する重要性を解説している。",
+      "tags": [
+        "オブザーバビリティ",
+        "AIエージェント",
+        "LLM評価"
+      ],
+      "category": "AI・機械学習",
+      "score": 83,
+      "score_reason": "評価が困難なAIエージェントの実行プロセスを定量・定性的に評価するための実践的なフレームワークを提示しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Kolibri: 主権を持つオープンウェイトモデル",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "source": "Hacker News",
+      "published": "2026-10-03T09:36:04+00:00",
+      "hn_score": 488,
+      "hn_comments": 296,
+      "summary": "Aleph Alphaが英語・ドイツ語に対応した780億パラメータのオープンウェイトモデル「Kolibri」をリリース。\n最大100万トークンのコンテキスト長をサポートし、Apache 2.0ライセンスでHugging Faceからダウンロード可能。\n公共管理や産業、航空宇宙などの規制領域におけるミッションクリティカルな業務向けに特化している。",
+      "tags": [
+        "LLM",
+        "オープンソース",
+        "AIモデル"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "欧州の主権AIとして規制領域に特化した大規模なオープンウェイトモデルの登場は、実用性と技術的新規性の両面で重要です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "terraform applyしたら、1ヶ月半前のコードが本番に出ていた",
+      "url": "https://zenn.dev/gonta_ganbareyo/articles/6256bf2008b2ef",
+      "source": "Zenn",
+      "published": "2026-09-30T23:45:42+00:00",
+      "summary": "GCPのCloud Run環境において、Terraformで環境変数を削除してapplyした際に本番環境が1ヶ月半前のコンテナイメージに巻き戻るトラブルが発生した。\nCD側でのデプロイとTerraformの管理を分離するためにignore_changesを設定していたが、意図しない挙動により巻き戻りが発生。\nコンテナをTerraformで扱う際の構造的な課題と、同様のトラブルを防ぐための注意喚起や解決策の模索について共有している。",
+      "tags": [
+        "Terraform",
+        "Cloud Run",
+        "GCP"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 82,
+      "score_reason": "TerraformとCloud Runを併用する際の実用的なトラブルシューティングであり、多くのインフラエンジニアにとって再現性と重要度の高い知見であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "高市首相がAppleに要請――「自殺防止機能の搭載を」　生成AIへの相談増加を受け",
+      "url": "https://www.itmedia.co.jp/mobile/articles/2610/03/news015.html",
+      "source": "はてなブックマーク",
+      "published": "2026-10-03T09:12:10+00:00",
+      "summary": "高市首相がAppleに対し、デバイスへの自殺防止機能の搭載など適切な対策を講じるよう直接要請しました。\n若者の間で生成AIへの相談が増加している現状や、海外での深刻な事例を踏まえた安全対策の強化が求められています。\nApple側は前向きな回答を示しており、日本政府と連携してユーザーを支援する仕組みの推進に合意しました。",
+      "tags": [
+        "Apple",
+        "生成AI",
+        "安全対策"
+      ],
+      "category": "モバイル",
+      "score": 82,
+      "score_reason": "政府首脳がグローバルIT企業に対して直接、生成AI関連の安全対策を要請したことは、今後の規制や機能実装に大きな影響を与えます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "連邦判事、Flockを「無差別な大量監視」と呼ぶ",
+      "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+      "source": "Hacker News",
+      "published": "2026-10-03T22:07:13+00:00",
+      "hn_score": 229,
+      "hn_comments": 141,
+      "summary": "米連邦判事が、令状なしでのFlock Safety（ナンバープレート監視システム）による捜索を違憲と判断しました。\n容疑者の旅行履歴を令状なしで追跡・利用した捜査は、憲法修正第4条に違反するとされています。\nこの判決は、警察による無差別かつ受動的な位置情報の監視活動に警鐘を鳴らすものとなります。",
+      "tags": [
+        "プライバシー",
+        "監視システム",
+        "憲法修正第4条"
+      ],
+      "category": "セキュリティ",
+      "score": 80,
+      "score_reason": "監視技術の利用に対する法的な制限を示す重要な判決であり、プライバシーと技術の境界線に大きな影響を与えるためです。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "実務において敵対的レビューはどの程度有効なのか",
+      "url": "https://zenn.dev/edash_tech_blog/articles/4577f7d4780bef",
+      "source": "Zenn",
+      "published": "2026-10-01T10:48:47+00:00",
+      "summary": "AIエージェントにコードレビューをさせる「敵対的レビュー」手法の実務における有効性を検証した記事。\n複数エージェントの並列実行による時間・トークンコストや、細かい指摘の大量発生といった運用負荷の課題を指摘。\n実際の業務差分85件に対する検証データをもとに、重大な指摘の検出率や標準レビューとの比較を分析している。",
+      "tags": [
+        "コードレビュー",
+        "AIエージェント",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "AIエージェントを用いた敵対的コードレビューの実務におけるコストと効果のトレードオフを定量的に評価しており実用性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "日本企業「ハッキングされないでくれ」ランキング",
+      "url": "https://qiita.com/konaito/items/16a6d2c5da7d144efe95?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-10-02T10:12:24+00:00",
+      "summary": "近年相次ぐ国内企業の不正アクセスや情報漏洩事案を受け、漏洩時の社会的影響や個人への被害の深刻さを基準に業界別ランキングを考察。\n単なる金銭的被害だけでなく、免許証画像や行動履歴、病歴など「取り返しのつかない個人情報」の流出リスクに着目している。\nセキュリティ対策の重要性と、私たちが日常的に利用するサービスが抱える情報管理の重い責任について警鐘を鳴らす。",
+      "tags": [
+        "セキュリティ",
+        "情報漏洩",
+        "サイバーセキュリティ"
+      ],
+      "category": "セキュリティ",
+      "score": 80,
+      "score_reason": "最近の具体的な漏洩事例を交えつつ、情報資産の価値とセキュリティ侵害時の社会的影響を分かりやすく整理しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "法廷で被害者のAI生成動画が上映されたため、米国のあおり運転殺人犯の判決が破棄される",
+      "url": "https://www.reddit.com/r/technology/comments/1wwnhq6/us_road_rage_killers_sentence_quashed_because_ai/",
+      "source": "Reddit",
+      "published": "2026-10-03T13:38:11+00:00",
+      "summary": "米国のあおり運転殺人事件において、法廷で被害者のAI生成動画が証拠として上映されたため、被告の判決が破棄されました。\n裁判所は、AIによって作成された動画が陪審員に不当な感情的影響を与えた可能性があると判断しました。\n司法の場におけるAI生成コンテンツの証拠能力やその利用制限に関する議論に一石を投じています。",
+      "tags": [
+        "AI生成動画",
+        "司法",
+        "ディープフェイク"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "司法手続きにおけるAI生成コンテンツの証拠としての妥当性と倫理的課題を提起する極めて新規性の高い事例です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Git 2.56の主な変更点",
+      "url": "https://github.blog/open-source/git/highlights-from-git-2-56/",
+      "source": "GitHub Blog",
+      "published": "2026-09-28T17:23:33+00:00",
+      "summary": "オープンソースのGit 2.56.0がリリースされ、104名以上の貢献者による新機能やバグ修正が追加された。\nマージ競合の解決を安全に行うための新しいオプション「git add --resolved」が導入された。\nこの新機能は、競合マーカーが残っているファイルを誤ってステージングするのを防ぎ、開発者のワークフローを改善する。",
+      "tags": [
+        "Git",
+        "GitHub",
+        "バージョン管理"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 80,
+      "score_reason": "開発者にとって日常的な課題であるマージ競合の解決を安全に行う新機能が追加され、開発プロセスの信頼性向上に大きく寄与するため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "glibc の strlen は文字列範囲外を読むことで高速に計算する",
+      "url": "https://zenn.dev/peloeil/articles/glibc-strlen-2023",
+      "source": "Zenn",
+      "published": "2026-10-01T17:56:12+00:00",
+      "summary": "glibcのstrlen関数が、複数バイトをまとめて読みビット演算を行うことで高速化を図る仕組みを解説。\n文字列範囲外（隣のページなど）へのアクセスによるセグメンテーションフォールトを防ぐ境界処理の工夫を紹介。\n2023年の変更で加わった、文字列の先頭より前から読み始めることで先頭付近も高速処理するアルゴリズムを紐解く。",
+      "tags": [
+        "glibc",
+        "C言語",
+        "アルゴリズム"
+      ],
+      "category": "プログラミング言語",
+      "score": 78,
+      "score_reason": "低レイヤにおける標準ライブラリの極限の高速化手法とメモリ安全性の両立に関する解説は、技術的新規性と教育的価値が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "新しい日本語推敲スキル「yomiyasu」がバズっていたので、Claudeで日本語推敲スキル3つを比べてみた",
+      "url": "https://qiita.com/inoyu-qiita/items/0ffe6e74ecaf3aaa8b14?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-10-01T13:03:12+00:00",
+      "summary": "SNSで話題の日本語推敲プロンプト「yomiyasu」と、既存の2つの推敲スキルをClaudeを用いて比較検証した。\n「yomiyasu」は原文を活かしつつ文の骨格を修正し、「natural-japanese」は段落から再構成、「japanese-tech-writing」は技術文書向けに冗長さを削る特徴がある。\n同じLLMや原文でも、プロンプトの設計によって文章の修正方針や仕上がりに明確な個性の違いが出ることを示している。",
+      "tags": [
+        "Claude",
+        "LLM",
+        "プロンプト"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "LLMを活用した日本語推敲の実用的な比較であり、AIを用いたドキュメンテーションの効率化に役立つ情報であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ValveのTimur Kristóf氏によるLinux上の古いAMD GPUの改善作業",
+      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "source": "Hacker News",
+      "published": "2026-10-03T19:14:48+00:00",
+      "hn_score": 90,
+      "hn_comments": 10,
+      "summary": "Valveのエンジニアが、Linux環境における古いAMD製GPUのパフォーマンス改善に取り組んでいます。\nこの取り組みにより、古いハードウェアでも最新のLinuxゲーム環境がより快適に動作するようになります。\nValveのSteam DeckやLinuxゲーミングエコシステム全体の向上に寄与する活動です。",
+      "tags": [
+        "Linux",
+        "AMD",
+        "GPU"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 75,
+      "score_reason": "Linuxゲーミングの普及を推進するValveによる、古いハードウェアの寿命を延ばす重要なオープンソース貢献であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "連邦判事がFlockによる捜索を違憲と判断、AOCとバーニー・サンダース議員がナンバープレート読取装置禁止法案を提出",
+      "url": "https://www.reddit.com/r/technology/comments/1wwpqg7/federal_judge_calls_flock_search_unconstitutional/",
+      "source": "Reddit",
+      "published": "2026-10-03T15:16:24+00:00",
+      "summary": "米連邦地裁の判事が、Flock Safety社の監視システムを用いた捜索を違憲であると判断しました。\nこれを受け、オカシオ＝コルテス議員とサンダース議員が自動ナンバープレート読取装置の禁止法案を提出しました。\nプライバシー保護と警察による監視技術の利用を巡る議論が米国で急速に高まっています。",
+      "tags": [
+        "監視技術",
+        "プライバシー",
+        "法律"
+      ],
+      "category": "セキュリティ",
+      "score": 75,
+      "score_reason": "警察の監視技術に対する違憲判決と法案提出は、プライバシー保護と技術規制の観点から大きな影響を与えます。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "非エンジニアの私が、社内エンジニアと業務効率化ツールを作ってみた件",
+      "url": "https://qiita.com/ayanonn/items/411fc08854b9fe4c9be7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-10-02T01:48:01+00:00",
+      "summary": "非エンジニアの企画職が、社内エンジニアと協力してメルマガ作成業務を大幅に効率化するツールを開発した体験談。\n要件定義の具体化や境界値の考慮、非機能要件の重要性など、実際のシステム開発プロセスを通じて得た学びを記録している。\n見た目の美しさだけでなく、パフォーマンスやユーザー体験を考慮した「引き算の設計」の重要性に気づく過程が描かれている。",
+      "tags": [
+        "業務効率化",
+        "要件定義",
+        "コラボレーション"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 70,
+      "score_reason": "非エンジニアとエンジニアの協働プロセスや、要件定義における実践的な気づきが丁寧に言語化されており、実用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "米移民・関税執行局（ICE）が抗議活動参加者の写真をPalantirの監視データベースに登録",
+      "url": "https://www.reddit.com/r/technology/comments/1wws0rf/ice_put_protester_photos_into_palantirs/",
+      "source": "Reddit",
+      "published": "2026-10-03T16:54:23+00:00",
+      "summary": "米移民・関税執行局（ICE）が、抗議活動参加者の写真をPalantir社の監視データベースに登録していたことが判明しました。\nこの行為は、市民の監視や表現の自由に対する侵害として大きな批判を浴びています。\n政府機関による民間監視技術の利用実態と、その倫理的・法的な問題が改めて浮き彫りになりました。",
+      "tags": [
+        "監視データベース",
+        "プライバシー",
+        "Palantir"
+      ],
+      "category": "セキュリティ",
+      "score": 70,
+      "score_reason": "政府機関による民間データ分析ツールの乱用とプライバシー侵害の懸念を示す重要な事例です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "パラマウントとオラクルによる巨額の債務がラリー・エリソン氏のリスクを浮き彫りに",
+      "url": "https://www.reddit.com/r/technology/comments/1wwsbem/larry_ellison_risk_exposed_by_paramount_and/",
+      "source": "Reddit",
+      "published": "2026-10-03T17:06:41+00:00",
+      "summary": "オラクルの共同創業者ラリー・エリソン氏が、パラマウント・グローバルとオラクルによる巨額の債務蓄積によって財務リスクに直面しています。\n積極的な買収や投資戦略に伴う負債の増加が、同氏の資産や企業の安定性に与える影響が懸念されています。\nIT大手とエンターテインメント大手の財務状況が、業界のリーダーに及ぼすリスクを分析しています。",
+      "tags": [
+        "Oracle",
+        "財務リスク",
+        "M&A"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 65,
+      "score_reason": "大手IT企業の創業者に関連する財務リスクは、業界の投資動向や市場の信頼性に影響を及ぼす可能性があります。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ロダン美術館の3Dスキャン判決における裏切り",
+      "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+      "source": "Hacker News",
+      "published": "2026-10-03T18:01:27+00:00",
+      "hn_score": 56,
+      "hn_comments": 27,
+      "summary": "ロダン美術館が所有する彫刻の3Dスキャンデータに関する法的な争いと判決の解説記事です。\n美術館の著作権やパブリックドメインデータの公開を巡る対立が背景にあります。\n文化財のデジタルアーカイブ化とオープンデータ化における権利問題に一石を投じる内容となっています。",
+      "tags": [
+        "3Dスキャン",
+        "著作権",
+        "デジタルアーカイブ"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "文化財の3Dデータ化とパブリックドメインを巡る法的な判決であり、デジタル資産の権利関係において重要であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "どこかで聞いた「アウトプットしないことは知的な便秘である」って素晴らしい言葉だよなぁ！",
+      "url": "https://qiita.com/PDC-Kurashinak/items/bde0e380eeb04fa28f40?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-10-01T01:24:15+00:00",
+      "summary": "「アウトプットしないことは知的な便秘である」という言葉を切り口に、エンジニアにおけるアウトプットの重要性を考察している。\nアウトプットは単なる実績作りだけでなく、インプットの質を高め、知識の循環を生み出すために不可欠なプロセスであると主張。\n自分に適した周期と方法で、学んだ知識や考えを外に表現していくことのメリットを分かりやすく解説している。",
+      "tags": [
+        "キャリア",
+        "マインドセット",
+        "エンジニアリング"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "エンジニアの学習姿勢に関するエッセイであり、技術的な新規性は低いものの、キャリア形成や学習のモチベーション向上に役立つ内容であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "10代の頃に移植された腎臓の「100歳の誕生日」を祝う",
+      "url": "https://www.whec.com/top-news/webster-man-celebrating-the-100th-birthday-of-the-kidney-his-mom-donated-to-him-as-a-teenager/",
+      "source": "Hacker News",
+      "published": "2026-10-01T16:32:40+00:00",
+      "hn_score": 132,
+      "hn_comments": 40,
+      "summary": "1978年に16歳で母親から腎臓移植を受けた男性が、その腎臓の「100歳」の節目を祝いました。\n当時52歳だった母親の腎臓は、移植から48年が経過した現在も男性の体内で機能し続けています。\n臓器移植の長期的な成功例として、医療技術の歴史と家族の絆を示す心温まるニュースです。",
+      "tags": [
+        "医療技術",
+        "臓器移植",
+        "ヘルスケア"
+      ],
+      "category": "その他",
+      "score": 55,
+      "score_reason": "医療技術の長期的な有効性を示す非常に珍しい実例ですが、IT業界への直接的な影響は低いためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "私が救急救命士（EMT）にならなかった理由のランキング",
+      "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
+      "source": "Hacker News",
+      "published": "2026-10-03T20:49:15+00:00",
+      "hn_score": 64,
+      "hn_comments": 27,
+      "summary": "本職がソフトウェアエンジニアである著者が、救急救命士（EMT）の資格を取得した体験談を綴っています。\n膨大な予備時間の消費や、体育会系で燃え尽き症候群の多い業界カルチャーが障壁となったと分析しています。\n異業種への挑戦を通じて得た知見と、救急医療業界が抱える課題をエンジニアの視点から考察しています。",
+      "tags": [
+        "キャリア",
+        "救急救命士",
+        "エンジニアライフ"
+      ],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "エンジニアのキャリアや課外活動に関する個人的なエッセイであり、業界全体への直接的な影響は低いためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "地面に落としたネジをGrokに探してもらったらすぐ見つけてくれた話…画像処理におけるAIは強すぎる",
+      "url": "https://togetter.com/li/2753759",
+      "source": "はてなブックマーク",
+      "published": "2026-10-03T21:01:32+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Microsoft Digital Defense Report 2026 | Microsoft",
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/cybersecurity/reports/microsoft-digital-defense-report/",
+      "source": "はてなブックマーク",
+      "published": "2026-10-03T08:35:42+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "「決め方」の渡し方 / How to hand over the \"decision-making process\"",
+      "url": "https://speakerdeck.com/pauli/how-to-hand-over-the-decision-making-process",
+      "source": "はてなブックマーク",
+      "published": "2026-04-09T04:25:23+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "CSS の margin-trim でコンテナーの端の余白を取り除く",
+      "url": "https://azukiazusa.dev/blog/css-margin-trim/",
+      "source": "はてなブックマーク",
+      "published": "2026-10-02T15:01:33+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Google Cloud、ローカルマシンにインストールできる大規模分散型マルチモデルDB「Spanner Omni」正式版リリースを発表",
+      "url": "https://www.publickey1.jp/blog/26/google_clouddbspanner_omni.html",
+      "source": "Publickey",
+      "published": "2026-10-01T18:28:43+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false,
+      "topic_group": 2,
+      "topic_size": 2
+    },
+    {
+      "title": "JavaScriptの統合ツールチェーン「Vite+ 1.0」正式リリース。ランタイム、パッケージマネージャー、ビルドツール、リンター、フォーマッターなどを統一",
+      "url": "https://www.publickey1.jp/blog/26/javascriptvite_10.html",
+      "source": "Publickey",
+      "published": "2026-09-30T15:22:55+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Next.jsアプリをCloudflare WorkersやAWS LambdaなどVercel以外のサーバレス基盤へデプロイできる「Vinext 1.0」リリース",
+      "url": "https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html",
+      "source": "Publickey",
+      "published": "2026-09-30T15:10:38+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "WindowsでLinuxコンテナの作成や実行を可能にする「WSL Containers」正式リリース。コマンドラインとAPIから利用可能",
+      "url": "https://www.publickey1.jp/blog/26/windowslinuxwsl_containersapi.html",
+      "source": "Publickey",
+      "published": "2026-09-30T02:43:18+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Google Cloud、AIエージェントからの大量アクセスをPostgreSQLのプライマリDBから切り離せる「PostgreSQL for agents in AlloyDB」発表",
+      "url": "https://www.publickey1.jp/blog/26/google_cloudaipostgresqldbpostgresql_for_agents_in_alloydb.html",
+      "source": "Publickey",
+      "published": "2026-09-29T15:46:18+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false,
+      "topic_group": 2,
+      "topic_size": 2
+    },
+    {
+      "title": "I Read Claude's Biology Discovery as a Pipeline: 5 Lessons",
+      "url": "https://dev.to/kielltampubolon/i-read-claudes-biology-discovery-as-a-pipeline-5-lessons-kh4",
+      "source": "Dev.to",
+      "published": "2026-10-04T00:15:14+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "The BIN table said debit. The issuer said credit.",
+      "url": "https://dev.to/payneteasy/the-bin-table-said-debit-the-issuer-said-credit-57i5",
+      "source": "Dev.to",
+      "published": "2026-10-04T00:15:14+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "I Audited the MCP SDK OAuth Fix: 3 Checks Upgrading Misses",
+      "url": "https://dev.to/kielltampubolon/i-audited-the-mcp-sdk-oauth-fix-3-checks-upgrading-misses-54l7",
+      "source": "Dev.to",
+      "published": "2026-10-04T00:13:47+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Minimalist Backend Automation Techniques: An Engineer's Insight",
+      "url": "https://dev.to/kevin_jang_200b10826b3a5d/minimalist-backend-automation-techniques-an-engineers-insight-1jfc",
+      "source": "Dev.to",
+      "published": "2026-10-04T00:13:44+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "SFTP Explained: Secure File Transfers Over SSH",
+      "url": "https://dev.to/__3381495fd2b/sftp-explained-secure-file-transfers-over-ssh-1ied",
+      "source": "Dev.to",
+      "published": "2026-10-04T00:11:04+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "AI is changing developer work. Here are three skills to strengthen.",
+      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+      "source": "GitHub Blog",
+      "published": "2026-10-02T15:00:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "10 technical talks I’m excited about at GitHub Universe 2026",
+      "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
+      "source": "GitHub Blog",
+      "published": "2026-10-01T15:07:16+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Developer policy update: Transparency, state policy, and what’s ahead",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead/",
+      "source": "GitHub Blog",
+      "published": "2026-09-29T15:00:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "source": "GitHub Blog",
+      "published": "2026-09-28T19:00:00+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Hole Punch：重力場を利用して宇宙船をスリングショットするゲーム",
+      "url": "https://notoriousbfg.com/hole-punch/",
+      "source": "Hacker News",
+      "published": "2026-10-03T18:06:45+00:00",
+      "hn_score": 212,
+      "hn_comments": 55,
+      "summary": "重力場を利用して宇宙船を操作するWebベースの物理シミュレーションゲーム「Hole Punch」が公開されました。\nプレイヤーは重力を利用して宇宙船をスリングショットさせ、目的地を目指します。\nモバイル端末の横画面（ランドスケープモード）でのプレイに最適化されたシンプルなUIが特徴です。",
+      "tags": [
+        "Webゲーム",
+        "物理シミュレーション",
+        "インディーゲーム"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 40,
+      "score_reason": "個人開発のWebゲームであり、技術的な新規性や業界への影響度は限定的であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}

@@ -1,0 +1,794 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-08-08T07:45:39.846827+09:00",
+  "total_count": 48,
+  "success_count": 36,
+  "error_count": 12,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "次なるフロンティアである重大なサイバー能力への対応",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+      "source": "Hacker News",
+      "published": "2026-08-07T16:39:36+00:00",
+      "hn_score": 134,
+      "hn_comments": 151,
+      "summary": "OpenAIは開発中の新モデル「Astra」が、自律的なコーディングとサイバーセキュリティにおいて大幅に進化していると発表。\n評価の結果、人間の介入なしにゼロデイ脆弱性を特定・開発できる「重大なサイバー能力」の閾値に達する可能性が浮上した。\n同社は「Preparedness Framework」に基づき、この潜在的な能力シフトについて透明性を持って公開している。",
+      "tags": [
+        "OpenAI",
+        "サイバーセキュリティ",
+        "AI安全対策"
+      ],
+      "category": "セキュリティ",
+      "score": 92,
+      "score_reason": "OpenAIの次世代モデルが自律的なゼロデイ脆弱性の悪用など、国家安全保障に関わる重大なサイバー能力を持つ可能性を示唆しており、業界への影響が極めて大きいため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "マルウェアアドバイザリをnpm以外にも拡大した方法",
+      "url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+      "source": "GitHub Blog",
+      "published": "2026-08-06T16:51:12+00:00",
+      "summary": "GitHubがDependabotのマルウェア警告機能を、npmだけでなくPyPIなど計8つのエコシステムに拡大した経緯を解説。\nOpenSSFの共有マルウェアパッケージデータを活用することで、各エコシステムへの迅速な対応を実現。\n悪意のあるパッケージがインストール時に認証情報を盗むリスクに対し、サプライチェーンセキュリティを大幅に強化。",
+      "tags": [
+        "セキュリティ",
+        "GitHub",
+        "Dependabot"
+      ],
+      "category": "セキュリティ",
+      "score": 88,
+      "score_reason": "主要な8つのパッケージエコシステム全体でマルウェア検知が可能になり、オープンソースのサプライチェーンセキュリティを大きく向上させる取り組みです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "DeepSeek V4 Flash 0731",
+      "url": "https://arcprize.org/results/deepseek-v4-flash-0731",
+      "source": "Hacker News",
+      "published": "2026-08-07T17:56:20+00:00",
+      "hn_score": 351,
+      "hn_comments": 212,
+      "summary": "DeepSeekの新しいモデル「DeepSeek V4 Flash 0731」がARC-AGIベンチマークに挑戦した。\n最高負荷の設定において、ARC-AGI-1で89.0%、ARC-AGI-2で61.4%のスコアを達成。\n推論バリアントやタスクごとの詳細なパス・フェイル結果が公開されている。",
+      "tags": [
+        "DeepSeek",
+        "ARC-AGI",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "難関とされるARC-AGIベンチマークにおいて、DeepSeekの最新モデルが非常に高いスコアを記録したことは、AIの推論能力向上を示す重要な成果であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "LLM Wikiパターンの標準化 OKF(Open Knowledge Format)",
+      "url": "https://zenn.dev/finatext/articles/2ea88e4b1c2e5b",
+      "source": "Zenn",
+      "published": "2026-08-06T02:00:05+00:00",
+      "summary": "Google Cloudが発表した新しい仕様「Open Knowledge Format（OKF）」の概念を解説する記事。\nOKFは「Markdown + YAML」を用いて、LLMが再利用可能な構造化された知識（LLM Wiki）を標準化する。\nRAGの弱点を補うGraphRAGや、MCPによる「第二の脳」の操作といった周辺技術との関連性も示されている。",
+      "tags": [
+        "OKF",
+        "RAG",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "Google Cloudが提唱するLLM向け知識標準化仕様「OKF」は、今後のRAGやAIエージェント開発における知識管理のデファクトスタンダードになる可能性があり重要度が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Rust製のフルスタックWebアプリフレームワーク「Topcoat」登場。非同期ランタイム「Tokio」上でサーバサイドレンダリング、ルーティング、コンポーネントライブラリなど",
+      "url": "https://www.publickey1.jp/blog/26/rustwebtopcoattokio.html",
+      "source": "Publickey",
+      "published": "2026-08-03T15:42:58+00:00",
+      "summary": "Rustの非同期ランタイム「Tokio」の開発チームが、フルスタックWebフレームワーク「Topcoat」をリリースした。\nサーバーサイドレンダリング（SSR）を基盤とし、ルーティングやコンポーネントライブラリなどの機能を内包する。\nコード内に直接HTMLを記述でき、RustによるリアクティブなWebアプリケーション開発を容易にする。",
+      "tags": [
+        "Rust",
+        "Topcoat",
+        "Webフレームワーク"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 85,
+      "score_reason": "信頼性の高いTokioチームによるRust製フルスタックフレームワークの登場は、Web開発におけるRustの採用を大きく加速させる可能性があるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIが生成した巨大なプルリクエストをレビュー可能なスタックに分割する方法",
+      "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+      "source": "GitHub Blog",
+      "published": "2026-08-04T16:47:18+00:00",
+      "summary": "AIエージェントの普及に伴い、1,000行を超えるような巨大なプルリクエストが生成され、レビューが困難になる課題を指摘。\n巨大な変更を一度にマージするのではなく、小さく分割された「スタックされたプルリクエスト」として管理する手法を提案。\n開発者のレビュー負担を軽減しつつ、AIの高い生産性を維持するためのワークフローの重要性を解説。",
+      "tags": [
+        "GitHub",
+        "プルリクエスト",
+        "AIエージェント"
+      ],
+      "category": "その他",
+      "score": 85,
+      "score_reason": "AIによるコード生成が急増する現代において、レビュープロセスのボトルネックを解消するための実践的なワークフローを提案しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "途中で止めるな：メモリ速度でのソースコードのケースフォールディング",
+      "url": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
+      "source": "GitHub Blog",
+      "published": "2026-07-31T16:00:00+00:00",
+      "summary": "GitHubがコード検索エンジンBlackbirdにおけるケースフォールディングの高速化手法を公開。\n早期終了の最適化をあえて削除し、分岐なしでバッファ全体を走査することでメモリ速度での処理を実現。\nこの成果はRustのクレート「casefold」としてオープンソース化されている。",
+      "tags": [
+        "GitHub",
+        "Rust",
+        "パフォーマンス最適化"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "大規模なコード検索エンジンにおける低レイヤの最適化手法と、そのオープンソース化は、多くの開発者やシステム設計者にとって実用的な価値が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "40万件のAI承認を分析したら、見逃し率が3倍違った — 危ないものほど、ちゃんと止められている",
+      "url": "https://qiita.com/jqit_suwa/items/ac7d1201bd14e9a4e1ac?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-06T23:53:59+00:00",
+      "summary": "AIツール（Claude Code等）の実行承認データ40万件を分析し、人間の承認判断の傾向と課題を明らかにした記事。\n「rm -rf」のような一見して危険なコマンドは防げるが、文脈依存の「スコープ違反」は見逃されやすい。\n承認プロンプトの回数が増えるほど人間の注意力が低下するため、「気をつけて読む」以外の対策が必要と指摘。",
+      "tags": [
+        "Claude Code",
+        "AIセキュリティ",
+        "ヒューマンエラー"
+      ],
+      "category": "セキュリティ",
+      "score": 82,
+      "score_reason": "AIエージェントやCLIツールが普及する中で、人間の承認プロセスに潜むセキュリティリスクと認知の限界をデータで示した価値ある分析である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ConfluenceとGoogleドライブを対象とした社内アシスタントの構築",
+      "url": "https://dev.to/multigrid/build-an-internal-assistant-over-confluence-and-drive-26kb",
+      "source": "Dev.to",
+      "published": "2026-08-07T22:35:10+00:00",
+      "summary": "ConfluenceやGoogleドライブを対象とした社内向けAIアシスタント構築における、権限管理の重要性を解説する記事。\n社内システムでは検索精度よりも、ユーザーが閲覧を許可されている情報のみを回答する「認可」が最優先される。\n各ソースの異なる権限モデルをインデックス時に不透明なIDセットとして正規化し、デフォルト拒否の原則を適用する設計を提案している。",
+      "tags": [
+        "RAG",
+        "セキュリティ",
+        "アクセス制御"
+      ],
+      "category": "セキュリティ",
+      "score": 82,
+      "score_reason": "実務におけるRAG（検索拡張生成）の最大の障壁である権限管理に対し、具体的かつ堅牢なアーキテクチャ設計を提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHubの法務チームがCopilot CLIを活用して業務を効率化した方法",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
+      "source": "GitHub Blog",
+      "published": "2026-08-04T19:02:34+00:00",
+      "summary": "非技術職であるGitHubの法務チームが、GitHub Copilot CLIを用いて自ら業務効率化ツールを構築した事例を紹介。\n契約書のレビューや法的な質問への回答といった、反復的で定型的な業務の自動化にAIを活用。\n自然言語での指示により、プログラミング未経験者でも「自分でツールを作る」という文化がチーム内に浸透したプロセスを解説。",
+      "tags": [
+        "GitHub Copilot",
+        "ノーコード・ローコード",
+        "業務効率化"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 82,
+      "score_reason": "非エンジニアが生成AIを活用して自らツールを開発し、業務を効率化する具体的な成功事例として、今後のAI普及の方向性を示しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "58% の Pull Request を AI が承認するようになった",
+      "url": "https://zenn.dev/she_techblog/articles/937836550dfdf3",
+      "source": "Zenn",
+      "published": "2026-08-06T21:10:44+00:00",
+      "summary": "開発のボトルネックとなっていたPRレビューのリードタイムを削減するため、AIがコードレビューとApprove判断まで行う仕組みを導入した事例。\n過去のPRを分析した結果、約6割が無言のApproveだったことから、人間がレビューすべき重要な変更基準を定義し、それ以外をAIに任せる方針をとった。\nAIによる自動Approveの導入により、品質を担保しつつ開発のリードタイムを大幅に短縮することに成功している。",
+      "tags": [
+        "コードレビュー",
+        "AI活用",
+        "GitHub"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "AIを単なるコード生成だけでなく、意思決定（Approve）プロセスに組み込んで開発効率を劇的に向上させた極めて実用的な事例であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Web API設計の現在地2026",
+      "url": "https://qiita.com/tatsuya582/items/a800739c02eadff68c70?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-07T03:06:02+00:00",
+      "summary": "2026年時点におけるWeb API設計の最新標準やデファクトスタンダードを一次情報に基づきまとめた記事。\nエラーレスポンスの標準仕様であるRFC 9457（Problem Details）の普及と、各言語フレームワークの対応状況を解説。\nAPI設計者が「仕様に従う、なければデファクトに従う」ための現代的な指針を提示している。",
+      "tags": [
+        "Web API",
+        "RFC 9457",
+        "API設計"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 80,
+      "score_reason": "2026年現在のWeb API設計における最新のRFCや標準仕様を整理しており、バックエンド開発者にとって実用性が非常に高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "アプリが遅い原因をAIがトレースログから分析してくれる「Windows Performance Analyzer MCP」（WPA MCP）、マイクロソフトがプレビュー公開",
+      "url": "https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html",
+      "source": "Publickey",
+      "published": "2026-08-04T15:36:16+00:00",
+      "summary": "マイクロソフトは、アプリの遅延原因をAIがトレースログから分析する「WPA MCP」のプレビュー版を公開した。\n従来の複雑なWindows Performance Analyzerの操作にGitHub Copilot CLIを統合している。\n開発者は自然言語で質問や指示を行うだけで、ボトルネックの特定や関連データの抽出が可能になる。",
+      "tags": [
+        "Windows",
+        "GitHub Copilot",
+        "パフォーマンス分析"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "専門知識が必要だったWindowsのパフォーマンス分析をAIの力で民主化し、開発効率を大幅に向上させる可能性があるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "複雑なSaaSでGoogle Lighthouseスコア100/100を達成した方法",
+      "url": "https://dev.to/chobh1024/how-we-reached-100100-google-lighthouse-score-on-a-complex-saas-3n29",
+      "source": "Dev.to",
+      "published": "2026-08-07T22:35:05+00:00",
+      "summary": "複雑なSaaSにおいてGoogle Lighthouseでオール100のスコアを達成するための技術的アプローチを解説する記事。\n単純なループ処理によるAPI呼び出しを、Promise.allを用いた並行バッチ処理へと最適化するパターンを提示している。\nこの最適化により、レスポンス時間を最大75%削減し、CPUスパイクを抑えつつ保守性の高いコードを実現した。",
+      "tags": [
+        "パフォーマンス最適化",
+        "Google Lighthouse",
+        "JavaScript"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 80,
+      "score_reason": "SaaS開発で直面しやすいパフォーマンス低下に対し、具体的かつ即効性のあるコードパターンと成果を示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ブラウザからモデルへ画像を送信する方法",
+      "url": "https://dev.to/multigrid/sending-an-image-to-a-model-from-the-browser-8bd",
+      "source": "Dev.to",
+      "published": "2026-08-07T22:31:57+00:00",
+      "summary": "モバイル端末で撮影した大容量画像を、ブラウザ側でリサイズしてからビジョンモデルに送信する利点を解説。\nビジョンモデルは画像を固定サイズのタイルに分割して処理するため、画像サイズがコストに直結する仕組みを説明。\nプロバイダーごとの計算式を用いて、コストとアップロード速度を最適化するための実践的なアプローチを提示。",
+      "tags": [
+        "AI",
+        "画像処理",
+        "フロントエンド"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 80,
+      "score_reason": "ビジョンLLMの利用コストを削減するためのブラウザ側での画像リサイズ手法を、具体的な計算式とともに解説しており実用性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "面白くない自作パズルをAIに8,000回プレイさせたら原因がわかった！",
+      "url": "https://zenn.dev/xtone/articles/masshiro-ai-playtest",
+      "source": "Zenn",
+      "published": "2026-08-06T10:27:14+00:00",
+      "summary": "自作の落ち物パズルゲームが面白くない原因を突き止めるため、ゲームロジックを切り出してAIに8,000回プレイテストさせた検証記事。\n4種類の異なるアルゴリズムを持つAIにプレイさせた統計データを分析した結果、ゲームの仕様上「連鎖が一度も起きていない」という致命的な問題が判明した。\n人手では膨大な時間がかかるプレイテストを、シミュレータとAIを用いることでわずか10分で完了し、ゲームデザインの欠陥を特定した。",
+      "tags": [
+        "ゲーム開発",
+        "AIプレイテスト",
+        "Unity"
+      ],
+      "category": "その他",
+      "score": 78,
+      "score_reason": "AIを用いた自動プレイテストにより、ゲームの面白さという抽象的な課題をデータに基づいて定量的に解決したユニークで実用的なアプローチであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "鍵を渡さず・文脈を可視化する — マルチエージェント管理デスクトップアプリ「moeca」を個人開発している話",
+      "url": "https://qiita.com/can-can/items/ec8cd4dd183e12ac5781?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-07T06:29:29+00:00",
+      "summary": "マルチエージェントのタスク管理、実行、監査、文脈最適化を1つで行うデスクトップアプリ「moeca」の個人開発記。\nエージェントを信頼せず、動ける場所（サンドボックス）と見える文脈を人間が完全に制御する設計思想を持つ。\nセキュリティの担保と、エージェント間のやり取りや文脈の可視化（A2Aログなど）を両立させている。",
+      "tags": [
+        "AIエージェント",
+        "個人開発",
+        "セキュリティ"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "実用的なマルチエージェント制御とセキュリティ対策を個人開発レベルで具現化しており、エージェント活用における課題解決の参考になる。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ゼロからの評価セットの構築",
+      "url": "https://dev.to/multigrid/building-an-eval-set-from-scratch-3g7k",
+      "source": "Dev.to",
+      "published": "2026-08-07T22:35:07+00:00",
+      "summary": "LLMなどの評価において、公開ベンチマークではなく自社データから独自の評価セットを構築する手法を解説する記事。\n評価セットは単に「品質を測る」ためではなく、特定の意思決定をサポートするために目的を絞って作成すべきである。\n統計的な限界（Wilsonスコア区間）を理解し、少数のサンプル数で判断できる精度の限界を認識することの重要性を説いている。",
+      "tags": [
+        "LLM評価",
+        "データ分析",
+        "統計学"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "LLMアプリケーションのプロダクション運用において不可欠な「評価」について、統計的な観点から実用的なアプローチを提供しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub Copilotアプリにおけるスラッシュコマンドのガイド",
+      "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
+      "source": "GitHub Blog",
+      "published": "2026-08-06T19:49:34+00:00",
+      "summary": "GitHub Copilotアプリで利用可能なスラッシュコマンドの機能と活用方法を紹介。\nCLI版のスラッシュコマンドがターミナル操作向けであるのに対し、アプリ版はワークフロー管理に特化している。\nコマンドを使用することで、コンテキストの切り替えやセッション管理を迅速に行い、開発の集中力を維持できる。",
+      "tags": [
+        "GitHub Copilot",
+        "AIアシスタント",
+        "開発ツール"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "開発者の生産性を向上させるGitHub Copilotアプリのスラッシュコマンドの具体的な活用法とCLIとの違いを明確に示しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ウッドペッカー蒸留：弱いモデルが強いモデルの推論バグを診断する",
+      "url": "https://arxiv.org/abs/2608.05168",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-07T04:00:00+00:00",
+      "summary": "能力の低い「弱いモデル」を用いて、能力の高い「強いモデル」の推論バグを診断する手法「Woodpecker Distillation」を提案。\n強力なLLMの推論プロセスにおける誤りや脆弱性を、軽量なモデルで効率的に検出するアプローチ。\nモデルのデバッグやアライメント、信頼性向上における新たな蒸留手法として期待される。",
+      "tags": [
+        "知識蒸留",
+        "LLMデバッグ",
+        "推論能力"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "弱いモデルで強いモデルを診断するという逆転の発想によるデバッグ手法は、LLMの信頼性向上において実用的かつ新規性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "労働者階級全体が自身のキャリアへの信頼を失ったら何が起きるのか",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "source": "Hacker News",
+      "published": "2026-08-07T12:42:27+00:00",
+      "hn_score": 292,
+      "hn_comments": 425,
+      "summary": "IT・テック業界のナレッジワーカーたちの間で、自身のキャリアに対する失望や虚無感が広がっている。\nAIの導入や業務の抽象化が進む中、多くの人が編み物や陶芸などの手作業を伴うアナログな趣味に誇りを見出している。\nデジタルな成果物に対する実感が薄れる現代において、労働者が直面する精神的な変化を考察している。",
+      "tags": [
+        "キャリア",
+        "メンタルヘルス",
+        "テック業界"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "AIの台頭や業務の効率化が進むテック業界において、エンジニアやナレッジワーカーの労働観やメンタルヘルスの変化という重要な社会的課題を提起しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Oracle、OpenJDKへのAI生成コードの投稿を禁止",
+      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "source": "Hacker News",
+      "published": "2026-08-07T17:36:30+00:00",
+      "hn_score": 332,
+      "hn_comments": 232,
+      "summary": "Oracleは、安全性、セキュリティ、知的財産のリスクを理由に、OpenJDKへのAI生成コードの寄稿を禁止した。\n開発者はデバッグやコードレビューにLLMを私的に利用できるが、リポジトリへのAI生成物の提出は認められない。\nこの方針は、AIが自社のコードを書いているとするラリー・エリソン氏の主張など、Oracleの社内実践とは対照的である。",
+      "tags": [
+        "Oracle",
+        "OpenJDK",
+        "AI生成コード"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "主要なオープンソースプロジェクトであるOpenJDKにおけるAI生成コードの禁止は、今後のOSS開発やライセンス管理に大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "1Password、ダッシュボードから組織のAI支出状況を表示する新機能。ClaudeやCursor、ChatGPTなど複数AIに対応",
+      "url": "https://www.publickey1.jp/blog/26/1passwordaiclaudecursorchatgptaii.html",
+      "source": "Publickey",
+      "published": "2026-08-04T15:38:32+00:00",
+      "summary": "1Passwordは、組織内の複数AIサービスの支出状況をリアルタイムに管理できる新機能を発表した。\nClaudeやChatGPT、Cursorなどの消費量に応じたコストをダッシュボードで一元的に把握できる。\n予算設定やアラート機能により、予算超過を防ぎ、消費予測を立てることが可能になる。",
+      "tags": [
+        "1Password",
+        "SaaS管理",
+        "コスト最適化"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "企業のAI導入が進む中で、シャドーAIの防止やコスト管理を1Passwordという普及したツールで実現できる実用性の高い機能であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "内なるガンダルフを呼び覚ます：Go言語の並行処理パターン",
+      "url": "https://dev.to/timevolt/channeling-my-inner-gandalf-go-concurrency-patterns-403c",
+      "source": "Dev.to",
+      "published": "2026-08-07T22:35:02+00:00",
+      "summary": "Go言語の並行処理（goroutineとchannel）における落とし穴とパターンを解説する記事。\nチャネルの初期値がnilである場合、送受信時に永久にブロックされるという罠を自身の経験から紹介。\nnilチャネルの特性を理解することで、条件付き並行処理などの強力なツールとして活用する方法を提案。",
+      "tags": [
+        "Go",
+        "並行処理",
+        "プログラミング"
+      ],
+      "category": "プログラミング言語",
+      "score": 75,
+      "score_reason": "Go言語における並行処理の落とし穴と、nilチャネルを活用した実践的なパターンを分かりやすく解説しており、実用性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "SkillTrace：LLMエージェントのスキル再利用におけるマルチトレース・プロベナンス監査",
+      "url": "https://arxiv.org/abs/2608.05204",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-07T04:00:00+00:00",
+      "summary": "LLMエージェントが獲得・再利用するスキルの履歴（プロベナンス）を監査する手法「SkillTrace」を提案。\n複数の実行トレースを追跡し、エージェントがどのようにスキルを適用・再利用したかを明確にする。\nAIエージェントの動作の透明性、信頼性、およびセキュリティの向上に寄与する。",
+      "tags": [
+        "AIエージェント",
+        "監査・追跡",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "LLMエージェントの自律的なスキル利用に対する監査手法は、エージェントの信頼性と安全性を担保する上で極めて重要です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "イグニッション・インデックス：言語モデルにおけるグローバル・ワークスペース・ダイナミクスの測定",
+      "url": "https://arxiv.org/abs/2608.05160",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-07T04:00:00+00:00",
+      "summary": "言語モデルにおける「グローバル・ワークスペース（大脳皮質の情報共有機構）」の動態を測定する指標「Ignition Index」を提案。\nモデル内部での情報の統合や処理の活性化状態を定量的に評価する手法を開発。\nLLMの認知科学的アプローチによる内部メカニズムの理解と評価に貢献する。",
+      "tags": [
+        "LLM",
+        "認知科学",
+        "モデル評価"
+      ],
+      "category": "AI・機械学習",
+      "score": 72,
+      "score_reason": "言語モデルの内部動態を脳科学・認知科学的アプローチで評価する新しい指標であり、学術的な新規性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "アセンブリの恥晒し殿堂（Assembly Hall of Shame）",
+      "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
+      "source": "Hacker News",
+      "published": "2026-08-07T18:01:30+00:00",
+      "hn_score": 193,
+      "hn_comments": 44,
+      "summary": "コードの高速化とは逆に、単一アセンブリ命令の実行速度を極限まで遅くするプロジェクト。\nAMD Ryzen 7 5800H上で、PCIeファブリックの競合などを利用し、1命令に62秒（約1980億サイクル）を費やすことに成功。\n割り込み不可などの厳格なルールの下で、ハードウェアの限界や設計の隙を突く試みが行われている。",
+      "tags": [
+        "Assembly",
+        "CPU",
+        "低レイヤ"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "実用性はないものの、CPUやPCIeバスの極端な挙動を理解するためのユニークで技術的に高度な低レイヤの実験であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "手を動かしてStacked pull requestのgh stackを理解してみた",
+      "url": "https://zenn.dev/kesin11/articles/20260806_stacked_pr",
+      "source": "Zenn",
+      "published": "2026-08-06T23:00:05+00:00",
+      "summary": "GitHubがパブリックプレビューとして公開した「Stacked pull requests」機能を実際に試した解説記事。\n1つの大きなPRを作るのではなく、複数の小さなPRに分割して実装していく開発手法をGitHub UI上でサポートする。\nCLI拡張機能である「gh-stack」のセットアップから、実際のブランチ作成や初期化手順を具体的に紹介している。",
+      "tags": [
+        "GitHub",
+        "Git",
+        "gh-stack"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "GitHubの新機能であるStacked PRsの実践的な導入手順を示しており、開発ワークフローの効率化に直結する有用な情報であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIで完成度を上げたい、でも人間味のない完璧すぎる作品は嫌だ",
+      "url": "https://qiita.com/sumomoo/items/cfe3c47453968b2d3c29?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-07T09:20:59+00:00",
+      "summary": "AIエージェントの制御環境を整える「ハーネス」や「ループエンジニアリング」など、AI活用の最新トレンドを解説。\nAIが成果物のクオリティを7〜8割まで底上げする時代において、人間の役割は「仕組み作り」へとシフトしている。\n最終的な「10割」への仕上げやこだわりといった、人間ならではの付加価値の重要性を考察している。",
+      "tags": [
+        "AIエージェント",
+        "プロンプトエンジニアリング",
+        "生産性向上"
+      ],
+      "category": "AI・機械学習",
+      "score": 70,
+      "score_reason": "AIエージェントの最新の制御思想を分かりやすく解説し、今後のエンジニアとAIの協業のあり方に一石を投じている。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "エージェンティック・ネスティング：既存のエンタープライズアプリケーション統合とサービスのための新しい手法",
+      "url": "https://arxiv.org/abs/2608.05159",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-07T04:00:00+00:00",
+      "summary": "既存のエンタープライズアプリケーションやサービスを統合するための新しい手法「Agentic Nesting」を提案。\nAIエージェントをネスト（入れ子）構造で配置し、複雑な業務プロセスの自動化やシステム連携を効率化する。\nエンタープライズITにおけるLLMエージェントの適用とシステム統合の新たなアプローチを示す。",
+      "tags": [
+        "AIエージェント",
+        "システム統合",
+        "エンタープライズ"
+      ],
+      "category": "AI・機械学習",
+      "score": 70,
+      "score_reason": "既存のエンタープライズシステムとAIエージェントの統合手法は、実務でのAI活用において重要なテーマです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "連続予測因子から臨床的閾値へ：虚血性脳卒中の転帰予測におけるガイドラインに基づくカテゴリ化の性能トレードオフに関する初期の証拠",
+      "url": "https://arxiv.org/abs/2608.05203",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-07T04:00:00+00:00",
+      "summary": "虚血性脳卒中の転帰予測において、連続的な予測因子をガイドラインに基づくカテゴリ（閾値）に分類する際の影響を調査。\nカテゴリ化を行うことによる予測モデルの性能低下と、臨床現場での解釈性の向上とのトレードオフを分析。\n医療AIの社会実装における、実用性と予測精度のバランスに関する重要な知見を提供。",
+      "tags": [
+        "医療AI",
+        "予測モデル",
+        "臨床意思決定"
+      ],
+      "category": "AI・機械学習",
+      "score": 68,
+      "score_reason": "医療分野におけるAIモデルの解釈性と精度のトレードオフに関する実証研究であり、特定の応用領域において重要です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "50万個の超巨大ブラックホールを捉えた全天マップ",
+      "url": "https://www.sdss.org/black-hole-mapper-release-20/",
+      "source": "Hacker News",
+      "published": "2026-08-07T15:24:53+00:00",
+      "hn_score": 122,
+      "hn_comments": 33,
+      "summary": "スローン・デジタル・スカイ・サーベイ（SDSS）が、新たな観測データ「Data Release 20」を公開した。\n「Black Hole Mapper」プログラムにより、宇宙全体に存在する50万個の超巨大ブラックホールの質量や成長過程をマッピング。\n南半球での初の光学観測データや、宇宙望遠鏡のX線データと連携したマルチ波長での発見が含まれている。",
+      "tags": [
+        "宇宙物理学",
+        "データリリース",
+        "SDSS"
+      ],
+      "category": "その他",
+      "score": 65,
+      "score_reason": "天文学における大規模なオープンデータ公開であり、宇宙物理学の研究を大きく前進させる価値があるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Kaggle ROGIIコンペ振り返りー192nd Place Solution",
+      "url": "https://zenn.dev/fusic/articles/240bd206835c53",
+      "source": "Zenn",
+      "published": "2026-08-06T22:00:05+00:00",
+      "summary": "Kaggleの「ROGII - Wellbore Geology Prediction」コンペにおいて、銀メダルを獲得した解法の振り返り記事。\n井戸のガンマ線系列を対応付けるタスクに対し、行単位の回帰から井戸全体を1サンプルとする2次元モデル（CNN-SDF）へ方針転換した経緯を解説。\n残差U-Netを用いたモデルの実装や、評価指標の特性に合わせたバリデーション設計の重要性について述べている。",
+      "tags": [
+        "Kaggle",
+        "機械学習",
+        "CNN"
+      ],
+      "category": "AI・機械学習",
+      "score": 65,
+      "score_reason": "実際のコンペティションにおける試行錯誤と、時系列・空間データを扱うディープラーニングモデルの具体的なアプローチが共有されているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "古代図書館 – 1,060のギリシャ語・ラテン語テキスト、クリックで単語を解析",
+      "url": "https://ancientlibrary.net/",
+      "source": "Hacker News",
+      "published": "2026-08-07T18:51:14+00:00",
+      "hn_score": 100,
+      "hn_comments": 35,
+      "summary": "ギリシャ語とラテン語の古典文学作品1,060点を収録したオンライン読解プラットフォーム。\nテキスト内の任意の単語をクリックするだけで、その原形や文法構造、詳細な辞書データが表示される。\nラテン語のLewis & Short、ギリシャ語のLiddell-Scott-Jonesといった標準的な辞書と連携している。",
+      "tags": [
+        "Webサービス",
+        "人文学",
+        "データベース"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 60,
+      "score_reason": "古典言語の学習や研究を大幅に効率化する実用的なWebツールであり、ニッチながらも完成度が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "OCamlにおけるガード付きメソッド",
+      "url": "https://xvw.lol/en/articles/oop-refl.html",
+      "source": "Hacker News",
+      "published": "2026-08-03T16:15:44+00:00",
+      "hn_score": 35,
+      "hn_comments": 1,
+      "summary": "ガード付きメソッドは、特定のメソッドに対してのみレシーバに制約を付与し、条件を満たす場合のみ呼び出し可能にする機能である。\nOCamlは構文的にこの機能を直接サポートしていないが、型等価性証明を用いてエンコードする方法を紹介している。\nクラス全体ではなく特定のメソッドのみに型制約を適用したい場合に、非常に有用なテクニックとなる。",
+      "tags": [
+        "OCaml",
+        "型システム",
+        "オブジェクト指向"
+      ],
+      "category": "プログラミング言語",
+      "score": 60,
+      "score_reason": "OCamlの型システムを活用した高度なプログラミング手法の解説であり、言語仕様の理解を深める学術的・実用的な価値があるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Flock Is Losing Dozens of Contracts as Controversy Grows",
+      "url": "https://www.reddit.com/r/technology/comments/1vi9e6b/flock_is_losing_dozens_of_contracts_as/",
+      "source": "Reddit",
+      "published": "2026-08-07T18:55:56+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"議論が高まる中、Flockが数十件の契約を失う\",\n    \"summary\": \"監視カメラやナンバープレート認識技術を提供するFl",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "YouTube’s AI slop detector incorrectly targets Kurzgesagt as other creators fear same fate",
+      "url": "https://www.reddit.com/r/technology/comments/1vi2r6h/youtubes_ai_slop_detector_incorrectly_targets/",
+      "source": "Reddit",
+      "published": "2026-08-07T14:50:41+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"議論が高まる中、Flockが数十件の契約を失う\",\n    \"summary\": \"監視カメラやナンバープレート認識技術を提供するFl",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Canada investigating how Skyrim username mixup sent innocent man to prison for 18 months",
+      "url": "https://www.reddit.com/r/technology/comments/1vi9jkc/canada_investigating_how_skyrim_username_mixup/",
+      "source": "Reddit",
+      "published": "2026-08-07T19:01:28+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"議論が高まる中、Flockが数十件の契約を失う\",\n    \"summary\": \"監視カメラやナンバープレート認識技術を提供するFl",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "City That Arrested Person for Clapping at Data Center Meeting Moves to Virtual Townhalls for 'Public Safety' / A small town in Kansas took its city meetings virtual and ended public comment after city leaders received a wave of death threats.",
+      "url": "https://www.reddit.com/r/technology/comments/1vi2xzw/city_that_arrested_person_for_clapping_at_data/",
+      "source": "Reddit",
+      "published": "2026-08-07T14:57:46+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"議論が高まる中、Flockが数十件の契約を失う\",\n    \"summary\": \"監視カメラやナンバープレート認識技術を提供するFl",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Japan warns US government to stop using Nintendo and Pokemon in memes",
+      "url": "https://www.reddit.com/r/technology/comments/1vi8lxl/japan_warns_us_government_to_stop_using_nintendo/",
+      "source": "Reddit",
+      "published": "2026-08-07T18:26:48+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"議論が高まる中、Flockが数十件の契約を失う\",\n    \"summary\": \"監視カメラやナンバープレート認識技術を提供するFl",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "ブックマーカー図鑑 3298 人収録　気づけば3000人超えてたよ 収録予定 http..",
+      "url": "https://anond.hatelabo.jp/20260807233039",
+      "source": "はてなブックマーク",
+      "published": "2026-08-07T14:35:37+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"議論が高まる中、Flockが数十件の契約を失う\",\n    \"summary\": \"監視カメラやナンバープレート認識技術を提供するFl",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "テストが増えすぎてもう限界だったので、PRで全テストを回すのをやめた話 - Timee Product Team Blog",
+      "url": "https://tech.timee.co.jp/entry/2026/08/07/164910",
+      "source": "はてなブックマーク",
+      "published": "2026-08-07T09:53:34+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"テストが増えすぎてもう限界だったので、PRで全テストを回すのをやめた話 - Timee Product Team Blog\",\n   ",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "KDDI、楽天へのローミングを9月末で終了",
+      "url": "https://k-tai.watch.impress.co.jp/docs/news/2131649.html",
+      "source": "はてなブックマーク",
+      "published": "2026-08-07T08:59:02+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"テストが増えすぎてもう限界だったので、PRで全テストを回すのをやめた話 - Timee Product Team Blog\",\n   ",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Google マップの新機能「マップに相談」を日本で提供開始",
+      "url": "https://blog.google/intl/ja-jp/products/connect-communicate/japanese-ask-maps/",
+      "source": "はてなブックマーク",
+      "published": "2026-08-07T05:00:57+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"テストが増えすぎてもう限界だったので、PRで全テストを回すのをやめた話 - Timee Product Team Blog\",\n   ",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "不審な国際電話番号から「海外不正利用でクレジットカードを止めた」と連絡があり、本人確認のためとフルネームと生年月日を聞かれたので、「ひろゆき氏」のものを伝えると「本人確認が取れました」",
+      "url": "https://togetter.com/li/2730285",
+      "source": "はてなブックマーク",
+      "published": "2026-08-07T15:01:44+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"テストが増えすぎてもう限界だったので、PRで全テストを回すのをやめた話 - Timee Product Team Blog\",\n   ",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "ミッチェル・ハシモト氏が新会社「Superlogical」を設立、あらゆる仕事に使えるマルチプレクサの開発へ",
+      "url": "https://www.publickey1.jp/blog/26/superlogical.html",
+      "source": "Publickey",
+      "published": "2026-08-06T15:26:54+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"テストが増えすぎてもう限界だったので、PRで全テストを回すのをやめた話 - Timee Product Team Blog\",\n   ",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "npm代替を目指すセキュリティファーストなパッケージマネージャ「vlt」バージョン1.0に到達。npmのミラーレジストリ、プライベートレジストリも提供開始",
+      "url": "https://www.publickey1.jp/blog/26/npmvlt10npm.html",
+      "source": "Publickey",
+      "published": "2026-08-05T18:03:20+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"テストが増えすぎてもう限界だったので、PRで全テストを回すのをやめた話 - Timee Product Team Blog\",\n   ",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "OS？カーネル開発？聞いたことありませんねその単語🤔【ITパスポート】",
+      "url": "https://qiita.com/prumnn/items/4da8a4aa027730db23e0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-07T09:18:41+00:00",
+      "summary": "ITパスポート試験の勉強をきっかけに、身近なスマホの「OS」が何であるかを初心者向けに解説した記事。\nOSがハードウェアとアプリケーションの間でシステム全体を管理・制御する基本ソフトウェアであることを説明。\nミドルウェアやファームウェア、応用ソフトウェアとの階層や役割の違いを分かりやすく整理している。",
+      "tags": [
+        "OS",
+        "ITパスポート",
+        "初心者向け"
+      ],
+      "category": "その他",
+      "score": 45,
+      "score_reason": "初学者向けのITパスポート試験対策および基礎知識の解説記事であり、業界全体への技術的新規性や影響度は限定的である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}

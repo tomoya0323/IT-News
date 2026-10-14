@@ -1,0 +1,801 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-08-15T07:31:29.665737+09:00",
+  "total_count": 47,
+  "success_count": 41,
+  "error_count": 6,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "パスキーはなぜ「盗まれても意味がない」と言えるのか — 公開鍵暗号方式で理解する新しい認証",
+      "url": "https://qiita.com/gts/items/8d3c14dabff88d8f1901?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-12T22:10:37+00:00",
+      "summary": "パスキーは公開鍵暗号方式を採用しており、認証時に秘密鍵をサーバーに一切送信しない設計になっています。\n指紋や顔認証はローカルでの本人確認にのみ使用され、生体情報がネットワークを流れることはありません。\nブラウザとOSがドメインを照合して署名を行うため、偽サイトによるフィッシング詐欺を構造的に防ぐことができます。",
+      "tags": [
+        "パスキー",
+        "公開鍵暗号",
+        "認証"
+      ],
+      "category": "セキュリティ",
+      "score": 90,
+      "score_reason": "普及が進むパスキーの安全性の仕組みを、公開鍵暗号の観点から技術的かつ分かりやすく解説しており実用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート",
+      "url": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
+      "source": "Publickey",
+      "published": "2026-08-09T15:19:33+00:00",
+      "summary": "異なるAIエージェント間でスキルやMCPサーバ設定を共通化する「Agent Plugins 1.0.0」が発表されました。\nマイクロソフト、OpenAI、AWS、Googleなどの主要テック企業がこの仕様をサポートしています。\nベンダーごとに異なっていた設定方法が標準化され、ユーザーの利便性が大幅に向上します。",
+      "tags": [
+        "Agent Plugins",
+        "AIエージェント",
+        "標準化仕様"
+      ],
+      "category": "AI・機械学習",
+      "score": 90,
+      "score_reason": "主要なAIベンダーが共同でエージェントの共通仕様を策定したことは、AIエコシステムの相互運用性を飛躍的に高める極めて重要な動きであるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Googleが準同型暗号によりプライベートAIを実用化へ",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "source": "Hacker News",
+      "published": "2026-08-14T15:43:10+00:00",
+      "hn_score": 219,
+      "hn_comments": 137,
+      "summary": "Googleは、暗号化したままデータを処理できる「準同型暗号」を用いたプライベートAI推論のためのオープンソースコンパイラ「HEIR」を発表しました。\nこれにより、医療や金融などの機密データを扱う分野でも、データを外部に公開することなくクラウドAIを活用可能になります。\n従来は計算コストが課題だった準同型暗号を、実用的なレベルに引き上げるための重要な一歩となります。",
+      "tags": [
+        "準同型暗号",
+        "プライバシー",
+        "Google"
+      ],
+      "category": "セキュリティ",
+      "score": 88,
+      "score_reason": "プライバシー保護とAI活用の両立における最大の技術的障壁である準同型暗号の実用化を推進する、極めて重要なオープンソースツールであるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "続・貧者のアークテクチャ：Next.js + Cloudflare Workers + Turso 本番運用で踏んだ罠ぜんぶ",
+      "url": "https://zenn.dev/nabettu/articles/a964f988e7cc75",
+      "source": "Zenn",
+      "published": "2026-08-13T05:44:16+00:00",
+      "summary": "Next.js、Cloudflare Workers、Tursoを組み合わせた超低コストな本番運用構成における罠と対処法を解説しています。\nnext/imageやnext/linkの制限に対し、ESLintによる禁止と代替ヘルパーの導入で対応しています。\nTCP永続接続がないことによるDB往復遅延に対し、Smart Placementの有効化やクエリ最適化で解決を図っています。",
+      "tags": [
+        "Next.js",
+        "Cloudflare Workers",
+        "Turso"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 88,
+      "score_reason": "サーバーレス環境でのNext.jsとエッジデータベースの本番運用における極めて具体的かつ実用的なトラブルシューティングが共有されているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "エラーレスポンス設計の現在地2026",
+      "url": "https://qiita.com/tatsuya582/items/e5c56a2f7b976cfc17ea?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-14T04:36:16+00:00",
+      "summary": "Web APIのエラーレスポンスは、ステータスコード、ヘッダー、ボディの3層すべてで適切に設計する必要があります。\nエラーをステータスコード200で返してはいけないという大原則があり、トランスポート層のインフラに正しく伝えることが重要です。\nRFC 9110などの最新仕様に基づき、401エラー時のWWW-Authenticateヘッダー付与など、従うべき標準を整理しています。",
+      "tags": [
+        "Web API",
+        "HTTPステータスコード",
+        "RFC 9110"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 88,
+      "score_reason": "2026年時点におけるWeb APIエラー設計の最新標準とデファクトを、HTTP仕様に基づいて体系的に解説しており実用性が極めて高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Qwen 3.8 27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "source": "Hacker News",
+      "published": "2026-08-14T15:00:00+00:00",
+      "hn_score": 753,
+      "hn_comments": 491,
+      "summary": "Qwenオープンモデルファミリーの最新世代である「Qwen 3.8」シリーズが発表されました。\n27BモデルはFP8量子化に対応し、元のモデルと同等の性能を維持しながら軽量なデプロイが可能です。\n画像や動画を理解するネイティブなビジョン言語モデルであり、複雑なマルチステップタスクを高い信頼性で実行できます。",
+      "tags": [
+        "LLM",
+        "Qwen",
+        "オープンソース"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "高性能なオープンソースLLMの最新版であり、FP8量子化によるデプロイの容易さとマルチモーダル対応が実用性を大きく向上させているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Toast 1の紹介",
+      "url": "https://www.mixedbread.com/blog/toast-1",
+      "source": "Hacker News",
+      "published": "2026-08-14T15:07:57+00:00",
+      "hn_score": 157,
+      "hn_comments": 56,
+      "summary": "Claude Opus 5やGPT-5.6 Solに匹敵する検索品質を持つ初の特化型検索エージェント「Toast 1」がリリースされました。\n従来のフロンティアモデルと比較して、最大10倍安価で12倍高速な動作を実現しています。\nクエリの分解やソースの検査などの検索ループを完全に引き受け、メインモデルの計算コストを削減します。",
+      "tags": [
+        "AIエージェント",
+        "検索エンジン",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "フロンティアモデルに匹敵する性能を低コストかつ高速に実現する特化型検索エージェントの登場は、実用的なAIシステム構築において極めて重要であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "なぜAI時代にGoが最適な言語なのか",
+      "url": "https://zenn.dev/iwatsukayura/articles/google-go-ai",
+      "source": "Zenn",
+      "published": "2026-08-12T13:05:44+00:00",
+      "summary": "AI時代において人間がコードを書く機会が減るからこそ、言語選定の重要性が増しています。\nGoは標準ツールチェーンが充実しており、AIが自己検証・修正を行う「Loop Engineering」の足場として最適です。\n書式の統一や読みやすさを重視した設計は、AIが生成したコードのレビュー負荷を軽減し、ガードレールとして機能します。",
+      "tags": [
+        "Go",
+        "AIエージェント",
+        "ソフトウェアエンジニアリング"
+      ],
+      "category": "プログラミング言語",
+      "score": 85,
+      "score_reason": "AIによるコード生成時代におけるプログラミング言語の新たな役割と、Goのプラットフォームとしての優位性を論理的に解説しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Firefoxは、現在もuBlock Originをサポートする最後の主要ブラウザとなった",
+      "url": "https://www.reddit.com/r/technology/comments/1voafjc/firefox_is_now_the_last_major_browser_that_still/",
+      "source": "Reddit",
+      "published": "2026-08-14T15:29:40+00:00",
+      "summary": "Google ChromeなどのChromium系ブラウザがManifest V3への移行を進める中、FirefoxがuBlock Originをサポートする唯一の主要ブラウザとなりました。\n広告ブロック機能の継続利用を望むユーザーにとって、Firefoxの存在感が急速に高まっています。\nブラウザ市場におけるシェアや、Web拡張機能の仕様を巡るエコシステムに大きな影響を与える可能性があります。",
+      "tags": [
+        "Firefox",
+        "uBlock Origin",
+        "ブラウザ"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 85,
+      "score_reason": "広告ブロック機能の制限は多くのWebユーザーや開発者に影響を与え、ブラウザのシェア移行を促す可能性があるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ミッチェル・ハシモト氏が新会社「Superlogical」を設立、あらゆる仕事に使えるマルチプレクサの開発へ",
+      "url": "https://www.publickey1.jp/blog/26/superlogical.html",
+      "source": "Publickey",
+      "published": "2026-08-06T15:26:54+00:00",
+      "summary": "HashiCorpの共同創業者であるミッチェル・ハシモト氏が新会社「Superlogical」の設立を発表しました。\n同社はまず、あらゆる仕事の基盤となる「マルチプレクサ」の開発から着手します。\nターミナルソフト「Ghostty」の開発に続く、同氏の新たな挑戦として注目を集めています。",
+      "tags": [
+        "Superlogical",
+        "マルチプレクサ",
+        "ミッチェル・ハシモト"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 85,
+      "score_reason": "著名な開発者であるミッチェル・ハシモト氏の新会社設立と、新たなマルチプレクサ開発の構想は、今後の開発者向けツール市場に大きな影響を与える可能性があるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "プアマンズ・エージェントモデリング：ノートPC上での大規模LLMエージェント社会のシミュレーション",
+      "url": "https://arxiv.org/abs/2608.11215",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-14T04:00:00+00:00",
+      "summary": "高価な計算資源を使わずに、一般的なノートPC上で大規模なLLMエージェント社会をシミュレートする手法を提案しています。\nリソース制約下で効率的にエージェントの相互作用をモデル化する軽量なフレームワークを開発しました。\n個人開発者や研究者が低コストで高度なマルチエージェント研究を行うことを可能にします。",
+      "tags": [
+        "LLM",
+        "マルチエージェント",
+        "シミュレーション"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "高価なインフラを必要とせず、ローカル環境で大規模なAIエージェントシミュレーションを可能にする実用性の高い研究であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "なぜOpus 5は使っていて使いにくく感じるのか？",
+      "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+      "source": "Hacker News",
+      "published": "2026-08-14T10:12:48+00:00",
+      "hn_score": 687,
+      "hn_comments": 635,
+      "summary": "Anthropicの最新モデル「Opus 5」はベンチマーク性能が高いものの、開発者にとって前バージョンより使いにくく感じられるという指摘です。\nベンチマーク最適化や強化学習の影響で、モデルが曖昧な指示に対して質問せず、勝手な仮定を置いて回答する傾向が強まったことが原因とされています。\n開発者が求める「対話しながら進めるコーディングエージェント」としての挙動と、ベンチマーク重視の訓練に乖離が生じています。",
+      "tags": [
+        "LLM",
+        "Anthropic",
+        "AIコーディング"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "ベンチマークのスコア向上と、実際の開発現場におけるユーザー体験（UX）の乖離という、LLM開発の重要な課題を鋭く分析しているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "同じRust製のBiomeとOxlintで、なぜ速度差が大きいのか",
+      "url": "https://zenn.dev/estie/articles/64b80da2fbf175",
+      "source": "Zenn",
+      "published": "2026-08-13T03:00:09+00:00",
+      "summary": "同じRust製である静的解析ツール「Biome」と「Oxlint」の実行速度に大きな差がある原因を調査しています。\nBiomeはプロジェクト全体のスキャンやCSS解析など広範な処理を行うため、その機能がオーバーヘッドとなります。\n一方のOxlintは解析範囲をJS/TSのインポートグラフに限定しているため、高速に動作します。",
+      "tags": [
+        "Biome",
+        "Oxlint",
+        "Rust"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 82,
+      "score_reason": "フロントエンド開発で注目されるRust製ツールの性能差の要因を、アーキテクチャや機能スコープの違いから論理的に分析しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "エラーを 3 秒で AI に丸投げする若手を見て、AI から答えを取り上げることにした",
+      "url": "https://qiita.com/jksoft/items/65f7824679ddf171a93d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-14T00:15:04+00:00",
+      "summary": "AIにエラーを丸投げして解決する習慣により、エンジニアが自力でエラーを読み解く思考力が低下する懸念が生じています。\n開発速度は向上する一方で、若手の実力を正しく評価できなくなるという組織的な課題も浮き彫りになっています。\n答えではなく問いを返すAIメンターサービス「SocraMetry」を開発し、自ら原因を考えさせる仕組みを構築しました。",
+      "tags": [
+        "生成AI",
+        "エンジニア育成",
+        "SocraMetry"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "生成AIの普及がもたらすエンジニアの思考力低下という課題に対し、ソクラテス式問答を用いたユニークな解決アプローチを提案しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "50のオープンソースプロジェクトから学んだAI時代のセキュリティ",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "source": "GitHub Blog",
+      "published": "2026-08-13T16:00:00+00:00",
+      "summary": "AIの普及によりオープンソース開発が加速する一方、メンテナーは新たな脆弱性や攻撃対象領域への対応に追われている。\nGitHub Secure Open Source Fundの支援により、50のプロジェクトがAI支援ワークフローやセキュリティツールを導入した。\nAIは脆弱性の調査や対応の迅速化に貢献するが、最終的な判断と責任は依然として人間のメンテナーが担う必要がある。",
+      "tags": [
+        "Security",
+        "Open Source",
+        "AI"
+      ],
+      "category": "セキュリティ",
+      "score": 82,
+      "score_reason": "AI時代におけるオープンソースのセキュリティ課題と、AIを活用した具体的な対策や教訓を提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "協調的な対話成果に向けたマルチLLMエージェントシステムの動的ガバナンス",
+      "url": "https://arxiv.org/abs/2608.11207",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-14T04:00:00+00:00",
+      "summary": "複数のLLMエージェントが協調して対話を行うシステムにおける動的なガバナンス手法を提案しています。\nエージェント間の役割分担や競合をリアルタイムで制御し、最適な対話成果を導き出します。\n複雑なタスクを解決するためのマルチエージェント協調の信頼性と効率性を向上させます。",
+      "tags": [
+        "LLM",
+        "マルチエージェント",
+        "ガバナンス"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "複数のLLMを連携させるマルチエージェントシステムの制御は、実用的なAI応用において極めて重要な課題であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "すべてが「暗闇」に包まれようとしている",
+      "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
+      "source": "Hacker News",
+      "published": "2026-08-14T20:52:44+00:00",
+      "hn_score": 81,
+      "hn_comments": 52,
+      "summary": "AIの進化によってソフトウェアのセキュリティが劇的に向上し、脆弱性が極めて少なくなると予想されています。\nこれにより、法執行機関や情報機関がサイバー監視や傍受を行う能力を失う「暗闇化」が懸念されています。\nセキュリティ向上は歓迎すべきですが、国家の法執行やプライバシーのバランスに新たな課題を突きつけています。",
+      "tags": [
+        "セキュリティ",
+        "AI",
+        "サイバー監視"
+      ],
+      "category": "セキュリティ",
+      "score": 80,
+      "score_reason": "AIがセキュリティ向上をもたらす一方で、国家の監視能力低下という地政学的・社会的な影響を考察しており、議論を呼ぶテーマであるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIエージェントと進めるソフトウェア開発",
+      "url": "https://zenn.dev/hako_hako/books/nexus-product-new-development",
+      "source": "Zenn",
+      "published": "2026-08-13T08:10:07+00:00",
+      "summary": "AIエージェントを活用してソフトウェア開発を進めるための実践的なプロセスを解説する技術書です。\n設計の壁打ちから、MVPの構築、境界コンテキストの定義、Issue単位の実装・マージまでを網羅しています。\nSpring BootやNext.jsなどの具体例を交え、AI駆動開発における設計と実装の引き継ぎ方を提示します。",
+      "tags": [
+        "AI駆動開発",
+        "ソフトウェア設計",
+        "Claude Code"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "AIエージェントを実際のソフトウェア開発プロセスに統合する具体的な手法を体系的にまとめており、実用性が非常に高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Copilot Studio で非構造化データはどこまでナレッジになるのか【Part 3: Copilot Studio (Standard harness) を極める】",
+      "url": "https://qiita.com/Isato-Hiyama/items/2b49b499dc5294017efd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-12T11:45:49+00:00",
+      "summary": "GitHub Copilot Harnessの従量課金化に伴い、定額制のStandard Harnessで実務に耐える構成を再検証しています。\nExcel解析用のCode Interpreterや画像PDFのマルチモーダル読取を有効にするためのプロンプト調整を追求しています。\n2つのハーネス間でのCode Interpreterの発火挙動の違いを分析し、定額範囲内での精度向上を目指しています。",
+      "tags": [
+        "Copilot Studio",
+        "Code Interpreter",
+        "RAG"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "MicrosoftのCopilot Studioにおける料金体系変更に対応し、定額プランで非構造化データを高精度に処理するための実践的な検証を行っているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "SK HynixのCEOが「2027年はメモリ供給において史上最悪の年になる」と警告",
+      "url": "https://www.reddit.com/r/technology/comments/1vofqt7/2027_will_be_the_worst_year_in_history_for_memory/",
+      "source": "Reddit",
+      "published": "2026-08-14T18:43:01+00:00",
+      "summary": "SK HynixのCEOが、2027年にメモリ半導体の供給不足が深刻化し、史上最悪の年になると予測しました。\nAI技術の急速な発展に伴う高帯域幅メモリ（HBM）などの需要急増に、生産体制が追いつかない懸念が示されています。\nIT機器の価格高騰や、AIインフラの整備遅延など、業界全体への広範な影響が懸念されます。",
+      "tags": [
+        "SK Hynix",
+        "半導体",
+        "メモリ"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 80,
+      "score_reason": "AI需要に伴うメモリ供給不足の予測は、今後のハードウェア調達やITインフラ全体のコストに直結するため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "MicrosoftのAIターミナル「Intelligent Terminal 0.2」が公開 ～ローカルモデルに対応／「OpenCode」対応、スラッシュコマンドの拡充、WSL内エージェントなどの改善も",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2132156.html",
+      "source": "はてなブックマーク",
+      "published": "2026-08-14T10:43:58+00:00",
+      "summary": "MicrosoftがAIエージェントをネイティブ統合した「Intelligent Terminal 0.2」をリリースしました。\n最も要望の多かったローカルモデル（Ollama等）に対応し、オフラインでの処理が可能になりました。\nスラッシュコマンドの拡充やWSL内エージェントの改善など、大幅な機能強化が行われています。",
+      "tags": [
+        "Windows Terminal",
+        "AIエージェント",
+        "ローカルLLM"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 80,
+      "score_reason": "開発者にとって重要なターミナル環境にAIをネイティブ統合し、ローカルモデル対応によりプライバシーと実用性を高めたためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "エージェントアプリを使用してソフトウェア配信ワークフローをGitHubに統合する方法",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+      "source": "GitHub Blog",
+      "published": "2026-08-14T16:00:00+00:00",
+      "summary": "開発者がプルリクエスト処理時に複数の外部ツールを行き来する手間を省くため、GitHubエージェントアプリが導入された。\nAmplitudeやPagerDutyなどの外部サービスを、GitHub Copilotのクラウドエージェントと同じ基盤でGitHub内から直接呼び出せる。\nこれにより、コンテキストを維持したままGitHub上で迅速な意思決定やタスクの完了が可能になり、開発効率が向上する。",
+      "tags": [
+        "GitHub",
+        "GitHub Copilot",
+        "Agent Apps"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "GitHub Copilotのエージェント機能を外部ツールと連携させ、開発ワークフローを効率化する実用的なアプローチを示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ルートフリップの検出は修正すべきかの判断より容易：量子化Mixture-of-Expertsにおける因果的ルート媒介ダメージ",
+      "url": "https://arxiv.org/abs/2608.11212",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-14T04:00:00+00:00",
+      "summary": "量子化されたMixture-of-Experts（MoE）モデルにおける、トークンのルーティング変化（ルートフリップ）の影響を分析しています。\nルートフリップの発生自体を検出することは容易ですが、それがモデルの性能に悪影響を及ぼすかどうかの判断は困難であることを示しています。\nMoEモデルの効率的な量子化と最適化に向けた因果関係の解明に寄与します。",
+      "tags": [
+        "Mixture-of-Experts",
+        "モデル量子化",
+        "因果推論"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "大規模言語モデルで主流となっているMoEの量子化における課題を因果関係から分析しており、実用的なモデル軽量化に貢献するため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Oxc Minifierの変数マングル仕組み",
+      "url": "https://zenn.dev/sapphi_red/articles/636d34f84494fb",
+      "source": "Zenn",
+      "published": "2026-08-13T09:19:11+00:00",
+      "summary": "Rust製の高速なJavaScript/TypeScriptツール群「Oxc Minifier」における変数マングルの仕組みを解説しています。\n変数マングルはコードの意味を保ちつつ、変数名を短いものに置き換えてコードサイズを削減する処理です。\n生存区間の計算やスロットの概念を導入し、重複しない範囲で同じ変数名を使い回す最適化戦略を詳述しています。",
+      "tags": [
+        "Oxc",
+        "ミニファイア",
+        "JavaScript"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 78,
+      "score_reason": "フロントエンドのビルドツールの高速化に寄与するOxcの内部アルゴリズムを詳細に解説しており、技術的実用性が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "37signalsのマネージャー向けプレイブック",
+      "url": "https://basecamp.com/managers",
+      "source": "はてなブックマーク",
+      "published": "2026-08-14T06:04:57+00:00",
+      "summary": "Basecampなどを運営する37signalsが、社内のピープルマネージャー向けに作成したプレイブックを公開しました。\nチームを率いる哲学や、マネジメント業務と個人としての貢献業務（IC）のバランスの取り方が解説されています。\nリモートワークや自律的な組織運営を目指すIT企業のマネジメント手法として、非常に参考になる資料です。",
+      "tags": [
+        "37signals",
+        "マネジメント",
+        "組織開発"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 78,
+      "score_reason": "有名なテック企業の実践的なマネジメント手法が公開されたものであり、IT業界の組織運営において実用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub可用性レポート：2026年7月",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
+      "source": "GitHub Blog",
+      "published": "2026-08-12T22:17:32+00:00",
+      "summary": "2026年8月6日に発生したGitHub Actionsの長時間にわたるサービス障害について、お詫びと現状の分析が報告された。\n障害の原因として、データセンター内で稼働していたレガシーな起動サービスにおける連鎖的障害などが挙げられている。\n再発防止に向けて、Azureへの完全移行の加速や、システムの隔離性・回復性・拡張性を高めるアーキテクチャの刷新を進める。",
+      "tags": [
+        "GitHub Actions",
+        "System Outage",
+        "Postmortem"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 78,
+      "score_reason": "多くの開発者が依存するGitHub Actionsの大規模障害に関するポストモーテムであり、インフラ設計の教訓として価値が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "RustDeskがWayland上での完全な無人リモートアクセスに対応",
+      "url": "https://rustdesk.com/blog/unattended-remote-access-wayland/",
+      "source": "Hacker News",
+      "published": "2026-08-14T16:12:52+00:00",
+      "hn_score": 181,
+      "hn_comments": 85,
+      "summary": "オープンソースのリモートデスクトップソフト「RustDesk」が、LinuxのWayland環境での完全な無人アクセスに対応しました。\n接続ごとの手動承認が不要になり、再起動後のログイン画面からでもマルチモニター環境を含めて接続可能です。\n現在はDebian/Ubuntu向けのプレビュー版として提供されており、今後安定化を経て他のディストリビューションにも展開予定です。",
+      "tags": [
+        "RustDesk",
+        "Wayland",
+        "リモートデスクトップ"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 75,
+      "score_reason": "Linuxデスクトップ環境で移行が進むWaylandにおいて、長年の課題だった無人リモートアクセスを実現し、実用性を大きく高めたためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ウクライナのドローンが実戦演習で米国の戦車旅団を全滅させる",
+      "url": "https://www.reddit.com/r/technology/comments/1vo4xz9/ukrainian_drones_wipe_out_entire_us_tank_brigade/",
+      "source": "Reddit",
+      "published": "2026-08-14T11:43:51+00:00",
+      "summary": "実戦形式の軍事演習において、ウクライナのドローン部隊が米国の戦車旅団を全滅させる成果を上げました。\n安価なドローン技術が、従来の重装甲兵器に対して圧倒的な優位性を持つことが実証されました。\n現代の安全保障や軍事技術におけるドローンとAIの重要性を浮き彫りにしています。",
+      "tags": [
+        "ドローン",
+        "軍事技術",
+        "ウクライナ"
+      ],
+      "category": "その他",
+      "score": 75,
+      "score_reason": "ドローン技術が従来の軍事ドクトリンを覆す可能性を示しており、技術の軍事応用におけるインパクトが大きいため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ブラウザでPC-98が起動!! FreeDOS(98)同梱＆AI操作対応の「WebNP2」 - RetroPC NEWS",
+      "url": "https://retropcnews.com/archives/7688",
+      "source": "はてなブックマーク",
+      "published": "2026-08-14T12:39:45+00:00",
+      "summary": "ブラウザ上で動作するPC-98エミュレータ「WebNP2」が公開されました。\nFreeDOS(98)を同梱しており、インストール不要で即座にDOSプロンプトを起動可能です。\nMCP対応により、Claude CodeなどのAIエージェントから直接操作できるユニークな機能を備えています。",
+      "tags": [
+        "PC-98",
+        "エミュレータ",
+        "MCP"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 75,
+      "score_reason": "ブラウザ上でのレトロPCエミュレーションにMCPを統合し、AIエージェントからの操作を可能にした点が非常にユニークで技術的新規性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オブザーバビリティ - RAM内のカウンター、ヘッダー内のID、そしてバッチエクスポート",
+      "url": "https://dev.to/telilabs/observability-a-counter-in-ram-an-id-in-a-header-and-a-batch-export-h41",
+      "source": "Dev.to",
+      "published": "2026-08-14T21:49:37+00:00",
+      "summary": "オブザーバビリティは単なる高度なログシステムではなく、データの出力方法に本質的な違いがある。\nメトリクスはコード実行のたびに送信されるのではなく、RAM内の数値を更新し定期的にまとめてエクスポートされる。\nログ、メトリクス、トレースという3つの異なる仕組みを正しく理解することが、効率的な監視システムの構築に繋がる。",
+      "tags": [
+        "Observability",
+        "Metrics",
+        "Backend"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 75,
+      "score_reason": "オブザーバビリティの基本概念とメトリクス収集の仕組みを分かりやすく解説しており、バックエンド開発者にとって実用的な知見を提供しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Distribird: ベイズモデルキャリブレーションのための文献情報を活用した事前分布設計",
+      "url": "https://arxiv.org/abs/2608.11210",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-14T04:00:00+00:00",
+      "summary": "ベイズモデルのキャリブレーションにおいて、既存の文献情報を活用して事前分布を設計する手法「Distribird」を提案しています。\n過去の知見を効果的に統合することで、データが限られている状況でも高精度なパラメータ推定を可能にします。\n統計的モデリングや機械学習モデルの信頼性向上に寄与するアプローチです。",
+      "tags": [
+        "ベイズ統計",
+        "モデルキャリブレーション",
+        "事前分布"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "文献データを事前分布に組み込むアプローチは、データ不足のドメインにおけるモデルの信頼性向上に有用であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub Copilotアプリで最初のプロンプトを書いてみよう",
+      "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
+      "source": "GitHub Blog",
+      "published": "2026-08-12T19:00:00+00:00",
+      "summary": "新しいAIツールを使う際の心理的ハードルを下げるため、GitHub Copilotアプリでのプロンプト作成手順を解説している。\nローカルフォルダやGitHubリポジトリを接続することで、Copilotがコードベースの文脈を理解した上で提案を行えるようになる。\n完璧なプロンプトを意識せず、自然言語でやりたいことを記述し、対話を通じてコードの変更や修正を進めることができる。",
+      "tags": [
+        "GitHub Copilot",
+        "Prompt Engineering",
+        "AI Assistant"
+      ],
+      "category": "AI・機械学習",
+      "score": 73,
+      "score_reason": "初心者向けにGitHub Copilotアプリの具体的な使い方とプロンプトの書き方を分かりやすく解説しており、実用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "独自のゲームエンジンを構築することで得られるもの",
+      "url": "https://eliasfarhan.ch/gamedev/cpp/2026/08/14/srnative-01-why-a-custom-engine.html",
+      "source": "Hacker News",
+      "published": "2026-08-14T19:20:20+00:00",
+      "hn_score": 41,
+      "hn_comments": 35,
+      "summary": "UnityやUnreal Engineなどの既存エンジンを使わず、独自のゲームエンジンを自作する意義について考察する記事です。\n低レイヤーのグラフィックスAPIやメモリ管理、スレッド処理などの深い技術的理解と、プロジェクトに最適化した軽量な設計が可能になります。\n車輪の再発明に見えますが、プログラマとしてのスキル向上や、独自の表現・パフォーマンスを追求する上で大きな価値があります。",
+      "tags": [
+        "ゲーム開発",
+        "ゲームエンジン",
+        "C++"
+      ],
+      "category": "プログラミング言語",
+      "score": 70,
+      "score_reason": "既存の強力なゲームエンジンが存在する現代において、自作エンジンの教育的価値や技術的メリットを再評価する興味深い読み物であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "技術力より先に、信頼を積む人がやっている地味な行動",
+      "url": "https://qiita.com/sumomoo/items/4e57aa62c090cf9d9979?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-12T08:16:04+00:00",
+      "summary": "エンジニアとして信頼を得るためには、技術力だけでなく日々の地味な行動の積み重ねが重要です。\n即座に答えが出ない場合でも一次返信を早く行うことや、分からないことを素直に認める誠実さが信頼に繋がります。\n口頭の依頼や決定事項をテキストで記録に残す泥臭い作業が、言った・言わないのトラブルを防ぎ価値を生みます。",
+      "tags": [
+        "キャリアパス",
+        "コミュニケーション",
+        "マインドセット"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "技術力以外のソフトスキルに焦点を当て、若手エンジニアが今日から実践できる具体的な信頼構築術を提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "若者の間でAIや、AIを推奨する億万長者への不信感が高まっていることが調査で判明",
+      "url": "https://www.reddit.com/r/technology/comments/1vodc1d/young_people_increasingly_dont_trust_ai_or_the/",
+      "source": "Reddit",
+      "published": "2026-08-14T17:16:07+00:00",
+      "summary": "最新の調査により、若者の間でAI技術や、それを推進するテック企業の億万長者に対する不信感が高まっていることが明らかになりました。\nAIによる雇用の代替やプライバシー侵害、偏った情報拡散への懸念が背景にあるとみられます。\n今後のAIサービスの普及や規制のあり方に、ユーザー側の意識変化が影響を与える可能性があります。",
+      "tags": [
+        "AI不信",
+        "意識調査",
+        "テック企業"
+      ],
+      "category": "AI・機械学習",
+      "score": 70,
+      "score_reason": "AIの社会受容性に関する重要な指標であり、今後のAIビジネスの展開や規制議論に影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub Universe 2026ガイド：スケジュールが公開されました！",
+      "url": "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/",
+      "source": "GitHub Blog",
+      "published": "2026-08-13T19:00:00+00:00",
+      "summary": "GitHubの年次イベント「GitHub Universe 2026」のスケジュールが公開され、早期割引チケットの販売が開始された。\nAMD、NVIDIA、OpenAIなどの専門家が登壇し、AIを活用した開発やMCPサーバーのセキュリティなど多岐にわたるセッションが予定されている。\n実際に手を動かして課題を解決するハンズオンセッションや、他チームの開発事例を紹介するコーナーも用意されている。",
+      "tags": [
+        "GitHub Universe",
+        "Conference",
+        "AI-powered Development"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 70,
+      "score_reason": "GitHubの主要な年次カンファレンスの開催告知であり、AI開発やセキュリティの最新トレンドを把握する上で重要であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "コンウェイの99グラフに対する強制構造縮小と検証可能な境界",
+      "url": "https://arxiv.org/abs/2608.11211",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-14T04:00:00+00:00",
+      "summary": "グラフ理論における未解決問題である「コンウェイの99グラフ」に対する新しいアプローチを提示しています。\n強制構造縮小（Forced-Structure Reduction）を用いて、グラフの存在可能性に関する検証可能な境界を導出します。\n理論計算機科学や組合せ数学における重要な進展をもたらす研究です。",
+      "tags": [
+        "グラフ理論",
+        "コンウェイの99グラフ",
+        "理論計算機科学"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "数学的な未解決問題に対する理論的進展であり、直接的な実用性よりも基礎研究としての価値が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "手書きで学ぶAI",
+      "url": "https://www.byhand.ai/",
+      "source": "Hacker News",
+      "published": "2026-08-14T15:58:59+00:00",
+      "hn_score": 149,
+      "hn_comments": 14,
+      "summary": "AIの数学、アルゴリズム、アーキテクチャを手書き（手計算）で学ぶためのWebサイトです。\n複雑なAIの仕組みをブラックボックスにせず、基礎から直感的に理解することを支援します。\n数式や構造を自らの手で書き下すことで、AI技術の本質的な理解を深めることができます。",
+      "tags": [
+        "AI教育",
+        "数学",
+        "アルゴリズム"
+      ],
+      "category": "AI・機械学習",
+      "score": 60,
+      "score_reason": "AIの基礎理論を直感的に学ぶための教育的リソースであり、技術的な新規性よりも学習支援としての価値が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "クリスマス直前にZoomで900人を解雇したCEOが復職を希望",
+      "url": "https://www.reddit.com/r/technology/comments/1voimvw/the_ceo_who_fired_900_people_on_zoom_just_before/",
+      "source": "Reddit",
+      "published": "2026-08-14T20:30:36+00:00",
+      "summary": "クリスマス直前にZoomを通じて900人の従業員を突然解雇し、大きな批判を浴びたCEOが復職を望んでいることが報じられました。\nこの冷酷な解雇手法は当時、企業のリーダーシップや倫理観の観点から世界中で猛反発を招きました。\nテック業界における雇用倫理や、経営陣のガバナンスに関する議論を再燃させています。",
+      "tags": [
+        "Zoom解雇",
+        "経営倫理",
+        "テック業界"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 60,
+      "score_reason": "テック企業の雇用倫理やガバナンスに関する話題であり、業界の労働環境に対する関心は高いが、技術的新規性は低いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "夏祭りのポップやポスターをAIで作るの本当にやめた方がいい、ぱっと見は整ってるけど美味しそうに見えない→最近やたら増えてきて違和感を持っている人が多いらしい",
+      "url": "https://togetter.com/li/2732994",
+      "source": "はてなブックマーク",
+      "published": "2026-08-14T13:40:02+00:00",
+      "summary": "生成AIで作成された夏祭りのポップやポスターに対する違和感や不満がSNSで話題になっています。\n整ってはいるものの「美味しそうに見えない」「温かみがない」といった情緒的な欠如が指摘されています。\n手書きの良さや、AI生成物の「不気味の谷」現象について多くの共感と議論を呼んでいます。",
+      "tags": [
+        "生成AI",
+        "デザイン",
+        "SNSの反応"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "技術的な進歩ではなく、生成AIの実社会における受容性とデザイン面での課題（情緒や温かみの欠如）を浮き彫りにした議論であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "無料で読めるITまんが 2026年版 ～マンガでわかるAIの仕組み／DC業務のリアルを知るヤマダくん、ほか",
+      "url": "https://www.publickey1.jp/blog/26/content_4.html",
+      "source": "Publickey",
+      "published": "2026-08-11T15:33:09+00:00",
+      "summary": "ネット上で無料で読めるIT系マンガをまとめた2026年版の特集記事が公開されました。\n「マンガでわかるAIの仕組み」やデータセンター業務を描く「15日後」などが新たに追加されています。\n夏休みの息抜きに最適な、分かりやすくIT知識を学べるコンテンツが紹介されています。",
+      "tags": [
+        "ITマンガ",
+        "学習コンテンツ",
+        "データセンター"
+      ],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "IT知識を親しみやすく学ぶための学習・エンタメコンテンツの紹介であり、技術的な新規性や業界への直接的な影響度は低いためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "npm代替を目指すセキュリティファーストなパッケージマネージャ「vlt」バージョン1.0に到達。npmのミラーレジストリ、プライベートレジストリも提供開始",
+      "url": "https://www.publickey1.jp/blog/26/npmvlt10npm.html",
+      "source": "Publickey",
+      "published": "2026-08-05T18:03:20+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "1Password、ダッシュボードから組織のAI支出状況を表示する新機能。ClaudeやCursor、ChatGPTなど複数AIにI対応",
+      "url": "https://www.publickey1.jp/blog/26/1passwordaiclaudecursorchatgptaii.html",
+      "source": "Publickey",
+      "published": "2026-08-04T15:38:32+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "How to Enable Entire",
+      "url": "https://dev.to/entire/how-to-enable-entire-4h9l",
+      "source": "Dev.to",
+      "published": "2026-08-14T22:17:46+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Engineer-to-Engineer: Building a Typing Test That Doesn't Lie to You",
+      "url": "https://dev.to/lizely/engineer-to-engineer-building-a-typing-test-that-doesnt-lie-to-you-5822",
+      "source": "Dev.to",
+      "published": "2026-08-14T22:05:37+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "The Reality of Working as a DevOps Engineer in Cameroon",
+      "url": "https://dev.to/durrello/the-reality-of-working-as-a-devops-engineer-in-cameroon-1k7l",
+      "source": "Dev.to",
+      "published": "2026-08-14T22:04:43+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "DriftGate(): Not just a weekend challenge",
+      "url": "https://dev.to/edmundsparrow/driftgate-not-just-a-weekend-challenge-1hd5",
+      "source": "Dev.to",
+      "published": "2026-08-14T21:59:23+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    }
+  ]
+}

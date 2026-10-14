@@ -1,0 +1,761 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-08-02T07:59:52.458203+09:00",
+  "total_count": 43,
+  "success_count": 43,
+  "error_count": 0,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "Seedance 2.5",
+      "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+      "source": "Hacker News",
+      "published": "2026-08-01T20:45:12+00:00",
+      "hn_score": 55,
+      "hn_comments": 17,
+      "summary": "ByteDanceが次世代の動画生成AIモデル「Seedance 2.5」を正式に発表。\n1回の生成で最大30秒の高品質な音画同期ビデオを作成でき、複数回の延長にも対応。\n最大30枚の画像や10本の動画・音声を参照素材として入力できる高度なマルチモーダル機能を搭載。",
+      "tags": [
+        "動画生成AI",
+        "ByteDance",
+        "マルチモーダル"
+      ],
+      "category": "AI・機械学習",
+      "score": 90,
+      "score_reason": "ByteDanceによる最新の動画生成AIであり、マルチモーダル参照や長尺生成など技術的新規性と実用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHubにスタック型プルリクエストが登場。gh stackでPRを分割して積み上げよう",
+      "url": "https://zenn.dev/ubie_dev/articles/gh-stack-introduction",
+      "source": "Zenn",
+      "published": "2026-07-31T13:33:10+00:00",
+      "summary": "GitHubに新機能「スタック型プルリクエスト（Stacked pull requests）」が登場したことを紹介。\nAI開発によりPRが巨大化しがちな現代において、PRを細かく分割して数珠つなぎに管理する手法を解説。\n`gh stack`コマンドを用いることで、依存関係のある複数PRの作成や更新の管理が劇的に効率化される。",
+      "tags": [
+        "GitHub",
+        "プルリクエスト",
+        "Git"
+      ],
+      "category": "その他",
+      "score": 90,
+      "score_reason": "開発ワークフローにおける長年の課題であった「依存関係のある複数PRの管理」を公式にサポートする極めて重要なアップデートです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Google Cloud、AIが自律的にコードの脆弱性検出からサンドボックス内でのリスク検証、修正までを自動実行。「CodeMender」プレビュー公開",
+      "url": "https://www.publickey1.jp/blog/26/google_cloudaicodemender.html",
+      "source": "Publickey",
+      "published": "2026-07-28T15:54:06+00:00",
+      "summary": "Google Cloudは、コードの脆弱性検出から修正までを自律的に行うAIエージェント「CodeMender」のプレビューを公開した。\nサンドボックス内で実際にエクスプロイトを実行して検証することで、誤検知を排除し優先度の高いリスクを特定する。\nC/C++やGo、Python、TypeScriptなど主要な言語に対応し、修正コードの自動生成も行う。",
+      "tags": [
+        "Google Cloud",
+        "AIエージェント",
+        "セキュリティ"
+      ],
+      "category": "セキュリティ",
+      "score": 90,
+      "score_reason": "AIが脆弱性の検出からサンドボックス内での実証、修正までを自律的に完結させるアプローチは、開発セキュリティの自動化を大きく前進させるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "カーネルの健全性バグ #14576 のポストモーテム",
+      "url": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/",
+      "source": "Hacker News",
+      "published": "2026-08-01T18:32:20+00:00",
+      "hn_score": 97,
+      "hn_comments": 34,
+      "summary": "定理証明支援系「Lean」のカーネルにおいて、証明の健全性を揺るがす重大なバグが発見・修正された。\nAI支援により作成されたコラッツ予想の「偽の反証」が、カーネルの型チェックの不備を突いて通過したことが契機。\nバグはメタプログラミング経由でのみ到達可能で、理論の欠陥ではなく実装上の問題であり、迅速に修正された。",
+      "tags": [
+        "Lean",
+        "定理証明",
+        "バグ"
+      ],
+      "category": "プログラミング言語",
+      "score": 88,
+      "score_reason": "数学的証明の信頼性を担保する定理証明支援系における健全性バグの発見と、AIによるその悪用例として学術的・技術的に極めて重要であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "KubernetesはAIを動かすプラットフォームに。横浜でKubeCon＋CloudNativeCon Japan 2026が開幕",
+      "url": "https://www.publickey1.jp/blog/26/kubernetesaikubeconcloudnativecon_japan_2026.html",
+      "source": "Publickey",
+      "published": "2026-07-29T15:02:00+00:00",
+      "summary": "クラウドネイティブ技術の祭典「KubeCon+CloudNativeCon Japan 2026」がパシフィコ横浜で開幕。\nKubernetesがAIワークロード、特に膨大な推論処理をスケーラブルに実行するための基盤として進化している現状を報告。\n2030年には現在の全計算量を上回る推論ワークロードが要求されるとの予測も紹介された。",
+      "tags": [
+        "Kubernetes",
+        "KubeCon",
+        "クラウドネイティブ"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 88,
+      "score_reason": "AIの普及に伴うインフラ需要の爆発に対し、Kubernetesが標準プラットフォームとしての地位を確立しつつある動向を示す重要なニュースであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Vercel、TypeScriptをC言語に変換してからネイティブな実行ファイルにコンパイルする「scriptc」、オープンソースで公開",
+      "url": "https://www.publickey1.jp/blog/26/verceltypescriptcscriptc.html",
+      "source": "Publickey",
+      "published": "2026-07-27T15:20:00+00:00",
+      "summary": "Vercelは、TypeScriptをC言語に変換してネイティブ実行ファイルを生成するコンパイラ「scriptc」をOSSとして公開した。\n従来のランタイムを同梱する方式とは異なり、コードを型付き中間表現からC言語へ変換しclangでコンパイルする。\nこれにより、JavaScriptランタイムに依存しない、軽量で高速に動作するネイティブバイナリの作成が可能となる。",
+      "tags": [
+        "TypeScript",
+        "C言語",
+        "コンパイラ"
+      ],
+      "category": "プログラミング言語",
+      "score": 88,
+      "score_reason": "TypeScriptをランタイムなしの純粋なネイティブバイナリへコンパイルする手法は、実行速度やファイルサイズの劇的な改善をもたらす革新的な試みであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "npmとGitHub Actionsにおけるサプライチェーン攻撃の阻止",
+      "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+      "source": "GitHub Blog",
+      "published": "2026-07-28T16:00:00+00:00",
+      "summary": "パッケージリポジトリやCI/CDシステムを標的とした、資格情報窃取を狙うサプライチェーン攻撃の増加を指摘。\nGitHubがnpmおよびGitHub Actionsにおいて、攻撃チェーンを遮断するためのセキュリティ改善策を導入。\nセキュリティ研究者や開発者コミュニティとの連携により、攻撃の初期アクセスや権限昇格を阻止。",
+      "tags": [
+        "Security",
+        "npm",
+        "GitHub Actions"
+      ],
+      "category": "セキュリティ",
+      "score": 88,
+      "score_reason": "ソフトウェア開発のエコシステム全体に影響を与えるサプライチェーン攻撃に対し、主要プラットフォームが講じた具体的な防御策であり、業界全体のセキュリティ向上に極めて重要であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Diátaxis",
+      "url": "https://diataxis.fr/",
+      "source": "Hacker News",
+      "published": "2026-08-01T20:33:27+00:00",
+      "hn_score": 96,
+      "hn_comments": 15,
+      "summary": "技術ドキュメントを作成・整理するための体系的なフレームワーク「Diátaxis」の紹介。\nユーザーのニーズを「チュートリアル」「ハウツー」「リファレンス」「解説」の4つに分類。\nドキュメントの品質向上と維持管理を容易にし、多くのプロジェクトで採用されている。",
+      "tags": [
+        "ドキュメント",
+        "Diátaxis",
+        "ソフトウェア開発"
+      ],
+      "category": "その他",
+      "score": 85,
+      "score_reason": "開発者コミュニティで広く採用されているドキュメント作成の標準的フレームワークであり、実用性が極めて高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AI フレンドリーな CLI を開発するテクニック",
+      "url": "https://zenn.dev/shunsuke_suzuki/articles/make-cli-ai-friendly",
+      "source": "Zenn",
+      "published": "2026-08-01T01:35:46+00:00",
+      "summary": "AIエージェントがCLIツールを自律的に操作・トラブルシューティングしやすくするための開発手法を提案している。\n自作OSS「ghtkn」を例に、AIがWeb Fetchせずにドキュメントを読み込めるコマンドの実装などを紹介。\nAIとの協調開発が当たり前になる時代において、CLIをAIフレンドリーに設計する重要性と具体策を解説。",
+      "tags": [
+        "CLI",
+        "AIエージェント",
+        "開発プロセス"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "AIエージェントによる開発自動化が普及する中で、ツール側をAIに最適化するという先駆的かつ実用的なアプローチを提示しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIの限界は頭脳ではなく、電気と冷却にあった【宇宙のデータセンターって何？】",
+      "url": "https://qiita.com/sumomoo/items/8bbe719ed4de1a36def9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-07-31T05:21:40+00:00",
+      "summary": "AIの急激な需要拡大に伴い、地上のデータセンターが直面する電力不足と冷却コストの物理的限界を指摘。\n太陽光発電が容易で放熱性に優れた宇宙空間にデータセンターを構築する、SpaceXの「AI1」プロジェクト構想を紹介。\n2027年後半の実証打ち上げに向け、巨大な太陽電池パネルを備えた衛星で地上の制約を回避する新たなアプローチを解説。",
+      "tags": [
+        "データセンター",
+        "SpaceX",
+        "宇宙開発"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "AIの成長を阻む電力と冷却の物理的限界に対し、宇宙データセンターという壮大かつ具体的なインフラ解決策を提示しており、業界への影響度と新規性が極めて高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "JetBrains、AIが少ないトークンでコンテキストを取得しやすく、よりよいコード生成を可能にする「JetBrains Context」発表",
+      "url": "https://www.publickey1.jp/blog/26/jetbrainsaijetbrains_context.html",
+      "source": "Publickey",
+      "published": "2026-07-30T17:48:59+00:00",
+      "summary": "JetBrainsは、AIエージェント向けに効率的なコードコンテキストを提供する「JetBrains Context」を発表。\nリポジトリを事前インデックス化し、セマンティック検索を提供することで、AIが少ないトークンで文脈を理解可能にする。\nAIエージェントのコード生成精度を向上させるとともに、開発コストの削減にも貢献する新サービス。",
+      "tags": [
+        "JetBrains",
+        "AIコード生成",
+        "開発ツール"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "開発現場でのAIエージェント活用において、トークン消費の抑制とコンテキスト理解の向上を両立させる極めて実用的な技術であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "あなたの音声アシスタントもソーシャルエンジニアリングの標的になる、そして誰もそれを警戒していない",
+      "url": "https://dev.to/coridev/your-voice-assistant-can-be-social-engineered-too-and-nobodys-watching-for-it-51jp",
+      "source": "Dev.to",
+      "published": "2026-08-01T22:47:21+00:00",
+      "summary": "GeminiやGPT-4oなどの常に音声を聴き取るマルチモーダルAIエージェントに対する、新たなプロンプトインジェクション攻撃の手法が発表された。\n研究によると、環境音や重ね合わせた音声の中に攻撃命令を埋め込むことで、約69%の確率でエージェントに命令を実行させることが可能である。\nテキストでの対策が進む一方で、音声という新たなモダリティにおける信頼境界の脆弱性が浮き彫りになっている。",
+      "tags": [
+        "AIセキュリティ",
+        "プロンプトインジェクション",
+        "音声アシスタント"
+      ],
+      "category": "セキュリティ",
+      "score": 85,
+      "score_reason": "常に音声を監視するマルチモーダルAIエージェント特有の脆弱性を指摘しており、今後のAI応用製品の設計において極めて重要なセキュリティ課題となるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "早期終了はするな：メモリ速度でソースコードをケースフォールディングする",
+      "url": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
+      "source": "GitHub Blog",
+      "published": "2026-07-31T16:00:00+00:00",
+      "summary": "GitHubがコード検索エンジンにおける大文字小文字を区別しない検索（ケースフォールディング）の高速化手法を解説。\n非ASCII文字で早期終了する最適化をあえて削除し、分岐なしでバッファ全体を走査する方が高速であることを発見。\nこの高速化成果をRustのクレート「casefold」としてオープンソースで公開。",
+      "tags": [
+        "Rust",
+        "GitHub",
+        "Optimization"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "大規模なソースコード検索における極限の最適化手法を解説しており、直感に反するパフォーマンス向上の知見とオープンソース公開は技術的価値が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "MITより：AIによる財務アドバイスは驚くほど優れている",
+      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+      "source": "Hacker News",
+      "published": "2026-08-01T22:25:12+00:00",
+      "hn_score": 17,
+      "hn_comments": 10,
+      "summary": "多くの米国人が財務アドバイスを得るためにAIを利用し始めている実態を調査。\nMIT Sloanの研究者が、AIが提供する財務アドバイスの質やその実用性について分析。\n適切な質問をすることで、AIから驚くほど質の高い財務アドバイスを引き出せることを示唆。",
+      "tags": [
+        "AI",
+        "金融",
+        "MIT"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "AIの実社会における実用性と、金融アドバイスという専門領域での有用性を評価した研究であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "メテオフォール開発",
+      "url": "https://zenn.dev/hisaju01/books/meteorfall-development",
+      "source": "Zenn",
+      "published": "2026-07-31T06:16:08+00:00",
+      "summary": "AIエージェントを用いた新しい開発プロセス「メテオフォール開発」について体系的に解説した無料の電子書籍。\nAIへの依頼設計から、生成された初期コードのレビュー、修正タスクの分解、チーム運用までを網羅。\nAI時代におけるジュニアエンジニアの参加設計や失敗パターンと対策など、実践的なノウハウを提供。",
+      "tags": [
+        "AIエージェント",
+        "システム開発",
+        "開発プロセス"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "AIエージェントを実際の開発現場に組み込むための具体的なフレームワークを提示しており、今後の開発組織のあり方に影響を与える内容です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "コードベースのナレッジ化なら、LLM Wikiで十分かもしれない",
+      "url": "https://qiita.com/Syoitu/items/ff38655fed51a2920910?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-07-30T06:24:02+00:00",
+      "summary": "コーディングエージェントにコードベースを理解させる際、従来の検索型ツールや指示ファイルが抱えるコストと運用の課題を整理。\n情報を整理してページにまとめておくことで検索コストを抑え、情報の鮮度を保つ「LLM Wiki」というアプローチを解説。\nLLM Wikiに似た仕組みを持つ新しいライブラリ「OpenWiki」の概要と、それを動かす方法について紹介。",
+      "tags": [
+        "LLM",
+        "Wiki",
+        "OpenWiki"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "AIエージェントのコード理解における運用コストと検索精度の課題に対し、LLM Wikiという新しいアプローチと具体的なライブラリを提示しており新規性と実用性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Redditの株価が下落する中、CEOがGoogleの「AI Overviews」の価値に疑問を呈す",
+      "url": "https://www.reddit.com/r/technology/comments/1vcr4qe/as_reddit_stock_falls_ceo_questions_value_of/",
+      "source": "Reddit",
+      "published": "2026-08-01T16:01:31+00:00",
+      "summary": "Redditの株価下落に伴い、同社CEOがGoogleの検索AI機能「AI Overviews」の価値に疑問を投げかけました。\nAIによる検索結果の要約が、元のコンテンツ提供元へのトラフィックを減少させている懸念が背景にあります。\nプラットフォーマーとコンテンツホルダー間のAIを巡る対立を象徴する動きです。",
+      "tags": [
+        "Reddit",
+        "Google",
+        "AI Overviews"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 80,
+      "score_reason": "検索エンジンによるAI要約がWebエコシステムやメディア企業の収益モデルに与える影響は極めて大きいためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIを使わず地理演算でファンタジー地図を自動生成するWebツール『USOMAP』がとても面白い「水源から町を作る」「国境線の作り方もリアル」",
+      "url": "https://togetter.com/li/2727453",
+      "source": "はてなブックマーク",
+      "published": "2026-08-01T09:48:24+00:00",
+      "summary": "地理演算を用いてファンタジー世界の地図を自動生成する無料のWebツール「USOMAP」が話題に。\n生成AIに頼らず、プレートテクトニクスや気候、水源、人の営みなどの物理・社会シミュレーションを順次計算。\n説得力のある国境線や街道、航路が自動生成され、SVG書き出しによる編集にも対応している。",
+      "tags": [
+        "地図生成",
+        "シミュレーション",
+        "Webツール"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 80,
+      "score_reason": "AI全盛期において、ルールベースの地理演算シミュレーションにより極めて実用的かつ高品質なコンテンツを生成するアプローチが秀逸であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub Copilotアプリにおけるスタックされたセッションとプルリクエスト",
+      "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
+      "source": "GitHub Blog",
+      "published": "2026-07-30T17:30:24+00:00",
+      "summary": "GitHub Copilotアプリに搭載された、一連のタスクを段階的に構築できる「スタックされたセッション」機能を紹介。\nReact 15やBootstrapなど、長年放置されていたレガシーな個人アプリの依存関係アップデートに本機能を活用。\nAIを活用することで、従来は困難だった大規模なコードベースの近代化を効率的に進められることを実証。",
+      "tags": [
+        "GitHub Copilot",
+        "AI",
+        "Frontend"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "GitHub Copilotを用いたレガシーコードの近代化プロセスと新機能の有用性を具体的に示しており、開発者の生産性向上に直結するため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ハーネスこそがすべて（ほぼ）",
+      "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+      "source": "GitHub Blog",
+      "published": "2026-07-27T18:00:00+00:00",
+      "summary": "AIツールの急増に圧倒される中、重要なのは奇抜なプロンプトや設定ではなく既存の「ハーネス（開発環境）」を理解し使いこなすことである。\nGitHub Copilotを例に、CLIや各種IDEで共通化されつつあるハーネスを活用した、生産性を劇的に向上させるシンプルなワークフローを紹介する。\nツールごとの細かな違いはあれど、コアとなるワークフローは一貫しており、ハーネスを一度学べばどこでも応用可能であると説く。",
+      "tags": [
+        "GitHub Copilot",
+        "AIアシスタント",
+        "生産性向上"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "GitHub Copilotの開発者が、AIツール乱立時代における本質的な生産性向上のアプローチとして、開発環境（ハーネス）の理解と活用の重要性を実践的に解説しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Web Streams API 入門 ― 基本概念から実践まで",
+      "url": "https://zenn.dev/cybozu_frontend/articles/web-streams-api-guide",
+      "source": "Zenn",
+      "published": "2026-07-30T23:57:26+00:00",
+      "summary": "JavaScriptでストリーム処理を行うための標準規格「Web Streams API」の基本と実践を解説。\nストリーム処理のメリットとして、メモリ空間の節約と低遅延でのデータ処理を挙げている。\nReadableStreamやTransformStreamなどの主要オブジェクトと、それらをパイプで繋ぐ実装方法を紹介。",
+      "tags": [
+        "JavaScript",
+        "Web Streams API",
+        "フロントエンド"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 78,
+      "score_reason": "ブラウザやNode.jsなどの主要環境で標準化されたWeb Streams APIの基礎から実践までを分かりやすく解説しており、実用性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "CLAUDE.md は21セクションか、8行か — 公式ドキュメントで決着をつけた",
+      "url": "https://qiita.com/jqit_suwa/items/cea574550613de33a114?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-07-30T00:47:06+00:00",
+      "summary": "Claude Codeの設定ファイル「CLAUDE.md」の記述量について、詳細な20項目以上か10行以内の簡潔な記述かの議論を検証。\nAnthropic公式のベストプラクティスに基づき、肥大化による指示の無視を防ぐために「簡潔に保つこと」が推奨されると結論。\nAPIがステートレスでありリクエストのたびに履歴が送信される仕組みを解説し、効果的な設定ファイルの書き方を整理。",
+      "tags": [
+        "Claude Code",
+        "CLAUDE.md",
+        "Anthropic"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "普及が進むClaude Codeの最適な設定方法について、公式ドキュメントの根拠とAPIの仕組みから明快な指針を示しており実用性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "裁判所、ミネソタ州の「ヌード化」アプリ禁止措置の差し止めを求めるxAIの請求を棄却",
+      "url": "https://www.reddit.com/r/technology/comments/1vcxven/judge_denies_xais_request_to_block_minnesota_ban/",
+      "source": "Reddit",
+      "published": "2026-08-01T20:30:02+00:00",
+      "summary": "ミネソタ州が導入した、画像を加工してヌードにする「ヌード化」アプリの禁止措置に対し、xAIが求めた差し止め請求が裁判所に棄却されました。\nディープフェイクやAI生成コンテンツによる性的被害を防ぐための法規制が支持された形です。\nAI技術の倫理的利用と法的規制の境界線を巡る重要な判例となります。",
+      "tags": [
+        "xAI",
+        "ディープフェイク",
+        "法規制"
+      ],
+      "category": "セキュリティ",
+      "score": 78,
+      "score_reason": "生成AIの悪用に対する法的な規制と、開発企業の責任範囲を決定づける重要な司法判断であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Dependabotを飼い慣らす：アップデートをグループ化し、頻度を下げ、セキュリティを迅速に維持する",
+      "url": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
+      "source": "GitHub Blog",
+      "published": "2026-07-29T16:00:00+00:00",
+      "summary": "頻繁に発生するDependabotのプルリクエストによるノイズと、レビュー負荷の課題を解説。\nMicrosoftのオープンソースプロジェクトを例に、dependabot.ymlの設定変更による改善策を提示。\nアップデートをグループ化し、実行頻度を月次に下げることで、開発の生産性とセキュリティを両立。",
+      "tags": [
+        "Dependabot",
+        "GitHub",
+        "CI/CD"
+      ],
+      "category": "セキュリティ",
+      "score": 78,
+      "score_reason": "多くの開発者が直面するDependabotの通知ノイズ問題を、設定の最適化によって解決する実践的かつ即効性のあるノウハウであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GoogleがどのようにしてRSSフィードの普及を衰退させたか (2023)",
+      "url": "https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds",
+      "source": "Hacker News",
+      "published": "2026-08-01T18:07:07+00:00",
+      "hn_score": 283,
+      "hn_comments": 88,
+      "summary": "Googleなどの大手IT企業がRSSフィードの利用を困難にし、普及を妨げた経緯を解説。\nGoogleはオープンなRSSプロトコルでシェアを獲得後、サポートを打ち切る戦略を実行。\nChromiumでのRSS統合ボタンの削除など、インターネットの自由と開放性に対する脅威となっている。",
+      "tags": [
+        "RSS",
+        "Google",
+        "Web"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "オープンウェブの歴史と大手プラットフォーマーの影響力を示す重要な議論であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "64ビットアセンブリの芸術",
+      "url": "https://nostarch.com/art-64-bit-assembly-v2",
+      "source": "Hacker News",
+      "published": "2026-08-01T14:09:00+00:00",
+      "hn_score": 168,
+      "hn_comments": 79,
+      "summary": "書籍「The Art of 64-bit Assembly」の紹介で、AIでは説明しきれない低レイヤの挙動を解説している。\nC++やRustなどの言語の機能をMASMを用いてWindows上でゼロから再構築し、命令レベルで解剖する。\nオブジェクト、例外、クロージャ、並行処理などの高度な概念をアセンブリレベルで深く理解するための本。",
+      "tags": [
+        "アセンブリ",
+        "低レイヤ",
+        "書籍"
+      ],
+      "category": "プログラミング言語",
+      "score": 75,
+      "score_reason": "AI時代においてブラックボックス化しがちな低レイヤの動作原理を、アセンブリ言語を通じて深く理解するための貴重な技術書です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIのアウトプットをそのまま出すだけの人にならないために",
+      "url": "https://qiita.com/ktdatascience/items/8d2dace07c9c7a9d0453?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-01T06:25:03+00:00",
+      "summary": "開発業務の多くをAIエージェントに移行したエンジニアが、人間の介在価値や残るべき仕事について考察したポエム。\n手順化や言語化ができる定型的なタスクはAIの領域となり、人間は「コンテキストに乗らない抽象的な領域」へシフトすると指摘。\nAIの出力をそのまま流す「人間ルーター」になることを避け、人間にしかできない5つの役割に注力することの重要性を説く。",
+      "tags": [
+        "AIエージェント",
+        "キャリアパス",
+        "エンジニアリング"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "AI時代におけるエンジニアの役割変化とキャリアのあり方について、実体験に基づき深く考察しており業界への啓発度が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "マーク・ザッカーバーグのAIへの方向転換が、劇的な形で裏目に出ている",
+      "url": "https://www.reddit.com/r/technology/comments/1vcvy3h/mark_zuckerbergs_pivot_to_ai_is_blowing_up_in_his/",
+      "source": "Reddit",
+      "published": "2026-08-01T19:13:37+00:00",
+      "summary": "マーク・ザッカーバーグ率いるMetaのAIシフトが大きな困難に直面していると報じられています。\n巨額の投資にもかかわらず、期待された成果や市場の評価が得られていない可能性が指摘されています。\n今後のMetaの戦略やAI市場における競争力への影響が懸念されます。",
+      "tags": [
+        "Meta",
+        "AI",
+        "マーク・ザッカーバーグ"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "大手テック企業であるMetaのAI戦略の成否は、今後のAI市場の動向や投資トレンドに大きな影響を与えるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "宮本佳林『アイドルがAIと配信のシステムを全部作った話』",
+      "url": "https://ameblo.jp/miyamotokarin-official/entry-12974432505.html",
+      "source": "はてなブックマーク",
+      "published": "2026-08-01T08:05:19+00:00",
+      "summary": "プログラミング経験ゼロのアイドル宮本佳林氏が、AIツールを活用してYouTube生配信システムを構築した体験談。\nClaude CodeやChatGPTに日本語で指示を出し、エラー修正もAIに任せることでコードを1行も読まずに実装。\n視聴者の投稿数に応じたゲージ演出や、AIによるMV再現度の自動採点システムなどを実現している。",
+      "tags": [
+        "AIエージェント",
+        "Claude Code",
+        "ノーコード開発"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "プログラミング未経験者がAIエージェントのみで実用的なシステムを構築した、AI時代における開発プロセスの変革を示す象徴的な事例であるため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "AppSheet vs Apps Script vs PowerApps (2026): それぞれの使い分け",
+      "url": "https://dev.to/hayrullahkar/appsheet-vs-apps-script-vs-powerapps-2026-when-to-use-each-2e41",
+      "source": "Dev.to",
+      "published": "2026-08-01T22:18:27+00:00",
+      "summary": "GoogleのAppSheetとApps Script、MicrosoftのPowerAppsの2026年における最適な使い分けとコスト構造を解説している。\nAppSheetはUI構築（ノーコード）、Apps Scriptはロジック処理（JavaScript）に適しており、これらは競合ではなく組み合わせて使うべきである。\nユーザー数が増えるほどAppSheetのライセンス費用が嵩むため、ロジックで代替できる部分はApps Scriptを活用するなどのコスト最適化が推奨される。",
+      "tags": [
+        "ノーコード",
+        "Google Apps Script",
+        "AppSheet"
+      ],
+      "category": "その他",
+      "score": 75,
+      "score_reason": "業務効率化ツールの選定において、UIとロジックの役割分担やユーザー数に応じたコストシミュレーションなど、実践的な意思決定基準を提供しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "静的HTMLとSupabaseを使い、0ドルでリアルタイムなグローバルスコアボードを構築した方法",
+      "url": "https://dev.to/naavvviiinnnn/how-i-built-a-live-global-scoreboard-for-0-using-static-html-and-supabasepublished-true-5apm",
+      "source": "Dev.to",
+      "published": "2026-08-01T22:15:19+00:00",
+      "summary": "サーバーレスかつ無料枠のデータベースでトラフィック急増に耐えるグローバルスコアボードを構築。\nWebSocketの代わりに2秒ごとのポーリングを採用し、データベースの接続制限を回避。\n国ごとの行数を約200行に固定するテーブル設計により、クエリ性能とストレージを一定に維持。",
+      "tags": [
+        "Supabase",
+        "PostgreSQL",
+        "Frontend"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 75,
+      "score_reason": "無料枠の制限を回避するための実践的なアーキテクチャ設計とデータベース最適化の手法が具体的に解説されており、個人開発者にとって実用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Copilot活用に向けた「Microsoft Teamsでの情報共有の考え方」を作成しました | 北海道大学DX業務推進室",
+      "url": "https://mx.general.hokudai.ac.jp/posts/SuvDaMaR",
+      "source": "はてなブックマーク",
+      "published": "2026-08-01T06:41:19+00:00",
+      "summary": "北海道大学DX業務推進室が、Copilotの有効活用を見据えたMicrosoft Teamsでの情報共有ガイドラインを作成しました。\nAIアシスタントが効率的に情報を処理・学習できるよう、日頃のコミュニケーションのあり方を整理しています。\n組織内での生成AI導入とDX推進における、実践的かつ具体的なアプローチとして注目されます。",
+      "tags": [
+        "Copilot",
+        "Microsoft Teams",
+        "DX"
+      ],
+      "category": "AI・機械学習",
+      "score": 72,
+      "score_reason": "教育機関や組織における生成AIの導入・活用を円滑に進めるための、具体的な運用指針として実用性が高いためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "役割を広げたらほんまに強くなれるんかみたいな話",
+      "url": "https://qiita.com/morry_48/items/170fb14f1f9c48f115d5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-07-30T02:59:19+00:00",
+      "summary": "AIの普及や技術変化に伴い、エンジニアがドメイン知識や多様な役割を持つことの意義と自身の失敗談を交えて考察。\nシステムやAIによって作業が自動化されるほど、人間の仕事は正解のない抽象的な意思決定や立式へとシフトすると指摘。\nツールはすでに何をすべきか知っている人にバフをかけるものであり、エンジニアとしての基礎スキルとドメイン知識の掛け合わせが重要と説く。",
+      "tags": [
+        "キャリアパス",
+        "ドメイン知識",
+        "エンジニアリング"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 70,
+      "score_reason": "AIや自動化が進む中でのエンジニアのスキルセットと役割拡張について、実体験を交えた本質的な視点を提供しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "カリフォルニア州のある町で、Flock社のナンバープレート認識カメラの誤判定率が71%に達することが判明",
+      "url": "https://www.reddit.com/r/technology/comments/1vcm1ly/one_california_town_found_flocks_license_plate/",
+      "source": "Reddit",
+      "published": "2026-08-01T12:24:57+00:00",
+      "summary": "カリフォルニア州の町で、Flock社製ナンバープレート認識カメラの誤判定率が71%に上ることが判明しました。\n監視技術の精度や、誤判定による冤罪・プライバシー侵害のリスクが浮き彫りになっています。\n公共安全におけるAIや画像認識技術の信頼性と導入基準に一石を投じる事例です。",
+      "tags": [
+        "画像認識",
+        "監視カメラ",
+        "プライバシー"
+      ],
+      "category": "セキュリティ",
+      "score": 70,
+      "score_reason": "監視技術の誤判定率の高さは、市民のプライバシーや法執行の信頼性に直結する重要な問題であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "宮本佳林『HANAKIN配信システムの技術構成』",
+      "url": "https://ameblo.jp/miyamotokarin-official/entry-12974440752.html",
+      "source": "はてなブックマーク",
+      "published": "2026-08-01T08:05:57+00:00",
+      "summary": "AI（Claude Code）と共に構築したYouTube配信システムの具体的な技術構成を解説したブログ記事。\nCloudflare WorkersやKV、OBSブラウザソース、Node.jsなどを組み合わせたリアルタイムな仕組みを構築。\n美しい設計よりも当日確実に動くことを最優先とし、素のHTMLとVanilla JSで実装した実践的な構成を紹介している。",
+      "tags": [
+        "Cloudflare Workers",
+        "OBS",
+        "システム構成"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 70,
+      "score_reason": "AI主導で構築されたシステムの具体的なアーキテクチャが示されており、実用的な技術選定の参考になるため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "500ページに2つのh1タグ：2つの正しいコードの隙間に潜むバグ",
+      "url": "https://dev.to/zugodev/two-h1-tags-on-500-pages-the-bug-that-lives-between-two-correct-halves-2aha",
+      "source": "Dev.to",
+      "published": "2026-08-01T22:20:43+00:00",
+      "summary": "ブログのテンプレートとMarkdownの双方が個別に正しい処理をしていた結果、出力された500ページにh1タグが重複して存在するバグが発生した。\nテンプレートがタイトルをh1で出力し、Markdownの先頭見出しもh1に変換されたため、結合後の出力テストでのみ検知可能な不具合となった。\n筆者はMarkdown側を修正するのではなく、レンダリング後のHTML内のh1タグをh2タグに置換・降格させることでこの問題を解決した。",
+      "tags": [
+        "HTML",
+        "Markdown",
+        "テスト自動化"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 70,
+      "score_reason": "個別のユニットテストをパスしても結合時の出力で発生するSEOやアクセシビリティ上のバグの実例であり、フロントエンド開発におけるテスト設計の重要性を示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Morph (YC S23) が技術スタッフ（MTS）を募集中",
+      "url": "https://www.ycombinator.com/companies/morph/jobs/0Z8vI3K-member-of-technical-staff",
+      "source": "Hacker News",
+      "published": "2026-08-01T22:52:44+00:00",
+      "hn_score": 1,
+      "hn_comments": 0,
+      "summary": "Y Combinator出身のスタートアップ「Morph」が、推論インフラを開発する技術スタッフを募集。\n同社はコーディングエージェント向けに最適化された、最速のオープンモデル用推論スタックを構築。\nカーネル、モデルサービング、ルーティング、投機的デコードなどの最適化を行うパフォーマンスエンジニアを求めている。",
+      "tags": [
+        "採用",
+        "推論インフラ",
+        "AIエージェント"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 65,
+      "score_reason": "特定企業の求人情報ではあるが、コーディングエージェント向け推論高速化という最先端の技術トレンドを示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Copilot Chat（Microsoft 365）の会話を Markdown に保存・エクスポートする方法（拡張機能不要）",
+      "url": "https://zenn.dev/dxclab/articles/bdc3935d10706c",
+      "source": "Zenn",
+      "published": "2026-07-30T09:19:02+00:00",
+      "summary": "Copilot Chatの会話履歴を一括でMarkdown保存する標準機能やAPI、拡張機能の課題を指摘。\n拡張機能や管理者権限が不要で、端末内のみで完結するブックマークレットを用いたエクスポート手法を提案。\nセキュリティポリシーが厳しい企業環境でも、安全かつ手軽に会話ログを保存・活用できる具体的な手順を紹介。",
+      "tags": [
+        "Copilot",
+        "Markdown",
+        "ブックマークレット"
+      ],
+      "category": "その他",
+      "score": 65,
+      "score_reason": "企業環境でのCopilot利用における実用的な会話保存のTipsであり、セキュリティ制約を回避する現実的な解決策を提示しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「元兆万長者」がテスラとSpaceXの暴落で7500億ドルを失う、ラリー・ペイジ、セルゲイ・ブリン、ジェフ・ベゾスの純資産合計を上回る損失 — なぜ富裕層は損失を笑い飛ばせるのか",
+      "url": "https://www.reddit.com/r/technology/comments/1vd0ey7/former_trillionaire_loses_750_billion_amid_tesla/",
+      "source": "Reddit",
+      "published": "2026-08-01T22:15:06+00:00",
+      "summary": "テスラやSpaceXの株価暴落により、イーロン・マスク氏とみられる人物が7500億ドルもの資産を失いました。\nこの損失額は、Google創業者らやジェフ・ベゾス氏の総資産を合算したものよりも巨額です。\n超富裕層の資産構造や、テック企業の株価変動が個人資産に与える影響の大きさを物語っています。",
+      "tags": [
+        "テスラ",
+        "SpaceX",
+        "イーロン・マスク"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 65,
+      "score_reason": "主要テック企業の株価急落と経営者の資産変動は、市場のセンチメントや今後の投資に影響を与えるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "電卓でLinuxを動かすことはできるか？",
+      "url": "https://raymii.org/s/articles/But_can_your_calculator_run_Linux.html",
+      "source": "Hacker News",
+      "published": "2026-08-01T19:44:48+00:00",
+      "hn_score": 43,
+      "hn_comments": 4,
+      "summary": "プログラマー向け電卓HP 16Cやその復刻版DM16Lなどの魅力的な電卓を紹介している。\nグラフィカル電卓「HP Prime G2」などでLinuxを動作させるポートについて解説している。\n電卓上でLinuxやDoomを動かすという、ハッカー精神に富んだ試みを紹介する記事。",
+      "tags": [
+        "Linux",
+        "電卓",
+        "ガジェット"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 60,
+      "score_reason": "実用性は低いものの、電卓という制限されたハードウェア上でLinuxを動作させるハッカー精神と技術的探求心が興味深い記事です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "SaaSにおけるUI開発のよくある課題とその解決方法、教えます［PR］",
+      "url": "https://www.publickey1.jp/blog/26/saasuipr.html",
+      "source": "Publickey",
+      "published": "2026-07-27T15:43:49+00:00",
+      "summary": "メシウス社は、SaaS開発におけるUI/UXの課題と解決策を解説した資料「SaaS開発の困ったを解決！」を公開した。\n35年以上のUIコンポーネント開発実績に基づき、日本国内外での多様なニーズに応えるノウハウがまとめられている。\n実際の構築事例を交えながら、開発支援ツールの活用術や効率的なUI開発手法を紹介している。",
+      "tags": [
+        "UI/UX",
+        "SaaS",
+        "フロントエンド"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 50,
+      "score_reason": "SaaS開発におけるUI/UXの課題解決に関する実践的な資料紹介であり、実務的な参考にはなるがPR記事のため新規性は控えめである。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Streamlitでの開発を覗き見：音声生成時のトレースバック処理",
+      "url": "https://dev.to/saeedmarketads/a-peek-into-building-with-streamlit-handling-audio-generation-tracebacks-2k15",
+      "source": "Dev.to",
+      "published": "2026-08-01T22:15:09+00:00",
+      "summary": "StreamlitとPythonを用いたショッピングアシスタントアプリの開発プロセスを紹介。\n音声生成（TTS）時のNameErrorやAPIキー設定に関するエラーのデバッグ事例を解説。\n開発におけるエラーハンドリングやトラブルシューティングの楽しさと重要性を共有。",
+      "tags": [
+        "Streamlit",
+        "Python",
+        "TTS"
+      ],
+      "category": "プログラミング言語",
+      "score": 50,
+      "score_reason": "Streamlitを用いたアプリ開発における一般的なデバッグ体験の共有であり、技術的な新規性は低いが、初心者向けの参考情報として役立つため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "skills/plugins/html/skills/html at main · mathbullet/skills",
+      "url": "https://github.com/mathbullet/skills/tree/main/plugins/html/skills/html",
+      "source": "はてなブックマーク",
+      "published": "2026-08-01T05:17:24+00:00",
+      "summary": "GitHub上の「mathbullet/skills」リポジトリにおけるHTMLプラグイン関連のディレクトリ。\nデザインシステムやPDFレンダリング用のシェルスクリプト（render-pdf.sh）などのファイルが含まれている。\n開発者向けのHTML関連スキルやツールを管理・共有するためのリポジトリと推測される。",
+      "tags": [
+        "GitHub",
+        "HTML",
+        "開発ツール"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 30,
+      "score_reason": "特定のリポジトリのディレクトリ構造を示すのみであり、具体的な新規性や業界への影響度が低いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}

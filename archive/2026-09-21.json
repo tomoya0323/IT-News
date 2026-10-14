@@ -1,0 +1,763 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-21T09:01:36.815353+09:00",
+  "total_count": 43,
+  "success_count": 43,
+  "error_count": 0,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "Copilotを活用したGitHub CopilotランタイムのRustへの移行",
+      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "source": "GitHub Blog",
+      "published": "2026-09-17T00:26:43+00:00",
+      "summary": "GitHub Copilotのランタイムを、TypeScriptから80万行以上のRustコードへ完全に書き換えたプロジェクトの紹介。\nGitHub Copilot自身を活用することで、通常ならチームで1〜2年かかる規模の移行を、1人の開発者がわずか数ヶ月で達成した。\nAIエージェント主導の開発プロセスにより、パフォーマンスの大幅な向上と迅速なリリースを両立している。",
+      "tags": [
+        "Rust",
+        "GitHub Copilot",
+        "AIエージェント"
+      ],
+      "category": "プログラミング言語",
+      "score": 95,
+      "score_reason": "AIエージェントを用いて大規模なプロダクションコードをRustへ高速に移植した画期的な事例であり、今後の開発手法に極めて大きな影響を与える。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ChatGPTは広告コレクターを介して他のウェブサイトでのあなたの行動を把握している",
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+      "source": "Hacker News",
+      "published": "2026-09-20T15:18:44+00:00",
+      "hn_score": 533,
+      "hn_comments": 299,
+      "summary": "OpenAIの広告コレクターが、ユーザーのChatGPTアカウントと紐付いた識別子クッキー「__obi」を設定していることが判明。\nChatGPTに広告を出稿する外部サイトをユーザーが訪れると、閲覧した商品や記事などの行動データがOpenAIに送信される仕組み。\n著者は自身のスマートフォンでこの挙動を再現・検証し、外部サイトでの行動がChatGPTアカウントに紐付け可能であることを実証した。",
+      "tags": [
+        "OpenAI",
+        "Privacy",
+        "Tracking"
+      ],
+      "category": "セキュリティ",
+      "score": 92,
+      "score_reason": "OpenAIによるユーザー追跡とプライバシー侵害の懸念は、ChatGPTユーザー全体およびIT業界のプライバシー規制に極めて大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行",
+      "url": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
+      "source": "Publickey",
+      "published": "2026-09-16T16:00:51+00:00",
+      "summary": "自律型AIエンジニア「Devin」が、ホストする仮想環境内でのmacOSの提供を開始した。\n実機のMacがなくても、iOS/macOS向けアプリのコード生成、テスト、デバッグ、実行が可能になる。\nさらに、App Store配信前のTestFlightを用いたベータ公開までの一連のプロセスをAIに任せられる。",
+      "tags": [
+        "Devin",
+        "AIエージェント",
+        "iOS開発"
+      ],
+      "category": "AI・機械学習",
+      "score": 90,
+      "score_reason": "AIエージェントが実機不要でAppleエコシステムの開発から配信準備までを自律的に完結できるようになり、開発プロセスを根本から変える可能性があるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Googleのオープンなエージェント・オーケストレーター",
+      "url": "https://agentexecutor.io",
+      "source": "Hacker News",
+      "published": "2026-09-20T22:32:43+00:00",
+      "hn_score": 78,
+      "hn_comments": 25,
+      "summary": "Googleが開発したオープンなエージェント・オーケストレーター「AX」に関する紹介。\nタスクのサンドボックス化やネットワーク制限、クラスタ内での大量タスク実行を支援する。\n状態の蓄積や厳格な分離が必要なAIエージェント向けに、YAMLでワークスペースやタスクを定義可能。",
+      "tags": [
+        "AX",
+        "Google",
+        "Agentic Orchestrator"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "Googleによる新しいエージェント向けオーケストレーションツールの登場は、AIエージェントのインフラ構築において高い実用性と影響力を持つため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "新しい Amazon Bedrock AgentCore Runtime が利用可能に!!",
+      "url": "https://zenn.dev/aws_japan/articles/agentcore-runtime-v2-platform-version",
+      "source": "Zenn",
+      "published": "2026-09-19T14:55:28+00:00",
+      "summary": "Amazon Bedrock AgentCore Runtimeの新しいプラットフォームバージョン「V2」が一般提供開始。\nAIエージェントの実行基盤において、課題であった新規セッションのコールドスタート時間とコストを大幅に削減。\nセッションごとのハードウェア分離やサーバーレスの利点を維持しつつ、常駐型エージェントの運用効率を向上。",
+      "tags": [
+        "AWS",
+        "Amazon Bedrock",
+        "AI Agent"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "クラウド上でのAIエージェント実行における最大のボトルネックであるコールドスタートとコストを改善し、実用的なエージェント運用の普及を加速させるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オレゴン州のデータセンターが州全体の電力の約25%を消費",
+      "url": "https://www.reddit.com/r/technology/comments/1wldygn/oregon_data_centers_use_almost_25_of_the_states/",
+      "source": "Reddit",
+      "published": "2026-09-20T10:53:56+00:00",
+      "summary": "米国オレゴン州に位置するデータセンター群が、州全体の総電力消費量の約4分の1を占めていることが判明しました。\nクラウドサービスやAI需要の急増に伴い、データセンターの電力消費が急激に拡大しています。\n地域インフラや環境への負荷、今後の持続可能なエネルギー供給に関する議論が活発化しています。",
+      "tags": [
+        "データセンター",
+        "電力消費",
+        "環境問題"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "AIやクラウドの急速な普及に伴うデータセンターの電力問題は、インフラ持続可能性における極めて深刻な課題であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開",
+      "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
+      "source": "Publickey",
+      "published": "2026-09-17T15:59:39+00:00",
+      "summary": "PlanetScaleがPostgreSQLのシャーディングを自動化する新データベースサービス「Neki」をプレビュー公開した。\nVitessにインスパイアされた仕組みにより、1億1800万QPS、1.22PiBのデータ、512シャードを達成。\nデータベースを多数のシャードに自動分割・分散処理することで、極めて高いスケーラビリティを実現する。",
+      "tags": [
+        "PlanetScale",
+        "PostgreSQL",
+        "シャーディング"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "PostgreSQLの自動シャーディングにより驚異的なQPSを達成しており、大規模システム開発におけるインフラ技術として極めて重要度が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応",
+      "url": "https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html",
+      "source": "Publickey",
+      "published": "2026-09-16T15:51:54+00:00",
+      "summary": "Android上で異なるパスワードマネージャ間でパスキーを直接転送できる新機能が発表されました。\nGoogleや1Password、Bitwardenなどの主要なパスワードマネージャがこの機能に対応します。\nこれにより、ファイルを介さずに安全かつ容易に他のマネージャへ移行することが可能になります。",
+      "tags": [
+        "Android",
+        "パスキー",
+        "セキュリティ"
+      ],
+      "category": "セキュリティ",
+      "score": 85,
+      "score_reason": "パスキーの移行性を高めることでベンダーロックインを防ぎ、パスワードレス社会への移行を大きく加速させる可能性があるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "初心者向けGitHub Copilotアプリ：diff、ターミナル、ブラウザの活用方法",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+      "source": "GitHub Blog",
+      "published": "2026-09-10T21:31:19+00:00",
+      "summary": "GitHub Copilotアプリに、コードの変更確認、コマンド実行、UI表示をアプリ内で完結できる新機能が追加された。\ndiffパネルで変更箇所を視認し、内蔵ターミナルでコードを実行し、ブラウザパネルで実際の表示を確認できる。\nエディタやブラウザ間を行き来する手間を省き、AIを活用した開発ループをよりスムーズにする。",
+      "tags": [
+        "GitHub Copilot",
+        "開発ツール",
+        "AIアシスタント"
+      ],
+      "category": "その他",
+      "score": 85,
+      "score_reason": "AI主導の開発フローにおいて、確認から実行までのコンテキストスイッチを最小化する優れたUX改善であり、開発効率を大きく向上させる。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Qwen Image 2.1",
+      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "source": "Hacker News",
+      "published": "2026-09-20T13:09:25+00:00",
+      "hn_score": 467,
+      "hn_comments": 148,
+      "summary": "Alibabaが開発するオープンソースのAIモデルシリーズ「Qwen」の最新画像生成・理解モデル「Qwen Image 2.1」の発表。\n画像の理解能力や生成能力がさらに向上し、マルチモーダルなタスクにおいて高いパフォーマンスを発揮する。\nオープンなAIエコシステムにおける強力な選択肢として、開発者や研究者向けに提供が開始された。",
+      "tags": [
+        "Qwen",
+        "Multimodal AI",
+        "Image Generation"
+      ],
+      "category": "AI・機械学習",
+      "score": 83,
+      "score_reason": "中国発の強力なオープンモデルであるQwenシリーズの画像対応アップデートは、マルチモーダルAIの普及において重要度が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "話題のJevとは？文章を書かずに判断だけを返すAIモデルをざっくり解説",
+      "url": "https://qiita.com/yushibats/items/472325ce548da370ed5d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-18T05:21:55+00:00",
+      "summary": "文章を生成せず、あらかじめ用意された選択肢に対する確率（判断）のみを返す新しいAIモデル「Jev」の解説記事。\n従来のLLMを「記述式」、Jevを「マークシート方式」に例え、応答速度の速さと低コストというメリットを説明。\nリクエストの構成要素である「state」と「questions」の仕組みや、型エラーが起きない特徴について紹介している。",
+      "tags": [
+        "Jev",
+        "AI",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "従来のLLMとは異なるアプローチを持つ新しいAIモデル「Jev」の仕組みとメリットを、直感的な例えを用いて明快に解説している。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 3
+    },
+    {
+      "title": "GitHub - minorun365/agent-builder-skills: AWSでAIエージェントのWebアプリを作るためのスキル集",
+      "url": "https://github.com/minorun365/agent-builder-skills",
+      "source": "はてなブックマーク",
+      "published": "2026-09-20T14:59:58+00:00",
+      "summary": "AWS上でAIエージェントのWebアプリを構築するための、コーディングエージェント向けスキル集です。\nBedrock AgentCoreやAWS CDK、Lambda Web Adapterなどを組み合わせた実践的な構成を提案しています。\n公式ドキュメント通りに動かない際の原因と対処法をまとめ、Lambdaの制限を回避する構成も紹介しています。",
+      "tags": [
+        "AWS",
+        "AIエージェント",
+        "GitHub"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "AWSを用いたAIエージェント開発における実用的なノウハウであり、開発者の生産性向上に直結するためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして",
+      "url": "https://www.publickey1.jp/blog/26/javaai.html",
+      "source": "Publickey",
+      "published": "2026-09-15T15:49:38+00:00",
+      "summary": "オラクルはJavaのセキュリティパッチの提供サイクルを、従来の3ヶ月から毎月へと短縮しました。\nAIの台頭によって脆弱性の発見と修正のペースが劇的に加速している現状に対応するための措置です。\n「CSPU」と呼ばれる新しい月次パッチにより、ユーザーは迅速に重要脆弱性に対処できるようになります。",
+      "tags": [
+        "Java",
+        "セキュリティ",
+        "AI"
+      ],
+      "category": "セキュリティ",
+      "score": 82,
+      "score_reason": "AI時代における脆弱性発見の高速化に対応し、エンタープライズで広く使われるJavaのパッチ運用を月次に変更するという業界の大きな変化を反映しているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "コードとしてのマーケティング運用：GitHubでのイベント自動化",
+      "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+      "source": "GitHub Blog",
+      "published": "2026-09-11T18:26:10+00:00",
+      "summary": "GitHubのマーケティング担当者が、GitHub Copilotを活用してイベント運営業務を自動化した事例を紹介。\nCopilotとの対話を通じて、1つのGitHub Issueからイベントのセットアップや登録者選別、フォローアップまでを自動で行う仕組みを構築した。\n非開発部門や元エンジニアがAIを活用して日常の定型業務を効率化する、実践的なアプローチを示している。",
+      "tags": [
+        "GitHub Copilot",
+        "業務自動化",
+        "生産性向上"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 82,
+      "score_reason": "開発者以外の業務（マーケティング）においても、AIとGitHubを活用した「Ops as Code」が極めて有効であることを示す好例である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "サムスン、HBM4およびHBM4E DRAMの生産量を2倍以上に拡大する見込み",
+      "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+      "source": "Hacker News",
+      "published": "2026-09-20T17:38:50+00:00",
+      "hn_score": 321,
+      "hn_comments": 206,
+      "summary": "サムスン電子が来年、次世代高帯域幅メモリ「HBM4」および「HBM4E」の生産量を2倍以上に増やす見込み。\nHBMの薄型化プロセスでウェハの反りや破損を防ぐために不可欠な「ガラスキャリア」の需要が2.5倍に急増。\n12層以上の積層技術に対応するため、ガラスキャリアの洗浄外注量などを大幅に拡大する計画。",
+      "tags": [
+        "Samsung",
+        "HBM4",
+        "DRAM"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 80,
+      "score_reason": "AI需要の急増に伴う次世代高帯域幅メモリ（HBM4）の増産は、半導体業界およびAIインフラ全体に大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Pirate Face：LLMモデルを削除から救う分散型P2Pミラーリング",
+      "url": "https://pirateface.co/",
+      "source": "Hacker News",
+      "published": "2026-09-20T15:16:07+00:00",
+      "hn_score": 414,
+      "hn_comments": 131,
+      "summary": "Hugging Faceのオープンモデルをマグネットリンク化し、削除不可能なP2Pネットワークで共有するプロジェクト。\n中央集権的な単一障害点を排除し、SHA-256ハッシュによる改ざん防止と整合性検証を実現。\n既存のパイプラインのAPIエンドポイントを変更するだけで、コードを書き換えずに移行可能。",
+      "tags": [
+        "LLM",
+        "P2P",
+        "Decentralized"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "AIモデルの検閲や削除に対する分散型の解決策を提示しており、オープンソースAIの永続性と主権において重要な試みであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "MCP × Claude Code × BedrockでPlaywrightの自動化フローを構築",
+      "url": "https://zenn.dev/hirata_infosys/articles/598068e56ae342",
+      "source": "Zenn",
+      "published": "2026-09-18T21:00:05+00:00",
+      "summary": "既存システムへのAIエージェント導入において、Playwrightを用いた画面操作による自動化フローの検証記事。\nMCP、Claude Code、Amazon Bedrockを組み合わせ、Dockerコンテナ環境でVNCを用いたデバッグ可能な構成を構築。\nNode.js（MCP）とPython（自動化スクリプト）でChromiumを共有し、コンテナサイズ削減とパス競合を解決している。",
+      "tags": [
+        "Playwright",
+        "Claude Code",
+        "MCP"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "MCPとClaude Codeを用いた実用的なブラウザ自動化エージェントの構築手法を具体的に解説しており、実用性と新規性が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「Java 27」正式リリース。全環境でG1 GCがデフォルトに、TLS 1.3用に耐量子暗号のハイブリッドキー交換など新機能",
+      "url": "https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html",
+      "source": "Publickey",
+      "published": "2026-09-15T15:52:17+00:00",
+      "summary": "オラクルがJavaの最新バージョンとなる「Java 27」を正式にリリースしました。\nすべての環境でG1 GCがデフォルトになり、TLS 1.3向けに耐量子暗号のハイブリッドキー交換が導入されています。\n本バージョンはLTS（長期サポート）ではなく、6ヶ月間のサポート期間が提供されるフィーチャーリリースです。",
+      "tags": [
+        "Java",
+        "JVM",
+        "耐量子暗号"
+      ],
+      "category": "プログラミング言語",
+      "score": 80,
+      "score_reason": "主要言語であるJavaの最新機能アップデートであり、耐量子暗号への早期対応などセキュリティ面での重要な進歩を含んでいるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "大規模なWebRTCの構築",
+      "url": "https://dev.to/karanpratapsingh/webrtc-at-scale-2di1",
+      "source": "Dev.to",
+      "published": "2026-09-20T23:35:51+00:00",
+      "summary": "WebRTCはブラウザ間で音声、ビデオ、データを直接送受信するためのオープン標準である。\n接続に必要なシグナリングやNATトラバーサルは仕様外であり、独自に実装する必要がある。\n本記事では、3つの主要API、シグナリングサーバーの実装、およびmesh/SFU/MCUのトレードオフを解説する。",
+      "tags": [
+        "WebRTC",
+        "リアルタイム通信",
+        "ネットワーク"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 80,
+      "score_reason": "大規模なリアルタイム通信インフラを構築する上での重要なアーキテクチャの選択肢や課題を体系的に解説しており、実用性が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "誰もFOSSにお金を払わない、私たちは彼らに支払わせることができる",
+      "url": "https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/",
+      "source": "Hacker News",
+      "published": "2026-09-20T21:04:32+00:00",
+      "hn_score": 106,
+      "hn_comments": 74,
+      "summary": "誰もお金を払おうとしないオープンソースソフトウェア（FOSS）の持続可能性に関する経済的課題を指摘。\n進化生物学の「タカ派とハト派」モデルを用いて、現在のオープンソースエコシステムが不安定な状態にあると分析。\nパッケージレジストリなどの仕組みを通じて、企業に強制的に対価を支払わせる新たなアプローチを提案している。",
+      "tags": [
+        "FOSS",
+        "Open Source",
+        "Software Economics"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 78,
+      "score_reason": "オープンソースの持続可能性と資金調達問題は長年の課題であり、レジストリによる強制課金という具体的な提案は議論を呼ぶため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "jev-lint: コード中の命名やコメントが嘘になってないかを高速に確認",
+      "url": "https://zenn.dev/mizchi/articles/jev-lint-intro",
+      "source": "Zenn",
+      "published": "2026-09-19T15:39:57+00:00",
+      "summary": "関数名と実装の乖離や、コメント・テスト名の嘘を検出する静的解析ツール「jev-lint」の紹介。\nast-grepで抽出したコードに対し、自然言語で記述したルールをJevを用いてバッチ評価する仕組み。\nTypeScriptやJavaScriptなどtree-sitterに対応する多様な言語で利用でき、1リクエストで大量のルールを高速処理可能。",
+      "tags": [
+        "Linter",
+        "ast-grep",
+        "Jev"
+      ],
+      "category": "プログラミング言語",
+      "score": 78,
+      "score_reason": "自然言語ルールとAST解析を組み合わせることで、従来の静的解析では困難だったセマンティクスレベルのコード検証を高速に実現しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Claude Code が AGENTS.md を読むようになった。ただし1回目のセッションでは読まれない",
+      "url": "https://qiita.com/suwa_nobu/items/c795cf89d0fd4091c9cb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-19T01:51:19+00:00",
+      "summary": "Claude Code 2.1.277における「AGENTS.md」サポート追加の仕様と挙動を検証した記事。\nCLAUDE.mdが存在しないプロジェクトでAGENTS.mdが読み込まれるが、インストール後最初のセッションでは読み込まれない仕様を指摘。\n各種設定ファイル（CLAUDE.mdやCLAUDE.local.md）との優先順位や読み込み挙動を合言葉テストで詳細に検証している。",
+      "tags": [
+        "Claude Code",
+        "LLM",
+        "検証"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "Claude Codeの最新アップデートにおける設定ファイルの読み込み挙動を詳細に検証しており、開発者にとって実用的な知見を提供している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ロイター記者ケイティ・ポール氏によるAMA：マーク・ザッカーバーグのMeta社員をAIに置き換える計画とその崩壊の裏側",
+      "url": "https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/",
+      "source": "Reddit",
+      "published": "2026-09-02T19:18:30+00:00",
+      "summary": "ロイターの記者ケイティ・ポール氏がRedditでAMA（質問歓迎）セッションを開催しました。\nマーク・ザッカーバーグがMetaの従業員をAIに置き換えようとした計画の全貌を暴露しています。\nその計画がどのようにして破綻・崩壊に至ったのかについて詳細が語られています。",
+      "tags": [
+        "Meta",
+        "AI",
+        "レイオフ"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 78,
+      "score_reason": "大手テック企業におけるAI導入と人員削減計画の失敗事例は、今後のAI活用と雇用問題に大きな教訓を与えるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "もしAIがうまく機能しすぎたらどうなるか？",
+      "url": "https://dev.to/ewanderson_flaviano/what-if-ai-works-too-well-3dkl",
+      "source": "Dev.to",
+      "published": "2026-09-20T23:46:50+00:00",
+      "summary": "AIが高度に発達しすぎた結果、人間がその技術や文明を再構築・理解する能力を失うリスクを考察しています。\n古代エジプトのヒエログリフのように、情報は物理的に残っても解釈する人間がいなくなる状況に例えています。\n情報の保存とそれを理解する能力の維持は別物であり、AIへの過度な依存に対する警鐘を鳴らす内容です。",
+      "tags": [
+        "AI",
+        "技術論",
+        "人工知能"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "AIの急速な発展がもたらす「人間の知的衰退と技術のブラックボックス化」という、哲学的かつ現実的なリスクについて深い洞察を提供しているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "コードを読むべきか、RAGは死んだのか、そしてSkillsはMCPを駆逐したのか？",
+      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
+      "source": "GitHub Blog",
+      "published": "2026-09-18T15:00:00+00:00",
+      "summary": "GitHubのポッドキャストにて、AIに関する極端な意見（ホットテイク）の真偽を深く掘り下げる。\nAIが生成したコードのレビューは、リスクや文脈に応じて適切に注意力を配分すべきだと主張する。\nRAGの現状や、Model Context Protocol（MCP）とSkillsの関係性など、最新のAIトレンドについて議論している。",
+      "tags": [
+        "AI",
+        "GitHub",
+        "ソフトウェア開発"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "AI時代のソフトウェア開発におけるコードレビューのあり方や、最新のAI技術トレンドに対する現実的な視点を提供している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub可用性レポート：2026年8月",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
+      "source": "GitHub Blog",
+      "published": "2026-09-10T02:05:17+00:00",
+      "summary": "2026年8月はGitHubにとって可用性の面で課題の残る月となり、容量監視やリトライポリシーの改善が実施されました。\nインフラのAzure移行が精力的に進められており、8月11日には初めてMySQLのプライマリをAzure上で稼働させることに成功しました。\n移行に伴いAzure経由の読み取りトラフィック比率が大きく上昇したほか、認証コアの移行など耐久性向上の取り組みも継続しています。",
+      "tags": [
+        "GitHub",
+        "Azure",
+        "データベース"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 78,
+      "score_reason": "開発者にとって極めて重要なインフラであるGitHubのAzure移行プロセスと、可用性向上に向けた具体的なデータベース移行実績が示されているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Jevを、自然言語で分類基準を渡せる識別モデルとして使う",
+      "url": "https://zenn.dev/cybernetics/articles/4f3762bd470fc4",
+      "source": "Zenn",
+      "published": "2026-09-19T04:29:37+00:00",
+      "summary": "Jevを自然言語で分類基準や質問を動的に指定できる「確率的分類器」として活用する手法の解説。\nモデルの再学習をすることなく、入力データ、質問、候補ラベルの説明をAPIに渡すだけで多様な分類タスクに対応。\n1回のリクエストで複数の質問を同時に処理でき、問い合わせの自動振り分けなどに実用可能。",
+      "tags": [
+        "Jev",
+        "Machine Learning",
+        "Text Classification"
+      ],
+      "category": "AI・機械学習",
+      "score": 76,
+      "score_reason": "ファインチューニング不要で、自然言語の指示のみで高精度かつ柔軟なテキスト分類を実現する新しいアプローチを提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 3
+    },
+    {
+      "title": "Write() で拒否しても、Claude Code は12回とも書き込んだ。効いていたのは Edit() だけだった",
+      "url": "https://qiita.com/suwa_nobu/items/e867493a5cbcdfaa40c9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-17T23:43:54+00:00",
+      "summary": "Claude Code 2.1.275におけるファイル書き込み権限ルール（WriteとEdit）の挙動を検証した記事。\n拒否ルールに「Write」を指定しても書き込みが阻止されず、「Edit」を指定した場合のみ正常に阻止されるバグを指摘。\n36回に及ぶ詳細なテストを通じて、アップデート後もWriteルールが機能していない実態を明らかにしている。",
+      "tags": [
+        "Claude Code",
+        "セキュリティ",
+        "検証"
+      ],
+      "category": "AI・機械学習",
+      "score": 76,
+      "score_reason": "Claude Codeの権限管理機能における重要なバグと挙動の違いを厳密に検証しており、安全な利用において価値が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Ternary Bonsai 2 27BをM1Pro・16GBで動かす",
+      "url": "https://zenn.dev/okame_rara/articles/bonsai_2_27b_m1",
+      "source": "Zenn",
+      "published": "2026-09-19T15:05:52+00:00",
+      "summary": "M1 Pro・メモリ16GBのMacBook Pro上で、27BクラスのLLM「Ternary Bonsai 2 27B」を動作させた検証レポート。\nHadamard変換に対応するため、本家ではなくPrismML公式のllama.cpp forkをビルドして環境を構築。\nPQ2_0のGGUFモデルを使用し、日本語の応答において約8〜9.6 tokens/sの推論速度を確認。",
+      "tags": [
+        "LLM",
+        "llama.cpp",
+        "Apple Silicon"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "メモリ制限のあるローカル環境で27Bクラスの大型モデルを実用的な速度で動作させる手法を示しており、ローカルLLMの可能性を広げる検証であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "5分でJev入門（すぐ使う）",
+      "url": "https://qiita.com/Ninagawa123/items/8ec3f5fe18c20fab1b2a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-19T14:29:27+00:00",
+      "summary": "超短文の回答を高速で返す新しいAIモデル「Jev」の基本的な使い方を解説する初心者向け記事。\nWaitlist登録からコンソール画面へのアクセス、PlaygroundでのポエムのAI生成判定の実行手順を紹介。\nJevの「noul」タイプ（Yes/Noの2択）を用いた具体的なプロンプトと判定結果の例を提示している。",
+      "tags": [
+        "Jev",
+        "AI",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "話題の高速・低コストAIモデル「Jev」の具体的な導入と試行手順を簡潔に紹介しており、情報価値が高い。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 3
+    },
+    {
+      "title": "AIバブルはこうして終わる　金利高と収穫逓減「死の交差」 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUB164ZN0W6A910C2000000/",
+      "source": "はてなブックマーク",
+      "published": "2026-09-20T06:15:13+00:00",
+      "summary": "AI開発における「収穫逓減の法則」により、追加投資に対する収益の伸び悩みが課題となっている。\n米国の主要AI企業が開発減速を呼びかける背景には、資本を食い潰すディストピアへの懸念がある。\n金利高と収穫逓減が交差することで、現在のAIバブルが終焉を迎えるシナリオを指摘している。",
+      "tags": [
+        "AIバブル",
+        "収穫逓減",
+        "投資動向"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "AI開発の投資対効果とマクロ経済の観点から、AIバブルの終焉シナリオを鋭く分析しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "マージできなかったコミット：GitHub Actionsの落とし穴",
+      "url": "https://dev.to/cortia/the-commit-that-wouldnt-merge-48en",
+      "source": "Dev.to",
+      "published": "2026-09-20T23:23:55+00:00",
+      "summary": "CIやLinterが成功しているにもかかわらず、GitHubのプルリクエストがマージできないトラブルシューティングの記録。\n原因は、GitHub Actionsの条件分岐により特定のジョブが実行されなかった一方で、ブランチ保護ルールでそのジョブが必須とされていたことだった。\nCI/CDパイプラインの設定ミスが開発プロセスに与える影響と、その解決プロセスを詳細に示している。",
+      "tags": [
+        "GitHub Actions",
+        "CI/CD",
+        "トラブルシューティング"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 75,
+      "score_reason": "開発現場で頻発しがちなGitHub Actionsとブランチ保護ルールの競合問題について、実践的な解決プロセスを共有している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "生成AIセキュリティを学んで変わった「AIを安全に使う」という考え方",
+      "url": "https://qiita.com/kf_webdev/items/cbd1d7bb724676a3b686?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-19T07:56:25+00:00",
+      "summary": "生成AIセキュリティの学習を通じて、個人や企業における「AIを安全に使う」ためのマインドセットの変化を綴った記事。\n単に「情報を漏洩させない」だけでなく、「そもそも外部のAIサービスに渡してよい情報なのか」を判断する重要性を指摘。\n情報を4つに分類してマスキングなどの対策を行うなど、実践的なAI利用基準の整理方法を提案している。",
+      "tags": [
+        "生成AI",
+        "セキュリティ",
+        "データガバナンス"
+      ],
+      "category": "セキュリティ",
+      "score": 72,
+      "score_reason": "生成AI利用におけるセキュリティ意識を「漏洩防止」から「データガバナンス」へと昇華させる重要性を分かりやすく解説している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ノーベル賞経済学者らがカリフォルニア州のビリオネア税を支持 — 「反対派の主張とは裏腹に、富裕層への課税はシリコンバレーを破滅させず、むしろ逆効果をもたらす」",
+      "url": "https://www.reddit.com/r/technology/comments/1wlpst4/nobel_economists_throw_support_behind_california/",
+      "source": "Reddit",
+      "published": "2026-09-20T19:07:58+00:00",
+      "summary": "ノーベル賞を受賞した経済学者たちが、カリフォルニア州の富裕層課税（ビリオネア税）への支持を表明しました。\n反対派はシリコンバレーの衰退を懸念しますが、経済学者らは課税が地域を破滅させることはないと主張しています。\nむしろ適切な課税がシリコンバレーの持続的な発展やエコシステムにプラスに働くと指摘しています。",
+      "tags": [
+        "シリコンバレー",
+        "税制",
+        "経済学"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 72,
+      "score_reason": "テック業界の中心地であるシリコンバレーの資金調達や企業活動に影響を与える税制議論として重要度が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "スノーデン・アーカイブに何が起きたのか",
+      "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+      "source": "Hacker News",
+      "published": "2026-09-20T22:35:49+00:00",
+      "hn_score": 67,
+      "hn_comments": 15,
+      "summary": "2019年5月を最後に、スノーデン氏が暴露した機密文書（スノーデン・アーカイブ）の新規公開が完全に途絶えている現状を報告。\nガーディアンやニューヨーク・タイムズなどの主要メディアが次々と公開を停止し、最後に残ったインターセプトもアーカイブを閉鎖した。\nスノーデン氏が当初ジャーナリストたちと接触し、暗号化されたファイルを慎重に共有していった歴史的経緯を振り返る。",
+      "tags": [
+        "Edward Snowden",
+        "Security",
+        "Journalism"
+      ],
+      "category": "セキュリティ",
+      "score": 70,
+      "score_reason": "歴史的な機密暴露アーカイブの現状と報道機関の動向を整理した内容であり、セキュリティとプライバシーの観点から重要。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIなら30秒でできることを、なぜ30分かけてやるのか｜豊福晋平 Shimpei Toyofuku",
+      "url": "https://note.com/stoyofuku/n/nc437dd84ec86",
+      "source": "はてなブックマーク",
+      "published": "2026-09-19T22:43:06+00:00",
+      "summary": "生成AIの普及により、学校教育における「学習に必要な苦労」や課題のあり方が問い直されている。\nAIで代替可能な成果物重視の評価環境では、子供が最短経路としてAIを使うのは合理的である。\n単なる結果の提出ではなく、人間が時間をかけて学ぶ価値のあるプロセスとは何かを再考する必要がある。",
+      "tags": [
+        "生成AI",
+        "教育改革",
+        "学習プロセス"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "生成AIが教育現場や人間の学習プロセスに与える本質的な問いを提示しており、社会的影響が大きい。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "iPhone Duoは重すぎる？ Pro Maxを1年使った私が気になったのは、重さよりTouch ID – @tarosite",
+      "url": "https://tarosite.net/tech/2026/09/20/iphone-duo-weight-and-touch-id/",
+      "source": "はてなブックマーク",
+      "published": "2026-09-20T07:13:03+00:00",
+      "summary": "10月発売の折りたたみスマホ「iPhone Duo」の実機ハンズオンによるファーストインプレッション。\n公称254gの重さはPro Maxユーザーには許容範囲だが、閉じた状態のホールド感は良好と評価。\n一方で、Face IDの代わりに搭載されたTouch IDによる指紋認証には、操作上の違和感があると指摘。",
+      "tags": [
+        "iPhone Duo",
+        "折りたたみスマホ",
+        "Apple"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 70,
+      "score_reason": "Appleの新型折りたたみデバイスに関する実機レビューであり、ユーザビリティの観点から詳細に評価しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "セマンティックバージョニング（SemVer）：なぜバージョン番号は3つのパートに分かれているのか",
+      "url": "https://dev.to/susumun/semantic-versioning-semver-why-version-numbers-have-three-parts-1f74",
+      "source": "Dev.to",
+      "published": "2026-09-20T23:40:15+00:00",
+      "summary": "ソフトウェアで広く使われるセマンティックバージョニング（SemVer）の仕組みと重要性を解説しています。\nバージョン番号を「メジャー.マイナー.パッチ」の3つに分けることで、更新の安全性を一目で判断できます。\n単なる連番ではなく、番号自体に互換性や変更内容の意味を持たせることのメリットを説明しています。",
+      "tags": [
+        "SemVer",
+        "ソフトウェア開発",
+        "バージョン管理"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "ソフトウェア開発における標準的なバージョン管理手法であるSemVerの意義と実用性を、初心者にも分かりやすく再確認させてくれる内容であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "プーチン大統領、米Dell製PC上の未ライセンスWindowsでオンライン投票 — 公式映像に「Windowsのライセンス認証」の透かしが映り込む",
+      "url": "https://www.reddit.com/r/technology/comments/1wldlr7/vladimir_putin_casts_online_vote_using_unlicensed/",
+      "source": "Reddit",
+      "published": "2026-09-20T10:33:49+00:00",
+      "summary": "プーチン大統領がオンライン投票の際、未ライセンスのWindowsを搭載した米国Dell製のPCを使用しました。\nクレムリンの公式動画に「Windowsのライセンス認証」を求める透かしが映り込み話題となっています。\nロシア製技術の使用義務化方針に反し、外国製のハードウェアと未認証OSを使用していたことが露呈しました。",
+      "tags": [
+        "Windows",
+        "セキュリティ",
+        "ロシア"
+      ],
+      "category": "セキュリティ",
+      "score": 65,
+      "score_reason": "国家指導者のITセキュリティ意識の低さと、ロシアの国産技術移行方針の矛盾を浮き彫りにした象徴的なニュースです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub - minorun365/minorun-marp-skill: Marpで登壇スライドを作るための、ストーリー・図・デザインバランスのスキル集と黒地テーマ、検査ツール",
+      "url": "https://github.com/minorun365/minorun-marp-skill",
+      "source": "はてなブックマーク",
+      "published": "2026-09-20T14:35:15+00:00",
+      "summary": "Marpで登壇スライドを作成する際のストーリーやデザインの型をまとめたリポジトリが公開された。\nClaude CodeなどのAIエージェントに読み込ませて、内容が薄くならないスライドを生成するスキル集を含む。\nスライドの余白や文字サイズ、SVGの配置などを自動でチェックするPython/Node.js製検査ツールも同梱。",
+      "tags": [
+        "Marp",
+        "Claude Code",
+        "スライド作成"
+      ],
+      "category": "その他",
+      "score": 65,
+      "score_reason": "AIエージェントを活用したスライド作成の効率化と品質担保を具体的なルールとツールで実現しており、実用性が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "私がポモドーロを辞めて50/10プロトコルを採用した理由（そしてそれがどのようにディープワークを改善したか）",
+      "url": "https://dev.to/silentruntime/why-i-ditched-pomodoro-for-the-5010-protocol-and-how-it-fixed-my-deep-work-16ml",
+      "source": "Dev.to",
+      "published": "2026-09-20T23:46:57+00:00",
+      "summary": "開発者にとって従来の25分作業・5分休憩のポモドーロ・テクニックは短すぎると著者は指摘しています。\n複雑なコードや設計を理解してフロー状態に入るには、25分では不十分で効率を下げてしまうとのことです。\n50分作業・10分休憩の「50/10プロトコル」を導入することで、ディープワークの質が劇的に改善したと述べています。",
+      "tags": [
+        "生産性",
+        "開発プロセス",
+        "ライフハック"
+      ],
+      "category": "その他",
+      "score": 65,
+      "score_reason": "開発者の生産性と集中力を維持するための具体的な時間管理手法を提示しており、多くのエンジニアにとって実用的な知見であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ベビーブーム世代にも広がるSNS依存症、BBCが報じる",
+      "url": "https://www.reddit.com/r/technology/comments/1wll3l1/social_media_addiction_affecting_boomers_bbc_hears/",
+      "source": "Reddit",
+      "published": "2026-09-20T16:10:04+00:00",
+      "summary": "若者だけでなく、ベビーブーム世代（高齢層）の間でもSNS依存症が深刻化しているとBBCが報じました。\n孤独感の解消や情報収集を目的とした利用が、過度な依存や偽情報の拡散に繋がっていると指摘されています。\n高齢者層におけるデジタルウェルビーイングの重要性と、社会的なサポートの必要性が浮き彫りになりました。",
+      "tags": [
+        "SNS依存",
+        "高齢者",
+        "ソーシャルメディア"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "テックの社会的影響として重要ですが、技術的な新規性よりも社会問題としての側面が強いためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ピクセルアートにおけるCRT（ブラウン管）の効果",
+      "url": "https://datagubbe.se/crt/",
+      "source": "Hacker News",
+      "published": "2026-09-19T17:14:51+00:00",
+      "hn_score": 66,
+      "hn_comments": 15,
+      "summary": "CRT（ブラウン管）の物理的特性が低解像度ピクセルの粗さを滑らかにしていた効果を解説する記事。\n現代のフラットスクリーンで表示されるブロック感の強いピクセルアートは時代錯誤なノスタルジーであると指摘。\n単なるにじみ効果だけでなく、当時のハードウェアや信号品質など多角的な視点からピクセルアートの表現を考察。",
+      "tags": [
+        "Pixel Art",
+        "CRT",
+        "Retro Gaming"
+      ],
+      "category": "その他",
+      "score": 55,
+      "score_reason": "レトロゲームやピクセルアートの表現技法に関する興味深い考察ですが、現代のIT業界全体への直接的な影響は限定的であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}

@@ -1,0 +1,825 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-06T08:42:37.480798+09:00",
+  "total_count": 47,
+  "success_count": 47,
+  "error_count": 0,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "AWS、新たな太平洋海底ケーブル「Sta'O'Nuk」発表。420Tbps、2029年に稼働へ。集中リスク排除のため新たな陸揚げ拠点を採用",
+      "url": "https://www.publickey1.jp/blog/26/awsstaonuk420tbps2029.html",
+      "source": "Publickey",
+      "published": "2026-09-03T01:59:39+00:00",
+      "summary": "AWSが日本と米国を結ぶ、容量420Tbpsの新たな太平洋海底ケーブル「Sta'O'Nuk」を発表。\n2029年の稼働を目指し、多層的な暗号化技術により通信内容の安全性を強固に保護する。\n災害や地政学的リスクを回避するため、従来の集中エリアを避けた新たな陸揚げ拠点を採用している。",
+      "tags": [
+        "AWS",
+        "海底ケーブル",
+        "インフラ"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 90,
+      "score_reason": "日米間の通信容量を大幅に増強しつつ、災害や地政学的リスクに対するインフラの回復力を高める極めて重要なプロジェクトであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AWSとAzureが最大100Gbpsでの相互接続を開始。これでAWSはAzure、Google Cloud、Oracle Cloudとのマルチクラウドをサポート",
+      "url": "https://www.publickey1.jp/blog/26/awsazure100gbpsawsazuregoogle_cloudoracle_cloud.html",
+      "source": "Publickey",
+      "published": "2026-09-02T15:53:23+00:00",
+      "summary": "AWSとMicrosoft Azureが協力し、最大100Gbpsの高速な閉域網で相互接続するサービスをプレビュー提供開始しました。\nAWSは「AWS Interconnect - multicloud」、Azureは「Azure Multicloud Interconnect」をそれぞれ提供します。\nこれにより、主要クラウド間でのマルチクラウド環境の構築がより迅速かつ容易になります。",
+      "tags": [
+        "AWS",
+        "Azure",
+        "マルチクラウド"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 90,
+      "score_reason": "主要クラウド間の高速相互接続は、企業のマルチクラウド戦略を強力に推進し、インフラ設計に大きな影響を与えます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Project HydraFusion：マルチモデルオーケストレーションによる最先端の品質",
+      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "source": "GitHub Blog",
+      "published": "2026-09-04T16:04:14+00:00",
+      "summary": "GitHubは、複数プロバイダーのモデルをランタイムで最適に組み合わせる「Project HydraFusion」を発表。\nタスクに応じて「シングル」「カスケード」「クリティーク」の3つの実行パターンを自動選択する。\n開発者には複雑さを意識させず、品質、コスト、レイテンシの最適なバランスを自動で実現する。",
+      "tags": [
+        "GitHub Copilot",
+        "LLM",
+        "Multi-Model Orchestration"
+      ],
+      "category": "AI・機械学習",
+      "score": 88,
+      "score_reason": "複数のLLMを動的に組み合わせて最適化するマルチモデルオーケストレーションは、今後のAI開発の効率化において極めて重要な技術である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "OKF Agent Memory – AIコーディングエージェントのためのGitネイティブな永続メモリ",
+      "url": "https://github.com/okf-memory/okf-agent-memory",
+      "source": "Hacker News",
+      "published": "2026-09-05T22:15:52+00:00",
+      "hn_score": 7,
+      "hn_comments": 1,
+      "summary": "AIコーディングエージェント向けに設計された、Gitネイティブな永続メモリレイヤー「OKF Agent Memory」。\n外部のベクトルデータベースを使わず、リポジトリ内のMarkdownとYAMLファイルで知識を管理する。\nコンテキストウィンドウのリセットによる知識損失を防ぎ、Gitによる履歴管理や差分確認を可能にする。",
+      "tags": [
+        "AIエージェント",
+        "Git",
+        "知識管理"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "AIエージェントのコンテキスト維持という実用的な課題に対し、Gitネイティブという軽量かつ開発者フレンドリーなアプローチを提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Goの組み込みmapにおけるSwiss Tablesの仕組み",
+      "url": "https://victoriametrics.com/blog/go-swiss-table-map/index.html",
+      "source": "Hacker News",
+      "published": "2026-09-03T11:59:17+00:00",
+      "hn_score": 25,
+      "hn_comments": 1,
+      "summary": "Go 1.24で導入された、Swiss Tablesアルゴリズムに基づく新しいmapの内部実装について解説している。\n従来のランタイム実装からどのように変更されたかを、視覚的かつ段階的に理解できるように説明。\nメモリ効率とパフォーマンスの向上をもたらすSwiss Tablesの構造と、Goのランタイムでの表現方法を紐解く。",
+      "tags": [
+        "Go",
+        "Swiss Tables",
+        "アルゴリズム"
+      ],
+      "category": "プログラミング言語",
+      "score": 85,
+      "score_reason": "Go 1.24における重要なパフォーマンス向上機能であるSwiss Tablesの内部構造を視覚的に分かりやすく解説しており、実用性と技術的新規性が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "【実験】ECSのサービス間を繋ぐ6つの繋ぎ方、実際どれくらい速さが違うのか",
+      "url": "https://qiita.com/sh_fukatsu/items/524a76ad04930e774829?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-03T14:36:40+00:00",
+      "summary": "AWS ECSにおけるサービス間通信の6つの接続方式について、同一AZ内でのレイテンシを実測して比較検証した。\nL3到達性と接続先の指定方式（DNS、プロキシ、ロードバランサなど）の組み合わせによる通信速度の違いを整理している。\nECS Service ConnectやVPC Lattice、PrivateLinkなどの実践的なトレードオフを理解するための貴重なデータを提供している。",
+      "tags": [
+        "AWS",
+        "ECS",
+        "ネットワーク"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "AWS ECSにおける複数のサービス間通信方式のレイテンシを実測比較しており、インフラ設計において極めて実用的な価値がある。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "バージニア州のガレージで18歳の高校生が小麦粉袋サイズの膜なし水フィルターを開発、磁性オイルでマイクロプラスチックの95.52%を除去",
+      "url": "https://www.reddit.com/r/technology/comments/1w80di4/in_a_warrenton_virginia_garage_an_18yearold/",
+      "source": "Reddit",
+      "published": "2026-09-05T13:10:18+00:00",
+      "summary": "バージニア州の18歳の高校生ミア・ヘラー氏が、自宅ガレージで画期的な水フィルターを開発しました。\n小麦粉袋サイズの膜なしフィルターで、磁性オイルを用いてマイクロプラスチックを95.52%除去することに成功しています。\n低コストかつ効率的な環境技術として、今後の実用化や環境問題解決への貢献が期待されます。",
+      "tags": [
+        "環境技術",
+        "マイクロプラスチック",
+        "イノベーション"
+      ],
+      "category": "その他",
+      "score": 85,
+      "score_reason": "若き開発者による低コストかつ高効率な環境技術のイノベーションであり、技術的新規性と社会的実用性が極めて高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "無料でPDF・電子書籍・Word文書・テキストファイルなどからローカルAIを使って検索＆要約ができる「DocuBrowser」、個人情報の認識も可能",
+      "url": "https://gigazine.net/news/20260905-docubrowser/",
+      "source": "はてなブックマーク",
+      "published": "2026-09-05T09:41:47+00:00",
+      "summary": "ローカルAIを活用して多様な文書ファイルから検索や要約ができるツール「DocuBrowser」が公開。\nキーワード検索に加え、意味の近い文書を探すセマンティック検索や、Ollamaを用いた要約が可能。\nクレジットカード番号などの個人情報を検出し、検索対象から除外する機能も備えている。",
+      "tags": [
+        "ローカルAI",
+        "Ollama",
+        "セマンティック検索"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "プライバシーを保護しつつローカル環境で高度な文書検索や要約を実現する実用性の高いツールであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "タスク品質を犠牲にすることなくAIコーディングのコスト効率を高める方法",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+      "source": "GitHub Blog",
+      "published": "2026-09-02T18:00:00+00:00",
+      "summary": "GitHub Copilotにおける、タスク品質を維持しながらAIコーディングのコスト効率を向上させる取り組み。\n単なるトークン削減ではなく、必要なコンテキスト量を最適化してタスク全体の効率を高めるアプローチを採用。\nRust Token Killer（RTK）などのツール評価や、ベンチマークを用いた実験プロセスを解説。",
+      "tags": [
+        "GitHub Copilot",
+        "Cost Optimization",
+        "LLM Context"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "AIエージェントの運用コスト削減と品質維持の両立は実務上の大きな課題であり、その具体的な最適化手法と検証プロセスが示されている。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ツール利用エージェントの高速化に向けた投機的マクロコミット",
+      "url": "https://arxiv.org/abs/2609.03236",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-05T04:00:00+00:00",
+      "summary": "外部ツールを利用するAIエージェントの動作を高速化する「投機的マクロコミット」を提案。\nエージェントの意思決定とツール実行の並列化や予測実行により、遅延を大幅に削減する。\nリアルタイム性が求められるエージェントシステムの実用性を大きく向上させる技術。",
+      "tags": [
+        "AIエージェント",
+        "投機的実行",
+        "高速化"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "AIエージェントの実用化においてボトルネックとなる実行速度の課題に対し、投機的実行という新規性の高いアプローチで解決を図っているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ループエンジニアリング（ralph loop）で業務システムのUIを一新してみた",
+      "url": "https://zenn.dev/sompojapan_dx/articles/846c6038fee45d",
+      "source": "Zenn",
+      "published": "2026-09-04T03:11:20+00:00",
+      "summary": "業務システムの管理機能40画面を、デザインシステムに沿ってReactコンポーネントへ移行するプロジェクトの事例。\n当初は複数AIエージェントの並行稼働で失敗したが、ループエンジニアリングツール「ralph-loop」を導入して改善。\nralph-loopとClaude Codeを組み合わせることで、わずか約1日で全画面の実装とテストの一巡を達成した。",
+      "tags": [
+        "React",
+        "AIエージェント",
+        "ralph-loop"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 82,
+      "score_reason": "AIエージェントを用いた自律的な開発手法（ループエンジニアリング）の実践的な失敗と成功のプロセスが具体的に示されており、開発効率向上の観点で価値が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "初心者のためのGitHub Copilotアプリ：複数のエージェントを同時に実行する",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
+      "source": "GitHub Blog",
+      "published": "2026-09-03T16:00:00+00:00",
+      "summary": "GitHub Copilotアプリにおいて、複数のAIエージェントを並行して実行する機能を紹介。\n各エージェントセッションは独立したGitワークツリーで動作し、互いに干渉することなく並列処理が可能。\n開発者はエージェントの作業完了を待つことなく、複数のタスクを切り替えて効率的にレビューできる。",
+      "tags": [
+        "GitHub Copilot",
+        "AI Agent",
+        "Git Worktree"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "複数エージェントの並行実行とGitワークツリーの統合は、開発者の生産性を大幅に向上させる実用的な機能である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ドイツの民間ロケットが歴史を刻む、欧州本土からの軌道投入に成功",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
+      "source": "Hacker News",
+      "published": "2026-09-05T20:31:38+00:00",
+      "hn_score": 271,
+      "hn_comments": 131,
+      "summary": "ドイツの宇宙スタートアップIsar AerospaceがSpectrumロケットの打ち上げに成功した。\n西ヨーロッパ本土の射場（ノルウェーのアンデヤ宇宙センター）から軌道に到達した初のロケットとなった。\n欧州における自律的な宇宙輸送能力の確保に向けた歴史的な一歩となる。",
+      "tags": [
+        "宇宙開発",
+        "ロケット",
+        "Isar Aerospace"
+      ],
+      "category": "その他",
+      "score": 80,
+      "score_reason": "欧州本土からの初の軌道投入成功という宇宙産業における歴史的なマイルストーンであり、民間宇宙開発の競争を加速させるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "[OpenTelemetry] Go のコンパイル時計装において、ctx 伝搬なしで span を紐づける仕組みについて調べた",
+      "url": "https://zenn.dev/ntk221/articles/34cbb95272720f",
+      "source": "Zenn",
+      "published": "2026-09-05T05:20:31+00:00",
+      "summary": "GoのOpenTelemetryコンパイル時計装ツール「otelc」が、contextの伝搬なしでspanの親子関係を紐づける仕組みを調査。\nGLS（goroutine-local storage）と呼ばれる仕組みを利用し、レガシーコードでもコンパイル時にソースを書き換えることで実現している。\nビルド時にコンパイラ呼び出しに割り込み、runtimeパッケージなどにもフックを注入する具体的な実装方法を解説。",
+      "tags": [
+        "Go",
+        "OpenTelemetry",
+        "GLS"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 80,
+      "score_reason": "Goにおける分散トレーシングの課題であるcontext伝搬の省略を、コンパイル時のコード書き換えとGLSで解決する高度な技術的アプローチを解説している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIに設計を任せるときに気をつけたい。「正しく動く」と「増えても耐えられる」は別だった",
+      "url": "https://qiita.com/adgjmptw0/items/365a4437aad4c939d1cc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-04T00:39:25+00:00",
+      "summary": "生成AIを用いてPush通知機能を設計した際、対象者ごとにDBアクセスが発生する非効率な構造に気付き修正した。\n「正しく動く」ことと「スケールに耐えられる」ことは別であり、データ量が増えた際の挙動を人間が確認する必要がある。\nAIによる開発は高速なため、性能監査の観点から「100倍の規模になったらどうなるか」を意識してレビューすることが重要である。",
+      "tags": [
+        "生成AI",
+        "システム設計",
+        "パフォーマンス"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "生成AIを用いた開発における設計上の落とし穴と、スケールを考慮した人間によるレビューの重要性を分かりやすく解説している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ロイターの記者ケイティ・ポールです。マーク・ザッカーバーグによるMeta社員のAI置き換え計画とその崩壊の裏側を暴きました。AMA（何でも聞いてね）。",
+      "url": "https://www.reddit.com/r/technology/comments/1w5k5h4/hi_reddit_im_katie_paul_a_reuters_journalist_who/",
+      "source": "Reddit",
+      "published": "2026-09-02T19:18:30+00:00",
+      "summary": "ロイターの記者がMeta社におけるAIによる従業員削減計画とその失敗の裏側を公開しました。\nマーク・ザッカーバーグが進めたAI代替計画がどのように崩壊したかについてRedditでAMAを実施しています。\nビッグテックにおけるAI導入の実態と、組織マネジメントにおける課題について活発な議論が交わされています。",
+      "tags": [
+        "Meta",
+        "AI",
+        "組織マネジメント"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 80,
+      "score_reason": "大手テック企業におけるAIによる人員削減計画の失敗事例は、今後のAI導入と組織設計において極めて重要な教訓となるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "人型ロボットがさまざまな競技に挑む「ヒューマノイドロボット競技大会」は技術的にどのような意味があるのか？",
+      "url": "https://gigazine.net/news/20260905-robot-olympics/",
+      "source": "はてなブックマーク",
+      "published": "2026-09-05T12:15:58+00:00",
+      "summary": "中国で開催された「第2回ヒューマノイドロボット競技大会」の技術的意義を専門家が解説。\n100m走で人間の世界記録を超える8秒86が記録されるなど、身体能力の進化が示された。\nスポーツ競技だけでなく、本整理やレンガ積みといった日常作業のタスクこそが実用化に向け重要とされる。",
+      "tags": [
+        "ヒューマノイドロボット",
+        "ロボティクス",
+        "中国"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 80,
+      "score_reason": "人型ロボットの身体能力や実用タスクの処理能力が急速に進化している現状を示す興味深いニュースであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Flutterの遅延リストで、上部の要素をすべて構築せずに特定のインデックスへスクロールする方法",
+      "url": "https://dev.to/devshakib/scrolling-to-an-index-in-a-flutter-lazy-list-without-building-everything-above-it-7o9",
+      "source": "Dev.to",
+      "published": "2026-09-05T23:22:11+00:00",
+      "summary": "Flutterの遅延リストで、未構築の大量の要素をスキップして特定のインデックスへジャンプする際の課題を解説しています。\n従来のパッケージが抱えていたパフォーマンス低下やメンテナンス停止などの問題点を指摘しています。\n固定サイズリストなどのアプローチを検証し、効率的にスクロール位置を制御するための解決策を提示します。",
+      "tags": [
+        "Flutter",
+        "モバイルアプリ",
+        "スクロール"
+      ],
+      "category": "モバイル",
+      "score": 80,
+      "score_reason": "Flutter開発で頻出する遅延リストのスクロールパフォーマンス問題を解決する、非常に実用的な技術解説です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "OpenClawがバイラルに。開発とセキュリティを担うメンテナーたちを紹介",
+      "url": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
+      "source": "GitHub Blog",
+      "published": "2026-08-27T16:00:00+00:00",
+      "summary": "デバイス上で動作する個人用AIアシスタントのOSS「OpenClaw」が、GitHubで爆発的な人気を獲得。\n急増するプルリクエスト（自動化された「プロンプトレクエスト」）の管理や信頼性の担保に直面。\nメンテナーたちが直面したセキュリティ、サプライチェーンリスク、コミュニティ運営の課題と教訓を語る。",
+      "tags": [
+        "Open Source",
+        "AI Assistant",
+        "Security"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 80,
+      "score_reason": "急成長するAI関連OSSプロジェクトにおけるコミュニティ管理とセキュリティ対策のリアルな課題と教訓が示されており、非常に興味深い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "新鮮なメモリと古い計画：分散型LLMエージェントメモリのための依存関係スコープ検証",
+      "url": "https://arxiv.org/abs/2609.03340",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-05T04:00:00+00:00",
+      "summary": "分散環境におけるLLMエージェントのメモリ同期と計画の不整合問題を解決する手法を提案。\nメモリが更新されても古い計画が実行されるのを防ぐため、依存関係に基づく検証を導入。\n協調型マルチエージェントシステムにおける一貫性と信頼性の向上に貢献する。",
+      "tags": [
+        "LLMエージェント",
+        "分散システム",
+        "メモリ管理"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "複雑化するマルチエージェントシステムにおけるメモリの一貫性という重要な課題に対し、実用的な検証手法を提案しているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "CとGoの生成コードを読む ― アセンブリから見る言語設計の違い",
+      "url": "https://zenn.dev/saku0512/books/3735de8d0aa09f",
+      "source": "Zenn",
+      "published": "2026-09-05T01:33:15+00:00",
+      "summary": "C言語とGo言語が生成するアセンブリコードを比較し、両言語の設計思想やランタイムの違いを解説する技術書。\n引数の受け渡し（ABI）、スタックフレーム、Bounds Check、GCの痕跡など、低レイヤの動作を具体的に比較している。\nインライン最適化やエスケープ解析など、コンパイラがどのようにコードを最適化するかを視覚的に学べる。",
+      "tags": [
+        "Go",
+        "C言語",
+        "アセンブリ"
+      ],
+      "category": "プログラミング言語",
+      "score": 78,
+      "score_reason": "CとGoのコンパイル結果をアセンブリレベルで詳細に比較しており、言語仕様やコンパイラの挙動を深く理解するための優れた教材である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Power AutomateとPower Appsを活用し、セキュリティ担当者の月次確認業務を50％削減！",
+      "url": "https://qiita.com/AyakoYamada/items/bb7788d1db6df66446b4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-04T01:57:27+00:00",
+      "summary": "セキュリティ担当者が手動で行っていた月次の申請確認や未提出者へのリマインド業務をPower Platformで自動化した。\n複数ツールに分散していた情報の集約や、Teamsによる個別リマインドの自動化により、確認作業を効率化した。\n結果として、毎月の確認・リマインド対応時間を約16時間から8時間へと半減（約50%削減）させることに成功した。",
+      "tags": [
+        "Power Automate",
+        "Power Apps",
+        "業務効率化"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 78,
+      "score_reason": "ローコードツールを活用して社内のセキュリティ確認業務を大幅に効率化した、具体的で再現性の高いDX事例である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Xbox、Ultimate加入者向けのクラウドゲームを月15時間に制限へ（1日平均30分）",
+      "url": "https://www.reddit.com/r/technology/comments/1w882u9/xbox_is_limiting_cloud_gaming_to_15_hours_per/",
+      "source": "Reddit",
+      "published": "2026-09-05T18:14:04+00:00",
+      "summary": "MicrosoftがXbox Game Pass Ultimate会員向けのクラウドゲーム利用時間を月15時間に制限することを決定しました。\nこれは1日平均わずか30分に相当し、ヘビーユーザーからは強い反発が予想されます。\nクラウドインフラの維持コストや帯域制限など、クラウドゲーム事業の収益化の難しさを浮き彫りにしています。",
+      "tags": [
+        "Xbox",
+        "クラウドゲーム",
+        "Microsoft"
+      ],
+      "category": "その他",
+      "score": 78,
+      "score_reason": "サブスクリプションモデルにおけるクラウドインフラコストの限界と、サービス制限がユーザー体験に与える影響を示す重要な事例であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Webブラウザ上でターミナルのシミュレータを実行、GitやCLI、Vimなどを無料で学べる「WebTerm Learn」が公開",
+      "url": "https://www.publickey1.jp/blog/26/webgitclivimwebterm_learn.html",
+      "source": "Publickey",
+      "published": "2026-09-03T15:23:23+00:00",
+      "summary": "ブラウザ上で本物のように動作するターミナルを使い、GitやLinuxコマンド等を学べる無料プラットフォームが公開。\nゲーム仕立てのレッスン形式で、スライドによる説明の後にブラウザ上の仮想環境で実践できる。\nPC環境を壊す心配なく、危険なコマンドも安全に試すことが可能。",
+      "tags": [
+        "WebTerm Learn",
+        "ターミナル",
+        "プログラミング学習"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 78,
+      "score_reason": "環境構築不要で安全にCLIやGitを学べる教育ツールとして、初心者への実用性が非常に高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "TaxUIの紹介：JavaScriptを一切使用しないモダンで宣言的なHTML＆CSSフレームワーク",
+      "url": "https://dev.to/tax_nam_60edf0e0cea4a321f/introducing-taxui-a-modern-declarative-html-css-framework-with-zero-javascript-482a",
+      "source": "Dev.to",
+      "published": "2026-09-05T23:28:25+00:00",
+      "summary": "JavaScriptのランタイム依存関係が一切ない、超高速で宣言的なHTML/CSSフレームワーク「TaxUI」が登場しました。\n長いCSSクラスチェーンの代わりに、直感的なHTML属性を用いてコンポーネントやレイアウトを構築します。\nネイティブCSSによるGPU加速、ダークモード対応、6色のカラーパレットなどの機能を備え、ロード時間を極限まで削減します。",
+      "tags": [
+        "CSS",
+        "HTML",
+        "フロントエンド"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 78,
+      "score_reason": "JavaScriptを排除しHTML属性ベースで構築するアプローチは、軽量で高速なWebサイト制作において高い実用性を持ちます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ネイティブとの通信：FFI、Pigeon、そしてどちらが必要かを知る",
+      "url": "https://dev.to/devshakib/talking-to-native-ffi-pigeon-and-knowing-which-one-you-need-37pj",
+      "source": "Dev.to",
+      "published": "2026-09-05T23:12:10+00:00",
+      "summary": "FlutterのデフォルトのMethodChannelは文字列依存でコンパイルエラーを検知できずバグの原因になりやすい。\n本記事では、Flutterがネイティブコードと通信するための3つのアプローチ（FFI、Pigeonなど）を比較。\n開発者が状況に応じて最適なネイティブ連携手法を選択するための意思決定フレームワークを提示する。",
+      "tags": [
+        "Flutter",
+        "Dart",
+        "Mobile Development"
+      ],
+      "category": "モバイル",
+      "score": 78,
+      "score_reason": "Flutter開発におけるネイティブ連携の落とし穴と、それを解決する具体的な代替手段（PigeonやFFI）の選定基準を示しており実用性が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "汎用AIティーチングアシスタントにおけるスケーラブル、柔軟、かつリアルタイムなハイブリッド・マイクロレベル・パーソナライゼーションを開発するためのプロンプトエンジニアリング手法",
+      "url": "https://arxiv.org/abs/2609.03402",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-05T04:00:00+00:00",
+      "summary": "汎用AIを用いた教育支援において、プロンプトエンジニアリングによる超個別化（マイクロレベル）を実現。\nリアルタイムかつ柔軟に学習者一人ひとりの理解度や進捗に合わせた指導を可能にする。\n大規模なシステム変更なしに、プロンプトの工夫のみでスケーラブルなパーソナライズ教育を提供する。",
+      "tags": [
+        "プロンプトエンジニアリング",
+        "AI教育",
+        "パーソナライゼーション"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "プロンプトエンジニアリングを用いて、教育現場で即座に応用可能なスケーラブルな個別最適化手法を提案しており実用性が高いためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "プログラマーがLANに関して抱いている誤解",
+      "url": "https://dreamstation.systems/personal/lanfalsehoods.html",
+      "source": "Hacker News",
+      "published": "2026-09-05T22:08:16+00:00",
+      "hn_score": 34,
+      "hn_comments": 31,
+      "summary": "プログラマーがローカルエリアネットワーク（LAN）に関して抱きがちな誤解をまとめた記事。\nLANは常に高速で信頼性が高く、遅延がないという前提が引き起こすバグや設計ミスを指摘している。\nネットワークプログラミングにおける堅牢なシステム設計のための教訓を提供している。",
+      "tags": [
+        "ネットワーク",
+        "LAN",
+        "プログラミング"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 75,
+      "score_reason": "ネットワークの前提条件に関する一般的な誤解を正し、より堅牢な分散システム設計に寄与する実用的な内容であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIでチーム感が薄れたSREチームで始めた、AIによる週次チーム評価",
+      "url": "https://zenn.dev/hubble/articles/ee2f962e0a69f1",
+      "source": "Zenn",
+      "published": "2026-09-04T03:57:56+00:00",
+      "summary": "AIの活用により個人の開発効率が向上した一方で、メンバー間の相互依存やチーム感が薄れるという課題に直面。\n対策としてコミュニケーションの場を再設計し、チームの活動状況をAIに週次で評価させる仕組みを導入した。\nチームの方向性との整合性確認や、望ましい行動の称賛を明文化することで、チーム文化の再構築を図っている。",
+      "tags": [
+        "SRE",
+        "チームビルディング",
+        "AI活用"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "AI普及期における「チームの形骸化」という現代的な組織課題に対し、あえてAIを評価に組み込むことで解決を試みるユニークな事例である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "TanStack Virtual を使ってみた話",
+      "url": "https://zenn.dev/geekplus/articles/b5f1757e2869ef",
+      "source": "Zenn",
+      "published": "2026-09-04T00:03:26+00:00",
+      "summary": "大量のデータ（最大約66万セル）を表示する在庫計画画面の描画負荷を軽減するため、TanStack Virtualを導入した。\n縦方向はページスクロール、横方向はカード内スクロールを基準とするため、異なるHookを組み合わせて仮想化を実現した。\n画面外のDOM描画をスキップすることで、パフォーマンスを大幅に改善し、スムーズなスクロールを実現した。",
+      "tags": [
+        "TanStack Virtual",
+        "フロントエンド",
+        "パフォーマンス改善"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 75,
+      "score_reason": "大規模データの描画負荷を仮想化ライブラリで解決する実践的なフロントエンドの最適化事例であり、実用性が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Discordが数百万人のユーザーを対象に年齢確認プロセスを再導入",
+      "url": "https://www.reddit.com/r/technology/comments/1w87few/discord_is_bringing_back_age_verification_for/",
+      "source": "Reddit",
+      "published": "2026-09-05T17:49:29+00:00",
+      "summary": "Discordがプラットフォーム上の安全性向上のため、数百万人のユーザーを対象に年齢確認を再導入します。\n若年層の保護や規制遵守を目的とした、セキュリティおよびプライバシー対策の一環です。\nユーザーの利便性と安全性のバランス、および個人情報保護に関する議論を呼んでいます。",
+      "tags": [
+        "Discord",
+        "年齢確認",
+        "セキュリティ"
+      ],
+      "category": "セキュリティ",
+      "score": 75,
+      "score_reason": "大手コミュニケーションプラットフォームにおけるセキュリティとプライバシー規制の強化は、多くのユーザーと業界の標準に影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AWSをゲームで学べる「AWS Cloud Quest」に新バージョン「AWS Cloud Quest 2.0」登場！ AIによるバーチャル顧客と対話し、要件を聞き出して正しくソリューションに落とし込め",
+      "url": "https://www.publickey1.jp/blog/26/awsaws_cloud_questaws_cloud_quest_20_ai.html",
+      "source": "Publickey",
+      "published": "2026-09-02T15:55:28+00:00",
+      "summary": "3DオープンワールドでAWSを学べるオンラインゲーム「AWS Cloud Quest」の新バージョン2.0が登場しました。\nAIによるバーチャル顧客との対話を通じて要件を聞き出し、AWSのソリューションで課題を解決する実践的な内容です。\n実際のAWSシステムコンソールを操作しながら、クラウドの知識と実践力を楽しく身につけることができます。",
+      "tags": [
+        "AWS",
+        "クラウド学習",
+        "AI"
+      ],
+      "category": "その他",
+      "score": 75,
+      "score_reason": "AIを活用したインタラクティブな要件定義の学習など、クラウド教育における新しいアプローチとして実用性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "新しいAI用語の解読：ループ、ハーネス、スクワッド、ヒルクライミングなど",
+      "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
+      "source": "GitHub Blog",
+      "published": "2026-09-02T21:00:00+00:00",
+      "summary": "AIツールの台頭に伴い、ソフトウェア開発現場で急速に増えている新しいAI関連用語を解説。\n「ループエンジニアリング」や「Ralphループ」など、エージェントを自動化・反復させる仕組みの用語を紹介。\nこれらの新しい概念やパターンが、現代のソフトウェア開発においてどのような意味を持つかを整理している。",
+      "tags": [
+        "AI Terminology",
+        "Software Development",
+        "AI Agents"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "急増するAI関連の専門用語を整理・解説しており、開発者が最新の技術トレンドや概念を理解するのに役立つ。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「ネットはフェイク、メディアは正しい？」から考える情報社会の設計 ― 相互監査できる情報インフラへ : システム設計視点の行動経済学 (25)",
+      "url": "https://qiita.com/maskot1977/items/8ef0ba599c0f04bf3639?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-05T15:00:08+00:00",
+      "summary": "システム設計と行動経済学の視点から、マスメディアの役割や官僚機構の構造的課題を分析し、情報社会のあり方を論じている。\n政治家を「仕様を決定するプロダクトオーナー」、官僚を「レガシーシステムを運用するバックエンドチーム」に例えて解説。\n完璧な組織を作るのではなく、相互監査が可能で自発的にアップデートされる国家システムや情報インフラの設計を提唱している。",
+      "tags": [
+        "システム設計",
+        "行動経済学",
+        "社会システム"
+      ],
+      "category": "その他",
+      "score": 72,
+      "score_reason": "社会システムや情報インフラをシステム設計のメタファーを用いて分析するユニークな視点を提供している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "11個のActorの実行コストを測定した結果、96倍のコスト差の主な原因は1つの設定フィールドだった",
+      "url": "https://dev.to/apify/i-measured-what-my-11-actors-cost-to-run-the-96x-spread-was-mostly-one-config-field-hoj",
+      "source": "Dev.to",
+      "published": "2026-09-05T23:23:04+00:00",
+      "summary": "Apifyプラットフォーム上で自身が公開した11個のActor（スクレイピング等のプログラム）の実行コストを実測しました。\n最も安いものと高いもので96倍のコスト差があり、その原因はリクエスト数や設定フィールドの違いにありました。\nイベント課金制において、実際のコスト構造を把握し最適化することの重要性と、測定時の注意点を解説しています。",
+      "tags": [
+        "Apify",
+        "コスト最適化",
+        "サーバーレス"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 72,
+      "score_reason": "クラウドやサーバーレス環境におけるコスト測定と最適化の具体的な知見は、開発者にとって実用的な価値があります。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "平均化された3次元ナビエ・ストークス方程式における有限時間爆発 (2014)",
+      "url": "https://terrytao.wordpress.com/2014/02/04/finite-time-blowup-for-an-averaged-three-dimensional-navier-stokes-equation/",
+      "source": "Hacker News",
+      "published": "2026-09-05T20:25:59+00:00",
+      "hn_score": 50,
+      "hn_comments": 20,
+      "summary": "数学者テレンス・タオ氏による、平均化された3次元ナビエ・ストークス方程式に関する2014年の研究論文。\nエネルギー恒等式を満たしつつも有限時間で解が爆発する（無限大になる）変形モデルを構築した。\nナビエ・ストークス方程式の滑らかな解の存在というミレニアム懸賞問題へのアプローチにおける限界を示している。",
+      "tags": [
+        "数学",
+        "ナビエ・ストークス方程式",
+        "テレンス・タオ"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "数学界の超難問に対する重要な理論的進展を示した論文であり、学術的な価値が非常に高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「60ドルのゲーミングPC」 – AMD BC-250 (2025)",
+      "url": "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/",
+      "source": "Hacker News",
+      "published": "2026-09-05T13:36:38+00:00",
+      "hn_score": 256,
+      "hn_comments": 76,
+      "summary": "PS5の不合格チップを再利用した暗号資産マイニング用ボード「AMD BC-250」を格安で入手し、ゲーミングPC化する試みを紹介。\nハードウェアやファームウェアの改造が必要だが、Cyberpunk 2077が動作するほどの性能を安価に実現できる。\nマイニング需要の低下に伴い中古市場に流通しており、ハードウェア愛好家にとって興味深い実験対象となっている。",
+      "tags": [
+        "AMD BC-250",
+        "自作PC",
+        "ハードウェア改造"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 70,
+      "score_reason": "PS5のAPUを流用したマイニングボードを格安ゲーミングPCとして再利用する試みは、ハードウェア愛好家にとって非常に興味深く、技術的な工夫が凝らされている。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "【2026年版】無料から使えるパブリックAPI 16選！定番からおもしろAPIまで",
+      "url": "https://qiita.com/hashiryu_/items/0fa7c0d9ed83aaa1c914?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-03T14:38:15+00:00",
+      "summary": "個人開発や学習用途で無料で利用できるパブリックAPIを、定番からユニークなものまで16種類紹介している。\nアカウント登録やAPIキーが不要ですぐに試せる手軽なAPI（天気、猫の豆知識、書籍情報、ポケモンなど）を分類して解説。\n各APIの概要や取得できるデータ形式、想定される活用アプリのアイデアなども合わせて紹介している。",
+      "tags": [
+        "API",
+        "個人開発",
+        "Webサービス"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "個人開発や学習に役立つ無料APIが網羅的にまとめられており、開発者のインスピレーションや学習の助けになる。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Java誕生から現代に至る歴史をゴスリン氏ら関係者が語る公式ドキュメンタリー「The Java Story」、YouTubeで公開中",
+      "url": "https://www.publickey1.jp/blog/26/javathe_java_storyyoutube.html",
+      "source": "Publickey",
+      "published": "2026-09-03T15:27:07+00:00",
+      "summary": "Java言語の誕生から現代に至る30年以上の歴史を振り返る公式ドキュメンタリー映像がYouTubeで公開。\n開発者のジェームズ・ゴスリン氏ら関係者のインタビューを中心に、紆余曲折の歴史が語られる。\n家庭用デバイス向け言語としての失敗から、Webやサーバーサイドでの大発展、買収劇までを網羅。",
+      "tags": [
+        "Java",
+        "ドキュメンタリー",
+        "プログラミング歴史"
+      ],
+      "category": "プログラミング言語",
+      "score": 70,
+      "score_reason": "広く使われているJavaの歴史を当事者が語る貴重な資料であり、開発者コミュニティにとって価値が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "毎日時間を節約できる10の開発者向けツール",
+      "url": "https://dev.to/shubham_shobhit_eb6e05323/10-developer-tools-that-can-save-you-time-every-d-544n",
+      "source": "Dev.to",
+      "published": "2026-09-05T23:20:16+00:00",
+      "summary": "JSON整形やBase64変換、JWTデコードなど、開発者が日常的に行う細かなタスクを1箇所に集約したツール「MazdaDev」を紹介しています。\n複数のWebサイトを使い分ける手間を省き、ブラウザのタブ乱立を防ぐことで開発ワークフローを効率化します。\n現在7日間のプロ機能無料トライアルを提供しており、今後もさらなるツールの追加が予定されています。",
+      "tags": [
+        "開発ツール",
+        "生産性向上",
+        "MazdaDev"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "日常的な開発タスクを効率化するツールの紹介であり、新規性は低いものの実用性と利便性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "OCamlで学ぶプログラミング",
+      "url": "https://usr.lmf.cnrs.fr/lpo/",
+      "source": "Hacker News",
+      "published": "2026-09-05T16:45:02+00:00",
+      "hn_score": 146,
+      "hn_comments": 66,
+      "summary": "プログラミング言語OCamlを学ぶためのフランス語の書籍が、英訳されてオープンライセンスで公開された。\nOCaml Software Foundationの支援により、PDFやEPUB形式で無料ダウンロードが可能。\n関数型プログラミングの基礎から実践までを体系的に学べる教材となっている。",
+      "tags": [
+        "OCaml",
+        "関数型プログラミング",
+        "技術書"
+      ],
+      "category": "プログラミング言語",
+      "score": 65,
+      "score_reason": "優れた関数型言語であるOCamlの高品質な学習リソースがオープンに提供され、教育や普及に貢献するため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Flockがサービス終了へ、競合他社が利益を得る結果に",
+      "url": "https://www.reddit.com/r/technology/comments/1w83mu8/flock_is_canceledand_its_competitors_are_profiting/",
+      "source": "Reddit",
+      "published": "2026-09-05T15:23:45+00:00",
+      "summary": "コラボレーションツール「Flock」がサービス終了（キャンセル）となったことが報じられました。\nこの撤退により、市場に残された競合他社がユーザーやシェアを獲得し利益を上げています。\n競争の激しいITツール市場における淘汰と、それに伴う市場勢力図の変化を示しています。",
+      "tags": [
+        "Flock",
+        "サービス終了",
+        "競合分析"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 65,
+      "score_reason": "特定サービスの終了とそれに伴う市場シェアの移行は、業界の競争環境の変化を示す一般的な事例であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "人工知能によって駆動される新しい実践的英語教科書の構造と実装",
+      "url": "https://arxiv.org/abs/2609.02981",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-05T04:00:00+00:00",
+      "summary": "AI技術を活用した新しい実践的な英語教科書の構造と実装方法を提案する。\n学習者のニーズに合わせたパーソナライズされた教材作成や学習支援の仕組みを解説。\n教育分野におけるAIの具体的な応用例として、実用的な英語教育の効率化を目指す。",
+      "tags": [
+        "AI教育",
+        "英語学習",
+        "教材開発"
+      ],
+      "category": "AI・機械学習",
+      "score": 65,
+      "score_reason": "教育分野におけるAIの応用は実用性が高いが、技術的な新規性については一般的な応用範囲に留まる可能性があるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Uber Eats配達員を始めて驚いたのが、配達先のほとんどが安アパートなこと…タワマンみたいなとこからしかオーダー入らないと思ってた",
+      "url": "https://togetter.com/li/2741877",
+      "source": "はてなブックマーク",
+      "published": "2026-09-05T17:09:26+00:00",
+      "summary": "新人Uber Eats配達員が、配達先の大半がタワーマンションではなく安アパートである事実に驚いた体験談が話題です。\nネット上では、エリアによる客層の違いや、富裕層と一般層のデリバリー利用習慣の違いについて議論が白熱しています。\nギグエコノミーにおける需要の実態と、都市部における配送サービスの利用動向を浮き彫りにしています。",
+      "tags": [
+        "Uber Eats",
+        "ギグエコノミー",
+        "フードデリバリー"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 60,
+      "score_reason": "ギグエコノミーの現場における需要の実態やユーザー層の偏りに関する興味深い考察だが、技術的な新規性は低いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "リモートチームなら通話の音質に命をかけて欲しい - モヒカン技術ブログ",
+      "url": "https://blog.pinkumohikan.com/entry/2026/09/05/150757",
+      "source": "はてなブックマーク",
+      "published": "2026-09-05T06:08:16+00:00",
+      "summary": "リモートワークにおけるオンラインミーティングでの通話音質の重要性を説く記事。\n音質が悪いと周囲に迷惑をかけるため、まずはブラウザのチェックツールで設定を見直すことを推奨。\n改善しない場合は、1〜3万円程度の有線ヘッドセットや高性能イヤホンへの投資を勧めている。",
+      "tags": [
+        "リモートワーク",
+        "音響機器",
+        "生産性向上"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "リモートワークにおけるコミュニケーションの質向上という実用的なテーマだが、技術的な新規性は低いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "常に「セブンティーン」をマスターコントロールする",
+      "url": "https://arxiv.org/abs/2609.03209",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-05T04:00:00+00:00",
+      "summary": "ゲームや特定の制御タスクにおける最適な制御手法やアルゴリズムを提案。\n常に目標値や特定の状態を維持するための意思決定プロセスを解説。\n強化学習や制御理論におけるシステムの安定性と再現性の向上に寄与する。",
+      "tags": [
+        "強化学習",
+        "制御理論",
+        "ゲームAI"
+      ],
+      "category": "AI・機械学習",
+      "score": 55,
+      "score_reason": "タイトルから推測される内容が特定の制御タスクに特化しており、IT業界全体への影響度は限定的と判断したためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Show HN: Fly By – レトロな複葉機飛行ゲーム",
+      "url": "https://michaelteter.com/flyby.html",
+      "source": "Hacker News",
+      "published": "2026-09-01T07:31:38+00:00",
+      "hn_score": 25,
+      "hn_comments": 20,
+      "summary": "ブラウザで遊べるレトロな複葉機の飛行ゲーム「Fly By」が公開された。\nバルーンを割ったり、障害物を避けたりしながら飛行するシンプルなゲームプレイが特徴。\nモバイル端末でのプレイ時には横画面表示が推奨されている。",
+      "tags": [
+        "ゲーム開発",
+        "Webゲーム",
+        "レトロゲーム"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 45,
+      "score_reason": "個人開発のシンプルなWebゲームであり、技術的な新規性や業界への影響度は限定的であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}

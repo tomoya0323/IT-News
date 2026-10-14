@@ -1,0 +1,655 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-08-17T07:27:48.469864+09:00",
+  "total_count": 37,
+  "success_count": 37,
+  "error_count": 0,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "我々は富豪プログラミングをしていた。Cloudflare Workersで実装はどう変わるか",
+      "url": "https://zenn.dev/rdlabo/articles/cloudflare-workers-after-rich-programming",
+      "source": "Zenn",
+      "published": "2026-08-14T20:40:24+00:00",
+      "summary": "AWSからCloudflare Workersへ移行したことで、これまで意識しなかったリソースの「重さ」を実感した体験談。\nWorkersの厳しいメモリやバンドルサイズ制限により、大容量SDKの導入やメモリへの全載せを見直す契機となった。\nパッケージの選定基準を責務ベースに変え、真に必要なコードのみを厳選する設計思想への変化を解説。",
+      "tags": [
+        "Cloudflare Workers",
+        "Serverless",
+        "最適化"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 90,
+      "score_reason": "サーバーレス環境への移行に伴う設計思想のパラダイムシフトを具体的に示しており、インフラ設計において非常に示唆に富んでいます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート",
+      "url": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
+      "source": "Publickey",
+      "published": "2026-08-09T15:19:33+00:00",
+      "summary": "主要IT企業らがAIエージェントのスキルや接続設定を共有できる業界標準仕様「Agent Plugins 1.0.0」を発表しました。\n従来はベンダーごとに異なっていた設定方法を共通化し、異なるAIエージェント間での設定移行や共有を容易にします。\nMicrosoft、OpenAI、AWS、Googleなどの主要プレイヤーがサポートを表明しており、エコシステムの活性化が期待されます。",
+      "tags": [
+        "AIエージェント",
+        "Agent Plugins",
+        "標準化"
+      ],
+      "category": "AI・機械学習",
+      "score": 90,
+      "score_reason": "主要なAI企業がこぞってサポートする共通規格の誕生であり、AIエージェントの相互運用性と普及を大きく加速させる可能性があるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "タブもテーマも拡張機能もないAI専用の超軽量ヘッドレスブラウザ「Kitesurf」、Cloudflareが発表",
+      "url": "https://www.publickey1.jp/blog/26/aikitesurfcloudflare.html",
+      "source": "Publickey",
+      "published": "2026-08-16T15:10:13+00:00",
+      "summary": "Cloudflareが、AIエージェントによる操作に特化した超軽量ヘッドレスブラウザ「Kitesurf」のベータ版を発表。\nRustで開発されWebAssemblyにコンパイルされており、同社のCloudflare Workers上で動作する。\nChromiumと比較してCPUやメモリ消費を3〜7分の一に抑え、リクエストごとに高速起動する設計となっている。",
+      "tags": [
+        "Cloudflare",
+        "ヘッドレスブラウザ",
+        "AIエージェント"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 88,
+      "score_reason": "AIエージェントのWebブラウジング需要の急増に対し、インフラコストと起動速度を劇的に改善する画期的な専用ブラウザです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIモデルは意図的に「馬鹿」になっている",
+      "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+      "source": "Hacker News",
+      "published": "2026-08-16T19:04:26+00:00",
+      "hn_score": 193,
+      "hn_comments": 123,
+      "summary": "最新の軽量LLMは数学やコードのベンチマークで高い推論能力を示す一方、事実の記憶を問うテストでは低いスコアに留まっています。\nこれは、モデルの限られたパラメータ容量の中で、事実の記憶（知識）を削り、推論能力にリソースを割り当てる意図的なトレードオフによるものです。\n事実の記憶には膨大な容量が必要となるため、開発企業は知識を外部ツールに頼り、モデル自体は推論に特化させる方向へシフトしています。",
+      "tags": [
+        "LLM",
+        "推論能力",
+        "ハルシネーション"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "LLMの進化において、知識の保持と推論能力のトレードオフという重要な設計思想のトレンドを的確に分析しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "デスクトップUIフレームワーク15種のメモリ使用量計測",
+      "url": "https://zenn.dev/mizugeeks/articles/1019cf2353d343",
+      "source": "Zenn",
+      "published": "2026-08-15T03:10:07+00:00",
+      "summary": "15種類のデスクトップUIフレームワークを用いて同一アプリを作成し、メモリ使用量を実測比較。\nネイティブ・Rust系は100〜170MB台と軽量な一方、WebView系やJVM/Go系は450〜530MB帯に達する結果となった。\nElectronとSlintではメモリ消費量に約4.5倍の差があり、フレームワーク選定の重要な指標を提示している。",
+      "tags": [
+        "デスクトップアプリ",
+        "UIフレームワーク",
+        "メモリ計測"
+      ],
+      "category": "その他",
+      "score": 85,
+      "score_reason": "15種ものフレームワークを同一条件で実測比較したデータは極めて貴重であり、今後の技術選定に大きな影響を与えます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "エラーを 3 秒で AI に丸投げする若手を見て、AI から答えを取り上げることにした",
+      "url": "https://qiita.com/jksoft/items/65f7824679ddf171a93d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-14T00:15:04+00:00",
+      "summary": "エラーをAIに丸投げして解決する開発スタイルにより、エンジニアの自力でのエラー解決能力が低下する危機感を提示している。\nこの課題を解決するため、エラーの原因を直接教えるのではなく、問いを投げかけて考えさせるAIメンターサービスを開発。\nAI時代におけるエンジニアの育成や評価、学習プロセスのあり方について、仕組みによる解決アプローチを提案している。",
+      "tags": [
+        "生成AI",
+        "エンジニア育成",
+        "SocraMetry"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "AI普及期におけるエンジニアのスキル低下という普遍的な課題に対し、具体的なプロダクトを通じた解決策を提示しており、業界への影響度が大きい。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ワークフローを実行するカスタマーサービスAIエージェントの構築（単なる質問回答ではない） - 完全なアーキテクチャ",
+      "url": "https://dev.to/dextralabs/building-a-customer-service-ai-agent-that-executes-workflows-not-just-answers-questions-full-4dd3",
+      "source": "Dev.to",
+      "published": "2026-08-16T21:59:41+00:00",
+      "summary": "単に質問に答えるだけでなく、返金処理やアカウント更新などのワークフローを実行するAIエージェントの構築方法を解説。\nQ&Aエージェントとは異なり、意図の分類、ツールの実行、応答の生成という3つのステップを持つアーキテクチャが重要となる。\nAnthropicのSDKを用いた具体的なエージェントループの実装コードを交え、本番環境での複雑なツール利用レイヤーの設計を紹介。",
+      "tags": [
+        "AI Agent",
+        "Anthropic",
+        "Software Architecture"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "単なるQ&Aを超えた、実業務のワークフローを実行するAIエージェントの具体的なアーキテクチャと実装コードを提示しており、実用性と技術的新規性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "なぜ、AI時代においてC#は最適な言語の1つなのか？",
+      "url": "https://qiita.com/tomokusaba/items/45b66545bb7ea88e8403?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-14T09:37:58+00:00",
+      "summary": "AIが生成するコードの誤りを人間が素早く検証・修正する上で、C#が非常に適した設計の言語であることを主張している。\n強力な静的型付けやコンパイル時のチェックにより、AIが生成したコードの「意味的な崩れ」を実行前に検知しやすい。\n型を設計そのものとして扱い、AIとの共同作業において安全かつ高品質な実装基盤を提供できる強みを解説。",
+      "tags": [
+        "C#",
+        "生成AI",
+        "プログラミング言語"
+      ],
+      "category": "プログラミング言語",
+      "score": 82,
+      "score_reason": "AIとの協働開発という現代的な文脈において、静的型付け言語であるC#の持つ堅牢性と検証の容易さという強みを論理的に解説している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Zed開発チームが「Delta」発表。人間とAIの全対話とコード変更履歴をコンテキストとして保存共有するコラボレーションツール",
+      "url": "https://www.publickey1.jp/blog/26/zeddeltaai.html",
+      "source": "Publickey",
+      "published": "2026-08-16T15:05:36+00:00",
+      "summary": "高速エディタ「Zed」の開発チームが、人間とAIエージェントの協調開発を支援するコラボレーションツール「Delta」を発表。\n人間とAIのチャットによる対話内容や、それに基づくコードの変更履歴をすべてコンテキストとして保存・共有できる。\nこれにより、コードがどのような指示やプロンプトで作成・変更されたのかを後から容易に振り返ることが可能になる。",
+      "tags": [
+        "Zed",
+        "AIエージェント",
+        "開発ツール"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "AIエージェントとの協調開発において、変更の経緯（コンテキスト）をチーム全体で共有・管理するという、今後のソフトウェア開発の標準となり得る仕組みを提示しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ProtobufがLSPをサポートしました",
+      "url": "https://buf.build/blog/protobuf-lsp",
+      "source": "Hacker News",
+      "published": "2026-08-16T18:48:27+00:00",
+      "hn_score": 76,
+      "hn_comments": 46,
+      "summary": "Bufは、Protobuf（Protocol Buffers）向けとして初となるフル機能のプロダクション対応LSPサーバーをリリースしました。\nこれにより、VSCodeやIntelliJなどの主要なIDEで、定義への移動やコード補完、構文ハイライトなどの機能が利用可能になります。\nBuf CLIにバンドルされる形で提供され、開発者は拡張機能をインストールするだけで簡単に導入できます。",
+      "tags": [
+        "Protobuf",
+        "LSP",
+        "開発ツール"
+      ],
+      "category": "プログラミング言語",
+      "score": 80,
+      "score_reason": "広く使われているProtobufにおいて、開発効率を劇的に向上させる初の本格的なLSPサーバーが提供されたことは開発者コミュニティへの影響が大きいため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "botterのためのKaggle金融予測コンペの設計史",
+      "url": "https://zenn.dev/gamella/articles/f5e6bddab37c8d",
+      "source": "Zenn",
+      "published": "2026-08-16T04:43:06+00:00",
+      "summary": "Kaggleにおける金融予測コンペの設計の歴史と、その背景にあるマーケット理解の変遷を解説。\n過去のコンペの失敗から、Leaderboardの評価方法やバックテストの信頼性を高める工夫が重ねられてきた。\nモデルの一般化性能やレジームシフトへの対応など、実践的な金融データ分析の知見がまとめられている。",
+      "tags": [
+        "Kaggle",
+        "金融予測",
+        "データ分析"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "金融データ分析における実践的なコンペ設計の歴史と知見が詳細に解説されており、データサイエンティストにとって価値が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "概念設計が、その後のコードの命運を左右する",
+      "url": "https://zenn.dev/takeshi_teshima/articles/bae79b2f0f97be",
+      "source": "Zenn",
+      "published": "2026-08-14T13:00:27+00:00",
+      "summary": "ソフトウェア開発における概念設計の重要性と、それが実装や仕様変更に与える影響を解説している。\nECサイトの例を用いて、注文と履行を区別する設計の有無によるコードの複雑さの違いを示す。\n適切な概念設計を行うことで、仕様変更時の帳尻合わせを防ぎ、素直で堅牢な実装が可能になる。",
+      "tags": [
+        "システム設計",
+        "ドメイン駆動設計",
+        "ソフトウェア開発"
+      ],
+      "category": "その他",
+      "score": 80,
+      "score_reason": "ソフトウェア開発の根本的な品質を左右する概念設計の重要性を、具体的なコード例を用いて分かりやすく解説しており、実用性が非常に高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "記憶を保つのはシナプスの強さではなく「つながり方」：沖縄科学技術大学院大などが人工冬眠マウスで示す",
+      "url": "https://ki-to-oku.net/oist-artificial-hibernation-memory-retention/",
+      "source": "はてなブックマーク",
+      "published": "2026-08-16T21:27:10+00:00",
+      "summary": "OISTなどの研究チームが、人工冬眠マウスを用いて長期記憶の保持メカニズムに関する新知見をScience誌に発表。\n冬眠中に脳のシナプスが半数以上消失しても記憶は保たれており、従来の「シナプスの強さ」が記憶を保つという通説を覆した。\n記憶を担う神経細胞同士のシナプスの配置パターン（クラスター）が優先的に残ることで記憶が維持される可能性を示した。",
+      "tags": [
+        "脳科学",
+        "バイオテクノロジー",
+        "研究開発"
+      ],
+      "category": "その他",
+      "score": 80,
+      "score_reason": "脳の記憶保持メカニズムに関する数十年来の通説を覆す画期的な研究成果であり、将来的な脳型コンピューティング等への応用も期待されます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "エージェントアプリを使用してソフトウェア配信ワークフローをGitHubに統合する方法",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+      "source": "GitHub Blog",
+      "published": "2026-08-14T16:00:00+00:00",
+      "summary": "開発者がプルリクエスト作成時に複数の外部ツールを行き来する手間を省くため、GitHubエージェントアプリの活用を提案。\nCopilotクラウドエージェントと同じプラットフォームを基盤とし、AmplitudeやPagerDutyなどの外部サービスをGitHub上で直接操作可能にする。\n開発者がコンテキストを切り替えることなく、GitHubの画面内から自然言語で外部データへの問い合わせや操作を行う具体例を紹介。",
+      "tags": [
+        "GitHub Copilot",
+        "AI Agent",
+        "DevOps"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "GitHub上で外部開発ツールをシームレスに統合するAIエージェントの活用法を示しており、開発者の生産性向上における実用性が非常に高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "形式検証（フォーマルベリフィケーション）に対する反対論、50年後",
+      "url": "https://ivan-gavran.github.io/0-social-processes-paper",
+      "source": "Hacker News",
+      "published": "2026-08-16T20:38:58+00:00",
+      "hn_score": 52,
+      "hn_comments": 43,
+      "summary": "AIコーディングの普及に伴い、生成されたコードの正当性を保証する手段として形式検証への関心が急速に高まっています。\nAIエージェントの活用により、従来は困難だった形式検証自体の高速化や実開発への導入が容易になりつつあります。\nこの盛り上がりのなかで、形式検証の限界を指摘した50年前の古典的論文を振り返り、その現代的な意義を再考しています。",
+      "tags": [
+        "形式検証",
+        "AIコーディング",
+        "ソフトウェア工学"
+      ],
+      "category": "プログラミング言語",
+      "score": 78,
+      "score_reason": "AIによるコード生成の台頭に伴い、プログラムの正当性を保証する手段として形式検証の重要性と課題が再評価されているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "『Claude Code実践入門』を発売日に一気読みしたので感想をつらつらと",
+      "url": "https://qiita.com/tomada/items/0bfbaffce6fae70be17f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-14T23:00:36+00:00",
+      "summary": "新刊『Claude Code実践入門』を発売日に読了し、その実践的で網羅的な内容について感想をまとめている。\n単なる機能紹介にとどまらず、実際の挙動やセキュリティ上の制限、サンドボックス機能の図解などが誠実に解説されている点を評価。\n個人利用からチーム開発、ヘッドレスモードの活用まで、手を動かしたくなるような工夫が凝らされた一冊であると紹介。",
+      "tags": [
+        "Claude Code",
+        "生成AI",
+        "書籍レビュー"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "注目度の高いAI開発ツール「Claude Code」の解説書について、その実用性や網羅性を詳細にレビューしており、導入を検討する開発者にとって有益である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "50のオープンソースプロジェクトから学んだAI時代のセキュリティ",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "source": "GitHub Blog",
+      "published": "2026-08-13T16:00:00+00:00",
+      "summary": "AIの普及に伴うオープンソース開発の高速化と、それに伴う新たなセキュリティ上の課題や脆弱性への対応策を検証。\nGitHub Secure Open Source Fundを通じて50のプロジェクトを支援し、AI支援ワークフローと専門家によるセキュリティ向上を実証。\nAIはメンテナーの調査や対応を迅速化する強力なツールとなるが、最終的な判断や責任は人間が担うべきであるという教訓を提示。",
+      "tags": [
+        "Open Source",
+        "Security",
+        "AI Tooling"
+      ],
+      "category": "セキュリティ",
+      "score": 78,
+      "score_reason": "AI時代におけるオープンソースプロジェクトのセキュリティ対策の実態と、AIを活用した効率的な脆弱性対応の有効性を示しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Claude：システムプロンプト",
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "source": "Hacker News",
+      "published": "2026-08-16T12:48:21+00:00",
+      "hn_score": 463,
+      "hn_comments": 201,
+      "summary": "ClaudeのWebインターフェースやモバイルアプリで利用されているシステムプロンプトの仕様が公開されました。\nシステムプロンプトは、最新情報の提供やMarkdownでのコード出力といった特定の挙動を促すために定期的に更新されます。\nなお、これらのシステムプロンプトの自動更新は、API経由で利用するClaudeモデルには適用されません。",
+      "tags": [
+        "Claude",
+        "LLM",
+        "システムプロンプト"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "人気のあるAIモデルであるClaudeの挙動を制御するシステムプロンプトの仕様や更新方針が公開され、開発者にとって有用な情報であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIクレジット転売エコノミーの台頭",
+      "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "source": "Hacker News",
+      "published": "2026-08-16T14:44:55+00:00",
+      "hn_score": 195,
+      "hn_comments": 72,
+      "summary": "スタートアップの未使用AIクレジットを買い取って転売する「トークンブローカー」が台頭している。\n割引価格でAnthropicなどのトークンが取引されており、非公式な推論市場が商業化されつつある。\nブローカーはプロキシを介してAPIキーのプールからリクエストを転送する仕組みを提供している。",
+      "tags": [
+        "AI",
+        "Token Broker",
+        "Startup"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "AI推論コストの削減を背景とした新しい非公式な二次市場の出現を示しており、ビジネス的な影響が大きいです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIエージェントの作業結果、マークダウンで読むの辛くない？ →「HTML共有くん」を作りました",
+      "url": "https://qiita.com/minorun365/items/320b4230c0b0c169ba13?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-16T06:57:25+00:00",
+      "summary": "AIエージェントが生成したHTMLなどの成果物を、スマートフォンからでも手軽に確認・共有できるツールを開発した。\nS3とCloudFrontを組み合わせたシンプルな構成で、LLMを介さず低コストかつ高速に動作する仕組みを実現。\n開発プロセスにおけるAIエージェントとの協調作業をより円滑にし、成果物の管理やレビューの効率化に貢献する。",
+      "tags": [
+        "AIエージェント",
+        "HTML",
+        "AWS"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 75,
+      "score_reason": "AIエージェントを活用した開発フローにおける実用的な課題に着目し、シンプルかつ低コストな解決策をOSSとして提供している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ローカル LLM 雑感 (2026-08)",
+      "url": "https://voluntas.ghost.io/local-llm-2026-08/",
+      "source": "はてなブックマーク",
+      "published": "2026-08-16T12:36:32+00:00",
+      "summary": "NVIDIA DGX Spark互換機2台を用いて、DeepSeek V4 Flashのローカル運用を開始した事例の紹介。\nAPI利用と比較してコストメリットは薄いものの、十分な速度と完全クローズド環境による高い安心感を得られている。\n営業時間外にはGitHub Actions等と連携し、ローカルLLMによる自動コードレビューに活用している。",
+      "tags": [
+        "ローカルLLM",
+        "DeepSeek",
+        "AI運用"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "企業における実用的なローカルLLM運用の具体的な構成やコスト感、夜間コードレビューなどの実践的な活用事例が示されており参考になります。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "CiprとCiprnode zero：分散型で検閲に強いWebインデックスプロトコル",
+      "url": "https://dev.to/barriteau/cipr-and-ciprnode-zero-1b89",
+      "source": "Dev.to",
+      "published": "2026-08-16T22:08:38+00:00",
+      "summary": "ドメイン所有者が自身のエントリを制御できる、分散型で検閲に強いWebインデックス「Cipr」が紹介されました。\n中央集権的な検索エンジンとは異なり、P2Pで同期され、BM25アルゴリズムに基づき公開監査可能な要素でランク付けされます。\n参照実装である「Ciprnode zero」は、DenoとSQLiteを用いて外部依存なしで構築されています。",
+      "tags": [
+        "P2P",
+        "Deno",
+        "検索インデックス"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 75,
+      "score_reason": "中央集権的な検索エンジンへの依存を脱却する新しい分散型インデックスプロトコルであり、Webの多様性と検閲耐性に貢献する技術であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub アベイラビリティレポート：2026年7月",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
+      "source": "GitHub Blog",
+      "published": "2026-08-12T22:17:32+00:00",
+      "summary": "2026年8月6日に発生したGitHub Actionsの長時間にわたるサービス障害について、ユーザーへの謝罪と現状の対応状況を報告。\n障害の根本原因分析（RCA）を進めており、データセンターに残るレガシーな起動サービスコンポーネントが容量不足の一因となったことを公表。\n再発防止に向けて、GitHub Actionsの分離、回復性、およびスケール向上を目指したアーキテクチャの移行ロードマップを加速させる方針を表明。",
+      "tags": [
+        "GitHub Actions",
+        "Service Outage",
+        "System Architecture"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 75,
+      "score_reason": "多くの開発者が依存するGitHub Actionsの大規模障害に関する報告であり、インフラの信頼性と今後の改善策について重要な情報を含んでいます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub Copilotアプリで最初のプロンプトを書く",
+      "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
+      "source": "GitHub Blog",
+      "published": "2026-08-12T19:00:00+00:00",
+      "summary": "GitHub Copilotアプリを使い始める開発者向けに、最初のプロンプトの作成手順を解説しています。\n完璧なプロンプトは不要で、プロジェクトやローカルフォルダを接続してコードの文脈を共有することから始めます。\n自然言語でやりたい変更を指示し、Copilotの提案を受けながら対話的にコードを修正していくプロセスを紹介しています。",
+      "tags": [
+        "GitHub Copilot",
+        "AIアシスタント",
+        "ソフトウェア開発"
+      ],
+      "category": "AI・機械学習",
+      "score": 72,
+      "score_reason": "多くの開発者が利用するGitHub Copilotの新しいアプリ版の具体的な導入・活用方法を示しており、実用性が高い情報です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「RISC-Vはもっと慎重であるべきだった」に対する発展途上国の組み込みエンジニアの反論",
+      "url": "https://rvembedded.com/blog_post/12/",
+      "source": "Hacker News",
+      "published": "2026-08-16T17:01:07+00:00",
+      "hn_score": 263,
+      "hn_comments": 139,
+      "summary": "RISC-Vアーキテクチャに対する著名な批判記事に対し、トリニダード・トバゴのエンジニアが反論を展開しています。\n批判されている設計上の奇妙な点を認めつつも、発展途上国における入手性やコストの観点からRISC-Vチップの価値を主張しています。\n物流や関税の制約が厳しい地域において、安価で入手しやすい代替チップがいかに重要であるかを現場の視点から伝えています。",
+      "tags": [
+        "RISC-V",
+        "組み込みシステム",
+        "ハードウェア"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 70,
+      "score_reason": "RISC-Vの設計上の課題と、発展途上国における実用的な入手性やコスト面での価値について、現場のエンジニア視点から貴重な議論を提供しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "プロゲーマーから未経験エンジニアになって、上達の仕方は同じだと気づいた",
+      "url": "https://qiita.com/blueflame-lab/items/775bba713c91a571e462?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-14T07:36:33+00:00",
+      "summary": "元プロゲーマーの未経験エンジニアが、ゲームの上達プロセスとエンジニアの成長プロセスに多くの共通点があることを綴っている。\n失敗の振り返りや既存コードの模倣、AIに頼り切らずに仕組みを理解することの重要性を指摘。\n日々の小さな改善の積み重ねが、どちらの領域においても実力を高めるための本質的なアプローチであると述べている。",
+      "tags": [
+        "キャリア",
+        "エンジニアの成長",
+        "マインドセット"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "異業種での経験をエンジニアの学習プロセスに抽象化して適用するユニークな視点を提供しており、若手エンジニアのモチベーション向上に役立つ。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub - coji/natural-japanese: 仕事の日本語文書を読みやすくわかりやすく書く・直す Agent Skill",
+      "url": "https://github.com/coji/natural-japanese",
+      "source": "はてなブックマーク",
+      "published": "2026-07-14T07:56:39+00:00",
+      "summary": "仕事の日本語文書を読みやすく、わかりやすく作成・修正するためのAIエージェント向けスキルが公開。\nAI特有の不自然な表現（AI臭さ）を、sudachipyを用いた形態素解析による機械検出と生成時の文体制約で防ぐ。\n議事録や調査レポートなど文書タイプ別のテンプレートや、悪文パターンカタログなどを備えている。",
+      "tags": [
+        "GitHub",
+        "LLM",
+        "日本語処理"
+      ],
+      "category": "AI・機械学習",
+      "score": 70,
+      "score_reason": "AIを用いたドキュメント作成において課題となる「AI臭さ」を、機械的検出とプロンプト制約の組み合わせで解決する実用的なアプローチです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "無料で使える「Delphi 13 Community Edition」提供開始。Windows x86/Arm、Mac、iOS、Androidのネイティブアプリなど開発可能",
+      "url": "https://www.publickey1.jp/blog/26/delphi_13_community_edtionwindows_x86armmaciosandroid.html",
+      "source": "Publickey",
+      "published": "2026-08-16T15:01:16+00:00",
+      "summary": "エンバカデロが統合開発環境「Delphi 13 Community Edition」の無料提供を開始しました。\nプロフェッショナル版と同等のフル機能を備え、学生やホビー開発者、小規模スタートアップが対象となります。\n単一コードからWindows、macOS、iOS、Androidなどのネイティブアプリをクロスコンパイル可能です。",
+      "tags": [
+        "Delphi",
+        "IDE",
+        "クロスプラットフォーム"
+      ],
+      "category": "プログラミング言語",
+      "score": 70,
+      "score_reason": "歴史ある開発環境Delphiの最新無料版が提供され、個人開発者や教育現場でのクロスプラットフォーム開発の選択肢が広がるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub Universe 2026 ガイド：スケジュールが公開されました！",
+      "url": "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/",
+      "source": "GitHub Blog",
+      "published": "2026-08-13T19:00:00+00:00",
+      "summary": "2026年に開催されるGitHub Universeのスケジュールが公開され、AIを活用した開発の可能性に関するセッションやデモが多数予定されている。\nAMD、NVIDIA、Anthropic、OpenAIなどの専門家が登壇し、Copilotへの業務委譲やMCPサーバーのセキュリティなどをテーマに議論する。\n早期割引チケットの案内や、実際に手を動かして課題を解決するハンズオンセッション、個別相談会などの見どころを紹介。",
+      "tags": [
+        "GitHub Universe",
+        "AI Development",
+        "Tech Conference"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 70,
+      "score_reason": "主要なテック企業が参加するGitHubの年次カンファレンスの予告であり、今後の開発トレンドを把握する上で業界への影響度が大きいです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "またしても「バイブス・コーディング」で解決策を導き出した話",
+      "url": "https://dev.to/realvorl/so-i-vibe-coded-a-way-out-again-heb",
+      "source": "Dev.to",
+      "published": "2026-08-16T22:18:46+00:00",
+      "summary": "ドイツの紙の請求書処理の面倒さを解消するため、AIを活用した「バイブス・コーディング」で解決を試みた体験談です。\n人間が制約を理解し検証方法を持っていれば、AIは開発を劇的に加速させるという仮説を再度検証しています。\nGo言語のエコシステムを利用し、銀行アプリが読み取れるQRコードを生成するツールを構築しました。",
+      "tags": [
+        "Vibe Coding",
+        "Go",
+        "AIアシスト開発"
+      ],
+      "category": "プログラミング言語",
+      "score": 65,
+      "score_reason": "AIを用いた開発手法「バイブス・コーディング」の具体的な実践例であり、開発プロセスの変化を示す興味深い事例であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "90年代のSIMD：Intel Pentium MMXのプログラミング",
+      "url": "https://pikuma.com/blog/programming-intel-pentium-mmx-simd",
+      "source": "Hacker News",
+      "published": "2026-08-13T12:44:05+00:00",
+      "hn_score": 39,
+      "hn_comments": 14,
+      "summary": "1997年に登場し、PC業界で大きなマーケティング用語となったIntelのPentium MMXプロセッサを振り返る記事です。\nMMXは主流のデスクトップCPUにSIMD（単一命令複数データ）命令をもたらすためのIntelの最初の試みでした。\n当時のプログラマーが手書きのアセンブリ言語を用いて、どのようにMMXの57個の追加命令を駆使し最適化を行っていたかを解説しています。",
+      "tags": [
+        "SIMD",
+        "MMX",
+        "アセンブリ言語"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 60,
+      "score_reason": "現代のSIMD技術のルーツである90年代のMMXプログラミングを振り返る歴史的・教育的価値の高い記事だが、現代の実務への直接的影響は限定的であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "RaycastのSlack Extensionでチャンネル移動が快適に。",
+      "url": "https://zenn.dev/seeiji/articles/d9ab5f08b08005",
+      "source": "Zenn",
+      "published": "2026-08-15T13:18:06+00:00",
+      "summary": "ランチャーアプリ「Raycast」のSlack Extensionを導入し、チャンネル移動を高速化する方法の紹介。\nSlackアプリを開かずに、キーボードのホームポジションを維持したままサクサク検索・移動が可能になる。\nさらにQuicklink機能を活用することで、よく使うチャンネルを最短1手で開く設定も解説している。",
+      "tags": [
+        "Raycast",
+        "Slack",
+        "生産性向上"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "開発者の日常的なコミュニケーションの生産性を向上させる、具体的かつ実用的なTipsです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "大規模なオーディオ逆再生：予期せぬ歯擦音を嫌うエンジニアのためのデバッグプレイブック",
+      "url": "https://dev.to/lizely/reverse-audio-at-scale-a-debugging-playbook-for-engineers-who-hate-surprise-sibilance-47h9",
+      "source": "Dev.to",
+      "published": "2026-08-16T22:05:46+00:00",
+      "summary": "オーディオファイルを逆再生する際に発生する、予期せぬ音響的アーティファクトや技術的課題を解説したデバッグガイドです。\n逆再生は単純なサンプル順の反転ですが、PCMバッファの処理やフォーマットごとのメタデータ保持など考慮すべき点が多く存在します。\nクライアント側での処理かDAW内での処理かの判断基準など、実用的なエンジニアリング手順を提示しています。",
+      "tags": [
+        "オーディオ処理",
+        "PCM",
+        "デバッグ"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "音声処理におけるニッチながらも実用的なデバッグ手法を体系化しており、マルチメディア開発者にとって価値のある知見であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ローテク・セラミック水フィルター",
+      "url": "https://wiki.lowtechlab.org/wiki/Filtre_%C3%A0_eau_c%C3%A9ramique/en",
+      "source": "Hacker News",
+      "published": "2026-08-11T15:36:27+00:00",
+      "hn_score": 40,
+      "hn_comments": 11,
+      "summary": "不衛生な水を浄化するためのセラミック水フィルターの仕組みと製造方法の解説。\n粘土に鋸屑などの可燃性物質を混ぜて焼き、多孔質のフィルターを作る仕組み。\n抗菌効果を高めるためにコロイド銀を添加するなどの工夫も紹介されている。",
+      "tags": [
+        "Low-Tech",
+        "Water Filter",
+        "Sustainability"
+      ],
+      "category": "その他",
+      "score": 45,
+      "score_reason": "IT技術ではないものの、持続可能なローテク技術としての仕組みと製造プロセスが実用的に解説されています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "無料で読めるITまんが 2026年版 ～マンガでわかるAIの仕組み／DC業務のリアルを知るヤマダくん、ほか",
+      "url": "https://www.publickey1.jp/blog/26/content_4.html",
+      "source": "Publickey",
+      "published": "2026-08-11T15:33:09+00:00",
+      "summary": "ネット上で無料で読めるIT系マンガを紹介する、毎年恒例の2026年版まとめ記事です。\n今年は「マンガでわかるAIの仕組み」やデータセンター業務を描く「ヤマダくん」など3作品が新たに追加されました。\nIT技術や業界のリアルな様子を、マンガを通じて分かりやすく息抜きに学べるコンテンツとなっています。",
+      "tags": [
+        "ITマンガ",
+        "データセンター",
+        "学習コンテンツ"
+      ],
+      "category": "その他",
+      "score": 45,
+      "score_reason": "技術的な新規性はないものの、IT業界の知識や業務内容を一般向けに分かりやすく伝えるコンテンツとして有用であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "今何に取り組んでいますか？ #01",
+      "url": "https://dev.to/timhilehin1/what-are-you-working-on-01-3k4a",
+      "source": "Dev.to",
+      "published": "2026-08-16T21:51:07+00:00",
+      "summary": "著者が日々の思考や学習プロセスを整理するために開始した、ソフトウェア開発やキャリアに関する連載シリーズの第1弾。\n過去にフロントエンドのみで構築した家具ECサイトに対し、NestJSを用いて自らバックエンドを再構築する挑戦について紹介。\n新しい概念の学習に伴う苦労と、理解できた時の達成感、そしてモバイルアプリのローンチに向けた取り組みについて語る。",
+      "tags": [
+        "NestJS",
+        "Backend Development",
+        "Personal Growth"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 40,
+      "score_reason": "個人の学習体験や開発プロセスに関するエッセイであり、業界全体への影響度や技術的新規性は限定的です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "はてブにピン留め機能が欲しい",
+      "url": "https://anond.hatelabo.jp/20260816215235",
+      "source": "はてなブックマーク",
+      "published": "2026-08-16T12:54:29+00:00",
+      "summary": "はてなブックマークにおいて、X（旧Twitter）の固定ツイートのようなピン留め機能を求めるユーザーの要望。\n古いブックマークが流れてしまう問題や検索機能の弱さを補い、備忘録としての利便性を向上させたい意図がある。\nソーシャル用途としても、自身のプロフィール代わりになるブックマークコメントを先頭に固定できるメリットを挙げている。",
+      "tags": [
+        "はてなブックマーク",
+        "Webサービス",
+        "ユーザー要望"
+      ],
+      "category": "その他",
+      "score": 30,
+      "score_reason": "個人ブログによる一機能の要望であり、IT業界全体への影響度や技術的新規性は極めて低いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}

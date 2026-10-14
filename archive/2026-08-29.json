@@ -1,0 +1,805 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-08-29T12:40:03.060034+09:00",
+  "total_count": 47,
+  "success_count": 41,
+  "error_count": 6,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "SpaceXによるCursor買収に伴うOpenAIの決定について",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+      "source": "Hacker News",
+      "published": "2026-08-29T01:47:53+00:00",
+      "hn_score": 139,
+      "hn_comments": 45,
+      "summary": "OpenAIは、SpaceXによるCursor買収を受け、同サービスへのモデル提供契約を終了すると発表した。\n過去にイーロン・マスク氏の企業が契約違反を犯した経緯から、利用規約の遵守に確信が持てないことが理由。\n開発者が移行期間を確保できるよう、契約上可能な最長期間の猶予を設けて2026年11月に遮断する予定。",
+      "tags": [
+        "OpenAI",
+        "Cursor",
+        "SpaceX"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 90,
+      "score_reason": "人気AIエディタCursorの買収とOpenAIのモデル提供停止は、開発者コミュニティやAI業界の勢力図に極めて大きな影響を与えます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Cloudflareが1.1.1.1のDNSキャッシュを数十バイト単位で削り込んで100TBのメモリを節約",
+      "url": "https://gigazine.net/news/20260828-cloudflare-dns-cache-optimization/",
+      "source": "はてなブックマーク",
+      "published": "2026-08-28T08:34:09+00:00",
+      "summary": "CloudflareがパブリックDNS「1.1.1.1」のキャッシュデータ構造を最適化しました。\nRustのVecやStringをBox型に置き換えるなどして、システム全体で約100TBのメモリを削減しました。\nメモリ削減だけでなく、キャッシュへの書き込みや読み出しの高速化も同時に実現しています。",
+      "tags": [
+        "Cloudflare",
+        "Rust",
+        "DNS"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 90,
+      "score_reason": "大規模インフラにおける極限のメモリ最適化事例であり、Rustの具体的なデータ構造の選択がもたらすインパクトが極めて大きいです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "8月17日の障害と今後の取り組み",
+      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "source": "GitHub Blog",
+      "published": "2026-08-20T18:36:11+00:00",
+      "summary": "2026年8月17日、GitHubは認証、Actions、Copilotなど広範なサービスに影響を及ぼす約7時間47分のシステム障害を発生させた。\n原因はトラフィックの急増に伴い、米国中部のデータセンターにある重要なインフラコンポーネントがスケールアウトに失敗したことによる容量不足である。\n復旧過程でCopilotのクライアント側リトライループがトラフィックを増大させる問題も発生し、今後はインフラの信頼性向上とスケーラビリティ強化を加速させる。",
+      "tags": [
+        "システム障害",
+        "インフラ",
+        "スケーラビリティ"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 90,
+      "score_reason": "世界中の開発者に影響を与えた大規模障害の原因分析と、インフラのキャパシティ管理における重要な教訓を示している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Htmx 4.0",
+      "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+      "source": "Hacker News",
+      "published": "2026-08-28T13:28:56+00:00",
+      "hn_score": 561,
+      "hn_comments": 138,
+      "summary": "軽量なWebフロントエンドライブラリ「htmx」のメジャーバージョン「htmx 4.0.0」がリリースされた。\n従来のXMLHttpRequest依存から、モダンなfetch() APIと非同期プログラミングを用いた内部実装へと刷新された。\n2.x系との動作差異は最小限に抑えられており、NPMでは既存ユーザーへの配慮から2027年初頭まで2.xがlatestとして維持される。",
+      "tags": [
+        "htmx",
+        "JavaScript",
+        "Web開発"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 88,
+      "score_reason": "人気のフロントエンドライブラリであるhtmx ofのメジャーアップデートであり、モダンなAPIへの移行によって今後のWeb開発手法に大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "DuckDBの開発元であるDuckLabsがAWS子会社になると発表。DuckDBはオープンソースのMITライセンスを維持",
+      "url": "https://www.publickey1.jp/blog/26/duckdbducklabsawsduckdbmit.html",
+      "source": "Publickey",
+      "published": "2026-08-27T15:55:49+00:00",
+      "summary": "高速なローカルOLAPデータベース「DuckDB」の開発元DuckLabsがAWSの子会社になると発表しました。\n買収後もDuckDBはオープンソースのMITライセンスを維持し、開発が継続されます。\nAWSの資金力を背景に、DuckDBやDuckLake、Quackプロトコルのさらなる普及とスケールを目指します。",
+      "tags": [
+        "DuckDB",
+        "AWS",
+        "データベース"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 88,
+      "score_reason": "人気のデータ分析ツールDuckDBの開発元がAWS傘下に入るという、データ分析およびクラウド業界に大きな影響を与えるニュースです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Next.js 16.3正式版リリース。Turbopackのメモリ使用量が最大90％減、SSRが最大22％高速化、TypeScript 7による型チェック高速化など",
+      "url": "https://www.publickey1.jp/blog/26/nextjs_163turbopack90ssr22typescript_7.html",
+      "source": "Publickey",
+      "published": "2026-08-25T17:58:38+00:00",
+      "summary": "VercelがWebアプリケーションフレームワークの最新版「Next.js 16.3」を正式リリースしました。\nTurbopackのメモリ使用量を最大90%削減し、再ビルド速度を最大5倍以上に高速化しました。\nSPA並みの高速な画面遷移を実現する「Instant Navigations」などの新機能も追加されています。",
+      "tags": [
+        "Next.js",
+        "Turbopack",
+        "TypeScript"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 87,
+      "score_reason": "メジャーなフロントエンドフレームワークの大幅なパフォーマンス向上と新機能追加であり、多くのWeb開発者に直接的な恩恵があります。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "LLMのメモリを誤ってプログラム解析ツールにしてしまった話",
+      "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
+      "source": "Hacker News",
+      "published": "2026-08-28T23:27:45+00:00",
+      "hn_score": 49,
+      "hn_comments": 8,
+      "summary": "脆弱性調査においてLLMエージェントが調査の文脈や前提条件を忘れてしまう問題に対処するためのメモリシステムを開発。\n単なる会話履歴のベクトル検索ではなく、コード内の変数やオブジェクトの「現在の状態と関係性」を追跡・維持する仕組みを構築。\nこのアプローチが結果として、静的解析における「データフロー解析」や「ポインタ解析」と同様の構造を持つに至った経緯を解説している。",
+      "tags": [
+        "LLM",
+        "プログラム解析",
+        "セキュリティ"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "LLMの文脈維持問題を解決するアプローチが、伝統的なプログラム解析手法と融合する興味深い実例を示しており、AIエージェントの実用性を高めるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "MacBook Pro 128GB でローカル LLM がついに実用になった ─ Qwen3.8 Flash Next 実測",
+      "url": "https://zenn.dev/jtechjapan_pub/articles/local-llm-qwen-flash-next-eval",
+      "source": "Zenn",
+      "published": "2026-08-27T20:06:17+00:00",
+      "summary": "MacBook Pro（128GBメモリ）上で、約90GBのローカルLLM「Qwen3.8 Flash Next」を実用的に動作させた検証。\nMoE（混合専門家）技術により、巨大な知識を持ちながらも実用的な推論速度とメモリへの収まりを両立。\n実際のGitHubのIssue解決からPR作成、修正対応までを人間の介入なしで自律的に完結できたと報告。",
+      "tags": [
+        "ローカルLLM",
+        "MacBook Pro",
+        "Qwen"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 85,
+      "score_reason": "高性能なローカルLLMがMacBook上で実用レベルで動作し、自律的な開発タスクを完結できたという実証は技術的に大きな節目を示しています。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた",
+      "url": "https://zenn.dev/holy_fox/articles/04887ff8177b87",
+      "source": "Zenn",
+      "published": "2026-08-27T06:47:03+00:00",
+      "summary": "2026年8月に公開された125B規模のMoEモデル「Qwen3.8-Flash-Next」を、RTX 5090と128GB RAMのPC1台で動作検証。\nUnslothの量子化とllama.cppのPR版を用い、N-gram Embeddingをホストメモリに配置する設計により、短文生成で約48 tokens/sの高速推論を記録。\n新アーキテクチャ「qwen4exp」への対応手順や、CUDAを有効にしたビルド方法などの具体的な検証環境と手順を解説。",
+      "tags": [
+        "LLM",
+        "llama.cpp",
+        "Qwen"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "最新の超巨大MoEモデルをコンシューマ向けGPUと大容量RAMの1台構成で高速に動かす実践的な検証であり、ローカルLLMの可能性を広げるため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "Claude Codeで開発以外の業務も爆速化しよう！",
+      "url": "https://speakerdeck.com/minorun365/claude-code-de-kaihatsu-igai-no-gyoumu-mo-ka-shiyou",
+      "source": "はてなブックマーク",
+      "published": "2026-08-28T12:11:02+00:00",
+      "summary": "AnthropicのAIツール「Claude Code」を活用し、開発以外の日常業務やビジネス業務を効率化する手法を紹介するスライドです。\n書籍『［みのるん式］ビジネスパーソンのためのClaude Code仕事術』に基づき、具体的な活用アイデアが提示されています。\n開発者向けツールを非開発業務に応用することで、幅広いビジネスパーソンの生産性向上に貢献する内容となっています。",
+      "tags": [
+        "ClaudeCode",
+        "AIエージェント",
+        "業務効率化"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "注目度の高いAIエージェントツール「Claude Code」の実用的なビジネス活用法を提示しており、実用性と技術的関心が非常に高いためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "MCPの新ロードマップ公開、今後はAIエージェント対応、HTTP通信への統一、アイデンティティ、よりよいデベロッパー体験などに注力",
+      "url": "https://www.publickey1.jp/blog/26/mcpaihttp.html",
+      "source": "Publickey",
+      "published": "2026-08-26T15:29:13+00:00",
+      "summary": "AIツールとサービスを接続するプロトコル「MCP」の新たなロードマップが公開されました。\n今後はAIエージェント向けのメッセージング、HTTP通信への統一、認証管理などに注力します。\n2025年にLinux Foundationへ移管されて以来、オープンな業界標準としての進化を加速させています。",
+      "tags": [
+        "MCP",
+        "AIエージェント",
+        "プロトコル"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "AIエージェントと外部ツールの連携を標準化するプロトコルのロードマップであり、今後のAIエコシステム構築において重要度が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "本番導入前にLLMを評価する方法",
+      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
+      "source": "GitHub Blog",
+      "published": "2026-08-25T21:35:11+00:00",
+      "summary": "LLMはクリーンなベンチマークで好成績を収めても、本番環境の曖昧な入力やエッジケースで失敗することがある。\nGitHubのシークレットスキャンにおける誤検知削減の事例を元に、単なる正誤判定ではなく、安全性と再現率のバランスを評価する重要性を解説。\nプロトタイプから本番環境への移行において、実際の利用分布を反映した評価セットの構築など、実践的な評価手法を共有している。",
+      "tags": [
+        "LLM",
+        "機械学習評価",
+        "本番導入"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "LLMを実システムに組み込む際の実践的かつ重要な評価プロセスを具体例とともに解説している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "PICasso: シリコンフォトニクスデバイスの自律最適化のためのAI搭載設計フレームワーク",
+      "url": "https://arxiv.org/abs/2608.26113",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-28T04:00:00+00:00",
+      "summary": "シリコンフォトニクス（光回路）デバイスを自律的に最適化設計するためのAI駆動型フレームワーク「PICasso」を提案しています。\n従来のシミュレーションや手動設計の限界を打破し、設計プロセスを大幅に高速化・効率化します。\n次世代の高速通信や光コンピューティング向けハードウェアの開発を加速する技術として注目されます。",
+      "tags": [
+        "シリコンフォトニクス",
+        "AI設計",
+        "自律最適化"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 85,
+      "score_reason": "半導体や光通信の進化に不可欠なシリコンフォトニクス設計をAIで自律化する、技術的新規性と産業的インパクトが非常に高い研究です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "CIFQA: 金融クエリ応答のための決定論的ツール接地型マルチエージェントLLMフレームワーク",
+      "url": "https://arxiv.org/abs/2608.26114",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-28T04:00:00+00:00",
+      "summary": "金融分野の複雑な質問に対して、正確で信頼性の高い回答を生成するマルチエージェントLLMフレームワーク「CIFQA」を提案しています。\n決定論的なツール接地（Tool-Grounded）アプローチを採用し、ハルシネーションを抑制して正確な数値計算やデータ参照を実現します。\n厳格な正確性が求められる金融実務におけるAIアシスタントの実用性を大きく向上させます。",
+      "tags": [
+        "マルチエージェント",
+        "金融AI",
+        "ハルシネーション対策"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "金融という誤りが許されないドメインにおいて、決定論的ツール連携によりLLMの信頼性を高める実用的なフレームワークです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AppleのVirtualization.frameworkを介して仮想iPhoneを起動する",
+      "url": "https://github.com/Lakr233/vphone-cli",
+      "source": "Hacker News",
+      "published": "2026-08-28T23:02:21+00:00",
+      "hn_score": 128,
+      "hn_comments": 40,
+      "summary": "AppleのVirtualization.frameworkを利用して仮想iOS環境を起動するツール「vphone-cli」が公開された。\n依存関係のインストールから、VMの作成、パッチ適用、DFU復元、初回起動までをワンコマンドで実行可能。\nAPFSの高速クローンやVMのインポート・エクスポートなど、開発やセキュリティ研究に便利な機能を備える。",
+      "tags": [
+        "iOS",
+        "仮想化",
+        "macOS"
+      ],
+      "category": "モバイル",
+      "score": 80,
+      "score_reason": "Appleの公式フレームワークを用いて仮想iOS環境を構築する画期的なツールであり、iOSアプリ開発やセキュリティ研究に大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIに丸投げしないで理解するためのAI開発手法（2026年8月現在）",
+      "url": "https://zenn.dev/avaintelligence/articles/dont-outsource-understanding-to-ai",
+      "source": "Zenn",
+      "published": "2026-08-28T05:55:30+00:00",
+      "summary": "AIコーディングツールの普及に伴い、技術負債と開発者の理解負債が急速に蓄積する課題を指摘。\nClaude Codeなどのエージェントを活用しつつ、仕様を把握しリファクタリングを行うワークフローを提案。\n視覚的説明を行う「explain-visually」などのスキルを導入し、人間が主導権を握る開発手法を解説。",
+      "tags": [
+        "AIコーディング",
+        "Claude Code",
+        "ソフトウェア開発"
+      ],
+      "category": "プログラミング言語",
+      "score": 80,
+      "score_reason": "AI時代におけるエンジニアの役割や、理解負債を防ぐための実践的な開発ワークフローを提示しており有用性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ベテランエンジニアのPRレビュー187件を分類してみたら、バグは5件に1件しか指摘されていなかった",
+      "url": "https://qiita.com/ktdatascience/items/02b6b45e2ca7d34ad146?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-26T13:31:54+00:00",
+      "summary": "ベテランエンジニアによるGitHub上のプルリクエスト（PR）レビューコメント187件をAPIで取得し、その指摘内容を分類・分析。\n分析の結果、バグの指摘は全体の約20%に過ぎず、最も多かったのは「今は壊れていないが将来影響が出る箇所」などの非バグ領域（約33%）。\nバックエンド、モバイル、Webフロントなど、対象のレイヤーによってレビューで重視される指摘領域が大きく異なることを明らかにしている。",
+      "tags": [
+        "コードレビュー",
+        "GitHub",
+        "生産性向上"
+      ],
+      "category": "その他",
+      "score": 80,
+      "score_reason": "ベテランのレビュー観点を定量的に分析し、バグ指摘以外の重要な観点やレイヤーごとの違いを可視化した、開発チームの生産性向上に極めて有用な知見であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "並行開発に Orca がめちゃ便利",
+      "url": "https://zenn.dev/rhosokawa/articles/d0a958c17c2820",
+      "source": "はてなブックマーク",
+      "published": "2026-08-28T06:24:49+00:00",
+      "summary": "複数AIを並行して開発することに特化したAgent IDE「Orca」の紹介記事です。\nセッション切り替えに連動する優秀な内蔵ブラウザにより、開発時の脳のコンテキスト切り替えを最小化します。\nモバイル版でもデスクトップと遜色ないUIを提供し、シームレスな開発環境を実現しています。",
+      "tags": [
+        "Orca",
+        "IDE",
+        "AIエージェント"
+      ],
+      "category": "その他",
+      "score": 80,
+      "score_reason": "AIエージェント開発が活発化する中、並行開発に特化した新しいIDEの提案として実用性と新規性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "OpenClawがバイラルに。開発とセキュリティを担うメンテナーたちを紹介",
+      "url": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
+      "source": "GitHub Blog",
+      "published": "2026-08-27T16:00:00+00:00",
+      "summary": "OpenClawは、ユーザーのデバイス上で動作し、既存のメッセージングチャネルと連携する個人向けAIアシスタントのオープンソースプロジェクトである。\n2025年11月の開始から急速に成長し、大量のプルリクエストの管理やコントリビューターの信頼性、サプライチェーンリスクなどの課題に直面している。\nメンテナーたちは、GitHub Secure Open Source Fundなどを通じて得たセキュリティの教訓や、自動化されたプルリクエストへの対処法を共有している。",
+      "tags": [
+        "オープンソース",
+        "AIアシスタント",
+        "セキュリティ"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "急成長するオープンソースAIプロジェクトの運用とセキュリティ対策に関する貴重な知見を提供している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ICU死亡率予測を説明するためのスタンドアロンLLMと事前定義されたエージェントパイプライン：eICUデモデータセットにおける実現可能性調査",
+      "url": "https://arxiv.org/abs/2608.26109",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-28T04:00:00+00:00",
+      "summary": "ICU（集中治療室）における患者の死亡率予測の根拠を説明するため、単体のLLMと事前定義されたエージェントパイプラインの有用性を比較検証しています。\n医療データセット「eICU」のデモデータを用いて、実際の臨床現場での意思決定支援における実現可能性を評価しました。\n医療AIのブラックボックス問題を解消し、医師が信頼して利用できる説明を生成する手法を探求しています。",
+      "tags": [
+        "医療AI",
+        "LLMエージェント",
+        "説明可能なAI"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "命に関わるICUの死亡率予測において、LLMを用いた説明可能性の向上は極めて重要であり、実用化への貢献度が高い研究です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ICFPC 2026における人間とAIの共闘",
+      "url": "https://zenn.dev/estie/articles/a6d1e78e8e41d5",
+      "source": "Zenn",
+      "published": "2026-08-28T03:11:50+00:00",
+      "summary": "プログラミングコンテスト「ICFPC 2026」において、人間とAIが協調して難問に挑んだ参加記録。\n2次元言語「littleman」の最適化問題に対し、AIのコード生成能力と人間の大枠の設計力を組み合わせた。\nAPIの利用制限を管理しながら、AIエージェントを効果的に活用して上位5%の好成績を収めた事例を紹介。",
+      "tags": [
+        "プログラミングコンテスト",
+        "AI協調開発",
+        "ICFPC"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "AI時代における競技プログラミングの新たな戦い方や、人間とAIの役割分担の具体例を示した興味深い内容です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "10年分ぐらいのQiitaの自分の投稿を蒸留したら、自分っぽい記事を書いてくれるようになったww",
+      "url": "https://qiita.com/moritalous/items/4a70f0bee16d5d690a73?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-27T13:01:16+00:00",
+      "summary": "過去10年間で執筆した約400件のQiita投稿をAPI経由で取得し、LLMに読み込ませて自身の文体を「蒸留」した執筆スキルを作成。\n生成AI特有の不自然さを排除するため、プロンプトの改善やサブエージェントによる分析・マージを繰り返し、自身の文体を再現することに成功。\n技術検証のメモや簡単な指示を与えるだけで、まるで本人が書いたかのような自然な技術ブログ記事を自動生成するワークフローを構築。",
+      "tags": [
+        "LLM",
+        "プロンプトエンジニアリング",
+        "自動化"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "自身の過去の膨大な執筆データをLLMに学習・蒸留させ、個人の文体を再現した記事執筆を自動化する試みは、AIのパーソナライズ利用として非常に興味深いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "バッテリーの予測および健康管理のための大規模モデル：レビューと将来のロードマップ",
+      "url": "https://arxiv.org/abs/2608.26111",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-28T04:00:00+00:00",
+      "summary": "バッテリーの寿命予測や状態監視（PHM）における大規模モデル（Large Models）の適用に関する初の包括的なレビューです。\n従来のディープラーニング手法から最新の大規模基盤モデルへの移行トレンドと、それに伴う技術的課題を整理しています。\n電気自動車やエネルギー貯蔵システムの安全性と効率性向上に向けた、将来の研究ロードマップを提示しています。",
+      "tags": [
+        "バッテリー管理",
+        "大規模モデル",
+        "PHM"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "EVや再生可能エネルギーの普及に伴い重要性が増すバッテリー管理に、最新の大規模モデルを適用するロードマップを示した価値あるレビューです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「Enterで送信」は滅びよ ~ IME誤爆に疲れたので、チャットの送信に修飾キーを必須にした ~",
+      "url": "https://zenn.dev/safie_inc/articles/ee72b837e4a5f1",
+      "source": "Zenn",
+      "published": "2026-08-28T04:23:26+00:00",
+      "summary": "日本語入力（IME）の確定時のEnter連打による、AIチャット等への意図しない誤送信の課題を提起。\n頻度の高い改行をEnterに、慎重に行うべき送信を修飾キー（Option+Enter等）に割り当てる設計を推奨。\nCLIやVSCode、Slack等の環境で送信キーの設定を変更する具体的な手順とメリットを解説。",
+      "tags": [
+        "UI/UX",
+        "生産性向上",
+        "キーボードショートカット"
+      ],
+      "category": "その他",
+      "score": 75,
+      "score_reason": "日本語入力特有の誤送信ストレスを解消する、実用的かつ合理的なキーバインドの再設計アプローチを提案しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ネバダ州知事、AI投資家から100万ドルの寄付を受けた数日後にデータセンターを支持",
+      "url": "https://www.reddit.com/r/technology/comments/1w0zam6/nevada_governor_endorsed_data_centers_days_after/",
+      "source": "Reddit",
+      "published": "2026-08-28T18:52:27+00:00",
+      "summary": "ネバダ州の知事が、AI投資家から100万ドルの政治寄付を受け取った直後にデータセンター建設への支持を表明しました。\nこの動きは、AIインフラ開発を巡る政治的ロビー活動や資金提供の影響力について懸念を呼んでいます。\nデータセンター誘致における政治とテック業界の癒着を示す事例として注目されています。",
+      "tags": [
+        "データセンター",
+        "AI投資",
+        "政治ロビー"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "AIインフラの急速な拡大に伴う電力・土地確保の裏で、政治的な意思決定がどのように行われているかを示す重要な事例であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「ミスを許さない手順書」を作ってみた 〜 個人的にはこれ以上できることはあまりなさそう/20260827-ssmjp-operation-procedure-update",
+      "url": "https://speakerdeck.com/opelab/20260827-ssmjp-operation-procedure-update",
+      "source": "はてなブックマーク",
+      "published": "2026-08-27T14:20:32+00:00",
+      "summary": "運用設計ラボの波田野氏による「ミスを許さない手順書」の作成に関する発表資料です。\n物理制約やIAMロール、認証認可など、実務における運用改善の知見が詰まっています。\n現場が振り回されないための現実的な運用エンジニアリングの手法を提示しています。",
+      "tags": [
+        "システム運用",
+        "運用設計",
+        "手順書"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 75,
+      "score_reason": "属人化やミスを防ぐための実践的な運用設計ノウハウであり、インフラ運用の現場において実用性が非常に高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "初心者向けGitHub Copilotアプリ：Dependabotプルリクエストのトリアージ自動化",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
+      "source": "GitHub Blog",
+      "published": "2026-08-26T20:12:53+00:00",
+      "summary": "頻繁に発生するDependabotのプルリクエストのトリアージ作業を、GitHub Copilotアプリの自動化機能で効率化する方法を紹介。\nCopilot自動化機能を使用することで、リスクごとのグループ分けやCIステータスの検証、要約の作成を自動で実行できる。\n実行トリガー（スケジュールなど）や実行環境（クラウドまたはローカル）を設定し、プロンプトで指示を与えるだけで構築可能。",
+      "tags": [
+        "GitHub Copilot",
+        "Dependabot",
+        "自動化"
+      ],
+      "category": "その他",
+      "score": 75,
+      "score_reason": "開発者の日常的なメンテナンス作業をAIで自動化する実用的なアプローチを解説している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "EduRiskX: 早期の学業リスク予測のためのF-Logic推論を用いたニューロ・シンボリック・フレームワーク",
+      "url": "https://arxiv.org/abs/2608.26107",
+      "source": "arXiv cs.AI",
+      "published": "2026-08-28T04:00:00+00:00",
+      "summary": "ニューラルネットワークと記号論理（F-Logic）を融合したニューロ・シンボリックAIフレームワーク「EduRiskX」を提案しています。\n学生の早期の学業不振や退学などのリスクを、高い予測精度と人間が理解できる説明可能性を両立して予測します。\n教育分野におけるAIの信頼性と実用性を向上させ、個別最適な支援を可能にするアプローチとして期待されます。",
+      "tags": [
+        "ニューロ・シンボリックAI",
+        "学業リスク予測",
+        "説明可能なAI"
+      ],
+      "category": "AI・機械学習",
+      "score": 72,
+      "score_reason": "教育分野における早期リスク予測に対し、説明可能性の高いニューロ・シンボリック手法を適用した実用的な研究です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GUIは完全にキーボード駆動であるべきだ",
+      "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
+      "source": "Hacker News",
+      "published": "2026-08-28T15:17:09+00:00",
+      "hn_score": 655,
+      "hn_comments": 322,
+      "summary": "TUI（ターミナルUI）が好まれる主な理由として「キーボード駆動であること」が挙げられるが、これはGUIの設計不足を示しているに過ぎない。\nGUIフレームワークの表現力はTUIのスーパーセットであり、GUIであっても完全にキーボード操作可能に設計することは十分に可能。\n開発者はTUIに逃げるのではなく、キーボードナビゲーションを徹底した優れたGUIアプリケーションを開発すべきだと主張している。",
+      "tags": [
+        "GUI",
+        "UI/UX",
+        "アクセシビリティ"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "アプリケーションのUI/UX設計におけるキーボードアクセシビリティの重要性を再提起し、開発者の設計思想に一石を投じる内容であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "StemDeck：無料・オープンソース・ローカル動作のAI音源分離ツール",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "source": "Hacker News",
+      "published": "2026-08-29T01:24:13+00:00",
+      "hn_score": 37,
+      "hn_comments": 8,
+      "summary": "アカウント登録やアップロード不要で、ローカル環境で動作する無料の音源分離ツール。\nMP3やYouTubeのURLなどから、ボーカルやドラムなど最大6つのパートに音声を分離できる。\nクラウド型サービスの代替として、個人利用やプライバシーを重視するユーザーに適している。",
+      "tags": [
+        "AI",
+        "音源分離",
+        "オープンソース"
+      ],
+      "category": "AI・機械学習",
+      "score": 70,
+      "score_reason": "ローカルで完結するオープンソースのAI音源分離ツールとして、プライバシーと利便性を両立している点が評価できます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「AIに店長を任せてみた実験」からもらった、これからの働き方のヒント",
+      "url": "https://qiita.com/sumomoo/items/5726c8769b487e118571?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-28T07:28:35+00:00",
+      "summary": "サンフランシスコのコンビニ「Andon Market」で、AIエージェント「Luna」に予算とクレジットカードを渡し店舗経営を丸ごと任せる実験を紹介。\nAIは求人・採用や内装手配、価格決定などをこなした一方、シフト管理の失敗による一時閉店や赤字など経営面での課題も浮き彫りになった。\n将来的にAIの精度向上でサービス業の自動化が進む可能性を指摘し、人間ならではの魅力や働き方の変化について考察している。",
+      "tags": [
+        "AIエージェント",
+        "店舗経営",
+        "働き方改革"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 70,
+      "score_reason": "AIエージェントによる実店舗経営というユニークな実験を通じ、将来の労働市場への影響やAIの限界を分かりやすく考察しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "バーニー・サンダース議員、Flock社の監視カメラを禁止する法案を提出へ",
+      "url": "https://www.reddit.com/r/technology/comments/1w10fho/bernie_sanders_to_introduce_bill_banning_flock/",
+      "source": "Reddit",
+      "published": "2026-08-28T19:34:04+00:00",
+      "summary": "米国のバーニー・サンダース上院議員が、Flock Safety社のAI監視カメラを禁止する法案を提出する予定であることが判明しました。\nFlock社のカメラは自動ナンバープレート認識などを備え、プライバシー侵害の懸念が指摘されています。\nこの法案は、公共スペースにおける過剰な監視技術の規制に向けた重要な一歩となる可能性があります。",
+      "tags": [
+        "監視カメラ",
+        "プライバシー",
+        "法規制"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 70,
+      "score_reason": "AIや監視技術に対する法規制の動きは、今後のテック企業のビジネスモデルやプライバシー保護のあり方に大きな影響を与えるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "代替テキストが自動チェックを通過しても、それが適切とは限らない",
+      "url": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
+      "source": "GitHub Blog",
+      "published": "2026-08-24T20:56:32+00:00",
+      "summary": "Web上の多くの画像で代替テキスト（alt属性）が欠落しているか、不適切な内容（ファイル名など）が設定されている現状がある。\n従来の自動チェッカーは属性の有無しか判定できず、内容の妥当性を評価できないため、GitHubはアクセシビリティスキャナー用のプラグインを開発した。\nAIモデルの導入による判定精度の向上や、自動チェックにおける客観的事実と推測の境界線、設計上のトレードオフについて解説している。",
+      "tags": [
+        "アクセシビリティ",
+        "代替テキスト",
+        "フロントエンド"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 70,
+      "score_reason": "Webアクセシビリティの自動検証における限界と、AIを活用した新たなアプローチについて解説している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "第9巡回区控訴裁判所、Kalshiの賭博を巡る争いで州側を支持",
+      "url": "https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution/",
+      "source": "Hacker News",
+      "published": "2026-08-28T23:32:22+00:00",
+      "hn_score": 81,
+      "hn_comments": 40,
+      "summary": "米第9巡回区控訴裁判所は、予測市場Kalshiによるスポーツイベントへの賭けは連邦法で保護される「スワップ」には該当しないと判断した。\nこの判決により、アリゾナ州などの州政府が賭博法違反でKalshiを訴追することが可能になる見通し。\n予測市場の合法性と規制の境界線を巡る議論において、州の規制権限を強化する重要な司法判断となった。",
+      "tags": [
+        "予測市場",
+        "Kalshi",
+        "法律"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 65,
+      "score_reason": "予測市場プラットフォームに対する法的な規制方針を左右する重要な判決であり、フィンテックやWeb3分野への影響が懸念されるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "アンドリュー・ガーフィールド、映画『Artificial』でサム・アルトマンを演じることについて語る、OpenAIは「人類の魂にダメージを与えている」と批判",
+      "url": "https://www.reddit.com/r/technology/comments/1w0vmul/andrew_garfield_opens_up_about_playing_sam_altman/",
+      "source": "Reddit",
+      "published": "2026-08-28T16:39:06+00:00",
+      "summary": "俳優のアンドリュー・ガーフィールドが、新作映画『Artificial』でOpenAIのCEOサム・アルトマンを演じることについて語りました。\n彼はOpenAIの急速なAI開発が「人類の魂にダメージを与えている」と述べ、強い懸念を表明しています。\nこの作品と発言は、シリコンバレーのAI開発競争に対する世間の批判的な視線を象徴しています。",
+      "tags": [
+        "OpenAI",
+        "サム・アルトマン",
+        "AI倫理"
+      ],
+      "category": "AI・機械学習",
+      "score": 65,
+      "score_reason": "AI業界のキーパーソンをテーマにした映画と著名俳優による批判は、AIの社会的受容性や倫理に関する議論を活性化させるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub Copilotの支出制限：設定方法と制限対象",
+      "url": "https://dev.to/rebeca_vb/github-copilot-spending-limit-how-to-set-it-what-it-caps-288k",
+      "source": "Dev.to",
+      "published": "2026-08-29T03:24:23+00:00",
+      "summary": "GitHub Copilotの支出制限は、企業や組織、個人ユーザーのAIクレジット消費を制限する月間予算設定である。\nデフォルトでは制限ではなくアラートのみが有効になっており、シートライセンス費用は制限の対象外となる。\n予算設定は支払いアカウントの請求設定から行い、使用量の上限に達した際の自動停止や通知のしきい値を設定できる。",
+      "tags": [
+        "GitHub Copilot",
+        "予算管理",
+        "クラウド請求"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 65,
+      "score_reason": "GitHub Copilotの運用コスト管理に関する実用的なガイドであり、企業ユーザーにとって重要度が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "シュメール王名表は古気候イベントと一致しているか？",
+      "url": "https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer/",
+      "source": "Hacker News",
+      "published": "2026-08-28T23:46:10+00:00",
+      "hn_score": 67,
+      "hn_comments": 18,
+      "summary": "シュメール王名表に登場する大洪水前の8人の王の極端に長い在位期間（計24万1200年）が、実際の古気候データと一致するかを検証。\n在位期間の境界を実際の気候シフトや海面変化などの地質学的記録と比較するシミュレーションツールを開発。\nパラメータ調整による偶然の一致の可能性を指摘しつつ、神話的な数字に隠された先史時代の記憶の可能性を探索している。",
+      "tags": [
+        "歴史",
+        "古気候学",
+        "データ分析"
+      ],
+      "category": "その他",
+      "score": 55,
+      "score_reason": "歴史的文書と科学的データを組み合わせた興味深いデータ分析の試みであるが、IT業界や実務への直接的な影響は限定的であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "IT業界で皆知ってる「クラウド」「AWS」、分かったふりやめて先輩に聞いてみた",
+      "url": "https://qiita.com/prumnn/items/d155a4ac10477d1eb41f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-28T07:21:15+00:00",
+      "summary": "IT業界で頻出する「クラウド」や「AWS」の概念について、初心者向けに分かりやすく解説した対話形式の記事。\nクラウドの本質を「コンピュータ資源をネット経由で必要な分だけ借りるサービス」とし、自社サーバー（オンプレミス）との違いを説明。\n借りる範囲によって分類される「IaaS」「PaaS」「SaaS」の3つの違いと、それぞれの代表的な具体例を整理して紹介。",
+      "tags": [
+        "クラウド",
+        "AWS",
+        "インフラ"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 50,
+      "score_reason": "クラウドやAWSの基本概念を初心者向けに分かりやすく解説した入門記事であり、技術的な新規性は低いが実用的な教育価値があるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "プログラマーのオフィス内トイレでの死亡、PCの電源を入れていなかったため「労災対象外」と判断される",
+      "url": "https://www.reddit.com/r/technology/comments/1w11n6h/programmers_death_on_office_toilet_ruled_not/",
+      "source": "Reddit",
+      "published": "2026-08-28T20:19:17+00:00",
+      "summary": "オフィスのトイレで亡くなったプログラマーについて、労災認定が却下される判決が下されました。\n判断の理由は、死亡当日に本人がPCの電源を一度も入れておらず、業務中であったと証明できないためとされています。\nこの判決は、リモートワークや裁量労働制における労働時間の証明の難しさと、過酷な労働環境に対する議論を呼んでいます。",
+      "tags": [
+        "労働環境",
+        "プログラマー",
+        "労災"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 50,
+      "score_reason": "技術的なニュースではないものの、IT業界の労働環境や勤務実態の証明に関する法的な議論として注目を集めているためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "シングルバイナリなOLAP DBの次期版「DuckDB 2.0」プレビュー。クライアント／サーバ機能が安定版に、スキーマレスのVARIANT型、トリガー、非同期I/Oなど新機能",
+      "url": "https://www.publickey1.jp/blog/26/olap_dbduckdb_20variantio.html",
+      "source": "Publickey",
+      "published": "2026-08-24T15:29:33+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Rustに移植された「Bun 1.4」正式リリース。Node.jsとの互換性向上でPlaywrightやvitestが動作、CPUとメモリの使用率が大幅改善、正規表現が高速化など",
+      "url": "https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html",
+      "source": "Publickey",
+      "published": "2026-08-23T15:58:41+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Restrict Cron Access",
+      "url": "https://dev.to/janak0ff/restrict-cron-access-3g5m",
+      "source": "Dev.to",
+      "published": "2026-08-29T03:31:31+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "I Built an API Because My Government’s Website Got the Date Wrong (and Just… Deleted It)",
+      "url": "https://dev.to/pijaradiluhung/i-built-an-api-because-my-governments-website-got-the-date-wrong-and-just-deleted-it-4ca5",
+      "source": "Dev.to",
+      "published": "2026-08-29T03:26:27+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Stop Just Learning. Start Shipping: Welcome to SHEinnov8",
+      "url": "https://dev.to/mary_macharia_49fa3c6d21e/stop-just-learning-start-shipping-welcome-to-sheinnov8-2ch6",
+      "source": "Dev.to",
+      "published": "2026-08-29T03:26:16+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Beyond Arduino: Getting Started with ESP-IDF in VS Code for ESP32",
+      "url": "https://dev.to/effessdev/beyond-arduino-getting-started-with-esp-idf-in-vs-code-for-esp32-3ed4",
+      "source": "Dev.to",
+      "published": "2026-08-29T03:25:58+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "面接で「前職への不満」を聞かれたら。無理にきれいな退職理由をつくらなくても大丈夫です",
+      "url": "https://qiita.com/m__ikeda/items/b96813bc8a482b3d0074?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-28T07:25:01+00:00",
+      "summary": "転職面接で「前職への不満」を聞かれた際の対策として、無理に綺麗な理由を作る必要はないと採用担当者の視点から解説。\n重要なのは不満そのものを隠すことではなく、その不満に対して「自分がどのように考えてどう行動したか」のプロセスを伝えること。\n具体的な行動や試行錯誤の経緯を伝えることで、面接官に自身の思考プロセスや問題解決への姿勢をポジティブにアピールできる。",
+      "tags": [
+        "キャリア",
+        "面接対策",
+        "エンジニア転職"
+      ],
+      "category": "その他",
+      "score": 45,
+      "score_reason": "エンジニアや未経験者の転職活動における面接対策に特化した内容であり、技術的な要素は含まれないがキャリア形成において実用的であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オンライン地図プラットフォームの元祖「MapQuest」、オンタリオ湖の名前は変更しないと表明",
+      "url": "https://www.reddit.com/r/technology/comments/1w0o96v/the_og_online_map_platform_mapquest_says_it_wont/",
+      "source": "Reddit",
+      "published": "2026-08-28T11:43:58+00:00",
+      "summary": "老舗オンライン地図サービスであるMapQuestが、オンタリオ湖の名称変更を行わない方針を明らかにしました。\nこの決定は、特定の名称変更要求や議論に対するプラットフォーム側のスタンスを示すものとなっています。\nかつて地図サービスの覇者だった同社の動向は、デジタル地図における地名表記の基準について一石を投じています。",
+      "tags": [
+        "MapQuest",
+        "オンライン地図",
+        "地名表記"
+      ],
+      "category": "その他",
+      "score": 40,
+      "score_reason": "地図プラットフォームの歴史的な位置づけはあるものの、技術的な新規性や業界全体への影響度は限定的であるためです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}

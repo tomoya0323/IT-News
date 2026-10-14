@@ -1,0 +1,816 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-02T08:55:10.824365+09:00",
+  "total_count": 46,
+  "success_count": 46,
+  "error_count": 0,
+  "gemini_model": "gemini-3.5-flash",
+  "articles": [
+    {
+      "title": "8月17日の障害と今後の取り組み",
+      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "source": "GitHub Blog",
+      "published": "2026-08-20T18:36:11+00:00",
+      "summary": "2026年8月17日に発生した、GitHubの各種サービスに影響を与えた約7時間47分に及ぶ大規模障害の原因と対策を報告。\n障害の原因はコード変更ではなく、トラフィックのピーク時にインフラコンポーネントがスケールアウトに失敗した容量不足。\n復旧プロセスにおけるCopilotサービスの再試行ループによる負荷増大などの課題と、今後の信頼性向上に向けた取り組みを説明。",
+      "tags": [
+        "システム障害",
+        "インフラ",
+        "GitHub"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 92,
+      "score_reason": "世界中の開発者に影響を与えた大規模障害のポストモーテムであり、インフラのスケールアウトや回復力に関する重要な教訓を含んでいる。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Claude Fable 5.1 および Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "source": "Hacker News",
+      "published": "2026-09-01T17:53:53+00:00",
+      "hn_score": 845,
+      "hn_comments": 804,
+      "summary": "Anthropicが最新のAIモデル「Claude Fable 5.1」と「Claude Mythos 5.1」を発表しました。\nFable 5.1は一般提供され、キャッシュ読み取りの値下げにより最大45%のコスト削減が可能です。\nMythos 5.1は、サイバーセキュリティやライフサイエンス向けに高度な安全対策を施した限定アクセス版です。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 90,
+      "score_reason": "業界をリードするAIモデルのアップデートであり、大幅なコスト削減と高度なセキュリティ機能の提供は実用性と影響度が非常に高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Google提唱の「SKILL.state」について。プロンプトに型の概念を導入",
+      "url": "https://zenn.dev/knowledgesense/articles/ad123283bdea26",
+      "source": "Zenn",
+      "published": "2026-09-01T08:46:36+00:00",
+      "summary": "AIエージェントの会話履歴膨張による精度劣化を防ぐ新手法「SKILL.state」を解説。\n過去の会話履歴をすべて入力する代わりに、型定義された構造化データ（State）のみを毎ターン更新して渡す。\n倉庫管理やLinuxハッキングなどの検証において、トークン効率とタスク成功率の大幅な向上を実証。",
+      "tags": [
+        "AIエージェント",
+        "LLM",
+        "SKILL.state"
+      ],
+      "category": "AI・機械学習",
+      "score": 90,
+      "score_reason": "長時間稼働するAIエージェントのコンテキスト膨張問題に対する画期的なアプローチであり、実用性と新規性が極めて高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "JetBrains、Mac上で動作するコーディングエージェント「Junie Local」提供開始。Claude Sonnet 4.5と同等の能力、RTX5090対応も開発中",
+      "url": "https://www.publickey1.jp/blog/26/jetbrainsmacjunie_localclaude_sonnet_45rtx5909.html",
+      "source": "Publickey",
+      "published": "2026-08-30T15:07:47+00:00",
+      "summary": "JetBrainsは、ローカルマシン上で完全に動作する無料のAIコーディングエージェント「Junie Local」の提供を開始した。\nAPI使用料やモデル使用料は不要で、クラウド版のJunieからコマンド一つで簡単に切り替えて利用できる。\nClaude Sonnet 4.5と同等の能力を持ち、今後はRTX 5090への対応などGPUサポートの拡張も開発中である。",
+      "tags": [
+        "JetBrains",
+        "AIコーディング",
+        "ローカルLLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 88,
+      "score_reason": "ローカル環境で動作する高性能な無料コーディングAIの登場は、開発者の生産性とセキュリティ向上に大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "本番環境への導入前にLLMを評価する方法",
+      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
+      "source": "GitHub Blog",
+      "published": "2026-08-25T21:35:11+00:00",
+      "summary": "ベンチマークだけでは測れない、本番環境における大規模言語モデル（LLM）の評価の難しさとその解決策を解説。\nGitHubのシークレットスキャン機能における誤検知削減の事例を交え、実用的な評価プロトタイプの構築方法を紹介。\n曖昧な入力やエッジケースに対応し、セキュリティワークフローの安全性を保ちながらLLMを本番導入するための実践的知見。",
+      "tags": [
+        "LLM",
+        "モデル評価",
+        "本番導入"
+      ],
+      "category": "AI・機械学習",
+      "score": 88,
+      "score_reason": "LLMを実際のプロダクトに組み込む際の最大の難関である「本番評価」について、GitHubの実践的な知見を提供しており価値が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ChatGPT/CodexアプリにLibreOfficeが丸ごと同梱されている",
+      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "source": "Hacker News",
+      "published": "2026-09-01T20:07:57+00:00",
+      "hn_score": 209,
+      "hn_comments": 106,
+      "summary": "OpenAIのChatGPT（旧Codex）デスクトップアプリのキャッシュ内に、1.7GBものランタイムが含まれていることが判明しました。\nこの中には、PythonやNode.jsの環境に加え、LibreOfficeやPoppler、gitなどのバイナリが丸ごと同梱されています。\nアプリがドキュメント処理などのスキルを実行するために、これらのローカルバイナリを呼び出している仕組みが明らかになりました。",
+      "tags": [
+        "ChatGPT",
+        "LibreOffice",
+        "デスクトップアプリ"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "LLMアプリがローカルでドキュメント処理を行うための実装アプローチが明らかになり、技術的な興味深さと実用的な発見があるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "OOMKill の犯人は CPU だった：GOGC と GOMEMLIMIT を実測で設計し直す",
+      "url": "https://zenn.dev/reality_tech/articles/f6305331bccee0",
+      "source": "Zenn",
+      "published": "2026-09-01T09:12:59+00:00",
+      "summary": "Goで構築されたマイクロサービスが深夜にOOMKillされた原因を調査し、CPU制限がトリガーだったことを解明。\nGOGC=offとGOMEMLIMITの組み合わせにおいて、CPU不足によるGC遅延がメモリ使用量超過を招くメカニズムを解説。\n実測データに基づき、Guaranteed QoS環境における適切なGCパラメータの再設計手法を提示。",
+      "tags": [
+        "Go言語",
+        "GC",
+        "Kubernetes"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "Goランタイムの挙動とコンテナ環境の相互作用によるトラブルシューティング事例として、非常に技術的価値が高く実用的であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "PRレビューもエラー調査も定額で自動化する、Claude Codeのroutine活用実例",
+      "url": "https://zenn.dev/atamaplus/articles/6be03483c0110b",
+      "source": "Zenn",
+      "published": "2026-09-01T07:50:31+00:00",
+      "summary": "Claude Codeの自動起動機能「routine」を活用した業務効率化の実例を紹介しています。\nスケジュールやGitHubイベント、APIトリガーを契機に、定額プランの範囲内で自動実行が可能です。\n毎朝の利用枠開始やPRレビュー、エラーの一次調査など、具体的な8つの運用例を解説しています。",
+      "tags": [
+        "Claude Code",
+        "AI",
+        "自動化"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "注目度の高いAIコーディングアシスタント「Claude Code」の自動化機能を実務に適用する極めて実用的な知見であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIエージェントがRedshiftを操作してDWH構築や集計分析など可能に、Amazon RedshiftがAgent Toolkit for AWSと統合",
+      "url": "https://www.publickey1.jp/blog/26/airedshiftdwhamazon_redshiftagent_toolkit_for_aws.html",
+      "source": "Publickey",
+      "published": "2026-09-01T15:07:04+00:00",
+      "summary": "Amazon Redshiftが「Agent Toolkit for AWS」と統合され、AIエージェントによる操作に対応。\n自然言語の指示だけで、データウェアハウス（DWH）の構築、データ集計、分析、運用などが可能に。\nRedshift固有のSQL知識やMCPサーバを利用したAPI呼び出しをAIが自律的に実行する仕組みを提供。",
+      "tags": [
+        "Amazon Redshift",
+        "AIエージェント",
+        "DWH"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "クラウドデータウェアハウスの運用やデータ分析をAIエージェントが自律的に実行可能になることで、データ活用の敷居が大幅に下がり、業務効率化に直結するため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ChatGPTの広告が欧州で開始、無料プランから導入",
+      "url": "https://dev.to/theaidownside/chatgpt-ads-arrive-in-europe-starting-with-the-free-tier-58cp",
+      "source": "Dev.to",
+      "published": "2026-09-01T23:22:31+00:00",
+      "summary": "OpenAIは欧州の31市場において、ChatGPTの無料プラン向けに広告表示を開始した。\n広告のパーソナライズはオフにできるが、広告自体の非表示化は有料サブスクリプションへの移行のみで可能となる。\n高コストなAIサービスを維持するための現実的な手段である一方、プライバシー設計や広告主との利害対立への懸念も指摘されている。",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "広告"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 85,
+      "score_reason": "生成AIサービスのマネタイズモデルの転換点であり、欧州という巨大市場での広告導入は業界全体に大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "OpenClawがバイラルに。開発とセキュリティを担うメンテナーたちを紹介",
+      "url": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
+      "source": "GitHub Blog",
+      "published": "2026-08-27T16:00:00+00:00",
+      "summary": "週末プロジェクトからスター数38万超の世界的AIアシスタントへと急成長した「OpenClaw」の事例を紹介。\nメンテナーたちが直面した、大量のプルリクエスト管理やコントリビューターの信頼性、コードレビューの課題を解説。\n強力なAIエージェント機能とセキュリティのバランス、およびソフトウェアサプライチェーンのリスク対策について議論。",
+      "tags": [
+        "OpenClaw",
+        "AIアシスタント",
+        "オープンソース"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "急成長するオープンソースAIプロジェクトにおける、セキュリティとコミュニティ運営のリアルな課題と対策が示されており、実用性と影響度が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "VS Code上で開発のセカンドオピニオンを別のAIエージェントから得られる「Rubber Duck」機能が実験的実装",
+      "url": "https://www.publickey1.jp/blog/26/vs_codeairubber_duck.html",
+      "source": "Publickey",
+      "published": "2026-09-01T15:01:52+00:00",
+      "summary": "VS Codeの最新版にて、開発のセカンドオピニオンを別のAIエージェントから得られる「Rubber Duck」機能が実験的に実装。\nメインのAIエージェントが作成した実装計画やコードに対し、異なるAIモデルを用いてレビューを行う。\n同一モデルによるバイアスや見落としを防ぎ、開発の初期段階でのミスや手戻りを最小限に抑えることが目的。",
+      "tags": [
+        "VS Code",
+        "AIエージェント",
+        "コードレビュー"
+      ],
+      "category": "その他",
+      "score": 82,
+      "score_reason": "開発者が日常的に使用するVS Codeにおいて、複数AIモデルによる相互レビューという新しい開発スタイルを提示し、コード品質向上に寄与するため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "LLMで拡張された因果探索：エッジの存在と方向の確率的融合",
+      "url": "https://arxiv.org/abs/2608.27472",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T04:00:00+00:00",
+      "summary": "データから因果関係を明らかにする因果探索において、LLMの知識を活用する新手法を提案。\n因果グラフにおけるエッジの存在と方向性について、LLMの事前知識と統計データを確率的に融合。\n従来のデータ駆動型アプローチの限界を克服し、より高精度な因果関係の特定を可能にする。",
+      "tags": [
+        "因果探索",
+        "LLM",
+        "確率モデル"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "統計的因果探索にLLMの知識を確率的に融合させるという新規性があり、データ分析の精度向上に大きく寄与します。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AnkiDroid: Google PlayがOpen Collectiveの寄付リンクを不許可に",
+      "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
+      "source": "Hacker News",
+      "published": "2026-09-01T10:11:02+00:00",
+      "hn_score": 813,
+      "hn_comments": 239,
+      "summary": "人気暗記カードアプリ「AnkiDroid」が、Google Playのポリシー違反を理由にアップデートを拒否されています。\n原因は寄付先であるOpen Collectiveの税制優遇ステータス（501(c)(6)）がGoogleに認められないことにあります。\n解決しない場合、9月11日にGoogle Playからアプリが削除される危機に瀕しています。",
+      "tags": [
+        "AnkiDroid",
+        "GooglePlay",
+        "アプリ開発"
+      ],
+      "category": "モバイル",
+      "score": 80,
+      "score_reason": "1000万以上のインストールを持つ有名OSSアプリの配信停止危機であり、アプリストアのポリシー運用の問題として影響が大きいため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Web 標準動向 2026年8月版",
+      "url": "https://zenn.dev/cybozu_frontend/articles/web_standards_trends_202608",
+      "source": "Zenn",
+      "published": "2026-09-01T08:00:05+00:00",
+      "summary": "2026年8月時点のWeb標準化動向として、セキュリティ上の懸念からFirefoxやChromeで進むXSLTの廃止計画を報告。\nOpen UIで議論されている、複数のトリガーやコマンドを宣言できる汎用的な「command」要素の提案を紹介。\n同一Origin内でページ遷移しても状態を維持できる、SPAに代わるMPA実現に向けた新しいiframe風要素の提案を解説。",
+      "tags": [
+        "Web標準",
+        "XSLT",
+        "HTML"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 80,
+      "score_reason": "XSLTの廃止や新しいHTML要素の提案など、今後のWebアプリケーション開発に直接影響する重要な標準化動向がまとめられているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Claude Code でモデルを切り替えると、そのターンだけ書き直しが287倍",
+      "url": "https://qiita.com/jqit_suwa/items/5fe930eb46d064b3da06?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-01T00:03:06+00:00",
+      "summary": "Claude Codeでモデルを切り替えた際のプロンプトキャッシュの挙動を検証した記事です。\nモデル切り替えのターンのみ、キャッシュが効かずに書き直しトークン数が約287倍に急増することを確認しています。\nサブスクプランでの利用時や、長時間のセッションにおけるモデル切り替えのコスト影響を解説しています。",
+      "tags": [
+        "Claude Code",
+        "LLM",
+        "プロンプトキャッシュ"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "Claude Codeのコストやパフォーマンスに直結するプロンプトキャッシュの挙動を定量的に検証しており、開発者にとって有益な情報であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GoProが買収され「防衛、政府、ロボティクス、航空宇宙」分野に参入へ",
+      "url": "https://www.reddit.com/r/technology/comments/1w4icnf/gopro_has_been_acquired_and_is_getting_into/",
+      "source": "Reddit",
+      "published": "2026-09-01T17:14:52+00:00",
+      "summary": "アクションカメラ大手のGoProが買収され、防衛や政府、ロボティクス、航空宇宙分野へ進出することが判明しました。\nあるYouTuberがGoProの筆頭株主になった直後に、会社全体の売却が決定しました。\nコンシューマー向けカメラ企業から、軍事や産業用技術を扱う企業への大きな転換点となります。",
+      "tags": [
+        "GoPro",
+        "買収",
+        "ロボティクス"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 80,
+      "score_reason": "有名カメラメーカーの買収と防衛・ロボティクス分野への劇的な事業転換は、ハードウェア業界に大きな影響を与えます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "DHH氏が開発するLinux OS「Omarchy Quattro」リリース。AIエージェントとをOSと統合、スキルによりAIエージェントがOSの設定や操作、プラグイン作成まで支援",
+      "url": "https://www.publickey1.jp/blog/26/dhhlinux_osomarchy_quattroaiosaios.html",
+      "source": "Publickey",
+      "published": "2026-08-31T15:54:46+00:00",
+      "summary": "Ruby on Railsの創始者DHH氏が、デスクトップ向けLinux OS「Omarchy 4.0 (Omarchy Quattro)」をリリース。\n「おまかせコンピューティング（Omacom）」の思想に基づき、厳選された統一的な機能と外観を提供。\nAIエージェントがOSと深く統合されており、システム設定や操作、プラグインの作成までを自律的に支援。",
+      "tags": [
+        "Linux",
+        "Omarchy",
+        "AIエージェント"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 80,
+      "score_reason": "著名な開発者であるDHH氏が提唱する「おまかせ」思想と、AIエージェントをOSレベルで統合した新しいデスクトップ環境の提示は、今後のOSの進化に影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 2,
+      "topic_size": 2
+    },
+    {
+      "title": "初心者のためのGitHub Copilotアプリ：Dependabotプルリクエストのトリアージを自動化する",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
+      "source": "GitHub Blog",
+      "published": "2026-08-26T20:12:53+00:00",
+      "summary": "頻繁に発生するDependabotのプルリクエストのトリアージ作業をGitHub Copilotアプリで自動化する方法を解説。\nCopilotの自動化機能により、リスク別のグループ分けやCIステータスの検証、毎朝のサマリー作成などを自動化可能。\n開発者が手動で行っていた反復的なレビュー作業を削減し、開発効率とセキュリティ維持を両立する手順を紹介。",
+      "tags": [
+        "GitHub Copilot",
+        "Dependabot",
+        "自動化"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 80,
+      "score_reason": "開発現場で日常的に発生するライブラリ更新のトリアージ作業をAIで自動化する、極めて実用的な手法を提示している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "関係性の検索と誤謬の検出：政治討論分析へのRAGアプローチ",
+      "url": "https://arxiv.org/abs/2608.27471",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T04:00:00+00:00",
+      "summary": "政治的な討論の分析において、関係性抽出と論理的誤謬の検出を行う手法を提案。\n外部知識を活用するRAG（検索拡張生成）技術を応用し、議論の正確性と論理性を評価する。\nフェイクニュース対策やファクトチェック、議論の自動分析における実用的な応用が期待される。",
+      "tags": [
+        "RAG",
+        "ファクトチェック",
+        "自然言語処理"
+      ],
+      "category": "AI・機械学習",
+      "score": 80,
+      "score_reason": "RAG技術を政治討論の分析や誤謬検出という社会的影響の大きい実問題に応用しており、実用性が高い研究です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "2026年今から WordPress を立ち上げるなら — AWS Lightsail + Cloudflare WAF を使った構築手順",
+      "url": "https://qiita.com/sugumura/items/2f32c69f11bbc97b2fd9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-01T03:25:00+00:00",
+      "summary": "2026年現在における、セキュリティを最優先したWordPressの新規構築手順を解説しています。\nAWS LightsailとCloudflare WAFを組み合わせ、公開初日からの脆弱性攻撃を防ぐ構成を提案しています。\nCloudflareをDNSプロキシとして挟むことで、サーバーの実IPアドレスを隠蔽するメリットも紹介しています。",
+      "tags": [
+        "WordPress",
+        "AWS",
+        "Cloudflare"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 78,
+      "score_reason": "脆弱性攻撃の迅速化に対応するため、構築初期からWAFを導入する実践的かつセキュアなインフラ構成手順を提供しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "KDDIとOsaka Metro、ヒューマノイド駅員の実証実験　アバターではなく“物理ロボット”を選んだ理由とは",
+      "url": "https://k-tai.watch.impress.co.jp/docs/news/2137103.html",
+      "source": "はてなブックマーク",
+      "published": "2026-09-01T02:26:15+00:00",
+      "summary": "KDDIとOsaka Metroらが、生成AI「Gemini」を搭載したヒューマノイドによる駅案内の実証実験を開始。\n画面上のアバターではなく物理的な人型ロボットを採用することで、高齢者でも直感的に話しかけやすい環境を構築。\n約60言語に対応し、データベースと連携して誤情報の回答を防ぎつつ、訪日外国人客などの案内業務を支援。",
+      "tags": [
+        "ヒューマノイド",
+        "生成AI",
+        "実証実験"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "生成AIと物理ロボットを組み合わせた実社会での実証実験であり、公共交通機関における多言語対応やアクセシビリティ向上の実用例として注目されるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "DHH氏が「Omacom Foundation」を設立、Omarchy推進によるLinuxデスクトップの本格普及を目指す。マイケル・デル、ジャック・ドーシーら著名人も出資",
+      "url": "https://www.publickey1.jp/blog/26/dhhomacom_foundationomarchylinux.html",
+      "source": "Publickey",
+      "published": "2026-08-31T15:46:24+00:00",
+      "summary": "DHH氏が、デスクトップ向けLinux「Omarchy」の普及を推進する団体「Omacom Foundation」を設立。\nマイケル・デル氏やジャック・ドーシー氏など、IT業界の著名なリーダーたちが出資に参画。\n選択肢の多さに悩まされることなく、信頼できる設計者が厳選した環境を提供する「おまかせコンピューティング」の普及を目指す。",
+      "tags": [
+        "Omacom Foundation",
+        "Linux",
+        "DHH"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 78,
+      "score_reason": "Linuxデスクトップの普及を目指す新たな財団の設立であり、著名な投資家やリーダーが参画していることから、今後の業界動向に与える影響が大きいため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 2,
+      "topic_size": 2
+    },
+    {
+      "title": "私の機能を静かに破壊するはずだったセキュリティ修正",
+      "url": "https://dev.to/a-abdellatif98/the-security-fix-that-would-have-silently-broken-my-feature-43lm",
+      "source": "Dev.to",
+      "published": "2026-09-01T23:24:01+00:00",
+      "summary": "ForemにMermaidダイアグラム表示機能を実装した際、セキュリティ警告に対する安易な1行の修正が機能を破壊しかけた事例。\nCodeQLが指摘したinnerHTMLの脆弱性に対しDOMPurifyを導入したところ、ダイアグラムのラベルが静かに消える不具合が発生した。\nテストやクラッシュを伴わずに表示が崩れる「サイレントな破壊」を防ぐための、セキュリティ修正時の慎重な検証の重要性を説いている。",
+      "tags": [
+        "セキュリティ",
+        "フロントエンド",
+        "DOMPurify"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 78,
+      "score_reason": "セキュリティ修正が意図しないバグ（サイレントな機能破壊）を生む実例を示し、開発者にとって非常に教訓的な内容であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "代替テキストが自動チェックを通過しても、それが適切であるとは限らない",
+      "url": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
+      "source": "GitHub Blog",
+      "published": "2026-08-24T20:56:32+00:00",
+      "summary": "Web上の画像の多くで代替テキスト（alt属性）が不適切であり、自動チェックを通過しても質が低い現状を指摘。\n従来の自動ツールでは検知できない「無意味な代替テキスト」の課題に対し、GitHubが開発したアクセシビリティスキャナーの取り組みを解説。\nAIモデルの導入など、客観的な存在確認から主観的な品質評価へと踏み込むための技術的なトレードオフを紹介。",
+      "tags": [
+        "アクセシビリティ",
+        "代替テキスト",
+        "GitHub"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 78,
+      "score_reason": "Webアクセシビリティの自動検証における限界と、それを克服するための新しいアプローチを技術的視点から解説している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "評価者を評価する：LLM評価のためのラッシュ測定理論",
+      "url": "https://arxiv.org/abs/2608.27463",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T04:00:00+00:00",
+      "summary": "LLM（大規模言語モデル）の評価において、評価者自体の信頼性や偏りを評価する手法を提案。\n心理統計学で用いられる「ラッシュ測定理論」を応用し、評価の客観性を高める。\n複雑化するLLMのベンチマーク評価における新たな基準作りに貢献する研究。",
+      "tags": [
+        "LLM評価",
+        "ラッシュモデル",
+        "心理統計学"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "LLMの評価手法における客観性を高めるために心理統計学のアプローチを導入しており、評価基準の信頼性向上に寄与します。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Jujutsuの作者がERSCに加入",
+      "url": "https://ersc.io/blog/martin-joins-ersc",
+      "source": "Hacker News",
+      "published": "2026-09-01T17:46:21+00:00",
+      "hn_score": 165,
+      "hn_comments": 135,
+      "summary": "次世代バージョン管理システム「Jujutsu (jj)」の作者であるMartin von Zweigbergk氏がERSCのCTOに就任。\n同氏はGoogleでJujutsuの開発をフルタイムで行い、GitやMercurialなどの開発にも貢献した実績を持つ。\nERSCはAI時代におけるソースコード管理とコラボレーションの課題解決に向けたツール開発を強化する。",
+      "tags": [
+        "Jujutsu",
+        "バージョン管理",
+        "ERSC"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "注目を集める次世代バージョン管理システムの開発者が新興企業に参画し、AI時代の開発インフラに影響を与える可能性があるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AppleマップもGoogleに追随しオンタリオ湖を改名、「レイク・アメリカ」と表示される",
+      "url": "https://www.reddit.com/r/technology/comments/1w4qbl1/apple_maps_follows_google_in_renaming_lake/",
+      "source": "Reddit",
+      "published": "2026-09-01T21:26:35+00:00",
+      "summary": "AppleマップがGoogleマップに追随し、オンタリオ湖の名称を「レイク・アメリカ」に変更しました。\n両社のナビゲーションアプリにおいて、従来の「オンタリオ湖」ではなく新しい名称が表示されています。\n大手テック企業による地図データの変更が、地理的情報の信頼性や政治的影響に関する議論を引き起こしています。",
+      "tags": [
+        "Appleマップ",
+        "Googleマップ",
+        "地図データ"
+      ],
+      "category": "その他",
+      "score": 75,
+      "score_reason": "大手プラットフォーマーによる地図データの変更が社会や地理情報の信頼性に与える影響は大きいです。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "私が作成したAppSecプロンプトは174のルート中1つの脆弱性を発見した（Semgrepは他の23個を発見）",
+      "url": "https://dev.to/tiagovilasboas/o-prompt-de-auditoria-que-eu-escrevi-achou-1-gap-em-174-rotas-o-semgrep-achou-23-outras-coisas-575j",
+      "source": "Dev.to",
+      "published": "2026-09-01T23:29:34+00:00",
+      "summary": "著者がアプリケーションセキュリティ（AppSec）向けに作成したプロンプトを用いて、174のルートから1つの脆弱性を検出した。\n一方で、静的解析ツールのSemgrepは同じ対象から別の23個のセキュリティ上の問題を発見した。\nLLMを用いたプロンプトによる監査と、従来の専用静的解析ツール（SAST）の得意分野や精度の違いを示唆している。",
+      "tags": [
+        "セキュリティ",
+        "LLM",
+        "Semgrep"
+      ],
+      "category": "セキュリティ",
+      "score": 75,
+      "score_reason": "AIによるセキュリティ監査の限界と、従来の静的解析ツールとの併用の重要性を具体例で示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "テスト可能な人類の知識のタイムカプセル：41年分の「ジェパディ！」を単一の無料ローカルモデルに",
+      "url": "https://arxiv.org/abs/2608.27459",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T04:00:00+00:00",
+      "summary": "アメリカの人気クイズ番組「ジェパディ！」の41年分の知識を、ローカルで動作する単一の無料AIモデルに統合した研究。\n人類のテスト可能な知識のタイムカプセルとして、膨大なクイズデータを用いたモデルの学習と知識保持能力を検証。\n外部の巨大なクラウドAPIに頼らず、ローカル環境で高度な知識探索や質問回答を可能にする技術的アプローチを提示。",
+      "tags": [
+        "LLM",
+        "ローカルモデル",
+        "データセット"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "膨大なクイズデータをローカルモデルに圧縮・保持させるというユニークなアプローチであり、知識表現の観点から興味深い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "すべての説明が求められているわけではない：人間中心のXAIのための情報探索心理学",
+      "url": "https://arxiv.org/abs/2608.27464",
+      "source": "arXiv cs.AI",
+      "published": "2026-09-01T04:00:00+00:00",
+      "summary": "説明可能なAI（XAI）において、ユーザーが真に必要とする説明の性質を心理学の観点から分析。\n単にすべての情報を開示するのではなく、人間の情報探索行動に基づいた適切な情報提供の重要性を指摘。\n人間中心のAIシステム設計における、より効果的な説明生成アプローチを提案する。",
+      "tags": [
+        "XAI",
+        "人間中心設計",
+        "認知心理学"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "XAIの実用性を高めるために心理学的なアプローチを取り入れており、ユーザー体験の向上に貢献する内容です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Show HN: Weedout – YouTubeのAIラベル付き動画を非表示にするSafari拡張機能",
+      "url": "https://masteranza.github.io/weedout/",
+      "source": "Hacker News",
+      "published": "2026-09-01T22:06:57+00:00",
+      "hn_score": 31,
+      "hn_comments": 10,
+      "summary": "YouTubeで「AI生成」とラベル付けされた動画をフィードや検索結果から自動で非表示にするSafari拡張機能です。\nYouTube公式の開示バッジを検出基準にしているため、誤判定や推測による誤認を防ぐ設計となっています。\nユーザーのスクロール前に静かに動画を排除し、快適な視聴環境を提供します。",
+      "tags": [
+        "Safari拡張機能",
+        "YouTube",
+        "AI生成コンテンツ"
+      ],
+      "category": "その他",
+      "score": 72,
+      "score_reason": "AI生成コンテンツの氾濫に対するユーザー側の具体的な自衛手段として、実用的なツールを提供しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "リスクレビューにおけるFacebookの一時的なメールアドレス",
+      "url": "https://dev.to/alexcarteruk/facebook-temp-email-en-revisiones-de-riesgo-33mn",
+      "source": "Dev.to",
+      "published": "2026-09-01T23:24:20+00:00",
+      "summary": "不正防止システムにおいて、使い捨ての「一時的なメールアドレス」を単に一律ブロックすることは運用上の問題を引き起こす。\n一時メールの使用は必ずしも不正とは限らず、プライバシー保護やテスト目的の正当なユーザーを排除するリスクがある。\n単一のシグナルに過剰反応せず、複数のシグナルを相関させて判断し、監査トレースを残すSRE/セキュリティ的アプローチが重要である。",
+      "tags": [
+        "セキュリティ",
+        "不正対策",
+        "SRE"
+      ],
+      "category": "セキュリティ",
+      "score": 72,
+      "score_reason": "不正検知システムにおける誤検知の削減と、運用の健全性を保つための実践的なアプローチを解説しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Firefoxを手放すな",
+      "url": "https://www.newsonaut.com/articles/hang-on-to-your-firefox",
+      "source": "Hacker News",
+      "published": "2026-09-01T20:30:51+00:00",
+      "hn_score": 230,
+      "hn_comments": 119,
+      "summary": "Firefoxに対する批判や他ブラウザへの移行の動きに対し、その重要性を再評価するよう促す記事です。\nFirefoxはブラウザエンジンの多様性と競争を維持するための「最後の希望」であると主張しています。\n市場シェアが低下する中、ユーザーがFirefoxを使い続け、支援することの必要性を訴えています。",
+      "tags": [
+        "Firefox",
+        "Webブラウザ",
+        "オープンソース"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 70,
+      "score_reason": "Webエコシステムの健全性とブラウザエンジンの多様性に関する重要な議論を提起しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "社内限定サービスの認証を Google Workspace でサクッと作る",
+      "url": "https://zenn.dev/dress_code/articles/6134e6bd5e46c6",
+      "source": "Zenn",
+      "published": "2026-09-01T10:00:05+00:00",
+      "summary": "社内向けWebサービスの認証をGoogle Workspaceに集約し、開発と運用のコストを削減する手法を解説。\n人、機械、CI/CDのそれぞれ異なる認証対象に対して、Google OIDCやWorkload Identity Federationなどを整理。\nAWSインフラとGoogle Workspaceを組み合わせ、ドメイン制限によるセキュアなアクセス制御を実装する。",
+      "tags": [
+        "Google Workspace",
+        "認証",
+        "AWS"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 70,
+      "score_reason": "社内サービスの認証という共通の課題に対し、Google Workspaceを活用した実用的な解決策を提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「いい感じに分けといて」と頼まれたので、「いい感じ」を定義してみた",
+      "url": "https://qiita.com/KYoshiyama/items/50f50f39fd0da34e3dce?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-09-01T02:11:47+00:00",
+      "summary": "曖昧な「いい感じにグループ分けして」という要望を具体的に定義して解決した事例です。\n要望を「ハード制約」と「ソフト制約」に分類し、制約が衝突する前提で設計を行っています。\nGoogle Apps Scriptを用いて、ソルバーを使わずにシャッフルランチの最適な組み合わせを実現しました。",
+      "tags": [
+        "アルゴリズム",
+        "Google Apps Script",
+        "業務効率化"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "曖昧な要件を数理モデル的な制約に落とし込んで解決するプロセスが、エンジニアの実務において非常に参考になるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オンタリオ湖の名前変更を拒否したMapQuestがApp Storeで1位に",
+      "url": "https://www.reddit.com/r/technology/comments/1w4rawo/mapquest_is_no_1_on_the_app_store_after_refusing/",
+      "source": "Reddit",
+      "published": "2026-09-01T22:02:24+00:00",
+      "summary": "地図サービスのMapQuestが、オンタリオ湖の名称変更を拒否したことで注目を集めています。\nこの姿勢がユーザーの支持を集め、App Storeの無料アプリランキングで1位を獲得しました。\n地図データにおける地名の正確性や、政治的・社会的な名称変更に対する企業の姿勢が議論を呼んでいます。",
+      "tags": [
+        "MapQuest",
+        "地図アプリ",
+        "AppStore"
+      ],
+      "category": "その他",
+      "score": 70,
+      "score_reason": "地図アプリの名称変更を巡る騒動がアプリのダウンロード急増につながった、興味深いユーザー行動の事例です。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "何を作ったかより何を変えたかで自分を語れよ!!! - 書籍『Outcomes Over Output』が目標設定の悩みを解消してくれた｜まざっち",
+      "url": "https://note.com/mazamachi/n/nca12be99a8ac",
+      "source": "はてなブックマーク",
+      "published": "2026-09-01T10:55:26+00:00",
+      "summary": "プロダクト開発チームにおける目標設定の難しさを解消する書籍『Outcomes Over Output』を紹介。\n「何を作るか（アウトプット）」ではなく「ユーザーの行動をどう変えるか（アウトカム）」に焦点を当てる重要性を解説。\n適切な目標設定がチームの主体性を引き出し、ビジネス成果と開発現場のギャップを埋める手法を共有。",
+      "tags": [
+        "目標設定",
+        "プロダクト開発",
+        "マネジメント"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 70,
+      "score_reason": "プロダクト開発における目標設定の課題に対して、具体的かつ実践的なアプローチを提示しており、多くの開発チームにとって有益な知見であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "NotebookLMのショート動画概要は英語のみ：企業が代わりに使える代替手段",
+      "url": "https://dev.to/alifar/notebooklm-short-video-overviews-remain-english-only-what-businesses-can-use-instead-2332",
+      "source": "Dev.to",
+      "published": "2026-09-01T23:49:11+00:00",
+      "summary": "GoogleのNotebookLMが提供する「ショート動画概要」機能は、現在英語のみのサポートに限定されている。\n複数言語での動画コンテンツ作成を計画している企業は、広範な言語に対応している「解説動画概要」機能を選択すべきである。\nワークフローを構築する前に、出力形式ごとの言語サポート状況を公式ドキュメントで確認することが重要となる。",
+      "tags": [
+        "NotebookLM",
+        "Google",
+        "動画生成"
+      ],
+      "category": "AI・機械学習",
+      "score": 70,
+      "score_reason": "人気のAIツールであるNotebookLMの機能制限と代替策に関する実用的な情報であり、企業のコンテンツ作成に役立つため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AI懐疑論者エド・ジトロンの予測はどれほど正確だったか？",
+      "url": "https://danluu.com/zitron/",
+      "source": "Hacker News",
+      "published": "2026-09-01T18:35:15+00:00",
+      "hn_score": 334,
+      "hn_comments": 396,
+      "summary": "著名なAI懐疑論者であるエド・ジトロン氏の過去の予測がどれほど的中したかを検証した分析記事です。\n著者は自身を中立的な立場とし、AIが人間の仕事を代替する可能性などについて客観的に考察しています。\nAIの進歩やその影響に関する極端な肯定論と否定論の双方に対し、冷静な視点を提供しています。",
+      "tags": [
+        "AI懐疑論",
+        "技術予測",
+        "市場分析"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 65,
+      "score_reason": "AIの将来予測に対する客観的な検証であり、業界の過熱した議論に冷静な視点を与えるものであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "【個人開発】MLBの試合日程をGoogleカレンダー・Appleカレンダーに自動同期するWebアプリを作りました【React/TypeScript/iCalendar】",
+      "url": "https://qiita.com/takahiro_honda/items/b44d4e2b526aa009f822?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-30T08:00:11+00:00",
+      "summary": "MLBの試合日程をGoogleやAppleのカレンダーに自動同期するWebアプリの個人開発事例です。\nカレンダー標準フォーマットであるiCalendar（.ics形式）の仕組みを活用しています。\nカレンダーアプリ側が定期的にURLへアクセスして最新データを自動取得する仕組みを解説しています。",
+      "tags": [
+        "React",
+        "iCalendar",
+        "個人開発"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 65,
+      "score_reason": "iCalendarフォーマットを用いたカレンダー同期という、シンプルながら実用的なWebアプリケーションの構成と実装例を示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "私たちは13歳の少年のファンタジー世界に生きている：世界を築いたテック系億万長者の多くは、お気に入りのSFから間違った教訓を得ている",
+      "url": "https://www.reddit.com/r/technology/comments/1w4bwze/we_are_living_in_the_fantasy_world_of_13yearold/",
+      "source": "Reddit",
+      "published": "2026-09-01T13:24:31+00:00",
+      "summary": "現代のIT業界を牽引するテック系億万長者たちの思想やビジョンに関する批判的な考察です。\n彼らが愛読したSF小説から誤った教訓を得て、現実世界に歪んだファンタジーを適用していると指摘しています。\nテクノロジーの発展が社会に与える影響や、リーダーたちの倫理観について疑問を投げかけています。",
+      "tags": [
+        "テック業界",
+        "SF",
+        "倫理"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 65,
+      "score_reason": "テックリーダーたちの思想的背景と社会への影響を批判的に考察しており、業界の動向を理解する上で興味深い視点を提供しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "元ヤフーエンジニア社長が考える、20代のうちにやっておくべき3つのこと",
+      "url": "https://qiita.com/ryoheiiwamoto/items/22dd373e882bf938ad1e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-08-31T07:16:17+00:00",
+      "summary": "元ヤフーのエンジニア社長が、キャリア初期の20代に実践すべき3つの行動指針を提唱しています。\n「目の前の仕事で100点のリターンを出す」「周囲への義理を欠かない」「先人の教えを素直に実行する」の重要性を解説しています。\n自身のヤフー時代の経験を交え、若手時代の行動が30代以降のキャリアに与える影響を説いています。",
+      "tags": [
+        "キャリア",
+        "エンジニア",
+        "マインドセット"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 60,
+      "score_reason": "技術的な新規性はないものの、若手エンジニアのキャリア形成やマインドセットにおいて普遍的で有益なアドバイスがまとめられているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "OS標準日本語入力ソフトが高機能化した今、完全サブスク制に移行したATOKを使っている理由",
+      "url": "https://garumax.com/why-i-use-atok-subscription",
+      "source": "はてなブックマーク",
+      "published": "2026-09-01T05:21:22+00:00",
+      "summary": "OS標準の日本語入力ソフトや無料のGoogle日本語入力の精度が向上する中、ATOKを使い続ける理由を解説しています。\n2018年に完全サブスクリプション制へ移行した「ATOK Passport」の歴史や特徴を紹介しています。\n自分好みに設定できる「カスタムATOK」や、最新ワードに対応する「キーワードExpress」などの独自価値を評価しています。",
+      "tags": [
+        "ATOK",
+        "日本語入力",
+        "サブスクリプション"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "OS標準機能の進化と有料サードパーティ製ソフトの差別化戦略について、実体験に基づき分析しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Tektronix TDS7104 オシロスコープのレストア",
+      "url": "https://tomverbeure.github.io/2026/08/23/Tektronix-TDS7104-Refurbishing.html",
+      "source": "Hacker News",
+      "published": "2026-09-01T19:55:47+00:00",
+      "hn_score": 70,
+      "hn_comments": 33,
+      "summary": "フリーマーケットで300ドルで購入したTektronix TDS7104オシロスコープの修理プロセスを紹介。\n起動時のCMOSバッテリーエラーや画面の暗さなどの不具合に対処し、正常な状態へ復元。\n1GHz帯域幅や最大10Gs/sのサンプリングレートを持つ、ホビー向けを超えるスペックの魅力を解説。",
+      "tags": [
+        "オシロスコープ",
+        "ハードウェア修理",
+        "電子工作"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 55,
+      "score_reason": "古い高性能測定器の修理プロセスは興味深いが、特定のハードウェアに限定された内容であり業界全体への影響は限定的であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オクラホマ州、データセンター関連の逮捕に関する記録開示請求に17,125.44ドルを請求することはできないと市に通知",
+      "url": "https://www.reddit.com/r/technology/comments/1w4cmhd/oklahoma_tells_city_it_cant_charge_1712544_for_a/",
+      "source": "Reddit",
+      "published": "2026-09-01T13:52:08+00:00",
+      "summary": "市議会で逮捕された農家が、自身の逮捕に関するボディカメラ映像や記録の開示を求めました。\n市側は開示手数料として1万7000ドル以上という不当に高額な費用を請求しました。\nオクラホマ州は市に対し、このような高額な情報開示手数料の請求は認められないと判断しました。",
+      "tags": [
+        "データセンター",
+        "情報公開",
+        "法律"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 55,
+      "score_reason": "データセンター建設を巡る地域住民と行政の対立や、情報公開制度の運用に関する法的な判断を示しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}
