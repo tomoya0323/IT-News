@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 15 Oct 2026 00:25:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 00:15:47 +0000</lastBuildDate>
+    <item>
+      <title>リーナス・トーバルズがClaude CodeなどのAIをバリバリ活用してLinuxカーネルの改善に取り組み中</title>
+      <link>https://gigazine.net/news/20261016-linus-torvalds-claude-code/</link>
+      <guid isPermaLink="false">https://gigazine.net/news/20261016-linus-torvalds-claude-code/</guid>
+      <description>[Score: 95] Linux創始者のリーナス・トーバルズ氏がAIアシスタント「Claude Code」を活用してカーネルの大幅な改善を進めている。 / 新規ブランチにてページキャッシュ読み込み時の競合を解消し、マルチスレッド環境での大幅な性能向上を達成した。 / 実装やテストだけでなく説明文作成や潜在バグの発見にもAIを役立てており、基幹OS開発へのAI適用の先駆的事例となっている。 (Source: はてなブックマーク)</description>
+      <pubDate>Thu, 15 Oct 2026 21:32:18 +0000</pubDate>
+    </item>
     <item>
       <title>Deno開発元がCloudflareに合流。Denoの開発は終了へ、今後はCloudflare WorkersとDurable Objectsのオープンソース実装に注力</title>
       <link>https://www.publickey1.jp/blog/26/denocloudflaredenocloudflare_workersdurable_objects.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/denocloudflaredenocloudflare_workersdurable_objects.html</guid>
-      <description>[Score: 92] JavaScriptランタイム「Deno」の開発元Deno LandがCloudflareに合流することが発表された。 / Deno本体の開発は今後1年間のメンテナンスを経て終了する方針が示された。 / 今後はCloudflare WorkersやDurable Objectsのオープンソース実装へ注力する。 (Source: Publickey)</description>
+      <description>[Score: 90] JavaScriptランタイム「Deno」の開発元Deno LandがCloudflareに合流することを発表しました。 / 今後1年間のメンテナンス期間を経てDeno自体の開発は終了する予定です。 / 開発チームは今後Cloudflare WorkersやDurable ObjectsのOSS実装に注力します。 (Source: Publickey)</description>
       <pubDate>Mon, 12 Oct 2026 15:46:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Muse Spark Open：デスクトップ向けオープンウェイトAIモデルの登場</title>
+      <link>https://research.meta.ai/blog/muse-spark-open</link>
+      <guid isPermaLink="false">https://research.meta.ai/blog/muse-spark-open</guid>
+      <description>[Score: 88] Metaが8160億パラメータ（アクティブ420億）を持つオープンウェイトモデル「Muse Spark Open」を公開した。 / Apple M5 Ultra搭載Mac Studioなどのデスクトップ環境でローカル実行可能に最適化されている。 / 長文脈や複雑なソフトウェアエンジニアリング、自律的エージェントタスクに特化している。 (Source: Hacker News)</description>
+      <pubDate>Thu, 15 Oct 2026 17:47:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>AdFection：ターゲティング広告が悪用されゼロクリック傭兵スパイウェアの配信経路に</title>
+      <link>https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/</link>
+      <guid isPermaLink="false">https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/</guid>
+      <description>[Score: 88] リアルタイム入札（RTB）などオンライン広告エコシステムの詳細なターゲティング機能を悪用した攻撃手法が報告された。 / 攻撃者は広告オークションを通じて悪意のあるコードを配信し、ゼロクリックで端末を標的に侵入する。 / 一般的な広告配信インフラがスパイウェアの極めて効果的な侵入経路として悪用されるリスクを浮き彫りにしている。 (Source: Hacker News)</description>
+      <pubDate>Thu, 15 Oct 2026 10:43:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>次のDeveloper Interfaceは「アンビエント・インテリジェンス（環境知能）」である</title>
+      <link>https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/</link>
+      <guid isPermaLink="false">https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/</guid>
+      <description>[Score: 88] 従来のコマンドやショートカットを暗記して操作する開発環境から、AIがコンテキストを理解する環境へと移行しつつある。 / GitHub Copilotなどのエージェントは意図を理解し、ツール利用やテスト実行、PR作成まで自律的に支援する。 / 開発者の役割はツールの操作から、方針の決定、制約の設定、結果の検証へとシフトしていくと論じている。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 15 Oct 2026 19:39:27 +0000</pubDate>
     </item>
     <item>
       <title>Windows上でAIエージェントの実行を安全に隔離する「Microsoft Execution Containers」（MXC）正式リリース。ファイルやネットワークなどの境界を柔軟にカスタマイズ</title>
       <link>https://www.publickey1.jp/blog/26/windowsaimicrosoft_execution_containersmxc.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/windowsaimicrosoft_execution_containersmxc.html</guid>
-      <description>[Score: 88] マイクロソフトがWindows 11上で自律型AIエージェントを安全に動作させる隔離環境「MXC」を正式リリースした。 / エージェントがアクセス可能なファイルやネットワークの境界を柔軟に定義し、ランタイムで制限ポリシーを適用できる。 / AIエージェントによる意図しない重要ファイルの削除や不正通信を防止し、セキュアな運用基盤を提供する。 (Source: Publickey)</description>
+      <description>[Score: 86] マイクロソフトがWindows 11上で自律型AIエージェントを安全に隔離実行する「MXC」を正式リリース。 / AIが自律的にタスクを遂行する際、アクセス可能なファイルやネットワーク範囲を柔軟に制限・制御可能。 / OS標準の隔離境界を提供することで、誤操作や不正動作による損害を防ぎエージェント活用の安全性を高めた。 (Source: Publickey)</description>
       <pubDate>Wed, 14 Oct 2026 15:57:19 +0000</pubDate>
     </item>
     <item>
-      <title>LFM2.5-24B-A2B：高速なオンデバイスエージェント向けに構築された推論モデル</title>
-      <link>https://www.liquid.ai/blog/lfm2-5-24b-a2b</link>
-      <guid isPermaLink="false">https://www.liquid.ai/blog/lfm2-5-24b-a2b</guid>
-      <description>[Score: 85] Liquid AIが総パラメータ24B・アクティブ2Bの高速オンデバイス向け推論モデルを公開。 / 上位の巨大モデルに匹敵するエージェント性能を示しつつ、MoE構造により端末上で圧倒的な生成速度を実現。 / 思考連鎖を出力するオープンウェイトモデルとしてHugging Face等で即時利用可能。 (Source: Hacker News)</description>
-      <pubDate>Wed, 14 Oct 2026 23:59:37 +0000</pubDate>
+      <title>AnthropicのBun、TypeScript 7よりも3倍以上高速なTypeScript型チェッカーを搭載。Bunの新バージョン1.4.3で</title>
+      <link>https://www.publickey1.jp/blog/26/anthropicbuntypescript_73typescriptbun143.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/anthropicbuntypescript_73typescriptbun143.html</guid>
+      <description>[Score: 85] JavaScriptランタイムBunの新版v1.4.3がリリースされ、独自開発の超高速TypeScript型チェッカーが搭載。 / Go言語製TypeScript 7と比較して3倍以上高速に動作し、メモリ消費量も大幅に抑えられているとアピール。 / 公式テストスイートで高い互換性を実証しつつ、「bun check」コマンドによる高速な型検証を実現した。 (Source: Publickey)</description>
+      <pubDate>Thu, 15 Oct 2026 15:21:12 +0000</pubDate>
     </item>
     <item>
-      <title>Go 1.27におけるHTTP/1コネクション再利用の改善</title>
-      <link>https://go.dev/blog/http-connection-reuse</link>
-      <guid isPermaLink="false">https://go.dev/blog/http-connection-reuse</guid>
-      <description>[Score: 85] Go 1.27でHTTP/1のコネクション再利用が大幅に改善され、ベンチマークで約5倍の高速化を達成しました。 / TCPやTLSハンドシェイクの往復遅延コストを抑え、HTTPリクエスト処理を効率化する仕組みを解説しています。 / net/httpパッケージの内部改善により、広範なGoアプリケーションのパフォーマンス向上が期待されます。 (Source: Hacker News)</description>
-      <pubDate>Wed, 14 Oct 2026 16:29:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>【2026年10月 最新版】AIモデル徹底比較 | GPT-6.1 Sol / Claude Opus 5.5 / Claude Sonnet 5.5 / Gemini 4 Argon</title>
-      <link>https://qiita.com/nuco_d/items/9d4f86c185dda6fd24a7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/nuco_d/items/9d4f86c185dda6fd24a7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] 最新の主要AIモデル（Gemini 4 Argon、GPT-6.1 Sol、Claude Opus 5.5、Claude Sonnet 5.5）の性能やコストを徹底比較している。 / 各モデルの公式ベンチマーク結果を分析し、CLI操作、PRレビュー、大規模コード修正など用途ごとの得意分野を解説している。 / 特にGeminiの長文脈推論力やClaudeのコード生成力など、実務への適用における明確な判断基準を提供している。 (Source: Qiita)</description>
-      <pubDate>Wed, 14 Oct 2026 02:48:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>みずほが数千人をAI開発者に転換　事務や営業、日本企業の働き方転機 - 日本経済新聞</title>
-      <link>https://www.nikkei.com/article/DGXZQOUB0722M0X01C26A0000000/</link>
-      <guid isPermaLink="false">https://www.nikkei.com/article/DGXZQOUB0722M0X01C26A0000000/</guid>
-      <description>[Score: 85] みずほFGが全社員5万人から順次選抜し、10年後を目途に数千人規模のAI開発人材へ転換する方針を打ち出した。 / 営業や事務職の人員を自前の金融サービスや社内業務AIシステムの構築へとシフトさせる。 / ホワイトカラーの象徴であるメガバンクの大規模リスキリングは、日本企業の働き方の転機となる可能性がある。 (Source: はてなブックマーク)</description>
-      <pubDate>Wed, 14 Oct 2026 19:37:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>GitHubのシークレット検出モデル：ノイズを減らし、より多くの機密情報を発見する</title>
-      <link>https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/</guid>
-      <description>[Score: 85] 誤検知を減らしつつ本物の機密情報を検出するため、GitHubは文脈を認識する専用分類モデルを開発した。 / 従来のLLMベースのパイプラインと比較して事後スキャンの実行時間を86%削減することに成功した。 / この高速化により、コードをプッシュする前のリアルタイム保護にも汎用シークレット検出が適用可能となった。 (Source: GitHub Blog)</description>
-      <pubDate>Tue, 13 Oct 2026 17:56:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>Long-Horizon-Terminal-Bench 2.0：多様なタスク構築の自動化と長期エージェント進捗の測定</title>
-      <link>https://arxiv.org/abs/2610.14146</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.14146</guid>
-      <description>[Score: 85] CLI環境で長時間に及ぶ複雑なタスクを実行するAIエージェントの能力を評価する最新ベンチマークを公開しています。 / 多様なタスクセットの自動生成を実現し、人手による問題作成コストを削減しつつ評価の網羅性を向上させています。 / コーディングやシステム運用を担う自律型エージェントの持続的な実行進捗と推論能力を客観的に定量化します。 (Source: arXiv cs.AI)</description>
-      <pubDate>Wed, 14 Oct 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>エージェント型データサイエンスにおけるサイレント障害</title>
-      <link>https://arxiv.org/abs/2610.14115</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.14115</guid>
-      <description>[Score: 83] データサイエンス業務を自律実行するAIエージェントにおいて、明示的なエラーを出さず誤った分析を行う「サイレント障害」を検証しています。 / 誤った前提や統計的解釈のミスなど、表面上は正常に完結していても誤謬を含むリスクの類型化を行っています。 / 自律型AIを実務のデータ分析へ導入する際の信頼性担保と監査プロセスの必要性を警告しています。 (Source: arXiv cs.AI)</description>
-      <pubDate>Wed, 14 Oct 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ClawLoop：ハーネスネイティブなトレーニングループによる自己改善型エージェント</title>
-      <link>https://arxiv.org/abs/2610.14118</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.14118</guid>
-      <description>[Score: 81] 評価ハーネスを直接組み込んだトレーニングループにより、AIエージェントが自律的に性能を向上させるClawLoopを提案しています。 / 実行環境からのフィードバックを直接学習サイクルに還元し、試行錯誤を通じてタスク適応能力を高めます。 / 外部からの手動データ調整に依存せず、エージェント自らが反復改善を継続できるアーキテクチャを実現します。 (Source: arXiv cs.AI)</description>
-      <pubDate>Wed, 14 Oct 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>2,500リクエストから24リクエストへ：スター獲得者の情報を除外したスター履歴の再構築</title>
+      <title>2,500リクエストから24へ：Stargazer個人情報を排除したStar履歴APIの再構築</title>
       <link>https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/</link>
       <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/</guid>
-      <description>[Score: 80] リポジトリのスター推移取得ツールによる大量APIリクエストと個人情報のスクレイピングが課題となっていた。 / スター付与者一覧へのアクセスを制限した上で、日別のスター数のみを返す新エンドポイントを新設した。 / 事前時間フィルタリングによりデータベース負荷を大幅に削減し、わずか24リクエストでのデータ取得を実現した。 (Source: GitHub Blog)</description>
+      <description>[Score: 85] スター履歴取得ツールによる過剰なAPI呼び出しと個人情報のスクレイピングに対処するため、履歴取得方法を刷新した。 / 従来は全Stargazer情報をページネーションで取得していたが、期間ごとのスター数を集計して返す専用エンドポイントを新設した。 / DBクエリの事前時間フィルタリングにより負荷を激減させ、APIリクエスト数を2,500回から24回へと劇的に削減した。 (Source: GitHub Blog)</description>
       <pubDate>Wed, 14 Oct 2026 19:11:33 +0000</pubDate>
     </item>
     <item>
-      <title>パスキーは罠ではない</title>
-      <link>https://scotthelme.co.uk/passkeys-are-not-a-trap/</link>
-      <guid isPermaLink="false">https://scotthelme.co.uk/passkeys-are-not-a-trap/</guid>
-      <description>[Score: 78] ネット上で拡散された「パスキーは監視やベンダーロックインの罠」という主張に対しセキュリティ専門家が反論。 / 懸念される端末の暗号的証明（アテステーション）は一般的な同期型パスキーではサイト側に提供されないと説明。 / パスキーの仕組みを正しく解説し、従来のパスワードやTOTPよりも堅牢かつ安全であると結論。 (Source: Hacker News)</description>
-      <pubDate>Wed, 14 Oct 2026 15:15:45 +0000</pubDate>
+      <title>ニューラルネットワークはクリーンである：機械論的解釈可能性への新視点</title>
+      <link>https://already-clean.goodfire.com/</link>
+      <guid isPermaLink="false">https://already-clean.goodfire.com/</guid>
+      <description>[Score: 82] モデル内部の多義性は重ね合わせではなく、再帰的一般化などの解決可能な要因によるものだとする仮説を提示。 / 兆単位のパラメータを持つモデルでもニューロンや回路を直接理解できる可能性を論じている。 / 解釈可能性の研究が従来の想定よりも直感的かつ有望であるとする新たな見解を示している。 (Source: Hacker News)</description>
+      <pubDate>Thu, 15 Oct 2026 16:04:01 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Code の守りのフックは、台本が壊れると黙って通す。2.1.295 の onFailure で止まった</title>
-      <link>https://qiita.com/suwa_nobu/items/afde8d73a48eb7badb71?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/suwa_nobu/items/afde8d73a48eb7badb71?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 78] Claude CodeのPolicy Hookにおいて、スクリプトエラーやタイムアウト時に処理が素通しされていた仕様を検証している。 / バージョン2.1.295で導入された「onFailure: block」オプションにより、フック失敗時に確実に実行を阻止できるようになった。 / 危険な操作を確実に防ぐためのガードレール設計における重要なセキュリティ挙動を実証実験に基づき解説している。 (Source: Qiita)</description>
-      <pubDate>Wed, 14 Oct 2026 00:48:15 +0000</pubDate>
+      <title>Metaのスマートグラス、ウェイクワードなしで会話を録音していたことを認める</title>
+      <link>https://www.reddit.com/r/technology/comments/1x6i31t/metas_smart_glasses_were_recording_conversations/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1x6i31t/metas_smart_glasses_were_recording_conversations/</guid>
+      <description>[Score: 82] Metaは自社のスマートグラスが起動用のウェイクワードなしでユーザーの会話を録音していた事実を認めた。 / 意図しないバックグラウンドでの音声記録が行われていたことで、プライバシー保護に関する懸念が急激に高まっている。 / 常時装着型スマートデバイスにおけるマイク制御とデータプライバシー管理の脆弱性が浮き彫りとなった。 (Source: Reddit)</description>
+      <pubDate>Thu, 15 Oct 2026 10:27:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>国内で相次ぐWebシステムからの情報漏えい～ラックの観測から見える変化と、企業が今とるべき対策 | LAC WATCH</title>
+      <link>https://www.lac.co.jp/lacwatch/alert/20261015_004996.html</link>
+      <guid isPermaLink="false">https://www.lac.co.jp/lacwatch/alert/20261015_004996.html</guid>
+      <description>[Score: 82] 国内法人でWebシステムやスマホアプリからの個人情報漏えい公表が直近数か月で急増している実態を報告。 / 独自集計した漏えい事案の約68%が短期間に集中し、サーバ不正侵入相談の割合が大幅に上昇していると指摘。 / 攻撃経路や手口の変化を分析した上で、企業が直ちに講じるべき実践的なセキュリティ対策を提示している。 (Source: はてなブックマーク)</description>
+      <pubDate>Thu, 15 Oct 2026 11:26:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub稼働状況レポート：2026年9月</title>
+      <link>https://github.blog/news-insights/company-news/github-availability-report-september-2026/</link>
+      <guid isPermaLink="false">https://github.blog/news-insights/company-news/github-availability-report-september-2026/</guid>
+      <description>[Score: 82] 過去2か月間のインシデント対策として、DB負荷軽減やAzureへの本番ワークロード移行の進捗を報告している。 / Central USリージョンへの移行を進める一方、ゾーン間のキャパシティ偏りやフェイルオーバー時の障害などの課題にも直面した。 / 高可用性を維持するための過負荷制御や障害分離の強化を継続的に進めている。 (Source: GitHub Blog)</description>
+      <pubDate>Wed, 14 Oct 2026 20:01:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ウクライナによるYandexデータセンター攻撃後もロシアの偽情報ボット攻撃は衰えず — 自動移行で1億7000万件が別クラウドへシフト</title>
+      <link>https://www.reddit.com/r/technology/comments/1x6r3cs/malicious_russian_disinformation_bot_traffic/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1x6r3cs/malicious_russian_disinformation_bot_traffic/</guid>
+      <description>[Score: 80] ウクライナによるYandexデータセンター攻撃後も、ロシアの偽情報拡散ボットトラフィックはほとんど減少しなかった。 / Cloudflareの追跡により、自動移行機能によって1億7000万件の攻撃トラフィックが代替クラウドホストへ即座に移転したことが判明した。 / 物理インフラの破壊に対しても高い耐障害性を備えた分散型ボットネットワークの脅威が実証された。 (Source: Reddit)</description>
+      <pubDate>Thu, 15 Oct 2026 16:57:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>当社サイトへの不正アクセスによるお客様情報流出のお詫びとお知らせ｜ソースネクスト</title>
+      <link>https://www.sourcenext.com/support/i/2026/1015_info/</link>
+      <guid isPermaLink="false">https://www.sourcenext.com/support/i/2026/1015_info/</guid>
+      <description>[Score: 80] ソースネクストの会員情報管理システムが第三者による不正アクセスを受け、登録顧客の個人情報が流出。 / 会員情報取得APIが不正利用されたことが原因であり、発覚後直ちに通信遮断と封じ込めを実施。 / 対象者へのパスワード再設定要請やフィッシング詐欺への注意喚起、関係機関への報告を進めている。 (Source: はてなブックマーク)</description>
+      <pubDate>Thu, 15 Oct 2026 08:49:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evergreenの維持：共有組織における安全なアクセス管理とリポジトリ衛生の自動化</title>
+      <link>https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/</link>
+      <guid isPermaLink="false">https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/</guid>
+      <description>[Score: 80] 社外コラボレーターとの共同作業におけるアクセス権管理や不要リポジトリの整理の自動化手法を解説している。 / GitHub App「Evergreen」を開発し、応答のないアクセス権を自動剥奪する「フェイルセキュア」原則を導入した。 / GoによるWebhookサーバーやScheduled Actionsを組み合わせ、透明性を保ちつつ安全な運用を実現している。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 15 Oct 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Krea 3 – 大規模編集向けに構築された画像生成・編集モデル</title>
+      <link>https://www.krea.ai/krea-3</link>
+      <guid isPermaLink="false">https://www.krea.ai/krea-3</guid>
+      <description>[Score: 78] 高速・低コストでの本番環境向け画像編集に特化した新モデル「Krea 3」が発表された。 / 領域指定編集、カラーコード指定の変更、キャラクターの一貫性維持、2Kネイティブ出力などの機能を備える。 / 1編集あたり約0.06ドルと安価かつ高速に動作し、画像生成AIの実用的なワークフローを支援する。 (Source: Hacker News)</description>
+      <pubDate>Thu, 15 Oct 2026 16:04:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code 入門</title>
+      <link>https://speakerdeck.com/nogu66/claude-code-nyuumon</link>
+      <guid isPermaLink="false">https://speakerdeck.com/nogu66/claude-code-nyuumon</guid>
+      <description>[Score: 78] AnthropicのCLIツール「Claude Code」の基礎から実践的な活用法までをまとめた解説資料。 / AIネイティブ開発環境におけるコードレビューやエージェント連携のベストプラクティスを紹介。 / 開発者が日々のコーディング業務へ効率的にAIエージェントを取り入れる知見を提供している。 (Source: はてなブックマーク)</description>
+      <pubDate>Thu, 15 Oct 2026 13:28:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenTelemetryでStep Functions越しにtraceparentを引き回し、複数Lambdaを一つのトレースにつなぐ</title>
+      <link>https://zenn.dev/boy_techblog/articles/connecting-trace-serverless</link>
+      <guid isPermaLink="false">https://zenn.dev/boy_techblog/articles/connecting-trace-serverless</guid>
+      <description>[Score: 76] AWS Step Functionsを経由するサーバーレス構成において、OpenTelemetryの分散トレースを接続する実装例を紹介。 / W3C Trace Contextのtraceparentを入力に含めて明示的に引き回すことで、複数Lambda間のトレースを可視化。 / AWS X-Rayからの移行要件に対応し、OTLP経由でNew Relicへ直接送信する構成を示している。 (Source: Zenn)</description>
+      <pubDate>Thu, 15 Oct 2026 03:59:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>意思決定AI「Jev」とトロッコ問題</title>
+      <link>https://zachlandes.com/trolley-problem/</link>
+      <guid isPermaLink="false">https://zachlandes.com/trolley-problem/</guid>
+      <description>[Score: 75] テキストではなく選択肢と確率を出力する軽量・高速な新興「意思決定モデル」Jevの解説。 / 大規模言語モデルよりも大幅に低コストかつ迅速に判断を下せる特性を検証。 / 倫理的な思考実験であるトロッコ問題を解かせ、意思決定AIの判断傾向や信頼性を評価している。 (Source: Hacker News)</description>
+      <pubDate>Thu, 15 Oct 2026 16:24:52 +0000</pubDate>
     </item>
     <item>
       <title>Webアプリフレームワークの「SvelteKit 3」正式リリース。設定をViteに集約、型安全やエラー処理の改善など</title>
       <link>https://www.publickey1.jp/blog/26/websveltekit_3vite.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/websveltekit_3vite.html</guid>
-      <description>[Score: 78] Webアプリケーションフレームワーク「SvelteKit 3」の正式版がリリースされた。 / 設定ファイルが従来のsvelte.config.jsからViteの設定ファイルへ集約され、設定の一元管理が可能になった。 / 型安全性の強化やエラーメッセージの改善、マイグレーション支援ツールの提供など開発体験が向上している。 (Source: Publickey)</description>
+      <description>[Score: 75] Webアプリケーションフレームワーク「SvelteKit 3」の正式版がリリースされました。 / これまで独立していた設定ファイルがViteの設定に集約され、構成がシンプル化されました。 / 型安全性の向上やエラー処理の改善に加え、自動化マイグレーションスクリプトも提供されています。 (Source: Publickey)</description>
       <pubDate>Tue, 13 Oct 2026 15:26:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>バックアップからユーザーデータを削除する：ユーザーごとの単一キーによる暗号的破棄（クリプト・シュレッディング）</title>
-      <link>https://dev.to/lingikaushikreddy/deleting-a-users-data-from-backups-crypto-shredding-with-one-key-per-person-36e9</link>
-      <guid isPermaLink="false">https://dev.to/lingikaushikreddy/deleting-a-users-data-from-backups-crypto-shredding-with-one-key-per-person-36e9</guid>
-      <description>[Score: 78] バックアップや分散レプリカから特定ユーザーのデータのみを完全に削除する課題を解決する手法を解説。 / ユーザーごとに固有の暗号化鍵を割り当て、鍵を破壊することでデータを復号不能にする。 / Rust製のコアとPython向けパッケージで構成された実用的なライブラリ「aegis-shred」を紹介している。 (Source: Dev.to)</description>
-      <pubDate>Thu, 15 Oct 2026 00:19:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>人工性の最初の試験：超知能のためのLLM参照型C-test</title>
-      <link>https://arxiv.org/abs/2610.14005</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.14005</guid>
-      <description>[Score: 77] 将来登場が想定される「超知能（Supraintelligence）」の能力を客観的に評価するための新たな評価フレームワークを提案しています。 / 大規模言語モデル（LLM）を参照基準として用いるC-test形式を採用し、高度な知能水準の測定法を構築しています。 / 従来の評価基準を超越する次世代AIシステムの能力限界や安全性を検証する基礎研究として位置づけられます。 (Source: arXiv cs.AI)</description>
-      <pubDate>Wed, 14 Oct 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>初心者向けGitHub Copilotアプリ：Copilotにお使いのコードベースを学習させる方法</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/</guid>
-      <description>[Score: 76] AIが効果的なコード提案を行うにはプロジェクト固有のルールや設計規約をコンテキストとして理解させる必要がある。 / .github/copilot-instructions.mdファイルを用いることで、リポジトリ全体に適用する共通指示を定義できる。 / さらにパス固有の指示ファイルを組み合わせることで、対象ファイルに応じた最適なコンテキストを自動適用できる。 (Source: GitHub Blog)</description>
-      <pubDate>Mon, 12 Oct 2026 17:43:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenCode 2.0</title>
-      <link>https://anoma.ly/notes/opencode-2-0/</link>
-      <guid isPermaLink="false">https://anoma.ly/notes/opencode-2-0/</guid>
-      <description>[Score: 75] 数百万人の日常利用データと知見を取り入れ、エージェント環境を抜本刷新したOpenCode 2.0が登場。 / TUI、Web、デスクトップアプリが同一の単一ローカルサーバープロセスと常時通信する構成へ移行。 / APIもゼロから再構築され、自動検出やスクリプト連携、柔軟なタスク実行に対応。 (Source: Hacker News)</description>
-      <pubDate>Wed, 14 Oct 2026 20:48:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>【SWTT 2026】Snowflake Well-Architected Frameworkで実現する実践的なデータマネジメント</title>
-      <link>https://zenn.dev/finatext/articles/swtt2026-snow-waf-datamanagement</link>
-      <guid isPermaLink="false">https://zenn.dev/finatext/articles/swtt2026-snow-waf-datamanagement</guid>
-      <description>[Score: 75] Snowflake World Tour Tokyo 2026の登壇内容を基に、データマネジメントの実践論を解説しています。 / DMBOKの11領域を用いて組織の現状を「診断」し、Snowflake WAFを適用して「治療」する型を提示しています。 / 組織ポリシーとエンジニアリングの乖離を防ぎ、先行投資としてのガバナンス構築の重要性を論じています。 (Source: Zenn)</description>
-      <pubDate>Wed, 14 Oct 2026 08:51:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>さくらインターネット、GPU専有によりトークン消費量を気にせず定額で利用できる「さくらのAI Engineプライベートエディション」提供開始を発表</title>
-      <link>https://www.publickey1.jp/blog/26/gpuai_engine.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/gpuai_engine.html</guid>
-      <description>[Score: 75] さくらインターネットが定額・専有型の「さくらのAI Engine プライベートエディション」を提供開始した。 / GPU専有型のためトークン消費量を気にせず予測可能なコストで大規模モデルを利用できる。 / 機密データを扱う社内業務や商用サービスにおいて、インフラ構築の手間なくセキュアにAIを活用可能。 (Source: Publickey)</description>
-      <pubDate>Thu, 08 Oct 2026 15:49:01 +0000</pubDate>
     </item>
   </channel>
 </rss>
