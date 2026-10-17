@@ -1,360 +1,146 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-17T09:16:27.349419+09:00",
-  "total_count": 48,
-  "success_count": 42,
-  "error_count": 6,
+  "generated_at": "2026-10-18T08:57:28.212315+09:00",
+  "total_count": 47,
+  "success_count": 29,
+  "error_count": 18,
   "gemini_model": "gemini-3.8-flash",
   "articles": [
     {
-      "title": "Deno開発元がCloudflareに合流。Denoの開発は終了へ、今後はCloudflare WorkersとDurable Objectsのオープンソース実装に注力",
-      "url": "https://www.publickey1.jp/blog/26/denocloudflaredenocloudflare_workersdurable_objects.html",
-      "source": "Publickey",
-      "published": "2026-10-12T15:46:53+00:00",
-      "summary": "JavaScriptランタイム「Deno」の開発元であるDeno LandがCloudflareに合流した。\nDeno本体は1年間の保守期間を経て開発終了となる方針が発表された。\n今後はCloudflare WorkersやDurable Objectsのオープンソース実装に注力される。",
-      "tags": [
-        "Deno",
-        "Cloudflare",
-        "JavaScript"
-      ],
-      "category": "プログラミング言語",
-      "score": 92,
-      "score_reason": "Node.jsの有力な代替と目されていたDenoの事実上の買収および開発終了は、サーバーサイドJavaScriptエコシステムに極めて大きな影響を与えるため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "ClaudeがECDSA暗号曲線の起源の謎を解明",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "source": "Hacker News",
-      "published": "2026-10-16T18:55:59+00:00",
-      "hn_score": 608,
-      "hn_comments": 252,
-      "summary": "広く使われるECDSA暗号標準のシード値の起源という数十年来の謎が解明された。\nNSAが定めたシードにバックドアがあるのではと懸念されていたが、単なるタイムスタンプだったと判明した。\nAnthropicのClaudeを用いた調査により、暗号コミュニティ長年の疑念に終止符が打たれた。",
-      "tags": [
-        "暗号学",
-        "ECDSA",
-        "Claude"
-      ],
-      "category": "セキュリティ",
-      "score": 88,
-      "score_reason": "標準暗号規格における長年の未解決問題とバックドア疑惑をAI調査が解消した画期的な事例であるため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "FLUX 3 Image Klein",
-      "url": "https://bfl.ai/blog/flux-3-image-klein",
-      "source": "Hacker News",
-      "published": "2026-10-16T19:47:13+00:00",
-      "hn_score": 94,
-      "hn_comments": 23,
-      "summary": "Black Forest Labsが56億パラメータの画像生成モデル「FLUX 3 Image Klein」を公開した。\n4Kネイティブ生成やバウンディングボックス制御、最大10枚のリファレンス画像に対応する。\nパラメータ数を抑えつつ商用・大規模モデルを上回る精度を実現し、民生用GPUにも最適化されている。",
-      "tags": [
-        "FLUX",
-        "画像生成AI",
-        "オープンウェイト"
-      ],
-      "category": "AI・機械学習",
-      "score": 85,
-      "score_reason": "軽量かつ高性能な最新のオープンウェイト画像生成モデルであり、実用性と開発者コミュニティへの影響が非常に大きいため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "HTTP 402は29年「予約済み」のまま — x402をNext.jsで動かす",
-      "url": "https://zenn.dev/suzuki_tech/articles/x402-01-http-402-nextjs",
-      "source": "Zenn",
-      "published": "2026-10-16T07:58:00+00:00",
-      "summary": "RFC制定から29年間ほぼ未活用の「HTTP 402 Payment Required」を、AIエージェント等の自律決済の入口として活用する動向を解説。\nCoinbase公開のオープン決済プロトコル「x402」を用い、Next.js APIで402返却からステーブルコイン支払い完了までのフローを検証。\n人間を介さない機械同士のマイクロペイメント基盤として、AIエージェント時代におけるHTTP決済の実用性を示している。",
-      "tags": [
-        "Next.js",
-        "Web3",
-        "HTTP"
-      ],
-      "category": "Web・フロントエンド",
-      "score": 85,
-      "score_reason": "長年未定義だったHTTP 402をAIエージェント決済規格として再解釈・実装しており、Web標準と自律エージェント経済の融合に向けた先進的な実例であるため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "有名 OSS が PR を閉じはじめた。何が起きていて、どう向き合うか",
-      "url": "https://zenn.dev/hand_dot/articles/ecb391d4322330",
-      "source": "Zenn",
-      "published": "2026-10-15T23:00:05+00:00",
-      "summary": "AI生成コードによる低品質なPRの急増などを受け、著名なOSSプロジェクトが相次いでPRの受付を制限・閉鎖しています。\nPRが開発者の信頼性や貢献意欲を測る指標として機能しなくなり、メンテナーの疲弊が深刻化しています。\nGitHub側の機能追加も含め、AI時代におけるOSSエコシステムやコントリビューションのあり方が転換点を迎えています。",
-      "tags": [
-        "OSS",
-        "GitHub",
-        "生成AI"
-      ],
-      "category": "ビジネス・業界動向",
-      "score": 85,
-      "score_reason": "AI普及によるOSS開発コミュニティの疲弊と開発・コントリビューション文化の大きな転換点を的確に捉えています。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "徳丸浩氏に聞く、タイムズカー事案から考えるユーザーデータ管理 保管場所と漏えいリスクの移転・回避、消去の判断体制",
-      "url": "https://unitis.jp/articles/24665/",
+      "title": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性",
+      "url": "https://www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html",
       "source": "はてなブックマーク",
-      "published": "2026-10-16T01:31:13+00:00",
-      "summary": "タイムズカーでの大規模情報漏洩を受け、徳丸浩氏が安全なユーザーデータ管理の手法を解説した。\n不要な個人情報の確実な廃棄やWeb公開環境からのデータ分離、eKYC等へのリスク移転の重要性を強調。\n現場任せにせず責任者が廃棄判断を行う体制構築など、組織全体での実践的な防護策を提唱している。",
+      "published": "2026-10-17T14:59:56+00:00",
+      "summary": "Linuxカーネルに仮想マシンの隔離を突破できる深刻な脆弱性「PwnEscape」が発見された。\nゲストVMからホスト側OS上で不正コードを実行できる可能性があり、CVSSスコアは9.3（Critical）と評価されている。\nIPv4ヘッダーのチェックサム処理不備を突いて異常なメモリアクセスを引き起こすもので、クラウド環境等への影響が懸念される。",
       "tags": [
-        "セキュリティ",
-        "個人情報保護",
-        "データ管理"
+        "Linux",
+        "脆弱性",
+        "仮想化"
       ],
       "category": "セキュリティ",
-      "score": 85,
-      "score_reason": "国内の大規模漏洩事例をもとに第一人者が実践的なデータ管理・リスク対策の要点を提示しており、Webサービス開発・運用に極めて有用なため。",
+      "score": 92,
+      "score_reason": "クラウドや仮想化インフラの根底を揺るがすVM脱出を可能にする致命的なカーネル脆弱性であり、広範な影響を及ぼすため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "AnthropicのAI時代のコードレビュー術 - Claude Codeによる自動レビューと人間の役割",
+      "url": "https://note.com/npaka/n/ndb4b0f424ced",
+      "source": "はてなブックマーク",
+      "published": "2026-10-17T02:09:01+00:00",
+      "summary": "Anthropicがコード生成急増に対応するための自動コードレビュープロセスを公開しました。\n複数エージェントによる多層レビューとリスクに応じた人間承認を組み合わせ品質と速度を両立しています。\nCLAUDE.mdやREVIEW.mdによるルール管理や誤検知削減の仕組みが解説されています。",
+      "tags": [
+        "Claude",
+        "コードレビュー",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 88,
+      "score_reason": "AI主導のソフトウェア開発におけるレビューの自動化手法と実践的な組織プラクティスが具体的に提示されており実用性が非常に高いためです。",
       "analysis_status": "ok",
       "is_hot": false
     },
     {
-      "title": "4つのGeminiエージェントがマインクラフトをクリア：サンドボックス環境における自律協調が明かす共有メモリと役割創出",
-      "url": "https://dev.to/mech_app_ai/four-gemini-agents-beat-minecraft-what-multi-agent-coordination-in-a-sandbox-world-reveals-about-551o",
-      "source": "Dev.to",
-      "published": "2026-10-17T00:07:41+00:00",
-      "summary": "4つのGeminiエージェントが人間の介入なしにマインクラフトのエンダードラゴン討伐を達成した。\n事前の役割分担や監督役なしに、ゲーム内チャットと共有メモリを活用して自律的な協調動作を実現した。\n複雑で長時間のタスクにおける自律型マルチエージェントオーケストレーションの有効性を実証した実験である。",
+      "title": "コード系でOpus 5超え「DeepSeek-V4.1-Flash-1017」無償公開",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2149045.html",
+      "source": "はてなブックマーク",
+      "published": "2026-10-17T14:39:34+00:00",
+      "summary": "DeepSeekが5,520億パラメータのオープンウェイトAIモデル「DeepSeek-V4.1-Flash-1017」をMITライセンスで無償公開した。\n独自の条件付きメモリ「Engram」や投機デコードモジュールを搭載し、コード修正タスク等でClaude Opus 5を上回るベンチマークを記録した。\n最大100万トークンのコンテキスト長に対応し、Web検索等のAPI連携機能も同時に提供されている。",
       "tags": [
+        "DeepSeek",
+        "LLM",
+        "オープンソース"
+      ],
+      "category": "AI・機械学習",
+      "score": 88,
+      "score_reason": "最高峰の商用プロプライエタリモデルを凌駕する性能のオープンモデルが無償商用利用可能で提供され、AIエコシステムに大きな影響を与えるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Windows上でAIエージェントの実行を安全に隔離する「Microsoft Execution Containers」（MXC）正式リリース。ファイルやネットワークなどの境界を柔軟にカスタマイズ",
+      "url": "https://www.publickey1.jp/blog/26/windowsaimicrosoft_execution_containersmxc.html",
+      "source": "Publickey",
+      "published": "2026-10-14T15:57:19+00:00",
+      "summary": "マイクロソフトがWindows 11上で自律型AIエージェントを安全に稼働させる隔離基盤「Microsoft Execution Containers（MXC）」を正式リリースした。\nファイルアクセスやネットワーク接続などの境界を細かく定義し、エージェントの不正または誤った操作をランタイムで防止する。\nOS実務をAIエージェントに自律実行させる運用が広がるなかで、不可欠となるセキュリティ基盤を提供する。",
+      "tags": [
+        "Windows",
         "AIエージェント",
-        "Gemini",
-        "マルチエージェント"
+        "コンテナ"
       ],
       "category": "AI・機械学習",
       "score": 85,
-      "score_reason": "監督者なしの複数AIエージェントによる長期的な自律協調・環境適応の実証として技術的示唆が非常に高い。",
+      "score_reason": "OSネイティブで自律AIエージェントの実行権限を隔離・制御する新基盤であり、今後のAI自動化普及における重要なセキュリティ標準となるため。",
       "analysis_status": "ok",
       "is_hot": false
     },
     {
-      "title": "GitHubのシークレット検出モデル：ノイズを削減しながらより多くのシークレットを検出",
-      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
-      "source": "GitHub Blog",
-      "published": "2026-10-13T17:56:33+00:00",
-      "summary": "GitHubは偽陽性を抑えつつ認証情報を高精度に検出する独自の文脈認識型分類モデルを開発しました。\n従来のLLMベースのパイプラインに比べてスキャン実行時間を中央値で86%削減することに成功しました。\n高速化によりプッシュ前の保護機能にも適用可能となり、実用性と開発効率が大幅に向上しました。",
-      "tags": [
-        "GitHub",
-        "セキュリティ",
-        "機械学習"
-      ],
-      "category": "セキュリティ",
-      "score": 85,
-      "score_reason": "開発現場で頻発する機密情報漏洩を防ぎつつ、スキャン速度を86%短縮した実用性の高い重要な取り組みであるため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "拍動する心臓の内部に薬物を届けるワイヤレス磁気ミリロボット",
-      "url": "https://hub.jhu.edu/2026/10/12/magnetic-millirobots-cardiac-treatment/",
-      "source": "Hacker News",
-      "published": "2026-10-14T07:21:12+00:00",
-      "hn_score": 60,
-      "hn_comments": 5,
-      "summary": "拍動している生体心臓の内部において、標的部位へ直接薬物を送達可能なワイヤレス磁気ミリロボットが開発された。\n外部からの磁場制御によって血流や心臓の拍動に抗して正確にナビゲーションを行い、局所的な治療を実現する。\n侵襲性を大幅に抑えつつ効率的な心臓病治療を可能にする、革新的なマイクロロボティクス医療応用技術である。",
-      "tags": [
-        "ロボティクス",
-        "医療技術",
-        "ハードウェア"
-      ],
-      "category": "ハードウェア・ガジェット",
-      "score": 82,
-      "score_reason": "拍動する心臓内でのピンポイント投薬を可能にする画期的な医療ロボット技術であり、今後の臨床応用へのインパクトが非常に大きいため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "次世代の開発者インターフェースは「環境知能（アンビエント・インテリジェンス）」である",
+      "title": "次世代の開発者インターフェースは「アンビエント・インテリジェンス（環境知能）」である",
       "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
       "source": "GitHub Blog",
       "published": "2026-10-15T19:39:27+00:00",
-      "summary": "AIの進化により、従来のコマンドや手作業中心のインターフェースから意図を実行可能にするパラダイムへ移行しつつある。\nGitHub Copilotはコードベースを理解し、エージェントモードやActions環境で自律的に修正からPR作成まで実行する。\n開発者の役割は細かな操作から、方向性の決定やコンテキスト提供、成果物のレビューへと変化している。",
+      "summary": "開発者はツールやコマンドに思考を適応させてきたが、AIがその関係性を変えつつある。\nGitHub Copilotはコード生成にとどまらず、リポジトリ理解やタスク計画、テスト実行まで自律的に行う。\n開発の主軸はコマンド入力から「意図の実行」へと移行し、開発者は方向性や制約の管理に集中できる。",
       "tags": [
         "GitHub Copilot",
-        "開発環境",
-        "AIエージェント"
+        "生成AI",
+        "開発者体験"
       ],
       "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "ソフトウェア開発パラダイムのAIによる大きな変革を提示しており、業界全体への影響度が非常に高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Bun、TypeScript 7よりも3倍以上高速なTypeScript型チェッカーを搭載。Bunの新バージョン1.4.3で",
+      "url": "https://www.publickey1.jp/blog/26/anthropicbuntypescript_73typescriptbun143.html",
+      "source": "Publickey",
+      "published": "2026-10-15T15:21:12+00:00",
+      "summary": "JavaScriptランタイム「Bun」のバージョン1.4.3がリリースされ、高速な新しいTypeScript型チェッカーが搭載された。\nGo言語で再実装されたTypeScript 7と比較しても3倍以上高速に動作し、メモリ消費量も大幅に抑えられている。\n適合性テストを100%パスするなど高い互換性を持ち、「bun check」コマンドによる型検査の大幅な高速化を実現している。",
+      "tags": [
+        "Bun",
+        "TypeScript",
+        "ランタイム"
+      ],
+      "category": "プログラミング言語",
       "score": 82,
-      "score_reason": "ソフトウェア開発体験の根底にあるパラダイムシフトとGitHubの将来ビジョンを明確に示している。",
+      "score_reason": "Web開発における最大のボトルネックの一つであるTypeScriptの型検査を劇的に高速化し、開発者体験を刷新する実用的な進展であるため。",
       "analysis_status": "ok",
       "is_hot": false
     },
     {
-      "title": "[フィジカルAI]LLM によるテレオペデータで VLA を学習して Strands Robots に組み込んでみた",
-      "url": "https://zenn.dev/aws_japan/articles/strands-robots-llm-teleop",
-      "source": "Zenn",
-      "published": "2026-10-16T04:43:37+00:00",
-      "summary": "ロボットアーム操作モデル（VLA）の学習に必要な実演データを、人間のテレオペの代わりにLLMの画像認識と操作で自動生成。\n収集したデータを用いて軽量モデルSmolVLAをファインチューニングし、言語指示に従って球を把持・収納する動作を検証。\n人間による機材操作やティーチングの工数を排除し、ロボット学習のデータ生成パイプラインを自動化する実用的なアプローチを示している。",
+      "title": "GitHubのシークレット検出モデル：ノイズを抑えてより多くの機密情報を発見する",
+      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+      "source": "GitHub Blog",
+      "published": "2026-10-13T17:56:33+00:00",
+      "summary": "リポジトリからの秘密情報流出を防ぐため、文脈を理解して誤検知を減らす分類モデルを構築した。\n従来のLLMパイプラインと比較して、プッシュ後スキャンの実行時間を86%削減する高速化を達成した。\n高い処理効率により、コミットをプッシュする前のブロック機能にも同検出モデルを展開可能となった。",
       "tags": [
-        "フィジカルAI",
-        "LLM",
-        "ロボティクス"
-      ],
-      "category": "AI・機械学習",
-      "score": 80,
-      "score_reason": "高コストなロボットのテレオペデータ収集をLLMによって自動化し、実用的なVLAモデルを構築する新規性と実用性が高いため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "【AWS】AWS Lambda Web Functionsから考えるAWS Lambdaとは何なのか",
-      "url": "https://qiita.com/ymd65536/items/3bc00ba77b87808bda9b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita",
-      "published": "2026-10-15T01:52:51+00:00",
-      "summary": "AWS Lambda上でHTTPサーバーを直接実行可能にする「Lambda Web Functions」の発表を契機に、Lambdaのあり方を考察しています。\n初期のS3連携などイベント駆動型FaaS（Glueコード実行基盤）から、Webアプリホスティングへの対応へと進化を遂げた変遷を整理しています。\nアーキテクチャの多様化に伴い、サーバーレスコンピューティングの定義や役割が再定義されつつあることを示しています。",
-      "tags": [
-        "AWS",
-        "AWS Lambda",
-        "サーバーレス"
-      ],
-      "category": "バックエンド・インフラ",
-      "score": 80,
-      "score_reason": "Lambdaの新機能紹介にとどまらず、サーバーレスアーキテクチャのこれまでの変遷と今後の位置づけを深く考察しています。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "脱獄したPS5でllama.cppをネイティブ実行：GGUFモデルがコンソール上で稼働",
-      "url": "https://github.com/cobanov/PS5LM",
-      "source": "Hacker News",
-      "published": "2026-10-16T18:32:35+00:00",
-      "hn_score": 162,
-      "hn_comments": 44,
-      "summary": "脱獄済みのPlayStation 5のGPU上でllama.cppをネイティブ動作させる「PS5LM」が公開された。\nOpenAI互換APIを備え、テレビ画面向けUIとともにPCレスな自宅LLMサーバーとして機能する。\n高価なPCやクラウドを介さず、家庭用ゲーム機のハードウェア資源をAI推論に転用できる。",
-      "tags": [
-        "llama.cpp",
-        "PS5",
-        "ローカルLLM"
-      ],
-      "category": "AI・機械学習",
-      "score": 78,
-      "score_reason": "ゲーム機のハードウェアをハックして手頃なローカルLLM推論環境として活用する非常に独創的で実用的なプロジェクトであるため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "記憶（連想メモリ）からTransformerを再発明できたかもしれない",
-      "url": "https://alexwang.ai/posts/associative-memory/",
-      "source": "Hacker News",
-      "published": "2026-10-16T19:01:17+00:00",
-      "hn_score": 110,
-      "hn_comments": 30,
-      "summary": "Transformerのフィードフォワード層やアテンション構造を連想メモリの観点から第一原理的に再解釈する解説記事。\nキーとバリューの類似度計算における干渉を抑制するため、非線形活性化関数を挟むことで2層MLPが自然に導出されることを数理的に示す。\nモデルの内部動作をメモリ想起モデルとして理解し直すことで、アーキテクチャの直感的な把握を促している。",
-      "tags": [
-        "Transformer",
-        "深層学習",
-        "機械学習"
-      ],
-      "category": "AI・機械学習",
-      "score": 78,
-      "score_reason": "Transformerアーキテクチャを連想記憶の原理から直感的に再構築・解説しており、理論的な理解を深める上で有益な知見を提供しているため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "エンジニアに情報漏えいは防げないのか？ ハッシュ化のコスト設計で「盗まれたあと」は変えられる",
-      "url": "https://qiita.com/shinkai_/items/aef2dec31922dbad3c0d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "source": "Qiita",
-      "published": "2026-10-16T04:03:24+00:00",
-      "summary": "情報漏洩を100%防ぐことが困難な前提のもと、DB流出後の被害を最小化するパスワードハッシュ化の重要性を解説しています。\nSHA-256など高速なハッシュ関数はGPUを用いたオフライン攻撃に弱いため、パスワード保存には不向きであると指摘しています。\nArgon2やscryptなどのメモリハードなハッシュ関数を採用し、適切なコストパラメータを設計することの重要性を解説しています。",
-      "tags": [
+        "機械学習",
         "セキュリティ",
-        "パスワード",
-        "暗号化"
+        "GitHub Secret Scanning"
       ],
       "category": "セキュリティ",
-      "score": 78,
-      "score_reason": "漏洩を前提とした防御策として、パスワードハッシュ関数の適切な選定とコスト設計の重要性を論理的に解説しています。",
+      "score": 82,
+      "score_reason": "LLMから専用の軽量モデルへの移行で大幅なレイテンシ削減と精度向上を両立した、実用的な機械学習応用事例であるため。",
       "analysis_status": "ok",
       "is_hot": false
     },
     {
-      "title": "IMFが警告、AIバブル崩壊は世界経済を巻き込む恐れ",
-      "url": "https://www.reddit.com/r/technology/comments/1x7sv1u/ai_bubble_could_burst_and_take_global_economy/",
-      "source": "Reddit",
-      "published": "2026-10-16T21:41:26+00:00",
-      "summary": "IMF（国際通貨基金）がAI投資の急拡大によるバブル崩壊リスクについて警鐘を鳴らした。\n巨額の設備投資に見合う収益化が達成されない場合、株式市場全体を直撃する可能性があると指摘。\nIT業界にとどまらず世界的な金融システムや実体経済への波及が懸念されている。",
-      "tags": [
-        "AI",
-        "IMF",
-        "マクロ経済"
-      ],
-      "category": "ビジネス・業界動向",
-      "score": 78,
-      "score_reason": "国際金融機関によるAI投資過熱への警鐘であり、今後のテック投資環境や世界経済に大きな影響を与えるため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "2,500リクエストから24へ：スター履歴APIをユーザー情報なしで再構築した手法",
-      "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
-      "source": "GitHub Blog",
-      "published": "2026-10-14T19:11:33+00:00",
-      "summary": "従来のStar履歴取得APIは個人情報スクレイピングや高負荷なデータベースクエリを引き起こす課題があった。\nGitHubは個人情報を含まず、日ごとのStarカウントのみを返す新しいエンドポイントを設計した。\n時間による事前フィルタリングによりDB負荷を大幅に削減し、2,500回必要だったAPIリクエストを24回に短縮した。",
-      "tags": [
-        "API設計",
-        "GitHub",
-        "パフォーマンス改善"
-      ],
-      "category": "バックエンド・インフラ",
-      "score": 78,
-      "score_reason": "API設計におけるプライバシー保護とDBクエリ負荷削減を劇的に両立させた具体的なアーキテクチャ最適化事例である。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "ベンチマーク飽和後におけるAIモデル能力の評価",
+      "title": "ベンチマーク飽和後におけるモデル能力の評価",
       "url": "https://arxiv.org/abs/2610.20667",
       "source": "arXiv cs.AI",
-      "published": "2026-10-16T04:00:00+00:00",
-      "summary": "既存の主要AIベンチマークが飽和状態に達した後のモデル評価の課題と新たな指標を論じる研究です。\n高性能化した最新モデル同士の微細な性能差や真の汎化性能を測定するアプローチを検討します。\n今後の基盤モデル開発における評価の信頼性と方向性を提示する重要な議論となっています。",
+      "published": "2026-10-17T04:00:00+00:00",
+      "summary": "主要なAIベンチマークが軒並み飽和状態に達しつつある現状に対する新たな評価手法を考察。\n高い正解率を達成した最新モデル間の優劣や真の汎用推論能力を測定するための枠組みを提示。\nモデルの過学習を防ぎ次世代のフロンティアモデルを健全に評価・選定するための指針を与える。",
       "tags": [
         "LLM",
         "ベンチマーク",
         "モデル評価"
       ],
       "category": "AI・機械学習",
-      "score": 78,
-      "score_reason": "フロンティアモデルの評価が難しくなっているAI研究コミュニティ全体の重要課題に切り込んでいるため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "ベクトルDBを使わない「階層ナビゲーション型RAG」を作って、ベクトルDB版RAGと比較してみた",
-      "url": "https://zenn.dev/aiforall/articles/8e1803396534de",
-      "source": "Zenn",
-      "published": "2026-10-16T02:30:05+00:00",
-      "summary": "ベクトルDBや質問時の類似度計算を用いず、自動生成した階層型目次をLLMに辿らせて文書を特定する「階層ナビゲーション型RAG」を自作・検証。\nCorpus2Skill論文の手法をベースに、ドキュメントを対象として従来のベクトル検索型RAGとの精度や挙動を比較。\nベクトルDBの運用コストを抑えられる一方、検索ステップ数増加に伴うコスト増や回答精度特性のトレードオフを客観的に評価している。",
-      "tags": [
-        "RAG",
-        "LLM",
-        "ベクトル検索"
-      ],
-      "category": "AI・機械学習",
-      "score": 77,
-      "score_reason": "ベクトルDBに依存しないRAGアーキテクチャの自作・比較検証を行い、実装コストと精度のトレードオフを明確に示しているため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "ウェイモがトロントに進出",
-      "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
-      "source": "Hacker News",
-      "published": "2026-10-16T14:44:17+00:00",
-      "hn_score": 248,
-      "hn_comments": 348,
-      "summary": "Alphabet傘下のWaymoがカナダ・トロントでの完全自動運転サービスの展開計画を発表した。\nまずは有人運転による高精度マッピングと検証を開始し、2028年の商用サービス開始を目指す。\n現地の大手フリート管理会社と提携し、インフラ投資と雇用創出を進める方針。",
-      "tags": [
-        "Waymo",
-        "自動運転",
-        "モビリティ"
-      ],
-      "category": "ビジネス・業界動向",
-      "score": 75,
-      "score_reason": "自動運転業界のリーダーであるWaymoによる本格的な国際展開の第一歩であり、事業拡大の重要な節目となるため。",
+      "score": 82,
+      "score_reason": "ベンチマーク飽和は現代のLLM開発における極めて切実な共通課題であり、今後のモデル選定や研究指針に与える影響が大きい。",
       "analysis_status": "ok",
       "is_hot": false
     },
@@ -363,135 +149,518 @@
       "url": "https://www.publickey1.jp/blog/26/websveltekit_3vite.html",
       "source": "Publickey",
       "published": "2026-10-13T15:26:33+00:00",
-      "summary": "Webアプリケーションフレームワーク「SvelteKit 3」の正式版がリリースされた。\n設定ファイルsvelte.config.jsが廃止され、Viteの設定ファイルへ集約された。\n型安全性の向上やエラー処理の刷新に加え、自動移行用スクリプトが提供されている。",
+      "summary": "Webアプリフレームワーク「SvelteKit 3」の正式版がリリースされた。\n設定ファイルがViteに集約され、従来のsvelte.config.jsが廃止された。\n型安全性の向上やエラー処理の改善、円滑な移行を支援するスクリプトが提供される。",
       "tags": [
         "SvelteKit",
         "Vite",
         "JavaScript"
       ],
       "category": "Web・フロントエンド",
-      "score": 75,
-      "score_reason": "主要なWebフロントエンドフレームワークのメジャーリリースであり、ビルド設定の整理や型安全性向上など開発体験に直結する変更を含むため。",
+      "score": 80,
+      "score_reason": "高い人気を誇るWebフレームワークのメジャーバージョンアップであり、開発生産性や設定の簡素化に大きく寄与するため。",
       "analysis_status": "ok",
       "is_hot": false
     },
     {
-      "title": "Evergreenの維持：共有組織における安全なアクセス管理とリポジトリ運用の自動化",
+      "title": "ヤンデックスのデータセンターへの攻撃後、ロシアのボット活動が84%激減",
+      "url": "https://www.reddit.com/r/technology/comments/1x8kmu7/russian_bot_activity_collapses_by_84_after/",
+      "source": "Reddit",
+      "published": "2026-10-17T20:40:24+00:00",
+      "summary": "ロシアのIT大手Yandexのデータセンターが攻撃を受けたと報じられました。\nこの影響によりロシア発とされるボットネットの活動が84%減少したと推定されています。\n重要インフラの機能停止が国家的な情報工作活動に与える影響の大きさが示されました。",
+      "tags": [
+        "ボットネット",
+        "サイバーセキュリティ",
+        "インフラ"
+      ],
+      "category": "セキュリティ",
+      "score": 78,
+      "score_reason": "重要インフラへの物理的・サイバー攻撃が国家規模のボットネット活動に与えた影響の大きさを実証する重要な事例です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ソースネクスト　暗号化されていないパスワードが流出した理由とは",
+      "url": "https://news.yahoo.co.jp/expert/articles/b3e710c60d79d276a00321906fa87ac9243f5530",
+      "source": "はてなブックマーク",
+      "published": "2026-10-17T08:05:29+00:00",
+      "summary": "ソースネクストの会員情報流出事故において、復号可能な暗号化形式で保存されていたパスワードが漏洩した背景が解説されている。\n外部システム連携の都合でハッシュ化ではなく暗号化を採用し、APIの戻り値にもパスワードが含まれる仕様となっていた。\n鍵の不正取得により実質的な平文漏洩となっており、近年の認証情報保護設計におけるアンチパターンとして警鐘を鳴らしている。",
+      "tags": [
+        "情報漏洩",
+        "パスワード管理",
+        "WebAPI"
+      ],
+      "category": "セキュリティ",
+      "score": 78,
+      "score_reason": "パスワードをハッシュ化せず暗号化・API返却していた構造的欠陥が露呈した事例であり、システム設計の教訓として重要性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "2,500リクエストから24へ：Stargazer情報を使わずにStar履歴を再構築した方法",
+      "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
+      "source": "GitHub Blog",
+      "published": "2026-10-14T19:11:33+00:00",
+      "summary": "スター履歴取得ツールは全スターユーザーを取得していたため、DB負荷とスパム収集のリスクがあった。\nGitHubはユーザーリストへのアクセスを制限した上で、日次スター数を返す専用エンドポイントを開発した。\n時間範囲による事前フィルタリングにより、最大30週間のデータを1リクエストで安価に集計可能にした。",
+      "tags": [
+        "GitHub API",
+        "データベース最適化",
+        "セキュリティ"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 78,
+      "score_reason": "APIの乱用防止とDB負荷削減を両立させるクエリ・アーキテクチャ最適化の好例であり、技術的知見に富むため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AlphaDiana：検証可能な推論タスクにおけるエージェント測定システム",
+      "url": "https://arxiv.org/abs/2610.20675",
+      "source": "arXiv cs.AI",
+      "published": "2026-10-17T04:00:00+00:00",
+      "summary": "検証可能な推論課題においてAIエージェントの推論精度を厳密に測定する評価基盤「AlphaDiana」を提案。\n数学や形式論理など答え合わせが客観的に検証可能なタスク群を通じて多段階推論を精密に評価。\nエージェントの論理的推論における弱点特定や信頼性検証を容易にする枠組みを提供する。",
+      "tags": [
+        "推論能力",
+        "評価基盤",
+        "AIエージェント"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "推論タスクの客観的かつ厳密な検証基盤の確立は、エージェントのハルシネーション抑制と信頼性担保に不可欠である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "世界は待ってくれない：実時間制約下でのエージェントの評価と学習",
+      "url": "https://arxiv.org/abs/2610.20665",
+      "source": "arXiv cs.AI",
+      "published": "2026-10-17T04:00:00+00:00",
+      "summary": "実世界の動的環境におけるエージェントのリアルタイムな意思決定能力を評価する手法を提案。\n従来の静的なターン制ではなく実時間クロックが進行する条件下でのエージェント訓練プロセスの重要性を論じる。\n通信遅延や処理時間の制約が存在する実運用環境に向けた実践的なエージェント開発に貢献する。",
+      "tags": [
+        "AIエージェント",
+        "強化学習",
+        "リアルタイムシステム"
+      ],
+      "category": "AI・機械学習",
+      "score": 76,
+      "score_reason": "実時間制約下でのエージェント評価と学習は実世界応用に直結する重要な課題であり新規性と実用性が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "WebサイトがAIエージェントへのアクセス遮断を進める",
+      "url": "https://www.reddit.com/r/technology/comments/1x8g010/websites_are_closing_their_doors_to_ai_agents/",
+      "source": "Reddit",
+      "published": "2026-10-17T17:28:06+00:00",
+      "summary": "多くのWebサイト運営者がAIエージェントやスクレイピングボットのアクセスを遮断する動きを強めています。\n無断のデータ収集やサーバー負荷、コンテンツの無断利用に対する防衛策として広がっています。\n今後のWebエコシステムやオープンな情報アクセスのあり方に大きな変化をもたらす可能性があります。",
+      "tags": [
+        "Webスクレイピング",
+        "AIエージェント",
+        "ボット対策"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 75,
+      "score_reason": "AIエージェントの普及に伴うサイト運営者との対立構造を示しており、将来のWebアーキテクチャやデータ流通に大きく影響します。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "離散拡散モデルにおける逐次モンテカルロ誘導の高速化に向けた価値に基づくスケジュールトリミング",
+      "url": "https://arxiv.org/abs/2610.20669",
+      "source": "arXiv cs.AI",
+      "published": "2026-10-17T04:00:00+00:00",
+      "summary": "離散拡散モデルにおける逐次モンテカルロ（SMC）誘導の計算負荷を低減する最適化手法を提案。\n価値関数に基づきサンプリングステップを効率的に間引くスケジュールトリミング技術を導入。\n生成品質を損なうことなくサンプリングの高速化を達成し、離散データ生成の実用性を高める。",
+      "tags": [
+        "拡散モデル",
+        "モンテカルロ法",
+        "推論高速化"
+      ],
+      "category": "AI・機械学習",
+      "score": 74,
+      "score_reason": "離散拡散モデルの推論効率化はテキストや構造化データ生成の高速化に直接寄与する実用的な技術である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "永続的な健全性を保つ：共有組織における安全なアクセス管理とリポジトリ運用の自動化",
       "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/",
       "source": "GitHub Blog",
       "published": "2026-10-15T18:00:00+00:00",
-      "summary": "外部協力者との協業増加に伴う権限確認や不要リポジトリのアーカイブ作業の負担を軽減する仕組みを解説。\nGitHubはネイティブ機能を組み合わせたGitHub App「Evergreen」を開発し、安全な運用自動化を実現した。\n「デフォルトで安全（応答がなければ権限削除）」と「リポジトリを完全削除しない」という設計原則を採用している。",
+      "summary": "外部協力者とのリポジトリ管理において、不要な権限の棚卸しやアーカイブ作業が負担となっていた。\nGitHubはネイティブ機能を組み合わせたGo言語製アプリ「Evergreen」を開発し、衛生管理を自動化した。\n「安全側に倒す（デフォルトで権限剥奪）」と「破壊操作を行わない」の原則で確実なガバナンスを実現した。",
       "tags": [
         "GitHub",
-        "セキュリティ",
-        "DevOps"
+        "Go",
+        "ガバナンス"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 73,
+      "score_reason": "大規模組織における安全なアクセス管理の自動化プラクティスが具体的で、再現性・実用性が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "米議員がゲーム購入者に「ライセンス」ではなく「所有権」を与える法案を提出",
+      "url": "https://www.reddit.com/r/technology/comments/1x88jvt/us_rep_proposes_bill_to_give_video_game_buyers/",
+      "source": "Reddit",
+      "published": "2026-10-17T12:03:27+00:00",
+      "summary": "米下院議員がデジタルゲーム購入者に単なる利用権ではなく所有権を付与する法案を提出しました。\n現行のライセンスモデルでは配信停止時に消費者がアクセスを失う問題が多発しています。\n法案が可決されればデジタル配信プラットフォームのビジネスモデルに大きな変革を迫る可能性があります。",
+      "tags": [
+        "デジタル所有権",
+        "ゲーム業界",
+        "法規制"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 72,
+      "score_reason": "デジタルコンテンツのライセンス契約から真の所有権への移行を促す法規制であり、プラットフォーム事業に大きな影響を与えます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "正当性フィードバックが証拠を消し去るとき：Verusにおけるフェーズ分離完全性監査",
+      "url": "https://arxiv.org/abs/2610.20676",
+      "source": "arXiv cs.AI",
+      "published": "2026-10-17T04:00:00+00:00",
+      "summary": "Rust向け形式検証ツールVerusにおいて、証明フィードバックが不完全性の証拠を隠蔽してしまう問題に対処。\n検証プロセスをフェーズごとに分離することで監査漏れを防ぐ完全性監査手法を提示。\nミッションクリティカルなソフトウェア開発における形式検証の信頼性と透明性を高める。",
+      "tags": [
+        "形式検証",
+        "Verus",
+        "ソフトウェアテスト"
+      ],
+      "category": "プログラミング言語",
+      "score": 72,
+      "score_reason": "形式検証ツール内部の監査上の死角を解消するアプローチであり、セキュアなソフトウェア開発の信頼性向上に寄与する。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Deribitのガス最適化監査：年間約250万ドルの削減ポテンシャル",
+      "url": "https://dev.to/dannydoes_2abdf9c/gas-optimization-audit-deribit-45o5",
+      "source": "Dev.to",
+      "published": "2026-10-17T23:50:41+00:00",
+      "summary": "大手暗号資産デリバティブ取引所Deribitのスマートコントラクトを対象にガス最適化監査が実施された。\n致命的なセキュリティ欠陥はないものの、年間推定250万ドル相当のガス代削減余地が特定された。\n高負荷時のユーザー負担軽減や悪意ある取引コスト引き上げ攻撃の緩和策が示されている。",
+      "tags": [
+        "スマートコントラクト",
+        "Ethereum",
+        "ガス最適化"
       ],
       "category": "セキュリティ",
-      "score": 75,
-      "score_reason": "組織の大規模リポジトリ運用とセキュリティ統制における実践的で再現性の高い設計知見を提供している。",
+      "score": 70,
+      "score_reason": "巨大な取引規模を持つDeFiプロトコルの経済的効率性とセキュリティを両立させる具体的な監査報告として価値が高いため。",
       "analysis_status": "ok",
       "is_hot": false
     },
     {
-      "title": "AlphaDiana：検証可能な推論タスクにおけるAIエージェント測定システム",
-      "url": "https://arxiv.org/abs/2610.20675",
-      "source": "arXiv cs.AI",
-      "published": "2026-10-16T04:00:00+00:00",
-      "summary": "正当性を機械的に検証できる推論タスクを対象とした、AIエージェント向けの新しい測定システムです。\n数学や論理パズル、形式検証タスクなどを通じてエージェントの厳密な推論ステップを多角的に評価します。\n推論特化型AIの信頼性向上と論理的欠陥の特定に貢献するフレームワークです。",
-      "tags": [
-        "AIエージェント",
-        "推論",
-        "ベンチマーク"
-      ],
-      "category": "AI・機械学習",
-      "score": 75,
-      "score_reason": "近年重要度が増している検証可能な推論能力に特化したエージェント評価基盤を構築しているため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "GitHub可用性レポート：2026年9月",
+      "title": "GitHub可用性レポート：2026年9月（進捗報告）",
       "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026/",
       "source": "GitHub Blog",
       "published": "2026-10-14T20:01:35+00:00",
-      "summary": "GitHubの大規模データベース負荷軽減やAzureへの本番ワークロード移行に関する進捗状況を報告。\nCentral USリージョンへの移行を進めるも、AZ間の容量不均等やフェイルオーバー時の障害により一部計画が遅延した。\n可用性向上に向けたインフラ最適化の取り組みと、障害からの復旧・改善プロセスが詳細に共有されている。",
+      "summary": "8月の障害対応と並行し、共有DB負荷低減やAzure移行などの可用性向上策が進められた。\nCentral USリージョンへの移行では一部の目標が未達となり、計画フェイルオーバー時の障害も発生した。\nゾーン間の容量不均衡を解消しつつ、10月末までに利用可能キャパシティの完全開放を目指している。",
       "tags": [
         "GitHub",
         "インフラ",
         "SRE"
       ],
       "category": "バックエンド・インフラ",
-      "score": 73,
-      "score_reason": "世界最大規模の開発プラットフォームにおけるクラウド移行やデータベース障害対応の実例としてインフラエンジニアに参考になる。",
+      "score": 70,
+      "score_reason": "世界最大規模の開発プラットフォームのインフラ移行状況や耐障害性向上の生々しい取り組みが示されており参考になるため。",
       "analysis_status": "ok",
       "is_hot": false
     },
     {
-      "title": "AI投資に伴う負債懸念でナスダックが2％超下落、投資家の警戒感強まる",
-      "url": "https://www.reddit.com/r/technology/comments/1x7qix5/nasdaq_sinks_more_than_2_as_investors_raise/",
+      "title": "発売前にAIでゲームを複製される懸念から開発者がデモ公開を中止",
+      "url": "https://www.reddit.com/r/technology/comments/1x8cjyn/developer_cancels_demo_over_fears_people_could/",
       "source": "Reddit",
-      "published": "2026-10-16T20:05:46+00:00",
-      "summary": "大手テック企業による巨額のAIインフラ投資と債務負担への懸念からナスダック指数が2％以上急落した。\n過熱する設備投資に対して十分なリターンが得られるのか、投資家の間で疑問が広がっている。\nAIバブル懸念を背景に、成長株を中心としたハイテク市場の調整圧力が強まっている。",
+      "published": "2026-10-17T15:08:22+00:00",
+      "summary": "あるゲーム開発者が発売前にAIでゲーム内容を複製されることを恐れて体験版の公開を取りやめました。\n生成AI技術の進歩により短期間でアセットやロジックが模倣されるリスクが懸念されています。\n開発者のプロモーション戦略と知的財産保護の新たなジレンマを示しています。",
       "tags": [
-        "ナスダック",
-        "AI投資",
-        "株式市場"
+        "生成AI",
+        "ゲーム開発",
+        "著作権"
       ],
       "category": "ビジネス・業界動向",
-      "score": 72,
-      "score_reason": "巨額のAI投資に対する市場の評価が厳格化しており、テック企業の資金調達や投資戦略に影響を及ぼすため。",
+      "score": 68,
+      "score_reason": "生成AIによるクローンゲーム作成リスクがインディー開発者の公開戦略にブレーキをかけている実態を示す重要なトピックです。",
       "analysis_status": "ok",
       "is_hot": false
     },
     {
-      "title": "私のAIエージェントが月曜日にWebページを読み、火曜日に騙された話。そこで私は台帳を作った",
-      "url": "https://dev.to/murthyg/my-ai-agent-read-a-web-page-on-monday-and-got-tricked-on-tuesday-so-i-built-a-ledger-33ck",
+      "title": "永続化を前提とした物流状態管理のためのGoリアルタイムチャネル設計",
+      "url": "https://dev.to/garrisonsterling2693/go-realtime-channel-semantics-for-logistics-state-you-actually-store-2gg6",
       "source": "Dev.to",
-      "published": "2026-10-17T00:11:42+00:00",
-      "summary": "外部データを読み込んだAIエージェントが不正な指示に騙される脆弱性の課題を提起している。\nモデル自身の判断に依存せず安全性を保つため、MCPゲートウェイ「ADTL」を開発した。\nデータの信頼ラベルを追跡し、ツール呼び出し前に厳格なポリシー検証を行う仕組みを提案する。",
+      "published": "2026-10-17T23:51:18+00:00",
+      "summary": "リアルタイムチャネルはデータ永続化ストレージではなく配信経路として設計すべきと論じている。\n耐久性のあるストレージへの書き込みとリアルタイム通知を分離する構成を提案する。\n再接続時の整合性担保やクライアントトークンの権限制御など実務的な指針を解説している。",
       "tags": [
-        "AIエージェント",
-        "セキュリティ",
-        "MCP"
+        "Go",
+        "WebSocket",
+        "アーキテクチャ"
       ],
-      "category": "セキュリティ",
-      "score": 72,
-      "score_reason": "AIエージェント普及に伴い深刻化する間接的プロンプトインジェクションに対し、プロトコル層で防御する実践的なアプローチを提示しているため。",
+      "category": "バックエンド・インフラ",
+      "score": 68,
+      "score_reason": "リアルタイム通信とデータ永続化の責務分離について、堅牢なシステム設計のプラクティスを提示しているため。",
       "analysis_status": "ok",
       "is_hot": false
     },
     {
-      "title": "世界は待ってくれない：実時間制約下におけるAIエージェントの評価と学習",
-      "url": "https://arxiv.org/abs/2610.20665",
-      "source": "arXiv cs.AI",
-      "published": "2026-10-16T04:00:00+00:00",
-      "summary": "現実世界の時間制約下で動作する自律型AIエージェントの評価および指導手法を提案する研究です。\n静的な環境とは異なり、刻々と変化する実時間状況において適切な意思決定を行う能力を検証します。\nリアルタイム環境におけるエージェントの実用化に向けた新たな評価ベンチマークを提供します。",
+      "title": "チェックアウト失敗アラート：エラーAPIとログのポーリングによる検知とロールバック分離",
+      "url": "https://dev.to/jamesanderson121/checkout-failure-alerting-polling-logs-and-error-apis-for-failed-jobs-and-5xx-exceptions-1nh8",
+      "source": "Dev.to",
+      "published": "2026-10-17T23:50:07+00:00",
+      "summary": "決済トランザクションの失敗監視において、検知ロジックとロールバック制御を分離する設計を解説する。\nログとエラーAPIをポーリングして集約し、重複のない信頼性の高いアラートを発行する。\n例外数のみに依存した誤った自動ロールバックを防ぐための状態確認プロセスを提案している。",
       "tags": [
-        "AIエージェント",
-        "リアルタイム",
-        "強化学習"
+        "モニタリング",
+        "運用監視",
+        "障害対応"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 65,
+      "score_reason": "決済処理などのクリティカルなフローで誤動作を防ぐ堅牢なアラートと運用自動化の設計パターンを提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "eラーニングプラットフォーム向け音声コンテンツの生成方法",
+      "url": "https://dev.to/voice_developer/how-to-generate-voice-content-for-e-learning-platforms-2n0o",
+      "source": "Dev.to",
+      "published": "2026-10-17T23:48:27+00:00",
+      "summary": "eラーニング教材に自然なAI音声を組み込むためのテキスト読み上げ（TTS）技術を解説している。\nディープラーニングを用いた最新TTSにより、従来の機械音声に比べ学習効果の高い表現が可能となる。\nElevenLabsのAPIとPythonを用いて教材音声を自動生成する具体的な実装手順が紹介されている。",
+      "tags": [
+        "音声合成",
+        "ElevenLabs",
+        "Python"
       ],
       "category": "AI・機械学習",
-      "score": 72,
-      "score_reason": "現実世界へのAIエージェント導入に不可欠な実時間制約への適応と評価を扱う先駆的な研究であるため。",
+      "score": 62,
+      "score_reason": "最新の音声合成APIをWeb教育プラットフォームの自動化パイプラインに組み込む実践的なチュートリアルであるため。",
       "analysis_status": "ok",
       "is_hot": false
     },
     {
-      "title": "技術書を年に数冊しか買わない自分に、O'Reillyのサブスク年$150は割に合うか（ACM経由で契約してMCPまで）",
-      "url": "https://zenn.dev/sonicmoov/articles/oreilly-subscription-acm",
-      "source": "Zenn",
-      "published": "2026-10-16T02:53:28+00:00",
-      "summary": "高額なO'Reilly Learningサブスクを、ACM（国際計算機学会）会員特典の割引経由で安価に利用するノウハウを検証・解説。\n直接契約の年約500ドルに対し、ACM経由なら年約150〜170ドル程度で利用可能となり、コストパフォーマンスを大幅に改善できる。\n公式MCPサーバーとの連携機能も視野に入れ、技術書多読とAIツール連携を両立する経済的な学習環境構築法を提示している。",
+      "title": "完全遮断ではなく「摩擦」をデザインする：スクリーンタイムアプリ開発から得た知見",
+      "url": "https://dev.to/jumpingma/designing-friction-instead-of-blocking-what-i-learned-building-a-screen-time-app-4fnc",
+      "source": "Dev.to",
+      "published": "2026-10-17T23:45:36+00:00",
+      "summary": "アプリを完全にブロックする従来手法は反動で解除されやすい課題があった。\nそこでアクセスを完全に遮断するのではなく、起動時に短い一時停止を挟む設計を採用した。\niOSのScreen Time APIを活用し、深夜の画面利用時間や不要なロック解除を大幅に削減した。",
       "tags": [
-        "O'Reilly",
-        "ACM",
-        "MCP"
+        "iOS",
+        "Swift",
+        "UI/UX"
       ],
-      "category": "ビジネス・業界動向",
-      "score": 70,
-      "score_reason": "高価なO'Reillyプラットフォームを安価に購読する実践的ライフハックと最新のMCP連携を網羅し、エンジニアの自己研鑽に役立つ情報であるため。",
+      "category": "モバイル",
+      "score": 62,
+      "score_reason": "Screen Time APIを活用した行動変容UIの設計事例として参考になり、個人のアプリ開発者にとって有用な知見であるため。",
       "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Bleached corals thrive within days when touching healthy neighbour",
+      "url": "https://www.nature.com/articles/d41586-026-03266-x",
+      "source": "Hacker News",
+      "published": "2026-10-16T23:38:27+00:00",
+      "hn_score": 263,
+      "hn_comments": 56,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Dam removals are bringing fish back across the northeastern United States",
+      "url": "https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679/",
+      "source": "Hacker News",
+      "published": "2026-10-16T23:47:31+00:00",
+      "hn_score": 153,
+      "hn_comments": 45,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Furifont, a Japanese font that shows furigana",
+      "url": "https://furifont.antfu.me/",
+      "source": "Hacker News",
+      "published": "2026-10-15T08:48:30+00:00",
+      "hn_score": 233,
+      "hn_comments": 48,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "source": "Hacker News",
+      "published": "2026-10-17T08:21:25+00:00",
+      "hn_score": 664,
+      "hn_comments": 561,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+      "url": "https://github.com/antirez/c64-hw-simulator",
+      "source": "Hacker News",
+      "published": "2026-10-15T07:18:14+00:00",
+      "hn_score": 128,
+      "hn_comments": 22,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Pele – Mermaid diagrams as themeable SVG",
+      "url": "https://pele.run/",
+      "source": "Hacker News",
+      "published": "2026-10-17T15:55:09+00:00",
+      "hn_score": 189,
+      "hn_comments": 19,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Making chicken transparent using Dorito dust",
+      "url": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+      "source": "Hacker News",
+      "published": "2026-10-17T13:55:28+00:00",
+      "hn_score": 240,
+      "hn_comments": 64,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Types of types: Haskell's Kind system",
+      "url": "https://thunk.blog/posts/types-of-types-haskell-kind-system/",
+      "source": "Hacker News",
+      "published": "2026-10-14T17:00:31+00:00",
+      "hn_score": 25,
+      "hn_comments": 15,
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Jetson AGX XavierでNemotron 3.5 Lightningを動かしてみる",
+      "url": "https://zenn.dev/nooop/articles/9d5f19aed77e18",
+      "source": "Zenn",
+      "published": "2026-10-17T09:11:27+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "3Dデータの処理基盤をTemporalに全面移行した話",
+      "url": "https://zenn.dev/bestat/articles/7106fdf2f399e1",
+      "source": "Zenn",
+      "published": "2026-10-16T22:10:51+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "FreeBSD/Ubuntu サーバのセキュリティ強化",
+      "url": "https://zenn.dev/taroh/articles/ea4ce5256d0691",
+      "source": "Zenn",
+      "published": "2026-10-16T20:08:26+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "ポートフォリオをVoidで作り直したので、Voidの来歴と中身を整理する",
+      "url": "https://zenn.dev/nkzn/articles/my-first-void",
+      "source": "Zenn",
+      "published": "2026-10-16T14:10:37+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "[DataRobot] アプリに依存しているデプロイを探す",
+      "url": "https://zenn.dev/hattan0523/articles/58b5774d099a40",
+      "source": "Zenn",
+      "published": "2026-10-16T13:42:58+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "CVE-2026-99999（PwnEscape）を読み解く──「KVMの脆弱性」ではなく、Linuxネットワークスタックの脆弱性",
+      "url": "https://qiita.com/k2_naka/items/fa87685231377f15e7e3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-10-16T12:48:39+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "Jevにウォーリーを探させたら0.4秒で見つけやがった!!",
+      "url": "https://qiita.com/kikuziro/items/c1b47d4bfaa64960ca18?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-10-15T09:13:53+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
       "is_hot": false
     },
     {
@@ -499,305 +668,71 @@
       "url": "https://qiita.com/Eitaro_dotlog/items/c1e2f6d696ea88854186?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
       "source": "Qiita",
       "published": "2026-10-16T05:47:27+00:00",
-      "summary": "Instagramリール動画の改善において、AIエージェントにPDCAログを蓄積させ改善サイクルを自動化させた事例です。\n冒頭の映像の動きを数値化して離脱要因を切り分け、伸びる要素・伸びない要素をAIにルール化させています。\n勘に頼らずAIによる採点基準と仮説検証プロセスを構築することで、安定した動画制作体制を実現しています。",
-      "tags": [
-        "生成AI",
-        "動画編集",
-        "プロンプトエンジニアリング"
-      ],
-      "category": "AI・機械学習",
-      "score": 70,
-      "score_reason": "クリエイティブ制作のPDCAをAIに客観的な指標で言語化・運用させる実践的な業務効率化の手法を示しています。",
-      "analysis_status": "ok",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
       "is_hot": false
     },
     {
-      "title": "正しさのフィードバックが証拠を消去するとき：Verusにおけるフェーズ分離完全性監査",
-      "url": "https://arxiv.org/abs/2610.20676",
-      "source": "arXiv cs.AI",
-      "published": "2026-10-16T04:00:00+00:00",
-      "summary": "形式検証ツール「Verus」における正当性検証と監査証拠の保持に関する課題を分析した論文です。\n検証時のフィードバックが完全性の証拠を曖昧にする問題をフェーズ分離監査によって解決します。\n高信頼性ソフトウェアや検証済みコードの監査可能性と安全性を高める技術提案です。",
-      "tags": [
-        "形式検証",
-        "Verus",
-        "ソフトウェア工学"
-      ],
-      "category": "プログラミング言語",
-      "score": 70,
-      "score_reason": "形式検証を用いた高信頼性コード監査の盲点に対処し、検証システムの健全性を高める技術であるため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "Webhookの再試行と遅延ジョブのためのキューパターン：Node.jsによる構築",
-      "url": "https://dev.to/colbyhayes3521/queue-patterns-for-webhook-retries-and-delayed-jobs-a-nodejs-build-jpf",
-      "source": "Dev.to",
-      "published": "2026-10-17T00:07:43+00:00",
-      "summary": "Webhook送信の失敗に備えた遅延配送とデッドレターキュー（DLQ）の設計パターンを解説する。\n重複配信を前提とし、一意なイベントIDによるDB制約で冪等性を担保する重要性を述べている。\nメッセージサイズを最小限に抑え、可観測性と手動リカバリを両立するNode.js実装を紹介する。",
-      "tags": [
-        "Node.js",
-        "Webhook",
-        "メッセージキュー"
-      ],
-      "category": "バックエンド・インフラ",
-      "score": 68,
-      "score_reason": "分散システムやSaaS運用で頻出するWebhook配信の信頼性向上について、堅牢かつ実践的なアーキテクチャパターンを提示しているため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "『Celeste』がPICO-8から始まりXNA/MonoGameで拡張された理由：名作精密アクションを支えた小さなファンタジーコンソール",
-      "url": "https://dev.to/wlz/why-celeste-started-on-pico-8-and-scaled-on-xnamonogame-the-tiny-fantasy-console-behind-a-2mo9",
-      "source": "Dev.to",
-      "published": "2026-10-17T00:05:17+00:00",
-      "summary": "名作アクション『Celeste』は当初4日間のPICO-8ゲームジャムで作られた試作から始まった。\nコアアクションを確立後、700画面超の大規模な製品版へ展開するためC#/MonoGameへと移行した。\nブラックボックスの物理エンジンに頼らず自作コードで精度を追求したゲーム開発の技術選定プロセスを解説している。",
-      "tags": [
-        "ゲーム開発",
-        "PICO-8",
-        "MonoGame"
-      ],
-      "category": "プログラミング言語",
-      "score": 68,
-      "score_reason": "特定インディーゲームの開発スタックに関するケーススタディであり、ゲーム開発者には有益だが業界全体への影響度は中程度。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "離散拡散モデルにおける逐次モンテカルロ誘導加速のための価値に基づくスケジュール短縮",
-      "url": "https://arxiv.org/abs/2610.20669",
-      "source": "arXiv cs.AI",
-      "published": "2026-10-16T04:00:00+00:00",
-      "summary": "離散拡散モデルにおける逐次モンテカルロ（SMC）誘導のサンプリング速度を高速化する手法の提案です。\n価値関数に基づきサンプリングスケジュールを動的に短縮することで、計算コストを削減します。\n生成品質を維持したまま離散データ生成タスクの推論効率を改善する技術です。",
-      "tags": [
-        "拡散モデル",
-        "サンプリング",
-        "機械学習"
-      ],
-      "category": "AI・機械学習",
-      "score": 68,
-      "score_reason": "離散拡散モデルの推論効率化という専門的な技術課題に対して具体的な解決策を提示しているため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "Jevにウォーリーを探させたら0.4秒で見つけやがった!!",
-      "url": "https://qiita.com/kikuziro/items/c1b47d4bfaa64960ca18?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【AWS】AWS Lambda Web Functionsから考えるAWS Lambdaとは何なのか",
+      "url": "https://qiita.com/ymd65536/items/3bc00ba77b87808bda9b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
       "source": "Qiita",
-      "published": "2026-10-15T09:13:53+00:00",
-      "summary": "画像入力と位置検出に対応したJevの新機能を使い、「ウォーリーを探せ」風の生成画像から対象を検出する検証を行っています。\nAPIを通じて対象キャラクターの存在判定とバウンディングボックスの座標をわずか0.4秒で取得することに成功しました。\nマルチモーダルモデルを用いた高速な特定物体検出の実用性と精度の高さを実証しています。",
-      "tags": [
-        "画像認識",
-        "マルチモーダルAI",
-        "Python"
-      ],
-      "category": "AI・機械学習",
-      "score": 65,
-      "score_reason": "マルチモーダルAIの新機能による高速な物体位置検出をキャッチーな題材で検証した実用的なレポートです。",
-      "analysis_status": "ok",
+      "published": "2026-10-15T01:52:51+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
       "is_hot": false
     },
     {
-      "title": "データセンター閉鎖のためにChatGPTを諦められるか？テックCEOがAI批判の矛盾を指摘",
-      "url": "https://www.reddit.com/r/technology/comments/1x7cpv6/would_you_really_give_up_chatgpt_to_shut_down/",
-      "source": "Reddit",
-      "published": "2026-10-16T10:33:33+00:00",
-      "summary": "あるテック企業のCEOが、データセンターの環境負荷を非難するAI批判層の姿勢に疑問を呈した。\n莫大な電力を消費するインフラを批判しつつ、その恩恵であるChatGPT等を日常的に享受する矛盾を突いている。\nAIの利便性と急速に拡大するインフラ負荷のバランスを巡る議論が活発化している。",
-      "tags": [
-        "生成AI",
-        "データセンター",
-        "環境問題"
-      ],
-      "category": "AI・機械学習",
-      "score": 65,
-      "score_reason": "AI技術の普及に伴う電力消費と利便性のトレードオフという、業界が直面する重要な社会的課題を浮き彫りにしているため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "テスラ・ロードスター",
-      "url": "https://www.tesla.com/roadster",
-      "source": "Hacker News",
-      "published": "2026-10-16T01:32:45+00:00",
-      "hn_score": 1124,
-      "hn_comments": 2030,
-      "summary": "テスラが開発を進める次世代フラッグシップEV「ロードスター」の公式ページ。\n超高速な加速性能や長い航続距離を掲げ、長らく市場の注目を集め続けている。\n発売時期や最新スペックに関する動向が改めてコミュニティで話題となっている。",
-      "tags": [
-        "テスラ",
-        "電気自動車",
-        "EV"
-      ],
-      "category": "ハードウェア・ガジェット",
-      "score": 60,
-      "score_reason": "高い知名度を誇るEVスポーツカーですが、新情報としての技術的詳細が限定的であるため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "eBayが無線機器の出品を制限、ただしアマチュア無線専用機器は対象外に",
-      "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
-      "source": "Hacker News",
-      "published": "2026-10-16T18:06:17+00:00",
-      "hn_score": 148,
-      "hn_comments": 125,
-      "summary": "eBayがプラットフォーム上での無線通信機器の出品制限ポリシーを導入した。\n不法な無線機器の流通防止が目的とみられるが、アマチュア無線帯域専用機器は免除された。\nアマチュア無線コミュニティにとっては機材の個人間売買への打撃が回避された形となった。",
-      "tags": [
-        "eBay",
-        "アマチュア無線",
-        "規制"
-      ],
-      "category": "ビジネス・業界動向",
-      "score": 58,
-      "score_reason": "特定分野のハードウェア愛好家やコミュニティには影響があるものの、IT業界全体への技術的波及度は限定的であるため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "いつも一番に食べ終わるあなたへ：会話のロードバランシング入門",
-      "url": "https://qiita.com/redwings_a/items/d79b4f94f7244da2cb98?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "非正規37%の経済設計バグ ― 労働市場の二重構造をリファクタリングする : システム設計視点の行動経済学 (42)",
+      "url": "https://qiita.com/maskot1977/items/9467428563658ebdf404?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
       "source": "Qiita",
-      "published": "2026-10-15T07:54:28+00:00",
-      "summary": "複数人での食事で早く食べ終わる人と遅い人の差を、会話を回す負荷の偏りという観点から分析しています。\n話題提供や相槌などの会話負荷をインフラのロードバランシングやサーバーの冗長構成に例えてユーモラスに解説しています。\n参加者が会話の負荷分散を意識することで、全員が無理なく場を楽しめる環境づくりの重要性を説いています。",
-      "tags": [
-        "コミュニケーション",
-        "チームビルディング",
-        "雑談"
-      ],
+      "published": "2026-10-17T02:43:40+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
       "category": "その他",
-      "score": 55,
-      "score_reason": "技術的な情報ではありませんが、IT用語を巧みに用いて職場の対人関係やチーム協調の改善を促すユニークなコラムです。",
-      "analysis_status": "ok",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
       "is_hot": false
     },
     {
-      "title": "ビッグテックの寡頭支配層が描く、人類に対する恐るべき計画",
-      "url": "https://www.reddit.com/r/technology/comments/1x7jfi3/big_tech_oligarchs_have_a_terrible_plan_for/",
+      "title": "元ペンシルベニア大教授がUber Eatsの配達ロボットを妨害して逮捕",
+      "url": "https://www.reddit.com/r/technology/comments/1x8fvc4/retired_penn_professor_arrested_for_blocking_uber/",
       "source": "Reddit",
-      "published": "2026-10-16T15:34:59+00:00",
-      "summary": "巨大テック企業のリーダーたちが推進する技術主導の社会構造改革に対する批判的論説。\n過度なAI依存や富・権力の独占が、個人の自律性や社会秩序を脅かすリスクを指摘している。\nテクノロジー企業の社会的責任や倫理的なガバナンスのあり方に改めて注目が集まっている。",
+      "published": "2026-10-17T17:22:38+00:00",
+      "summary": "ペンシルベニア大学の元教授がUber Eatsの自律配送ロボットの通行を妨害し逮捕されました。\n自律走行ロボットの公道配備が進む中で生じる市民との摩擦を象徴する事件です。\nロボティクス技術の社会受容性や公共空間の利用をめぐる課題を浮き彫りにしています。",
       "tags": [
-        "ビッグテック",
-        "AI倫理",
-        "社会問題"
+        "配送ロボット",
+        "自律走行",
+        "社会受容性"
       ],
-      "category": "ビジネス・業界動向",
-      "score": 55,
-      "score_reason": "巨大テック企業への権力集中や技術倫理に関する問題提起であるが、主観的なオピニオンの色合いが強いため。",
+      "category": "その他",
+      "score": 50,
+      "score_reason": "自律走行ロボットの社会実装における法執行や反発事例を示していますが、技術的影響度は限定的です。",
       "analysis_status": "ok",
       "is_hot": false
     },
     {
-      "title": "漏えいが起きたときに最初に読んでほしい章を、発売前に公開します - 思い出したいことがある",
-      "url": "https://www.seko-law.com/entry/reort",
+      "title": "Windows11アップデート: 右クリックメニューを高速化する方法",
+      "url": "https://iori016.hatenablog.com/entry/2025/11/02/110654",
       "source": "はてなブックマーク",
-      "published": "2026-10-16T12:50:09+00:00",
-      "summary": "(解析中にエラーが発生しました)",
-      "tags": [],
-      "category": "その他",
-      "score": 50,
-      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"漏えいが起きたときに最初に読んでほしい章を、発売前に公開します - 思い出したいことがある\",\n    \"summary\": \"新刊『",
-      "analysis_status": "error",
-      "is_hot": false
-    },
-    {
-      "title": "ソースネクスト パスワード暗号化がない状態で流出 再設定を | NHKニュース",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261016de60556",
-      "source": "はてなブックマーク",
-      "published": "2026-10-16T09:05:24+00:00",
-      "summary": "(解析中にエラーが発生しました)",
-      "tags": [],
-      "category": "その他",
-      "score": 50,
-      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"漏えいが起きたときに最初に読んでほしい章を、発売前に公開します - 思い出したいことがある\",\n    \"summary\": \"新刊『",
-      "analysis_status": "error",
-      "is_hot": false,
-      "topic_group": 1,
-      "topic_size": 2
-    },
-    {
-      "title": "タイムズカー、退会後も7年間保管していた免許証画像を全削除へ　約660万アカウント分の漏えい受け",
-      "url": "https://www.itmedia.co.jp/news/article/2610/16/2000002346/",
-      "source": "はてなブックマーク",
-      "published": "2026-10-16T10:18:39+00:00",
-      "summary": "(解析中にエラーが発生しました)",
-      "tags": [],
-      "category": "その他",
-      "score": 50,
-      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"漏えいが起きたときに最初に読んでほしい章を、発売前に公開します - 思い出したいことがある\",\n    \"summary\": \"新刊『",
-      "analysis_status": "error",
-      "is_hot": false
-    },
-    {
-      "title": "個人情報漏えい のべ1億6500万人分余に 利用者の対策は? | NHKニュース",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261016de60239",
-      "source": "はてなブックマーク",
-      "published": "2026-10-16T10:02:49+00:00",
-      "summary": "(解析中にエラーが発生しました)",
-      "tags": [],
-      "category": "その他",
-      "score": 50,
-      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"漏えいが起きたときに最初に読んでほしい章を、発売前に公開します - 思い出したいことがある\",\n    \"summary\": \"新刊『",
-      "analysis_status": "error",
-      "is_hot": false,
-      "topic_group": 1,
-      "topic_size": 2
-    },
-    {
-      "title": "AnthropicのBun、TypeScript 7よりも3倍以上高速なTypeScript型チェッカーを搭載。Bunの新バージョン1.4.3で",
-      "url": "https://www.publickey1.jp/blog/26/anthropicbuntypescript_73typescriptbun143.html",
-      "source": "Publickey",
-      "published": "2026-10-15T15:21:12+00:00",
-      "summary": "(解析中にエラーが発生しました)",
-      "tags": [],
-      "category": "その他",
-      "score": 50,
-      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"漏えいが起きたときに最初に読んでほしい章を、発売前に公開します - 思い出したいことがある\",\n    \"summary\": \"新刊『",
-      "analysis_status": "error",
-      "is_hot": false
-    },
-    {
-      "title": "Windows上でAIエージェントの実行を安全に隔離する「Microsoft Execution Containers」（MXC）正式リリース。ファイルやネットワークなどの境界を柔軟にカスタマイズ",
-      "url": "https://www.publickey1.jp/blog/26/windowsaimicrosoft_execution_containersmxc.html",
-      "source": "Publickey",
-      "published": "2026-10-14T15:57:19+00:00",
-      "summary": "(解析中にエラーが発生しました)",
-      "tags": [],
-      "category": "その他",
-      "score": 50,
-      "score_reason": "解析エラー: JSON parse failed: [\n  {\n    \"id\": 0,\n    \"title\": \"漏えいが起きたときに最初に読んでほしい章を、発売前に公開します - 思い出したいことがある\",\n    \"summary\": \"新刊『",
-      "analysis_status": "error",
-      "is_hot": false
-    },
-    {
-      "title": "コード不要のスプレッドシート自動化：毎週数時間を節約する5つのパターン",
-      "url": "https://dev.to/freetierkits/spreadsheet-automation-without-code-five-patterns-that-save-hours-every-week-2o9h",
-      "source": "Dev.to",
-      "published": "2026-10-17T00:08:19+00:00",
-      "summary": "スクリプトを用いずにスプレッドシート業務を自動化する実践的な設計パターンを紹介している。\n元データ用シートと集計用シートを分離するデータ構造のベストプラクティスを解説する。\nFILTER関数やQUERY関数を活用して、手作業の転記や集計を排除する手法を提示している。",
+      "published": "2026-10-17T17:15:04+00:00",
+      "summary": "Windows 11の画像ファイルなどの右クリックメニューの表示が遅くなる現象とその改善策が紹介されている。\nレジストリを修正してコンテキストメニューをWindows 10風に戻し、「フォトで編集」等の拡張機能を非表示にする。\n一部の便利メニューが利用不可となるトレードオフやレジストリ変更リスクが存在するため、自己責任での適用が推奨される。",
       "tags": [
-        "スプレッドシート",
-        "Excel",
-        "業務効率化"
+        "Windows 11",
+        "レジストリ",
+        "パフォーマンス"
       ],
       "category": "その他",
-      "score": 50,
-      "score_reason": "日常業務の効率化に役立つ実用的なTipsだが、既存関数の活用法が主であり技術的な新規性は低いため。",
-      "analysis_status": "ok",
-      "is_hot": false
-    },
-    {
-      "title": "政府、首絞めや近親相姦を描くポルノを11月初旬から禁止へ",
-      "url": "https://www.reddit.com/r/technology/comments/1x7u8mx/porn_showing_choking_or_incest_to_be_banned_from/",
-      "source": "Reddit",
-      "published": "2026-10-16T22:40:28+00:00",
-      "summary": "政府が過激な性的描写を含むオンラインコンテンツの規制方針を明らかにした。\n11月初旬より、首絞めや近親相姦などを扱ったポルノコンテンツが禁止対象となる見込みである。\nオンラインプラットフォーム各社にはコンテンツ監視やコンプライアンス遵守の対応が迫られる。",
-      "tags": [
-        "コンテンツモデレーション",
-        "法規制",
-        "オンライン規制"
-      ],
-      "category": "ビジネス・業界動向",
       "score": 45,
-      "score_reason": "オンラインコンテンツの規制強化に関する動きであるが、IT技術そのものへの直接的な影響は限定的であるため。",
+      "score_reason": "個人ユーザーの作業効率化には有用なTipsであるものの、技術的新規性や業界全体への影響度は低いため。",
       "analysis_status": "ok",
       "is_hot": false
     },
@@ -806,15 +741,15 @@
       "url": "https://www.publickey1.jp/blog/26/openid_foundationbtconjp2026.html",
       "source": "Publickey",
       "published": "2026-10-12T16:11:37+00:00",
-      "summary": "情報システム部門を対象とした国内カンファレンス「BTCONJP 2026」の開催が発表された。\n「情シスって楽しい」をテーマに、著名な登壇者を迎えてハイブリッド形式で開催される。\nITをビジネステクノロジーへと昇華させ企業活動を支援するための情報共有を目指す。",
+      "summary": "情報システム部門を対象とした国内カンファレンス「BTCONJP 2026」の開催が発表された。\n安野貴博氏やひろゆき氏、崎村夏彦氏など多様な有識者が登壇する。\nAI時代における情シスの重要性やビジネス活用をテーマにハイブリッド形式で実施される。",
       "tags": [
-        "情シス",
-        "ITイベント",
-        "カンファレンス"
+        "情報システム",
+        "カンファレンス",
+        "IT運用"
       ],
       "category": "ビジネス・業界動向",
       "score": 45,
-      "score_reason": "国内の情シス向けイベントに関するPR記事であり、技術的な新規性や業界全体への影響度は限定的であるため。",
+      "score_reason": "国内情シス向けの大規模コミュニティイベントのPR記事であり、技術的な新規性よりもイベント告知の側面が強いため。",
       "analysis_status": "ok",
       "is_hot": false
     }
