@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 19 Oct 2026 00:04:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 01:00:57 +0000</lastBuildDate>
     <item>
       <title>Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性</title>
       <link>https://www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html</guid>
-      <description>[Score: 92] Linuxカーネルにおいて、ゲスト仮想マシンからホストOS上で不正コードを実行できる深刻な脆弱性「PwnEscape」が公表されました。 / CVSSスコア9.3のCriticalと判定されており、KVM等の仮想化境界を突破してホストに脱出される危険性があります。 / IPv4ヘッダー処理の不備に起因した任意メモリ読み書きが可能となるため、クラウド事業者を含め迅速な対策が求められます。 (Source: Publickey)</description>
+      <description>[Score: 92] Linuxカーネルに深刻度9.3（Critical）の重大な脆弱性「PwnEscape」が公表された。 / 悪意ある攻撃者がゲストVMからホスト側のLinux OSで不正コードを実行できる恐れがある。 / IPv4ヘッダー処理の不備に起因し、仮想化環境を利用するインフラ全体に深刻な影響を及ぼす可能性がある。 (Source: Publickey)</description>
       <pubDate>Sat, 17 Oct 2026 15:27:18 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropicにおける雇用の変容</title>
-      <link>https://www.anthropic.com/research/employment-at-anthropic</link>
-      <guid isPermaLink="false">https://www.anthropic.com/research/employment-at-anthropic</guid>
-      <description>[Score: 85] AnthropicがAI導入による社内の労働形態および雇用構造の変化をまとめた調査レポートを公開しました。 / AIエージェントの稼働時間が人間の6倍に達し、コーディング等の自動化により従業員の生産性が飛躍的に向上しています。 / 一方でジュニア技術職の相対的な採用が鈍化し、個別技術よりも高い自律性や判断力が重視される傾向が明らかになりました。 (Source: はてなブックマーク)</description>
-      <pubDate>Sat, 17 Oct 2026 07:07:57 +0000</pubDate>
+      <title>フランスのスーパーの冷蔵庫、数カ月にわたりオンラインで脆弱な状態に放置されていた</title>
+      <link>https://ipinfo.io/blog/france-fridges-hack</link>
+      <guid isPermaLink="false">https://ipinfo.io/blog/france-fridges-hack</guid>
+      <description>[Score: 85] フランス全土の400以上のスーパーで冷却制御装置がハッキングされ、解凍モードに移行させられる被害が発生した。 / 装置が50度近くまで過熱して発火するケースもあり、多額の食品廃棄損害が生じている。 / 原因となったDanfoss製コントローラーは長期間インターネット上に脆弱なまま公開されていたと判明した。 (Source: Hacker News)</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:49 +0000</pubDate>
     </item>
     <item>
-      <title>開発者の次世代インターフェースは「環境知能（Ambient Intelligence）」</title>
-      <link>https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/</link>
-      <guid isPermaLink="false">https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/</guid>
-      <description>[Score: 85] 従来のコマンドやショートカット主体の開発から、開発者の意図をAIが実行する関係性への変革を論説。 / GitHub Copilotがリポジトリ全体の文脈を理解し、修正からPR作成まで自律的に遂行する未来を提示。 / 開発者の役割は細かな操作から、方向性の設定、制約の定義、成果物の検証へと移行すると述べている。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 15 Oct 2026 19:39:27 +0000</pubDate>
+      <title>macOS上でネイティブ動作するAndroidアプリ</title>
+      <link>https://github.com/kksimp/Mac.apk</link>
+      <guid isPermaLink="false">https://github.com/kksimp/Mac.apk</guid>
+      <description>[Score: 85] Apple Silicon Mac上でエミュレータや仮想マシンを使わずにAndroidアプリを直接動かすプロジェクト「Mac.apk」が登場しました。 / アプリは通常のmacOSプロセスとして起動し、MacのGPU描画やCPUネイティブ実行に対応しています。 / 現在はアルファ版ながらDockやウィンドウ管理に統合され、ネイティブに近い速度で動作します。 (Source: Hacker News)</description>
+      <pubDate>Mon, 19 Oct 2026 16:45:30 +0000</pubDate>
     </item>
     <item>
-      <title>ハイブリッド推論エージェント: 潜在空間で思考しテキストで行動するLLMエージェント</title>
-      <link>https://arxiv.org/abs/2610.18861</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.18861</guid>
-      <description>[Score: 82] 潜在空間内での推論とテキストベースの行動生成を組み合わせたLLMエージェント手法の提案。 / 従来のテキスト連鎖思考に比べ、より効率的かつ柔軟な内部思考プロセスを実現する。 / LLMによる自律エージェントの推論能力向上に向けた新たなアプローチとして注目される。 (Source: Hacker News)</description>
-      <pubDate>Sun, 18 Oct 2026 20:48:14 +0000</pubDate>
+      <title>サイバー攻撃受け情報漏えい、中国語のＡＩエージェント悪用か…国内８０社への攻撃巡り痕跡</title>
+      <link>https://www.yomiuri.co.jp/national/20261019-GYT1T00477/</link>
+      <guid isPermaLink="false">https://www.yomiuri.co.jp/national/20261019-GYT1T00477/</guid>
+      <description>[Score: 85] 国内約80社を標的としたサイバー攻撃で、中国語の脆弱性探索AIエージェント「ARTEX」の悪用が確認されました。 / 攻撃に使われた海外サーバーから痕跡が見つかり、保険や金融など8社が実際に個人情報漏えいを公表しています。 / AIによる自動化されたサイバー攻撃が実被害をもたらす脅威として顕在化しています。 (Source: はてなブックマーク)</description>
+      <pubDate>Mon, 19 Oct 2026 20:16:56 +0000</pubDate>
     </item>
     <item>
-      <title>GitHubのシークレット検出モデル：ノイズを減らしてより多くの機密情報を検出</title>
-      <link>https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/</guid>
-      <description>[Score: 82] GitHubは、コード内の認証情報とダミー文字列を文脈から高精度に見分ける新しい分類モデルを開発した。 / 従来のLLMベースの手法と比較してスキャン実行時間の中央値を86%削減し、大規模なスキャンの効率化を実現した。 / この高速化により、コミット後だけでなくプッシュ前に検出してブロックするPush Protectionへの適用が可能になった。 (Source: GitHub Blog)</description>
-      <pubDate>Tue, 13 Oct 2026 17:56:33 +0000</pubDate>
+      <title>AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表</title>
+      <link>https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html</guid>
+      <description>[Score: 85] AWSはLambda上でNode.js系フレームワークをそのまま実行できる「AWS Lambda Web Functions」を発表した。 / Next.jsやHono、ExpressなどのWebアプリを個別のアダプターなしで直接デプロイ可能になる。 / 従来の関数処理は「Lambda Event Functions」と呼ばれ、Web処理向け機能との棲み分けが進む。 (Source: Publickey)</description>
+      <pubDate>Mon, 19 Oct 2026 15:49:22 +0000</pubDate>
     </item>
     <item>
-      <title>ClaudeにiOSシミュレーターのスクリーンショットを読ませるのをやめて、操作で増えるコンテキストを43%削減した</title>
-      <link>https://zenn.dev/eai/articles/dont-let-agents-see-the-ios-sim-screen</link>
-      <guid isPermaLink="false">https://zenn.dev/eai/articles/dont-let-agents-see-the-ios-sim-screen</guid>
-      <description>[Score: 80] Claude CodeによるiOSシミュレーター操作で画像消費によるトークン肥大化を課題として検証した。 / スクリーンショットの代わりにアクセシビリティ要素をテキストダンプして読み込ませる手法を採用した。 / 操作所要時間は増加したものの、セッション全体のコンテキスト消費量を43%削減することに成功した。 (Source: Zenn)</description>
-      <pubDate>Sun, 18 Oct 2026 02:56:18 +0000</pubDate>
+      <title>AnthropicのBun、TypeScript 7よりも3倍以上高速なTypeScript型チェッカーを搭載。Bunの新バージョン1.4.3で</title>
+      <link>https://www.publickey1.jp/blog/26/anthropicbuntypescript_73typescriptbun143.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/anthropicbuntypescript_73typescriptbun143.html</guid>
+      <description>[Score: 85] JavaScriptランタイム「Bun」の最新版v1.4.3がリリースされた。 / TypeScript 7よりも3倍以上高速なGo言語実装の型チェッカーが新たに搭載されている。 / 公式テストスイートで高い互換性を維持しながら、型チェックの実行時間とメモリ消費を大幅に削減した。 (Source: Publickey)</description>
+      <pubDate>Thu, 15 Oct 2026 15:21:12 +0000</pubDate>
     </item>
     <item>
-      <title>2,500リクエストから24リクエストへ：スター付与者一覧を使わないStar Historyの再構築</title>
-      <link>https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/</link>
-      <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/</guid>
-      <description>[Score: 80] スター履歴取得ツールが大量APIリクエストを生み、スパム収集に悪用されていた課題を根本から解決。 / 個人情報一覧の代わりに特定期間の日次スター集計値のみを返す新エンドポイントを設計・提供。 / 事前に時間フィルタリングを行うことでDB処理を劇的に効率化し、リクエスト数と負荷を大幅に削減した。 (Source: GitHub Blog)</description>
-      <pubDate>Wed, 14 Oct 2026 19:11:33 +0000</pubDate>
+      <title>ワンハッシュ・ブルームフィルタ</title>
+      <link>https://calabro.io/ohbf</link>
+      <guid isPermaLink="false">https://calabro.io/ohbf</guid>
+      <description>[Score: 80] データベースアクセスの負荷を劇的に低減する確率的データ構造であるブルームフィルタの最適化手法を解説。 / Blueskyの大規模バックエンドでは、ユーザーブロックやミュート確認の99%でDBクエリをスキップさせている。 / 計算コストとメモリ消費をさらに抑えつつ高速に判定を行うハッシュアルゴリズムの適用技術が語られている。 (Source: Hacker News)</description>
+      <pubDate>Mon, 19 Oct 2026 20:50:08 +0000</pubDate>
     </item>
     <item>
-      <title>日本語の個人情報を Bedrock Guardrails, SDP, Presidio でマスキングして比較する</title>
-      <link>https://zenn.dev/fusic/articles/a77ba348115364</link>
-      <guid isPermaLink="false">https://zenn.dev/fusic/articles/a77ba348115364</guid>
-      <description>[Score: 78] 日本語テキストの個人情報保護を目的に、主要な3つのマスキングツールの検出精度を比較検証した。 / 全角表記や和暦などの日本語特有の表現に対して各ツールで検出漏れの傾向が異なることを明らかにした。 / Unicode正規化などの前処理や正規表現の併用が実運用において重要であると考察している。 (Source: Zenn)</description>
-      <pubDate>Sat, 17 Oct 2026 23:00:05 +0000</pubDate>
+      <title>MiniMax M3.1 Flash</title>
+      <link>https://www.minimax.io/blog/minimax-m31f</link>
+      <guid isPermaLink="false">https://www.minimax.io/blog/minimax-m31f</guid>
+      <description>[Score: 78] MiniMaxがエージェントタスクやコーディング向けに最適化された「M3.1 Flash」モデルを正式発表した。 / スパース性を高めることで推論速度を約3倍に向上させ、利用コストを従来比で70%削減している。 / APIや開発者向けプラットフォームを通じて提供され、Computer Use分野でも高い性能を発揮する。 (Source: Hacker News)</description>
+      <pubDate>Mon, 19 Oct 2026 16:39:09 +0000</pubDate>
     </item>
     <item>
-      <title>ドローン攻撃がロシアVKontakteのデータセンターを直撃、サンクトペテルブルクの停電に伴いサービスが停止</title>
-      <link>https://www.reddit.com/r/technology/comments/1x97vrq/drone_strike_hits_russias_vkontakte_data_center/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1x97vrq/drone_strike_hits_russias_vkontakte_data_center/</guid>
-      <description>[Score: 78] ロシアの大手SNS「VKontakte」のデータセンターがドローン攻撃を受け、サービスがオフラインになりました。 / これに伴いサンクトペテルブルク一帯で大規模な停電が発生し、市民生活やインフラに甚大な影響が出ています。 / 現代の軍事衝突において、通信やSNSの物理的インフラが直接的な標的となるリスクが浮き彫りになりました。 (Source: Reddit)</description>
-      <pubDate>Sun, 18 Oct 2026 16:44:51 +0000</pubDate>
+      <title>Claude Code × Figma MCP で作ったデザインを別のAIに検査させる — デザインのグラフエンジニアリング</title>
+      <link>https://qiita.com/vivi-koh/items/fc957950ba9fd21c1d1b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/vivi-koh/items/fc957950ba9fd21c1d1b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 78] Claude CodeとFigma MCPで自動生成したデザインはトークン未適用や素のフレーム多用などの課題がある。 / 生成AI自身の甘い自己採点を避け、別のAIエージェントに全数検査を行わせる仕組みを構築した。 / 人間は機械的な不備確認から解放され、審美性やUXなどの本質的なレビューに注力可能になった。 (Source: Qiita)</description>
+      <pubDate>Mon, 19 Oct 2026 01:33:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>AWS Transform、Azure Functions用のコードをAWS Lambda用に変換など、Microsoft AzureからAWSへの移行に対応</title>
+      <link>https://www.publickey1.jp/blog/26/aws_transformazure_functionsaws_lambdamicrosoft_azureaws.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aws_transformazure_functionsaws_lambdamicrosoft_azureaws.html</guid>
+      <description>[Score: 78] AWSはコード変換機能を提供する「AWS Transform」において、AzureからAWSへの移行対応を強化した。 / Azure SDKで書かれた.NETコードやAzure Functionsを、AWS SDKやLambda向けコードへと変換する。 / 自動変換できない部分はTODOコメントやスタブコードとして出力され、手動対応を支援する。 (Source: Publickey)</description>
+      <pubDate>Mon, 19 Oct 2026 15:47:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Codeの会話を55分放っておいたら、272,422トークンが13,522に圧縮されていました ― アイドル圧縮の観測</title>
+      <link>https://zenn.dev/ojisan_ai_lab/articles/claude-code-idle-compaction-20261019</link>
+      <guid isPermaLink="false">https://zenn.dev/ojisan_ai_lab/articles/claude-code-idle-compaction-20261019</guid>
+      <description>[Score: 76] Claude Codeに追加された新機能「アイドル圧縮」の実際の挙動を計測・観測した詳細レポートです。 / 約27万トークンの会話を55分程度アイドル状態で放置したところ、キャッシュ期限切れ直前に約1.3万トークンへ自動圧縮されたことを確認しています。 / 公式ドキュメントの仕様と実環境でのログ推移を照合し、キャッシュ管理やコスト最適化の仕組みを明らかにしています。 (Source: Zenn)</description>
+      <pubDate>Mon, 19 Oct 2026 09:29:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Codeの.envを読ませない設定がどこまで効くのか試してみた</title>
+      <link>https://qiita.com/yakumo_09/items/5a86ca330b449db0e6bc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/yakumo_09/items/5a86ca330b449db0e6bc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 76] Claude Codeのpermissions.denyによる「.env」の読み取り禁止設定の有効性を偽の認証情報で検証。 / 公式ドキュメント通り、deny単体では外部スクリプトの実行など間接読み取りで漏洩する限界を確認した。 / 完全な防御にはサンドボックスの併用などOSレベルのアクセス制限が不可欠であることを実証している。 (Source: Qiita)</description>
+      <pubDate>Sun, 18 Oct 2026 12:49:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>WineがOpenBSDに移植される</title>
+      <link>https://marc.info/?l=openbsd-ports&amp;m=179236125692175</link>
+      <guid isPermaLink="false">https://marc.info/?l=openbsd-ports&amp;m=179236125692175</guid>
+      <description>[Score: 75] Windowsアプリケーション互換レイヤーであるWineがOpenBSDのPortsコレクションに移植された。 / レジスタ制御の課題をエミュレーション技術で克服し、64bitのWindowsソフトの動作を実現している。 / 現状WoW64による32bitアプリは非対応ながら、最新の重量級ゲームタイトルまで動作確認が報告されている。 (Source: Hacker News)</description>
+      <pubDate>Mon, 19 Oct 2026 13:35:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>今日から使える AI との会話術 — Claude・Gemini・Codex に指示を守らせる 6 つの原則【2026年版】</title>
+      <link>https://qiita.com/songchong/items/351a939e2e1b673c2929?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/songchong/items/351a939e2e1b673c2929?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 75] Claude Code、Codex、Antigravity CLIなどのAIエージェントに指示を守らせるための実験と原則を解説。 / 指示ファイル（AGENTS.md等）の読み込み挙動やファイルサイズ制限がツールごとに異なることを実証。 / キャッシュやファイル分割などを考慮し、指示を効率的かつ確実に反映させる実践的な手法を提示している。 (Source: Qiita)</description>
+      <pubDate>Sun, 18 Oct 2026 15:40:28 +0000</pubDate>
     </item>
     <item>
       <title>マイクロソフト、.NETのツールチェーンマネージャ「dotnetup」プレビュー公開。複数バージョンの.NET環境を管理可能</title>
       <link>https://www.publickey1.jp/blog/26/netdotnetupnet.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/netdotnetupnet.html</guid>
-      <description>[Score: 78] マイクロソフトが.NETのツールチェーンマネージャ「dotnetup」のパブリックプレビューを公開しました。 / RustのrustupやNode.jsのnvmと同様に、SDKやランタイムの一括導入およびバージョン管理を可能にします。 / 開発プロジェクトごとに異なるバージョンの実行環境を容易に切り替えられるようになり、開発効率の向上が期待されます。 (Source: Publickey)</description>
+      <description>[Score: 75] マイクロソフトは.NETのツールチェーンを包括管理できる新ツール「dotnetup」のプレビュー版を公開した。 / RustのrustupやNode.jsのnvmと同様に、CLIからSDKやランタイムのインストールや切り替えが行える。 / 複数バージョンの.NET環境をプロジェクト単位で柔軟に管理することが容易になる。 (Source: Publickey)</description>
       <pubDate>Sun, 18 Oct 2026 15:35:52 +0000</pubDate>
     </item>
     <item>
-      <title>GitHub可用性レポート：2026年9月</title>
-      <link>https://github.blog/news-insights/company-news/github-availability-report-september-2026/</link>
-      <guid isPermaLink="false">https://github.blog/news-insights/company-news/github-availability-report-september-2026/</guid>
-      <description>[Score: 78] GitHubの大規模インフラ改善とAzureへのワークロード移行進捗を報告する定期レポート。 / 共有DB負荷の軽減やゾーン間キャパシティの偏りによるデプロイ中断、フェイルオーバー時の障害対応を詳述。 / サービスの耐障害性向上に向けた障害封じ込めやActionsの余力確保など継続的な取り組みを解説している。 (Source: GitHub Blog)</description>
-      <pubDate>Wed, 14 Oct 2026 20:01:35 +0000</pubDate>
+      <title>OpenBSD 8.0リリースでLinux 6.18由来のIntel/Radeon/AMD GPUドライバを導入へ</title>
+      <link>https://bsd.network/@brynet/117407035545900963</link>
+      <guid isPermaLink="false">https://bsd.network/@brynet/117407035545900963</guid>
+      <description>[Score: 72] 次期OpenBSD 8.0において、Linux 6.18ベースのDRMグラフィックススタックへの刷新が予定されている。 / Intel Arc Aシリーズのサポートや、4GBを超えるVRAMマッピングに対応してGPU演算環境が向上する。 / さらに仮想化機能の最大64VCPU対応や最新Wi-Fi・ARMデバイス向けドライバの追加も行われる。 (Source: Hacker News)</description>
+      <pubDate>Mon, 19 Oct 2026 21:11:45 +0000</pubDate>
     </item>
     <item>
-      <title>RepRapMicron: マイクロスケール対応オープンソース3Dプリンタ</title>
-      <link>https://github.com/VikOlliver/RepRapMicron/wiki</link>
-      <guid isPermaLink="false">https://github.com/VikOlliver/RepRapMicron/wiki</guid>
-      <description>[Score: 76] オープンソース3DプリンタRepRapの技術をマイクロメートル単位の微細加工に応用するプロジェクト。 / 数マイクロメートル精度のUVレジン硬化技術を用い、極小サイズのモデル造形を実現。 / MEMSや微細電子部品のオープンな製造を目指し、低コストな微細加工の民主化を推進する。 (Source: Hacker News)</description>
-      <pubDate>Sun, 18 Oct 2026 13:48:48 +0000</pubDate>
+      <title>テーブル定義書・ER図を自動生成して、AIにテーブル構造を答えさせるツールを作ってみた</title>
+      <link>https://qiita.com/ebichan_88/items/f7c44c74e437875b1399?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/ebichan_88/items/f7c44c74e437875b1399?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 72] PostgreSQLデータベースからテーブル定義書やER図をMarkdownで自動生成するツール「dbxray」を紹介。 / MCPサーバーも同梱されており、Claude CodeなどのAIがDB構造を正確に理解して回答できるようになる。 / パスワードの秘匿などセキュリティ面にも配慮され、GitHubでオープンソースとして公開されている。 (Source: Qiita)</description>
+      <pubDate>Sat, 17 Oct 2026 09:15:15 +0000</pubDate>
     </item>
     <item>
-      <title>MapQuestの新機能「サーベイランス・レイヤー」でFlock監視カメラの設置位置が可視化</title>
-      <link>https://www.reddit.com/r/technology/comments/1x90cgj/flock_camera_locations_revealed_on_mapquests_new/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1x90cgj/flock_camera_locations_revealed_on_mapquests_new/</guid>
-      <description>[Score: 75] 地図サービスMapQuestが、監視カメラの位置情報を表示する新機能「Surveillance Layer」を公開しました。 / Flock社をはじめとするナンバープレート認識カメラの設置場所や撮影方向をユーザーがマップ上で確認できます。 / 公共・民間監視ネットワークの透明性を高め、市民がプライバシー自衛を行う新たな手段として注目されています。 (Source: Reddit)</description>
-      <pubDate>Sun, 18 Oct 2026 10:55:39 +0000</pubDate>
+      <title>ひとり会社が、AIと二人でISMSを取った話</title>
+      <link>https://note.com/timtarou/n/n5443f159e7bc</link>
+      <guid isPermaLink="false">https://note.com/timtarou/n/n5443f159e7bc</guid>
+      <description>[Score: 72] 設立1年目のひとり会社がコンサルや専用SaaSを使わず、AIを活用してISMS認証を取得した事例が紹介されている。 / 規格書の読解から既存SaaSとの機能対応表作成、Googleアカウント連携による情報資産台帳の自動生成までAIを活用した。 / 実質工数約3日、低コストで認証を完了し、スタートアップにおけるAI活用の高い実用性を示している。 (Source: はてなブックマーク)</description>
+      <pubDate>Mon, 19 Oct 2026 14:05:36 +0000</pubDate>
     </item>
     <item>
-      <title>Free Pascalコンパイラがダイナミックパッケージに対応</title>
-      <link>https://www.getlazarus.org/dynamic/</link>
-      <guid isPermaLink="false">https://www.getlazarus.org/dynamic/</guid>
-      <description>[Score: 74] Free PascalコンパイラおよびLazarus IDEで動的パッケージの完全サポートがリリースされた。 / IDE全体の再ビルドなしでコンポーネントや拡張機能を即座に追加・インストール可能になった。 / Linux、Windows、macOS向けの共有ライブラリ形式で実装され、プラグイン開発が大幅に効率化される。 (Source: Hacker News)</description>
-      <pubDate>Sun, 18 Oct 2026 18:48:04 +0000</pubDate>
+      <title>2026年10月に知っておくべき開発者ツールとチュートリアルTop 5</title>
+      <link>https://dev.to/karleeov/top-5-developer-tools-and-tutorials-you-need-to-know-in-october-2026-5h4f</link>
+      <guid isPermaLink="false">https://dev.to/karleeov/top-5-developer-tools-and-tutorials-you-need-to-know-in-october-2026-5h4f</guid>
+      <description>[Score: 72] 2026年10月における注目すべき開発者向けツールとチュートリアルを特集したまとめ記事。 / GitHub Copilot StudioのAIコードレビュー機能やAzure AI Foundryのモデル市場を紹介。 / さらに構文や大規模デプロイ対応を強化したBicep 2.0など実用的なアップデートを解説している。 (Source: Dev.to)</description>
+      <pubDate>Tue, 20 Oct 2026 00:47:33 +0000</pubDate>
     </item>
     <item>
-      <title>MapQuestの新機能、移動ルート上にあるFlock製監視カメラを検知・警告</title>
-      <link>https://www.reddit.com/r/technology/comments/1x95nrj/mapquests_new_surveillance_layer_feature_flags/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1x95nrj/mapquests_new_surveillance_layer_feature_flags/</guid>
-      <description>[Score: 73] MapQuestが導入した新機能により、ユーザーが設定したナビゲーションルート上の監視カメラが検知可能になりました。 / 移動経路にあるFlock製ライセンスプレート読取装置を警告し、追跡を回避するルート選択を支援します。 / ナビゲーションアプリがプライバシー保護ツールとして進化する新たなトレンドを示しています。 (Source: Reddit)</description>
-      <pubDate>Sun, 18 Oct 2026 15:14:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Show HN: Cloudflare上で無料動作するWhatsApp向けMCPサーバー</title>
-      <link>https://github.com/finereli/whatsapp-mcp</link>
-      <guid isPermaLink="false">https://github.com/finereli/whatsapp-mcp</guid>
-      <description>[Score: 72] AIエージェントがWhatsAppのメッセージを検索・閲覧できるようにするMCPサーバーが公開された。 / ユーザー自身のCloudflareアカウント上で動作し、Durable Objects内のSQLiteでデータを保持する。 / メッセージの送信機能は持たず、閲覧専用かつセキュアに連携できる仕組みを提供している。 (Source: Hacker News)</description>
-      <pubDate>Sun, 18 Oct 2026 21:36:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>ベッセント米次期財務長官、Starlink帯域制限の主張を巡りゼレンスキー大統領に警告</title>
-      <link>https://www.reddit.com/r/technology/comments/1x9f1hw/bessent_warns_zelenskyy_to_be_very_careful_about/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1x9f1hw/bessent_warns_zelenskyy_to_be_very_careful_about/</guid>
-      <description>[Score: 72] 米次期財務長官スコット・ベッセント氏が、米国がウクライナのStarlinkを意図的に制限しているとの主張に対し警告を発しました。 / Starlinkはウクライナ軍の作戦や重要通信において不可欠な生命線として利用されています。 / 民間衛星通信インフラが国際政治や安全保障の駆け引きに直結している現実を改めて浮き彫りにしています。 (Source: Reddit)</description>
-      <pubDate>Sun, 18 Oct 2026 21:32:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>常にクリーンな状態を保つ：共有組織での安全なアクセス管理とリポジトリ運用の自動化</title>
-      <link>https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/</link>
-      <guid isPermaLink="false">https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/</guid>
-      <description>[Score: 72] 外部協力者との共有組織で生じるアクセス権限の形骸化やリポジトリ放置を解決する仕組みを紹介。 / GitHub Appとネイティブ機能を組み合わせたGo言語製ツール「Evergreen」を開発。 / 応答がなければ権限を失効させるフェイルセキュア原則や削除を避ける方針で安全な自動運用を実現した。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 15 Oct 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ソフトウェアの背後にいる人々</title>
-      <link>https://karrisaarinen.com/posts/someone-behind-the-software/</link>
-      <guid isPermaLink="false">https://karrisaarinen.com/posts/someone-behind-the-software/</guid>
-      <description>[Score: 70] Linear共同創業者による、優れたプロダクトには作り手の思想や直感が反映されるという考察。 / 開発プロセスやデータ至上主義、AI自動化が進む中で、経験に基づく直感と判断の重要性を強調。 / 顧客との対話や失敗から培われる人間的な視点がプロダクトの差別化に不可欠であると論じている。 (Source: Hacker News)</description>
-      <pubDate>Sun, 18 Oct 2026 16:32:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AFM（Apple Foundation Models）を活用したテキストアドベンチャーゲームの開発【第2回】自由入力を台本の選択肢につなぐ</title>
-      <link>https://zenn.dev/gritchbreed/articles/ced633f449178f</link>
-      <guid isPermaLink="false">https://zenn.dev/gritchbreed/articles/ced633f449178f</guid>
-      <description>[Score: 70] Apple Foundation Modelsのオンデバイスモデルを用いたアドベンチャーゲーム開発の連載第2回。 / プレイヤーの自由入力文を解析し、あらかじめ定義した台本の話題やアクションへ紐付ける手法を解説している。 / ルールエンジンとオンデバイスLLMを組み合わせることで確実な進行制御を実現している。 (Source: Zenn)</description>
-      <pubDate>Sun, 18 Oct 2026 02:35:56 +0000</pubDate>
+      <title>開発者らがAIを活用してスマートTVから広告やトラッキングを排除</title>
+      <link>https://www.reddit.com/r/technology/comments/1xaaong/developers_are_using_ai_to_strip_ads_and_tracking/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xaaong/developers_are_using_ai_to_strip_ads_and_tracking/</guid>
+      <description>[Score: 70] 開発者らがスマートTVの広告やトラッキングを自動検出・ブロックするAIツールの活用を進めています。 / スマートTVに組み込まれたプライバシー侵害的なデータ収集への対抗策として注目を集めています。 / ローカルネットワーク上で動作し、ユーザー体験を向上させる実用的な取り組みです。 (Source: Reddit)</description>
+      <pubDate>Mon, 19 Oct 2026 22:08:36 +0000</pubDate>
     </item>
   </channel>
 </rss>
