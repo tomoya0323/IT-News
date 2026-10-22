@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 21 Oct 2026 00:34:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 00:40:43 +0000</lastBuildDate>
     <item>
-      <title>【セキュリティ ニュース】ウェブサーバ「nginx」に複数脆弱性 - 3件が「クリティカル」との評価も（1ページ目 / 全3ページ）：Security NEXT</title>
-      <link>https://www.security-next.com/191645</link>
-      <guid isPermaLink="false">https://www.security-next.com/191645</guid>
-      <description>[Score: 95] ウェブサーバ「nginx」および関連製品において、DoSやコード実行につながる計11件の脆弱性が公表された。 / F5のアドバイザリでは3件がCVSSv4.0でスコア9.2の「クリティカル」と評価され、緊急性が指摘されている。 / 特定設定下でのヒープバッファオーバーフローなど深刻な問題が含まれており、早期のアップデート適用が必要である。 (Source: はてなブックマーク)</description>
-      <pubDate>Tue, 20 Oct 2026 09:15:55 +0000</pubDate>
+      <title>修正予告されたPHPの2件の深刻な脆弱性についてまとめてみた - piyolog</title>
+      <link>https://piyolog.hatenadiary.jp/entry/2026/10/21/174516</link>
+      <guid isPermaLink="false">https://piyolog.hatenadiary.jp/entry/2026/10/21/174516</guid>
+      <description>[Score: 95] PHPにて認証不要でリモートコード実行につながる2件の深刻な脆弱性が修正された。 / Webリクエストを処理する広範な環境が影響を受け、深刻度はCVSS v4.0で9.2と極めて高い。 / 情報漏えいやPoCの出回りを受けて早期にパッチが公開され、IPAや政府も注意喚起を行った。 (Source: はてなブックマーク)</description>
+      <pubDate>Wed, 21 Oct 2026 08:57:42 +0000</pubDate>
     </item>
     <item>
-      <title>8件の侵害されたTLS証明書が発見され、インターネット全体に警戒が広がる</title>
-      <link>https://www.reddit.com/r/technology/comments/1xb6re5/the_internet_goes_on_high_alert_after_discovery/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xb6re5/the_internet_goes_on_high_alert_after_discovery/</guid>
-      <description>[Score: 90] セキュリティコミュニティにおいて、不正に侵害された8件のTLS証明書が確認され警戒感が高まっている。 / 中間者攻撃（MitM）による暗号化通信の傍受やなりすましに悪用される深刻なリスクが存在する。 / 認証局（CA）の信頼モデルや証明書失効監視メカニズムの重要性が改めて問われている。 (Source: Reddit)</description>
-      <pubDate>Tue, 20 Oct 2026 22:54:15 +0000</pubDate>
+      <title>8ビットの信頼：eMudhraのCA秘密鍵がミリ秒単位で解読される</title>
+      <link>https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/</link>
+      <guid isPermaLink="false">https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/</guid>
+      <description>[Score: 92] 大手認証局eMudhraの中間CA証明書において、秘密鍵が「4」などの極めて小さい数値で生成されていたことが発覚した。 / 公開証明書から数ミリ秒で秘密鍵を特定できる状態で、主要ブラウザベンダーが即座に無効化措置を実施した。 / PKIの信頼基盤を揺るがす初歩的かつ致命的な暗号鍵生成ミスであり、業界に大きな波紋を広げている。 (Source: Hacker News)</description>
+      <pubDate>Wed, 21 Oct 2026 09:08:08 +0000</pubDate>
     </item>
     <item>
-      <title>DeepInfer：DeepSeekモデル向け高性能推論フレームワーク</title>
-      <link>https://github.com/deepseek-ai/DeepInfer</link>
-      <guid isPermaLink="false">https://github.com/deepseek-ai/DeepInfer</guid>
-      <description>[Score: 88] DeepSeekの大規模本番サービスを支える高性能推論フレームワーク「DeepInfer」がオープンソース化された。 / vLLMをベースにSGLangやTensorRT-LLMの知見を取り入れ、大規模デプロイに最適化されている。 / NVIDIAおよびAscendアクセラレータに対応し、効率的なオフライン推論基盤を提供する。 (Source: Hacker News)</description>
-      <pubDate>Tue, 20 Oct 2026 09:08:54 +0000</pubDate>
+      <title>本日のPHPセキュリティリリースと、セキュリティ強化への取り組み</title>
+      <link>https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/</link>
+      <guid isPermaLink="false">https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/</guid>
+      <description>[Score: 90] PHP Foundationは未認証でRCEにつながる恐れがある2件の致命的脆弱性を修正するパッチをリリースしました。 / メモリ管理やエラー処理といったコア機構に関わる問題であり、全ユーザーに即時アップデートが強く推奨されています。 / 外部監査を通じた発見の経緯や、今後のエコシステム全体のセキュリティ体制強化についても説明されています。 (Source: Hacker News)</description>
+      <pubDate>Wed, 21 Oct 2026 15:48:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>PyPIで侵害されたLiteLLM 1.107.0が認証情報窃取ツールとバックドアをインストール</title>
+      <link>https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/</link>
+      <guid isPermaLink="false">https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/</guid>
+      <description>[Score: 90] PyPI上に公開されたLiteLLM 1.107.0に認証情報窃取機能とRCEバックドアが混入していたことが判明した。 / Pythonプロセス起動時に自動実行される細工が仕込まれており、問題のバージョンは既にPyPIから削除された。 / 人気ライブラリを標的としたサプライチェーン攻撃であり、利用者は直ちに対策済みバージョンへの更新が必要となる。 (Source: Hacker News)</description>
+      <pubDate>Wed, 21 Oct 2026 14:00:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic、IPOを控える2026年上半期に807億ドルという驚愕の純損失を計上</title>
+      <link>https://www.reddit.com/r/technology/comments/1xbjr1n/anthropic_posts_staggering_807_billion_net_loss/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xbjr1n/anthropic_posts_staggering_807_billion_net_loss/</guid>
+      <description>[Score: 88] AIスタートアップ大手のAnthropicが、IPOを控える中で巨額の純損失を計上したことが報じられた。 / 基盤モデル開発や膨大な計算インフラへの投資が背景にあり、AI開発競争の激しさと巨額の資本投下を浮き彫りにしている。 / 生成AIビジネスの収益化の道筋とIPOにおける企業評価のあり方に大きな注目が集まっている。 (Source: Reddit)</description>
+      <pubDate>Wed, 21 Oct 2026 10:42:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート予定</title>
+      <link>https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html</guid>
+      <description>[Score: 88] CloudflareがTypeScriptコンパイラをRust言語へ移植した高速ツール「tsrs」を発表した。 / 従来のコンパイラと比較して最大8倍高速かつ約70%少ないメモリ消費を実現し、WASM上でも動作する。 / 今後はLanguage Server Protocolを含むTypeScriptの全機能を単一パッケージでサポートする予定となっている。 (Source: Publickey)</description>
+      <pubDate>Wed, 21 Oct 2026 15:42:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>高市総理「大至急、PHPパッチ適用を」Xで異例の要請　エンジニアは評価「経営層に伝わる」</title>
+      <link>https://www.itmedia.co.jp/news/article/2610/22/2000002483/</link>
+      <guid isPermaLink="false">https://www.itmedia.co.jp/news/article/2610/22/2000002483/</guid>
+      <description>[Score: 86] 高市首相が自身のXでPHPの深刻な脆弱性に対する速やかなパッチ適用を呼びかけ、一時的なサイト停止も選択肢として提示した。 / 一国の首相が特定のソフトウェア脆弱性についてSNSで直接警告を発するのは極めて異例の事態となった。 / 経営層へのリスク認知や現場の緊急メンテナンス判断を後押しする動きとして技術者から評価されている。 (Source: はてなブックマーク)</description>
+      <pubDate>Wed, 21 Oct 2026 22:16:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Railwayのセキュリティ情報開示：環境変数の漏洩リスクとデプロイの一時停止</title>
+      <link>https://blog.railway.com/p/security-disclosure-wednesday-october-21st</link>
+      <guid isPermaLink="false">https://blog.railway.com/p/security-disclosure-wednesday-october-21st</guid>
+      <description>[Score: 85] PaaS提供のRailwayは顧客の環境変数を保管するシステムで不審な活動を検知したと発表しました。 / 第三者が暗号化された環境変数にアクセスし一部が復号された可能性があり、APIキー等の漏洩が懸念されます。 / AI推論企業を標的とした攻撃の一環と見られ、ユーザーへ認証情報のローテーションとログ確認を求めています。 (Source: Hacker News)</description>
+      <pubDate>Wed, 21 Oct 2026 21:58:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meta、ニューメキシコ州のケンブリッジ・アナリティカ訴訟で250億ドルの制裁金支払いを命じられる</title>
+      <link>https://www.reddit.com/r/technology/comments/1xbtfk5/meta_ordered_to_pay_25_billion_penalty_in_new/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xbtfk5/meta_ordered_to_pay_25_billion_penalty_in_new/</guid>
+      <description>[Score: 85] 米ニューメキシコ州の裁判所が、ケンブリッジ・アナリティカ事件に関連してMetaに対し約250億ドルという巨額の制裁金支払いを命じた。 / 過去のデータ不正利用スキャンダルに関するプライバシー侵害責任を追及した判決である。 / IT大手に対するデータ保護やプライバシー規制の罰則として前例のない規模であり、業界全体に大きな波紋を呼んでいる。 (Source: Reddit)</description>
+      <pubDate>Wed, 21 Oct 2026 17:24:10 +0000</pubDate>
     </item>
     <item>
       <title>AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表</title>
       <link>https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html</guid>
-      <description>[Score: 88] AWSはLambda上でNext.jsやHonoなどのNode.jsアプリをそのままデプロイできる新機能を発表しました。 / 従来必要だったアダプターを介さずにNode.js相当のWebサーバー機能を利用して直接実行可能です。 / これに伴い従来のイベント駆動型Lambda関数は「Lambda Event Functions」と呼称が整理されます。 (Source: Publickey)</description>
+      <description>[Score: 85] AWSはLambda上でNode.jsフレームワークをそのまま実行できる新機能「AWS Lambda Web Functions」を発表しました。 / 従来はアダプターが必要だったNext.js、Express、Honoなどのアプリを直接デプロイして動かせるようになります。 / これに伴い、従来のイベント駆動型関数は「Lambda Event Functions」と呼ばれるようになります。 (Source: Publickey)</description>
       <pubDate>Mon, 19 Oct 2026 15:49:22 +0000</pubDate>
     </item>
     <item>
-      <title>Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性</title>
-      <link>https://www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html</guid>
-      <description>[Score: 88] Linuxカーネルに仮想マシンからホスト側OSを侵害できる「PwnEscape」脆弱性が報告された。 / CVSSスコア9.3のCriticalに分類され、IPv4ヘッダー検証の不備を突くものとされる。 / 攻撃者がゲストVMから境界を越えてホストのメモリ領域を操作できる危険性がある。 (Source: Publickey)</description>
-      <pubDate>Sat, 17 Oct 2026 15:27:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>今日から使える AI との会話術 — Claude・Gemini・Codex に指示を守らせる 6 つの原則【2026年版】</title>
-      <link>https://qiita.com/songchong/items/351a939e2e1b673c2929?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/songchong/items/351a939e2e1b673c2929?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 86] Claude Code、Codex、Antigravity等のAIエージェントに指示を遵守させるための原則を解説。 / AGENTS.md等の指示ファイルの認識挙動やファイルサイズ上限の違いを実験データに基づいて検証。 / 指示ファイルの配置場所や容量の最適化など、AIコーディングを安定させる実践的知見を提示している。 (Source: Qiita)</description>
-      <pubDate>Sun, 18 Oct 2026 15:40:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>米当局、身代金交渉人がハッカー集団ShinyHuntersの恐喝サイトを運営していた疑いで捜査</title>
-      <link>https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/</link>
-      <guid isPermaLink="false">https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/</guid>
-      <description>[Score: 85] FBI等の機密データを窃取した著名ハッカー集団ShinyHuntersに対し、米連邦当局が本格的な捜査を進めている。 / ランサムウェア交渉企業の幹部が同集団と密接に関わり、被害者に身代金を強要するサイトの運営を手助けした疑惑が浮上した。 / 被害者支援を担うはずの交渉会社側が恐喝に加担していた可能性が指摘され、業界に大きな衝撃を与えている。 (Source: Hacker News)</description>
-      <pubDate>Tue, 20 Oct 2026 22:21:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google、TPU向けネイティブPyTorchバックエンド「TorchTPU」をオープンソース化</title>
-      <link>https://github.com/google-pytorch/torch_tpu</link>
-      <guid isPermaLink="false">https://github.com/google-pytorch/torch_tpu</guid>
-      <description>[Score: 85] GoogleがTPU上でPyTorchモデルや演算をネイティブ実行可能にする「TorchTPU」をOSS化 / カスタムATenカーネルや実行最適化用コンパイルキャッシュ、分散学習の例などを提供 / Python 3.11以上に対応し、TPU VM環境等で簡単に利用可能 (Source: Hacker News)</description>
-      <pubDate>Tue, 20 Oct 2026 16:40:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>次世代の開発者インターフェースは「アンビエント・インテリジェンス」</title>
-      <link>https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/</link>
-      <guid isPermaLink="false">https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/</guid>
-      <description>[Score: 85] 開発者がコマンドやツールに合わせて思考を適応させていた従来の開発スタイルをAIが根本から変えつつある。 / Copilotはリポジトリの理解やツール実行、テスト修正などを自律的に行い、開発者の意図を直接実行可能な形へと変換する。 / 開発者の役割はツールの操作から方向性の提示、制約の定義、そして結果の検証へと高度にシフトしていく。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 15 Oct 2026 19:39:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>GitHub稼働状況レポート：2026年9月</title>
-      <link>https://github.blog/news-insights/company-news/github-availability-report-september-2026/</link>
-      <guid isPermaLink="false">https://github.blog/news-insights/company-news/github-availability-report-september-2026/</guid>
-      <description>[Score: 85] GitHubは共有データベースの負荷軽減やAzureへの本番ワークロード移行を進め、読み取りトラフィックの多くをAzureへ移管しました。 / 移行目標の未達や可用性ゾーン間のキャパシティ不均衡によるデプロイ一時停止など、進行中の課題も報告されています。 / 計画フェイルオーバー時の自動緊急プロセス不具合への対処など、システム信頼性向上のための継続的な取り組みが詳述されています。 (Source: GitHub Blog)</description>
-      <pubDate>Wed, 14 Oct 2026 20:01:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Voxtral 3</title>
-      <link>https://mistral.ai/news/voxtral-3/</link>
-      <guid isPermaLink="false">https://mistral.ai/news/voxtral-3/</guid>
-      <description>[Score: 84] Mistral AIがリアルタイムな多言語音声エージェント開発基盤「Voxtral 3」を発表した。 / 50以上の言語に対応し、高精度な文字起こし、感情適応可能な音声合成、高度なツール連携を備える。 / 欧州ホストのAPIまたはセルフデプロイに対応し、データ主権を維持しつつ低遅延な対話を実現する。 (Source: Hacker News)</description>
-      <pubDate>Tue, 20 Oct 2026 16:02:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codexでゲームを作っていたら、小さなAI開発組織を回す実験になった</title>
-      <link>https://qiita.com/Masato_Iwasaki/items/7e5241176f3eead2a2f5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/Masato_Iwasaki/items/7e5241176f3eead2a2f5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 82] Codexを活用したブラウザゲーム開発において、AIに複数の役割を割り振る組織化を試行。 / 指示文の肥大化を防ぐため、実装・レビュー・進行役に分担させSprint形式で開発を推進。 / AGENTS.mdなどを活用したルール共通化により、自律的なマルチエージェント的開発環境を構築した。 (Source: Qiita)</description>
-      <pubDate>Mon, 19 Oct 2026 08:33:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など</title>
-      <link>https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html</guid>
-      <description>[Score: 82] CloudflareはAIを活用した業務プラットフォーム「Cloudflare OS」のマネージドサービスを発表しました。 / 一般的なOSではなく社内データや各種外部サービスと連携しAIが安全に作業するための基盤を提供します。 / AIエージェントが動作するワークスペースを備え、GitHubやGmailなどとの連携強化が進められています。 (Source: Publickey)</description>
-      <pubDate>Tue, 20 Oct 2026 15:10:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Evergreenの維持：共有組織における安全なアクセス管理とリポジトリ運用の自動化</title>
+      <title>Evergreenを維持する：共有組織における安全なアクセスとリポジトリ運用の自動化手法</title>
       <link>https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/</link>
       <guid isPermaLink="false">https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/</guid>
-      <description>[Score: 80] 外部パートナーが参加する共有組織において、アクセス権限の棚卸しやリポジトリの整理作業の肥大化が課題となっていた。 / GitHub Appとネイティブ機能を連携させた「Evergreen」を構築し、アクセス権の見直しとアーカイブ処理を自動化した。 / 「フェイルセキュア」と「データ非破壊」を原則とし、Go言語製の軽量なWebhookサーバーで安全に運用されている。 (Source: GitHub Blog)</description>
+      <description>[Score: 82] GitHubは社外コラボレーターとの共同作業に伴うアクセス権限やリポジトリ管理の手間を解決するGitHub App「Evergreen」を開発しました。 / 「応答がなければ権限を取り消す安全優先」と「完全削除はせず復元可能にする」という2大原則に基づき運用されています。 / Go製のWebhookサーバーと標準GitHub機能の組み合わせで、組織のリポジトリ衛生管理を安全に自動化しています。 (Source: GitHub Blog)</description>
       <pubDate>Thu, 15 Oct 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitLabの重大なセキュリティパッチリリース</title>
+      <link>https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/</link>
+      <guid isPermaLink="false">https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/</guid>
+      <description>[Score: 80] GitLabはCEおよびEE向けに複数の重要バグと脆弱性を修正する緊急セキュリティパッチをリリースしました。 / GitLab.comでは対応済みですが、セルフマネージド環境の全管理者に対して即時アップグレードが強く推奨されています。 / パッチ適用の詳細な問題内容は、リリース後90日を経てイシュートラッカーで公開される方針です。 (Source: Hacker News)</description>
+      <pubDate>Wed, 21 Oct 2026 19:01:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>GoogleのRustスタイルガイド</title>
+      <link>https://google.github.io/styleguide/rustguide.html</link>
+      <guid isPermaLink="false">https://google.github.io/styleguide/rustguide.html</guid>
+      <description>[Score: 78] Googleは社内向けに策定・運用しているRust言語の公式スタイルガイドを公開しました。 / コードフォーマットにとどまらず、API設計や実装方針、大規模コード変更（LSC）への最適化指針を網羅しています。 / AndroidやChromeOSなど大規模プロジェクトでの長期的なコード保守性と品質向上を目的としています。 (Source: Hacker News)</description>
+      <pubDate>Wed, 21 Oct 2026 19:11:57 +0000</pubDate>
     </item>
     <item>
       <title>AI時代の開発プロセスとチームのあり方を考える</title>
       <link>https://qiita.com/kizuku_tabata/items/6d5b58ad0cb832d2a4c5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/kizuku_tabata/items/6d5b58ad0cb832d2a4c5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 78] AIコーディングツールの台頭に伴う開発プロセスやチーム体制の変化について考察。 / 事前に仕様を固める従来手法から、動くプロトタイプを迅速に反復改善する進め方への移行を提示。 / 実装コストの低下により、次に作るものの選定やレビューの質など上流・横断的な意思決定の重要性を説く。 (Source: Qiita)</description>
+      <description>[Score: 78] Claude CodeなどのAIコーディングツール活用が浸透する中での開発プロセスの変化を考察。 / 設計を詰めてから実装する従来型から、まずAIで動くものを作って検証・設計する流れへのシフトを指摘。 / 実装コストの低下に伴い、何を作るかの意思決定や成果物の検証、チーム運用の重要性が高まっていると述べている。 (Source: Qiita)</description>
       <pubDate>Tue, 20 Oct 2026 04:15:47 +0000</pubDate>
     </item>
     <item>
-      <title>PHPニュースアーカイブ - 2026年</title>
-      <link>https://www.php.net/archive/2026.php</link>
-      <guid isPermaLink="false">https://www.php.net/archive/2026.php</guid>
-      <description>[Score: 78] PHPセキュリティチームがCVSS 9.2の致命的な脆弱性2件に対処する緊急セキュリティリリースを事前告知しました。 / 同時にPHP 8.6.0のリリース候補版であるRC3がテスト向けに公開され、GitHub Issuesで報告を募っています。 / 次回リリース候補のRC4は2026年10月22日に計画されています。 (Source: はてなブックマーク)</description>
-      <pubDate>Tue, 20 Oct 2026 20:54:34 +0000</pubDate>
+      <title>マイクロソフト、.NETのツールチェーンマネージャ「dotnetup」プレビュー公開。複数バージョンの.NET環境を管理可能</title>
+      <link>https://www.publickey1.jp/blog/26/netdotnetupnet.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/netdotnetupnet.html</guid>
+      <description>[Score: 78] マイクロソフトは、.NETのツール群やランタイムを一括管理できる「dotnetup」のパブリックプレビューを公開しました。 / RustのrustupやNode.jsのnvmと同様に、単一コマンドでの環境構築や複数バージョンの切り替えに対応します。 / プロジェクトごとのバージョン管理が容易になり、.NET開発者の開発体験向上が期待されます。 (Source: Publickey)</description>
+      <pubDate>Sun, 18 Oct 2026 15:35:52 +0000</pubDate>
     </item>
     <item>
-      <title>AWS Transform、Azure Functions用のコードをAWS Lambda用に変換など、Microsoft AzureからAWSへの移行に対応</title>
-      <link>https://www.publickey1.jp/blog/26/aws_transformazure_functionsaws_lambdamicrosoft_azureaws.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aws_transformazure_functionsaws_lambdamicrosoft_azureaws.html</guid>
-      <description>[Score: 78] AWSはAzure SDKで書かれた.NETコードをAWS SDK仕様に変換する新機能を発表した。 / Azure FunctionsやBlob StorageをAWS LambdaやS3などの同等サービスへ自動置換する。 / 直接置換できない部分はToDoコメントやスタブコードで補うことで移行を支援する。 (Source: Publickey)</description>
-      <pubDate>Mon, 19 Oct 2026 15:47:48 +0000</pubDate>
+      <title>LLMを用いた多目的強化学習によるパレート最適なRTLコード生成</title>
+      <link>https://arxiv.org/abs/2610.26904</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.26904</guid>
+      <description>[Score: 78] 大規模言語モデルと多目的強化学習を連携させ、ハードウェア記述言語であるRTLコードを生成する手法を提案しています。 / 面積、遅延、消費電力などトレードオフが存在する複数の設計目標においてパレート最適なコードを探索します。 / ハードウェア回路設計プロセスの自動化と最適化を大幅に効率化する可能性を示しています。 (Source: arXiv cs.AI)</description>
+      <pubDate>Wed, 21 Oct 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>より少ないリソースで成果を：代替アーキテクチャと比較したエージェントコンピューティング適合性の第一原理的探求</title>
-      <link>https://arxiv.org/abs/2610.23921</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.23921</guid>
-      <description>[Score: 77] 自律型エージェントアーキテクチャの妥当性を、第一原理に基づいて従来の代替手法と比較検証しています。 / 複雑なタスクにおいてエージェント型アプローチが真に有効となる条件や境界線を理論的に整理しています。 / 過度なエージェント化を避け、最適なシステム設計を選択するための指針を提供します。 (Source: arXiv cs.AI)</description>
-      <pubDate>Tue, 20 Oct 2026 04:00:00 +0000</pubDate>
+      <title>EKS に Graviton を導入して、arm64 と amd64 を混ぜて運用を始めました</title>
+      <link>https://zenn.dev/socialplus/articles/eks-graviton-arm64-migration</link>
+      <guid isPermaLink="false">https://zenn.dev/socialplus/articles/eks-graviton-arm64-migration</guid>
+      <description>[Score: 76] Amazon EKS上のRails運用環境にAWS Graviton（arm64）を導入し、amd64と併用するハイブリッド構成を実現した。 / Spotインスタンスの選択肢を増やすことで空き容量不足リスクを抑え、インフラコストのさらなる最適化を達成している。 / コンテナイメージのマルチアーキテクチャビルド対応など、移行に伴うCI/CDパイプラインの知見が共有されている。 (Source: Zenn)</description>
+      <pubDate>Wed, 21 Oct 2026 03:00:07 +0000</pubDate>
     </item>
     <item>
-      <title>3人のJava Championが生産性向上のためにGitHub Copilotを活用する方法</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/</link>
-      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/</guid>
-      <description>[Score: 76] 10年以上の経験を持つJava ChampionたちによるGitHub Copilotの実践的な活用手法を紹介している。 / 数週間かかる予定だった新機能の設計や実装をわずか2日間に短縮した具体的なオープンソース事例が示された。 / AIがコードを迅速に生成してもコンテキストの提供や品質・保守性の担保といった人間の責任が重要であると説く。 (Source: GitHub Blog)</description>
-      <pubDate>Tue, 20 Oct 2026 16:05:03 +0000</pubDate>
+      <title>MedPAO-Assist：放射線レポート構造化のためのエッジ展開可能なモダリティ対応エージェント型AI</title>
+      <link>https://arxiv.org/abs/2610.26913</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.26913</guid>
+      <description>[Score: 76] 放射線科の診断レポートを構造化データへ変換するエージェント型AIシステム「MedPAO-Assist」を提案しています。 / 各種画像モダリティの特性を認識しつつ、医療現場のエッジデバイス上で直接動作可能な軽量設計を採用しています。 / 患者プライバシーを保護しながら、医療文書作成の効率化とデータ活用を支援するソリューションです。 (Source: arXiv cs.AI)</description>
+      <pubDate>Wed, 21 Oct 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Go の依存管理は、最後は Google を信じるしかないのか？</title>
-      <link>https://zenn.dev/shiro_kuma_san/articles/a83ae3d82d26dc</link>
-      <guid isPermaLink="false">https://zenn.dev/shiro_kuma_san/articles/a83ae3d82d26dc</guid>
-      <description>[Score: 75] Goの依存管理におけるgo.sumやchecksum databaseの仕組みと歴史的経緯を深掘り検証 / 従来のlockファイル方式からchecksum databaseによる一元検証に至った背景を解説 / Googleが運用する公開台帳の信頼性とセキュリティ検証の仕組みを論理的に考察 (Source: Zenn)</description>
-      <pubDate>Tue, 20 Oct 2026 05:30:07 +0000</pubDate>
+      <title>Amazon Bedrock Guardrails を AnswerCarefully で試してみた</title>
+      <link>https://zenn.dev/aws_japan/articles/bedrock-guardrails-japanese-tier</link>
+      <guid isPermaLink="false">https://zenn.dev/aws_japan/articles/bedrock-guardrails-japanese-tier</guid>
+      <description>[Score: 75] Amazon Bedrock Guardrailsの日本語対応であるStandard Tierのフィルタリング精度を安全性データセットで検証した。 / 有害な質問を正しく遮断できる割合と、回答可能な質問を誤って遮断してしまう過剰ブロックの発生傾向を測定している。 / 日本語環境で運用する際にはClassicではなくStandard Tierとクロスリージョン推論の明示的指定が必須であることが示されている。 (Source: Zenn)</description>
+      <pubDate>Wed, 21 Oct 2026 05:08:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など</title>
+      <link>https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html</guid>
+      <description>[Score: 75] CloudflareはAIを活用した業務プラットフォーム「Cloudflare OS」のマネージドサービスを発表した。 / 社内データや各種LLMサービスと安全に連携できるセキュリティ機能を備え、エージェントワークスペースを提供する。 / GitHubやGmailなど日常的な業務ツールとの接続を強化し、業務自動化の基盤として展開が進められている。 (Source: Publickey)</description>
+      <pubDate>Tue, 20 Oct 2026 15:10:05 +0000</pubDate>
     </item>
   </channel>
 </rss>
