@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 22 Oct 2026 00:40:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 00:36:41 +0000</lastBuildDate>
     <item>
-      <title>修正予告されたPHPの2件の深刻な脆弱性についてまとめてみた - piyolog</title>
-      <link>https://piyolog.hatenadiary.jp/entry/2026/10/21/174516</link>
-      <guid isPermaLink="false">https://piyolog.hatenadiary.jp/entry/2026/10/21/174516</guid>
-      <description>[Score: 95] PHPにて認証不要でリモートコード実行につながる2件の深刻な脆弱性が修正された。 / Webリクエストを処理する広範な環境が影響を受け、深刻度はCVSS v4.0で9.2と極めて高い。 / 情報漏えいやPoCの出回りを受けて早期にパッチが公開され、IPAや政府も注意喚起を行った。 (Source: はてなブックマーク)</description>
-      <pubDate>Wed, 21 Oct 2026 08:57:42 +0000</pubDate>
+      <title>LLMにより大規模なソフトウェア形式検証が可能に</title>
+      <link>https://www.anthropic.com/research/formal-verification</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/formal-verification</guid>
+      <description>[Score: 88] Anthropicの研究チームが、LLMを活用してRISC-Vアセンブリコードレベルで100以上のOSSの大規模形式検証に成功した。 / これまで膨大な専門知識と時間を要した形式手法がLLMによって現実的なコストで適用可能となり、長年見逃されていたバグも発見された。 / AIによる脆弱性悪用が進む中、ソフトウェアの無欠陥を数学的に証明する新たなセキュア開発ワークフローとして期待される。 (Source: Hacker News)</description>
+      <pubDate>Thu, 22 Oct 2026 22:54:43 +0000</pubDate>
     </item>
     <item>
-      <title>8ビットの信頼：eMudhraのCA秘密鍵がミリ秒単位で解読される</title>
-      <link>https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/</link>
-      <guid isPermaLink="false">https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/</guid>
-      <description>[Score: 92] 大手認証局eMudhraの中間CA証明書において、秘密鍵が「4」などの極めて小さい数値で生成されていたことが発覚した。 / 公開証明書から数ミリ秒で秘密鍵を特定できる状態で、主要ブラウザベンダーが即座に無効化措置を実施した。 / PKIの信頼基盤を揺るがす初歩的かつ致命的な暗号鍵生成ミスであり、業界に大きな波紋を広げている。 (Source: Hacker News)</description>
-      <pubDate>Wed, 21 Oct 2026 09:08:08 +0000</pubDate>
+      <title>PHP脆弱性php2shell対応、7.4本番を止めずに守った夜と実際の攻撃</title>
+      <link>https://qiita.com/kenimo49/items/30f290bf0f4fff021fb3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/kenimo49/items/30f290bf0f4fff021fb3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 85] サポート終了済みのPHP 7.4稼働環境における重大な任意コード実行脆弱性への対応事例を解説している。 / サービス停止を選択せず、WAFによる制限とphp.ini設定の調整という暫定策で侵入経路を遮断した。 / 対策直後に実際の攻撃リクエストを観測したリアルな対応タイムラインと技術的判断を記録している。 (Source: Qiita)</description>
+      <pubDate>Wed, 21 Oct 2026 17:15:15 +0000</pubDate>
     </item>
     <item>
-      <title>本日のPHPセキュリティリリースと、セキュリティ強化への取り組み</title>
-      <link>https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/</link>
-      <guid isPermaLink="false">https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/</guid>
-      <description>[Score: 90] PHP Foundationは未認証でRCEにつながる恐れがある2件の致命的脆弱性を修正するパッチをリリースしました。 / メモリ管理やエラー処理といったコア機構に関わる問題であり、全ユーザーに即時アップデートが強く推奨されています。 / 外部監査を通じた発見の経緯や、今後のエコシステム全体のセキュリティ体制強化についても説明されています。 (Source: Hacker News)</description>
-      <pubDate>Wed, 21 Oct 2026 15:48:56 +0000</pubDate>
+      <title>DNSリゾルバ「Quad9」、フランス市場からの撤退を発表</title>
+      <link>https://quad9.net/news/blog/au-revoir-france/</link>
+      <guid isPermaLink="false">https://quad9.net/news/blog/au-revoir-france/</guid>
+      <description>[Score: 82] フランスの裁判所がbeINの訴えを認め、特定ドメインの再帰的DNS解決ブロックをQuad9に命じる判決を下した。 / Quad9はDNS応答の改ざんは原則に反し、プライバシー保護の使命とも矛盾するとして判決に従わない判断を下した。 / この結果、同社は2024年11月24日をもってフランス国内のユーザー向け無料サイバー保護サービスの提供を終了する。 (Source: Hacker News)</description>
+      <pubDate>Thu, 22 Oct 2026 14:32:38 +0000</pubDate>
     </item>
     <item>
-      <title>PyPIで侵害されたLiteLLM 1.107.0が認証情報窃取ツールとバックドアをインストール</title>
-      <link>https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/</link>
-      <guid isPermaLink="false">https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/</guid>
-      <description>[Score: 90] PyPI上に公開されたLiteLLM 1.107.0に認証情報窃取機能とRCEバックドアが混入していたことが判明した。 / Pythonプロセス起動時に自動実行される細工が仕込まれており、問題のバージョンは既にPyPIから削除された。 / 人気ライブラリを標的としたサプライチェーン攻撃であり、利用者は直ちに対策済みバージョンへの更新が必要となる。 (Source: Hacker News)</description>
-      <pubDate>Wed, 21 Oct 2026 14:00:26 +0000</pubDate>
+      <title>OpenShell：自律型AIエージェント群のための安全でセキュアなランタイム</title>
+      <link>https://github.com/NVIDIA/OpenShell</link>
+      <guid isPermaLink="false">https://github.com/NVIDIA/OpenShell</guid>
+      <description>[Score: 80] NVIDIAが自律型AIエージェント群を安全に実行・管理するためのオープンソースランタイム「OpenShell」を公開した。 / エージェントに対してファイルアクセスやAPI実行などを許可しつつ、カーネルレベルの制御と形式検証により不正アクセスを防ぐ。 / 開発者は最小権限ポリシーを宣言するだけで、機密データやネットワークを保護しながらエージェントを自律動作させられる。 (Source: Hacker News)</description>
+      <pubDate>Thu, 22 Oct 2026 17:44:06 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic、IPOを控える2026年上半期に807億ドルという驚愕の純損失を計上</title>
-      <link>https://www.reddit.com/r/technology/comments/1xbjr1n/anthropic_posts_staggering_807_billion_net_loss/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xbjr1n/anthropic_posts_staggering_807_billion_net_loss/</guid>
-      <description>[Score: 88] AIスタートアップ大手のAnthropicが、IPOを控える中で巨額の純損失を計上したことが報じられた。 / 基盤モデル開発や膨大な計算インフラへの投資が背景にあり、AI開発競争の激しさと巨額の資本投下を浮き彫りにしている。 / 生成AIビジネスの収益化の道筋とIPOにおける企業評価のあり方に大きな注目が集まっている。 (Source: Reddit)</description>
-      <pubDate>Wed, 21 Oct 2026 10:42:38 +0000</pubDate>
+      <title>【2026年版】AIを駆使した開発手法をざっくりまとめてみた</title>
+      <link>https://qiita.com/kobori_slj/items/b9683ce90f4c26a6e7ae?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/kobori_slj/items/b9683ce90f4c26a6e7ae?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 76] 急速に進化・多様化するAIを活用した最新の開発手法を体系的に整理している。 / 手法をプロンプト、コンテキスト、ハーネス（実行環境全体）の3つの包含レイヤーに分類して解説する。 / バイブコーディングや仕様駆動開発など、目的や状況に応じた使い分けの全体像を提示している。 (Source: Qiita)</description>
+      <pubDate>Tue, 20 Oct 2026 12:39:49 +0000</pubDate>
     </item>
     <item>
-      <title>Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート予定</title>
-      <link>https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html</guid>
-      <description>[Score: 88] CloudflareがTypeScriptコンパイラをRust言語へ移植した高速ツール「tsrs」を発表した。 / 従来のコンパイラと比較して最大8倍高速かつ約70%少ないメモリ消費を実現し、WASM上でも動作する。 / 今後はLanguage Server Protocolを含むTypeScriptの全機能を単一パッケージでサポートする予定となっている。 (Source: Publickey)</description>
-      <pubDate>Wed, 21 Oct 2026 15:42:36 +0000</pubDate>
+      <title>身に覚えのないCash App口座により女性が6年の懲役刑の危機に</title>
+      <link>https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html</link>
+      <guid isPermaLink="false">https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html</guid>
+      <description>[Score: 72] 米ペンシルベニア州の女性が、他人に開設された不正なCash App口座により詐欺犯と誤認され逮捕された。 / 社会保障番号などの盗難情報で口座が作られ詐欺に利用されたが、同社は本人確認が取れないとして情報提供を拒否していた。 / デジタルID盗難の被害者が自白も証拠もないまま誤認逮捕され、最大6年の禁錮刑に直面するという深刻な問題が浮き彫りになった。 (Source: Hacker News)</description>
+      <pubDate>Thu, 22 Oct 2026 13:11:00 +0000</pubDate>
     </item>
     <item>
-      <title>高市総理「大至急、PHPパッチ適用を」Xで異例の要請　エンジニアは評価「経営層に伝わる」</title>
-      <link>https://www.itmedia.co.jp/news/article/2610/22/2000002483/</link>
-      <guid isPermaLink="false">https://www.itmedia.co.jp/news/article/2610/22/2000002483/</guid>
-      <description>[Score: 86] 高市首相が自身のXでPHPの深刻な脆弱性に対する速やかなパッチ適用を呼びかけ、一時的なサイト停止も選択肢として提示した。 / 一国の首相が特定のソフトウェア脆弱性についてSNSで直接警告を発するのは極めて異例の事態となった。 / 経営層へのリスク認知や現場の緊急メンテナンス判断を後押しする動きとして技術者から評価されている。 (Source: はてなブックマーク)</description>
-      <pubDate>Wed, 21 Oct 2026 22:16:49 +0000</pubDate>
+      <title>【Opus 級？】Jev でエンジニアとプロジェクトをマッチング ― LLM・埋め込みモデルと比較</title>
+      <link>https://qiita.com/akimasanishida/items/8d965a85f2aac8ebcb12?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/akimasanishida/items/8d965a85f2aac8ebcb12?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 72] 社内アサインマッチングにおいて、確率付き回答を返すモデルJevの有効性を検証している。 / Claude Opus 5.5の評価を正解データとし、レイテンシや精度、コストの観点で比較実験を行った。 / Jevは文章生成を行わない特化型アプローチにより、低遅延かつ高精度な判定結果を示した。 (Source: Qiita)</description>
+      <pubDate>Thu, 22 Oct 2026 02:34:34 +0000</pubDate>
     </item>
     <item>
-      <title>Railwayのセキュリティ情報開示：環境変数の漏洩リスクとデプロイの一時停止</title>
-      <link>https://blog.railway.com/p/security-disclosure-wednesday-october-21st</link>
-      <guid isPermaLink="false">https://blog.railway.com/p/security-disclosure-wednesday-october-21st</guid>
-      <description>[Score: 85] PaaS提供のRailwayは顧客の環境変数を保管するシステムで不審な活動を検知したと発表しました。 / 第三者が暗号化された環境変数にアクセスし一部が復号された可能性があり、APIキー等の漏洩が懸念されます。 / AI推論企業を標的とした攻撃の一環と見られ、ユーザーへ認証情報のローテーションとログ確認を求めています。 (Source: Hacker News)</description>
-      <pubDate>Wed, 21 Oct 2026 21:58:03 +0000</pubDate>
+      <title>Dockerの奇妙な内部構造</title>
+      <link>https://codeandcake.dev/posts/2026-10-22-docker-is-weird</link>
+      <guid isPermaLink="false">https://codeandcake.dev/posts/2026-10-22-docker-is-weird</guid>
+      <description>[Score: 68] 自作コンテナランタイムを開発した著者が、DockerやLinuxコンテナの意外な仕組みと裏側について解説している。 / コンテナは独立したVMではなく、namespacesやcgroupsなど複数のカーネル機能を組み合わせた単なる制限付きプロセスである。 / 低レベルランタイムのruncがGo言語で書かれているため、Goのマルチスレッド仕様とシステムコール要件の衝突をC言語モジュールで解決している実態などを紹介する。 (Source: Hacker News)</description>
+      <pubDate>Thu, 22 Oct 2026 23:45:56 +0000</pubDate>
     </item>
     <item>
-      <title>Meta、ニューメキシコ州のケンブリッジ・アナリティカ訴訟で250億ドルの制裁金支払いを命じられる</title>
-      <link>https://www.reddit.com/r/technology/comments/1xbtfk5/meta_ordered_to_pay_25_billion_penalty_in_new/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xbtfk5/meta_ordered_to_pay_25_billion_penalty_in_new/</guid>
-      <description>[Score: 85] 米ニューメキシコ州の裁判所が、ケンブリッジ・アナリティカ事件に関連してMetaに対し約250億ドルという巨額の制裁金支払いを命じた。 / 過去のデータ不正利用スキャンダルに関するプライバシー侵害責任を追及した判決である。 / IT大手に対するデータ保護やプライバシー規制の罰則として前例のない規模であり、業界全体に大きな波紋を呼んでいる。 (Source: Reddit)</description>
-      <pubDate>Wed, 21 Oct 2026 17:24:10 +0000</pubDate>
+      <title>古くさいと思っていた報連相を、PMになってから今一度考えた話</title>
+      <link>https://qiita.com/fe1ix/items/d78130c065835a6343a5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/fe1ix/items/d78130c065835a6343a5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 68] PM就任とAIとの並行作業を通じて、従来の報連相の真の価値を再考した体験談を述べている。 / 「いつでも相談して」という丸投げが情報滞留を招く原因であると気づき、情報受け取り側の責任に着目した。 / 結論・アクション・状況・細部の4要素で報告形式をテンプレート化し、人間とAI双方の業務効率化を実現した。 (Source: Qiita)</description>
+      <pubDate>Tue, 20 Oct 2026 01:03:59 +0000</pubDate>
     </item>
     <item>
-      <title>AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表</title>
-      <link>https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html</guid>
-      <description>[Score: 85] AWSはLambda上でNode.jsフレームワークをそのまま実行できる新機能「AWS Lambda Web Functions」を発表しました。 / 従来はアダプターが必要だったNext.js、Express、Honoなどのアプリを直接デプロイして動かせるようになります。 / これに伴い、従来のイベント駆動型関数は「Lambda Event Functions」と呼ばれるようになります。 (Source: Publickey)</description>
-      <pubDate>Mon, 19 Oct 2026 15:49:22 +0000</pubDate>
+      <title>すべてのAIモデルが「人間」に対して同じ物議を醸す見解を持っている</title>
+      <link>https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans</link>
+      <guid isPermaLink="false">https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans</guid>
+      <description>[Score: 65] 主要10組織のAIモデルに「人間に対する最も議論を呼ぶ見解」を尋ねたところ、大半が「人間は真実より帰属を重視する」と回答した。 / 複数のラボ・国のモデルが「同調圧力」「集団への忠誠心」「後付けの正当化」といった共通の人間観を提示する傾向が見られた。 / 一方で、Claudeなど一部モデルは「人間は自覚しているよりもずっと親切である」という逆の見解を提示した例も確認されている。 (Source: Hacker News)</description>
+      <pubDate>Thu, 22 Oct 2026 16:08:00 +0000</pubDate>
     </item>
     <item>
-      <title>Evergreenを維持する：共有組織における安全なアクセスとリポジトリ運用の自動化手法</title>
-      <link>https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/</link>
-      <guid isPermaLink="false">https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/</guid>
-      <description>[Score: 82] GitHubは社外コラボレーターとの共同作業に伴うアクセス権限やリポジトリ管理の手間を解決するGitHub App「Evergreen」を開発しました。 / 「応答がなければ権限を取り消す安全優先」と「完全削除はせず復元可能にする」という2大原則に基づき運用されています。 / Go製のWebhookサーバーと標準GitHub機能の組み合わせで、組織のリポジトリ衛生管理を安全に自動化しています。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 15 Oct 2026 18:00:00 +0000</pubDate>
+      <title>テニス解析をピックルボールに使ってみた：四隅の指定でコートの俯瞰表示を補う①</title>
+      <link>https://zenn.dev/nauh_blog/articles/7f19a2f193d15d</link>
+      <guid isPermaLink="false">https://zenn.dev/nauh_blog/articles/7f19a2f193d15d</guid>
+      <description>[Score: 60] テニス映像解析システムTennisProjectをピックルボールの映像に適用する試みを紹介している。 / 自動コート推定のずれに対し、固定カメラ動画の四隅を手動指定して透視変換する処理を追加した。 / OpenCVを用いて俯瞰図への変換行列を算出し、選手の位置を高精度に可視化する手順を解説している。 (Source: Zenn)</description>
+      <pubDate>Thu, 22 Oct 2026 06:31:34 +0000</pubDate>
     </item>
     <item>
-      <title>GitLabの重大なセキュリティパッチリリース</title>
-      <link>https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/</link>
-      <guid isPermaLink="false">https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/</guid>
-      <description>[Score: 80] GitLabはCEおよびEE向けに複数の重要バグと脆弱性を修正する緊急セキュリティパッチをリリースしました。 / GitLab.comでは対応済みですが、セルフマネージド環境の全管理者に対して即時アップグレードが強く推奨されています。 / パッチ適用の詳細な問題内容は、リリース後90日を経てイシュートラッカーで公開される方針です。 (Source: Hacker News)</description>
-      <pubDate>Wed, 21 Oct 2026 19:01:12 +0000</pubDate>
+      <title>「ドパ資料」の作り方</title>
+      <link>https://qiita.com/kikuziro/items/b6a0743b070d7320c36d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/kikuziro/items/b6a0743b070d7320c36d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 55] AI生成記事の増加による読者の飽きに対抗するため、目を引くリッチな資料作成法を提唱している。 / Mermaidやdraw.ioの課題を踏まえ、生成AIで自由度の高いSVG図解を作成するアプローチを紹介する。 / 過度な演出ではなく適度に図を差し込むことで、技術記事の視認性と読了率を高める工夫を解説している。 (Source: Qiita)</description>
+      <pubDate>Wed, 21 Oct 2026 09:04:32 +0000</pubDate>
     </item>
     <item>
-      <title>GoogleのRustスタイルガイド</title>
-      <link>https://google.github.io/styleguide/rustguide.html</link>
-      <guid isPermaLink="false">https://google.github.io/styleguide/rustguide.html</guid>
-      <description>[Score: 78] Googleは社内向けに策定・運用しているRust言語の公式スタイルガイドを公開しました。 / コードフォーマットにとどまらず、API設計や実装方針、大規模コード変更（LSC）への最適化指針を網羅しています。 / AndroidやChromeOSなど大規模プロジェクトでの長期的なコード保守性と品質向上を目的としています。 (Source: Hacker News)</description>
-      <pubDate>Wed, 21 Oct 2026 19:11:57 +0000</pubDate>
+      <title>Getting ready to operate GNU Taler in Germany</title>
+      <link>https://www.taler.net/en/news/2026-13.html</link>
+      <guid isPermaLink="false">https://www.taler.net/en/news/2026-13.html</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Thu, 22 Oct 2026 16:14:31 +0000</pubDate>
     </item>
     <item>
-      <title>AI時代の開発プロセスとチームのあり方を考える</title>
-      <link>https://qiita.com/kizuku_tabata/items/6d5b58ad0cb832d2a4c5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/kizuku_tabata/items/6d5b58ad0cb832d2a4c5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 78] Claude CodeなどのAIコーディングツール活用が浸透する中での開発プロセスの変化を考察。 / 設計を詰めてから実装する従来型から、まずAIで動くものを作って検証・設計する流れへのシフトを指摘。 / 実装コストの低下に伴い、何を作るかの意思決定や成果物の検証、チーム運用の重要性が高まっていると述べている。 (Source: Qiita)</description>
-      <pubDate>Tue, 20 Oct 2026 04:15:47 +0000</pubDate>
+      <title>Run full iOS 16.5 firmware on Android Devices</title>
+      <link>https://github.com/oosexgang/hackios-xnu-kernel</link>
+      <guid isPermaLink="false">https://github.com/oosexgang/hackios-xnu-kernel</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Thu, 22 Oct 2026 15:26:22 +0000</pubDate>
     </item>
     <item>
-      <title>マイクロソフト、.NETのツールチェーンマネージャ「dotnetup」プレビュー公開。複数バージョンの.NET環境を管理可能</title>
-      <link>https://www.publickey1.jp/blog/26/netdotnetupnet.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/netdotnetupnet.html</guid>
-      <description>[Score: 78] マイクロソフトは、.NETのツール群やランタイムを一括管理できる「dotnetup」のパブリックプレビューを公開しました。 / RustのrustupやNode.jsのnvmと同様に、単一コマンドでの環境構築や複数バージョンの切り替えに対応します。 / プロジェクトごとのバージョン管理が容易になり、.NET開発者の開発体験向上が期待されます。 (Source: Publickey)</description>
-      <pubDate>Sun, 18 Oct 2026 15:35:52 +0000</pubDate>
+      <title>Node.jsの2026年10月セキュリティリリースに、手元の50リポジトリとVercel・Cloud Runで対応した</title>
+      <link>https://zenn.dev/yoshinani_dev/articles/0e6513a56eb629</link>
+      <guid isPermaLink="false">https://zenn.dev/yoshinani_dev/articles/0e6513a56eb629</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Thu, 22 Oct 2026 17:52:59 +0000</pubDate>
     </item>
     <item>
-      <title>LLMを用いた多目的強化学習によるパレート最適なRTLコード生成</title>
-      <link>https://arxiv.org/abs/2610.26904</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.26904</guid>
-      <description>[Score: 78] 大規模言語モデルと多目的強化学習を連携させ、ハードウェア記述言語であるRTLコードを生成する手法を提案しています。 / 面積、遅延、消費電力などトレードオフが存在する複数の設計目標においてパレート最適なコードを探索します。 / ハードウェア回路設計プロセスの自動化と最適化を大幅に効率化する可能性を示しています。 (Source: arXiv cs.AI)</description>
-      <pubDate>Wed, 21 Oct 2026 04:00:00 +0000</pubDate>
+      <title>Claude CodeやCodexで並列開発していたら、Macのストレージが残り8GBになったので掃除した</title>
+      <link>https://zenn.dev/yoshinani_dev/articles/0c17dec1c082a1</link>
+      <guid isPermaLink="false">https://zenn.dev/yoshinani_dev/articles/0c17dec1c082a1</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Thu, 22 Oct 2026 17:21:33 +0000</pubDate>
     </item>
     <item>
-      <title>EKS に Graviton を導入して、arm64 と amd64 を混ぜて運用を始めました</title>
-      <link>https://zenn.dev/socialplus/articles/eks-graviton-arm64-migration</link>
-      <guid isPermaLink="false">https://zenn.dev/socialplus/articles/eks-graviton-arm64-migration</guid>
-      <description>[Score: 76] Amazon EKS上のRails運用環境にAWS Graviton（arm64）を導入し、amd64と併用するハイブリッド構成を実現した。 / Spotインスタンスの選択肢を増やすことで空き容量不足リスクを抑え、インフラコストのさらなる最適化を達成している。 / コンテナイメージのマルチアーキテクチャビルド対応など、移行に伴うCI/CDパイプラインの知見が共有されている。 (Source: Zenn)</description>
-      <pubDate>Wed, 21 Oct 2026 03:00:07 +0000</pubDate>
+      <title>自宅サーバーの定期バックアップの失敗に気付かなかった話</title>
+      <link>https://zenn.dev/komorebi_note/articles/d9df64e7e1da82</link>
+      <guid isPermaLink="false">https://zenn.dev/komorebi_note/articles/d9df64e7e1da82</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Thu, 22 Oct 2026 13:11:28 +0000</pubDate>
     </item>
     <item>
-      <title>MedPAO-Assist：放射線レポート構造化のためのエッジ展開可能なモダリティ対応エージェント型AI</title>
-      <link>https://arxiv.org/abs/2610.26913</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.26913</guid>
-      <description>[Score: 76] 放射線科の診断レポートを構造化データへ変換するエージェント型AIシステム「MedPAO-Assist」を提案しています。 / 各種画像モダリティの特性を認識しつつ、医療現場のエッジデバイス上で直接動作可能な軽量設計を採用しています。 / 患者プライバシーを保護しながら、医療文書作成の効率化とデータ活用を支援するソリューションです。 (Source: arXiv cs.AI)</description>
-      <pubDate>Wed, 21 Oct 2026 04:00:00 +0000</pubDate>
+      <title>Rootless Dockerと学ぶSELinux【初心者向け】</title>
+      <link>https://zenn.dev/nexryai/articles/afb828d7dda6b7</link>
+      <guid isPermaLink="false">https://zenn.dev/nexryai/articles/afb828d7dda6b7</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Thu, 22 Oct 2026 11:50:59 +0000</pubDate>
     </item>
     <item>
-      <title>Amazon Bedrock Guardrails を AnswerCarefully で試してみた</title>
-      <link>https://zenn.dev/aws_japan/articles/bedrock-guardrails-japanese-tier</link>
-      <guid isPermaLink="false">https://zenn.dev/aws_japan/articles/bedrock-guardrails-japanese-tier</guid>
-      <description>[Score: 75] Amazon Bedrock Guardrailsの日本語対応であるStandard Tierのフィルタリング精度を安全性データセットで検証した。 / 有害な質問を正しく遮断できる割合と、回答可能な質問を誤って遮断してしまう過剰ブロックの発生傾向を測定している。 / 日本語環境で運用する際にはClassicではなくStandard Tierとクロスリージョン推論の明示的指定が必須であることが示されている。 (Source: Zenn)</description>
-      <pubDate>Wed, 21 Oct 2026 05:08:24 +0000</pubDate>
+      <title>Meta shocked by $25B fine after N.M. refused to join multistate settlement</title>
+      <link>https://www.reddit.com/r/technology/comments/1xcpqjl/meta_shocked_by_25b_fine_after_nm_refused_to_join/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xcpqjl/meta_shocked_by_25b_fine_after_nm_refused_to_join/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
+      <pubDate>Thu, 22 Oct 2026 17:56:08 +0000</pubDate>
     </item>
     <item>
-      <title>「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など</title>
-      <link>https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html</guid>
-      <description>[Score: 75] CloudflareはAIを活用した業務プラットフォーム「Cloudflare OS」のマネージドサービスを発表した。 / 社内データや各種LLMサービスと安全に連携できるセキュリティ機能を備え、エージェントワークスペースを提供する。 / GitHubやGmailなど日常的な業務ツールとの接続を強化し、業務自動化の基盤として展開が進められている。 (Source: Publickey)</description>
-      <pubDate>Tue, 20 Oct 2026 15:10:05 +0000</pubDate>
+      <title>‘This effectively sets Russia far behind in the AI race’: Ukraine is wiping out data centers across the border</title>
+      <link>https://www.reddit.com/r/technology/comments/1xcvqwy/this_effectively_sets_russia_far_behind_in_the_ai/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xcvqwy/this_effectively_sets_russia_far_behind_in_the_ai/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
+      <pubDate>Thu, 22 Oct 2026 21:43:17 +0000</pubDate>
     </item>
   </channel>
 </rss>
