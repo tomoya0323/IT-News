@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 23 Oct 2026 00:36:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 00:34:15 +0000</lastBuildDate>
     <item>
-      <title>LLMにより大規模なソフトウェア形式検証が可能に</title>
-      <link>https://www.anthropic.com/research/formal-verification</link>
-      <guid isPermaLink="false">https://www.anthropic.com/research/formal-verification</guid>
-      <description>[Score: 88] Anthropicの研究チームが、LLMを活用してRISC-Vアセンブリコードレベルで100以上のOSSの大規模形式検証に成功した。 / これまで膨大な専門知識と時間を要した形式手法がLLMによって現実的なコストで適用可能となり、長年見逃されていたバグも発見された。 / AIによる脆弱性悪用が進む中、ソフトウェアの無欠陥を数学的に証明する新たなセキュア開発ワークフローとして期待される。 (Source: Hacker News)</description>
-      <pubDate>Thu, 22 Oct 2026 22:54:43 +0000</pubDate>
+      <title>AIエージェント規模のGitインフラストラクチャへの橋渡し</title>
+      <link>https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/</link>
+      <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/</guid>
+      <description>[Score: 90] GitHubはトラフィック急増とデータセンターの電力制約に対応するため、GitリポジトリのAzure移行を進めている。 / 書き込みのクォーラム直列化方式を変更することで、レイテンシ制約の厳しい最重要リポジトリのクラウド移行を実現。 / データ移行を先行させてリスクを抑えつつ、状態を持たないレプリカなど次世代ストレージ構造への道を開いた。 (Source: GitHub Blog)</description>
+      <pubDate>Wed, 21 Oct 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>進化する脅威：NodeやPythonなどにリモートコード実行をもたらす「http2shell」</title>
+      <link>https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8</link>
+      <guid isPermaLink="false">https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8</guid>
+      <description>[Score: 88] Node.jsやPythonなどの主要環境に影響を与えるリモートコード実行（RCE）の脆弱性「http2shell」が報告されました。 / HTTP/2の実装に関連するセキュリティ欠陥が悪用されることで、サーバーが侵害される危険性があります。 / 多くのバックエンド基盤に採用されている技術スタックに関わるため、早急な対策が求められます。 (Source: Hacker News)</description>
+      <pubDate>Fri, 23 Oct 2026 23:30:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>「PHPなんて使ってるやつが悪い」と言っている輩が一番危ない</title>
+      <link>https://qiita.com/kotowazaman/items/aab621d31a8501617eb4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/kotowazaman/items/aab621d31a8501617eb4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 88] PHPの脆弱性php2shellを契機に、セキュリティを取り巻く構造変化を警告する論考です。 / 従来は高度な技術が必要だったメモリ破壊バグの「武器化」を、AIが短期間で実現する時代になりました。 / 特定言語の問題にとどまらず、C/C++で書かれた世界中のソフトウェア全般に影響するパラダイムシフトだと指摘しています。 (Source: Qiita)</description>
+      <pubDate>Thu, 22 Oct 2026 03:50:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート予定</title>
+      <link>https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html</guid>
+      <description>[Score: 88] Cloudflareが公式チームと連携し、TypeScriptコンパイラをRustへ移植した高速ツール「tsrs」を発表した。 / TypeScript 7と比較して最大70％のメモリ削減と8倍の処理速度向上を実現し、WebAssembly経由でブラウザやエッジ環境でも動作する。 / 将来的にLSPを含む全機能を単一パッケージでサポートし、Oxcツールチェーンにも統合される予定となっている。 (Source: Publickey)</description>
+      <pubDate>Wed, 21 Oct 2026 15:42:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表</title>
+      <link>https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html</guid>
+      <description>[Score: 88] AWSがNode.jsフレームワークをそのまま実行できる新機能「AWS Lambda Web Functions」を発表しました。 / 従来必要だったアダプターを介さずに、Next.jsやHono、ExpressなどのWebアプリを直接デプロイ可能です。 / これに伴い従来のイベント駆動型Lambda関数は「Lambda Event Functions」と呼称されます。 (Source: Publickey)</description>
+      <pubDate>Mon, 19 Oct 2026 15:49:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kimi K3.1 Pro および K3.1 Pro Highspeed</title>
+      <link>https://www.kimi.ai/blog/kimi-k3-1-pro</link>
+      <guid isPermaLink="false">https://www.kimi.ai/blog/kimi-k3-1-pro</guid>
+      <description>[Score: 85] 100万トークンのコンテキストウィンドウを備えた3Tクラスのオープンウェイトモデル「Kimi K3.1 Pro」が発表されました。 / 強化学習フレームワークや推論インフラの大規模な最適化により、コーディングやエージェント性能が大幅に向上しています。 / 高速応答を実現するHighspeed版も同時提供され、重みは11月4日までに公開予定です。 (Source: Hacker News)</description>
+      <pubDate>Fri, 23 Oct 2026 16:59:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>「読みにくいDB」はAI開発のコストを1.9倍にする――Claude Codeで検証したDB設計の影響</title>
+      <link>https://zenn.dev/actbe_tech/articles/8b4a9991d5365d</link>
+      <guid isPermaLink="false">https://zenn.dev/actbe_tech/articles/8b4a9991d5365d</guid>
+      <description>[Score: 85] Claude Codeを用いて、適切な命名やコメントが付与されたDBと読みにくいDBでのAI開発効率とトークン消費を実験検証。 / 読みにくいDBでは実データの確認や試行錯誤が多発し、API利用コストが約1.9倍に跳ね上がることが判明した。 / 人間にとって理解しやすい正規のDB設計が、AIエージェント駆動開発時代においても極めて重要であることを示している。 (Source: Zenn)</description>
+      <pubDate>Fri, 23 Oct 2026 09:00:05 +0000</pubDate>
     </item>
     <item>
       <title>PHP脆弱性php2shell対応、7.4本番を止めずに守った夜と実際の攻撃</title>
       <link>https://qiita.com/kenimo49/items/30f290bf0f4fff021fb3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/kenimo49/items/30f290bf0f4fff021fb3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] サポート終了済みのPHP 7.4稼働環境における重大な任意コード実行脆弱性への対応事例を解説している。 / サービス停止を選択せず、WAFによる制限とphp.ini設定の調整という暫定策で侵入経路を遮断した。 / 対策直後に実際の攻撃リクエストを観測したリアルな対応タイムラインと技術的判断を記録している。 (Source: Qiita)</description>
+      <description>[Score: 85] 重大なRCE脆弱性「php2shell」発生時の本番システム防衛記録です。 / 公式パッチが提供されないPHP 7.4環境を停止させず、WAFと設定変更のみで穴を塞ぐ判断を下しました。 / 対策直後に実際の攻撃POSTが検知されるなど、緊迫したインシデント対応の現場が生々しく綴られています。 (Source: Qiita)</description>
       <pubDate>Wed, 21 Oct 2026 17:15:15 +0000</pubDate>
     </item>
     <item>
-      <title>DNSリゾルバ「Quad9」、フランス市場からの撤退を発表</title>
-      <link>https://quad9.net/news/blog/au-revoir-france/</link>
-      <guid isPermaLink="false">https://quad9.net/news/blog/au-revoir-france/</guid>
-      <description>[Score: 82] フランスの裁判所がbeINの訴えを認め、特定ドメインの再帰的DNS解決ブロックをQuad9に命じる判決を下した。 / Quad9はDNS応答の改ざんは原則に反し、プライバシー保護の使命とも矛盾するとして判決に従わない判断を下した。 / この結果、同社は2024年11月24日をもってフランス国内のユーザー向け無料サイバー保護サービスの提供を終了する。 (Source: Hacker News)</description>
-      <pubDate>Thu, 22 Oct 2026 14:32:38 +0000</pubDate>
+      <title>Nvidiaが大手テック企業に未使用AIハードウェアを備蓄させ、ゲーミングGPU危機を人為的に作り出したとの複数報道</title>
+      <link>https://www.reddit.com/r/technology/comments/1xdd546/multiple_reports_say_nvidia_manufactured_the/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xdd546/multiple_reports_say_nvidia_manufactured_the/</guid>
+      <description>[Score: 85] Nvidiaが大手テック企業に対し未使用のAIハードウェアを買いだめさせたと複数の報道が指摘した。 / これにより市場の供給バランスが歪められ、ゲーミングGPUの品薄危機が意図的に生み出された疑惑が浮上している。 / 独占的な市場支配力と半導体供給チェーンの不公正な操作に対する懸念が強まっている。 (Source: Reddit)</description>
+      <pubDate>Fri, 23 Oct 2026 12:50:35 +0000</pubDate>
     </item>
     <item>
-      <title>OpenShell：自律型AIエージェント群のための安全でセキュアなランタイム</title>
-      <link>https://github.com/NVIDIA/OpenShell</link>
-      <guid isPermaLink="false">https://github.com/NVIDIA/OpenShell</guid>
-      <description>[Score: 80] NVIDIAが自律型AIエージェント群を安全に実行・管理するためのオープンソースランタイム「OpenShell」を公開した。 / エージェントに対してファイルアクセスやAPI実行などを許可しつつ、カーネルレベルの制御と形式検証により不正アクセスを防ぐ。 / 開発者は最小権限ポリシーを宣言するだけで、機密データやネットワークを保護しながらエージェントを自律動作させられる。 (Source: Hacker News)</description>
-      <pubDate>Thu, 22 Oct 2026 17:44:06 +0000</pubDate>
+      <title>PHP脆弱性、利用サイトの半分が修正困難　バージョン古くサポート終了 - 日本経済新聞</title>
+      <link>https://www.nikkei.com/article/DGXZQOUC236ST0T21C26A0000000/</link>
+      <guid isPermaLink="false">https://www.nikkei.com/article/DGXZQOUC236ST0T21C26A0000000/</guid>
+      <description>[Score: 85] PHPに深刻な脆弱性が発覚したが、利用サイトの約半数はサポート終了の古いバージョンを使用しており修正が困難な状況にある。 / 長期間更新されていない休眠サイトも多数含まれ、攻撃被害を防ぐための閉鎖対応などが急務となっている。 / デロイトトーマツサイバー等の調査により、Webエコシステム全体に及ぶ重大なセキュリティリスクが浮き彫りとなった。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 23 Oct 2026 20:43:19 +0000</pubDate>
     </item>
     <item>
-      <title>【2026年版】AIを駆使した開発手法をざっくりまとめてみた</title>
-      <link>https://qiita.com/kobori_slj/items/b9683ce90f4c26a6e7ae?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/kobori_slj/items/b9683ce90f4c26a6e7ae?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 76] 急速に進化・多様化するAIを活用した最新の開発手法を体系的に整理している。 / 手法をプロンプト、コンテキスト、ハーネス（実行環境全体）の3つの包含レイヤーに分類して解説する。 / バイブコーディングや仕様駆動開発など、目的や状況に応じた使い分けの全体像を提示している。 (Source: Qiita)</description>
-      <pubDate>Tue, 20 Oct 2026 12:39:49 +0000</pubDate>
+      <title>次世代の開発者インターフェースは「環境知能（アンビエント・インテリジェンス）」</title>
+      <link>https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/</link>
+      <guid isPermaLink="false">https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/</guid>
+      <description>[Score: 85] GitHub CopilotなどのAIエージェント進化により、開発者の役割がコマンド入力から意図の伝達へと変化している。 / エージェントはリポジトリの理解からコード編集、テスト実行、PR作成まで自律的に支援可能となった。 / 開発ワークフローはツール操作から、方向性の設定、コンテキストの提供、結果の検証へと移行しつつある。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 15 Oct 2026 19:39:27 +0000</pubDate>
     </item>
     <item>
-      <title>身に覚えのないCash App口座により女性が6年の懲役刑の危機に</title>
-      <link>https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html</link>
-      <guid isPermaLink="false">https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html</guid>
-      <description>[Score: 72] 米ペンシルベニア州の女性が、他人に開設された不正なCash App口座により詐欺犯と誤認され逮捕された。 / 社会保障番号などの盗難情報で口座が作られ詐欺に利用されたが、同社は本人確認が取れないとして情報提供を拒否していた。 / デジタルID盗難の被害者が自白も証拠もないまま誤認逮捕され、最大6年の禁錮刑に直面するという深刻な問題が浮き彫りになった。 (Source: Hacker News)</description>
-      <pubDate>Thu, 22 Oct 2026 13:11:00 +0000</pubDate>
+      <title>Dessa：かつてない自然さを誇る全二重音声モデル</title>
+      <link>https://block.xyz/dessa</link>
+      <guid isPermaLink="false">https://block.xyz/dessa</guid>
+      <description>[Score: 82] テキストを介さず人間の音声会話データのみを用いてゼロから学習された全二重音声対話モデル「Dessa」が発表されました。 / テキスト化による感情情報の欠落を解消し、自然な間や抑揚、会話中の笑いなどを再現可能です。 / リアルタイムかつ人間らしいやりとりを実現する、次世代の音声対話AIとして期待されます。 (Source: Hacker News)</description>
+      <pubDate>Fri, 23 Oct 2026 19:09:54 +0000</pubDate>
     </item>
     <item>
-      <title>【Opus 級？】Jev でエンジニアとプロジェクトをマッチング ― LLM・埋め込みモデルと比較</title>
-      <link>https://qiita.com/akimasanishida/items/8d965a85f2aac8ebcb12?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/akimasanishida/items/8d965a85f2aac8ebcb12?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 72] 社内アサインマッチングにおいて、確率付き回答を返すモデルJevの有効性を検証している。 / Claude Opus 5.5の評価を正解データとし、レイテンシや精度、コストの観点で比較実験を行った。 / Jevは文章生成を行わない特化型アプローチにより、低遅延かつ高精度な判定結果を示した。 (Source: Qiita)</description>
-      <pubDate>Thu, 22 Oct 2026 02:34:34 +0000</pubDate>
+      <title>Better AuthをMCPの認可サーバーにして、AI AgentからOAuthでアプリを操作させる</title>
+      <link>https://zenn.dev/sakagi/articles/8caa896e649005</link>
+      <guid isPermaLink="false">https://zenn.dev/sakagi/articles/8caa896e649005</guid>
+      <description>[Score: 82] WebアプリにMCPサーバーを追加し、ClaudeなどのAIエージェントがユーザー代理で安全に操作できる認可基盤を構築した解説。 / Entra IDによる認証と分離し、Better Authのプラグインを用いてMCP専用の不透明なアクセストークンを発行・検証する構成を採用。 / AIエージェントにWebアプリの安全な操作権限を委譲するための実践的なOAuth/MCPセキュリティ設計を提示している。 (Source: Zenn)</description>
+      <pubDate>Fri, 23 Oct 2026 07:45:06 +0000</pubDate>
     </item>
     <item>
-      <title>Dockerの奇妙な内部構造</title>
-      <link>https://codeandcake.dev/posts/2026-10-22-docker-is-weird</link>
-      <guid isPermaLink="false">https://codeandcake.dev/posts/2026-10-22-docker-is-weird</guid>
-      <description>[Score: 68] 自作コンテナランタイムを開発した著者が、DockerやLinuxコンテナの意外な仕組みと裏側について解説している。 / コンテナは独立したVMではなく、namespacesやcgroupsなど複数のカーネル機能を組み合わせた単なる制限付きプロセスである。 / 低レベルランタイムのruncがGo言語で書かれているため、Goのマルチスレッド仕様とシステムコール要件の衝突をC言語モジュールで解決している実態などを紹介する。 (Source: Hacker News)</description>
-      <pubDate>Thu, 22 Oct 2026 23:45:56 +0000</pubDate>
+      <title>PHPの緊急脆弱性「php2shell」で攻撃されていないか？サーバーに残る3つの痕跡と確認方法 - インフラ学習サイト「InfraAcademy」</title>
+      <link>https://engineer-ninaritai.com/php2shell-attack-detection/</link>
+      <guid isPermaLink="false">https://engineer-ninaritai.com/php2shell-attack-detection/</guid>
+      <description>[Score: 82] PHPの緊急脆弱性「php2shell」に関し、修正パッチ適用前の攻撃痕跡を特定する手順が解説されている。 / 公式公開前の悪用例が観測されており、Webサーバーログに残る巨大なPOSTリクエスト等の調査が必要となる。 / 事態に備えてリクエストサイズの記録やログ保持ポリシーを見直す重要性が強調されている。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 23 Oct 2026 12:23:05 +0000</pubDate>
     </item>
     <item>
-      <title>古くさいと思っていた報連相を、PMになってから今一度考えた話</title>
-      <link>https://qiita.com/fe1ix/items/d78130c065835a6343a5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/fe1ix/items/d78130c065835a6343a5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 68] PM就任とAIとの並行作業を通じて、従来の報連相の真の価値を再考した体験談を述べている。 / 「いつでも相談して」という丸投げが情報滞留を招く原因であると気づき、情報受け取り側の責任に着目した。 / 結論・アクション・状況・細部の4要素で報告形式をテンプレート化し、人間とAI双方の業務効率化を実現した。 (Source: Qiita)</description>
-      <pubDate>Tue, 20 Oct 2026 01:03:59 +0000</pubDate>
+      <title>Claudeを活用してコードのアタックサーフェスを削減する</title>
+      <link>https://www.anthropic.com/research/attack-surface-reduction</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/attack-surface-reduction</guid>
+      <description>[Score: 82] Anthropicが、Claudeを活用してコードのアタックサーフェス（攻撃対象領域）を自動分析・削減する研究成果を発表した。 / 到達可能なコードパスをAIが特定し、不要な機能や露出を制限することで未知の脆弱性の潜在的リスクを低減する。 / 個別の脆弱性を1つずつ修正する従来手法の限界を超え、根本的な防御力を高める新たなセキュリティアプローチとして期待される。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 23 Oct 2026 15:05:50 +0000</pubDate>
     </item>
     <item>
-      <title>すべてのAIモデルが「人間」に対して同じ物議を醸す見解を持っている</title>
-      <link>https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans</link>
-      <guid isPermaLink="false">https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans</guid>
-      <description>[Score: 65] 主要10組織のAIモデルに「人間に対する最も議論を呼ぶ見解」を尋ねたところ、大半が「人間は真実より帰属を重視する」と回答した。 / 複数のラボ・国のモデルが「同調圧力」「集団への忠誠心」「後付けの正当化」といった共通の人間観を提示する傾向が見られた。 / 一方で、Claudeなど一部モデルは「人間は自覚しているよりもずっと親切である」という逆の見解を提示した例も確認されている。 (Source: Hacker News)</description>
-      <pubDate>Thu, 22 Oct 2026 16:08:00 +0000</pubDate>
+      <title>今日、私たちは目指していたiPhoneのハッキングに成功した</title>
+      <link>https://blog.calif.io/p/iphone</link>
+      <guid isPermaLink="false">https://blog.calif.io/p/iphone</guid>
+      <description>[Score: 80] セキュリティカンファレンス「Hexacon」にて、iPhoneに対する一連のエクスプロイトデモが披露されました。 / SignalやiMessageなどを標的とした攻撃手法が含まれており、詳細情報は順次公開される予定です。 / iOSの堅牢なエコシステムに対する高度な攻撃実例として注目を集めています。 (Source: Hacker News)</description>
+      <pubDate>Fri, 23 Oct 2026 16:21:50 +0000</pubDate>
     </item>
     <item>
-      <title>テニス解析をピックルボールに使ってみた：四隅の指定でコートの俯瞰表示を補う①</title>
-      <link>https://zenn.dev/nauh_blog/articles/7f19a2f193d15d</link>
-      <guid isPermaLink="false">https://zenn.dev/nauh_blog/articles/7f19a2f193d15d</guid>
-      <description>[Score: 60] テニス映像解析システムTennisProjectをピックルボールの映像に適用する試みを紹介している。 / 自動コート推定のずれに対し、固定カメラ動画の四隅を手動指定して透視変換する処理を追加した。 / OpenCVを用いて俯瞰図への変換行列を算出し、選手の位置を高精度に可視化する手順を解説している。 (Source: Zenn)</description>
-      <pubDate>Thu, 22 Oct 2026 06:31:34 +0000</pubDate>
+      <title>Googleがプライバシーポリシーを密かに改定、GmailやPhotosがターゲティング広告に利用される可能性</title>
+      <link>https://www.reddit.com/r/technology/comments/1xdpddf/google_quietly_changes_privacy_policy_so_your/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xdpddf/google_quietly_changes_privacy_policy_so_your/</guid>
+      <description>[Score: 78] Googleがプライバシーポリシーを静かに改定したことが報じられている。 / GmailやGoogleフォト内のデータがターゲティング広告に利用される懸念が生じている。 / ユーザーデータの取り扱いとプライバシー保護を巡る反発が再燃する可能性がある。 (Source: Reddit)</description>
+      <pubDate>Fri, 23 Oct 2026 20:37:44 +0000</pubDate>
     </item>
     <item>
-      <title>「ドパ資料」の作り方</title>
-      <link>https://qiita.com/kikuziro/items/b6a0743b070d7320c36d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/kikuziro/items/b6a0743b070d7320c36d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 55] AI生成記事の増加による読者の飽きに対抗するため、目を引くリッチな資料作成法を提唱している。 / Mermaidやdraw.ioの課題を踏まえ、生成AIで自由度の高いSVG図解を作成するアプローチを紹介する。 / 過度な演出ではなく適度に図を差し込むことで、技術記事の視認性と読了率を高める工夫を解説している。 (Source: Qiita)</description>
-      <pubDate>Wed, 21 Oct 2026 09:04:32 +0000</pubDate>
+      <title>パナソニックHD、利用禁止の生成AIに従業員らの情報送出　33万人分 - 日本経済新聞</title>
+      <link>https://www.nikkei.com/article/DGXZQOUF237Z60T21C26A0000000/</link>
+      <guid isPermaLink="false">https://www.nikkei.com/article/DGXZQOUF237Z60T21C26A0000000/</guid>
+      <description>[Score: 78] パナソニックHDの従業員が社内ルールに反し、利用禁止の外部生成AIサービスに従業員や家族ら約33万人分の個人情報をアップロードした。 / 人事システム導入プロジェクトの過程で発生したもので、現時点で外部への不正流出や悪用は確認されていない。 / 学習無効化設定により他者への回答利用は防がれたものの、企業におけるシャドーAI利用の統制課題が露呈した。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 23 Oct 2026 10:56:07 +0000</pubDate>
     </item>
     <item>
-      <title>Getting ready to operate GNU Taler in Germany</title>
-      <link>https://www.taler.net/en/news/2026-13.html</link>
-      <guid isPermaLink="false">https://www.taler.net/en/news/2026-13.html</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 22 Oct 2026 16:14:31 +0000</pubDate>
+      <title>マイクロソフト、.NETのツールチェーンマネージャ「dotnetup」プレビュー公開。複数バージョンの.NET環境を管理可能</title>
+      <link>https://www.publickey1.jp/blog/26/netdotnetupnet.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/netdotnetupnet.html</guid>
+      <description>[Score: 78] マイクロソフトは.NETのツールチェーンを一括管理できるCLIツール「dotnetup」のプレビュー版を公開しました。 / RustのrustupやNode.jsのnvmのように、1つのコマンドで環境構築や複数バージョンの切り替えが可能です。 / コンパイラ、SDK、ランタイムなどをプロジェクトごとに容易に管理できるようになります。 (Source: Publickey)</description>
+      <pubDate>Sun, 18 Oct 2026 15:35:52 +0000</pubDate>
     </item>
     <item>
-      <title>Run full iOS 16.5 firmware on Android Devices</title>
-      <link>https://github.com/oosexgang/hackios-xnu-kernel</link>
-      <guid isPermaLink="false">https://github.com/oosexgang/hackios-xnu-kernel</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 22 Oct 2026 15:26:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>Node.jsの2026年10月セキュリティリリースに、手元の50リポジトリとVercel・Cloud Runで対応した</title>
-      <link>https://zenn.dev/yoshinani_dev/articles/0e6513a56eb629</link>
-      <guid isPermaLink="false">https://zenn.dev/yoshinani_dev/articles/0e6513a56eb629</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 22 Oct 2026 17:52:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude CodeやCodexで並列開発していたら、Macのストレージが残り8GBになったので掃除した</title>
-      <link>https://zenn.dev/yoshinani_dev/articles/0c17dec1c082a1</link>
-      <guid isPermaLink="false">https://zenn.dev/yoshinani_dev/articles/0c17dec1c082a1</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 22 Oct 2026 17:21:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>自宅サーバーの定期バックアップの失敗に気付かなかった話</title>
-      <link>https://zenn.dev/komorebi_note/articles/d9df64e7e1da82</link>
-      <guid isPermaLink="false">https://zenn.dev/komorebi_note/articles/d9df64e7e1da82</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 22 Oct 2026 13:11:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rootless Dockerと学ぶSELinux【初心者向け】</title>
-      <link>https://zenn.dev/nexryai/articles/afb828d7dda6b7</link>
-      <guid isPermaLink="false">https://zenn.dev/nexryai/articles/afb828d7dda6b7</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 22 Oct 2026 11:50:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>Meta shocked by $25B fine after N.M. refused to join multistate settlement</title>
-      <link>https://www.reddit.com/r/technology/comments/1xcpqjl/meta_shocked_by_25b_fine_after_nm_refused_to_join/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xcpqjl/meta_shocked_by_25b_fine_after_nm_refused_to_join/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
-      <pubDate>Thu, 22 Oct 2026 17:56:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>‘This effectively sets Russia far behind in the AI race’: Ukraine is wiping out data centers across the border</title>
-      <link>https://www.reddit.com/r/technology/comments/1xcvqwy/this_effectively_sets_russia_far_behind_in_the_ai/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xcvqwy/this_effectively_sets_russia_far_behind_in_the_ai/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
-      <pubDate>Thu, 22 Oct 2026 21:43:17 +0000</pubDate>
+      <title>GitHub CopilotアプリのセッションをVS Codeで継続する方法</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/</guid>
+      <description>[Score: 78] GitHub Copilotアプリで実行したAIタスクのセッションをVS Codeに引き継ぐ機能の手順が解説された。 / コードの変更履歴だけでなく、タスクの指示や対話のコンテキストを保持したままエディタに移行可能。 / AIに大まかな実装や定型作業を任せ、手元での詳細レビューやデバッグへシームレスに切り替えられる。 (Source: GitHub Blog)</description>
+      <pubDate>Mon, 19 Oct 2026 18:47:22 +0000</pubDate>
     </item>
   </channel>
 </rss>
