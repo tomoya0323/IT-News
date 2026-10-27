@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 26 Oct 2026 00:14:47 +0000</lastBuildDate>
-    <item>
-      <title>Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート予定</title>
-      <link>https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html</guid>
-      <description>[Score: 92] CloudflareがTypeScriptコンパイラをRustへ移植した高速ツール「tsrs」を発表した。 / TypeScript 7と比較してメモリ消費量を最大70%削減し、実行速度を最大8倍高速化している。 / WASM対応でブラウザやWorkers上で動作し、将来的にLSPを含む全機能のサポートを予定している。 (Source: Publickey)</description>
-      <pubDate>Wed, 21 Oct 2026 15:42:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>10年前のCNNが皮膚がん診断で最先端LLMを上回る</title>
-      <link>https://lynchlab.net/llm-skin-cancer</link>
-      <guid isPermaLink="false">https://lynchlab.net/llm-skin-cancer</guid>
-      <description>[Score: 90] 2015年に発表されたInception v3（CNN）が、最新鋭のフロンティアマルチモーダルLLMを皮膚がん診断で上回った検証。 / 200件の生検確定病変を用いた実験で、CNNが62%の正答率を達成したのに対し、最先端LLMは42%にとどまった。 / 特定ドメインの画像タスクでは、汎用巨大モデルよりもファインチューンした軽量特化モデルが依然として優位なケースを示している。 (Source: Hacker News)</description>
-      <pubDate>Sun, 25 Oct 2026 17:15:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI ネイティブの SDLC プレイブック</title>
-      <link>https://claude.com/ja/resources/articles/the-ai-native-sdlc-playbook</link>
-      <guid isPermaLink="false">https://claude.com/ja/resources/articles/the-ai-native-sdlc-playbook</guid>
-      <description>[Score: 88] AIによるコード生成の高速化に対し、旧来の承認やレビュー体制が新たな開発ボトルネックとなっている。 / Anthropicはエージェント型AIを前提としたソフトウェア開発ライフサイクルの刷新手順を提示した。 / 線形プロセスからAIが各段階に介在するループ構造へ移行し、開発全体の自律化と高速化を目指す。 (Source: はてなブックマーク)</description>
-      <pubDate>Sun, 25 Oct 2026 01:29:55 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 27 Oct 2026 01:33:56 +0000</lastBuildDate>
     <item>
       <title>AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表</title>
       <link>https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html</guid>
-      <description>[Score: 88] AWSは、Next.jsやExpress、HonoなどのNode.js製Webアプリを改変なしでデプロイ・実行できる「AWS Lambda Web Functions」を発表した。 / 従来のLambdaで必要だった独自のアダプターを介さず、Node.js標準のWebサーバー機能を用いて直接リクエストを処理可能になる。 / これにより従来の関数は「Lambda Event Functions」と整理され、サーバーレス環境でのモダンWebフレームワーク運用のハードルが大幅に下がった。 (Source: Publickey)</description>
+      <description>[Score: 88] AWS Lambda上でNext.jsやExpress、Honoなどのアプリをそのまま実行できる「AWS Lambda Web Functions」が発表されました。 / 従来必要だったLambdaとHTTP処理を繋ぐ専用アダプターを介さず、Web関数として直接デプロイ可能です。 / これに伴い、従来のイベント駆動型Lambda関数は「Lambda Event Functions」と定義されます。 (Source: Publickey)</description>
       <pubDate>Mon, 19 Oct 2026 15:49:22 +0000</pubDate>
     </item>
     <item>
-      <title>コンテキストエンジニアリングの現在地</title>
-      <link>https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html</link>
-      <guid isPermaLink="false">https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html</guid>
-      <description>[Score: 85] LLMやAIエージェントに適切な文脈と指示を与える「コンテキストエンジニアリング」の変遷と課題を解説。 / モデルの性能が向上しても、矛盾のない明確な指示をノイズなく与える難しさは永続的な課題として残る。 / 人間とは異なる特性を持つモデルに対して、どのように最適な文脈を設計すべきかを論じている。 (Source: Hacker News)</description>
-      <pubDate>Sun, 25 Oct 2026 20:32:31 +0000</pubDate>
+      <title>Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート予定</title>
+      <link>https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html</guid>
+      <description>[Score: 85] CloudflareがTypeScriptコンパイラをRustへ移植した新ツール「tsrs」を発表しました。 / TypeScript 7と比較して最大70％のメモリ削減と最大8倍の高速化を実現しています。 / 今後は単一パッケージとしてLSPを含む全機能をサポートし、Oxcツールチェーンへの統合も予定されています。 (Source: Publickey)</description>
+      <pubDate>Wed, 21 Oct 2026 15:42:36 +0000</pubDate>
     </item>
     <item>
-      <title>eMudhra事件でWebアプリ開発者が点検すべきこと</title>
-      <link>https://qiita.com/autotaker1984/items/ef99b5791fe799a4ca66?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/autotaker1984/items/ef99b5791fe799a4ca66?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 85] 認証局eMudhraの中間CA秘密鍵の強度が極端に低く、容易に特定できる深刻な問題が明らかになった。 / 攻撃者が不正に正規ドメインの証明書を偽造できるリスクがあり、Web全体のPKI信頼基盤に影響を及ぼしている。 / HTTPSや証明書チェーンの仕組みを整理した上で、アプリ開発者が実施すべき点検手順と対策を解説している。 (Source: Qiita)</description>
-      <pubDate>Sat, 24 Oct 2026 16:45:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>「DuckDB 2.0 LTS」正式リリース。Quackプロトコルによるクライアント/サーバ機能や非同期処理による高速化など</title>
-      <link>https://www.publickey1.jp/blog/26/duckdb_20_ltsquack.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/duckdb_20_ltsquack.html</guid>
-      <description>[Score: 85] 組み込みOLAPデータベース「DuckDB 2.0 LTS」がコード名Cinnamon Tealとして正式リリースされた。 / Quackプロトコルの採用により本格的なクライアント/サーバ構成に対応し、非同期I/Oで処理が高速化した。 / 新しいSQLパーサーや拡張機能配布基盤が刷新され、データ分析プラットフォームとしての機能が大幅に向上した。 (Source: Publickey)</description>
-      <pubDate>Sun, 25 Oct 2026 15:44:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>「循環融資」がAIバブル崩壊の引き金になるとする報告書が公開</title>
-      <link>https://www.reddit.com/r/technology/comments/1xfejeo/report_says_circular_financing_shows_ai_bubble/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xfejeo/report_says_circular_financing_shows_ai_bubble/</guid>
-      <description>[Score: 83] AI関連企業間で行われる循環的な投資や資金循環がバブルの兆候であるとする報告書が話題を呼んでいます。 / 企業同士が互いの製品やサービスを購入し合うことで見かけ上の収益が過大評価されていると指摘されています。 / 市場関係者の間では現在のAI投資ブームの持続可能性に対する懸念が急速に高まっています。 (Source: Reddit)</description>
-      <pubDate>Sun, 25 Oct 2026 21:35:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>【速報】VS Code 1.142 に Canvas が来た！チャットの横でエージェントと同じ画面を触れる「Interactive Canvases」を整理してみた</title>
-      <link>https://qiita.com/shahin0809/items/81e6a6737b2254bdc6ed?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/shahin0809/items/81e6a6737b2254bdc6ed?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 82] VS Code 1.142でチャット横にAIエージェントと共有可能な操作画面を開くCanvases機能がプレビュー導入された。 / カンバンボードなどの作業画面を人とエージェントが共同で直接編集でき、会話ログの埋没課題を解決する。 / GitHub Copilotエージェントとの協調作業における新しいUI・UXとして今後の開発体験を大きく変える可能性がある。 (Source: Qiita)</description>
-      <pubDate>Fri, 23 Oct 2026 06:50:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>ソフトウェアの脆弱性情報をいち早く入手する - CVE・CISA KEV・JPCERT/CC・OSV</title>
-      <link>https://note.com/npaka/n/na5ad6472d68c</link>
-      <guid isPermaLink="false">https://note.com/npaka/n/na5ad6472d68c</guid>
-      <description>[Score: 82] ソフトウェアの脆弱性情報が発見から公開・周知されるまでの標準的な流れが解説されています。 / CVEやCISA KEV、JPCERT/CC、OSVなど必須となる代表的情報源の特徴が網羅されています。 / 各データベースの更新頻度やAPI連携を含む実践的な収集・対策手法が紹介されています。 (Source: はてなブックマーク)</description>
-      <pubDate>Sun, 25 Oct 2026 12:07:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>POPOPO と AI 開発 - 03. AI を活かす心構え・ノウハウ -AI という新人をチームに迎えるために-</title>
-      <link>https://zenn.dev/rikachiii/articles/03c7f77393a772</link>
-      <guid isPermaLink="false">https://zenn.dev/rikachiii/articles/03c7f77393a772</guid>
-      <description>[Score: 80] AIコーディングエージェント「Devin」をチームで効果的に運用するためのノウハウと心構えを解説。 / 適切なタスク分割や事前のアーキテクチャ設計・フレームワーク整備が、AIの成果物確認の高速化に直結すると指摘。 / AIを新人エンジニアと捉え、言葉の定義統一や明確なインターフェース設計を行うことの重要性を説く。 (Source: Zenn)</description>
-      <pubDate>Sun, 25 Oct 2026 10:00:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>「能動的サイバー防御」とは：サイバー攻撃を未然に防ぎ、被害拡大を防止するための取り組み【今週のキーワード】</title>
-      <link>https://internet.watch.impress.co.jp/docs/column/keyword/2148826.html</link>
-      <guid isPermaLink="false">https://internet.watch.impress.co.jp/docs/column/keyword/2148826.html</guid>
-      <description>[Score: 80] サイバー対処能力強化法に基づき、被害を未然に防ぐ「能動的サイバー防御」の運用が日本で開始された。 / 重要インフラ防衛に向け、「官民連携」「通信情報の利用」「アクセス・無害化」の3本柱で構成される。 / 従来の自己防御から脱却し、政府と事業者が連携して攻撃兆候を事前検知・対処する体制を目指す。 (Source: はてなブックマーク)</description>
-      <pubDate>Sun, 25 Oct 2026 21:39:31 +0000</pubDate>
+      <title>AIニュース 10月27日：KVキャッシュ漏洩、AIバブル、そして法的闘争</title>
+      <link>https://dev.to/trillioniar_s_14a3c313e14/ai-news-oct-27-kv-cache-leaks-ai-bubbles-and-legal-battles-3o1n</link>
+      <guid isPermaLink="false">https://dev.to/trillioniar_s_14a3c313e14/ai-news-oct-27-kv-cache-leaks-ai-bubbles-and-legal-battles-3o1n</guid>
+      <description>[Score: 78] Cloudflare Workers AIでホストされていたモデルにおいて、他セッションへデータが漏洩するKVキャッシュの脆弱性が報告・修正されました。 / 中国市場では過剰なLLM投資サイクルの調整とAIバブル崩壊の兆候が指摘されています。 / Anthropicに対する楽曲データの無断使用を巡る著作権訴訟など、技術と法規制の両面で課題が浮上しています。 (Source: Dev.to)</description>
+      <pubDate>Tue, 27 Oct 2026 01:10:02 +0000</pubDate>
     </item>
     <item>
       <title>「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など</title>
       <link>https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html</guid>
-      <description>[Score: 80] CloudflareはAIを活用した業務プラットフォーム「Cloudflare OS」のマネージドサービスを発表し、ウェイティングリストの登録受付を開始した。 / 同基盤はオープンソースとして公開されており、マルチクラウドやオンプレミスへのデプロイに対応しつつ、社内データへのセキュアなアクセスを可能にする。 / GitHubやGmailなど外部ツールとの連携やAIエージェントの作業環境を備え、業務効率化を支援する構成となっている。 (Source: Publickey)</description>
+      <description>[Score: 75] CloudflareがAIを活用した業務プラットフォーム「Cloudflare OS」のマネージドサービスを発表しました。 / 社内データや各種サービスへ安全にアクセスできるセキュリティ機能を備え、AIが社内情報をもとに回答可能です。 / GitHubやGmailなど外部連携を強化し、AIエージェントの作業スペースも提供されます。 (Source: Publickey)</description>
       <pubDate>Tue, 20 Oct 2026 15:10:05 +0000</pubDate>
     </item>
     <item>
-      <title>ニンテンドー3DSへの『F-Zero X』移植記</title>
-      <link>https://hypnotize.works/gdx-3ds/postmortem/index.html</link>
-      <guid isPermaLink="false">https://hypnotize.works/gdx-3ds/postmortem/index.html</guid>
-      <description>[Score: 78] F-Zero Xの逆コンパイルコードをニンテンドー3DS向けに移植したプロジェクトの技術的振り返り。 / Claudeのセッションと147以上のサブエージェントを活用し、短期間でOld/New 3DSや64DD拡張に対応。 / 立体視3Dやネイティブ60fps動作、下画面ダッシュボードなどを実現し、SDカードから全編プレイ可能。 (Source: Hacker News)</description>
-      <pubDate>Sun, 25 Oct 2026 23:27:30 +0000</pubDate>
+      <title>2026年にiPhoneで実際に動作するAIモデルを見つける方法（ダウンロード失敗を防ぐ）</title>
+      <link>https://dev.to/alichherawalla/how-to-find-ai-models-your-iphone-can-actually-run-in-2026-no-failed-downloads-48o</link>
+      <guid isPermaLink="false">https://dev.to/alichherawalla/how-to-find-ai-models-your-iphone-can-actually-run-in-2026-no-failed-downloads-48o</guid>
+      <description>[Score: 62] iPhone上で動作可能なローカルAIモデルをダウンロード前に判別する手法とツールが解説されています。 / アプリ「OGAM」は利用可能RAMやコンテキストサイズ消費量を計算し、メモリ不足になるモデルを検索結果から除外します。 / パラメータ数やllama.cppの互換性チェックにより、無駄な大容量ダウンロードを防止できます。 (Source: Dev.to)</description>
+      <pubDate>Tue, 27 Oct 2026 01:10:17 +0000</pubDate>
     </item>
     <item>
-      <title>AI に資料を毎回貼るな！ファイル・SKILL・AGENTS.md 活用でトークン課金最大 6 割減？ 6 つの方法を試してみた</title>
-      <link>https://qiita.com/songchong/items/235bed0f8c72f268477e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/songchong/items/235bed0f8c72f268477e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 78] プロンプトへの資料直接貼り付けや外部ファイル参照など、AI指示の渡し方によるトークン消費の違いを検証した。 / プロンプトキャッシュの仕組みにより、毎ターン貼り直すと履歴蓄積で課金が大幅に跳ね上がる実態を明らかにした。 / 長文対話でのトークン消費を抑えるための最適な資料参照テクニックを詳細な実験データとともに示している。 (Source: Qiita)</description>
-      <pubDate>Sun, 25 Oct 2026 19:00:21 +0000</pubDate>
+      <title>Googleの面接質問：この検索処理をO(1)にできますか？</title>
+      <link>https://dev.to/emilywoodsnyc/google-interview-question-can-you-make-this-lookup-o1-3b3d</link>
+      <guid isPermaLink="false">https://dev.to/emilywoodsnyc/google-interview-question-can-you-make-this-lookup-o1-3b3d</guid>
+      <description>[Score: 55] Googleの技術面接で出題された非重複区間の所属判定問題を題材にした技術解説です。 / 一般的な二分探索による解法に加え、定数時間O(1)で検索を行う代替アプローチが提示されています。 / 時間計算量の短縮に伴うメモリ使用量の増加など、エンジニアリングにおけるトレードオフの重要性が説かれています。 (Source: Dev.to)</description>
+      <pubDate>Tue, 27 Oct 2026 01:10:15 +0000</pubDate>
     </item>
     <item>
-      <title>LG製スマートテレビがネットワークを探索し画面オフ時にも音声を記録していることが発覚</title>
-      <link>https://www.reddit.com/r/technology/comments/1xf9ssl/lg_smart_tvs_caught_mapping_your_network_logging/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xf9ssl/lg_smart_tvs_caught_mapping_your_network_logging/</guid>
-      <description>[Score: 78] LGのスマートテレビが同一ネットワーク内の機器をマッピングしていることが判明しました。 / さらに画面がオフになっている状態でも音声を記録している疑いが指摘されています。 / スマート家電におけるプライバシー保護とデータ収集の実態を巡り懸念が広がっています。 (Source: Reddit)</description>
-      <pubDate>Sun, 25 Oct 2026 18:26:04 +0000</pubDate>
+      <title>Announcing three new discoveries in mathematics, computer science, and physics</title>
+      <link>https://openai.com/index/building-scientific-understanding-with-academic-communities/</link>
+      <guid isPermaLink="false">https://openai.com/index/building-scientific-understanding-with-academic-communities/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Mon, 26 Oct 2026 21:35:28 +0000</pubDate>
     </item>
     <item>
-      <title>1枚0.3秒!!Cloudflareの爆速抽出モデルClairicを試してみた</title>
-      <link>https://qiita.com/kikuziro/items/3f23603152b409d4a6ca?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/kikuziro/items/3f23603152b409d4a6ca?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 76] Cloudflareが提供する書類項目抽出に特化した軽量高速AIモデル「Clairic」の検証記事である。 / 文章生成を行わず指定された項目の値と確からしさだけを返すことで、1枚0.3秒の高速処理を実現している。 / 分類特化のClefモデルと組み合わせることで、書類の高速な自動仕分けと情報抽出パイプラインを構築できる。 (Source: Qiita)</description>
-      <pubDate>Sun, 25 Oct 2026 04:17:10 +0000</pubDate>
+      <title>The Exponential Time Hypothesis Is False [pdf]</title>
+      <link>https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf</link>
+      <guid isPermaLink="false">https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Mon, 26 Oct 2026 21:59:15 +0000</pubDate>
     </item>
     <item>
-      <title>サムスン製テレビがAIを用いて広告向けに音声や画面を記録しているとバグバウンティ研究者が指摘</title>
-      <link>https://www.reddit.com/r/technology/comments/1xf03qh/cybersecurity_bounty_hunter_says_samsung_tvs_use/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xf03qh/cybersecurity_bounty_hunter_says_samsung_tvs_use/</guid>
-      <description>[Score: 75] サムスンのスマートテレビがAIを利用して音声や画面のスクリーンショットを記録していると研究者が報告しました。 / 収集されたデータはターゲティング広告の最適化などの目的で活用されているとみられます。 / 「顧客の声を真に聞く企業」と皮肉られるなど、利用者のプライバシー侵害をめぐる議論が再燃しています。 (Source: Reddit)</description>
-      <pubDate>Sun, 25 Oct 2026 11:35:48 +0000</pubDate>
+      <title>Sebastian Raschka's from-scratch video course on building reasoning models</title>
+      <link>https://magazine.sebastianraschka.com/p/building-reasoning-models</link>
+      <guid isPermaLink="false">https://magazine.sebastianraschka.com/p/building-reasoning-models</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Mon, 26 Oct 2026 15:11:59 +0000</pubDate>
     </item>
     <item>
-      <title>AWS Transform、Azure Functions用のコードをAWS Lambda用に変換など、Microsoft AzureからAWSへの移行に対応</title>
-      <link>https://www.publickey1.jp/blog/26/aws_transformazure_functionsaws_lambdamicrosoft_azureaws.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aws_transformazure_functionsaws_lambdamicrosoft_azureaws.html</guid>
-      <description>[Score: 75] AWSはコード変換ツール「AWS Transform」を拡張し、Azure SDKを用いた.NETアプリをAWS SDK対応コードに変換する機能を追加した。 / Azure FunctionsやAzure Blob StorageなどAzure固有のサービスを、同等のAWSサービスへ自動で置き換えるマイグレーション支援を提供する。 / 完全変換が困難な箇所にはToDoコメントや代替手順を示すMarkdownファイルを生成し、スムーズなクラウド移行を後押しする。 (Source: Publickey)</description>
-      <pubDate>Mon, 19 Oct 2026 15:47:48 +0000</pubDate>
+      <title>Oldest GUI application that still runs on Windows 11</title>
+      <link>https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/</link>
+      <guid isPermaLink="false">https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Mon, 26 Oct 2026 17:56:55 +0000</pubDate>
     </item>
     <item>
-      <title>PHPを更新するつもりが環境移行に【前編】Lightsailの配信構成と運用を見直す</title>
-      <link>https://zenn.dev/hotaka_noda/articles/3b4c51ecfe561d</link>
-      <guid isPermaLink="false">https://zenn.dev/hotaka_noda/articles/3b4c51ecfe561d</guid>
-      <description>[Score: 73] LightsailのBitnami提供終了とPHP脆弱性をきっかけに、WordPressの配信インフラ刷新を行った事例の前編。 / 単なるインスタンス更新にとどまらず、前段にCloudFrontとAWS WAFを導入してセキュリティと配信性能を向上。 / 静的ファイルのみをキャッシュ対象としつつ、Google Cloudを用いたSlackアプリからキャッシュ削除できる運用を構築。 (Source: Zenn)</description>
-      <pubDate>Sun, 25 Oct 2026 13:52:37 +0000</pubDate>
+      <title>Type Server Protocol</title>
+      <link>https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md</link>
+      <guid isPermaLink="false">https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Mon, 26 Oct 2026 18:14:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)</title>
+      <link>https://blog.cloudflare.com/kv-cache-exposure-remediation/</link>
+      <guid isPermaLink="false">https://blog.cloudflare.com/kv-cache-exposure-remediation/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Mon, 26 Oct 2026 22:41:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Printer Printing onto Paper</title>
+      <link>https://twitter.com/macrofying/status/2112904628509528219</link>
+      <guid isPermaLink="false">https://twitter.com/macrofying/status/2112904628509528219</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Fri, 23 Oct 2026 05:01:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>CSS-Tricks has a new owner</title>
+      <link>https://css-tricks.com/css-tricks-has-a-new-owner/</link>
+      <guid isPermaLink="false">https://css-tricks.com/css-tricks-has-a-new-owner/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Mon, 26 Oct 2026 15:51:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>昨今のセキュリティ情勢を踏まえて、Azure のセキュリティ系新資格 SC-500 を受けてみた【合格体験記】</title>
+      <link>https://zenn.dev/microsoft/articles/112ff28ccc30e3</link>
+      <guid isPermaLink="false">https://zenn.dev/microsoft/articles/112ff28ccc30e3</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Mon, 26 Oct 2026 18:01:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>学生2人で日本語音声LLMを作り、FT-LLM 2026 自由形タスクで1位を獲得した話</title>
+      <link>https://zenn.dev/ayutaso/articles/ftllm2026-ja-speech-llm</link>
+      <guid isPermaLink="false">https://zenn.dev/ayutaso/articles/ftllm2026-ja-speech-llm</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Mon, 26 Oct 2026 13:54:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenWrt 25.12のadblock 4.5に豆腐フィルタを適用する（ruleの書式が変わった）</title>
+      <link>https://zenn.dev/yotan/articles/openwrt-25-adblock-tofu-filter</link>
+      <guid isPermaLink="false">https://zenn.dev/yotan/articles/openwrt-25-adblock-tofu-filter</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Mon, 26 Oct 2026 10:49:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vue Fes Japan 2026 「 Vite+への貢献と、Team Memberになって見えてきた風景」スピーカーノート</title>
+      <link>https://zenn.dev/comm_vue_nuxt/articles/33f8491afbc66d</link>
+      <guid isPermaLink="false">https://zenn.dev/comm_vue_nuxt/articles/33f8491afbc66d</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Mon, 26 Oct 2026 08:44:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI時代のアーキテクチャ：実装を任せるために、詳細設計を自分のものにする</title>
+      <link>https://zenn.dev/simplex/articles/f2b41d3367e9c7</link>
+      <guid isPermaLink="false">https://zenn.dev/simplex/articles/f2b41d3367e9c7</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Mon, 26 Oct 2026 07:02:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>eMudhra事件でWebアプリ開発者が点検すべきこと</title>
+      <link>https://qiita.com/autotaker1984/items/ef99b5791fe799a4ca66?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/autotaker1984/items/ef99b5791fe799a4ca66?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Sat, 24 Oct 2026 16:45:38 +0000</pubDate>
     </item>
   </channel>
 </rss>
