@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 27 Oct 2026 01:33:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 01:16:52 +0000</lastBuildDate>
     <item>
-      <title>AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表</title>
-      <link>https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html</guid>
-      <description>[Score: 88] AWS Lambda上でNext.jsやExpress、Honoなどのアプリをそのまま実行できる「AWS Lambda Web Functions」が発表されました。 / 従来必要だったLambdaとHTTP処理を繋ぐ専用アダプターを介さず、Web関数として直接デプロイ可能です。 / これに伴い、従来のイベント駆動型Lambda関数は「Lambda Event Functions」と定義されます。 (Source: Publickey)</description>
-      <pubDate>Mon, 19 Oct 2026 15:49:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート予定</title>
-      <link>https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html</guid>
-      <description>[Score: 85] CloudflareがTypeScriptコンパイラをRustへ移植した新ツール「tsrs」を発表しました。 / TypeScript 7と比較して最大70％のメモリ削減と最大8倍の高速化を実現しています。 / 今後は単一パッケージとしてLSPを含む全機能をサポートし、Oxcツールチェーンへの統合も予定されています。 (Source: Publickey)</description>
-      <pubDate>Wed, 21 Oct 2026 15:42:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>AIニュース 10月27日：KVキャッシュ漏洩、AIバブル、そして法的闘争</title>
-      <link>https://dev.to/trillioniar_s_14a3c313e14/ai-news-oct-27-kv-cache-leaks-ai-bubbles-and-legal-battles-3o1n</link>
-      <guid isPermaLink="false">https://dev.to/trillioniar_s_14a3c313e14/ai-news-oct-27-kv-cache-leaks-ai-bubbles-and-legal-battles-3o1n</guid>
-      <description>[Score: 78] Cloudflare Workers AIでホストされていたモデルにおいて、他セッションへデータが漏洩するKVキャッシュの脆弱性が報告・修正されました。 / 中国市場では過剰なLLM投資サイクルの調整とAIバブル崩壊の兆候が指摘されています。 / Anthropicに対する楽曲データの無断使用を巡る著作権訴訟など、技術と法規制の両面で課題が浮上しています。 (Source: Dev.to)</description>
-      <pubDate>Tue, 27 Oct 2026 01:10:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など</title>
-      <link>https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html</guid>
-      <description>[Score: 75] CloudflareがAIを活用した業務プラットフォーム「Cloudflare OS」のマネージドサービスを発表しました。 / 社内データや各種サービスへ安全にアクセスできるセキュリティ機能を備え、AIが社内情報をもとに回答可能です。 / GitHubやGmailなど外部連携を強化し、AIエージェントの作業スペースも提供されます。 (Source: Publickey)</description>
-      <pubDate>Tue, 20 Oct 2026 15:10:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>2026年にiPhoneで実際に動作するAIモデルを見つける方法（ダウンロード失敗を防ぐ）</title>
-      <link>https://dev.to/alichherawalla/how-to-find-ai-models-your-iphone-can-actually-run-in-2026-no-failed-downloads-48o</link>
-      <guid isPermaLink="false">https://dev.to/alichherawalla/how-to-find-ai-models-your-iphone-can-actually-run-in-2026-no-failed-downloads-48o</guid>
-      <description>[Score: 62] iPhone上で動作可能なローカルAIモデルをダウンロード前に判別する手法とツールが解説されています。 / アプリ「OGAM」は利用可能RAMやコンテキストサイズ消費量を計算し、メモリ不足になるモデルを検索結果から除外します。 / パラメータ数やllama.cppの互換性チェックにより、無駄な大容量ダウンロードを防止できます。 (Source: Dev.to)</description>
-      <pubDate>Tue, 27 Oct 2026 01:10:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Googleの面接質問：この検索処理をO(1)にできますか？</title>
-      <link>https://dev.to/emilywoodsnyc/google-interview-question-can-you-make-this-lookup-o1-3b3d</link>
-      <guid isPermaLink="false">https://dev.to/emilywoodsnyc/google-interview-question-can-you-make-this-lookup-o1-3b3d</guid>
-      <description>[Score: 55] Googleの技術面接で出題された非重複区間の所属判定問題を題材にした技術解説です。 / 一般的な二分探索による解法に加え、定数時間O(1)で検索を行う代替アプローチが提示されています。 / 時間計算量の短縮に伴うメモリ使用量の増加など、エンジニアリングにおけるトレードオフの重要性が説かれています。 (Source: Dev.to)</description>
-      <pubDate>Tue, 27 Oct 2026 01:10:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>Announcing three new discoveries in mathematics, computer science, and physics</title>
-      <link>https://openai.com/index/building-scientific-understanding-with-academic-communities/</link>
-      <guid isPermaLink="false">https://openai.com/index/building-scientific-understanding-with-academic-communities/</guid>
+      <title>Genie 4</title>
+      <link>https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 26 Oct 2026 21:35:28 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 16:06:01 +0000</pubDate>
     </item>
     <item>
-      <title>The Exponential Time Hypothesis Is False [pdf]</title>
-      <link>https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf</link>
-      <guid isPermaLink="false">https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf</guid>
+      <title>Ghostty 1.4</title>
+      <link>https://ghostty.org/docs/install/release-notes/1-4-0</link>
+      <guid isPermaLink="false">https://ghostty.org/docs/install/release-notes/1-4-0</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 26 Oct 2026 21:59:15 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 16:51:22 +0000</pubDate>
     </item>
     <item>
-      <title>Sebastian Raschka's from-scratch video course on building reasoning models</title>
-      <link>https://magazine.sebastianraschka.com/p/building-reasoning-models</link>
-      <guid isPermaLink="false">https://magazine.sebastianraschka.com/p/building-reasoning-models</guid>
+      <title>Tailscale SSH: Investigation and remediation update</title>
+      <link>https://tailscale.com/ssh-investigation-update</link>
+      <guid isPermaLink="false">https://tailscale.com/ssh-investigation-update</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 26 Oct 2026 15:11:59 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 19:55:21 +0000</pubDate>
     </item>
     <item>
-      <title>Oldest GUI application that still runs on Windows 11</title>
-      <link>https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/</link>
-      <guid isPermaLink="false">https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/</guid>
+      <title>Early progress on accelerating drug development with Claude</title>
+      <link>https://www.anthropic.com/research/early-progress-drug-development</link>
+      <guid isPermaLink="false">https://www.anthropic.com/research/early-progress-drug-development</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 26 Oct 2026 17:56:55 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 20:50:42 +0000</pubDate>
     </item>
     <item>
-      <title>Type Server Protocol</title>
-      <link>https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md</link>
-      <guid isPermaLink="false">https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md</guid>
+      <title>Survival LLM: AI assistant and emergency library that runs on your own computer</title>
+      <link>https://www.brangus.io/survival-llm</link>
+      <guid isPermaLink="false">https://www.brangus.io/survival-llm</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 26 Oct 2026 18:14:49 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 19:55:06 +0000</pubDate>
     </item>
     <item>
-      <title>Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)</title>
-      <link>https://blog.cloudflare.com/kv-cache-exposure-remediation/</link>
-      <guid isPermaLink="false">https://blog.cloudflare.com/kv-cache-exposure-remediation/</guid>
+      <title>Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees</title>
+      <link>https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/</link>
+      <guid isPermaLink="false">https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 26 Oct 2026 22:41:48 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 20:48:49 +0000</pubDate>
     </item>
     <item>
-      <title>A Printer Printing onto Paper</title>
-      <link>https://twitter.com/macrofying/status/2112904628509528219</link>
-      <guid isPermaLink="false">https://twitter.com/macrofying/status/2112904628509528219</guid>
+      <title>New 14‑inch MacBook Pro with M6</title>
+      <link>https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/</link>
+      <guid isPermaLink="false">https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 23 Oct 2026 05:01:30 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 16:08:32 +0000</pubDate>
     </item>
     <item>
-      <title>CSS-Tricks has a new owner</title>
-      <link>https://css-tricks.com/css-tricks-has-a-new-owner/</link>
-      <guid isPermaLink="false">https://css-tricks.com/css-tricks-has-a-new-owner/</guid>
+      <title>An examination of lost firefly species of the US and Canada</title>
+      <link>https://journaloflostspecies.org/index.php/jls/article/view/37/33</link>
+      <guid isPermaLink="false">https://journaloflostspecies.org/index.php/jls/article/view/37/33</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 26 Oct 2026 15:51:23 +0000</pubDate>
+      <pubDate>Sat, 24 Oct 2026 19:04:42 +0000</pubDate>
     </item>
     <item>
-      <title>昨今のセキュリティ情勢を踏まえて、Azure のセキュリティ系新資格 SC-500 を受けてみた【合格体験記】</title>
-      <link>https://zenn.dev/microsoft/articles/112ff28ccc30e3</link>
-      <guid isPermaLink="false">https://zenn.dev/microsoft/articles/112ff28ccc30e3</guid>
+      <title>コードを読まずにマージするために必要なこと</title>
+      <link>https://zenn.dev/nrs/articles/c777388530aa84</link>
+      <guid isPermaLink="false">https://zenn.dev/nrs/articles/c777388530aa84</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 26 Oct 2026 18:01:40 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 11:00:05 +0000</pubDate>
     </item>
     <item>
-      <title>学生2人で日本語音声LLMを作り、FT-LLM 2026 自由形タスクで1位を獲得した話</title>
-      <link>https://zenn.dev/ayutaso/articles/ftllm2026-ja-speech-llm</link>
-      <guid isPermaLink="false">https://zenn.dev/ayutaso/articles/ftllm2026-ja-speech-llm</guid>
+      <title>Go で動く新世代の補完プラグイン goda-cmp.vim</title>
+      <link>https://zenn.dev/shougo/articles/goda-cmp-vim-beta</link>
+      <guid isPermaLink="false">https://zenn.dev/shougo/articles/goda-cmp-vim-beta</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 26 Oct 2026 13:54:50 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 10:25:24 +0000</pubDate>
     </item>
     <item>
-      <title>OpenWrt 25.12のadblock 4.5に豆腐フィルタを適用する（ruleの書式が変わった）</title>
-      <link>https://zenn.dev/yotan/articles/openwrt-25-adblock-tofu-filter</link>
-      <guid isPermaLink="false">https://zenn.dev/yotan/articles/openwrt-25-adblock-tofu-filter</guid>
+      <title>AAIF に加わった Open Responses を Amazon Bedrock で試す</title>
+      <link>https://zenn.dev/exwzd/articles/20261023-open-responses</link>
+      <guid isPermaLink="false">https://zenn.dev/exwzd/articles/20261023-open-responses</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 26 Oct 2026 10:49:33 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 06:52:28 +0000</pubDate>
     </item>
     <item>
-      <title>Vue Fes Japan 2026 「 Vite+への貢献と、Team Memberになって見えてきた風景」スピーカーノート</title>
-      <link>https://zenn.dev/comm_vue_nuxt/articles/33f8491afbc66d</link>
-      <guid isPermaLink="false">https://zenn.dev/comm_vue_nuxt/articles/33f8491afbc66d</guid>
+      <title>Kiro から Backlog・Chat・ドライブを横断検索できるようにしてみた（公式MCP）</title>
+      <link>https://zenn.dev/senuma/articles/588fb50a8f56ce</link>
+      <guid isPermaLink="false">https://zenn.dev/senuma/articles/588fb50a8f56ce</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 26 Oct 2026 08:44:09 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 06:28:21 +0000</pubDate>
     </item>
     <item>
-      <title>AI時代のアーキテクチャ：実装を任せるために、詳細設計を自分のものにする</title>
-      <link>https://zenn.dev/simplex/articles/f2b41d3367e9c7</link>
-      <guid isPermaLink="false">https://zenn.dev/simplex/articles/f2b41d3367e9c7</guid>
+      <title>Vue Fes Japan 2026 に参加してきました！</title>
+      <link>https://zenn.dev/koutyuke/articles/vuefes-japan-2026</link>
+      <guid isPermaLink="false">https://zenn.dev/koutyuke/articles/vuefes-japan-2026</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 26 Oct 2026 07:02:56 +0000</pubDate>
+      <pubDate>Tue, 27 Oct 2026 04:28:58 +0000</pubDate>
     </item>
     <item>
-      <title>eMudhra事件でWebアプリ開発者が点検すべきこと</title>
-      <link>https://qiita.com/autotaker1984/items/ef99b5791fe799a4ca66?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/autotaker1984/items/ef99b5791fe799a4ca66?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <title>エンジニア歴数か月の私「理論上、理解できない物事はない」</title>
+      <link>https://qiita.com/Minotaurasu/items/a13a3fc940c2cd384063?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/Minotaurasu/items/a13a3fc940c2cd384063?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Sat, 24 Oct 2026 16:45:38 +0000</pubDate>
+      <pubDate>Mon, 26 Oct 2026 01:50:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>目指せClaude全冠！4つの試験を全部受けたので攻略法を紹介します</title>
+      <link>https://qiita.com/minorun365/items/59783841e48f5467594f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/minorun365/items/59783841e48f5467594f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Tue, 27 Oct 2026 01:03:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>記憶に頼るな。Claudeセッションの記録を取ろう</title>
+      <link>https://qiita.com/qwertyhoge/items/987c0ea8afdb5cd045e8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/qwertyhoge/items/987c0ea8afdb5cd045e8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Mon, 26 Oct 2026 10:51:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>【解説】クリーンアーキテクチャとは何か？ 炎上議論はなぜ起きるのか？</title>
+      <link>https://qiita.com/Sicut_study/items/3c1995d2a3f1695a18a7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/Sicut_study/items/3c1995d2a3f1695a18a7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Sun, 25 Oct 2026 13:54:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>先週の PHP 祭りから見えた、業務システムの「止まり方」の共通点と違い — 予防的な停止・障害・計画メンテを、日本・海外・AI の告知 751 件で比べた</title>
+      <link>https://qiita.com/songchong/items/eb2e60b469a148c2fb8b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/songchong/items/eb2e60b469a148c2fb8b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Mon, 26 Oct 2026 22:51:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft And Epic Games Suddenly Agree That AI Is Theft</title>
+      <link>https://www.reddit.com/r/technology/comments/1xgw83y/microsoft_and_epic_games_suddenly_agree_that_ai/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xgw83y/microsoft_and_epic_games_suddenly_agree_that_ai/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
+      <pubDate>Tue, 27 Oct 2026 15:51:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grand Theft Auto 6 Download Size Revealed To Be 210 GB</title>
+      <link>https://www.reddit.com/r/technology/comments/1xh14wp/grand_theft_auto_6_download_size_revealed_to_be/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xh14wp/grand_theft_auto_6_download_size_revealed_to_be/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
+      <pubDate>Tue, 27 Oct 2026 18:49:26 +0000</pubDate>
     </item>
   </channel>
 </rss>
