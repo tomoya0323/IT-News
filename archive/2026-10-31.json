@@ -1,0 +1,780 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-10-31T10:42:18.413934+09:00",
+  "total_count": 48,
+  "success_count": 30,
+  "error_count": 18,
+  "gemini_model": "gemini-3.8-flash",
+  "articles": [
+    {
+      "title": "CursorマーケットプレイスのClaude Code拡張機能にバックドアが混入",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "source": "Hacker News",
+      "published": "2026-10-30T07:09:12+00:00",
+      "hn_score": 771,
+      "hn_comments": 483,
+      "summary": "Cursorマーケットプレイス上のClaude Code公式拡張機能にSSHバックドアが仕込まれていることが判明しました。\nmacOS、Linux、Windowsで永続的なアクセスを試みる悪意あるコードが含まれており、影響版はすでに削除されています。\nIDE拡張機能の実行権限を悪用したサプライチェーン攻撃であり、利用組織に緊急のインシデント対応が求められています。",
+      "tags": [
+        "サプライチェーン攻撃",
+        "Cursor",
+        "脆弱性"
+      ],
+      "category": "セキュリティ",
+      "score": 93,
+      "score_reason": "開発環境を標的とした深刻なサプライチェーン攻撃の実例であり、開発者の環境と組織のセキュリティに極めて重大な影響を及ぼします。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GitHub Universe 2026：スタックの全レイヤーを進化させる",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "source": "GitHub Blog",
+      "published": "2026-10-28T16:09:28+00:00",
+      "summary": "開発者がコードを書く時代から自律型AIエージェント群を統括する時代への転換を見据えたビジョンが示されました。\nSDLCが線形からエージェント中心の適応型システムへと再定義され、GitHub Copilotアプリなどの新機能が発表されました。\n基盤となるインフラも刷新し、開発者が主導権とコスト管理を握りながら柔軟に構築できる環境を提供します。",
+      "tags": [
+        "GitHub",
+        "AIエージェント",
+        "GitHub Copilot"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 92,
+      "score_reason": "AIエージェント主導の開発モデルへの抜本的転換とGitHub製品群の未来像を示す極めて影響度の高い発表であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "エージェント規模のGitインフラストラクチャへの架け橋",
+      "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+      "source": "GitHub Blog",
+      "published": "2026-10-21T16:00:00+00:00",
+      "summary": "AIエージェントによるトラフィック爆発に対応するため、GitHubがGitリポジトリをAzureへ移行する新アーキテクチャを解説しています。\nクォーラムの書き込み直列化手法を改良することで、高負荷なリポジトリの移行とステートレスレプリカの実現を可能にしました。\n極めて可用性の要求が高いTier 0サービスにおいて、成長を止めずにデータ移行とアーキテクチャ進化を両立させています。",
+      "tags": [
+        "GitHub",
+        "インフラ",
+        "分散システム"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 90,
+      "score_reason": "AIエージェントによる莫大なトラフィック増を支える超大規模Gitインフラの移行と設計刷新を詳述した貴重な技術記事であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Northflankがセキュリティ侵害を公表、シークレットの即時ローテーションを警告",
+      "url": "https://status.northflank.com",
+      "source": "Hacker News",
+      "published": "2026-10-30T15:10:31+00:00",
+      "hn_score": 358,
+      "hn_comments": 272,
+      "summary": "開発プラットフォームNorthflankにおいて、ユーザーのAI APIキーなどの不正利用が確認されるセキュリティ侵害が発生しました。\nすべての環境変数やシークレットが漏洩した前提で、直ちに認証情報をローテーションするよう強く呼びかけています。\n近頃多発しているAI認証情報を狙った大規模な攻撃キャンペーンの一環である可能性が示唆されています。",
+      "tags": [
+        "情報漏洩",
+        "クラウドセキュリティ",
+        "APIキー"
+      ],
+      "category": "セキュリティ",
+      "score": 88,
+      "score_reason": "クラウド基盤におけるシークレット漏洩インシデントであり、AI関連APIキーの悪用を含め多数のユーザー企業に直接的な被害をもたらす重大ニュースです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Octoverse：開発者がエージェントと共に構築することでコミットとプッシュが2026年に過去最高を記録",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "source": "GitHub Blog",
+      "published": "2026-10-28T16:07:40+00:00",
+      "summary": "年次レポート「Octoverse」において、年間のコードプッシュ数が過去2年分の合算を上回る179億回に達したことが発表されました。\nAIエージェントが試験的利用から日常的な協働ツールへと定着したことで、開発アクティビティが急増しています。\n医療から農業まで多様な業界へ開発の裾野が広がり、世界規模でエンジニアの成長が加速しています。",
+      "tags": [
+        "GitHub",
+        "Octoverse",
+        "開発動向"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 88,
+      "score_reason": "AIエージェントの本格普及がソフトウェア開発の総量と速度に与えた爆発的なインパクトを定量データで実証しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "yoroによろしくぅ！Ai Workforce 事業部のリモートコーディングエージェント環境 yoro のご紹介",
+      "url": "https://zenn.dev/layerx/articles/a277f83a93d300",
+      "source": "Zenn",
+      "published": "2026-10-30T02:11:36+00:00",
+      "summary": "LayerX社で構築されたリモートコーディングエージェント実行環境「yoro」のアーキテクチャを紹介している。\nAazure Kubernetes Service上にOSSのCoderを配備し、Claude Code等の自律実行環境（YOLOモード）を構築した。\n機密情報を守るための隔離と監視を担保しつつ、ローカルマシンの負荷をかけずにバックグラウンド開発を実現している。",
+      "tags": [
+        "AIエージェント",
+        "Coder",
+        "Kubernetes"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "自律型AIコーディングエージェントをセキュアなリモートインフラ上で本番運用する先進的かつ実用性の高い取り組みであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Oracle CloudがGoogle TPU導入を発表、2027年に提供を開始。Oracle AI World 2026",
+      "url": "https://www.publickey1.jp/blog/26/oracle_cloudgoogle_tpu2027oracle_ai_world_2026.html",
+      "source": "Publickey",
+      "published": "2026-10-27T16:33:51+00:00",
+      "summary": "オラクルはGoogleが開発するAI専用プロセッサ「Google TPU」をOracle Cloudに導入すると発表しました。\n大規模な電力・冷却環境を整え、2027年からOCI上でTPUサービスの提供を開始する予定です。\nNVIDIA製GPU依存を低減し、メガクラウド市場で競合するGoogleと提携して顧客のAI選択肢を広げます。",
+      "tags": [
+        "Oracle Cloud",
+        "Google TPU",
+        "クラウドインフラ"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 85,
+      "score_reason": "メガクラウド企業同士がAIアクセラレータ供給で連携するという異例の動きであり、インフラ市場に与える影響が極めて大きいです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AppleはiPhoneをエサにメモリメーカーへ大幅な値引きを強要してきたがAIの登場で価格が高騰して立場が逆転しているとの指摘",
+      "url": "https://gigazine.net/news/20261030-apple-chip-sellers-impact/",
+      "source": "はてなブックマーク",
+      "published": "2026-10-30T11:01:02+00:00",
+      "summary": "Appleは従来、大量調達力を背景に強硬な戦術でフラッシュメモリの大幅値引きを行ってきました。\nしかし世界的なAIブームによる需要急増でメモリ価格が高騰し、サプライヤーの交渉力が急速に強化されました。\nこれによりAppleの買い叩き戦術が通用しなくなり、部品調達コストの急増に直面しています。",
+      "tags": [
+        "Apple",
+        "半導体メモリ",
+        "AIサプライチェーン"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 83,
+      "score_reason": "AI特需が半導体サプライチェーンにおける巨大テック企業の力関係を一変させた実態を明らかにしており影響度が大きいです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "IVRyのSREの取り組み 2026冬",
+      "url": "https://zenn.dev/ivry/articles/70d4f05ce4ae5c",
+      "source": "Zenn",
+      "published": "2026-10-30T07:50:00+00:00",
+      "summary": "IVRyにおけるSRE組織が2年間で遂げた変遷と、信頼性向上のための取り組みについて解説している。\n横断支援からプロダクトに深く関わるHub & Spokeモデルへ移行し、現場の課題に即した信頼性を構築している。\n「Reliability by Default」を掲げ、SREが介在せずとも自律して信頼性が維持される仕組みづくりを推進している。",
+      "tags": [
+        "SRE",
+        "組織設計",
+        "チームトポロジー"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 80,
+      "score_reason": "急成長するマルチプロダクト企業におけるSRE組織のスケール手法と実践的な戦略思想が詳しく共有されているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "今後のセキュリティの考え方",
+      "url": "https://zenn.dev/cscloud_blog/articles/a987163efae5d8",
+      "source": "Zenn",
+      "published": "2026-10-30T10:30:27+00:00",
+      "summary": "AWS環境を題材に、管理負荷や攻撃対象領域を最小化するためのモダンなセキュリティ設計論を解説している。\nEC2へのSSH接続廃止やECS(Fargate)移行、静的ファイルのS3/CloudFront配信などの有効性を提示する。\n運用責任をクラウド側に委譲し、AIも活用しながらアーキテクチャの最適化を進める重要性を論じている。",
+      "tags": [
+        "AWS",
+        "クラウドセキュリティ",
+        "インフラ設計"
+      ],
+      "category": "セキュリティ",
+      "score": 78,
+      "score_reason": "クラウド運用の管理面を削減し攻撃リスクを低減する具体的かつ実践的なセキュリティ手法が示されているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "2026年自分流AIエージェント環境構築の秋",
+      "url": "https://zenn.dev/rescuenow/articles/49826fc6cc2713",
+      "source": "Zenn",
+      "published": "2026-10-30T00:55:31+00:00",
+      "summary": "VS Codeを使わず複数AIエージェントのオーケストレーションを中心とした開発環境への移行事例。\n司令塔エージェントにタスク管理を任せ、作業役エージェントにコーディングや調査を実行させて人間が判断を下す構成を確立。\nClaude Code、Orca、Notionを連携させ、人間の介入を最小限に抑えつつ効率的に開発を進める仕組みを解説。",
+      "tags": [
+        "AIエージェント",
+        "Claude Code",
+        "オーケストレーション"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "複数のAIエージェントと人間が協調する実践的な開発環境の構築知見が具体的に共有されており実用性が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オラクル、社員が業務アプリをAIで自動作成、Oracle Cloud上で共有できる「Oracle App Composer」発表。Oracle AI World 2026",
+      "url": "https://www.publickey1.jp/blog/26/aioracle_cloudoracle_app_composeroracle_ai_world_2026.html",
+      "source": "Publickey",
+      "published": "2026-10-28T15:39:53+00:00",
+      "summary": "オラクルはチャットで指示するだけでAIが業務アプリを自動生成する「Oracle App Composer」を発表しました。\n生成されたアプリはセキュリティ検証を経てOracle Cloudへ自動デプロイされ社内共有が可能です。\n情報システム部門による利用状況の一括管理やガバナンス維持の機能も備えています。",
+      "tags": [
+        "Oracle Cloud",
+        "AIアプリ生成",
+        "ローコード開発"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "非エンジニアが自然言語で業務アプリを構築・展開できるエンタープライズ向けAI開発基盤として高い実用性を持ちます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オープンウェブの破壊は悪質なボットを止められない",
+      "url": "https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/",
+      "source": "Hacker News",
+      "published": "2026-10-27T18:42:55+00:00",
+      "hn_score": 188,
+      "hn_comments": 78,
+      "summary": "AI開発者による急増するクローリングに対処するため、米議会で自動データ収集の制限を狙う法案が議論されている。\nしかし法案は全自動アクセスに身元開示等を求めるため、データ収集に依存する調査報道などオープンウェブの基盤を脅かす。\n悪質ボット対策としてウェブの公開性を制限することは、正当な情報収集ツールの利用を阻害すると警鐘を鳴らしている。",
+      "tags": [
+        "Webスクレイピング",
+        "AI規制",
+        "オープンウェブ"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 76,
+      "score_reason": "AI開発に伴うクローリング問題と法規制が、オープンウェブの基本原則や調査報道に与える影響を論じた重要課題であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Codex のいいところだけを、Claude Code や Muse から使う",
+      "url": "https://qiita.com/tatsuya582/items/4d79021c9f78f4015992?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-10-30T03:58:43+00:00",
+      "summary": "Codexのアプリ操作機能（Computer Use）を他社製AIツールから直接呼び出すハックを紹介。\ncodex app-serverのJSON-RPCインターフェース経由でMCPツールを叩くことで、Codexのトークン消費なしで機能を利用可能。\nClaude CodeやMuseなどの外部エージェントからMacのアプリ自動操作を実現する具体的な連携手順を解説。",
+      "tags": [
+        "Codex",
+        "Claude Code",
+        "MCP"
+      ],
+      "category": "AI・機械学習",
+      "score": 76,
+      "score_reason": "Codex特有の機能をトークン消費なしで他社エージェントから活用するアプローチに技術的新規性がある。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "ヘッドレスブラウザ不要のCloudflare Turnstile突破ライブラリ",
+      "url": "https://github.com/chris124567/cfsolve",
+      "source": "Hacker News",
+      "published": "2026-10-28T17:29:23+00:00",
+      "hn_score": 74,
+      "hn_comments": 26,
+      "summary": "ヘッドレスブラウザを用いずにCloudflare Turnstileを突破できるRust製ツール「cfsolve」が登場しました。\n事前に記録したブラウザプロファイルを模倣し、軽量かつ高速にトークンやクリアクッキーを取得可能です。\nボット対策とスクレイピング技術のいたちごっこにおける新たなアプローチとして注目されています。",
+      "tags": [
+        "Cloudflare",
+        "Rust",
+        "ボット検出回避"
+      ],
+      "category": "セキュリティ",
+      "score": 75,
+      "score_reason": "一般的なヘッドレスブラウザを使わずに対策を回避する手法であり、Webスクレイピングやセキュリティ対策に大きな影響を与えます。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GA4 のイベントが「gtag.js の読み込み前」に静かに消えていた：Next.js の2サイトで見つけた3つの壊れ方と直し方",
+      "url": "https://qiita.com/yamadagenki/items/d35d769e9771997de3be?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-10-28T12:08:10+00:00",
+      "summary": "Next.js環境下でエラーが出ないままGA4カスタムイベントが欠落していたトラブルシューティングの記録。\ngtag.jsの初期化と本体スクリプト読み込みのタイミング依存によるデータの喪失原因を詳細に分析。\n薄いラッパー関数などで起こりがちな壊れ方のパターンと、正しくイベントをキューイングするための修正法を提示。",
+      "tags": [
+        "Next.js",
+        "GA4",
+        "JavaScript"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 75,
+      "score_reason": "Next.js環境で気付きにくいGA4計測漏れの根本原因と確実な対処法が丁寧に解説されており現場での有用性が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "エンジニアが「勝手に育つ時代」は終わった　～エンジニアを育ててきた装置はAIで壊れた～",
+      "url": "https://codezine.jp/article/detail/30081",
+      "source": "はてなブックマーク",
+      "published": "2026-10-30T04:00:20+00:00",
+      "summary": "AIの普及によって初級エンジニアが試行錯誤しながら技術を自律的に習得する従来の育成構造が崩壊しました。\nコード自動生成やAIアシスタントの台頭が基礎学習の機会を奪う副作用をもたらしています。\n組織として新たなエンジニア育成フレームワークを再設計する必要性に警鐘を鳴らしています。",
+      "tags": [
+        "エンジニア育成",
+        "生成AI",
+        "キャリア開発"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 75,
+      "score_reason": "AIツール普及に伴う若手エンジニアの育成不全という、業界全体が直面しつつある重大な組織課題を鋭く指摘しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「AIっぽいデザイン」はなぜ消えないのか ── Impeccableを読み解いて、同じ依頼で4通り作って比べてみた",
+      "url": "https://qiita.com/jinxin4869/items/0e72c0b925b75f1c28c9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-10-28T14:53:27+00:00",
+      "summary": "AI生成UI特有の陳腐化しやすい「AIっぽさ」の正体と、その対策スキル「Impeccable」の仕組みを検証。\n流行のスタイルを避けること自体が新たなテンプレになる問題に対し、デザイン手順自体を制約するルールを分析。\n同一プロンプトから作成した複数パターンの比較を通じ、脱テンプレ化を図るための実践的アプローチを考察。",
+      "tags": [
+        "UIデザイン",
+        "生成AI",
+        "フロントエンド"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 74,
+      "score_reason": "生成AIが抱えるデザインの均一化という課題に対し、実践的な回避スキルと検証結果を提示している。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "フロントエンドカンファレンス関西2026に参加しました！",
+      "url": "https://zenn.dev/flagxs/articles/931d7d45292717",
+      "source": "Zenn",
+      "published": "2026-10-30T07:50:29+00:00",
+      "summary": "フロントエンドカンファレンス関西2026の参加レポートとして、注目セッションの要点が共有されている。\nスクリーンリーダー運用やデザインシステムを考慮した、実践的なWebアクセシビリティの重要性を再認識している。\nChromeで実験的実装が進む宣言型部分更新（DPU）など、次世代のWeb標準技術に関する動向も紹介されている。",
+      "tags": [
+        "フロントエンド",
+        "アクセシビリティ",
+        "Web標準"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 72,
+      "score_reason": "アクセシビリティの実践的知見や実験的なWeb標準技術（DPU）など、フロントエンド開発に役立つ情報がまとめられているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "文章のAIっぽさを抑えるプロンプト",
+      "url": "https://imoz.jp/scraps/202610_humanizer.html",
+      "source": "はてなブックマーク",
+      "published": "2026-10-30T14:00:14+00:00",
+      "summary": "大規模言語モデルによる文章生成では見出しの過多や説明の重複が生じやすい課題があります。\n著者は重複削減や表現具体化を指示する推敲ルールを定義したプロンプトを公開しました。\nGPTモデルに複数回適用することでAI特有の不自然さを解消し自然な文章へ改善できることを実証しています。",
+      "tags": [
+        "LLM",
+        "プロンプトエンジニアリング",
+        "AIライティング"
+      ],
+      "category": "AI・機械学習",
+      "score": 72,
+      "score_reason": "LLM生成文の定型的な不自然さを取り除く実践的なプロンプト設計と推敲手法を具体例とともに提示しており有用です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "MCP経由のGoogleマップデータ連携：Cursor、Claude Code、Codex、Claude Desktopでの活用法",
+      "url": "https://dev.to/jimmiller26/google-maps-data-via-mcp-cursor-claude-code-codex-and-claude-desktop-3p2c",
+      "source": "Dev.to",
+      "published": "2026-10-31T01:21:12+00:00",
+      "summary": "Model Context Protocol（MCP）を利用してGoogleマップのビジネスデータを各種AIクライアントに連携する手順を解説しています。\nCursorやClaude Codeなどのツールから店舗検索、レビュー、写真取得の機能を直接呼び出すことが可能です。\nスクリプトを作成することなくプロンプト指示のみでデータ収集と調査ワークフローを効率化できます。",
+      "tags": [
+        "MCP",
+        "Cursor",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 72,
+      "score_reason": "普及が進むMCPを活用してAI開発環境から外部APIを直接操作する具体的な連携手順を示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "研修中の僕がSlackに海外のIT情報を運ぶbotを作ったら、だいたい何が起きたか",
+      "url": "https://qiita.com/EricYu/items/147bf8e5fdb1b04f6d54?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-10-28T02:44:24+00:00",
+      "summary": "GitHub ActionsとBedrock（Claude Haiku）を用い、月額100円未満で動く海外IT情報配信Slack botを構築。\n複数ソースの情報をまとめて要約APIに渡すなど、コストを最小化するための工夫を紹介。\n単に機能を作るだけでなく、「読まれない」状態から社内で役立つ情報源に育てるまでの試行錯誤を共有。",
+      "tags": [
+        "Slack",
+        "GitHub Actions",
+        "Claude"
+      ],
+      "category": "AI・機械学習",
+      "score": 70,
+      "score_reason": "軽量なサーバーレス構成による低コスト運用と、情報配信botを定着させる実践的な知見がまとまっている。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GMO不正アクセスの件で見つけた不審なXアカウントと「被害者フォーラム」について | ActiveTK's Note",
+      "url": "https://note.activetk.jp/hacks/onamae-desktop-cloud-v3",
+      "source": "はてなブックマーク",
+      "published": "2026-10-30T22:33:17+00:00",
+      "summary": "GMOのサービスに対する不正アクセス事案に関連した不審な動向について調査・分析しています。\n被害者フォーラムを名乗る不審なサイトや関連する複数のXアカウントを特定しました。\n攻撃者や関連人物の痕跡を時系列に沿って追跡しセキュリティ上の注意を喚起しています。",
+      "tags": [
+        "不正アクセス",
+        "サイバーセキュリティ",
+        "脅威インテリジェンス"
+      ],
+      "category": "セキュリティ",
+      "score": 70,
+      "score_reason": "実インシデントに伴う不審なオンライン活動や詐称フォーラムの実態を調査した実践的なセキュリティレポートです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "TaocartsがShopify、Coupang、WooCommerce、Base間で商品リストを同期し続ける方法",
+      "url": "https://dev.to/taocarts/how-taocarts-keeps-product-listings-in-sync-across-shopify-coupang-woo-and-base-30jf",
+      "source": "Dev.to",
+      "published": "2026-10-31T01:21:55+00:00",
+      "summary": "複数ECプラットフォームで商品情報を手動管理する際のデータ不整合の課題を解決する手法を解説しています。\n単一の内部レコードを信頼できる唯一の情報源とし、各チャネルはプロジェクションとしてイベント駆動で連携します。\nチャネルごとの独立したアダプターとリトライ設計により、1つのAPI障害が他チャネルへ影響しない堅牢性を確保しています。",
+      "tags": [
+        "Eコマース",
+        "システム設計",
+        "イベント駆動アーキテクチャ"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 68,
+      "score_reason": "複数ECプラットフォーム間のデータ整合性を保つ実践的なイベント駆動アーキテクチャの知見が共有されているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "0から学ぶセキュリティの基礎　~XSS編~",
+      "url": "https://qiita.com/Pigeon_gate/items/3ce4e1c1a39db64c5c32?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-10-30T02:24:34+00:00",
+      "summary": "受動的攻撃と能動的攻撃の違いを整理し、Webセキュリティの代表的脆弱性であるXSSを基礎から解説。\n悪意あるスクリプトがブラウザ上で実行されてしまう仕組みや、エスケープ処理の重要性を説明。\nURLを踏ませる反射型やデータベースを経由する格納型など、XSSの主な攻撃パターンの基礎を網羅。",
+      "tags": [
+        "セキュリティ",
+        "XSS",
+        "Web開発"
+      ],
+      "category": "セキュリティ",
+      "score": 65,
+      "score_reason": "初学者向けにXSSの基本概念と攻撃手法のメカニズムを分かりやすく整理した基礎解説記事である。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "バグバウンティがいかにしてあるリサーチャーのセキュリティスキルを研鑽したか",
+      "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
+      "source": "GitHub Blog",
+      "published": "2026-10-22T17:21:30+00:00",
+      "summary": "GitHub Security Bug Bountyプログラムで成果を上げた優秀なセキュリティリサーチャーの実践事例が紹介されています。\nAIの普及で脆弱性調査への参入障壁が下がる一方、確実なPoCやセキュリティ影響の実証という本質的価値は変わりません。\n高品質な検証能力を持つリサーチャーにはVIPプログラムを通じた高額報奨金や迅速なフィードバックが提供されます。",
+      "tags": [
+        "セキュリティ",
+        "バグバウンティ",
+        "脆弱性調査"
+      ],
+      "category": "セキュリティ",
+      "score": 65,
+      "score_reason": "AI普及期における脆弱性調査の現場と、リサーチャーに求められる実質的な検証スキルの重要性を論じているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Infinite Mac：ブラウザ上で動作するBeOSが登場",
+      "url": "https://blog.persistent.info/2026/10/infinite-mac-beos.html",
+      "source": "Hacker News",
+      "published": "2026-10-30T19:30:09+00:00",
+      "hn_score": 104,
+      "hn_comments": 34,
+      "summary": "ブラウザ上でクラシックMacを再現する「Infinite Mac」にて、PowerPC版BeOSの動作サポートが追加されました。\n大容量ディスクイメージをストリーミングし、インストール不要で即座にBeOSのマルチメディア環境を体験できます。\nかつてAppleの次世代OS候補だった名作OSをWeb上で手軽に追体験できるプロジェクトです。",
+      "tags": [
+        "BeOS",
+        "WebAssembly",
+        "エミュレーション"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 62,
+      "score_reason": "Webブラウザ上での高度なOSエミュレーション技術の進歩を示す魅力的なプロジェクトですが、主にレトロPC愛好家向けの内容です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "OpenAI CEO says it's 'quite terrible' for your PC to have RAM",
+      "url": "https://www.reddit.com/r/technology/comments/1xjmixe/openai_ceo_says_its_quite_terrible_for_your_pc_to/",
+      "source": "Reddit",
+      "published": "2026-10-30T17:59:02+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false,
+      "topic_group": 2,
+      "topic_size": 3
+    },
+    {
+      "title": "Cisco gives 27-year-old engineer unlimited AI tokens to rewrite 98% of the company's legacy code in 24 months — president plucks former startup founder, telling him to 'go nuts'",
+      "url": "https://www.reddit.com/r/technology/comments/1xjn25u/cisco_gives_27yearold_engineer_unlimited_ai/",
+      "source": "Reddit",
+      "published": "2026-10-30T18:18:42+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "OpenAI CEO Sam Altman Thinks It's 'Terrible' for You to Have RAM in Your Gaming PC",
+      "url": "https://www.reddit.com/r/technology/comments/1xjqfvx/openai_ceo_sam_altman_thinks_its_terrible_for_you/",
+      "source": "Reddit",
+      "published": "2026-10-30T20:27:34+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false,
+      "topic_group": 2,
+      "topic_size": 3
+    },
+    {
+      "title": "The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes",
+      "url": "https://www.reddit.com/r/technology/comments/1xjdg5q/the_63_billion_binance_hack_was_pulled_off_in/",
+      "source": "Reddit",
+      "published": "2026-10-30T12:00:57+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "OpenAI CEO Sam Altman says its “terrible to have everybody have a bunch of the world’s limited supply of DRAM” instead of shoving it all in datacentres",
+      "url": "https://www.reddit.com/r/technology/comments/1xjfjl6/openai_ceo_sam_altman_says_its_terrible_to_have/",
+      "source": "Reddit",
+      "published": "2026-10-30T13:34:56+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false,
+      "topic_group": 2,
+      "topic_size": 3
+    },
+    {
+      "title": "小学生の絵に「AIくさい」　中傷相次ぎしょうゆコンクール公開中止：朝日新聞",
+      "url": "https://www.asahi.com/articles/ASVBZ2WFHVBZUTIL023M.html",
+      "source": "はてなブックマーク",
+      "published": "2026-10-30T22:18:39+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "JavaScriptランタイムの「Bun」がPrettier互換で300倍以上高速なフォーマッタに。Prettier設定ファイルもそのまま利用可能",
+      "url": "https://www.publickey1.jp/blog/26/javascriptbunprettier300prettier.html",
+      "source": "Publickey",
+      "published": "2026-10-27T15:27:52+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "AWSとGoogle Cloudが「PyTorch」のAWS Trainium、Google Cloud TPU対応版をオープンソースで公開。NVIDIAからの移行に挑む",
+      "url": "https://www.publickey1.jp/blog/26/awsgoogle_cloudpytorchaws_trainiumgoogle_cloud_tpunvidia.html",
+      "source": "Publickey",
+      "published": "2026-10-26T15:59:52+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "「DuckDB 2.0 LTS」正式リリース。Quackプロトコルによるクライアント/サーバ機能や非同期処理による高速化など",
+      "url": "https://www.publickey1.jp/blog/26/duckdb_20_ltsquack.html",
+      "source": "Publickey",
+      "published": "2026-10-25T15:44:47+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "How many visitors does an A/B test actually need? (table + free calculator)",
+      "url": "https://dev.to/baneet_singh_1cd12e795b68/how-many-visitors-does-an-ab-test-actually-need-table-free-calculator-52bc",
+      "source": "Dev.to",
+      "published": "2026-10-31T01:24:47+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Apache Pulsar Manager is end of life, so discovery must lead to removal",
+      "url": "https://dev.to/kozhevniko/apache-pulsar-manager-is-end-of-life-so-discovery-must-lead-to-removal-58pc",
+      "source": "Dev.to",
+      "published": "2026-10-31T01:23:45+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "Using AI With Private Business Data",
+      "url": "https://dev.to/sildev/using-ai-with-private-business-data-lm",
+      "source": "Dev.to",
+      "published": "2026-10-31T01:23:31+00:00",
+      "summary": "(解析中にエラーが発生しました)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "解析エラー: All retries exhausted",
+      "analysis_status": "error",
+      "is_hot": false
+    },
+    {
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+      "source": "GitHub Blog",
+      "published": "2026-10-20T16:05:03+00:00",
+      "summary": "(解析スキップ)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "タイムアウトのため解析スキップ",
+      "analysis_status": "skipped",
+      "is_hot": false
+    },
+    {
+      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+      "url": "https://arxiv.org/abs/2610.37720",
+      "source": "arXiv cs.AI",
+      "published": "2026-10-30T04:00:00+00:00",
+      "summary": "(解析スキップ)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "タイムアウトのため解析スキップ",
+      "analysis_status": "skipped",
+      "is_hot": false
+    },
+    {
+      "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
+      "url": "https://arxiv.org/abs/2610.37731",
+      "source": "arXiv cs.AI",
+      "published": "2026-10-30T04:00:00+00:00",
+      "summary": "(解析スキップ)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "タイムアウトのため解析スキップ",
+      "analysis_status": "skipped",
+      "is_hot": false
+    },
+    {
+      "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
+      "url": "https://arxiv.org/abs/2610.37732",
+      "source": "arXiv cs.AI",
+      "published": "2026-10-30T04:00:00+00:00",
+      "summary": "(解析スキップ)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "タイムアウトのため解析スキップ",
+      "analysis_status": "skipped",
+      "is_hot": false
+    },
+    {
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "url": "https://arxiv.org/abs/2610.37739",
+      "source": "arXiv cs.AI",
+      "published": "2026-10-30T04:00:00+00:00",
+      "summary": "(解析スキップ)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "タイムアウトのため解析スキップ",
+      "analysis_status": "skipped",
+      "is_hot": false
+    },
+    {
+      "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+      "url": "https://arxiv.org/abs/2610.37786",
+      "source": "arXiv cs.AI",
+      "published": "2026-10-30T04:00:00+00:00",
+      "summary": "(解析スキップ)",
+      "tags": [],
+      "category": "その他",
+      "score": 50,
+      "score_reason": "タイムアウトのため解析スキップ",
+      "analysis_status": "skipped",
+      "is_hot": false
+    },
+    {
+      "title": "私のお気に入りのPowerMacはNintendo Wii",
+      "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+      "source": "Hacker News",
+      "published": "2026-10-30T17:25:15+00:00",
+      "hn_score": 241,
+      "hn_comments": 64,
+      "summary": "PowerPCアーキテクチャを採用する任天堂Wiiハードウェアの特性に着目した技術的な試みです。\nWii上でMac OS等のPowerMac互換環境を動作させるユニークなハックが紹介されています。\nレトロPCエミュレーションとゲーム機ハードウェアの流用というニッチな面白さを持つ内容です。",
+      "tags": [
+        "Nintendo Wii",
+        "PowerPC",
+        "エミュレーション"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 45,
+      "score_reason": "既存ハードウェアの特性を活かした興味深いハックですが、ホビー用途にとどまり実用的な影響力は限定的です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ジュール・ヴェルヌの失われた小説",
+      "url": "https://blue-continuum.com/verne-paris",
+      "source": "Hacker News",
+      "published": "2026-10-30T19:55:10+00:00",
+      "hn_score": 79,
+      "hn_comments": 14,
+      "summary": "ジュール・ヴェルヌが1863年に執筆した未来予測小説『二十世紀のパリ』の執筆背景を紹介している。\n科学や効率を重視した1960年の暗い社会を描いたため当時の出版社に拒否され、原稿は131年間封印されていた。\n1994年に発見されて日の目を見た本作は、過度な技術信仰に対する鋭い予言的な洞察を含んでいる。",
+      "tags": [
+        "SF小説",
+        "ジュール・ヴェルヌ",
+        "文学史"
+      ],
+      "category": "その他",
+      "score": 35,
+      "score_reason": "古典SF文学の歴史的発見に関するエッセイであり、現代のIT技術動向への直接的な影響度は低いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "パトリック・スチュワート卿を讃えて：新スタートレック（TNG）エピソード当てゲーム",
+      "url": "https://tng.episodle.com/",
+      "source": "Hacker News",
+      "published": "2026-10-30T23:51:24+00:00",
+      "hn_score": 36,
+      "hn_comments": 12,
+      "summary": "俳優パトリック・スチュワートを称えて制作された『新スタートレック』のエピソード当てクイズゲームです。\nファン向けに日替わりなどでエピソードを推測して遊べるWordle風のWebアプリとなっています。\nオープンなWebコミュニティ向けに個人開発されたShow HNプロジェクトです。",
+      "tags": [
+        "Webアプリ",
+        "ゲーム",
+        "個人開発"
+      ],
+      "category": "その他",
+      "score": 30,
+      "score_reason": "特定のファン層に向けたエンタメ系個人プロジェクトであり、技術的な新規性や業界への影響度は低いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}
