@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 31 Oct 2026 01:42:18 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 01:02:48 +0000</lastBuildDate>
     <item>
-      <title>CursorマーケットプレイスのClaude Code拡張機能にバックドアが混入</title>
-      <link>https://phorion.io/blog/offical-claude-code-vsx-compromise/</link>
-      <guid isPermaLink="false">https://phorion.io/blog/offical-claude-code-vsx-compromise/</guid>
-      <description>[Score: 93] Cursorマーケットプレイス上のClaude Code公式拡張機能にSSHバックドアが仕込まれていることが判明しました。 / macOS、Linux、Windowsで永続的なアクセスを試みる悪意あるコードが含まれており、影響版はすでに削除されています。 / IDE拡張機能の実行権限を悪用したサプライチェーン攻撃であり、利用組織に緊急のインシデント対応が求められています。 (Source: Hacker News)</description>
-      <pubDate>Fri, 30 Oct 2026 07:09:12 +0000</pubDate>
+      <title>TCPのUse-After-Free脆弱性: CVE-2026-98432 (CVSS 9.8)</title>
+      <link>https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf</link>
+      <guid isPermaLink="false">https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf</guid>
+      <description>[Score: 95] LinuxカーネルのIPv4 TCPハンドシェイク処理に重大なUse-After-Free脆弱性が発見されました。 / 認証不要のリモート攻撃者がroot権限で任意のコードを実行可能であり、CVSSは9.8と評価されています。 / 主要ディストリビューションへの影響が広範囲に及び、各システムでのパッチ適用が急務となっています。 (Source: Hacker News)</description>
+      <pubDate>Sat, 31 Oct 2026 19:16:30 +0000</pubDate>
     </item>
     <item>
-      <title>GitHub Universe 2026：スタックの全レイヤーを進化させる</title>
+      <title>GitHub Universe 2026：開発スタックのあらゆる層の進化</title>
       <link>https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/</link>
       <guid isPermaLink="false">https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/</guid>
-      <description>[Score: 92] 開発者がコードを書く時代から自律型AIエージェント群を統括する時代への転換を見据えたビジョンが示されました。 / SDLCが線形からエージェント中心の適応型システムへと再定義され、GitHub Copilotアプリなどの新機能が発表されました。 / 基盤となるインフラも刷新し、開発者が主導権とコスト管理を握りながら柔軟に構築できる環境を提供します。 (Source: GitHub Blog)</description>
+      <description>[Score: 92] GitHubは開発者が複数のAIエージェントを指揮する時代を見据え、包括的なソフトウェアデリバリーシステムへの転換を発表。 / 従来の線形な開発工程から、エージェントが実装・検証を自律実行し人間が統括する循環型モデルへの移行を提示。 / GitHub Copilotアプリをはじめとする新製品群と、それを大規模に支える基盤インフラの再設計を公開した。 (Source: GitHub Blog)</description>
       <pubDate>Wed, 28 Oct 2026 16:09:28 +0000</pubDate>
     </item>
     <item>
-      <title>エージェント規模のGitインフラストラクチャへの架け橋</title>
-      <link>https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/</link>
-      <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/</guid>
-      <description>[Score: 90] AIエージェントによるトラフィック爆発に対応するため、GitHubがGitリポジトリをAzureへ移行する新アーキテクチャを解説しています。 / クォーラムの書き込み直列化手法を改良することで、高負荷なリポジトリの移行とステートレスレプリカの実現を可能にしました。 / 極めて可用性の要求が高いTier 0サービスにおいて、成長を止めずにデータ移行とアーキテクチャ進化を両立させています。 (Source: GitHub Blog)</description>
-      <pubDate>Wed, 21 Oct 2026 16:00:00 +0000</pubDate>
+      <title>Claude Code 拡張機能のバックドア事件まとめ（2.1.312・2.1.313・Cursor のマーケットプレイス）</title>
+      <link>https://zenn.dev/sonsu/articles/67fbd9a1cf8914</link>
+      <guid isPermaLink="false">https://zenn.dev/sonsu/articles/67fbd9a1cf8914</guid>
+      <description>[Score: 88] Cursorの拡張機能マーケットプレイスにClaude Codeを騙る悪意ある偽バージョンが公開・配布されたインシデントのまとめ。 / インストールすると攻撃者の公開鍵が追加され、SSHによる不正侵入を試みるバックドアが仕込まれていた。 / 影響を受ける環境の条件、自身のPCが被害に遭っていないか確認する方法、および対処法を具体的に解説している。 (Source: Zenn)</description>
+      <pubDate>Fri, 30 Oct 2026 18:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Northflankがセキュリティ侵害を公表、シークレットの即時ローテーションを警告</title>
-      <link>https://status.northflank.com</link>
-      <guid isPermaLink="false">https://status.northflank.com</guid>
-      <description>[Score: 88] 開発プラットフォームNorthflankにおいて、ユーザーのAI APIキーなどの不正利用が確認されるセキュリティ侵害が発生しました。 / すべての環境変数やシークレットが漏洩した前提で、直ちに認証情報をローテーションするよう強く呼びかけています。 / 近頃多発しているAI認証情報を狙った大規模な攻撃キャンペーンの一環である可能性が示唆されています。 (Source: Hacker News)</description>
-      <pubDate>Fri, 30 Oct 2026 15:10:31 +0000</pubDate>
+      <title>3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点）</title>
+      <link>https://zenn.dev/kauche/articles/f3736c660aab77</link>
+      <guid isPermaLink="false">https://zenn.dev/kauche/articles/f3736c660aab77</guid>
+      <description>[Score: 88] 3人のエンジニアが各自のClaude CodeをSlack経由で連携させ、ISUCON2026で20万点超を達成した事例が公開された。 / 午後からは人間がコードを書かず、GOAL.mdを通じた自律指示とAI同士のSlack調整により改善サイクルを回した。 / AIが自ら効率的な通信フォーマットを採択するなど、複数自律エージェント開発協調の先進的な実証となっている。 (Source: はてなブックマーク)</description>
+      <pubDate>Sat, 31 Oct 2026 15:02:52 +0000</pubDate>
     </item>
     <item>
-      <title>Octoverse：開発者がエージェントと共に構築することでコミットとプッシュが2026年に過去最高を記録</title>
+      <title>AWSとGoogle Cloudが「PyTorch」のAWS Trainium、Google Cloud TPU対応版をオープンソースで公開。NVIDIAからの移行に挑む</title>
+      <link>https://www.publickey1.jp/blog/26/awsgoogle_cloudpytorchaws_trainiumgoogle_cloud_tpunvidia.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/awsgoogle_cloudpytorchaws_trainiumgoogle_cloud_tpunvidia.html</guid>
+      <description>[Score: 88] AWSとGoogle Cloudがイベント「PyTorch Conference 2026」にて自社AIアクセラレータ向けPyTorch実装を相次いでOSS化しました。 / AWSはTrainium向け「TorchNeuron」を、Google CloudはTPU向け「TorchTPU」をそれぞれオープンソースとして提供開始しました。 / コード変更を最小限に抑えて実行可能にすることで、独占的なNVIDIA製GPU依存からの脱却と移行の促進を狙います。 (Source: Publickey)</description>
+      <pubDate>Mon, 26 Oct 2026 15:59:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Octoverse：開発者がエージェントと共に構築することで、2026年のコミットとプッシュが過去最高に達する</title>
       <link>https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/</link>
       <guid isPermaLink="false">https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/</guid>
-      <description>[Score: 88] 年次レポート「Octoverse」において、年間のコードプッシュ数が過去2年分の合算を上回る179億回に達したことが発表されました。 / AIエージェントが試験的利用から日常的な協働ツールへと定着したことで、開発アクティビティが急増しています。 / 医療から農業まで多様な業界へ開発の裾野が広がり、世界規模でエンジニアの成長が加速しています。 (Source: GitHub Blog)</description>
+      <description>[Score: 88] 過去12か月間のGitHubへのコードプッシュが179億回に達し、前年までの実績を大幅に上回る歴史的急増を記録。 / AIエージェントが実験段階から日常的な協働ツールへと定着したことで、世界中の開発アクティビティが加速。 / 防災システムから宇宙開発、ヘルスケアまで、多様なオープンソース開発がかつてない規模で拡大している。 (Source: GitHub Blog)</description>
       <pubDate>Wed, 28 Oct 2026 16:07:40 +0000</pubDate>
     </item>
     <item>
-      <title>yoroによろしくぅ！Ai Workforce 事業部のリモートコーディングエージェント環境 yoro のご紹介</title>
-      <link>https://zenn.dev/layerx/articles/a277f83a93d300</link>
-      <guid isPermaLink="false">https://zenn.dev/layerx/articles/a277f83a93d300</guid>
-      <description>[Score: 85] LayerX社で構築されたリモートコーディングエージェント実行環境「yoro」のアーキテクチャを紹介している。 / Aazure Kubernetes Service上にOSSのCoderを配備し、Claude Code等の自律実行環境（YOLOモード）を構築した。 / 機密情報を守るための隔離と監視を担保しつつ、ローカルマシンの負荷をかけずにバックグラウンド開発を実現している。 (Source: Zenn)</description>
-      <pubDate>Fri, 30 Oct 2026 02:11:36 +0000</pubDate>
+      <title>Memdoor: 5つのQwen3.8-27Bモデルの連携チームがLiveCodeBench HardでFable 5を凌駕</title>
+      <link>https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve</link>
+      <guid isPermaLink="false">https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve</guid>
+      <description>[Score: 85] 複数のAIエージェントがファイル経由で協調してプログラミング課題を解くワークフローが開発されました。 / 計画や実装、検証など5つの役割に分担することで、単一の巨大モデルを上回る正答率を達成しました。 / 中規模オープンモデルの連携によって最高峰モデルの性能を超えられることを実証しています。 (Source: Hacker News)</description>
+      <pubDate>Sat, 31 Oct 2026 22:46:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Project Suncatcherプロトタイプ衛星からの最初の応答</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/</link>
+      <guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/</guid>
+      <description>[Score: 85] Googleの研究プロジェクト「Project Suncatcher」の試作衛星から軌道上で初のAI応答に成功した。 / 軌道上のデータセンター級TPUでオープンモデル「Gemma 4」を実行し、宇宙をテーマにした俳句などを生成した。 / 今後は宇宙環境での熱や放射線への耐性を検証し、2027年の衛星間相互接続に向けた実証を進める計画である。 (Source: Hacker News)</description>
+      <pubDate>Sat, 31 Oct 2026 03:54:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AIの影響でコンピューター工学専攻の新卒失業率がわずか2年で2.3%から7.8%へ急増</title>
+      <link>https://www.reddit.com/r/technology/comments/1xkoe1a/artificial_intelligence_has_caused_the/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xkoe1a/artificial_intelligence_has_caused_the/</guid>
+      <description>[Score: 85] コンピューター工学分野の卒業生における失業率が、わずか2年前の2.3%から7.8%へと急激に跳ね上がったことが判明した。 / 生成AIの普及に伴うコード自動生成技術の進化が、ジュニアエンジニアの採用需要抑制に直結していると指摘されている。 / テック業界における新卒・若手開発者のキャリア形成や採用市場の構造変化を象徴するデータとして注目を集めている。 (Source: Reddit)</description>
+      <pubDate>Sat, 31 Oct 2026 23:26:17 +0000</pubDate>
     </item>
     <item>
       <title>Oracle CloudがGoogle TPU導入を発表、2027年に提供を開始。Oracle AI World 2026</title>
       <link>https://www.publickey1.jp/blog/26/oracle_cloudgoogle_tpu2027oracle_ai_world_2026.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/oracle_cloudgoogle_tpu2027oracle_ai_world_2026.html</guid>
-      <description>[Score: 85] オラクルはGoogleが開発するAI専用プロセッサ「Google TPU」をOracle Cloudに導入すると発表しました。 / 大規模な電力・冷却環境を整え、2027年からOCI上でTPUサービスの提供を開始する予定です。 / NVIDIA製GPU依存を低減し、メガクラウド市場で競合するGoogleと提携して顧客のAI選択肢を広げます。 (Source: Publickey)</description>
+      <description>[Score: 85] オラクルはOracle Cloud Infrastructure（OCI）にGoogle開発のAI専用プロセッサ「Google TPU」を導入することを発表した。 / 2027年からの提供開始を予定しており、大規模展開に向けた電力や冷却、データセンター内ネットワークを整備する。 / NVIDIA製GPU依存からの脱却とマルチクラウド連携を強化し、ハイパースケーラー対抗のAI基盤を拡充する狙いがある。 (Source: Publickey)</description>
       <pubDate>Tue, 27 Oct 2026 16:33:51 +0000</pubDate>
     </item>
     <item>
-      <title>AppleはiPhoneをエサにメモリメーカーへ大幅な値引きを強要してきたがAIの登場で価格が高騰して立場が逆転しているとの指摘</title>
-      <link>https://gigazine.net/news/20261030-apple-chip-sellers-impact/</link>
-      <guid isPermaLink="false">https://gigazine.net/news/20261030-apple-chip-sellers-impact/</guid>
-      <description>[Score: 83] Appleは従来、大量調達力を背景に強硬な戦術でフラッシュメモリの大幅値引きを行ってきました。 / しかし世界的なAIブームによる需要急増でメモリ価格が高騰し、サプライヤーの交渉力が急速に強化されました。 / これによりAppleの買い叩き戦術が通用しなくなり、部品調達コストの急増に直面しています。 (Source: はてなブックマーク)</description>
-      <pubDate>Fri, 30 Oct 2026 11:01:02 +0000</pubDate>
+      <title>エージェント規模のGitインフラへの架け橋</title>
+      <link>https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/</link>
+      <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/</guid>
+      <description>[Score: 85] AIエージェントによるアクセス急増に対応するため、GitHubが進めるGitインフラのAzureへの大規模移行を解説。 / 自社データセンターの電力・物理容量限界に直面し、99.99999%のリポジトリを停止なしでクラウドと併用運用。 / クォーラムの書き込み直列化手法を刷新することで、最高負荷リポジトリの移行とステートレスなレプリカ設計を実現した。 (Source: GitHub Blog)</description>
+      <pubDate>Wed, 21 Oct 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>IVRyのSREの取り組み 2026冬</title>
-      <link>https://zenn.dev/ivry/articles/70d4f05ce4ae5c</link>
-      <guid isPermaLink="false">https://zenn.dev/ivry/articles/70d4f05ce4ae5c</guid>
-      <description>[Score: 80] IVRyにおけるSRE組織が2年間で遂げた変遷と、信頼性向上のための取り組みについて解説している。 / 横断支援からプロダクトに深く関わるHub &amp; Spokeモデルへ移行し、現場の課題に即した信頼性を構築している。 / 「Reliability by Default」を掲げ、SREが介在せずとも自律して信頼性が維持される仕組みづくりを推進している。 (Source: Zenn)</description>
-      <pubDate>Fri, 30 Oct 2026 07:50:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>今後のセキュリティの考え方</title>
-      <link>https://zenn.dev/cscloud_blog/articles/a987163efae5d8</link>
-      <guid isPermaLink="false">https://zenn.dev/cscloud_blog/articles/a987163efae5d8</guid>
-      <description>[Score: 78] AWS環境を題材に、管理負荷や攻撃対象領域を最小化するためのモダンなセキュリティ設計論を解説している。 / EC2へのSSH接続廃止やECS(Fargate)移行、静的ファイルのS3/CloudFront配信などの有効性を提示する。 / 運用責任をクラウド側に委譲し、AIも活用しながらアーキテクチャの最適化を進める重要性を論じている。 (Source: Zenn)</description>
-      <pubDate>Fri, 30 Oct 2026 10:30:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>2026年自分流AIエージェント環境構築の秋</title>
-      <link>https://zenn.dev/rescuenow/articles/49826fc6cc2713</link>
-      <guid isPermaLink="false">https://zenn.dev/rescuenow/articles/49826fc6cc2713</guid>
-      <description>[Score: 78] VS Codeを使わず複数AIエージェントのオーケストレーションを中心とした開発環境への移行事例。 / 司令塔エージェントにタスク管理を任せ、作業役エージェントにコーディングや調査を実行させて人間が判断を下す構成を確立。 / Claude Code、Orca、Notionを連携させ、人間の介入を最小限に抑えつつ効率的に開発を進める仕組みを解説。 (Source: Zenn)</description>
-      <pubDate>Fri, 30 Oct 2026 00:55:31 +0000</pubDate>
+      <title>AIブームへの懸念が深まりハイテク株の時価総額から1兆ドルが消失</title>
+      <link>https://www.reddit.com/r/technology/comments/1xknnvn/tech_stocks_wipe_out_1_trillion_in_value_as/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xknnvn/tech_stocks_wipe_out_1_trillion_in_value_as/</guid>
+      <description>[Score: 82] AI関連市場の過熱感と巨額投資に見合う収益化への懸念が強まり、大手ハイテク銘柄の時価総額が一挙に1兆ドル消失した。 / インフラ投資の負担増に対して短期的なリターンが見えにくいことへの投資家の懐疑論が株価急落を招いた。 / AIバブル懸念が広がる中、テック各社には持続可能なビジネスモデルと実質的な利益創出の証明が強く求められている。 (Source: Reddit)</description>
+      <pubDate>Sat, 31 Oct 2026 22:51:42 +0000</pubDate>
     </item>
     <item>
       <title>オラクル、社員が業務アプリをAIで自動作成、Oracle Cloud上で共有できる「Oracle App Composer」発表。Oracle AI World 2026</title>
       <link>https://www.publickey1.jp/blog/26/aioracle_cloudoracle_app_composeroracle_ai_world_2026.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aioracle_cloudoracle_app_composeroracle_ai_world_2026.html</guid>
-      <description>[Score: 78] オラクルはチャットで指示するだけでAIが業務アプリを自動生成する「Oracle App Composer」を発表しました。 / 生成されたアプリはセキュリティ検証を経てOracle Cloudへ自動デプロイされ社内共有が可能です。 / 情報システム部門による利用状況の一括管理やガバナンス維持の機能も備えています。 (Source: Publickey)</description>
+      <description>[Score: 82] オラクルが社員の自然言語指示から業務アプリをAIで自動生成・デプロイできる「Oracle App Composer」を発表した。 / OpenAIのCodexを活用してコードを生成し、セキュリティチェックを経てOracle Cloud上に社内共有される。 / IT部門が一括管理するガバナンス機能を備えており、シャドーITを防ぎながら現場の業務自動化を推進する。 (Source: Publickey)</description>
       <pubDate>Wed, 28 Oct 2026 15:39:53 +0000</pubDate>
     </item>
     <item>
-      <title>オープンウェブの破壊は悪質なボットを止められない</title>
-      <link>https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/</link>
-      <guid isPermaLink="false">https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/</guid>
-      <description>[Score: 76] AI開発者による急増するクローリングに対処するため、米議会で自動データ収集の制限を狙う法案が議論されている。 / しかし法案は全自動アクセスに身元開示等を求めるため、データ収集に依存する調査報道などオープンウェブの基盤を脅かす。 / 悪質ボット対策としてウェブの公開性を制限することは、正当な情報収集ツールの利用を阻害すると警鐘を鳴らしている。 (Source: Hacker News)</description>
-      <pubDate>Tue, 27 Oct 2026 18:42:55 +0000</pubDate>
+      <title>JavaScriptランタイムの「Bun」がPrettier互換で300倍以上高速なフォーマッタに。Prettier設定ファイルもそのまま利用可能</title>
+      <link>https://www.publickey1.jp/blog/26/javascriptbunprettier300prettier.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/javascriptbunprettier300prettier.html</guid>
+      <description>[Score: 82] JavaScriptランタイム「Bun」のv1.4.4にてPrettier互換のコードフォーマッタ「bun fmt」が搭載されました。 / Prettier設定ファイルをそのまま利用でき、Prettierのテストスイートを99%以上パスする互換性を維持しています。 / Prettierと比較して最大320倍の実行速度と5分の1以下のメモリ消費量を実現しています。 (Source: Publickey)</description>
+      <pubDate>Tue, 27 Oct 2026 15:27:52 +0000</pubDate>
     </item>
     <item>
-      <title>Codex のいいところだけを、Claude Code や Muse から使う</title>
-      <link>https://qiita.com/tatsuya582/items/4d79021c9f78f4015992?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/tatsuya582/items/4d79021c9f78f4015992?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 76] Codexのアプリ操作機能（Computer Use）を他社製AIツールから直接呼び出すハックを紹介。 / codex app-serverのJSON-RPCインターフェース経由でMCPツールを叩くことで、Codexのトークン消費なしで機能を利用可能。 / Claude CodeやMuseなどの外部エージェントからMacのアプリ自動操作を実現する具体的な連携手順を解説。 (Source: Qiita)</description>
-      <pubDate>Fri, 30 Oct 2026 03:58:43 +0000</pubDate>
+      <title>ADRを書いて、AIに &quot;Why&quot; を理解させよう【Architecture Decision Record】</title>
+      <link>https://qiita.com/tetsuro731/items/65590daa94499e705850?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/tetsuro731/items/65590daa94499e705850?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 80] AIエージェントにコードの背景や設計理由である「Why」を理解させる手段としてADRを推奨。 / コードから把握困難な意思決定の経緯をMarkdownに残すことで後からの推測や迷いを削減。 / 人間だけでなくAIツールとの協調開発においても設計ドキュメントが不可欠であることを提示。 (Source: Qiita)</description>
+      <pubDate>Sat, 31 Oct 2026 05:31:15 +0000</pubDate>
     </item>
     <item>
-      <title>ヘッドレスブラウザ不要のCloudflare Turnstile突破ライブラリ</title>
-      <link>https://github.com/chris124567/cfsolve</link>
-      <guid isPermaLink="false">https://github.com/chris124567/cfsolve</guid>
-      <description>[Score: 75] ヘッドレスブラウザを用いずにCloudflare Turnstileを突破できるRust製ツール「cfsolve」が登場しました。 / 事前に記録したブラウザプロファイルを模倣し、軽量かつ高速にトークンやクリアクッキーを取得可能です。 / ボット対策とスクレイピング技術のいたちごっこにおける新たなアプローチとして注目されています。 (Source: Hacker News)</description>
-      <pubDate>Wed, 28 Oct 2026 17:29:23 +0000</pubDate>
+      <title>AIデータセンターの電力消費、2030年までに米国の気候変動対策15年分の成果を帳消しにする恐れ</title>
+      <link>https://www.reddit.com/r/technology/comments/1xkfac2/ai_data_centers_could_erase_15_years_of_americas/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xkfac2/ai_data_centers_could_erase_15_years_of_americas/</guid>
+      <description>[Score: 80] 急増するAIデータセンターの莫大な電力需要により、2030年までに米国が積み上げてきた15年分の環境対策成果が相殺される可能性が指摘された。 / AIモデルの大規模トレーニングや推論処理を支えるインフラの拡張が、電力網への負荷と温室効果ガス排出を急激に増やしている。 / 持続可能なエネルギー確保と省電力技術の確立が、今後のAI開発の継続性における最大のボトルネックになりつつある。 (Source: Reddit)</description>
+      <pubDate>Sat, 31 Oct 2026 16:56:18 +0000</pubDate>
     </item>
     <item>
-      <title>GA4 のイベントが「gtag.js の読み込み前」に静かに消えていた：Next.js の2サイトで見つけた3つの壊れ方と直し方</title>
-      <link>https://qiita.com/yamadagenki/items/d35d769e9771997de3be?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/yamadagenki/items/d35d769e9771997de3be?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 75] Next.js環境下でエラーが出ないままGA4カスタムイベントが欠落していたトラブルシューティングの記録。 / gtag.jsの初期化と本体スクリプト読み込みのタイミング依存によるデータの喪失原因を詳細に分析。 / 薄いラッパー関数などで起こりがちな壊れ方のパターンと、正しくイベントをキューイングするための修正法を提示。 (Source: Qiita)</description>
-      <pubDate>Wed, 28 Oct 2026 12:08:10 +0000</pubDate>
+      <title>「DuckDB 2.0 LTS」正式リリース。Quackプロトコルによるクライアント/サーバ機能や非同期処理による高速化など</title>
+      <link>https://www.publickey1.jp/blog/26/duckdb_20_ltsquack.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/duckdb_20_ltsquack.html</guid>
+      <description>[Score: 80] 分析用組み込みデータベース「DuckDB」のメジャーアップデート「DuckDB 2.0 LTS」が正式リリースされました。 / Quackプロトコルの導入によりクライアント/サーバ構成に対応し、非同期I/OやVARIANT型サポートによる性能向上が図られました。 / 新SQLパーサーや拡張機能APIの刷新などが行われ、AWS傘下に入ったDuckLabs主導での最大規模の機能追加となっています。 (Source: Publickey)</description>
+      <pubDate>Sun, 25 Oct 2026 15:44:47 +0000</pubDate>
     </item>
     <item>
-      <title>エンジニアが「勝手に育つ時代」は終わった　～エンジニアを育ててきた装置はAIで壊れた～</title>
-      <link>https://codezine.jp/article/detail/30081</link>
-      <guid isPermaLink="false">https://codezine.jp/article/detail/30081</guid>
-      <description>[Score: 75] AIの普及によって初級エンジニアが試行錯誤しながら技術を自律的に習得する従来の育成構造が崩壊しました。 / コード自動生成やAIアシスタントの台頭が基礎学習の機会を奪う副作用をもたらしています。 / 組織として新たなエンジニア育成フレームワークを再設計する必要性に警鐘を鳴らしています。 (Source: はてなブックマーク)</description>
-      <pubDate>Fri, 30 Oct 2026 04:00:20 +0000</pubDate>
+      <title>3人のJava ChampionがGitHub Copilotを活用して生産性を向上させている方法</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/</guid>
+      <description>[Score: 80] GitHub CopilotなどのAIツールは高速だが品質担保には開発者の文脈提供や検証が不可欠である。 / 10年以上の経験を持つ3人のJava Championが実務やOSSでAIを安全に活用する実践例を共有した。 / 数週間かかる開発作業が2日で完了するなど、新たなチームメンバーを得たような生産性向上が報告されている。 (Source: GitHub Blog)</description>
+      <pubDate>Tue, 20 Oct 2026 16:05:03 +0000</pubDate>
     </item>
     <item>
-      <title>「AIっぽいデザイン」はなぜ消えないのか ── Impeccableを読み解いて、同じ依頼で4通り作って比べてみた</title>
-      <link>https://qiita.com/jinxin4869/items/0e72c0b925b75f1c28c9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/jinxin4869/items/0e72c0b925b75f1c28c9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 74] AI生成UI特有の陳腐化しやすい「AIっぽさ」の正体と、その対策スキル「Impeccable」の仕組みを検証。 / 流行のスタイルを避けること自体が新たなテンプレになる問題に対し、デザイン手順自体を制約するルールを分析。 / 同一プロンプトから作成した複数パターンの比較を通じ、脱テンプレ化を図るための実践的アプローチを考察。 (Source: Qiita)</description>
-      <pubDate>Wed, 28 Oct 2026 14:53:27 +0000</pubDate>
+      <title>NoSQLのスキーマ変更は読むときに受け止めよう</title>
+      <link>https://zenn.dev/michiharu/articles/9562dfd249c8e3</link>
+      <guid isPermaLink="false">https://zenn.dev/michiharu/articles/9562dfd249c8e3</guid>
+      <description>[Score: 78] NoSQLデータベースで発生しやすいスキーマ変更時の新旧データ混在問題を解決する手法を解説。 / データにschemaVersionキーを持たせ、読み込み時に最新バージョンへ自動変換するSchema Versioningパターンを紹介。 / TypeScriptとZodを用いてダウンタイムなしで安全に移行する実践的なコード例を提示。 (Source: Zenn)</description>
+      <pubDate>Fri, 30 Oct 2026 16:53:51 +0000</pubDate>
     </item>
     <item>
-      <title>フロントエンドカンファレンス関西2026に参加しました！</title>
-      <link>https://zenn.dev/flagxs/articles/931d7d45292717</link>
-      <guid isPermaLink="false">https://zenn.dev/flagxs/articles/931d7d45292717</guid>
-      <description>[Score: 72] フロントエンドカンファレンス関西2026の参加レポートとして、注目セッションの要点が共有されている。 / スクリーンリーダー運用やデザインシステムを考慮した、実践的なWebアクセシビリティの重要性を再認識している。 / Chromeで実験的実装が進む宣言型部分更新（DPU）など、次世代のWeb標準技術に関する動向も紹介されている。 (Source: Zenn)</description>
-      <pubDate>Fri, 30 Oct 2026 07:50:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>文章のAIっぽさを抑えるプロンプト</title>
-      <link>https://imoz.jp/scraps/202610_humanizer.html</link>
-      <guid isPermaLink="false">https://imoz.jp/scraps/202610_humanizer.html</guid>
-      <description>[Score: 72] 大規模言語モデルによる文章生成では見出しの過多や説明の重複が生じやすい課題があります。 / 著者は重複削減や表現具体化を指示する推敲ルールを定義したプロンプトを公開しました。 / GPTモデルに複数回適用することでAI特有の不自然さを解消し自然な文章へ改善できることを実証しています。 (Source: はてなブックマーク)</description>
-      <pubDate>Fri, 30 Oct 2026 14:00:14 +0000</pubDate>
+      <title>Google検索流入が週100万件以上急減、Redditが閲覧ユーザーへのログイン強制をまもなく開始へ</title>
+      <link>https://www.reddit.com/r/technology/comments/1xki4m4/reddit_will_soon_force_users_to_log_in_as_google/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xki4m4/reddit_will_soon_force_users_to_log_in_as_google/</guid>
+      <description>[Score: 78] Google検索経由の参照トラフィックが週100万件以上激減したことを受け、Redditがログインを必須化する方針を固めた。 / 外部検索からの流入低下を食い止め、自社プラットフォームへの囲い込みとデータ利用・収益化を強化する狙いとみられる。 / オープンなWebアクセスからログインウォールへの移行は、Webトラフィック動向や情報収集の利便性に大きな影響を与える可能性がある。 (Source: Reddit)</description>
+      <pubDate>Sat, 31 Oct 2026 18:49:04 +0000</pubDate>
     </item>
   </channel>
 </rss>
