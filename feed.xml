@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 03 Nov 2026 03:40:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 02:11:42 +0000</lastBuildDate>
     <item>
-      <title>インテルの株価下落が悪化、3.5兆ドル規模の半導体市場暴落が波及</title>
-      <link>https://www.reddit.com/r/technology/comments/1xm9jey/the_intel_stock_collapse_is_getting_worse_and_the/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xm9jey/the_intel_stock_collapse_is_getting_worse_and_the/</guid>
-      <description>[Score: 82] 米インテルの株価低迷が深刻化し、半導体業界全体に巨額の損失が広がっています。 / 主要半導体銘柄を含む市場全体で推計3.5兆ドル規模の時価総額が喪失する事態に発展しています。 / 競合他社との競争激化や製造部門の課題がチップ市場全体の投資心理を冷え込ませています。 (Source: Reddit)</description>
-      <pubDate>Mon, 02 Nov 2026 21:07:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>不完全なAI顔認識システムにより無実の人が万引き犯扱いされる事例が急増</title>
-      <link>https://www.reddit.com/r/technology/comments/1xmbuoh/the_number_of_innocent_people_being_accused_of/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xmbuoh/the_number_of_innocent_people_being_accused_of/</guid>
-      <description>[Score: 78] 店舗等に導入されたAI顔認識システムの誤検知により、無実の買い物客が告発される事例が増加しています。 / システムのエラーレートやバイアスが原因で、不当な拘束やトラブルに発展するケースが指摘されています。 / AIの監視利用における精度と人権侵害リスクに関する法規制や倫理的議論が再燃しています。 (Source: Reddit)</description>
-      <pubDate>Mon, 02 Nov 2026 22:37:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropicの巨額報酬パッケージ、従業員1人あたり月額10万ドル以上の負担に</title>
-      <link>https://www.reddit.com/r/technology/comments/1xmcpr7/anthropics_colossal_pay_packages_cost_the_company/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xmcpr7/anthropics_colossal_pay_packages_cost_the_company/</guid>
-      <description>[Score: 76] AIスタートアップのAnthropicが従業員1人あたり月額10万ドルを超える高額な報酬を支出していると報じられました。 / 最先端の生成AIモデル開発を牽引するトップタレントの獲得競争が激化しています。 / AIベンチャーの莫大なバーンレートと収益化への課題が浮き彫りとなっています。 (Source: Reddit)</description>
-      <pubDate>Mon, 02 Nov 2026 23:13:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>ARCHITECTURE.md：AIエージェントによる迅速なコードベース理解のための設計テンプレート</title>
-      <link>https://architecture.md/</link>
-      <guid isPermaLink="false">https://architecture.md/</guid>
-      <description>[Score: 74] AIコーディングエージェントがプロジェクト構造を即座に把握できるように設計されたドキュメントテンプレートです。 / バックエンドやフロントエンドのディレクトリ構成や責務の分離を標準化された記法で定義します。 / 人間とAI開発者が初日から円滑に開発へ貢献するための生きたドキュメント仕様を提示しています。 (Source: はてなブックマーク)</description>
-      <pubDate>Mon, 02 Nov 2026 12:45:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Proton Mailに続きTutaも不要なAI機能を導入しコミュニティから批判</title>
-      <link>https://www.reddit.com/r/technology/comments/1xm6tf2/proton_mail_goes_full_ai_slop_tuta_starts_going/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xm6tf2/proton_mail_goes_full_ai_slop_tuta_starts_going/</guid>
-      <description>[Score: 68] プライバシー重視の暗号化メールProton MailやTutaが相次いでAI支援機能を導入しています。 / ユーザー層からはサービスのコア価値に反する「AIスロップ（質の低いAI生成物）」だと批判が上がっています。 / プライバシー重視型サービスにおける生成AI機能の過剰な統合が反発を招く事例となっています。 (Source: Reddit)</description>
-      <pubDate>Mon, 02 Nov 2026 19:25:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>ディズニーが数千人規模のレイオフを計画、20%のコスト削減を目標に</title>
-      <link>https://www.reddit.com/r/technology/comments/1xmfwop/disney_plans_thousands_of_layoffs_targeting_20/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xmfwop/disney_plans_thousands_of_layoffs_targeting_20/</guid>
-      <description>[Score: 64] ウォルト・ディズニーが全社的なコストを20%削減するため、数千人規模の人員削減を計画しています。 / 配信事業の収益改善や全体的な事業効率化を目的とした構造改革の一環とみられます。 / エンターテインメントおよびテクノロジー関連部門における雇用の縮小が懸念されています。 (Source: Reddit)</description>
-      <pubDate>Tue, 03 Nov 2026 01:35:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>Astra can read and write weights to improve Qwen</title>
-      <link>https://rikiyat.github.io/blog/weight-space-programming/</link>
-      <guid isPermaLink="false">https://rikiyat.github.io/blog/weight-space-programming/</guid>
+      <title>The Internals of PostgreSQL</title>
+      <link>https://www.interdb.jp/pg/index.html</link>
+      <guid isPermaLink="false">https://www.interdb.jp/pg/index.html</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 02 Nov 2026 18:21:28 +0000</pubDate>
+      <pubDate>Tue, 03 Nov 2026 21:51:06 +0000</pubDate>
     </item>
     <item>
-      <title>Show HN: Hacker Times, a New York Times-Inspired Version Hacker News</title>
-      <link>https://hackertimes.ca/</link>
-      <guid isPermaLink="false">https://hackertimes.ca/</guid>
+      <title>Stringman, an $800 open-source room scale gripper robot</title>
+      <link>https://neufangled.com/</link>
+      <guid isPermaLink="false">https://neufangled.com/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Tue, 03 Nov 2026 01:53:34 +0000</pubDate>
+      <pubDate>Tue, 03 Nov 2026 16:47:29 +0000</pubDate>
     </item>
     <item>
-      <title>DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs</title>
-      <link>https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio</link>
-      <guid isPermaLink="false">https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio</guid>
+      <title>Jailbreaking my car's navigation system just so I can change the time</title>
+      <link>https://blog.nns.ee/2026/11/02/renault-hack/</link>
+      <guid isPermaLink="false">https://blog.nns.ee/2026/11/02/renault-hack/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Tue, 03 Nov 2026 01:33:43 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2026 16:29:19 +0000</pubDate>
     </item>
     <item>
-      <title>Show HN: Subvocal – Talk to your computer without making noise</title>
-      <link>https://news.ycombinator.com/item?id=50340088</link>
-      <guid isPermaLink="false">https://news.ycombinator.com/item?id=50340088</guid>
+      <title>Safari introduces Adaptive Dark Mode in 27.3</title>
+      <link>https://webkit.org/blog/18541/introducing-adaptive-dark-mode/</link>
+      <guid isPermaLink="false">https://webkit.org/blog/18541/introducing-adaptive-dark-mode/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 02 Nov 2026 17:16:17 +0000</pubDate>
+      <pubDate>Tue, 03 Nov 2026 21:39:05 +0000</pubDate>
     </item>
     <item>
-      <title>US boy names that became girl names and vice versa</title>
-      <link>https://namedaisy.com/blog/boy-names-that-became-girl-names</link>
-      <guid isPermaLink="false">https://namedaisy.com/blog/boy-names-that-became-girl-names</guid>
+      <title>Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels</title>
+      <link>https://hackertv.org</link>
+      <guid isPermaLink="false">https://hackertv.org</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 02 Nov 2026 16:34:36 +0000</pubDate>
+      <pubDate>Tue, 03 Nov 2026 01:18:09 +0000</pubDate>
     </item>
     <item>
-      <title>If you love a website, back it up</title>
-      <link>https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/</link>
-      <guid isPermaLink="false">https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/</guid>
+      <title>Japan's Jimi 'Mundane' Halloween Costumes of 2026</title>
+      <link>https://spoon-tamago.com/japan-jimi-mundane-halloween-costumes-2026/</link>
+      <guid isPermaLink="false">https://spoon-tamago.com/japan-jimi-mundane-halloween-costumes-2026/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 02 Nov 2026 13:25:35 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2026 04:31:20 +0000</pubDate>
     </item>
     <item>
-      <title>Scaling Git at OpenAI</title>
-      <link>https://openai.com/index/scaling-git-at-openai/</link>
-      <guid isPermaLink="false">https://openai.com/index/scaling-git-at-openai/</guid>
+      <title>Qwen 3.8 27B on my laptop can interpret model weights, too</title>
+      <link>https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/</link>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 02 Nov 2026 23:47:56 +0000</pubDate>
+      <pubDate>Tue, 03 Nov 2026 17:40:00 +0000</pubDate>
     </item>
     <item>
-      <title>Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app</title>
-      <link>https://momentic.ai/</link>
-      <guid isPermaLink="false">https://momentic.ai/</guid>
+      <title>Fujifilm to boost tape production 5x as AI fuels archiving demand</title>
+      <link>https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/</link>
+      <guid isPermaLink="false">https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 02 Nov 2026 17:05:25 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2026 14:02:42 +0000</pubDate>
     </item>
     <item>
-      <title>ISUCON2026 で優勝しました（当日編）</title>
-      <link>https://zenn.dev/luvtechno/articles/isucon2026-competition-day</link>
-      <guid isPermaLink="false">https://zenn.dev/luvtechno/articles/isucon2026-competition-day</guid>
+      <title>Radeon VIIとUbuntu 26.04でROCmを動かし、Flash-NextをOpenCodeにつないだ</title>
+      <link>https://zenn.dev/masanork/articles/radeon-vii-rocm-strata-opencode</link>
+      <guid isPermaLink="false">https://zenn.dev/masanork/articles/radeon-vii-rocm-strata-opencode</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 02 Nov 2026 13:26:09 +0000</pubDate>
+      <pubDate>Tue, 03 Nov 2026 14:15:49 +0000</pubDate>
     </item>
     <item>
-      <title>学部生3人でISUCON2026に出て、最後に証拠より常識を選んで負けた話</title>
-      <link>https://zenn.dev/enari_k/articles/b512e044ec9240</link>
-      <guid isPermaLink="false">https://zenn.dev/enari_k/articles/b512e044ec9240</guid>
+      <title>(備忘録) お名前.comからRoute 53へドメイン移管し、お名前メールをさくらのメールボックスへ移す</title>
+      <link>https://zenn.dev/momura/articles/896dbde5e42491</link>
+      <guid isPermaLink="false">https://zenn.dev/momura/articles/896dbde5e42491</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 02 Nov 2026 07:00:35 +0000</pubDate>
+      <pubDate>Tue, 03 Nov 2026 09:56:38 +0000</pubDate>
     </item>
     <item>
-      <title>AIが書く「読みづらいADR」に発狂しかけたので、ADRのガイドラインを作った</title>
-      <link>https://zenn.dev/tokium_dev/articles/adr-authoring-guideline</link>
-      <guid isPermaLink="false">https://zenn.dev/tokium_dev/articles/adr-authoring-guideline</guid>
+      <title>Aurora とDynamoDBとTimestreamとBigQueryを2400万レコードで性能比較してみた</title>
+      <link>https://zenn.dev/ncdc/articles/c47df2c1f32e0c</link>
+      <guid isPermaLink="false">https://zenn.dev/ncdc/articles/c47df2c1f32e0c</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 02 Nov 2026 06:00:05 +0000</pubDate>
+      <pubDate>Tue, 03 Nov 2026 09:39:55 +0000</pubDate>
     </item>
     <item>
-      <title>Snowflake: Optima Clustering による 1KB クラスタリングキーでの日本語フィルタの改善</title>
-      <link>https://zenn.dev/snowflakejp/articles/d907c02698d748</link>
-      <guid isPermaLink="false">https://zenn.dev/snowflakejp/articles/d907c02698d748</guid>
+      <title>ADRをregoでlintする</title>
+      <link>https://zenn.dev/babarot/articles/regomark-adr-checker</link>
+      <guid isPermaLink="false">https://zenn.dev/babarot/articles/regomark-adr-checker</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 02 Nov 2026 04:03:34 +0000</pubDate>
+      <pubDate>Tue, 03 Nov 2026 07:59:33 +0000</pubDate>
     </item>
     <item>
-      <title>弊社がAIでPlaywrightテストコードを生成するために調整したこと</title>
-      <link>https://zenn.dev/castingone_dev/articles/casone_playwright_for_claude</link>
-      <guid isPermaLink="false">https://zenn.dev/castingone_dev/articles/casone_playwright_for_claude</guid>
+      <title>1 人チームでKiro CLI とISUCON2026に参加した記録：エージェントに任せたこと、任せきれなかったこと</title>
+      <link>https://zenn.dev/ndmxjp/articles/isucon2026-kiro-agent-ops</link>
+      <guid isPermaLink="false">https://zenn.dev/ndmxjp/articles/isucon2026-kiro-agent-ops</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 02 Nov 2026 02:58:52 +0000</pubDate>
+      <pubDate>Tue, 03 Nov 2026 06:33:45 +0000</pubDate>
     </item>
     <item>
-      <title>AIにありがちな「イマイチなコードコメント」9パターン</title>
-      <link>https://qiita.com/jnchito/items/636c519c0b1d347c79b7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/jnchito/items/636c519c0b1d347c79b7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <title>営業こそコミュニティでは「No sell」でいよう</title>
+      <link>https://qiita.com/sadabon444/items/83535ce9f3dd7d56600e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/sadabon444/items/83535ce9f3dd7d56600e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Sat, 31 Oct 2026 07:17:19 +0000</pubDate>
+      <pubDate>Tue, 03 Nov 2026 04:13:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>生成 AI が進化する今こそ、「人材育成」が経営の重要課題ではないか</title>
+      <link>https://qiita.com/Takashi_Masumori/items/3c3091a6142d3e05385b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/Takashi_Masumori/items/3c3091a6142d3e05385b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Sun, 01 Nov 2026 23:53:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>【未来を解説】AIでエンジニア格差を生み出す質とスピードの考え方</title>
+      <link>https://qiita.com/Sicut_study/items/b9e38c0584d4aa720d31?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/Sicut_study/items/b9e38c0584d4aa720d31?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Sun, 01 Nov 2026 08:41:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>「⚪︎⚪︎はしないで」は効かない？AI Agent の危険行動を制限する 5 つの方法と守られる強さで比べた</title>
+      <link>https://qiita.com/songchong/items/945479177d4dcbb80f69?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/songchong/items/945479177d4dcbb80f69?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Tue, 03 Nov 2026 19:35:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>新しいRAG「Decision RAG」は速い！安い！上手い！🍜</title>
+      <link>https://qiita.com/kikuziro/items/cc82e6e4e4c215eac99f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/kikuziro/items/cc82e6e4e4c215eac99f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Sun, 01 Nov 2026 14:05:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google criticized by NYC mayor Zohran Mamdani following AI policy change: 'Google is trying to use its monopoly power to force AI into our public schools'</title>
+      <link>https://www.reddit.com/r/technology/comments/1xn85kj/google_criticized_by_nyc_mayor_zohran_mamdani/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xn85kj/google_criticized_by_nyc_mayor_zohran_mamdani/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
+      <pubDate>Tue, 03 Nov 2026 23:05:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dinosaur blood found in fossils for the first time</title>
+      <link>https://www.reddit.com/r/technology/comments/1xmubru/dinosaur_blood_found_in_fossils_for_the_first_time/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xmubru/dinosaur_blood_found_in_fossils_for_the_first_time/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
+      <pubDate>Tue, 03 Nov 2026 14:26:14 +0000</pubDate>
     </item>
   </channel>
 </rss>
