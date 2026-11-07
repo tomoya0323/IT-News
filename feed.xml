@@ -5,139 +5,97 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 06 Nov 2026 02:19:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 01:59:16 +0000</lastBuildDate>
     <item>
-      <title>Alpine Linux セキュリティ勧告: OpenSSHサーバーのパスワード認証バイパス</title>
-      <link>https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/</link>
-      <guid isPermaLink="false">https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/</guid>
-      <description>[Score: 92] Alpine Linux環境のOpenSSHサーバーにおいて、パスワード認証をバイパスしてログインできる深刻な脆弱性が公表された。 / パスワード未設定のアカウントに対し、特定長の長いパスワードを1回送信するだけで認証を突破される恐れがある。 / 影響を受ける全バージョンの管理者は直ちにパッケージを更新してsshdを再起動するか、パスワード認証を無効化する必要がある。 (Source: Hacker News)</description>
-      <pubDate>Thu, 05 Nov 2026 14:44:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>GitHubが従来比180倍のスループット性能向上を実現へ、来年初頭に。AIエージェント時代に対応。GitHub Universe 2026</title>
-      <link>https://www.publickey1.jp/blog/26/github180aigithub_universe_2026.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/github180aigithub_universe_2026.html</guid>
-      <description>[Score: 88] GitHubはAIエージェントの普及に伴う急激な負荷増加に対応するため、従来比180倍のスループット向上を計画しています。 / Microsoft Azureへの基盤移行を進めるとともに、コンピュートとストレージの分離アーキテクチャを採用します。 / 排他制御の単位をリポジトリからブランチ単位へ細分化するなどの改善により、大規模並列アクセスを実現します。 (Source: Publickey)</description>
-      <pubDate>Tue, 03 Nov 2026 15:16:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>sshole: musl libcとOpenSSH認証バイパスの背景</title>
-      <link>https://sshhole.com</link>
-      <guid isPermaLink="false">https://sshhole.com</guid>
-      <description>[Score: 85] UNIXにおけるパスワード無効化フラグ「*」と暗号化関数crypt()のエラー処理の歴史的背景を解説した記事。 / Alpine Linuxで採用されているmusl libcがエラー時に「*」を返すよう変更した仕様が伏線となっていた。 / 結果としてOpenSSHにおける重大なパスワード認証バイパス脆弱性へとつながる技術的経緯が詳述されている。 (Source: Hacker News)</description>
-      <pubDate>Thu, 05 Nov 2026 12:19:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>「GitHub Copilot Dreaming」発表。作業を振り返ってパーソナルメモリやガイダンスをバックグラウンドで整理、アップデート。GitHub Universe 2026</title>
-      <link>https://www.publickey1.jp/blog/26/github_copilot_dreaminggithub_universe_2026.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/github_copilot_dreaminggithub_universe_2026.html</guid>
-      <description>[Score: 85] GitHub Universe 2026にて新機能「GitHub Copilot Dreaming」がパブリックプレビューとして発表されました。 / 作業の進行に伴い陳腐化するAI向け指示やリポジトリのルールをバックグラウンドで自動的に整理・更新します。 / 対話履歴やプルリクエストのレビューを分析・学習することで、ユーザーの最新の傾向やコード変更を記憶に反映します。 (Source: Publickey)</description>
-      <pubDate>Wed, 04 Nov 2026 15:15:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude CodeがWebサイトにユーザーのメールアドレスを送信している問題</title>
-      <link>https://github.com/anthropics/claude-code/issues/107757</link>
-      <guid isPermaLink="false">https://github.com/anthropics/claude-code/issues/107757</guid>
-      <description>[Score: 82] Claude CodeがWeb検索を行う際、User-Agentヘッダーにユーザーのメールアドレスを含めて送信していたことが発覚した。 / この挙動によりスパムや詐欺メールが急増するなどプライバシー侵害が懸念され、GitHub上で批判が集まっている。 / Anthropicはバージョン2.1.317以降にプライバシー保護用モジュールを追加して対応したが、設計思想を疑問視する声も多い。 (Source: Hacker News)</description>
-      <pubDate>Thu, 05 Nov 2026 22:17:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>Inkling 2 Smallの発表</title>
-      <link>https://thinkingmachines.ai/news/inkling-2-small/</link>
-      <guid isPermaLink="false">https://thinkingmachines.ai/news/inkling-2-small/</guid>
-      <description>[Score: 80] Thinking Machinesが総パラメータ数594B・アクティブ17Bの第2世代MoEモデル「Inkling 2 Small」を発表した。 / 画像入力や長時間の自律コーディングタスクに対応し、AI評価インデックスで高い性能を達成している。 / Tinker上での提供から開始され、外部安全性テストを経てApache 2.0ライセンスで重みが一般公開される予定。 (Source: Hacker News)</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>MSペイントにおけるリモートコード実行の脆弱性</title>
-      <link>https://www.cve.org/CVERecord?id=CVE-2026-83844</link>
-      <guid isPermaLink="false">https://www.cve.org/CVERecord?id=CVE-2026-83844</guid>
-      <description>[Score: 70] Windows標準アプリケーションであるMSペイントにリモートコード実行（RCE）の脆弱性が報告された。 / 悪意をもって細工された画像ファイルなどを開くことで、攻撃者に任意のコードを実行されるリスクが存在する。 / 影響範囲が極めて広範なツールであるため、セキュリティアップデートが提供され次第速やかな適用が求められる。 (Source: Hacker News)</description>
-      <pubDate>Thu, 05 Nov 2026 20:43:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>すべての人のための検索</title>
-      <link>https://kagi.com/changelog#11820</link>
-      <guid isPermaLink="false">https://kagi.com/changelog#11820</guid>
-      <description>[Score: 68] 広告なしの有料検索エンジンKagiが、アカウント登録なしで最初の50回までWeb検索を利用可能にした。 / 友人などへの紹介や試用をしやすくする施策であり、登録後はさらに100回の検索枠が提供される。 / あわせてAndroidアプリの刷新や、教育機関向けGoogle SearchのAI強制方針への対抗姿勢も打ち出している。 (Source: Hacker News)</description>
-      <pubDate>Thu, 05 Nov 2026 20:03:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>小規模チーム向けSalesforce vs HubSpot vs Pipedrive：3者の実質的な違い</title>
-      <link>https://dev.to/saasstatshub/salesforce-vs-hubspot-vs-pipedrive-for-small-teams-how-the-three-actually-differ-2c5k</link>
-      <guid isPermaLink="false">https://dev.to/saasstatshub/salesforce-vs-hubspot-vs-pipedrive-for-small-teams-how-the-three-actually-differ-2c5k</guid>
-      <description>[Score: 62] 小規模チームを対象にSalesforce、HubSpot、Pipedriveのエントリープランの違いを比較検証しています。 / 各ツールの最大の違いは単なる月額料金ではなく、備わっている機能の守備範囲や拡張性にあります。 / 特にメール同期機能の有無がプラン選定の決定打になりやすく、各サービスの公式仕様を事前確認する重要性を指摘しています。 (Source: Dev.to)</description>
-      <pubDate>Fri, 06 Nov 2026 01:54:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pythonを用いてUART経由で2kmレーザー測距モジュール（LR2000E2、55 AAプロトコル）を読み取る</title>
-      <link>https://dev.to/erdilrf_tommy/reading-a-2-km-laser-rangefinder-module-over-uart-with-python-lr2000e2-55-aa-protocol-3jaj</link>
-      <guid isPermaLink="false">https://dev.to/erdilrf_tommy/reading-a-2-km-laser-rangefinder-module-over-uart-with-python-lr2000e2-55-aa-protocol-3jaj</guid>
-      <description>[Score: 60] 最大測定距離2kmのレーザー測距モジュール「LR2000E2」をPythonからUART経由で制御する手順を解説しています。 / フレームヘッダーやチェックサム処理の落とし穴、長距離測定時の失敗率を考慮したエラーハンドリングを提示しています。 / ハードウェアの電圧レベルの確認やイネーブルピンの制御など、電子工作・組み込み開発の実践的な注意点に触れています。 (Source: Dev.to)</description>
-      <pubDate>Fri, 06 Nov 2026 01:55:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wabiが合わない人へ：必要な機能から選ぶ最適な代替アプリの選び方</title>
-      <link>https://dev.to/wenjianzhang70dot/wabi-not-for-you-pick-the-right-alternative-by-what-you-actually-need-1c0b</link>
-      <guid isPermaLink="false">https://dev.to/wenjianzhang70dot/wabi-not-for-you-pick-the-right-alternative-by-what-you-actually-need-1c0b</guid>
-      <description>[Score: 58] チャット内でミニアプリを生成するAIアシスタント「Wabi」の適正と、目的に応じた代替ツールを解説しています。 / 現時点でWindows版やWeb版が存在しないため、PC中心のユーザーにはChatGPTやClaude等の利用を推奨しています。 / タスク実行特化ではなく感情的な対話を求めるユーザーに対しては、Replikaなどのコンパニオンアプリへの乗り換えを勧めています。 (Source: Dev.to)</description>
-      <pubDate>Fri, 06 Nov 2026 01:53:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>元の順序を崩さずに4万8000行のCSVから重複行を削除する方法</title>
-      <link>https://dev.to/meng_meng_56f17e28e55f140/remove-duplicate-lines-from-a-48000-line-csv-without-losing-the-original-order-4npe</link>
-      <guid isPermaLink="false">https://dev.to/meng_meng_56f17e28e55f140/remove-duplicate-lines-from-a-48000-line-csv-without-losing-the-original-order-4npe</guid>
-      <description>[Score: 55] CRMの仕様等で順序維持が必須な条件下において、重複行を安全に削除するテクニックが解説されています。 / 標準のset型への変換ではハッシュ順になり元の順序が崩れるため、setを出現判定のみに用いるPythonスクリプトを紹介しています。 / 外部依存のないシンプルなコードで、大量データでも高速かつ確実に順序を維持した重複排除が可能です。 (Source: Dev.to)</description>
-      <pubDate>Fri, 06 Nov 2026 01:57:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Hackintosh Reborn</title>
-      <link>https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/</link>
-      <guid isPermaLink="false">https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/</guid>
+      <title>Libghostty 1.0</title>
+      <link>https://mitchellh.com/writing/libghostty-1-0</link>
+      <guid isPermaLink="false">https://mitchellh.com/writing/libghostty-1-0</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 05 Nov 2026 19:08:22 +0000</pubDate>
+      <pubDate>Fri, 06 Nov 2026 23:30:52 +0000</pubDate>
     </item>
     <item>
-      <title>Window Sweaters</title>
-      <link>https://github.com/saragordic/window-sweaters</link>
-      <guid isPermaLink="false">https://github.com/saragordic/window-sweaters</guid>
+      <title>A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost</title>
+      <link>https://hightouch.com/blog/llm-judges-identity-resolution</link>
+      <guid isPermaLink="false">https://hightouch.com/blog/llm-judges-identity-resolution</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 05 Nov 2026 16:50:14 +0000</pubDate>
+      <pubDate>Fri, 06 Nov 2026 19:48:51 +0000</pubDate>
     </item>
     <item>
-      <title>AWSでデータレイクハウスを構築してApache Icebergの更新・履歴管理を検証した</title>
-      <link>https://zenn.dev/kkoch5t2/articles/aws-iceberg-lakehouse-lab</link>
-      <guid isPermaLink="false">https://zenn.dev/kkoch5t2/articles/aws-iceberg-lakehouse-lab</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 05 Nov 2026 17:56:30 +0000</pubDate>
+      <title>Tesla to wind down Cybertruck production</title>
+      <link>https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817</link>
+      <guid isPermaLink="false">https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Fri, 06 Nov 2026 12:13:51 +0000</pubDate>
     </item>
     <item>
-      <title>AI駆動文章作成において俺が意識しているテクニック集</title>
-      <link>https://zenn.dev/ntk221/articles/34ad88a9225364</link>
-      <guid isPermaLink="false">https://zenn.dev/ntk221/articles/34ad88a9225364</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 05 Nov 2026 14:35:31 +0000</pubDate>
+      <title>Firecracker VM Escape: PwnEscape Part 2</title>
+      <link>https://pwn.ai/blog/firecracker-escape</link>
+      <guid isPermaLink="false">https://pwn.ai/blog/firecracker-escape</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Fri, 06 Nov 2026 19:33:38 +0000</pubDate>
     </item>
     <item>
-      <title>Slurm は Kaggle で役に立つ</title>
-      <link>https://zenn.dev/pomcho555/articles/c455d086ec47af</link>
-      <guid isPermaLink="false">https://zenn.dev/pomcho555/articles/c455d086ec47af</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 05 Nov 2026 11:54:56 +0000</pubDate>
+      <title>US FAA says it will phase out floppy disks from air traffic control by 2028</title>
+      <link>https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/</link>
+      <guid isPermaLink="false">https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Fri, 06 Nov 2026 04:00:28 +0000</pubDate>
     </item>
     <item>
-      <title>AI生成コードを本番品質に保つためのフロントエンド開発の仕組み</title>
-      <link>https://zenn.dev/sun_asterisk/articles/d4e4bc24974b99</link>
-      <guid isPermaLink="false">https://zenn.dev/sun_asterisk/articles/d4e4bc24974b99</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 05 Nov 2026 09:00:55 +0000</pubDate>
+      <title>I Toured Unitree's Factory. I'm More Bullish on the West</title>
+      <link>https://josef.cn/blog/unitree</link>
+      <guid isPermaLink="false">https://josef.cn/blog/unitree</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Sat, 07 Nov 2026 01:05:16 +0000</pubDate>
     </item>
     <item>
-      <title>手書き Provider 261 件を @riverpod へ全面移行した進め方</title>
-      <link>https://zenn.dev/jtcc/articles/riverpod-generator-migration</link>
-      <guid isPermaLink="false">https://zenn.dev/jtcc/articles/riverpod-generator-migration</guid>
+      <title>AI is dramatically accelerating AI research</title>
+      <link>https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai</link>
+      <guid isPermaLink="false">https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Fri, 06 Nov 2026 20:27:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Outbound SIP calling is now available to all organizations</title>
+      <link>https://developers.openai.com/api/docs/guides/voice-sip</link>
+      <guid isPermaLink="false">https://developers.openai.com/api/docs/guides/voice-sip</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Fri, 06 Nov 2026 23:03:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件</title>
+      <link>https://zenn.dev/xin9le/articles/9a1cf8e10494d6</link>
+      <guid isPermaLink="false">https://zenn.dev/xin9le/articles/9a1cf8e10494d6</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 05 Nov 2026 08:07:39 +0000</pubDate>
+      <pubDate>Fri, 06 Nov 2026 14:39:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Web 標準動向 2026年10月版</title>
+      <link>https://zenn.dev/cybozu_frontend/articles/web-standards-trends-202610</link>
+      <guid isPermaLink="false">https://zenn.dev/cybozu_frontend/articles/web-standards-trends-202610</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Fri, 06 Nov 2026 09:08:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった</title>
+      <link>https://zenn.dev/rescuenow/articles/4c03a548cd6589</link>
+      <guid isPermaLink="false">https://zenn.dev/rescuenow/articles/4c03a548cd6589</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Fri, 06 Nov 2026 08:59:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claudeを使いこなす人に、MagicPodは要るのか。知らないアプリでPlaywrightと比べた記録</title>
+      <link>https://zenn.dev/genda_jp/articles/7b423bcd20b532</link>
+      <guid isPermaLink="false">https://zenn.dev/genda_jp/articles/7b423bcd20b532</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Fri, 06 Nov 2026 05:13:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>【.NET/Unity】C# の型制約とボックス化をハックする — IL と手動スタック配置</title>
+      <link>https://zenn.dev/aakei/articles/csharp-stack-box</link>
+      <guid isPermaLink="false">https://zenn.dev/aakei/articles/csharp-stack-box</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Fri, 06 Nov 2026 03:01:26 +0000</pubDate>
     </item>
     <item>
       <title>AI駆動開発の次の段階: ソフトウェアファクトリー</title>
@@ -145,6 +103,48 @@
       <guid isPermaLink="false">https://qiita.com/Syoitu/items/9364a0a175893bb15219?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
       <pubDate>Wed, 04 Nov 2026 11:38:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>そろそろ共通鍵暗号・公開鍵暗号についてちゃんと理解する</title>
+      <link>https://qiita.com/tomo-ryo/items/7cbf2881a9c8c8cf3656?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/tomo-ryo/items/7cbf2881a9c8c8cf3656?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Wed, 04 Nov 2026 00:40:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>【マンガ】はじめてのインデータベースAI～ベクトル検索・RAGからAIエージェントまで～（コミカライズ版）</title>
+      <link>https://qiita.com/yuji-arakawa/items/1c6d0ae4400ca2b4bae3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/yuji-arakawa/items/1c6d0ae4400ca2b4bae3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Wed, 04 Nov 2026 23:04:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>リモートのエージェントが起動した dev server を手元でプレビュー：VS Code 1.145 の Remote browser proxy を試した</title>
+      <link>https://qiita.com/shahin0809/items/a1bd931855f392806ee6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/shahin0809/items/a1bd931855f392806ee6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Fri, 06 Nov 2026 07:28:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qiita投稿文化を社内に広めようとしたけど、うまくいかなかった話</title>
+      <link>https://qiita.com/inoyu-qiita/items/48094b9b40752483f5cd?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/inoyu-qiita/items/48094b9b40752483f5cd?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Fri, 06 Nov 2026 03:09:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Ugly Car That Sucks Has Died</title>
+      <link>https://www.reddit.com/r/technology/comments/1xpksua/the_ugly_car_that_sucks_has_died/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xpksua/the_ugly_car_that_sucks_has_died/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
+      <pubDate>Fri, 06 Nov 2026 18:49:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>RIP Cybertruck. You Were Unloved, Unwanted, and Utterly Absurd</title>
+      <link>https://www.reddit.com/r/technology/comments/1xpel3i/rip_cybertruck_you_were_unloved_unwanted_and/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xpel3i/rip_cybertruck_you_were_unloved_unwanted_and/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
+      <pubDate>Fri, 06 Nov 2026 14:46:53 +0000</pubDate>
     </item>
   </channel>
 </rss>
