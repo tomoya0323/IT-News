@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 07 Nov 2026 01:59:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 01:27:28 +0000</lastBuildDate>
     <item>
-      <title>Libghostty 1.0</title>
-      <link>https://mitchellh.com/writing/libghostty-1-0</link>
-      <guid isPermaLink="false">https://mitchellh.com/writing/libghostty-1-0</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 06 Nov 2026 23:30:52 +0000</pubDate>
+      <title>GitHubの新Gitストレージアーキテクチャの内部構造</title>
+      <link>https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/</link>
+      <guid isPermaLink="false">https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/</guid>
+      <description>[Score: 90] GitHubは秒間数千件の書き込みとオンデマンドな読み取りスケールに対応する新Gitストレージアーキテクチャを発表した。 / AIエージェントによる高頻度プッシュを見据え、調整の最小化とストレージ・コンピュートの分離を中核思想としている。 / Gitオブジェクトの不変性を活かして参照更新と分離し、Azure Blob Storageを活用した高可用基盤を無停止で構築した。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 05 Nov 2026 20:23:21 +0000</pubDate>
     </item>
     <item>
-      <title>A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost</title>
-      <link>https://hightouch.com/blog/llm-judges-identity-resolution</link>
-      <guid isPermaLink="false">https://hightouch.com/blog/llm-judges-identity-resolution</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 06 Nov 2026 19:48:51 +0000</pubDate>
+      <title>GitHubが従来比180倍のスループット性能向上を実現へ、来年初頭に。AIエージェント時代に対応。GitHub Universe 2026</title>
+      <link>https://www.publickey1.jp/blog/26/github180aigithub_universe_2026.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/github180aigithub_universe_2026.html</guid>
+      <description>[Score: 88] GitHubがAIエージェント時代に伴う急激な負荷増大を見据え、従来比180倍のスループット性能向上を発表しました。 / Azureへの移行、コンピュートとストレージの分離、ロック単位のブランチ化など基盤アーキテクチャを刷新します。 / 自律型AIエージェントが大量にリクエストやコード生成を行う近未来の開発環境に対応する狙いです。 (Source: Publickey)</description>
+      <pubDate>Tue, 03 Nov 2026 15:16:22 +0000</pubDate>
     </item>
     <item>
-      <title>Tesla to wind down Cybertruck production</title>
-      <link>https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817</link>
-      <guid isPermaLink="false">https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 06 Nov 2026 12:13:51 +0000</pubDate>
+      <title>Claude Codeの「再確認しない」設定により公開GitHub上の1,122件のファイルでパスワードが漏洩</title>
+      <link>https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again</link>
+      <guid isPermaLink="false">https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again</guid>
+      <description>[Score: 85] Claude Codeなどのコーディングエージェントのプロンプト承認スキップ設定が原因で機密情報が流出 / 公開GitHub上の1,122件のファイルにパスワードやAPIキーなどのクレデンシャルが誤ってコミットされた / エージェント型開発における自動化とセキュリティのトレードオフおよび安全対策の重要性を指摘 (Source: Hacker News)</description>
+      <pubDate>Sat, 07 Nov 2026 20:45:32 +0000</pubDate>
     </item>
     <item>
-      <title>Firecracker VM Escape: PwnEscape Part 2</title>
-      <link>https://pwn.ai/blog/firecracker-escape</link>
-      <guid isPermaLink="false">https://pwn.ai/blog/firecracker-escape</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 06 Nov 2026 19:33:38 +0000</pubDate>
+      <title>Weight-Space Programming やってみた(やらせてみた)</title>
+      <link>https://zenn.dev/nwn/articles/cf9fe78aa33861</link>
+      <guid isPermaLink="false">https://zenn.dev/nwn/articles/cf9fe78aa33861</guid>
+      <description>[Score: 85] LLMを用いて別モデルの重みを直接編集する「Weight-Space Programming」を個人環境で検証した記事。 / Qwenの重みの一部（約0.486%）を編集し、回答の語尾を「ずんだもん風」に変えるタスクで成功を確認した。 / ファインチューニングを用いずにAI自身が内部活性の差分を分析して重みを書き換える手法の実現可能性を示している。 (Source: Zenn)</description>
+      <pubDate>Sat, 07 Nov 2026 00:57:13 +0000</pubDate>
     </item>
     <item>
-      <title>US FAA says it will phase out floppy disks from air traffic control by 2028</title>
-      <link>https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/</link>
-      <guid isPermaLink="false">https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 06 Nov 2026 04:00:28 +0000</pubDate>
+      <title>クラウドインフラのシェア、AWSが26％に後退、Google Cloudは16％に上昇。クラウドインフラ市場全体は過去最大の高成長率へ。2026年第3四半期、Synergy Research</title>
+      <link>https://www.publickey1.jp/blog/26/aws26google_cloud1620263synergy_research.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aws26google_cloud1620263synergy_research.html</guid>
+      <description>[Score: 85] 2026年第3四半期のクラウドインフラ市場は前年同期比55%成長と過去最高を更新し、1,680億ドル規模に達しました。 / 主要ベンダーのシェアではAWSが26%に後退しAzureも微減する一方、Google Cloudが16%へと拡大しました。 / 大手3社に加えて、AIワークロードに特化したネオクラウド各社や新興プロバイダーの急成長も市場を牽引しています。 (Source: Publickey)</description>
+      <pubDate>Wed, 04 Nov 2026 15:23:21 +0000</pubDate>
     </item>
     <item>
-      <title>I Toured Unitree's Factory. I'm More Bullish on the West</title>
-      <link>https://josef.cn/blog/unitree</link>
-      <guid isPermaLink="false">https://josef.cn/blog/unitree</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Sat, 07 Nov 2026 01:05:16 +0000</pubDate>
+      <title>「GitHub Copilot Dreaming」発表。作業を振り返ってパーソナルメモリやガイダンスをバックグラウンドで整理、アップデート。GitHub Universe 2026</title>
+      <link>https://www.publickey1.jp/blog/26/github_copilot_dreaminggithub_universe_2026.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/github_copilot_dreaminggithub_universe_2026.html</guid>
+      <description>[Score: 85] GitHubが新機能「GitHub Copilot Dreaming」をパブリックプレビューとして発表しました。 / 過去の対話やPRレビューをバックグラウンドで分析し、コードや指示の変化に合わせてガイダンスやメモリを自動更新します。 / 陳腐化したルールや古い前提をAIが自動で整理・適応させることで、常に最新かつ適切な開発支援を提供します。 (Source: Publickey)</description>
+      <pubDate>Wed, 04 Nov 2026 15:15:49 +0000</pubDate>
     </item>
     <item>
-      <title>AI is dramatically accelerating AI research</title>
-      <link>https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai</link>
-      <guid isPermaLink="false">https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 06 Nov 2026 20:27:23 +0000</pubDate>
+      <title>コード生成の先へ：開発者のためのエージェンティック・エンジニアリング入門ガイド</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/</guid>
+      <description>[Score: 85] AIによるコード生成の普及でコミット数が急増する一方、PRレビュー待ち時間の大幅増加など新たなボトルネックが生じている。 / ソフトウェア開発は単なる実装だけでなく、要件定義、計画、検証、監視といった広範なプロセスを含む。 / 計画から運用までの全工程をAIエージェントと協調して効率化する「エージェンティック・エンジニアリング」の実践手法をGitHubが解説している。 (Source: GitHub Blog)</description>
+      <pubDate>Fri, 06 Nov 2026 22:15:59 +0000</pubDate>
     </item>
     <item>
-      <title>Outbound SIP calling is now available to all organizations</title>
-      <link>https://developers.openai.com/api/docs/guides/voice-sip</link>
-      <guid isPermaLink="false">https://developers.openai.com/api/docs/guides/voice-sip</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 06 Nov 2026 23:03:55 +0000</pubDate>
+      <title>MaxxBench：優れたDeepSWEスコア、しかしそれは真実か？</title>
+      <link>https://maxxbench.unlap.ai/research/why-maxxbench/</link>
+      <guid isPermaLink="false">https://maxxbench.unlap.ai/research/why-maxxbench/</guid>
+      <description>[Score: 82] AIモデルがベンチマークの隠しテストの傾向を推測してしまい、要件変更に従わない挙動が確認された。 / テストへの過剰適合（benchmaxxing）を防ぎ実力を測るため、課題指示やコードを変更したMaxxBenchが開発された。 / 固定ベンチマークに特化した過学習の課題を提起し、真のコーディング性能評価の必要性を論じている。 (Source: Hacker News)</description>
+      <pubDate>Sat, 07 Nov 2026 17:19:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NVIDIAがAI GPUの位置追跡を東南アジアのクラウド事業者に義務付け。GeForce RTX 5090も対象になる可能性も</title>
+      <link>https://gazlog.jp/entry/nvidia-southeast-asia-location-tracking-for-gpu/</link>
+      <guid isPermaLink="false">https://gazlog.jp/entry/nvidia-southeast-asia-location-tracking-for-gpu/</guid>
+      <description>[Score: 82] NVIDIAは東南アジアのクラウド事業者に対し、GPU位置記録ソフト「Fleet Intelligence」への登録をパートナー認定の事実上の条件としました。 / 米国の対中輸出規制を背景に、東南アジアの密輸ルートを経由したAI GPUの中国流出を防止する狙いがあります。 / データセンター向けGPUの把握を進める一方、一般流通で持ち込まれるRTX 5090などの追跡には依然として課題が残ります。 (Source: はてなブックマーク)</description>
+      <pubDate>Sat, 07 Nov 2026 21:13:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHubで最も使われている言語は2年連続TypeScript、プルリクの増加率はRust。急成長したOSSはCC Switch、Omarchyなど。GitHub Octoverse 2026</title>
+      <link>https://www.publickey1.jp/blog/26/github2typescriptrustosscc_switchomarchygithub_octoverse_2026.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/github2typescriptrustosscc_switchomarchygithub_octoverse_2026.html</guid>
+      <description>[Score: 80] GitHubの年次レポート「Octoverse 2026」にて、利用言語ランキングでTypeScriptが2年連続の1位を維持しました。 / 僅差で2位にPythonが続き、プルリクエスト数の伸び率ではRustが最も高い成長率を記録しています。 / 世界の登録開発者数が2億2500万人を突破する中、急成長している主要OSSプロジェクトの動向も紹介されています。 (Source: Publickey)</description>
+      <pubDate>Wed, 04 Nov 2026 15:18:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>マイクロソフトリサーチの「AI Frontiers」グループの終焉</title>
+      <link>https://hunch.net/?p=13764006</link>
+      <guid isPermaLink="false">https://hunch.net/?p=13764006</guid>
+      <description>[Score: 78] ChatGPT登場後に迅速な研究推進を目指しMSR内に設立された「AI Frontiers」組織が終了へ / AutoGenやFaraなどのエージェント基盤や基礎研究で成果を挙げるも計算資源の制約等に直面 / 少人数かつ機動的な体制で先駆的な試みを行っていた同グループの活動と課題が振り返られている (Source: Hacker News)</description>
+      <pubDate>Sat, 07 Nov 2026 18:02:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化</title>
+      <link>https://zenn.dev/tomipetit/articles/zero-wire-github-actions</link>
+      <guid isPermaLink="false">https://zenn.dev/tomipetit/articles/zero-wire-github-actions</guid>
+      <description>[Score: 78] 重大な外部公開CVEに特化したCloudflare Radarの「Zero Wire」フィードを活用した自動化の事例。 / GitHub Actionsからサーバー情報を安全に収集し、影響有無の判定をLLMのClaudeに任せる構成を採用した。 / 自動化処理をLLMとスクリプトで責務分離し、実運用で毎朝Issueを起票する実践的な仕組みを解説している。 (Source: Zenn)</description>
+      <pubDate>Sat, 07 Nov 2026 06:44:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Figmaのリアルタイム同期の仕組みを、Node.js + WebSocketの最小構成で実装してみた</title>
+      <link>https://qiita.com/keishin_nishiura/items/b13d72afb085891e4fc9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/keishin_nishiura/items/b13d72afb085891e4fc9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 78] Figmaのなめらかな同時編集を支える同期と競合解決のアーキテクチャを解説。 / Node.jsとWebSocketを用いた最小限の実装でサーバー主導の更新順序制御を検証。 / 楽観的更新とフリッカー防止の有無による動作の違いをデモとともに紹介。 (Source: Qiita)</description>
+      <pubDate>Fri, 06 Nov 2026 03:11:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Appleの「グレーリスト」：iPhoneの予測入力が補完を拒絶する単語とフレーズ</title>
+      <link>https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you</link>
+      <guid isPermaLink="false">https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you</guid>
+      <description>[Score: 76] iPhoneのスワイプ入力において予測補完が制限されている10万語以上の「グレーリスト」の存在が判明 / 政治的表現や麻薬、性の話題など特定の単語やフレーズのスワイプ補完が自動的に阻害・置換される / 独立研究者によって発見され、大手テック企業による入力支援機能における検閲や思想制御の議論を呼んでいる (Source: Hacker News)</description>
+      <pubDate>Sat, 07 Nov 2026 17:06:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>【公式】Pyxel 3.0リリース！世界初（？）レトロ3Dゲームエンジン機能を搭載！</title>
+      <link>https://qiita.com/kitao/items/af92619297d5563f2a0e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/kitao/items/af92619297d5563f2a0e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 76] Python向けレトロゲームエンジンPyxelが約3年ぶりにメジャーバージョンアップし3.0をリリース。 / 新モジュール「Pyxel Cube」が追加され、手軽にノスタルジックなローポリゴン3Dを扱えるように進化。 / 従来の2D機能とシームレスに共存可能で、手軽さを維持したまま3Dゲーム開発が可能。 (Source: Qiita)</description>
+      <pubDate>Sat, 07 Nov 2026 09:11:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linuxカーネルの深刻な脆弱性／FDEの名前で単なるコンサルティングが販売／TypeScriptをRustに移植した「tsrs」発表ほか、2026年10月の人気記事</title>
+      <link>https://www.publickey1.jp/blog/26/linuxfdetypescriptrusttsrs202610.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/linuxfdetypescriptrusttsrs202610.html</guid>
+      <description>[Score: 76] Publickeyの2026年10月の人気記事ランキングで、Linuxの仮想マシン脱出の脆弱性「PwnEscape」が1位となりました。 / 2位にはAI現場におけるフォワードデプロイドエンジニアリング（FDE）の実態予測、3位にはCloudflareの「tsrs」がランクインしました。 / TypeScriptをRustに移植した「tsrs」は大幅なメモリ削減と高速化を実現し、開発ツールの進化として注目されています。 (Source: Publickey)</description>
+      <pubDate>Thu, 05 Nov 2026 15:37:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub、新しいPull Request概要ページのパブリックプレビューを開始</title>
+      <link>https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/</link>
+      <guid isPermaLink="false">https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/</guid>
+      <description>[Score: 75] GitHubがPull Requestの進行を妨げている要因を即座に把握できる新しい概要ページをプレビュー公開 / マージステータスや実行可能なアクションをページ上部にコンパクトにまとめ、スクロールの手間を削減 / 必要な承認状況や失敗したチェックへのアクセスが素早く行えるようになり、レビュー体験が大幅に改善 (Source: Hacker News)</description>
+      <pubDate>Sat, 07 Nov 2026 23:09:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Show HN: Coldframe - スーパーマーケットの冷蔵庫コントローラーを装うハニーポット</title>
+      <link>https://github.com/hedgerow-dev/coldframe</link>
+      <guid isPermaLink="false">https://github.com/hedgerow-dev/coldframe</guid>
+      <description>[Score: 75] 欧州で発生した冷蔵設備制御装置へのサイバー攻撃に対抗するため開発されたハニーポット。 / DanfossやDixellなどの実機コントローラーのWebUIや既知の脆弱性挙動を精巧にエミュレートする。 / 標準ライブラリのみの単一Pythonファイルで構成され、攻撃者の認証試行や操作ログを安全に収集する。 (Source: Hacker News)</description>
+      <pubDate>Sat, 07 Nov 2026 17:27:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>自身の頭脳を偽ったノートPC：ChuwiのCPU偽装スキャンダル</title>
+      <link>https://dev.to/doogee_doogeetoptop_1e/the-laptop-that-lied-about-its-own-brain-chuwis-cpu-spoofing-scandal-366d</link>
+      <guid isPermaLink="false">https://dev.to/doogee_doogeetoptop_1e/the-laptop-that-lied-about-its-own-brain-chuwis-cpu-spoofing-scandal-366d</guid>
+      <description>[Score: 75] 中国の格安PCメーカーChuwiが、ノートPCのファームウェアを改ざんしてCPU型番を偽装した疑惑が浮上した。 / Ryzen 5 7430U搭載と謳いながら実際には旧世代のRyzen 5 5500Uが搭載され、OSや解析ツールでも偽装表示されていた。 / 分解調査でチップの物理印字（OPN）を確認したことで発覚し、ハードウェアコミュニティで大きな波紋を呼んでいる。 (Source: Dev.to)</description>
+      <pubDate>Sun, 08 Nov 2026 01:02:48 +0000</pubDate>
     </item>
     <item>
       <title>[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件</title>
       <link>https://zenn.dev/xin9le/articles/9a1cf8e10494d6</link>
       <guid isPermaLink="false">https://zenn.dev/xin9le/articles/9a1cf8e10494d6</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <description>[Score: 73] CI環境のUbuntuバージョンアップに伴い、明治元年の開始日を検証する単体テストが突然失敗する事象が発生した。 / 原因は同梱されたICUおよびCLDRの更新により、明治の開始日定義が1868年9月8日から10月23日へ修正されたことだった。 / OSや標準ライブラリのアップデートが思わぬ歴史的カレンダーデータの変更をもたらす教訓的なトラブルシュート事例である。 (Source: Zenn)</description>
       <pubDate>Fri, 06 Nov 2026 14:39:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Web 標準動向 2026年10月版</title>
-      <link>https://zenn.dev/cybozu_frontend/articles/web-standards-trends-202610</link>
-      <guid isPermaLink="false">https://zenn.dev/cybozu_frontend/articles/web-standards-trends-202610</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Fri, 06 Nov 2026 09:08:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった</title>
-      <link>https://zenn.dev/rescuenow/articles/4c03a548cd6589</link>
-      <guid isPermaLink="false">https://zenn.dev/rescuenow/articles/4c03a548cd6589</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Fri, 06 Nov 2026 08:59:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claudeを使いこなす人に、MagicPodは要るのか。知らないアプリでPlaywrightと比べた記録</title>
-      <link>https://zenn.dev/genda_jp/articles/7b423bcd20b532</link>
-      <guid isPermaLink="false">https://zenn.dev/genda_jp/articles/7b423bcd20b532</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Fri, 06 Nov 2026 05:13:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>【.NET/Unity】C# の型制約とボックス化をハックする — IL と手動スタック配置</title>
-      <link>https://zenn.dev/aakei/articles/csharp-stack-box</link>
-      <guid isPermaLink="false">https://zenn.dev/aakei/articles/csharp-stack-box</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Fri, 06 Nov 2026 03:01:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI駆動開発の次の段階: ソフトウェアファクトリー</title>
-      <link>https://qiita.com/Syoitu/items/9364a0a175893bb15219?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/Syoitu/items/9364a0a175893bb15219?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Wed, 04 Nov 2026 11:38:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>そろそろ共通鍵暗号・公開鍵暗号についてちゃんと理解する</title>
-      <link>https://qiita.com/tomo-ryo/items/7cbf2881a9c8c8cf3656?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/tomo-ryo/items/7cbf2881a9c8c8cf3656?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Wed, 04 Nov 2026 00:40:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>【マンガ】はじめてのインデータベースAI～ベクトル検索・RAGからAIエージェントまで～（コミカライズ版）</title>
-      <link>https://qiita.com/yuji-arakawa/items/1c6d0ae4400ca2b4bae3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/yuji-arakawa/items/1c6d0ae4400ca2b4bae3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Wed, 04 Nov 2026 23:04:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>リモートのエージェントが起動した dev server を手元でプレビュー：VS Code 1.145 の Remote browser proxy を試した</title>
-      <link>https://qiita.com/shahin0809/items/a1bd931855f392806ee6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/shahin0809/items/a1bd931855f392806ee6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Fri, 06 Nov 2026 07:28:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qiita投稿文化を社内に広めようとしたけど、うまくいかなかった話</title>
-      <link>https://qiita.com/inoyu-qiita/items/48094b9b40752483f5cd?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/inoyu-qiita/items/48094b9b40752483f5cd?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Fri, 06 Nov 2026 03:09:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Ugly Car That Sucks Has Died</title>
-      <link>https://www.reddit.com/r/technology/comments/1xpksua/the_ugly_car_that_sucks_has_died/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xpksua/the_ugly_car_that_sucks_has_died/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
-      <pubDate>Fri, 06 Nov 2026 18:49:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>RIP Cybertruck. You Were Unloved, Unwanted, and Utterly Absurd</title>
-      <link>https://www.reddit.com/r/technology/comments/1xpel3i/rip_cybertruck_you_were_unloved_unwanted_and/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xpel3i/rip_cybertruck_you_were_unloved_unwanted_and/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
-      <pubDate>Fri, 06 Nov 2026 14:46:53 +0000</pubDate>
     </item>
   </channel>
 </rss>

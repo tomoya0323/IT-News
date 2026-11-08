@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-01T10:02:48.220825+09:00",
-  "week_start": "2026-10-26",
-  "week_end": "2026-11-01",
-  "article_count": 253,
-  "overview": "LinuxカーネルにおけるCVSS 9.8のTCP脆弱性やCursor拡張機能へのバックドア混入など、基盤インフラから開発ツールに及ぶ重大なセキュリティ課題が浮き彫りとなった1週間でした。一方で、GitHub Universeでの発表や実践例に見られるように、開発現場では複数AIエージェントの自律協調を前提としたSDLC（ソフトウェア開発ライフサイクル）の刷新が急速に進展しています。さらに、1兆パラメータモデル「Mistral Large 4」の一般公開やAWS・Googleによる独自AIチップ向けPyTorchのOSS化など、オープンエコシステムの拡大と脱NVIDIAへの動きも一段と加速しました。",
+  "generated_at": "2026-11-08T10:27:28.348165+09:00",
+  "week_start": "2026-11-02",
+  "week_end": "2026-11-08",
+  "article_count": 260,
+  "overview": "今週は、AIエージェントの台頭がGitHubのストレージ基盤刷新や競技プログラミングの常識を覆すなど、ソフトウェア開発環境の根底にある前提を再定義し始めている動きが際立ちました。同時に、自律型エージェントの承認スキップによる機密情報漏洩や、Alpine LinuxにおけるOpenSSH認証バイパスといったクリティカルなセキュリティ課題も大きく注目を集めました。さらに、巨大テック企業における巨額AI投資の財務的負担やデータセンターへの社会的反発など、急速なAI拡大がもたらす現実的な歪みも表面化しています。",
   "trends": [
-    "開発環境やインフラを脅かす重大脆弱性とサプライチェーン攻撃",
-    "AIエージェントの自律協調を前提としたSDLCの再定義",
-    "超大規模モデルのオープンウェイト化と推論・学習の民主化",
-    "クラウド各社による独自AIアクセラレータのOSSエコシステム強化"
+    "AIエージェント急増に伴う開発インフラの刷新",
+    "自律型コーディングツールのセキュリティリスク顕在化",
+    "Alpine Linux/OpenSSHの重大な認証バイパス脆弱性",
+    "巨額AIインフラ投資がもたらす財務・社会的負荷"
   ],
   "highlights": [
     {
-      "title": "TCPのUse-After-Free脆弱性: CVE-2026-98432 (CVSS 9.8)",
-      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
-      "comment": "LinuxカーネルのTCPハンドシェイク処理にリモートからroot権限奪取が可能なCVSS 9.8の脆弱性が確認され、広範なシステムで緊急パッチ対応が迫られる重大インシデントであるため。"
+      "title": "Alpine Linux セキュリティ勧告: OpenSSHサーバーのパスワード認証バイパス",
+      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+      "comment": "多くのコンテナ環境で利用されるAlpine Linuxにおいて、パスワード認証を回避可能な極めて緊急度の高い深刻な脆弱性であるため。"
     },
     {
-      "title": "Mistral Large 4のモデル重みを一般公開",
-      "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "comment": "1兆パラメータ規模の最先端マルチモーダルモデルがオープンウェイトとして完全公開され、オープンAIエコシステムの到達点を大きく押し上げたため。"
+      "title": "GitHubの新Gitストレージアーキテクチャの内部構造",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "comment": "AIエージェントによる高頻度プッシュ時代を見据え、Gitストレージの分離と分散構造を根本から刷新した先駆的な技術解説であるため。"
     },
     {
-      "title": "CursorマーケットプレイスのClaude Code拡張機能にバックドアが混入",
-      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-      "comment": "急速に普及するAIコーディング支援ツールのエコシステムを狙ったサプライチェーン攻撃の現実的脅威を示した事例であるため。"
+      "title": "Claude Codeの「再確認しない」設定により公開GitHub上の1,122件のファイルでパスワードが漏洩",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "comment": "自律型コーディングエージェントの利便性と引き換えに生じるセキュリティ事故の実態と、開発現場におけるガバナンスの必要性を如実に示しているため。"
     },
     {
-      "title": "GitHub Universe 2026：開発スタックのあらゆる層の進化",
-      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
-      "comment": "開発者が複数のAIエージェントを指揮する循環型デリバリーへのパラダイムシフトを提示し、今後のソフトウェア開発の方向性を決定づける発表となったため。"
+      "title": "ISUCON2026 にツールを捨てて勝ちたかった",
+      "url": "https://zenn.dev/mazrean/articles/5c968503fd69a3",
+      "comment": "自律型AIエージェントの性能が人間の実装速度を大幅に凌駕し、エンジニア競技のパラダイムシフトを鮮明に描き出しているため。"
     },
     {
-      "title": "AWSとGoogle Cloudが「PyTorch」のAWS Trainium、Google Cloud TPU対応版をオープンソースで公開。NVIDIAからの移行に挑む",
-      "url": "https://www.publickey1.jp/blog/26/awsgoogle_cloudpytorchaws_trainiumgoogle_cloud_tpunvidia.html",
-      "comment": "クラウド巨頭2社が自社AIチップ向けPyTorchを相次いでOSS化し、AIハードウェア市場における脱NVIDIAの動きを加速させる契機となるため。"
+      "title": "米Microsoftはなぜ最大6万人に早期退職を打診するのか？　決算資料から読み解く巨額AI投資の“台所事情”",
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2611/02/news029.html",
+      "comment": "生成AIブームの最前線にあるメガテック企業が直面する巨額設備投資の重圧と、人員再編の背景にあるビジネスモデルの歪みを浮き彫りにしているため。"
     }
   ]
 }
