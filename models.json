@@ -775,7 +775,7 @@
       "version": "deepthink-exp-05-20",
       "displayName": "Deep Research Max Preview (Apr-21-2026)",
       "description": "Preview release (April 21st, 2026) of Deep Research Max",
-      "inputTokenLimit": 131072,
+      "inputTokenLimit": 1048576,
       "outputTokenLimit": 65536,
       "supportedGenerationMethods": [
         "generateContent",
@@ -792,7 +792,7 @@
       "version": "deepthink-exp-05-20",
       "displayName": "Deep Research Preview (Apr-21-2026)",
       "description": "Preview release (April 21th, 2026) of Deep Research",
-      "inputTokenLimit": 131072,
+      "inputTokenLimit": 1048576,
       "outputTokenLimit": 65536,
       "supportedGenerationMethods": [
         "generateContent",
@@ -809,7 +809,7 @@
       "version": "deepthink-exp-05-20",
       "displayName": "Deep Research Pro Preview (Dec-12-2025) [Rerouted]",
       "description": "Deprecated preview agent; automatically rerouting traffic to deep-research-preview-04-2026.",
-      "inputTokenLimit": 131072,
+      "inputTokenLimit": 1048576,
       "outputTokenLimit": 65536,
       "supportedGenerationMethods": [
         "generateContent",
