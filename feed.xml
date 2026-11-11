@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 10 Nov 2026 04:15:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 02:00:14 +0000</lastBuildDate>
     <item>
-      <title>Claude Fable 5.2 and Mythos 5.2</title>
-      <link>https://www.anthropic.com/claude-fable-and-mythos-5-2</link>
-      <guid isPermaLink="false">https://www.anthropic.com/claude-fable-and-mythos-5-2</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 09 Nov 2026 18:01:10 +0000</pubDate>
+      <title>マイクロソフト、.NET 11正式リリース。C#に共用型を導入、JITやAOTコンパイラの高速化、コマンドラインツール強化など新機能</title>
+      <link>https://www.publickey1.jp/blog/26/net_11cjitaot.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/net_11cjitaot.html</guid>
+      <description>[Score: 85] マイクロソフトが包括的アプリケーションフレームワークの最新版となる「.NET 11」を正式リリース。 / プログラミング言語C#でのUnion型（共用型）の導入や、JITおよびAOTコンパイラの性能向上を多数実装。 / Web、モバイル、デスクトップ、AI向け機能の拡充など全方位で開発者体験と実行速度の改善が図られている。 (Source: Publickey)</description>
+      <pubDate>Tue, 10 Nov 2026 17:58:43 +0000</pubDate>
     </item>
     <item>
-      <title>USPS now offers official ZIP Code boundary polygons</title>
-      <link>https://postalpro.usps.com/zcb</link>
-      <guid isPermaLink="false">https://postalpro.usps.com/zcb</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 09 Nov 2026 19:58:59 +0000</pubDate>
+      <title>Claude Code を新しい Fable 5.2 に切り替えると速く安くなるのか。36回測ったら、Fable 5.1 より2割速く3割安く、費用は Opus 5.5 の1.6倍だった</title>
+      <link>https://qiita.com/suwa_nobu/items/a6a104575596915dac2e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/suwa_nobu/items/a6a104575596915dac2e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 82] Anthropicの新モデルClaude Fable 5.2をClaude Code環境下で36回実行し、性能とコストを実測検証した記事。 / 旧世代のFable 5.1と比較して処理速度が約2割高速化し、コストも約3割削減されることを定量的データで確認。 / 日常的なコーディング課題においては、依然としてOpus 5.5の方が大幅に安価に完了できる実態を明らかにしている。 (Source: Qiita)</description>
+      <pubDate>Mon, 09 Nov 2026 23:50:19 +0000</pubDate>
     </item>
     <item>
-      <title>Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system</title>
-      <link>https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy</link>
-      <guid isPermaLink="false">https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 09 Nov 2026 16:00:45 +0000</pubDate>
+      <title>ひとりで作るOSSを、チームの基準でレビューする（Codex・Claude・CodeRabbit）</title>
+      <link>https://qiita.com/figueiredoluiz/items/1a043190d8f00d2ebda6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/figueiredoluiz/items/1a043190d8f00d2ebda6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 80] 単独で開発・保守するRust製OSSにおいて、AIを活用してチーム水準の厳格なレビュー体制を構築した事例。 / Codex、Claude、CodeRabbitを組み合わせ、500件超のPRを多層防御で自動レビューするCIプロセスを設計。 / 失敗が先行することを保証する回帰テスト必須のルールやトークン節約のための静的ゲート設置など運用設計を詳解している。 (Source: Qiita)</description>
+      <pubDate>Mon, 09 Nov 2026 16:24:42 +0000</pubDate>
     </item>
     <item>
-      <title>E-means: Outperforming k-means in one-tenth the epochs</title>
-      <link>https://e-means.github.io/</link>
-      <guid isPermaLink="false">https://e-means.github.io/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 09 Nov 2026 18:45:43 +0000</pubDate>
+      <title>「.NET MAUI 11」がついにXamarin由来のMonoランタイムから脱却、CoreCLRに統一</title>
+      <link>https://www.publickey1.jp/blog/26/net_maui_11xamarinmonocoreclr.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/net_maui_11xamarinmonocoreclr.html</guid>
+      <description>[Score: 80] クロスプラットフォームUIフレームワーク「.NET MAUI 11」で、内部ランタイムのCoreCLR統一が実現。 / 従来iOSやAndroid向けに残存していたXamarin由来のMonoランタイムからの脱却を果たした。 / 実行基盤が.NET標準ランタイムへ一本化されたことで、プラットフォーム間の差異解消や性能向上が期待される。 (Source: Publickey)</description>
+      <pubDate>Tue, 10 Nov 2026 17:51:47 +0000</pubDate>
     </item>
     <item>
-      <title>Foldable Flight: The Best Paper Airplanes</title>
-      <link>https://www.foldableflight.com</link>
-      <guid isPermaLink="false">https://www.foldableflight.com</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 09 Nov 2026 12:19:22 +0000</pubDate>
+      <title>Synapticsの特許主張によりDisplayLinkドライバの開発が停止</title>
+      <link>https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/</link>
+      <guid isPermaLink="false">https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/</guid>
+      <description>[Score: 78] Linux向けDisplayLinkドライバの性能改善を有志で進めていた開発者が、Synaptics社から特許侵害の警告を受けた。 / 開発者は改善策への協力をSynapticsに打診したが、逆に開発中止と法的措置の警告を受ける結果となった。 / これによりオープンソースでの互換ドライバ開発が断念され、Linux環境におけるマルチディスプレイ支援が停滞している。 (Source: Hacker News)</description>
+      <pubDate>Tue, 10 Nov 2026 18:02:02 +0000</pubDate>
     </item>
     <item>
-      <title>Horible public key tricks</title>
-      <link>https://maurycyz.com/projects/badcert/</link>
-      <guid isPermaLink="false">https://maurycyz.com/projects/badcert/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Tue, 10 Nov 2026 00:07:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Locating the source of a mysterious beep</title>
-      <link>https://simonwillison.net/2026/Nov/9/mysterious-beeps/</link>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Nov/9/mysterious-beeps/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Tue, 10 Nov 2026 00:10:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Race to Build a &quot;Find My&quot; for AI Chips</title>
-      <link>https://spectrum.ieee.org/find-my-ai-chip</link>
-      <guid isPermaLink="false">https://spectrum.ieee.org/find-my-ai-chip</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 09 Nov 2026 14:09:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>少年団の役員向けRAGを作った — 条文単位に切り直しただけで正答52%→72%、ハイブリッド検索は効かなかった</title>
-      <link>https://zenn.dev/mappy55/articles/rulebook-rag-01</link>
-      <guid isPermaLink="false">https://zenn.dev/mappy55/articles/rulebook-rag-01</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 09 Nov 2026 20:35:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>ゼロから作ったMamba3言語モデルを日本語で話せる全二重音声対話モデルに拡張するまで</title>
-      <link>https://zenn.dev/taaroo/articles/47f8d1ac55d4af</link>
-      <guid isPermaLink="false">https://zenn.dev/taaroo/articles/47f8d1ac55d4af</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 09 Nov 2026 14:48:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>2 つのエージェントで異なる方向性から検証を行う</title>
-      <link>https://zenn.dev/kokagex/articles/75f89df3b007cc</link>
-      <guid isPermaLink="false">https://zenn.dev/kokagex/articles/75f89df3b007cc</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 09 Nov 2026 13:41:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>JAWS FESTA 2026 in AKITA 懇親会を振り返ってみる</title>
-      <link>https://zenn.dev/k_suzuki_pnx/articles/411e236ab4f2c7</link>
-      <guid isPermaLink="false">https://zenn.dev/k_suzuki_pnx/articles/411e236ab4f2c7</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 09 Nov 2026 08:13:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ホロ1グランプリで宙科そぴあさんが使ってたサイエンスメソッドを最適化の視点で深掘りしてみた</title>
-      <link>https://zenn.dev/akira5kitaoka/articles/holo1gp_sopias_science_method</link>
-      <guid isPermaLink="false">https://zenn.dev/akira5kitaoka/articles/holo1gp_sopias_science_method</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 09 Nov 2026 07:49:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>【公式】Pyxel 3.0リリース！世界初（？）レトロ3Dゲームエンジン機能を搭載！</title>
-      <link>https://qiita.com/kitao/items/af92619297d5563f2a0e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/kitao/items/af92619297d5563f2a0e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Sat, 07 Nov 2026 09:11:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI「テスト通りました」← これ､本当？  Stryker でテストの穴を塞いだ話</title>
+      <title>AI「テスト通りました」← これ､本当？ Stryker でテストの穴を塞いだ話</title>
       <link>https://qiita.com/Dingu-suke/items/b5318ef2040a9f59224a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/Dingu-suke/items/b5318ef2040a9f59224a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <description>[Score: 78] AIが生成したテストコードの有効性を検証するため、ミューテーションテストツールのStrykerを導入した実践記。 / 実装コードに変異（Mutant）を加えて意図的に破壊し、テストが正しく失敗するかを確かめることで見せかけの成功を暴く手法を解説。 / SaaS開発の機密性に関わる重要ロジックを対象に、テスト網羅性の真の強度を数値化して穴を塞ぐ手順を示している。 (Source: Qiita)</description>
       <pubDate>Mon, 09 Nov 2026 07:45:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>氏名や電話番号、聞きません　漏洩問題で企業側、個人情報手放す動き：朝日新聞</title>
+      <link>https://www.asahi.com/articles/ASVCB0H13VCBUTIL009M.html</link>
+      <guid isPermaLink="false">https://www.asahi.com/articles/ASVCB0H13VCBUTIL009M.html</guid>
+      <description>[Score: 78] 相次ぐサイバー攻撃や情報漏洩を受け、企業の間で顧客個人情報の収集・保持を最小限に抑える動きが加速。 / 焼肉きんぐがアプリ登録時の氏名・電話番号を不要とし、タイムズカーも本人確認書類画像を即時削除へ変更。 / 攻撃の高度化に直面する中、「守るべきデータを持たないこと」が最大の安全策とする発想が広がりつつある。 (Source: はてなブックマーク)</description>
+      <pubDate>Tue, 10 Nov 2026 09:02:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>7か月が経過したAnthropicのProject Glasswing、期待外れの成果でメンテナーを困惑させる</title>
+      <link>https://www.vulncheck.com/blog/anthropic-glasswing-november-update</link>
+      <guid isPermaLink="false">https://www.vulncheck.com/blog/anthropic-glasswing-november-update</guid>
+      <description>[Score: 75] Anthropicが立ち上げた脆弱性発見プロジェクト「Project Glasswing」の進捗を検証したレポートが公開された。 / 「数千件の高・深刻度脆弱性を特定した」との発表に対し、7か月間で確認されたCVEは442件に留まっている。 / AIによる脆弱性検出への過度な期待と、報告を受け取るオープンソースメンテナーの負担との乖離が問題視されている。 (Source: Hacker News)</description>
+      <pubDate>Tue, 10 Nov 2026 22:17:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>スマートホーム機器はインターネットなしでも動作すべきである</title>
+      <link>https://docodethatmatters.com/home-automation-overnight-success/</link>
+      <guid isPermaLink="false">https://docodethatmatters.com/home-automation-overnight-success/</guid>
+      <description>[Score: 72] クラウドやベンダーのサーバーに依存せず、オフラインでも稼働し続けるスマートホームの構築手法が紹介されている。 / Tasmota搭載ESPボード、MQTT、Raspberry Pi上のNode-REDなどを用い、主要機能をローカルで完結させている。 / APIの突然の終了やネット障害に影響されない、堅牢でプライベートなホームオートメーションの設計思想が示されている。 (Source: Hacker News)</description>
+      <pubDate>Tue, 10 Nov 2026 15:25:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>JaCoCoはどうやってカバレッジを測っているのか</title>
+      <link>https://zenn.dev/chikina/articles/jacoco-coverage-bytecode</link>
+      <guid isPermaLink="false">https://zenn.dev/chikina/articles/jacoco-coverage-bytecode</guid>
+      <description>[Score: 72] JaCoCoがJavaコードのテストカバレッジを計測する仕組みをバイトコードレベルで解説した記事。 / Java Agentを利用してクラス読み込み時に計測用命令をバイトコードへ動的挿入する過程をjavapで追跡。 / JUnit実行から命令実行フラグの収集、エディタ上での色分け表示に至る一連の内部アーキテクチャを詳解している。 (Source: Zenn)</description>
+      <pubDate>Tue, 10 Nov 2026 08:41:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>「盗撮」→「法律で規制」が話題のAI眼鏡　海外では大ヒットなのに、日本での普及は限定的　ビジネスでの活用事例を探る</title>
+      <link>https://www.itmedia.co.jp/news/article/2611/11/2000002913/</link>
+      <guid isPermaLink="false">https://www.itmedia.co.jp/news/article/2611/11/2000002913/</guid>
+      <description>[Score: 72] Metaの製品を中心に世界で普及が進むAIグラスに対し、盗撮やプライバシー侵害を懸念した規制の動きが浮上。 / 通常の眼鏡と見分けがつかない外見のため不法行為が検知しづらく、公共エリアでの規制法案も検討されている。 / 日本国内での普及は限定的ながら、課題をクリアした上でのビジネスや現場業務への実用展開が模索されている。 (Source: はてなブックマーク)</description>
+      <pubDate>Tue, 10 Nov 2026 20:34:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>.nameドメインの既存利用が存続決定（既得権の保護）</title>
+      <link>https://neil.fraser.name/news/2026/11/10/</link>
+      <guid isPermaLink="false">https://neil.fraser.name/news/2026/11/10/</guid>
+      <description>[Score: 65] Verisignが計画していた22,000件の「.name」ドメインおよびメール転送の廃止計画が撤回された。 / 第3レベル「.name」ドメインの新規受付は終了するものの、既存ドメインは無期限で利用が継続可能となる。 / ユーザーコミュニティがICANNへ異議申し立てや働きかけを行った結果、ドメインの存続を勝ち取った。 (Source: Hacker News)</description>
+      <pubDate>Tue, 10 Nov 2026 16:37:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>WEBで画像を破くツールを作った</title>
+      <link>https://qiita.com/ishi720/items/6d13fdce2a31fe630840?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/ishi720/items/6d13fdce2a31fe630840?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 65] 画面上をなぞった線に沿って画像をビリビリとリアルに破片化できるWebアプリをSvelteで開発した事例。 / 複雑な多角形交差判定を自作せず、Canvasのclip()メソッドと破り線領域の制約を重ねるアプローチで描画を実現。 / ポインター座標のリサンプリングや手ブレ平滑化、破れ目へのギザギザ付与など自然な破片表現のアルゴリズムを解説している。 (Source: Qiita)</description>
+      <pubDate>Sun, 08 Nov 2026 21:44:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>無料のプロジェクト管理ツール「Leantime」、カンバン・一覧表・ガントビュー・iCal・タイムブロッキング・ホワイトボード・タイムシートを組み合わせて認知負荷を軽減することでADHD・失読症・自閉症を念頭に置いて設計</title>
+      <link>https://gigazine.net/news/20261110-leantime/</link>
+      <guid isPermaLink="false">https://gigazine.net/news/20261110-leantime/</guid>
+      <description>[Score: 65] オープンソースのプロジェクト管理ツール「Leantime」は神経多様性に配慮し認知負荷を軽減するよう設計。 / カンバンやガントチャート、タイムブロッキング、タイムシートなど多彩なタスク管理機能を1画面で統合的に利用可能。 / 単なるタスク消化にとどまらず、達成目標と各作業を明確に紐付けて意識できる構成が特徴となっている。 (Source: はてなブックマーク)</description>
+      <pubDate>Tue, 10 Nov 2026 14:08:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>テレンス・タオによる数学の6つの基本概念</title>
+      <link>https://teorth.github.io/tao-web/six-math-essentials.html</link>
+      <guid isPermaLink="false">https://teorth.github.io/tao-web/six-math-essentials.html</guid>
+      <description>[Score: 63] フィールズ賞数学者のテレンス・タオ氏による解説書『Six Math Essentials』が公開された。 / 古代から現代数学までを貫く基本概念として、数、代数、幾何、確率、解析、力学の6つを取り上げている。 / 複雑な世界を数理的に理解し、抽象的思考や不確実性に対処するための思考の枠組みを平易にまとめている。 (Source: Hacker News)</description>
+      <pubDate>Tue, 10 Nov 2026 20:58:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>サイオンが復活、アメリカで軽トラックを販売へ</title>
+      <link>https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/</link>
+      <guid isPermaLink="false">https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/</guid>
+      <description>[Score: 58] トヨタが2016年に廃止した若者向けブランド「サイオン」を実験的ブランドとして復活させると発表した。 / 第1弾として、ダイハツ・ハイゼット等をベースにした超小型軽トラック「KEI-01」を米国市場向けに展開する。 / 従来の低価格路線から脱却し、移動や車両概念を刷新する「フリーダム・ラボ」として位置づけられている。 (Source: Hacker News)</description>
+      <pubDate>Tue, 10 Nov 2026 19:50:46 +0000</pubDate>
     </item>
     <item>
       <title>集中力散漫＆過集中持ちエンジニアがAWS DEAを突破した「過集中スイッチ」の入れ方</title>
       <link>https://qiita.com/kohYoung_I/items/cce40cb5b9cdfc1f8787?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/kohYoung_I/items/cce40cb5b9cdfc1f8787?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <description>[Score: 55] 注意力散漫と過集中の特性を持つエンジニアがAWS DEA資格に合格した学習メソッドの紹介記事。 / 一般的な学習手順に対する自身の脳の拒絶反応を分析し、意図的に過集中を引き起こす独自のルーティンを確立。 / 自分の認知特性を逆手に取った学習アプローチによって資格取得を実現した具体的な工夫を解説している。 (Source: Qiita)</description>
       <pubDate>Sun, 08 Nov 2026 23:21:58 +0000</pubDate>
     </item>
     <item>
-      <title>部品の脆弱性は、どこまで広がるのか？ 主要 64 製品と 8 部品の依存関係をたどったら、OpenSSL は 20、SQLite は 16、PHP は 11 だった</title>
-      <link>https://qiita.com/songchong/items/41a88eb41845af761b19?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/songchong/items/41a88eb41845af761b19?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Sun, 08 Nov 2026 19:10:12 +0000</pubDate>
+      <title>Starlink Mini 2</title>
+      <link>https://starlink.com/mini-2</link>
+      <guid isPermaLink="false">https://starlink.com/mini-2</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Tue, 10 Nov 2026 18:22:32 +0000</pubDate>
     </item>
     <item>
-      <title>脆弱性の情報は間に合っている？ 英語は 2 時間以内、悪用は 4 割が 1 日以内、日本語は中央値 4.6 日後。悪用された 74 件を調べて分かった</title>
-      <link>https://qiita.com/songchong/items/b3c6c879f03f9bb665d3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/songchong/items/b3c6c879f03f9bb665d3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Sun, 08 Nov 2026 09:00:22 +0000</pubDate>
+      <title>Val Town is winding down</title>
+      <link>https://blog.val.town/winding-down</link>
+      <guid isPermaLink="false">https://blog.val.town/winding-down</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Tue, 10 Nov 2026 17:31:14 +0000</pubDate>
     </item>
     <item>
-      <title>Man who lost $308,000 on sports bets sues Kalshi for offering illegal gambling</title>
-      <link>https://www.reddit.com/r/technology/comments/1xs7kyl/man_who_lost_308000_on_sports_bets_sues_kalshi/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xs7kyl/man_who_lost_308000_on_sports_bets_sues_kalshi/</guid>
-      <description>[Score: 50] (解析スキップ) (Source: Reddit)</description>
-      <pubDate>Mon, 09 Nov 2026 23:39:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>America's school buses are becoming AI-powered ticket machines, generating millions from drivers who fail to stop</title>
-      <link>https://www.reddit.com/r/technology/comments/1xrsyal/americas_school_buses_are_becoming_aipowered/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xrsyal/americas_school_buses_are_becoming_aipowered/</guid>
-      <description>[Score: 50] (解析スキップ) (Source: Reddit)</description>
-      <pubDate>Mon, 09 Nov 2026 14:23:48 +0000</pubDate>
+      <title>HAC125DX 用の無線カメラを Pi Zero 2 W で作って、ライブスタックしてみた</title>
+      <link>https://zenn.dev/tsukitsukiss/articles/livestack-hac125dx-wireless-camera</link>
+      <guid isPermaLink="false">https://zenn.dev/tsukitsukiss/articles/livestack-hac125dx-wireless-camera</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Tue, 10 Nov 2026 20:52:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
