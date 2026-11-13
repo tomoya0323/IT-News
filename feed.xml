@@ -5,125 +5,104 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 12 Nov 2026 03:00:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 02:42:58 +0000</lastBuildDate>
     <item>
-      <title>93% of paint splatters are valid Perl programs (2019)</title>
-      <link>https://www.mcmillen.dev/sigbovik/</link>
-      <guid isPermaLink="false">https://www.mcmillen.dev/sigbovik/</guid>
+      <title>Jensen Huang resigns</title>
+      <link>https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f</link>
+      <guid isPermaLink="false">https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Wed, 11 Nov 2026 22:34:23 +0000</pubDate>
+      <pubDate>Thu, 12 Nov 2026 13:52:29 +0000</pubDate>
     </item>
     <item>
-      <title>AWS emulator</title>
-      <link>https://github.com/aws/aws-emulator</link>
-      <guid isPermaLink="false">https://github.com/aws/aws-emulator</guid>
+      <title>Rust 1.100</title>
+      <link>https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/</link>
+      <guid isPermaLink="false">https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Wed, 11 Nov 2026 18:21:38 +0000</pubDate>
+      <pubDate>Thu, 12 Nov 2026 18:39:05 +0000</pubDate>
     </item>
     <item>
-      <title>Tim Peters has died</title>
-      <link>https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028</link>
-      <guid isPermaLink="false">https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028</guid>
+      <title>Gemini 4 Hydrogen and Orchestrator</title>
+      <link>https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/</link>
+      <guid isPermaLink="false">https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Wed, 11 Nov 2026 07:03:17 +0000</pubDate>
+      <pubDate>Thu, 12 Nov 2026 18:52:01 +0000</pubDate>
     </item>
     <item>
-      <title>Lock Your GitHub Actions</title>
-      <link>https://hugovk.dev/blog/2026/lock-github-actions/</link>
-      <guid isPermaLink="false">https://hugovk.dev/blog/2026/lock-github-actions/</guid>
+      <title>Show HN: My $300 embroidery machine needed a subscription, so I built my own app</title>
+      <link>https://github.com/simpsoka/zigzag</link>
+      <guid isPermaLink="false">https://github.com/simpsoka/zigzag</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Wed, 11 Nov 2026 22:16:41 +0000</pubDate>
+      <pubDate>Thu, 12 Nov 2026 17:02:42 +0000</pubDate>
     </item>
     <item>
-      <title>United Airlines bans AI agents from booking flights on behalf of travelers</title>
-      <link>https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/</link>
-      <guid isPermaLink="false">https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/</guid>
+      <title>Dwarf planet candidate appears which takes roughly 280 years to orbit our sun</title>
+      <link>https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/</link>
+      <guid isPermaLink="false">https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Wed, 11 Nov 2026 21:24:35 +0000</pubDate>
+      <pubDate>Thu, 12 Nov 2026 19:05:33 +0000</pubDate>
     </item>
     <item>
-      <title>A false smoke alarm almost drowned Jane Street's only NYC datacenter</title>
-      <link>https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/</link>
-      <guid isPermaLink="false">https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/</guid>
+      <title>Foundation Models framework</title>
+      <link>https://developer.apple.com/foundation-models-framework/</link>
+      <guid isPermaLink="false">https://developer.apple.com/foundation-models-framework/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Wed, 11 Nov 2026 16:38:44 +0000</pubDate>
+      <pubDate>Thu, 12 Nov 2026 21:13:26 +0000</pubDate>
     </item>
     <item>
-      <title>Gemini Decisions API</title>
-      <link>https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/</link>
-      <guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/</guid>
+      <title>Edge0-145B: Frontier AI Capabilities on Your Own Computer</title>
+      <link>https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer</link>
+      <guid isPermaLink="false">https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Wed, 11 Nov 2026 18:32:42 +0000</pubDate>
+      <pubDate>Thu, 12 Nov 2026 23:06:17 +0000</pubDate>
     </item>
     <item>
-      <title>A general purpose Apple Silicon layer for x86-64 PCs</title>
-      <link>https://github.com/tylertms/Stela</link>
-      <guid isPermaLink="false">https://github.com/tylertms/Stela</guid>
+      <title>Service degradation on Microsoft 365</title>
+      <link>https://status.cloud.microsoft/</link>
+      <guid isPermaLink="false">https://status.cloud.microsoft/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Wed, 11 Nov 2026 23:02:38 +0000</pubDate>
+      <pubDate>Thu, 12 Nov 2026 18:20:48 +0000</pubDate>
     </item>
     <item>
-      <title>OpenCodeを拡張して、複数の担当と定期実行をひとつのチャットにまとめる「いちょまる」を作った</title>
-      <link>https://zenn.dev/theoj/articles/opencode-development-log</link>
-      <guid isPermaLink="false">https://zenn.dev/theoj/articles/opencode-development-log</guid>
+      <title>【備忘録】Transformerを数式レベルからnumpyのみで実装して理解する（②Backward Propagation編）</title>
+      <link>https://zenn.dev/matsu8/articles/a01ba3fc713e03</link>
+      <guid isPermaLink="false">https://zenn.dev/matsu8/articles/a01ba3fc713e03</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Wed, 11 Nov 2026 12:38:35 +0000</pubDate>
+      <pubDate>Thu, 12 Nov 2026 13:30:40 +0000</pubDate>
     </item>
     <item>
-      <title>Real2Sim2Realの現在地：現場スキャンからロボット検証環境へ</title>
-      <link>https://zenn.dev/kudan_jp/articles/a0cb75384f4a83</link>
-      <guid isPermaLink="false">https://zenn.dev/kudan_jp/articles/a0cb75384f4a83</guid>
+      <title>Tauri の MSI インストーラーが更新のたびに削除済みデスクトップショートカットを復活させる問題を直した話</title>
+      <link>https://zenn.dev/takahiro_nago/articles/article-tauri-msi-desktop-shortcut</link>
+      <guid isPermaLink="false">https://zenn.dev/takahiro_nago/articles/article-tauri-msi-desktop-shortcut</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Wed, 11 Nov 2026 09:46:24 +0000</pubDate>
+      <pubDate>Thu, 12 Nov 2026 09:34:34 +0000</pubDate>
     </item>
     <item>
-      <title>ISUCON2026 で優勝しました（準備編）</title>
-      <link>https://zenn.dev/luvtechno/articles/isucon2026-preparation</link>
-      <guid isPermaLink="false">https://zenn.dev/luvtechno/articles/isucon2026-preparation</guid>
+      <title>セキュリティ・キャンプ 2026 応募課題晒し</title>
+      <link>https://zenn.dev/uvu/articles/758ee227a614ea</link>
+      <guid isPermaLink="false">https://zenn.dev/uvu/articles/758ee227a614ea</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Wed, 11 Nov 2026 05:05:46 +0000</pubDate>
+      <pubDate>Thu, 12 Nov 2026 06:45:01 +0000</pubDate>
     </item>
     <item>
-      <title>個人的な推し、Raycastの音声入力「Dictation」</title>
-      <link>https://zenn.dev/miive/articles/aa272cc544ddf3</link>
-      <guid isPermaLink="false">https://zenn.dev/miive/articles/aa272cc544ddf3</guid>
+      <title>AWS EmulatorはAWS Blocksのモックを置き換えるのか？実際に動かして見えた「三つ目の層」</title>
+      <link>https://zenn.dev/genda_jp/articles/18d1f780f6b41f</link>
+      <guid isPermaLink="false">https://zenn.dev/genda_jp/articles/18d1f780f6b41f</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Wed, 11 Nov 2026 04:26:44 +0000</pubDate>
+      <pubDate>Thu, 12 Nov 2026 05:20:41 +0000</pubDate>
     </item>
     <item>
-      <title>AIに書かせた、が全然AIが書いてない件</title>
-      <link>https://zenn.dev/appleworld/articles/65aed6c725af71</link>
-      <guid isPermaLink="false">https://zenn.dev/appleworld/articles/65aed6c725af71</guid>
+      <title>週刊Cloudflare - 2026/11/08週</title>
+      <link>https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_1101-1107</link>
+      <guid isPermaLink="false">https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_1101-1107</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Wed, 11 Nov 2026 02:11:05 +0000</pubDate>
+      <pubDate>Thu, 12 Nov 2026 04:54:55 +0000</pubDate>
     </item>
     <item>
-      <title>集中力散漫＆過集中持ちエンジニアがAWS DEAを突破した「過集中スイッチ」の入れ方</title>
-      <link>https://qiita.com/kohYoung_I/items/cce40cb5b9cdfc1f8787?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/kohYoung_I/items/cce40cb5b9cdfc1f8787?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <title>【AWS】AWS EmulatorでCDK/Terraformのスタックはどこまで動くか【AWSEmulator】</title>
+      <link>https://qiita.com/Nana_777/items/3f3c71525d867b22c9f2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/Nana_777/items/3f3c71525d867b22c9f2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Sun, 08 Nov 2026 23:21:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI「テスト通りました」← これ､本当？  Stryker でテストの穴を塞いだ話</title>
-      <link>https://qiita.com/Dingu-suke/items/b5318ef2040a9f59224a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/Dingu-suke/items/b5318ef2040a9f59224a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Mon, 09 Nov 2026 07:45:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>WEBで画像を破くツールを作った</title>
-      <link>https://qiita.com/ishi720/items/6d13fdce2a31fe630840?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/ishi720/items/6d13fdce2a31fe630840?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Sun, 08 Nov 2026 21:44:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>個人情報流出ニュースが怖いので、パスワード対策をガチで見直してみた</title>
-      <link>https://qiita.com/koshiro_esaki/items/22b7e355068ac0dad571?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/koshiro_esaki/items/22b7e355068ac0dad571?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Tue, 10 Nov 2026 02:10:06 +0000</pubDate>
+      <pubDate>Wed, 11 Nov 2026 23:39:20 +0000</pubDate>
     </item>
     <item>
       <title>Fable 5.2でGTA 6 Osaka Cityを作ってみた</title>
@@ -133,18 +112,39 @@
       <pubDate>Tue, 10 Nov 2026 13:38:25 +0000</pubDate>
     </item>
     <item>
-      <title>Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him</title>
-      <link>https://www.reddit.com/r/technology/comments/1xtv8dn/jensen_huang_said_to_have_had_relationship_with/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xtv8dn/jensen_huang_said_to_have_had_relationship_with/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
-      <pubDate>Wed, 11 Nov 2026 22:09:03 +0000</pubDate>
+      <title>個人情報流出ニュースが怖いので、パスワード対策をガチで見直してみた</title>
+      <link>https://qiita.com/koshiro_esaki/items/22b7e355068ac0dad571?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/koshiro_esaki/items/22b7e355068ac0dad571?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Tue, 10 Nov 2026 02:10:06 +0000</pubDate>
     </item>
     <item>
-      <title>Exclusive | Nvidia is Preparing to Oust CEO Jensen Huang</title>
-      <link>https://www.reddit.com/r/technology/comments/1xtvw5q/exclusive_nvidia_is_preparing_to_oust_ceo_jensen/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xtvw5q/exclusive_nvidia_is_preparing_to_oust_ceo_jensen/</guid>
+      <title>AIに書かせる時代だからこそ、コード1行を読む</title>
+      <link>https://qiita.com/yukegineer/items/e8fa851317846aa24de6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/yukegineer/items/e8fa851317846aa24de6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Tue, 10 Nov 2026 00:38:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>VS Code の Local harness は2027年2月に削除：Copilot harness へ移行する手順とつまずきポイント</title>
+      <link>https://qiita.com/shahin0809/items/ccb8a8ddf11d6cb4113d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/shahin0809/items/ccb8a8ddf11d6cb4113d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Thu, 12 Nov 2026 07:50:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jensen Huang Had A Third Affair—With Another Nvidia Employee</title>
+      <link>https://www.reddit.com/r/technology/comments/1xunjfl/jensen_huang_had_a_third_affairwith_another/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xunjfl/jensen_huang_had_a_third_affairwith_another/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
-      <pubDate>Wed, 11 Nov 2026 22:36:18 +0000</pubDate>
+      <pubDate>Thu, 12 Nov 2026 20:19:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide</title>
+      <link>https://www.reddit.com/r/technology/comments/1xusd3p/massive_microsoft_365_outage_disrupts_outlook/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xusd3p/massive_microsoft_365_outage_disrupts_outlook/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
+      <pubDate>Thu, 12 Nov 2026 23:37:54 +0000</pubDate>
     </item>
   </channel>
 </rss>
