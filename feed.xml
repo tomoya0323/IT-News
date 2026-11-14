@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 13 Nov 2026 02:42:58 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 02:17:59 +0000</lastBuildDate>
     <item>
-      <title>Jensen Huang resigns</title>
-      <link>https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f</link>
-      <guid isPermaLink="false">https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 12 Nov 2026 13:52:29 +0000</pubDate>
+      <title>AWSをローカルマシン上でエミュレートする、AWS公式の「AWSエミュレータ」正式リリース</title>
+      <link>https://www.publickey1.jp/blog/26/awsawsaws_1.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/awsawsaws_1.html</guid>
+      <description>[Score: 88] AWSは、ローカル環境でAWSのAPI群を無償かつアカウント不要でオフラインエミュレートできる「AWSエミュレータ」を正式公開した。 / AWS SDKやCLIと完全に互換性を持ち、クラウド本番環境を使わずに高速かつ安価なアプリ開発やテストを可能にする。 / 全コードがBedrock AgentCore上で動作する自律AIエージェントチームによって実装・テストされた点でも先進的である。 (Source: Publickey)</description>
+      <pubDate>Thu, 12 Nov 2026 15:09:51 +0000</pubDate>
     </item>
     <item>
-      <title>Rust 1.100</title>
-      <link>https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/</link>
-      <guid isPermaLink="false">https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 12 Nov 2026 18:39:05 +0000</pubDate>
+      <title>マイクロソフトのM365大規模障害、修正対応が失敗し続け15時間超に長期化</title>
+      <link>https://www.reddit.com/r/technology/comments/1xv6c5l/microsofts_massive_m365_outage_stretches_past_15/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xv6c5l/microsofts_massive_m365_outage_stretches_past_15/</guid>
+      <description>[Score: 85] Microsoft 365で発生した広範なサービス障害が、複数回の修復試行の失敗により15時間以上継続している。 / メールやTeamsなどの主要な業務ツールが利用不能となり、世界中の企業活動に甚大な影響を及ぼしている。 / 復旧パッチの不具合による影響長期化は、大規模クラウド運用のロールバックや検証体制の課題を浮き彫りにした。 (Source: Reddit)</description>
+      <pubDate>Fri, 13 Nov 2026 12:15:06 +0000</pubDate>
     </item>
     <item>
-      <title>Gemini 4 Hydrogen and Orchestrator</title>
-      <link>https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/</link>
-      <guid isPermaLink="false">https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 12 Nov 2026 18:52:01 +0000</pubDate>
+      <title>Google Antigravity、クラウド上でAIエージェントが働く「リモートエージェント」機能を搭載。就業時間外でもAIエージェントは働き続ける</title>
+      <link>https://www.publickey1.jp/blog/26/google_antigravityaiai.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/google_antigravityaiai.html</guid>
+      <description>[Score: 85] GoogleのAIエージェント開発環境「Antigravity」に、クラウド上で常時自律稼働する新機能「リモートエージェント」が搭載された。 / ローカルPCの稼働状態に依存せず独立したクラウドVM上で動作し、開発者の就業時間外でもテスト実行やPR作成を進める。 / 指示出し後はオフラインになっても作業が継続され、モバイル端末等からの承認対応で開発を進行できる。 (Source: Publickey)</description>
+      <pubDate>Thu, 12 Nov 2026 15:13:43 +0000</pubDate>
     </item>
     <item>
-      <title>Show HN: My $300 embroidery machine needed a subscription, so I built my own app</title>
-      <link>https://github.com/simpsoka/zigzag</link>
-      <guid isPermaLink="false">https://github.com/simpsoka/zigzag</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 12 Nov 2026 17:02:42 +0000</pubDate>
+      <title>Claude Fable 5.2はOpusの単価2倍、でも1タスクは約半額!? Mythos5.2との違いと使いどころ</title>
+      <link>https://qiita.com/ryosuke_ohori/items/17995524b433cf04fd55?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/ryosuke_ohori/items/17995524b433cf04fd55?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 82] Anthropicの新モデルClaude Fable 5.2のAPI単価はOpusの2倍だが、タスク解決時の総費用は約半額になる事例が確認されている。 / モデルのeffort設定によって消費コストが大幅に変わるため、適切なパラメータ選択が費用対効果に直結する。 / 生命科学等の高リスク用途向け制限が異なるMythos 5.2との差異や、Claude Codeでの実践的な運用方法を解説している。 (Source: Qiita)</description>
+      <pubDate>Fri, 13 Nov 2026 04:26:32 +0000</pubDate>
     </item>
     <item>
-      <title>Dwarf planet candidate appears which takes roughly 280 years to orbit our sun</title>
-      <link>https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/</link>
-      <guid isPermaLink="false">https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 12 Nov 2026 19:05:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>Foundation Models framework</title>
-      <link>https://developer.apple.com/foundation-models-framework/</link>
-      <guid isPermaLink="false">https://developer.apple.com/foundation-models-framework/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 12 Nov 2026 21:13:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>Edge0-145B: Frontier AI Capabilities on Your Own Computer</title>
-      <link>https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer</link>
-      <guid isPermaLink="false">https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 12 Nov 2026 23:06:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Service degradation on Microsoft 365</title>
-      <link>https://status.cloud.microsoft/</link>
-      <guid isPermaLink="false">https://status.cloud.microsoft/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 12 Nov 2026 18:20:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>【備忘録】Transformerを数式レベルからnumpyのみで実装して理解する（②Backward Propagation編）</title>
-      <link>https://zenn.dev/matsu8/articles/a01ba3fc713e03</link>
-      <guid isPermaLink="false">https://zenn.dev/matsu8/articles/a01ba3fc713e03</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 12 Nov 2026 13:30:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tauri の MSI インストーラーが更新のたびに削除済みデスクトップショートカットを復活させる問題を直した話</title>
-      <link>https://zenn.dev/takahiro_nago/articles/article-tauri-msi-desktop-shortcut</link>
-      <guid isPermaLink="false">https://zenn.dev/takahiro_nago/articles/article-tauri-msi-desktop-shortcut</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 12 Nov 2026 09:34:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>セキュリティ・キャンプ 2026 応募課題晒し</title>
-      <link>https://zenn.dev/uvu/articles/758ee227a614ea</link>
-      <guid isPermaLink="false">https://zenn.dev/uvu/articles/758ee227a614ea</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 12 Nov 2026 06:45:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>AWS EmulatorはAWS Blocksのモックを置き換えるのか？実際に動かして見えた「三つ目の層」</title>
-      <link>https://zenn.dev/genda_jp/articles/18d1f780f6b41f</link>
-      <guid isPermaLink="false">https://zenn.dev/genda_jp/articles/18d1f780f6b41f</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 12 Nov 2026 05:20:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>週刊Cloudflare - 2026/11/08週</title>
-      <link>https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_1101-1107</link>
-      <guid isPermaLink="false">https://zenn.dev/gemcook/articles/weekly-cloudflare_2026_1101-1107</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 12 Nov 2026 04:54:55 +0000</pubDate>
+      <title>【速報】マネックス証券、マイナカード画像漏えいか</title>
+      <link>https://www.47news.jp/15227159.html</link>
+      <guid isPermaLink="false">https://www.47news.jp/15227159.html</guid>
+      <description>[Score: 82] マネックス証券は、委託先が管理する口座開設システムへの不正アクセスにより個人情報流出の恐れがあると発表した。 / 運転免許証やマイナンバーカードなどの本人確認書類画像1592件と、最大113万件のメールアドレスが流出した可能性がある。 / 金融機関における本人確認情報や重要個人データのサプライチェーンセキュリティに関する課題を浮き彫りにした。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 13 Nov 2026 15:36:10 +0000</pubDate>
     </item>
     <item>
       <title>【AWS】AWS EmulatorでCDK/Terraformのスタックはどこまで動くか【AWSEmulator】</title>
       <link>https://qiita.com/Nana_777/items/3f3c71525d867b22c9f2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/Nana_777/items/3f3c71525d867b22c9f2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <description>[Score: 80] AWS公式のローカルエミュレーター「AWS Emulator」を利用したIaCの動作検証結果が紹介されている。 / Windows 11とDocker上でCDKやTerraformスタックを動かし、対応状況や挙動の忠実度を検証している。 / サービスごとのAPIサポート差異や実AWSとの使い分けなど、ローカル検証導入時の実践的な注意点を示している。 (Source: Qiita)</description>
       <pubDate>Wed, 11 Nov 2026 23:39:20 +0000</pubDate>
     </item>
     <item>
-      <title>Fable 5.2でGTA 6 Osaka Cityを作ってみた</title>
-      <link>https://qiita.com/7mpy/items/5710fef43ba0e59204c6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/7mpy/items/5710fef43ba0e59204c6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Tue, 10 Nov 2026 13:38:25 +0000</pubDate>
+      <title>CRA報告対応② Dependency-Trackで脆弱性の検知を自動化する(Pleasanter連携)</title>
+      <link>https://qiita.com/yyoshida15/items/4ea6a0752ff2ba942dff?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/yyoshida15/items/4ea6a0752ff2ba942dff?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 78] EUサイバーレジリエンス法（CRA）が求める24時間以内の脆弱性早期警告に対応するための自動化手法を解説している。 / OWASP Dependency-Track v5を活用し、KEVやEPSSを手がかりに悪用リスクのある脆弱性を自動検知してSlackへ通知する。 / 中継サーバーを介してPleasanterの台帳へ自動登録することで、手作業に頼らない期限管理と追跡体制を実現している。 (Source: Qiita)</description>
+      <pubDate>Fri, 13 Nov 2026 00:22:46 +0000</pubDate>
     </item>
     <item>
-      <title>個人情報流出ニュースが怖いので、パスワード対策をガチで見直してみた</title>
-      <link>https://qiita.com/koshiro_esaki/items/22b7e355068ac0dad571?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/koshiro_esaki/items/22b7e355068ac0dad571?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Tue, 10 Nov 2026 02:10:06 +0000</pubDate>
+      <title>FAAが「異例の事態」を理由に全米での地上待機措置を発令</title>
+      <link>https://www.reddit.com/r/technology/comments/1xvjsxv/faa_issues_nationwide_ground_stop_due_to/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xvjsxv/faa_issues_nationwide_ground_stop_due_to/</guid>
+      <description>[Score: 78] 米連邦航空局（FAA）が異例の事態を理由に、全米すべての航空便に対する地上待機措置を発表した。 / 航空管制または運航を司る基幹システムで致命的な障害が発生した可能性が指摘されている。 / 国家レベルのインフラ停止により、全米の物流や旅客輸送に即時かつ深刻な混乱が生じている。 (Source: Reddit)</description>
+      <pubDate>Fri, 13 Nov 2026 21:08:46 +0000</pubDate>
     </item>
     <item>
-      <title>AIに書かせる時代だからこそ、コード1行を読む</title>
-      <link>https://qiita.com/yukegineer/items/e8fa851317846aa24de6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/yukegineer/items/e8fa851317846aa24de6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Tue, 10 Nov 2026 00:38:48 +0000</pubDate>
+      <title>「画面数×人月」はもう通じない？見積もり単位の変遷と、バイブコーディング時代の見積もり書</title>
+      <link>https://qiita.com/TH_stickey/items/f55fb76055988cf9d0ad?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/TH_stickey/items/f55fb76055988cf9d0ad?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 77] AIによるバイブコーディング普及に伴い、実装量をベースとした「画面数×人月」の従来型見積もりが通用しなくなっている。 / AIで実装作業は大幅に短縮される一方、要件定義や合意形成、受入テストなど人間の意思決定が必要な工程は残る。 / 今後は実装起点の一括計算ではなく、各工程で何が残るかを明示して積み上げる見積もり形式への転換が必要と述べている。 (Source: Qiita)</description>
+      <pubDate>Wed, 11 Nov 2026 02:25:25 +0000</pubDate>
     </item>
     <item>
-      <title>VS Code の Local harness は2027年2月に削除：Copilot harness へ移行する手順とつまずきポイント</title>
-      <link>https://qiita.com/shahin0809/items/ccb8a8ddf11d6cb4113d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/shahin0809/items/ccb8a8ddf11d6cb4113d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Thu, 12 Nov 2026 07:50:38 +0000</pubDate>
+      <title>仕組み編：Two-Towerによる検索システム（学習・推論・配信）</title>
+      <link>https://zenn.dev/ca_kagglers/articles/two-tower-mechanism</link>
+      <guid isPermaLink="false">https://zenn.dev/ca_kagglers/articles/two-tower-mechanism</guid>
+      <description>[Score: 75] Two-Towerモデルはクエリとアイテムを別々のNNでベクトル化し類似度で検索・推薦を行う手法である。 / アイテム側ベクトルを事前計算しておくことで、大規模な候補からの高速かつ効率的な検索を実現する。 / 本記事では検索タスクの基礎からモデル構造、推論の流れ、負例サンプリングなどの学習や配信の仕組みを解説する。 (Source: Zenn)</description>
+      <pubDate>Fri, 13 Nov 2026 01:55:36 +0000</pubDate>
     </item>
     <item>
-      <title>Jensen Huang Had A Third Affair—With Another Nvidia Employee</title>
-      <link>https://www.reddit.com/r/technology/comments/1xunjfl/jensen_huang_had_a_third_affairwith_another/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xunjfl/jensen_huang_had_a_third_affairwith_another/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
-      <pubDate>Thu, 12 Nov 2026 20:19:32 +0000</pubDate>
+      <title>【速報】米全土での地上待機措置は解除の目処立たず、欠航が拡大</title>
+      <link>https://www.reddit.com/r/technology/comments/1xvnevv/live_updates_no_timeline_for_resolving_nationwide/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xvnevv/live_updates_no_timeline_for_resolving_nationwide/</guid>
+      <description>[Score: 75] 米連邦航空局（FAA）による全米規模の地上待機措置が長期化し、欠航便が急増している。 / 障害解決に向けた明確なスケジュールは示されておらず、運航混乱の収束は見通せない状況が続く。 / 航空管制や運航に関わるシステム停止が米国内の広範な交通網に甚大な影響を与えている。 (Source: Reddit)</description>
+      <pubDate>Fri, 13 Nov 2026 23:40:21 +0000</pubDate>
     </item>
     <item>
-      <title>Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide</title>
-      <link>https://www.reddit.com/r/technology/comments/1xusd3p/massive_microsoft_365_outage_disrupts_outlook/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xusd3p/massive_microsoft_365_outage_disrupts_outlook/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
-      <pubDate>Thu, 12 Nov 2026 23:37:54 +0000</pubDate>
+      <title>FAAが全フライトを対象に全米規模の地上待機措置を発令</title>
+      <link>https://www.reddit.com/r/technology/comments/1xvk949/faa_issues_nationwide_ground_stop_for_all_flights/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xvk949/faa_issues_nationwide_ground_stop_for_all_flights/</guid>
+      <description>[Score: 75] FAAが米国内を発着するすべての航空便に対して全国規模の運航停止命令を発令した。 / 重要システムの大規模トラブルにより航空管制機能が正常に提供できない事態に陥っていると見られる。 / 米国の航空交通網全体が一時的に完全に停止し、広範囲な混乱が引き起こされている。 (Source: Reddit)</description>
+      <pubDate>Fri, 13 Nov 2026 21:26:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>『検索システム』『推薦システム』とLLM時代の検索推薦 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ</title>
+      <link>https://joisino.hatenablog.com/entry/searchrecbook</link>
+      <guid isPermaLink="false">https://joisino.hatenablog.com/entry/searchrecbook</guid>
+      <description>[Score: 75] 書籍『検索システム』『推薦システム』の刊行に合わせ、LLM時代の検索・推薦技術の体系的な知見が紹介された。 / 大規模コンテキスト長を活かした「全文プロンプト」とRAGの精度・再現率のトレードオフなどを実践的に整理している。 / 従来の転置インデックスや行列分解と生成AI技術を融合させた、現代的なシステムアーキテクチャの指針を示している。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 13 Nov 2026 10:50:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fable 5.2は物理モデリング音源の実装も作曲もすごい - きしだのHatena</title>
+      <link>https://nowokay.hatenablog.com/entry/2026/11/13/101644</link>
+      <guid isPermaLink="false">https://nowokay.hatenablog.com/entry/2026/11/13/101644</guid>
+      <description>[Score: 72] AIモデル「Fable 5.2」を用いて楽器の物理シミュレーション音源の実装と作曲を試みた検証記事。 / 指示なしでソナタ形式や転調を盛り込んだ弦楽四重奏や、弦の共鳴を再現したピアノ音源を生成できた。 / 従来モデルのOpus 5.5と比較して、物理シミュレーションの実装力と音楽的構成力の両面で大幅な進化を示している。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 13 Nov 2026 14:22:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>「ざっくり工数どのくらい？」に「ざっくり工数このくらい」で答えてはいけない</title>
+      <link>https://qiita.com/tsutorm/items/c9ab1e1c64474c341d77?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/tsutorm/items/c9ab1e1c64474c341d77?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 70] 開発初期に根拠のない概算数値を口頭で提示すると、後々の認識齟齬や合意形成の難航を招く原因となる。 / 発注者との感情論を避けるため、目に見えて理解しやすい画面数などの「数量×単価」の式で提示することが推奨される。 / 過去の実績工数から算出した単価を用いることで、工数ではなく要件スコープの議論へ建設的に誘導できる。 (Source: Qiita)</description>
+      <pubDate>Fri, 13 Nov 2026 02:03:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>FAAの地上待機措置はいつ解除されるのか？現在判明している最新情報</title>
+      <link>https://www.reddit.com/r/technology/comments/1xvmakd/when_will_the_faa_ground_stop_end_heres_what_we/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xvmakd/when_will_the_faa_ground_stop_end_heres_what_we/</guid>
+      <description>[Score: 70] 全米で発令されたFAAのフライト地上待機措置に関して、解除見通しや現状の情報がまとめられている。 / 原因調査とシステムの復旧作業が進行中であるものの、全面復旧の時期は依然として不透明である。 / 運航再開後も長期にわたるダイヤの乱れが予想され、航空業界全体が対応に追われている。 (Source: Reddit)</description>
+      <pubDate>Fri, 13 Nov 2026 22:50:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>データセンターの排熱でエビ養殖、NTT系が実験　育ったら食べられる？　担当者に聞いてみた</title>
+      <link>https://www.itmedia.co.jp/news/article/2611/13/2000003200/</link>
+      <guid isPermaLink="false">https://www.itmedia.co.jp/news/article/2611/13/2000003200/</guid>
+      <description>[Score: 70] NTTドコモビジネスなど4社が、データセンターの冷却排熱を活用したバナメイエビの陸上養殖の実証実験を発表した。 / AI需要で増大するデータセンターの排熱課題と、水温維持に多大な加温エネルギーを要する養殖課題の同時解決を図る。 / 2026年度に回収技術を検証し、2027年度から飼育検証を行って他データセンターへの横展開を目指す。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 13 Nov 2026 11:33:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>人間＋AIを「チーム」としてプロセスを再設計する</title>
+      <link>https://speakerdeck.com/littlehands/ai-kudou-keiei-suraido-20261112-0eeda77b-3c60-4af9-b059-2eb1ff3ef2c1</link>
+      <guid isPermaLink="false">https://speakerdeck.com/littlehands/ai-kudou-keiei-suraido-20261112-0eeda77b-3c60-4af9-b059-2eb1ff3ef2c1</guid>
+      <description>[Score: 68] AI導入を単なる個人作業の効率化にとどめず、人とAIによる「チーム」としての業務プロセス再設計を提唱している。 / 組織開発のフレームワークGRPIを援用し、目標設定や人間の説明責任、段階的な権限委譲のプロセスを解説している。 / 不確実性と複雑性の度合いに応じてAIへの任せ方を最適化する、AI駆動経営の実践論を提示している。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 13 Nov 2026 14:24:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>FAA lifted National Ground Stop at 0119Z</title>
+      <link>https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&amp;advn=5</link>
+      <guid isPermaLink="false">https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&amp;advn=5</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Sat, 14 Nov 2026 01:30:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>FAA issues national ground stop</title>
+      <link>https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</link>
+      <guid isPermaLink="false">https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Fri, 13 Nov 2026 21:05:53 +0000</pubDate>
     </item>
   </channel>
 </rss>
