@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 14 Nov 2026 02:17:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 01:55:47 +0000</lastBuildDate>
     <item>
-      <title>AWSをローカルマシン上でエミュレートする、AWS公式の「AWSエミュレータ」正式リリース</title>
-      <link>https://www.publickey1.jp/blog/26/awsawsaws_1.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/awsawsaws_1.html</guid>
-      <description>[Score: 88] AWSは、ローカル環境でAWSのAPI群を無償かつアカウント不要でオフラインエミュレートできる「AWSエミュレータ」を正式公開した。 / AWS SDKやCLIと完全に互換性を持ち、クラウド本番環境を使わずに高速かつ安価なアプリ開発やテストを可能にする。 / 全コードがBedrock AgentCore上で動作する自律AIエージェントチームによって実装・テストされた点でも先進的である。 (Source: Publickey)</description>
-      <pubDate>Thu, 12 Nov 2026 15:09:51 +0000</pubDate>
+      <title>Canton Networkとは何か――金融機関が「見せる相手を選べる」ブロックチェーンに集まる理由</title>
+      <link>https://zenn.dev/komlock_lab/articles/canton-network-evm-comparison-2026</link>
+      <guid isPermaLink="false">https://zenn.dev/komlock_lab/articles/canton-network-evm-comparison-2026</guid>
+      <description>[Score: 83] プライバシーを保護し取引関係者のみに情報を開示できる金融向けブロックチェーン「Canton Network」の仕組みを解説。 / 全データが公開されるEthereum等のパブリックチェーンと異なり、機密性を保ちながら相互運用性を実現するアーキテクチャを持つ。 / 米DTCCによる証券トークン化や米J.P. Morganによる預金トークン「JPM Coin」での採用など大手金融機関での実用化が進む。 (Source: Zenn)</description>
+      <pubDate>Sun, 15 Nov 2026 09:06:22 +0000</pubDate>
     </item>
     <item>
-      <title>マイクロソフトのM365大規模障害、修正対応が失敗し続け15時間超に長期化</title>
-      <link>https://www.reddit.com/r/technology/comments/1xv6c5l/microsofts_massive_m365_outage_stretches_past_15/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xv6c5l/microsofts_massive_m365_outage_stretches_past_15/</guid>
-      <description>[Score: 85] Microsoft 365で発生した広範なサービス障害が、複数回の修復試行の失敗により15時間以上継続している。 / メールやTeamsなどの主要な業務ツールが利用不能となり、世界中の企業活動に甚大な影響を及ぼしている。 / 復旧パッチの不具合による影響長期化は、大規模クラウド運用のロールバックや検証体制の課題を浮き彫りにした。 (Source: Reddit)</description>
-      <pubDate>Fri, 13 Nov 2026 12:15:06 +0000</pubDate>
+      <title>.NET 11 の ASP.NET Core Blazor の新機能のスケールイン対応機能！</title>
+      <link>https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet11-scale</link>
+      <guid isPermaLink="false">https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet11-scale</guid>
+      <description>[Score: 80] .NET 11のASP.NET Core Blazor InteractiveServerモードに導入されたスケールイン対応機能の検証記事。 / 従来はサーバーメモリ上の回路状態（Circuit）を別サーバーへ引き継げずオートスケールが困難だった課題を解消。 / シャットダウン時にステートを一時的にクライアント側へ退避・再接続させる仕組みにより、柔軟なインフラ運用が可能になる。 (Source: Zenn)</description>
+      <pubDate>Sun, 15 Nov 2026 07:58:03 +0000</pubDate>
     </item>
     <item>
-      <title>Google Antigravity、クラウド上でAIエージェントが働く「リモートエージェント」機能を搭載。就業時間外でもAIエージェントは働き続ける</title>
-      <link>https://www.publickey1.jp/blog/26/google_antigravityaiai.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/google_antigravityaiai.html</guid>
-      <description>[Score: 85] GoogleのAIエージェント開発環境「Antigravity」に、クラウド上で常時自律稼働する新機能「リモートエージェント」が搭載された。 / ローカルPCの稼働状態に依存せず独立したクラウドVM上で動作し、開発者の就業時間外でもテスト実行やPR作成を進める。 / 指示出し後はオフラインになっても作業が継続され、モバイル端末等からの承認対応で開発を進行できる。 (Source: Publickey)</description>
-      <pubDate>Thu, 12 Nov 2026 15:13:43 +0000</pubDate>
+      <title>日本語の脆弱性 DB は 4.6 日かかる。待てないので、46 秒でセキュリティ情報が載るようにした</title>
+      <link>https://qiita.com/songchong/items/fa50cc82e49b24925fe3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/songchong/items/fa50cc82e49b24925fe3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 78] AIを用いた攻撃が加速する中、日本語の脆弱性データベース登録には中央値4.6日かかり対応が遅れる課題を提示しています。 / 悪用は公開当日から始まることが多く、迅速な判断と準備を行うための猶予が不足してしまいます。 / 脆弱性情報を早期に把握して3日以内の対策期限に間に合わせるため、数分以内で情報連携できる仕組みを開発しました。 (Source: Qiita)</description>
+      <pubDate>Sun, 15 Nov 2026 08:20:40 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Fable 5.2はOpusの単価2倍、でも1タスクは約半額!? Mythos5.2との違いと使いどころ</title>
-      <link>https://qiita.com/ryosuke_ohori/items/17995524b433cf04fd55?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/ryosuke_ohori/items/17995524b433cf04fd55?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 82] Anthropicの新モデルClaude Fable 5.2のAPI単価はOpusの2倍だが、タスク解決時の総費用は約半額になる事例が確認されている。 / モデルのeffort設定によって消費コストが大幅に変わるため、適切なパラメータ選択が費用対効果に直結する。 / 生命科学等の高リスク用途向け制限が異なるMythos 5.2との差異や、Claude Codeでの実践的な運用方法を解説している。 (Source: Qiita)</description>
-      <pubDate>Fri, 13 Nov 2026 04:26:32 +0000</pubDate>
+      <title>フロントエンドのフレームワークを、安全に段階的に入れ替える</title>
+      <link>https://zenn.dev/yasuakiomokawa/articles/de83bb4c4ea928</link>
+      <guid isPermaLink="false">https://zenn.dev/yasuakiomokawa/articles/de83bb4c4ea928</guid>
+      <description>[Score: 75] フレームワークの一括書き換えを避け、段階的に安全にリプレイスするための設計思想を解説しています。 / 新旧のコードを混在させずに共存させるため、URLパスとページ読み込みを境界として起動フレームワークを振り分けます。 / 移行作業のどの段階で停止してもアプリが壊れず、手戻りを最小化できる実践的な手法です。 (Source: Zenn)</description>
+      <pubDate>Sat, 14 Nov 2026 07:12:52 +0000</pubDate>
     </item>
     <item>
-      <title>【速報】マネックス証券、マイナカード画像漏えいか</title>
-      <link>https://www.47news.jp/15227159.html</link>
-      <guid isPermaLink="false">https://www.47news.jp/15227159.html</guid>
-      <description>[Score: 82] マネックス証券は、委託先が管理する口座開設システムへの不正アクセスにより個人情報流出の恐れがあると発表した。 / 運転免許証やマイナンバーカードなどの本人確認書類画像1592件と、最大113万件のメールアドレスが流出した可能性がある。 / 金融機関における本人確認情報や重要個人データのサプライチェーンセキュリティに関する課題を浮き彫りにした。 (Source: はてなブックマーク)</description>
-      <pubDate>Fri, 13 Nov 2026 15:36:10 +0000</pubDate>
+      <title>ちょっと見ない間にClaude APIが進化してた！</title>
+      <link>https://qiita.com/moritalous/items/9e7c02b749037238b2bc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/moritalous/items/9e7c02b749037238b2bc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 74] Anthropicの最新SDKやCLIツールの進化により、Claude APIの利便性が大幅に向上している点を紹介しています。 / APIキーを使わない認証や思考プロセスのハンドリングなど、最新の機能連携がシンプルに行えます。 / プロンプトキャッシュを保持したままシステムプロンプトを動的に追記できる仕様など、コストと性能を両立する活用法を解説しています。 (Source: Qiita)</description>
+      <pubDate>Sat, 14 Nov 2026 06:32:07 +0000</pubDate>
     </item>
     <item>
-      <title>【AWS】AWS EmulatorでCDK/Terraformのスタックはどこまで動くか【AWSEmulator】</title>
-      <link>https://qiita.com/Nana_777/items/3f3c71525d867b22c9f2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/Nana_777/items/3f3c71525d867b22c9f2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] AWS公式のローカルエミュレーター「AWS Emulator」を利用したIaCの動作検証結果が紹介されている。 / Windows 11とDocker上でCDKやTerraformスタックを動かし、対応状況や挙動の忠実度を検証している。 / サービスごとのAPIサポート差異や実AWSとの使い分けなど、ローカル検証導入時の実践的な注意点を示している。 (Source: Qiita)</description>
-      <pubDate>Wed, 11 Nov 2026 23:39:20 +0000</pubDate>
+      <title>Lightdashで作れるグラフを試してみた【dbt v2】</title>
+      <link>https://zenn.dev/ryatora/articles/lightdash-chart-catalog</link>
+      <guid isPermaLink="false">https://zenn.dev/ryatora/articles/lightdash-chart-catalog</guid>
+      <description>[Score: 72] dbtと連携してYAMLベースでデータ可視化を構築できるオープンソースBIツール「Lightdash」の実践検証記事。 / KaggleのNBAデータを用い、dbt v2とDuckDB（MotherDuck）でデータマートを整形した上で各種グラフの作成手順を解説。 / セマンティックレイヤーのmetric定義からYAMLによるダッシュボード構築までの具体的な実装ノウハウがまとまっている。 (Source: Zenn)</description>
+      <pubDate>Sun, 15 Nov 2026 15:07:26 +0000</pubDate>
     </item>
     <item>
-      <title>CRA報告対応② Dependency-Trackで脆弱性の検知を自動化する(Pleasanter連携)</title>
-      <link>https://qiita.com/yyoshida15/items/4ea6a0752ff2ba942dff?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/yyoshida15/items/4ea6a0752ff2ba942dff?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 78] EUサイバーレジリエンス法（CRA）が求める24時間以内の脆弱性早期警告に対応するための自動化手法を解説している。 / OWASP Dependency-Track v5を活用し、KEVやEPSSを手がかりに悪用リスクのある脆弱性を自動検知してSlackへ通知する。 / 中継サーバーを介してPleasanterの台帳へ自動登録することで、手作業に頼らない期限管理と追跡体制を実現している。 (Source: Qiita)</description>
-      <pubDate>Fri, 13 Nov 2026 00:22:46 +0000</pubDate>
+      <title>AI開発のセキュリティは設計で証明！今後エンジニアに求められるスキルを完全解説</title>
+      <link>https://qiita.com/Sicut_study/items/b6d17933cc276dadf6d5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/Sicut_study/items/b6d17933cc276dadf6d5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 72] AI支援により開発速度が上がる一方で脆弱性混入の頻度も増加し、後付けのセキュリティ対策では追いつかない現状を解説しています。 / モデルの自律的挙動による想定外のアクセスリスクを防ぐには、インフラ任せではなく設計段階の制限が不可欠です。 / 業務上あり得ない不正操作を構造上許さないソフトウェア設計こそが、AI時代に求められるエンジニアの防衛スキルです。 (Source: Qiita)</description>
+      <pubDate>Sun, 15 Nov 2026 08:03:34 +0000</pubDate>
     </item>
     <item>
-      <title>FAAが「異例の事態」を理由に全米での地上待機措置を発令</title>
-      <link>https://www.reddit.com/r/technology/comments/1xvjsxv/faa_issues_nationwide_ground_stop_due_to/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xvjsxv/faa_issues_nationwide_ground_stop_due_to/</guid>
-      <description>[Score: 78] 米連邦航空局（FAA）が異例の事態を理由に、全米すべての航空便に対する地上待機措置を発表した。 / 航空管制または運航を司る基幹システムで致命的な障害が発生した可能性が指摘されている。 / 国家レベルのインフラ停止により、全米の物流や旅客輸送に即時かつ深刻な混乱が生じている。 (Source: Reddit)</description>
-      <pubDate>Fri, 13 Nov 2026 21:08:46 +0000</pubDate>
+      <title>FTDで実装するTLS Decryption</title>
+      <link>https://zenn.dev/5x4x7/articles/92a962f3cd6cb6</link>
+      <guid isPermaLink="false">https://zenn.dev/5x4x7/articles/92a962f3cd6cb6</guid>
+      <description>[Score: 70] Ciscoの次世代ファイアウォール「FTD（Firepower Threat Defense）」を用いたTLS/SSL復号機能の検証記事。 / 暗号化トラフィックに潜むマルウェア等の脅威をディープパケットインスペクション（DPI）で検出するための仕組みを解説。 / FMC（Firepower Management Center）上でのCA証明書生成から復号ポリシー適用までの具体的な設定手順を網羅している。 (Source: Zenn)</description>
+      <pubDate>Sun, 15 Nov 2026 13:49:46 +0000</pubDate>
     </item>
     <item>
-      <title>「画面数×人月」はもう通じない？見積もり単位の変遷と、バイブコーディング時代の見積もり書</title>
-      <link>https://qiita.com/TH_stickey/items/f55fb76055988cf9d0ad?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/TH_stickey/items/f55fb76055988cf9d0ad?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 77] AIによるバイブコーディング普及に伴い、実装量をベースとした「画面数×人月」の従来型見積もりが通用しなくなっている。 / AIで実装作業は大幅に短縮される一方、要件定義や合意形成、受入テストなど人間の意思決定が必要な工程は残る。 / 今後は実装起点の一括計算ではなく、各工程で何が残るかを明示して積み上げる見積もり形式への転換が必要と述べている。 (Source: Qiita)</description>
-      <pubDate>Wed, 11 Nov 2026 02:25:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>仕組み編：Two-Towerによる検索システム（学習・推論・配信）</title>
-      <link>https://zenn.dev/ca_kagglers/articles/two-tower-mechanism</link>
-      <guid isPermaLink="false">https://zenn.dev/ca_kagglers/articles/two-tower-mechanism</guid>
-      <description>[Score: 75] Two-Towerモデルはクエリとアイテムを別々のNNでベクトル化し類似度で検索・推薦を行う手法である。 / アイテム側ベクトルを事前計算しておくことで、大規模な候補からの高速かつ効率的な検索を実現する。 / 本記事では検索タスクの基礎からモデル構造、推論の流れ、負例サンプリングなどの学習や配信の仕組みを解説する。 (Source: Zenn)</description>
-      <pubDate>Fri, 13 Nov 2026 01:55:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>【速報】米全土での地上待機措置は解除の目処立たず、欠航が拡大</title>
-      <link>https://www.reddit.com/r/technology/comments/1xvnevv/live_updates_no_timeline_for_resolving_nationwide/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xvnevv/live_updates_no_timeline_for_resolving_nationwide/</guid>
-      <description>[Score: 75] 米連邦航空局（FAA）による全米規模の地上待機措置が長期化し、欠航便が急増している。 / 障害解決に向けた明確なスケジュールは示されておらず、運航混乱の収束は見通せない状況が続く。 / 航空管制や運航に関わるシステム停止が米国内の広範な交通網に甚大な影響を与えている。 (Source: Reddit)</description>
-      <pubDate>Fri, 13 Nov 2026 23:40:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>FAAが全フライトを対象に全米規模の地上待機措置を発令</title>
-      <link>https://www.reddit.com/r/technology/comments/1xvk949/faa_issues_nationwide_ground_stop_for_all_flights/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xvk949/faa_issues_nationwide_ground_stop_for_all_flights/</guid>
-      <description>[Score: 75] FAAが米国内を発着するすべての航空便に対して全国規模の運航停止命令を発令した。 / 重要システムの大規模トラブルにより航空管制機能が正常に提供できない事態に陥っていると見られる。 / 米国の航空交通網全体が一時的に完全に停止し、広範囲な混乱が引き起こされている。 (Source: Reddit)</description>
-      <pubDate>Fri, 13 Nov 2026 21:26:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>『検索システム』『推薦システム』とLLM時代の検索推薦 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ</title>
-      <link>https://joisino.hatenablog.com/entry/searchrecbook</link>
-      <guid isPermaLink="false">https://joisino.hatenablog.com/entry/searchrecbook</guid>
-      <description>[Score: 75] 書籍『検索システム』『推薦システム』の刊行に合わせ、LLM時代の検索・推薦技術の体系的な知見が紹介された。 / 大規模コンテキスト長を活かした「全文プロンプト」とRAGの精度・再現率のトレードオフなどを実践的に整理している。 / 従来の転置インデックスや行列分解と生成AI技術を融合させた、現代的なシステムアーキテクチャの指針を示している。 (Source: はてなブックマーク)</description>
-      <pubDate>Fri, 13 Nov 2026 10:50:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fable 5.2は物理モデリング音源の実装も作曲もすごい - きしだのHatena</title>
-      <link>https://nowokay.hatenablog.com/entry/2026/11/13/101644</link>
-      <guid isPermaLink="false">https://nowokay.hatenablog.com/entry/2026/11/13/101644</guid>
-      <description>[Score: 72] AIモデル「Fable 5.2」を用いて楽器の物理シミュレーション音源の実装と作曲を試みた検証記事。 / 指示なしでソナタ形式や転調を盛り込んだ弦楽四重奏や、弦の共鳴を再現したピアノ音源を生成できた。 / 従来モデルのOpus 5.5と比較して、物理シミュレーションの実装力と音楽的構成力の両面で大幅な進化を示している。 (Source: はてなブックマーク)</description>
-      <pubDate>Fri, 13 Nov 2026 14:22:52 +0000</pubDate>
+      <title>Unityを選ぶ企業は赤字体質である。</title>
+      <link>https://qiita.com/roripika/items/bdeb5537efc1f27af726?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/roripika/items/bdeb5537efc1f27af726?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 70] 開発効率や採用のしやすさだけでUnityを選定すると、高額なライセンス固定費が損益分岐点を引き上げるリスクを指摘しています。 / 組織の大半に有料シートが必要となり、自社製エンジン等に比べ大ヒットしないと利益が出ない構造に陥りがちです。 / さらにCI/CD自動化における規約制約や構築コストの高さなど、ビジネス視点での技術選定の重要性を説いています。 (Source: Qiita)</description>
+      <pubDate>Fri, 13 Nov 2026 03:29:15 +0000</pubDate>
     </item>
     <item>
       <title>「ざっくり工数どのくらい？」に「ざっくり工数このくらい」で答えてはいけない</title>
       <link>https://qiita.com/tsutorm/items/c9ab1e1c64474c341d77?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/tsutorm/items/c9ab1e1c64474c341d77?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 70] 開発初期に根拠のない概算数値を口頭で提示すると、後々の認識齟齬や合意形成の難航を招く原因となる。 / 発注者との感情論を避けるため、目に見えて理解しやすい画面数などの「数量×単価」の式で提示することが推奨される。 / 過去の実績工数から算出した単価を用いることで、工数ではなく要件スコープの議論へ建設的に誘導できる。 (Source: Qiita)</description>
+      <description>[Score: 68] 感覚値で答えた概算見積もりが一人歩きし、後からの認識齟齬や空中戦を引き起こす問題点を指摘しています。 / 「工数 = 数量 × 単位工数」という合意可能な計算式を作り、画面数など直感的に理解しやすい単位で説明することを推奨します。 / 計算式を用いることで、議論を費用の高低からスコープ調整の建設的な対話へとシフトできます。 (Source: Qiita)</description>
       <pubDate>Fri, 13 Nov 2026 02:03:33 +0000</pubDate>
     </item>
     <item>
-      <title>FAAの地上待機措置はいつ解除されるのか？現在判明している最新情報</title>
-      <link>https://www.reddit.com/r/technology/comments/1xvmakd/when_will_the_faa_ground_stop_end_heres_what_we/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xvmakd/when_will_the_faa_ground_stop_end_heres_what_we/</guid>
-      <description>[Score: 70] 全米で発令されたFAAのフライト地上待機措置に関して、解除見通しや現状の情報がまとめられている。 / 原因調査とシステムの復旧作業が進行中であるものの、全面復旧の時期は依然として不透明である。 / 運航再開後も長期にわたるダイヤの乱れが予想され、航空業界全体が対応に追われている。 (Source: Reddit)</description>
-      <pubDate>Fri, 13 Nov 2026 22:50:36 +0000</pubDate>
+      <title>シード値生成地形を備えたWebGLフライトシミュレーター</title>
+      <link>https://baron.by.dai.studio/</link>
+      <guid isPermaLink="false">https://baron.by.dai.studio/</guid>
+      <description>[Score: 65] ブラウザ上で動作するシード値ベースのプロシージャル地形生成機能を備えたWebGL 2対応フライトシミュレーター。 / ユーザーは離陸から探索、着陸までの一連の飛行体験をデスクトップやモバイル端末のWebブラウザ上で直接操作可能。 / PWA（ホーム画面追加）に対応しており、Webブラウザの3Dグラフィックス技術とリアルタイム描画の実用例を示している。 (Source: Hacker News)</description>
+      <pubDate>Sun, 15 Nov 2026 20:20:05 +0000</pubDate>
     </item>
     <item>
-      <title>データセンターの排熱でエビ養殖、NTT系が実験　育ったら食べられる？　担当者に聞いてみた</title>
-      <link>https://www.itmedia.co.jp/news/article/2611/13/2000003200/</link>
-      <guid isPermaLink="false">https://www.itmedia.co.jp/news/article/2611/13/2000003200/</guid>
-      <description>[Score: 70] NTTドコモビジネスなど4社が、データセンターの冷却排熱を活用したバナメイエビの陸上養殖の実証実験を発表した。 / AI需要で増大するデータセンターの排熱課題と、水温維持に多大な加温エネルギーを要する養殖課題の同時解決を図る。 / 2026年度に回収技術を検証し、2027年度から飼育検証を行って他データセンターへの横展開を目指す。 (Source: はてなブックマーク)</description>
-      <pubDate>Fri, 13 Nov 2026 11:33:08 +0000</pubDate>
+      <title>「鳥頭」は誤用だった：カラスは人間よりも素早く意思決定を下す</title>
+      <link>https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html</link>
+      <guid isPermaLink="false">https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html</guid>
+      <description>[Score: 60] サイエンス誌に発表された研究により、カラスは人間や他の霊長類の2倍の速度で視覚的な合図を処理・判断できることが判明した。 / 鳥類は脳が小さく認知能力が低いとみなされてきた歴史的認識を覆し、鳥類の意思決定における神経処理速度を初めて定量化した。 / この発見は「鳥頭（Birdbrain）」という知能の低さを揶揄する言葉への反証となり、鳥類の高い知能や神経科学の発展に寄与している。 (Source: Hacker News)</description>
+      <pubDate>Sun, 15 Nov 2026 17:53:31 +0000</pubDate>
     </item>
     <item>
-      <title>人間＋AIを「チーム」としてプロセスを再設計する</title>
-      <link>https://speakerdeck.com/littlehands/ai-kudou-keiei-suraido-20261112-0eeda77b-3c60-4af9-b059-2eb1ff3ef2c1</link>
-      <guid isPermaLink="false">https://speakerdeck.com/littlehands/ai-kudou-keiei-suraido-20261112-0eeda77b-3c60-4af9-b059-2eb1ff3ef2c1</guid>
-      <description>[Score: 68] AI導入を単なる個人作業の効率化にとどめず、人とAIによる「チーム」としての業務プロセス再設計を提唱している。 / 組織開発のフレームワークGRPIを援用し、目標設定や人間の説明責任、段階的な権限委譲のプロセスを解説している。 / 不確実性と複雑性の度合いに応じてAIへの任せ方を最適化する、AI駆動経営の実践論を提示している。 (Source: はてなブックマーク)</description>
-      <pubDate>Fri, 13 Nov 2026 14:24:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>FAA lifted National Ground Stop at 0119Z</title>
-      <link>https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&amp;advn=5</link>
-      <guid isPermaLink="false">https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&amp;advn=5</guid>
+      <title>Old Bitly Links Are Being Hijacked</title>
+      <link>https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/</link>
+      <guid isPermaLink="false">https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Sat, 14 Nov 2026 01:30:01 +0000</pubDate>
+      <pubDate>Sun, 15 Nov 2026 22:11:43 +0000</pubDate>
     </item>
     <item>
-      <title>FAA issues national ground stop</title>
-      <link>https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</link>
-      <guid isPermaLink="false">https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247</guid>
+      <title>What's Next for Nvidia?</title>
+      <link>https://steveblank.com/2026/11/15/whats-next-for-nvidia/</link>
+      <guid isPermaLink="false">https://steveblank.com/2026/11/15/whats-next-for-nvidia/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 13 Nov 2026 21:05:53 +0000</pubDate>
+      <pubDate>Sun, 15 Nov 2026 23:55:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Preserving 30 Years of Salon Journalism</title>
+      <link>https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/</link>
+      <guid isPermaLink="false">https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Sun, 15 Nov 2026 23:00:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mini.nvim Is Now on Tangled</title>
+      <link>https://tangled.org/nvim-mini.org/mini.nvim</link>
+      <guid isPermaLink="false">https://tangled.org/nvim-mini.org/mini.nvim</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Sun, 15 Nov 2026 23:55:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Protomaps: Self-hosting map tiles has gotten cheap and easy</title>
+      <link>https://bruceroettgers.eu/blog/protomaps/</link>
+      <guid isPermaLink="false">https://bruceroettgers.eu/blog/protomaps/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Sun, 15 Nov 2026 19:26:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>A short explainer on how El Niño works [video]</title>
+      <link>https://www.youtube.com/watch?v=7_JF3etiAv8</link>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=7_JF3etiAv8</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Sun, 15 Nov 2026 18:23:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reddit's traffic is down 13%, partly thanks to AI Overviews</title>
+      <link>https://www.reddit.com/r/technology/comments/1xx4f37/reddits_traffic_is_down_13_partly_thanks_to_ai/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xx4f37/reddits_traffic_is_down_13_partly_thanks_to_ai/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
+      <pubDate>Sun, 15 Nov 2026 19:31:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulcan rocket fails, destroying 40 Amazon Leo satellites</title>
+      <link>https://www.reddit.com/r/technology/comments/1xx7xlz/vulcan_rocket_fails_destroying_40_amazon_leo/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xx7xlz/vulcan_rocket_fails_destroying_40_amazon_leo/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
+      <pubDate>Sun, 15 Nov 2026 21:55:38 +0000</pubDate>
     </item>
   </channel>
 </rss>
