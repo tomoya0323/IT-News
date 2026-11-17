@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 16 Nov 2026 01:55:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 04:38:48 +0000</lastBuildDate>
     <item>
-      <title>Canton Networkとは何か――金融機関が「見せる相手を選べる」ブロックチェーンに集まる理由</title>
-      <link>https://zenn.dev/komlock_lab/articles/canton-network-evm-comparison-2026</link>
-      <guid isPermaLink="false">https://zenn.dev/komlock_lab/articles/canton-network-evm-comparison-2026</guid>
-      <description>[Score: 83] プライバシーを保護し取引関係者のみに情報を開示できる金融向けブロックチェーン「Canton Network」の仕組みを解説。 / 全データが公開されるEthereum等のパブリックチェーンと異なり、機密性を保ちながら相互運用性を実現するアーキテクチャを持つ。 / 米DTCCによる証券トークン化や米J.P. Morganによる預金トークン「JPM Coin」での採用など大手金融機関での実用化が進む。 (Source: Zenn)</description>
-      <pubDate>Sun, 15 Nov 2026 09:06:22 +0000</pubDate>
+      <title>Carnegie Mellon is putting computer science courses on YouTube for free</title>
+      <link>https://www.cs.cmu.edu/learn/</link>
+      <guid isPermaLink="false">https://www.cs.cmu.edu/learn/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Mon, 16 Nov 2026 20:43:36 +0000</pubDate>
     </item>
     <item>
-      <title>.NET 11 の ASP.NET Core Blazor の新機能のスケールイン対応機能！</title>
-      <link>https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet11-scale</link>
-      <guid isPermaLink="false">https://zenn.dev/microsoft/articles/aspnetcore-blazor-dotnet11-scale</guid>
-      <description>[Score: 80] .NET 11のASP.NET Core Blazor InteractiveServerモードに導入されたスケールイン対応機能の検証記事。 / 従来はサーバーメモリ上の回路状態（Circuit）を別サーバーへ引き継げずオートスケールが困難だった課題を解消。 / シャットダウン時にステートを一時的にクライアント側へ退避・再接続させる仕組みにより、柔軟なインフラ運用が可能になる。 (Source: Zenn)</description>
-      <pubDate>Sun, 15 Nov 2026 07:58:03 +0000</pubDate>
+      <title>Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use</title>
+      <link>https://xusheng.dev/posts/windows-coding-agent-telemetry/</link>
+      <guid isPermaLink="false">https://xusheng.dev/posts/windows-coding-agent-telemetry/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Mon, 16 Nov 2026 22:58:20 +0000</pubDate>
     </item>
     <item>
-      <title>日本語の脆弱性 DB は 4.6 日かかる。待てないので、46 秒でセキュリティ情報が載るようにした</title>
-      <link>https://qiita.com/songchong/items/fa50cc82e49b24925fe3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/songchong/items/fa50cc82e49b24925fe3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 78] AIを用いた攻撃が加速する中、日本語の脆弱性データベース登録には中央値4.6日かかり対応が遅れる課題を提示しています。 / 悪用は公開当日から始まることが多く、迅速な判断と準備を行うための猶予が不足してしまいます。 / 脆弱性情報を早期に把握して3日以内の対策期限に間に合わせるため、数分以内で情報連携できる仕組みを開発しました。 (Source: Qiita)</description>
-      <pubDate>Sun, 15 Nov 2026 08:20:40 +0000</pubDate>
+      <title>BugMeNot has closed</title>
+      <link>https://www.bugmenot.com/</link>
+      <guid isPermaLink="false">https://www.bugmenot.com/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Mon, 16 Nov 2026 21:32:17 +0000</pubDate>
     </item>
     <item>
-      <title>フロントエンドのフレームワークを、安全に段階的に入れ替える</title>
-      <link>https://zenn.dev/yasuakiomokawa/articles/de83bb4c4ea928</link>
-      <guid isPermaLink="false">https://zenn.dev/yasuakiomokawa/articles/de83bb4c4ea928</guid>
-      <description>[Score: 75] フレームワークの一括書き換えを避け、段階的に安全にリプレイスするための設計思想を解説しています。 / 新旧のコードを混在させずに共存させるため、URLパスとページ読み込みを境界として起動フレームワークを振り分けます。 / 移行作業のどの段階で停止してもアプリが壊れず、手戻りを最小化できる実践的な手法です。 (Source: Zenn)</description>
-      <pubDate>Sat, 14 Nov 2026 07:12:52 +0000</pubDate>
+      <title>Optimizely compromised, served malware on Zoom, GitLab</title>
+      <link>https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/</link>
+      <guid isPermaLink="false">https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Mon, 16 Nov 2026 23:00:34 +0000</pubDate>
     </item>
     <item>
-      <title>ちょっと見ない間にClaude APIが進化してた！</title>
-      <link>https://qiita.com/moritalous/items/9e7c02b749037238b2bc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/moritalous/items/9e7c02b749037238b2bc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 74] Anthropicの最新SDKやCLIツールの進化により、Claude APIの利便性が大幅に向上している点を紹介しています。 / APIキーを使わない認証や思考プロセスのハンドリングなど、最新の機能連携がシンプルに行えます。 / プロンプトキャッシュを保持したままシステムプロンプトを動的に追記できる仕様など、コストと性能を両立する活用法を解説しています。 (Source: Qiita)</description>
-      <pubDate>Sat, 14 Nov 2026 06:32:07 +0000</pubDate>
+      <title>Running coding agents without handing them my credentials</title>
+      <link>https://blog.antonio.cx/running-agents-with-lend</link>
+      <guid isPermaLink="false">https://blog.antonio.cx/running-agents-with-lend</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Tue, 17 Nov 2026 01:18:56 +0000</pubDate>
     </item>
     <item>
-      <title>Lightdashで作れるグラフを試してみた【dbt v2】</title>
-      <link>https://zenn.dev/ryatora/articles/lightdash-chart-catalog</link>
-      <guid isPermaLink="false">https://zenn.dev/ryatora/articles/lightdash-chart-catalog</guid>
-      <description>[Score: 72] dbtと連携してYAMLベースでデータ可視化を構築できるオープンソースBIツール「Lightdash」の実践検証記事。 / KaggleのNBAデータを用い、dbt v2とDuckDB（MotherDuck）でデータマートを整形した上で各種グラフの作成手順を解説。 / セマンティックレイヤーのmetric定義からYAMLによるダッシュボード構築までの具体的な実装ノウハウがまとまっている。 (Source: Zenn)</description>
-      <pubDate>Sun, 15 Nov 2026 15:07:26 +0000</pubDate>
+      <title>If an App Asks for Full Disk Access or System and App Protection Override</title>
+      <link>https://support.apple.com/en-us/149699</link>
+      <guid isPermaLink="false">https://support.apple.com/en-us/149699</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Tue, 17 Nov 2026 02:17:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenCode Browse</title>
+      <link>https://opencode.ai/product/browse</link>
+      <guid isPermaLink="false">https://opencode.ai/product/browse</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Mon, 16 Nov 2026 21:20:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mem Is Shutting Down</title>
+      <link>https://get.mem.ai/blog/mem-is-shutting-down</link>
+      <guid isPermaLink="false">https://get.mem.ai/blog/mem-is-shutting-down</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Tue, 17 Nov 2026 02:13:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>実践パスキー認証設計</title>
+      <link>https://zenn.dev/yasuakiomokawa/articles/89f5c46e8effe9</link>
+      <guid isPermaLink="false">https://zenn.dev/yasuakiomokawa/articles/89f5c46e8effe9</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Mon, 16 Nov 2026 12:53:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kotlin Fest 2026 参加記</title>
+      <link>https://zenn.dev/0st_ts/articles/d55862e1a134c2</link>
+      <guid isPermaLink="false">https://zenn.dev/0st_ts/articles/d55862e1a134c2</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Mon, 16 Nov 2026 10:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>QA生産性を爆上げさせるためのQA AIプラットフォーム構築</title>
+      <link>https://zenn.dev/gatechnologies/articles/8bdea59269eb10</link>
+      <guid isPermaLink="false">https://zenn.dev/gatechnologies/articles/8bdea59269eb10</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Mon, 16 Nov 2026 09:12:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>物理世界とAIをつなぐ：可視化で学ぶカメラ・座標系・運動制御入門</title>
+      <link>https://zenn.dev/turing_motors/articles/cea9e3c85611b2</link>
+      <guid isPermaLink="false">https://zenn.dev/turing_motors/articles/cea9e3c85611b2</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Mon, 16 Nov 2026 08:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>中編　LLM推論エンジンを作る</title>
+      <link>https://zenn.dev/shozotanaka/articles/632191056c62f4</link>
+      <guid isPermaLink="false">https://zenn.dev/shozotanaka/articles/632191056c62f4</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Mon, 16 Nov 2026 07:46:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>もういい加減&quot;技術勉強会&quot;やめませんか？</title>
+      <link>https://qiita.com/kotowazaman/items/9ee7c475a475e7527b0e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/kotowazaman/items/9ee7c475a475e7527b0e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Mon, 16 Nov 2026 06:26:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>はじめてのAPIログ設計 — 「ログはあるのに調べられない」を防ぐには？</title>
+      <link>https://qiita.com/masashige0904/items/22f2836485ecc25ee527?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/masashige0904/items/22f2836485ecc25ee527?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Mon, 16 Nov 2026 00:37:01 +0000</pubDate>
     </item>
     <item>
       <title>AI開発のセキュリティは設計で証明！今後エンジニアに求められるスキルを完全解説</title>
       <link>https://qiita.com/Sicut_study/items/b6d17933cc276dadf6d5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/Sicut_study/items/b6d17933cc276dadf6d5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 72] AI支援により開発速度が上がる一方で脆弱性混入の頻度も増加し、後付けのセキュリティ対策では追いつかない現状を解説しています。 / モデルの自律的挙動による想定外のアクセスリスクを防ぐには、インフラ任せではなく設計段階の制限が不可欠です。 / 業務上あり得ない不正操作を構造上許さないソフトウェア設計こそが、AI時代に求められるエンジニアの防衛スキルです。 (Source: Qiita)</description>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
       <pubDate>Sun, 15 Nov 2026 08:03:34 +0000</pubDate>
     </item>
     <item>
-      <title>FTDで実装するTLS Decryption</title>
-      <link>https://zenn.dev/5x4x7/articles/92a962f3cd6cb6</link>
-      <guid isPermaLink="false">https://zenn.dev/5x4x7/articles/92a962f3cd6cb6</guid>
-      <description>[Score: 70] Ciscoの次世代ファイアウォール「FTD（Firepower Threat Defense）」を用いたTLS/SSL復号機能の検証記事。 / 暗号化トラフィックに潜むマルウェア等の脅威をディープパケットインスペクション（DPI）で検出するための仕組みを解説。 / FMC（Firepower Management Center）上でのCA証明書生成から復号ポリシー適用までの具体的な設定手順を網羅している。 (Source: Zenn)</description>
-      <pubDate>Sun, 15 Nov 2026 13:49:46 +0000</pubDate>
+      <title>日報mdをどの画面からもワンボタン表示！ Raycast × Obsidian</title>
+      <link>https://qiita.com/kuma_3838/items/e8a11dd95f319a1545d6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/kuma_3838/items/e8a11dd95f319a1545d6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Sun, 15 Nov 2026 23:34:57 +0000</pubDate>
     </item>
     <item>
-      <title>Unityを選ぶ企業は赤字体質である。</title>
-      <link>https://qiita.com/roripika/items/bdeb5537efc1f27af726?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/roripika/items/bdeb5537efc1f27af726?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 70] 開発効率や採用のしやすさだけでUnityを選定すると、高額なライセンス固定費が損益分岐点を引き上げるリスクを指摘しています。 / 組織の大半に有料シートが必要となり、自社製エンジン等に比べ大ヒットしないと利益が出ない構造に陥りがちです。 / さらにCI/CD自動化における規約制約や構築コストの高さなど、ビジネス視点での技術選定の重要性を説いています。 (Source: Qiita)</description>
-      <pubDate>Fri, 13 Nov 2026 03:29:15 +0000</pubDate>
+      <title>『なぜ、あなたの仕事は終わらないのか』で学んだ目的意識と時間の使い方</title>
+      <link>https://qiita.com/kuma_3838/items/a5145ee73f86646c64ec?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/kuma_3838/items/a5145ee73f86646c64ec?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Sun, 15 Nov 2026 23:34:43 +0000</pubDate>
     </item>
     <item>
-      <title>「ざっくり工数どのくらい？」に「ざっくり工数このくらい」で答えてはいけない</title>
-      <link>https://qiita.com/tsutorm/items/c9ab1e1c64474c341d77?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/tsutorm/items/c9ab1e1c64474c341d77?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 68] 感覚値で答えた概算見積もりが一人歩きし、後からの認識齟齬や空中戦を引き起こす問題点を指摘しています。 / 「工数 = 数量 × 単位工数」という合意可能な計算式を作り、画面数など直感的に理解しやすい単位で説明することを推奨します。 / 計算式を用いることで、議論を費用の高低からスコープ調整の建設的な対話へとシフトできます。 (Source: Qiita)</description>
-      <pubDate>Fri, 13 Nov 2026 02:03:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>シード値生成地形を備えたWebGLフライトシミュレーター</title>
-      <link>https://baron.by.dai.studio/</link>
-      <guid isPermaLink="false">https://baron.by.dai.studio/</guid>
-      <description>[Score: 65] ブラウザ上で動作するシード値ベースのプロシージャル地形生成機能を備えたWebGL 2対応フライトシミュレーター。 / ユーザーは離陸から探索、着陸までの一連の飛行体験をデスクトップやモバイル端末のWebブラウザ上で直接操作可能。 / PWA（ホーム画面追加）に対応しており、Webブラウザの3Dグラフィックス技術とリアルタイム描画の実用例を示している。 (Source: Hacker News)</description>
-      <pubDate>Sun, 15 Nov 2026 20:20:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>「鳥頭」は誤用だった：カラスは人間よりも素早く意思決定を下す</title>
-      <link>https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html</link>
-      <guid isPermaLink="false">https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html</guid>
-      <description>[Score: 60] サイエンス誌に発表された研究により、カラスは人間や他の霊長類の2倍の速度で視覚的な合図を処理・判断できることが判明した。 / 鳥類は脳が小さく認知能力が低いとみなされてきた歴史的認識を覆し、鳥類の意思決定における神経処理速度を初めて定量化した。 / この発見は「鳥頭（Birdbrain）」という知能の低さを揶揄する言葉への反証となり、鳥類の高い知能や神経科学の発展に寄与している。 (Source: Hacker News)</description>
-      <pubDate>Sun, 15 Nov 2026 17:53:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>Old Bitly Links Are Being Hijacked</title>
-      <link>https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/</link>
-      <guid isPermaLink="false">https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Sun, 15 Nov 2026 22:11:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>What's Next for Nvidia?</title>
-      <link>https://steveblank.com/2026/11/15/whats-next-for-nvidia/</link>
-      <guid isPermaLink="false">https://steveblank.com/2026/11/15/whats-next-for-nvidia/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Sun, 15 Nov 2026 23:55:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Preserving 30 Years of Salon Journalism</title>
-      <link>https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/</link>
-      <guid isPermaLink="false">https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Sun, 15 Nov 2026 23:00:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mini.nvim Is Now on Tangled</title>
-      <link>https://tangled.org/nvim-mini.org/mini.nvim</link>
-      <guid isPermaLink="false">https://tangled.org/nvim-mini.org/mini.nvim</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Sun, 15 Nov 2026 23:55:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>Protomaps: Self-hosting map tiles has gotten cheap and easy</title>
-      <link>https://bruceroettgers.eu/blog/protomaps/</link>
-      <guid isPermaLink="false">https://bruceroettgers.eu/blog/protomaps/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Sun, 15 Nov 2026 19:26:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>A short explainer on how El Niño works [video]</title>
-      <link>https://www.youtube.com/watch?v=7_JF3etiAv8</link>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=7_JF3etiAv8</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Sun, 15 Nov 2026 18:23:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>Reddit's traffic is down 13%, partly thanks to AI Overviews</title>
-      <link>https://www.reddit.com/r/technology/comments/1xx4f37/reddits_traffic_is_down_13_partly_thanks_to_ai/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xx4f37/reddits_traffic_is_down_13_partly_thanks_to_ai/</guid>
+      <title>United Airlines says it has a widespread system outage just days after nationwide ground stop</title>
+      <link>https://www.reddit.com/r/technology/comments/1xy34m2/united_airlines_says_it_has_a_widespread_system/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xy34m2/united_airlines_says_it_has_a_widespread_system/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
-      <pubDate>Sun, 15 Nov 2026 19:31:00 +0000</pubDate>
+      <pubDate>Mon, 16 Nov 2026 22:20:02 +0000</pubDate>
     </item>
     <item>
-      <title>Vulcan rocket fails, destroying 40 Amazon Leo satellites</title>
-      <link>https://www.reddit.com/r/technology/comments/1xx7xlz/vulcan_rocket_fails_destroying_40_amazon_leo/</link>
-      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xx7xlz/vulcan_rocket_fails_destroying_40_amazon_leo/</guid>
+      <title>Elderly people are buying Teslas for the 'full self-driving.' This is a problem</title>
+      <link>https://www.reddit.com/r/technology/comments/1xy6u6v/elderly_people_are_buying_teslas_for_the_full/</link>
+      <guid isPermaLink="false">https://www.reddit.com/r/technology/comments/1xy6u6v/elderly_people_are_buying_teslas_for_the_full/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Reddit)</description>
-      <pubDate>Sun, 15 Nov 2026 21:55:38 +0000</pubDate>
+      <pubDate>Tue, 17 Nov 2026 01:00:56 +0000</pubDate>
     </item>
   </channel>
 </rss>
