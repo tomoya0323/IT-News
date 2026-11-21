@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 20 Nov 2026 03:07:38 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 03:18:06 +0000</lastBuildDate>
     <item>
-      <title>OpenSSLのEVP_EncodeBlock()にバッファオーバーフロー脆弱性（CVE-2026-121481、CVSS 9.8）</title>
-      <link>https://github.com/openssl/openssl/pull/33652</link>
-      <guid isPermaLink="false">https://github.com/openssl/openssl/pull/33652</guid>
-      <description>[Score: 95] OpenSSLのBase64エンコード関連関数において深刻度CVSS 9.8の重大なバッファオーバーフローが発見されました。 / 不正なデータ長やNULLバッファの処理不備に起因し、リモートからの悪用によるメモリ破壊の恐れがあります。 / 基盤インフラを支える主要暗号化ライブラリの脆弱性であり、広範なシステムへのパッチ適用が急務となっています。 (Source: Hacker News)</description>
-      <pubDate>Fri, 20 Nov 2026 02:01:09 +0000</pubDate>
+      <title>デバイス間をまたいでセッションを継続可能にするAgent Host Protocolの構築</title>
+      <link>https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/</link>
+      <guid isPermaLink="false">https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/</guid>
+      <description>[Score: 88] 長時間自律稼働するAIエージェントの作業を、ウィンドウ終了や端末切替後もシームレスに継続する需要が高まっています。 / GitHubはエディタのライフサイクルからエージェントを分離し、セッション継続を可能にする「Agent Host Protocol」を開発しました。 / VS CodeやCopilotアプリ、モバイル間で連携可能なオープン標準を策定し、クロスデバイスな開発体験を実現しています。 (Source: GitHub Blog)</description>
+      <pubDate>Tue, 17 Nov 2026 18:20:40 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropicがナスダックへ新規上場</title>
-      <link>https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/</link>
-      <guid isPermaLink="false">https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/</guid>
-      <description>[Score: 88] AIスタートアップ大手のAnthropicがナスダック市場への新規上場を果たしました。 / 急成長を遂げる生成AI企業による上場は、市場におけるAIの将来性と投資回収の可能性を測る試金石となります。 / テック市場およびAI業界全体の今後の投資環境や評価基準に大きな影響を与える節目となります。 (Source: Hacker News)</description>
-      <pubDate>Thu, 19 Nov 2026 17:02:40 +0000</pubDate>
+      <title>メンテナーに必要なのはAIによるバグ報告の増加ではなく、修正パッチである</title>
+      <link>https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/</link>
+      <guid isPermaLink="false">https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/</guid>
+      <description>[Score: 85] AIによる脆弱性検出が容易になった結果、低品質なレポートや誤検知がOSSメンテナーの過重な負担となっています。 / GitHubとMicrosoftは検出だけでなく、検証済みの修正パッチまで提示するパイロットプロジェクトを実施しました。 / AIトリアージと研究者による人的レビューを組み合わせることで、メンテナーに届く報告のノイズを大幅に低減しています。 (Source: GitHub Blog)</description>
+      <pubDate>Tue, 17 Nov 2026 18:29:29 +0000</pubDate>
     </item>
     <item>
-      <title>人間がボトルネックになった時代のAIエージェント設計</title>
-      <link>https://qiita.com/Syoitu/items/5bb47c01a8513e52d1b5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/Syoitu/items/5bb47c01a8513e52d1b5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 88] AIエージェントの並列利用が進むにつれ、タスクの進捗監視や文脈切り替えを行う人間の注意力がボトルネックになっている。 / 単一セッション型の限界を打破するため、セッション横断で文脈を保つ「スーパーエージェント」の設計思想を解説する。 / 従来の分散システム手法を応用した5つの設計パターンにより、人間の介入を最小化する実践的アーキテクチャを提示している。 (Source: Qiita)</description>
-      <pubDate>Wed, 18 Nov 2026 05:37:05 +0000</pubDate>
+      <title>エージェントのオーケストレーション：単一プロセス内で動かす3つのオーケストレーター</title>
+      <link>https://dev.to/aws-builders/orchestrating-agents-three-orchestrators-one-process-4agc</link>
+      <guid isPermaLink="false">https://dev.to/aws-builders/orchestrating-agents-three-orchestrators-one-process-4agc</guid>
+      <description>[Score: 75] Graph、Workflow、Swarmの3種類の異なるエージェントオーケストレーターを同一プロセス内で統合する検証が行われました。 / 各オーケストレーターはコンテキストの共有モデルが異なるため、API層で連携するアダプターの実装が鍵となります。 / プロセス内統合により通信コストを削減しつつ、複合的なエージェント連携を実現する実践的な知見が示されています。 (Source: Dev.to)</description>
+      <pubDate>Sat, 21 Nov 2026 02:55:46 +0000</pubDate>
     </item>
     <item>
-      <title>［速報］マイクロソフト、コーディング用AIモデルとして高性能かつ低価格「MAI Code 2」「MAI Code 2 Flash」発表</title>
-      <link>https://www.publickey1.jp/blog/26/aimai_code_2mai_code_2_flash.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aimai_code_2mai_code_2_flash.html</guid>
-      <description>[Score: 88] マイクロソフトはコーディング特化型AIモデル「MAI Code 2」および「MAI Code 2 Flash」を発表した。 / フラグシップのMAI Code 2は競合トップモデルに匹敵する性能を持ちながら、コストを大幅に削減している。 / 本番コード生成から局所的編集まで日常的な開発タスクをカバーし、開発環境向けAIの導入コストを劇的に下げる。 (Source: Publickey)</description>
-      <pubDate>Tue, 17 Nov 2026 21:48:15 +0000</pubDate>
+      <title>オープンソースの最高の成果は共に創り上げられる</title>
+      <link>https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/</link>
+      <guid isPermaLink="false">https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/</guid>
+      <description>[Score: 65] GitHubにおける公開コントリビューション数が急増し、開発者コミュニティの活動が過去最高水準に達しています。 / GitHubは新たなOSSプロジェクトとしてデザインハーネス「Replica」やアクセシビリティフレームワークを公開しました。 / オープンソースはAI技術の急速な進化を支える原動力であり、多様な協働が技術革新を加速させています。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 19 Nov 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claudeがブラックホール物理学における2つの未解決問題を解明</title>
-      <link>https://www.anthropic.com/research/claude-black-hole-physics</link>
-      <guid isPermaLink="false">https://www.anthropic.com/research/claude-black-hole-physics</guid>
-      <description>[Score: 87] AnthropicのAI「Claude」がブラックホール物理学における未解決の理論的難問を2件解決しました。 / 一般相対性理論と量子力学を結ぶホログラフィック双対性などの理論探求においてAIが数学的証明を支援しました。 / AIが単なる補助輪を超えて高度な基礎科学のフロンティアを前進させ得ることを実証した歴史的成果です。 (Source: Hacker News)</description>
-      <pubDate>Thu, 19 Nov 2026 17:30:44 +0000</pubDate>
+      <title>ビルドにJavaScript難読化ツールを導入する前に答えるべき5つの質問</title>
+      <link>https://dev.to/veilvm/five-questions-to-answer-before-you-add-any-javascript-obfuscator-to-your-build-428e</link>
+      <guid isPermaLink="false">https://dev.to/veilvm/five-questions-to-answer-before-you-add-any-javascript-obfuscator-to-your-build-428e</guid>
+      <description>[Score: 60] JavaScript難読化ツールの導入にあたっては、保護対象と脅威モデルを明確に定義することが不可欠です。 / 難読化はコード解析のコストを引き上げるのみであり、クライアント側の秘密情報保護や認証の代用にはなりません。 / 保護強度を高めると実行速度や互換性へのリスクが増すため、対象環境を洗い出して適切な強度を選択する必要があります。 (Source: Dev.to)</description>
+      <pubDate>Sat, 21 Nov 2026 02:57:45 +0000</pubDate>
     </item>
     <item>
-      <title>自分の代わりに動くAgentへ。Claude CodeとCodexで作る自律改善ハーネス</title>
-      <link>https://zenn.dev/nttdata_tech/articles/9562962cc181a1</link>
-      <guid isPermaLink="false">https://zenn.dev/nttdata_tech/articles/9562962cc181a1</guid>
-      <description>[Score: 85] AIコーディングエージェントに自律的に作業を任せるための個人用ハーネス設計を紹介。 / プロンプトの工夫だけでなく、規約と記録をGitリポジトリで構造化・共有する環境を構築。 / 複数セッション並行運用により、開発や調査を人間が結果確認と判断のみ行う体制を実現した。 (Source: Zenn)</description>
-      <pubDate>Thu, 19 Nov 2026 07:28:27 +0000</pubDate>
+      <title>保護されたビルドを再現可能にするため、リリースごとに難読化設定のバージョン管理を行おう</title>
+      <link>https://dev.to/veilvm/version-your-meowshield-settings-with-each-release-so-a-protected-build-can-be-reproduced-22hl</link>
+      <guid isPermaLink="false">https://dev.to/veilvm/version-your-meowshield-settings-with-each-release-so-a-protected-build-can-be-reproduced-22hl</guid>
+      <description>[Score: 55] 難読化設定の差異によって同一ソースコードから挙動や互換性の異なるバイナリが生成されるリスクがあります。 / 設定を記憶に頼って調整したままリリースすると再現性が失われ、本番環境の不具合解析が困難になります。 / コミットハッシュや難読化オプション、生成物のハッシュ値を構成ファイルとしてリポジトリで管理することが推奨されます。 (Source: Dev.to)</description>
+      <pubDate>Sat, 21 Nov 2026 02:57:15 +0000</pubDate>
     </item>
     <item>
-      <title>マイクロソフト、クラウドやオンプレミスのデータベースを一元管理する「Database Hub」正式リリース。AIエージェントによる運用監視の自動化も</title>
-      <link>https://www.publickey1.jp/blog/26/database_hubai.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/database_hubai.html</guid>
-      <description>[Score: 85] マイクロソフトは「Microsoft Ignite 2026」にて、多様な環境のDBを一括管理する「Database Hub in Fabric」を正式リリースした。 / Azure、他社クラウド、オンプレミスに点在する複数の主要DBの稼働状況やセキュリティ状態をダッシュボード上で統合管理できる。 / さらにAIエージェントによる運用監視の自動化機能も備え、DB管理者の運用負荷を大幅に軽減する。 (Source: Publickey)</description>
-      <pubDate>Thu, 19 Nov 2026 15:19:21 +0000</pubDate>
+      <title>Hurried Announcement: Alessandro Masullo GRH</title>
+      <link>https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/</link>
+      <guid isPermaLink="false">https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Fri, 20 Nov 2026 18:33:14 +0000</pubDate>
     </item>
     <item>
-      <title>マイクロソフト、AIによるサイバー攻撃にAIエージェントで対抗する新サービス「Microsoft Perception」提供開始</title>
-      <link>https://www.publickey1.jp/blog/26/aiaimicrosoft_perception.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aiaimicrosoft_perception.html</guid>
-      <description>[Score: 85] マイクロソフトがAIによる自動化サイバー攻撃に対抗する新サービス「Microsoft Perception」の提供を開始した。 / レッドチーム、ブルーチーム、グリーンチームの各AIエージェントが連携し、マシンスピードでの攻撃シミュレーションや脅威検知・修復を実現する。 / 人間の判断力を維持しつつ、人手では対応困難なAI主導の攻撃に迅速に対抗できる体制を提供する。 (Source: Publickey)</description>
-      <pubDate>Wed, 18 Nov 2026 16:00:37 +0000</pubDate>
+      <title>Inkling 2 Mini</title>
+      <link>https://thinkingmachines.ai/news/inkling-2-mini/</link>
+      <guid isPermaLink="false">https://thinkingmachines.ai/news/inkling-2-mini/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Fri, 20 Nov 2026 20:12:19 +0000</pubDate>
     </item>
     <item>
-      <title>AIが爆速で開発する時代の、自動テストとの向き合い方</title>
-      <link>https://zenn.dev/daiaoki/articles/webterm-ai-era-testing</link>
-      <guid isPermaLink="false">https://zenn.dev/daiaoki/articles/webterm-ai-era-testing</guid>
-      <description>[Score: 82] オンライン学習サービス「WebTerm Learn」の個人開発におけるテスト運用の試行錯誤を紹介。 / Claude Code導入で1日100コミット超となり、確認を自動テスト2.2万件へ移行。 / クライアント側のブラウザ内シミュレータ設計など、インフラコスト抑制と品質維持の両立を解説。 (Source: Zenn)</description>
-      <pubDate>Thu, 19 Nov 2026 07:11:24 +0000</pubDate>
+      <title>Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</title>
+      <link>https://alpo.ge/remark.pdf</link>
+      <guid isPermaLink="false">https://alpo.ge/remark.pdf</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Fri, 20 Nov 2026 14:16:21 +0000</pubDate>
     </item>
     <item>
-      <title>TypeScript 7.1 の Content Mapper で型の生成コマンドをなくす</title>
-      <link>https://zenn.dev/toiroakr/articles/typescript-content-mapper-codegen</link>
-      <guid isPermaLink="false">https://zenn.dev/toiroakr/articles/typescript-content-mapper-codegen</guid>
-      <description>[Score: 82] TypeScript 7.1で導入されるContent Mapperは、外部ファイルを型チェック時に直接TypeScriptとして扱える新機能である。 / 設定ファイル等の変更時に都度必要だった型定義ファイル生成コマンドを不要にし、型安全性を自動で同期できる。 / 本記事ではCLIライブラリ開発を例に、設定定義と連動する柔軟な型を生成コマンドなしで実現する設計手法を解説している。 (Source: Zenn)</description>
-      <pubDate>Thu, 19 Nov 2026 02:10:13 +0000</pubDate>
+      <title>NINLIVE: The Nine Inch Nails live archive</title>
+      <link>https://ninlive.com/</link>
+      <guid isPermaLink="false">https://ninlive.com/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Fri, 20 Nov 2026 22:30:47 +0000</pubDate>
     </item>
     <item>
-      <title>11月に修正されたPHPの脆弱性についてまとめてみた - piyolog</title>
-      <link>https://piyolog.hatenadiary.jp/entry/2026/11/20/003148</link>
-      <guid isPermaLink="false">https://piyolog.hatenadiary.jp/entry/2026/11/20/003148</guid>
-      <description>[Score: 82] The PHP Groupが複数のPHPバージョン向けにセキュリティリリースを公開し、Criticalを含む多数の脆弱性を修正した。 / 修正された脆弱性のうち一部にはAI支援によって報告されたものや、過去の重大脆弱性の不完全な修正への対応が含まれる。 / 特定の非標準的設定やセッション終了処理の致命的エラーで生じるヒープ破壊など、攻撃経路と影響範囲が詳細にまとめられている。 (Source: はてなブックマーク)</description>
-      <pubDate>Thu, 19 Nov 2026 15:54:08 +0000</pubDate>
+      <title>We promoted developers into architects without informing them</title>
+      <link>https://manidoraisamy.com/developer-to-architect.html</link>
+      <guid isPermaLink="false">https://manidoraisamy.com/developer-to-architect.html</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Fri, 20 Nov 2026 18:17:51 +0000</pubDate>
     </item>
     <item>
-      <title>Windows Server 2028がパブリックプレビュー公開。Microsoft FoundryなどAIによる推論の実行基盤へと拡張</title>
-      <link>https://www.publickey1.jp/blog/26/windows_server_2028microsoft_foundryai.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/windows_server_2028microsoft_foundryai.html</guid>
-      <description>[Score: 82] マイクロソフトは次期サーバーOS「Windows Server 2028」のパブリックプレビューを公開した。 / 従来の管理・実行基盤に加え、vLLMやLlama.cppなどを統合し社内AI推論の実行基盤としての役割を大幅に強化している。 / Confidential VMや耐量子暗号技術によるセキュリティ向上、NVMe over TCP/RDMA対応などのストレージ高速化も図られている。 (Source: Publickey)</description>
-      <pubDate>Wed, 18 Nov 2026 15:55:49 +0000</pubDate>
+      <title>Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis</title>
+      <link>https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/</link>
+      <guid isPermaLink="false">https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Fri, 20 Nov 2026 17:21:36 +0000</pubDate>
     </item>
     <item>
-      <title>ヴィント・サーフが語る、TCP/IPが特許化されなかった理由</title>
-      <link>https://seremot.com/p/vint-cerf-on-why-tcpip-was-never</link>
-      <guid isPermaLink="false">https://seremot.com/p/vint-cerf-on-why-tcpip-was-never</guid>
-      <description>[Score: 80] インターネットの父ヴィント・サーフが新ポッドキャストでTCP/IP非特許化の背景を語った。 / 将来の同盟国が誰になるか不明だったため、全方位に開放することが唯一の保証になると判断。 / 83歳となった現在も惑星間インターネットソフトウェア企業に関わるなど活動を続けている。 (Source: Hacker News)</description>
-      <pubDate>Fri, 20 Nov 2026 01:06:12 +0000</pubDate>
+      <title>Valkey kills the skiplist, cuts sorted set overhead by up to 43%</title>
+      <link>https://valkey.io/blog/from-skiplist-to-b+tree/</link>
+      <guid isPermaLink="false">https://valkey.io/blog/from-skiplist-to-b+tree/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Tue, 17 Nov 2026 16:58:30 +0000</pubDate>
     </item>
     <item>
-      <title>AIトークノミクスは観測から始めよう - AIコーディングのコスト・無駄・成果を測る</title>
-      <link>https://qiita.com/kobadain/items/7ff26c584cd9b83f7a5a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/kobadain/items/7ff26c584cd9b83f7a5a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 80] AIコーディング利用の拡大に伴い膨らむトークンコストと得られる成果を可視化・最適化する「AIトークノミクス」の重要性を論じる。 / New Relicが提供するOSS「Preflight」を活用し、ツール呼び出しや無駄なトークン消費を観測する手法を解説する。 / 費用だけでなく作業単位でのROIを定量的に把握し、開発環境におけるAI導入効果を適正化する手順を示している。 (Source: Qiita)</description>
-      <pubDate>Thu, 19 Nov 2026 01:40:19 +0000</pubDate>
+      <title>Language Models Can Rewrite Their Own Weights</title>
+      <link>https://arxiv.org/abs/2611.21885</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2611.21885</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Fri, 20 Nov 2026 16:29:06 +0000</pubDate>
     </item>
     <item>
-      <title>マイクロソフト、AIが生成したアプリを企業内で安全に実行するランタイム「Copilot Managed Runtime」正式リリース</title>
-      <link>https://www.publickey1.jp/blog/26/aicopilot_managed_runtime.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aicopilot_managed_runtime.html</guid>
-      <description>[Score: 80] マイクロソフトはAIが生成したアプリケーションを安全に実行するための基盤「Copilot Managed Runtime」を正式リリースした。 / 非エンジニアを含め従業員が生成したコードの脆弱性や権限逸脱といったセキュリティリスクを低減する。 / 厳格なサンドボックス環境と権限管理を提供し、社内データやネットワークを保護しながらAI製アプリの安全なデプロイを可能にする。 (Source: Publickey)</description>
-      <pubDate>Wed, 18 Nov 2026 15:58:32 +0000</pubDate>
+      <title>RTKの走行データ収集でAndroidの記録アプリを外から監視する</title>
+      <link>https://zenn.dev/nauh_blog/articles/b60cd6973c8a3f</link>
+      <guid isPermaLink="false">https://zenn.dev/nauh_blog/articles/b60cd6973c8a3f</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Fri, 20 Nov 2026 09:00:06 +0000</pubDate>
     </item>
     <item>
-      <title>Gemini 4 NeonがModels Engineering Indexで首位を獲得</title>
-      <link>https://git-aarvin.github.io/mei/</link>
-      <guid isPermaLink="false">https://git-aarvin.github.io/mei/</guid>
-      <description>[Score: 78] AIモデルを総合的に評価するModels Engineering IndexにおいてGemini 4 Neonが1位になりました。 / 性能だけでなくコストやトークン効率を考慮した実用的なエンジニアリング視点の指標で高評価を得ています。 / 実務でのLLM採用において、推論コストと精度のバランスを重視する選定の新たな指標となっています。 (Source: Hacker News)</description>
-      <pubDate>Thu, 19 Nov 2026 23:35:35 +0000</pubDate>
+      <title>日本のレシートを自宅PCでOCRする：15構成を実レシート11枚で比べた</title>
+      <link>https://zenn.dev/chaki/articles/4545be3475fdb4</link>
+      <guid isPermaLink="false">https://zenn.dev/chaki/articles/4545be3475fdb4</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Fri, 20 Nov 2026 04:33:15 +0000</pubDate>
     </item>
     <item>
-      <title>Microsoft-Decision-1.1公開！Microsoft-Decision-1との差はどれくらい？</title>
-      <link>https://zenn.dev/microsoft/articles/ms-decision-1-1</link>
-      <guid isPermaLink="false">https://zenn.dev/microsoft/articles/ms-decision-1-1</guid>
-      <description>[Score: 78] マイクロソフト純正の意思決定モデル「Microsoft-Decision-1.1」の一般提供に伴う検証記事。 / 前バージョン比で高速化、精度向上、画像入力対応が謳われ、ベンチマークでも高スコアを獲得。 / 実環境検証では通信遅延を考慮した推論速度の差や回答品質の向上度合いを詳細に比較している。 (Source: Zenn)</description>
-      <pubDate>Thu, 19 Nov 2026 03:41:58 +0000</pubDate>
+      <title>CDKからTerraformへ：所有権移譲による本番インフラ無停止のIaC移行</title>
+      <link>https://zenn.dev/levtech/articles/14befd8e727f32</link>
+      <guid isPermaLink="false">https://zenn.dev/levtech/articles/14befd8e727f32</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Fri, 20 Nov 2026 01:26:30 +0000</pubDate>
     </item>
     <item>
-      <title>「ほぼ全人類が永久に失業する」Anthropic研究者がAIの未来を予測</title>
-      <link>https://ascii.jp/elem/000/004/452/4452982/</link>
-      <guid isPermaLink="false">https://ascii.jp/elem/000/004/452/4452982/</guid>
-      <description>[Score: 75] Anthropicの研究者が、2027年末頃にほぼ全分野で人間の専門家を超えるAIが登場し全人類の雇用が脅かされる見通しを示した。 / 代替には時間差があるものの、最終的に多くの人が仕事を失い政府の福祉制度に依存する社会が訪れると予測している。 / 破局的な未来を回避するため、激化するAI開発競争のペースを落とし政府による規制や社会的議論を進めるべきだと訴えている。 (Source: はてなブックマーク)</description>
-      <pubDate>Thu, 19 Nov 2026 09:44:51 +0000</pubDate>
+      <title>MetaのMuseを使ってみた: 内部構造とセキュリティの調査</title>
+      <link>https://zenn.dev/shoyataguchi/articles/b1bc6a96d4b963</link>
+      <guid isPermaLink="false">https://zenn.dev/shoyataguchi/articles/b1bc6a96d4b963</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Thu, 19 Nov 2026 15:55:36 +0000</pubDate>
     </item>
     <item>
-      <title>Gemini Decision 1でスパム退治！</title>
-      <link>https://zenn.dev/satoshi_yoneda/articles/decision-1-anti-spam</link>
-      <guid isPermaLink="false">https://zenn.dev/satoshi_yoneda/articles/decision-1-anti-spam</guid>
-      <description>[Score: 73] 高度化するフィッシング・スパムメールの判定に意思決定モデル「Gemini Decision 1」を活用。 / 既存フィルタをすり抜ける新手のスパムに対し、高速な1パス判定モデルの有効性を検証。 / APIコストや遅延を踏まえ、IMAP MCPと連携させた自分宛メール向けの処理パイプラインを構築。 (Source: Zenn)</description>
-      <pubDate>Thu, 19 Nov 2026 06:20:46 +0000</pubDate>
+      <title>CLAUDE.md や SKILL.md のルールを Turtle で書き、ルールの書き間違いや矛盾を lint で検査してみた話</title>
+      <link>https://zenn.dev/hma2moto/articles/turtle-agent-rules-pros-cons</link>
+      <guid isPermaLink="false">https://zenn.dev/hma2moto/articles/turtle-agent-rules-pros-cons</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Thu, 19 Nov 2026 14:13:57 +0000</pubDate>
     </item>
     <item>
-      <title>ほぼあらゆるものをCADで設計する方法（MITオープン教材）</title>
-      <link>https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/</link>
-      <guid isPermaLink="false">https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/</guid>
-      <description>[Score: 72] MITが日用品から高度な機械部品までを設計するための実践的CADワークショップ教材を公開しました。 / リバースエンジニアリングを軸に、設計プロセス自体の思考法とツールの戦略的な活用方法に重点を置いています。 / SolidworksやFusion、Onshapeなど主要ツールに対応しており、ハードウェア設計者の実務教育に有用です。 (Source: Hacker News)</description>
-      <pubDate>Tue, 17 Nov 2026 06:29:57 +0000</pubDate>
+      <title>【朗報】Microsoft 365 CopilotがOneDriveのファイルを直接編集できるようになってた！CoworkなしでGitHub Copilotみたいに使える件</title>
+      <link>https://qiita.com/yuyanz/items/c3bb4801c105d96fa79d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/yuyanz/items/c3bb4801c105d96fa79d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Thu, 19 Nov 2026 03:56:02 +0000</pubDate>
     </item>
   </channel>
 </rss>
