@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-08T10:27:28.348165+09:00",
-  "week_start": "2026-11-02",
-  "week_end": "2026-11-08",
-  "article_count": 260,
-  "overview": "今週は、AIエージェントの台頭がGitHubのストレージ基盤刷新や競技プログラミングの常識を覆すなど、ソフトウェア開発環境の根底にある前提を再定義し始めている動きが際立ちました。同時に、自律型エージェントの承認スキップによる機密情報漏洩や、Alpine LinuxにおけるOpenSSH認証バイパスといったクリティカルなセキュリティ課題も大きく注目を集めました。さらに、巨大テック企業における巨額AI投資の財務的負担やデータセンターへの社会的反発など、急速なAI拡大がもたらす現実的な歪みも表面化しています。",
+  "generated_at": "2026-11-22T11:11:16.528160+09:00",
+  "week_start": "2026-11-16",
+  "week_end": "2026-11-22",
+  "article_count": 211,
+  "overview": "今週は、リーマン予想の形式的検証や基礎科学研究への応用など、AIと形式手法が未踏の学術フロンティアを切り拓く歴史的な成果が注目を集めました。同時に、OpenSSLにCVSS 9.8の重大な脆弱性が報告されるなど、基盤インフラのセキュリティリスクへの警戒も高まっています。また、AIエージェントの本格的な実務適用を見据えたプロトコル策定や開発・テスト手法の再設計に関する議論が大きく加速した1週間でした。",
   "trends": [
-    "AIエージェント急増に伴う開発インフラの刷新",
-    "自律型コーディングツールのセキュリティリスク顕在化",
-    "Alpine Linux/OpenSSHの重大な認証バイパス脆弱性",
-    "巨額AIインフラ投資がもたらす財務・社会的負荷"
+    "AI・形式手法による数学・科学フロンティアの解明",
+    "基盤インフラにおける重大セキュリティ脆弱性",
+    "AIエージェントの実用化に向けた標準化と運用ハーネス設計",
+    "AI開発時代における自動テストと品質保証の再定義"
   ],
   "highlights": [
     {
-      "title": "Alpine Linux セキュリティ勧告: OpenSSHサーバーのパスワード認証バイパス",
-      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
-      "comment": "多くのコンテナ環境で利用されるAlpine Linuxにおいて、パスワード認証を回避可能な極めて緊急度の高い深刻な脆弱性であるため。"
+      "title": "リーマン予想のLeanによる形式検証",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "comment": "数学史上最大の難問が形式的定理証明系によって完全に検証された、計算機科学と数学の歴史に残る金字塔です。"
     },
     {
-      "title": "GitHubの新Gitストレージアーキテクチャの内部構造",
-      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-      "comment": "AIエージェントによる高頻度プッシュ時代を見据え、Gitストレージの分離と分散構造を根本から刷新した先駆的な技術解説であるため。"
+      "title": "OpenSSLのEVP_EncodeBlock()にバッファオーバーフロー脆弱性（CVE-2026-121481、CVSS 9.8）",
+      "url": "https://github.com/openssl/openssl/pull/33652",
+      "comment": "世界中の基盤インフラを支える重要ライブラリに致命的な脆弱性が発覚し、極めて広範かつ迅速な対応が求められるため選定しました。"
     },
     {
-      "title": "Claude Codeの「再確認しない」設定により公開GitHub上の1,122件のファイルでパスワードが漏洩",
-      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "comment": "自律型コーディングエージェントの利便性と引き換えに生じるセキュリティ事故の実態と、開発現場におけるガバナンスの必要性を如実に示しているため。"
+      "title": "デバイスをまたいでセッションを継続する「Agent Host Protocol」の構築",
+      "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+      "comment": "長時間自律稼働するAIエージェントが単一エディタを超えて協調・継続作業するための基盤オープン規格として重要です。"
     },
     {
-      "title": "ISUCON2026 にツールを捨てて勝ちたかった",
-      "url": "https://zenn.dev/mazrean/articles/5c968503fd69a3",
-      "comment": "自律型AIエージェントの性能が人間の実装速度を大幅に凌駕し、エンジニア競技のパラダイムシフトを鮮明に描き出しているため。"
+      "title": "Anthropicがナスダックへ新規上場",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "comment": "生成AIフロンティア企業の株式市場参入は、今後のテクノロジー業界全体の投資判断と評価基準を大きく左右する象徴的な出来事です。"
     },
     {
-      "title": "米Microsoftはなぜ最大6万人に早期退職を打診するのか？　決算資料から読み解く巨額AI投資の“台所事情”",
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2611/02/news029.html",
-      "comment": "生成AIブームの最前線にあるメガテック企業が直面する巨額設備投資の重圧と、人員再編の背景にあるビジネスモデルの歪みを浮き彫りにしているため。"
+      "title": "【TLA+】AIにテストケースを書かせるな。ルールを書け",
+      "url": "https://zenn.dev/karamage/articles/73027ee36796dc",
+      "comment": "AI生成コードの自作自演テストを防ぐため、仕様記述言語による不変条件定義という根本的アプローチを提起しており示唆に富んでいます。"
     }
   ]
 }

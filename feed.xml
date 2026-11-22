@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 Nov 2026 03:18:06 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 02:11:16 +0000</lastBuildDate>
     <item>
-      <title>デバイス間をまたいでセッションを継続可能にするAgent Host Protocolの構築</title>
+      <title>リーマン予想のLeanによる形式検証</title>
+      <link>https://leanprover-community.github.io/blog/posts/riemann-hypothesis/</link>
+      <guid isPermaLink="false">https://leanprover-community.github.io/blog/posts/riemann-hypothesis/</guid>
+      <description>[Score: 95] 数学者Levent Alpöge氏がリーマン予想の証明を1700万行のLeanコードとして公開した。 / LeanおよびMathlibコミュニティにより検証作業が行われ、証明の正確性が正式に確認・承認された。 / 数学史上最大の未解決問題が形式的定理証明系によって完全に検証された歴史的なマイルストーンとなる。 (Source: Hacker News)</description>
+      <pubDate>Sat, 21 Nov 2026 14:36:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>デバイスをまたいでセッションを継続する「Agent Host Protocol」の構築</title>
       <link>https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/</link>
       <guid isPermaLink="false">https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/</guid>
-      <description>[Score: 88] 長時間自律稼働するAIエージェントの作業を、ウィンドウ終了や端末切替後もシームレスに継続する需要が高まっています。 / GitHubはエディタのライフサイクルからエージェントを分離し、セッション継続を可能にする「Agent Host Protocol」を開発しました。 / VS CodeやCopilotアプリ、モバイル間で連携可能なオープン標準を策定し、クロスデバイスな開発体験を実現しています。 (Source: GitHub Blog)</description>
+      <description>[Score: 88] 長時間自律稼働するAIエージェントが増える中、エディタを閉じても作業が途切れない仕組みが求められている。 / GitHubはVS Code発のオープン規格「Agent Host Protocol (AHP)」を開発し、複数デバイス間でのセッション継続を実現。 / エディタ拡張機能に縛られていたエージェントのライフサイクルを解放し、モバイルや他ツールへの拡張基盤を構築した。 (Source: GitHub Blog)</description>
       <pubDate>Tue, 17 Nov 2026 18:20:40 +0000</pubDate>
     </item>
     <item>
-      <title>メンテナーに必要なのはAIによるバグ報告の増加ではなく、修正パッチである</title>
+      <title>5.4GBのメモリで動作するInkling-2-Mini</title>
+      <link>https://github.com/ShinMegamiBoson/lookatmyquant</link>
+      <guid isPermaLink="false">https://github.com/ShinMegamiBoson/lookatmyquant</guid>
+      <description>[Score: 85] モデル圧縮コンパイラ「LookAtMyQuant」により、LLMの重みを極限まで量子化する手法が公開された。 / トレリス符号やFisher情報量によるビット割り当て、蒸留を組み合わせ、極小サイズでも高い推論精度を維持する。 / わずか数十ドルのGPU計算コストで大規模モデルをApple Siliconなどの省メモリ環境向けに軽量化できる。 (Source: Hacker News)</description>
+      <pubDate>Sat, 21 Nov 2026 18:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>【TLA+】AIにテストケースを書かせるな。ルールを書け</title>
+      <link>https://zenn.dev/karamage/articles/73027ee36796dc</link>
+      <guid isPermaLink="false">https://zenn.dev/karamage/articles/73027ee36796dc</guid>
+      <description>[Score: 85] AIに実装もテストも書かせると無意味なテストが通過してしまう「テストオラクル問題」を指摘。 / TLA+系の仕様記述言語Quintを用い、人間が不変条件などの採点ルールを定義する手法を提案。 / 網羅的な検証を機械に任せることで、AI開発における自作自演の満点テストを防ぐアプローチを解説。 (Source: Zenn)</description>
+      <pubDate>Sat, 21 Nov 2026 02:12:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>メンテナに必要なのはAIによるバグ報告の山ではなく修正である</title>
       <link>https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/</link>
       <guid isPermaLink="false">https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/</guid>
-      <description>[Score: 85] AIによる脆弱性検出が容易になった結果、低品質なレポートや誤検知がOSSメンテナーの過重な負担となっています。 / GitHubとMicrosoftは検出だけでなく、検証済みの修正パッチまで提示するパイロットプロジェクトを実施しました。 / AIトリアージと研究者による人的レビューを組み合わせることで、メンテナーに届く報告のノイズを大幅に低減しています。 (Source: GitHub Blog)</description>
+      <description>[Score: 85] AIによる脆弱性検出が容易になった反面、大量の未検証レポートがオープンソースメンテナの負荷を激増させている。 / GitHubとMicrosoftはAIを活用して報告だけでなく検証済みの修正パッチまで提供する「Codename MDASH」の実証実験を実施。 / 単なるスキャン結果の丸投げを抑制し、メンテナの実務負担を直接軽減するアプローチの重要性を提示している。 (Source: GitHub Blog)</description>
       <pubDate>Tue, 17 Nov 2026 18:29:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>エージェントのオーケストレーション：単一プロセス内で動かす3つのオーケストレーター</title>
-      <link>https://dev.to/aws-builders/orchestrating-agents-three-orchestrators-one-process-4agc</link>
-      <guid isPermaLink="false">https://dev.to/aws-builders/orchestrating-agents-three-orchestrators-one-process-4agc</guid>
-      <description>[Score: 75] Graph、Workflow、Swarmの3種類の異なるエージェントオーケストレーターを同一プロセス内で統合する検証が行われました。 / 各オーケストレーターはコンテキストの共有モデルが異なるため、API層で連携するアダプターの実装が鍵となります。 / プロセス内統合により通信コストを削減しつつ、複合的なエージェント連携を実現する実践的な知見が示されています。 (Source: Dev.to)</description>
-      <pubDate>Sat, 21 Nov 2026 02:55:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>オープンソースの最高の成果は共に創り上げられる</title>
-      <link>https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/</link>
-      <guid isPermaLink="false">https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/</guid>
-      <description>[Score: 65] GitHubにおける公開コントリビューション数が急増し、開発者コミュニティの活動が過去最高水準に達しています。 / GitHubは新たなOSSプロジェクトとしてデザインハーネス「Replica」やアクセシビリティフレームワークを公開しました。 / オープンソースはAI技術の急速な進化を支える原動力であり、多様な協働が技術革新を加速させています。 (Source: GitHub Blog)</description>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ビルドにJavaScript難読化ツールを導入する前に答えるべき5つの質問</title>
-      <link>https://dev.to/veilvm/five-questions-to-answer-before-you-add-any-javascript-obfuscator-to-your-build-428e</link>
-      <guid isPermaLink="false">https://dev.to/veilvm/five-questions-to-answer-before-you-add-any-javascript-obfuscator-to-your-build-428e</guid>
-      <description>[Score: 60] JavaScript難読化ツールの導入にあたっては、保護対象と脅威モデルを明確に定義することが不可欠です。 / 難読化はコード解析のコストを引き上げるのみであり、クライアント側の秘密情報保護や認証の代用にはなりません。 / 保護強度を高めると実行速度や互換性へのリスクが増すため、対象環境を洗い出して適切な強度を選択する必要があります。 (Source: Dev.to)</description>
-      <pubDate>Sat, 21 Nov 2026 02:57:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>保護されたビルドを再現可能にするため、リリースごとに難読化設定のバージョン管理を行おう</title>
-      <link>https://dev.to/veilvm/version-your-meowshield-settings-with-each-release-so-a-protected-build-can-be-reproduced-22hl</link>
-      <guid isPermaLink="false">https://dev.to/veilvm/version-your-meowshield-settings-with-each-release-so-a-protected-build-can-be-reproduced-22hl</guid>
-      <description>[Score: 55] 難読化設定の差異によって同一ソースコードから挙動や互換性の異なるバイナリが生成されるリスクがあります。 / 設定を記憶に頼って調整したままリリースすると再現性が失われ、本番環境の不具合解析が困難になります。 / コミットハッシュや難読化オプション、生成物のハッシュ値を構成ファイルとしてリポジトリで管理することが推奨されます。 (Source: Dev.to)</description>
-      <pubDate>Sat, 21 Nov 2026 02:57:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hurried Announcement: Alessandro Masullo GRH</title>
-      <link>https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/</link>
-      <guid isPermaLink="false">https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 20 Nov 2026 18:33:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Inkling 2 Mini</title>
-      <link>https://thinkingmachines.ai/news/inkling-2-mini/</link>
-      <guid isPermaLink="false">https://thinkingmachines.ai/news/inkling-2-mini/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 20 Nov 2026 20:12:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</title>
-      <link>https://alpo.ge/remark.pdf</link>
-      <guid isPermaLink="false">https://alpo.ge/remark.pdf</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 20 Nov 2026 14:16:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>NINLIVE: The Nine Inch Nails live archive</title>
-      <link>https://ninlive.com/</link>
-      <guid isPermaLink="false">https://ninlive.com/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 20 Nov 2026 22:30:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>We promoted developers into architects without informing them</title>
-      <link>https://manidoraisamy.com/developer-to-architect.html</link>
-      <guid isPermaLink="false">https://manidoraisamy.com/developer-to-architect.html</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 20 Nov 2026 18:17:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis</title>
-      <link>https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/</link>
-      <guid isPermaLink="false">https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 20 Nov 2026 17:21:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Valkey kills the skiplist, cuts sorted set overhead by up to 43%</title>
-      <link>https://valkey.io/blog/from-skiplist-to-b+tree/</link>
-      <guid isPermaLink="false">https://valkey.io/blog/from-skiplist-to-b+tree/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Tue, 17 Nov 2026 16:58:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>Language Models Can Rewrite Their Own Weights</title>
-      <link>https://arxiv.org/abs/2611.21885</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2611.21885</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 20 Nov 2026 16:29:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>RTKの走行データ収集でAndroidの記録アプリを外から監視する</title>
-      <link>https://zenn.dev/nauh_blog/articles/b60cd6973c8a3f</link>
-      <guid isPermaLink="false">https://zenn.dev/nauh_blog/articles/b60cd6973c8a3f</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Fri, 20 Nov 2026 09:00:06 +0000</pubDate>
     </item>
     <item>
       <title>日本のレシートを自宅PCでOCRする：15構成を実レシート11枚で比べた</title>
       <link>https://zenn.dev/chaki/articles/4545be3475fdb4</link>
       <guid isPermaLink="false">https://zenn.dev/chaki/articles/4545be3475fdb4</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <description>[Score: 82] 自作経費精算のため、実レシート11枚を用いてローカルPCで動くOCRツール15構成を徹底比較。 / YomiTokuやNDLOCR-Lite、Tesseract、各種VLMの精度や処理速度を実測評価。 / 印字レシートには専用OCRの2段読みが最も優れ、手書き領収書にはVLMが適している知見を共有。 (Source: Zenn)</description>
       <pubDate>Fri, 20 Nov 2026 04:33:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>【pre:Inventまとめ】AWSのAIエージェント認証がいろいろ進化！MCPサーバー構築を例に一挙解説</title>
+      <link>https://qiita.com/minorun365/items/bd6091f2599a0f37326b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/minorun365/items/bd6091f2599a0f37326b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 82] AWS pre:Inventにて発表されたCognitoとAgentCore GatewayにおけるAIエージェント認証の機能強化を解説。 / CIMD（URLによるID表明）とDCR（動的クライアント登録）のサポートにより、自作MCPサーバー利用時のクライアント事前登録が不要に。 / Gateway側でのJWTクレームベースのリソースポリシー制御も追加され、柔軟でセキュアなエージェント認可基盤が実現可能になった。 (Source: Qiita)</description>
+      <pubDate>Sat, 21 Nov 2026 04:03:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>一度構築すればどのエージェントでも動作する：エージェントスキルの実践ガイド</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/</link>
+      <guid isPermaLink="false">https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/</guid>
+      <description>[Score: 82] エージェントへの指示の重複説明や属人化した知識を解消するため、再利用可能な指示セット「エージェントスキル」を解説。 / SKILL.mdを中心としたバージョン管理可能なディレクトリ構造により、様々なエージェントやチーム間でタスク手順を共有可能にする。 / 権限管理とスキルの分離や、明確な入出力を定義した検証用エージェントの分離など、実践的な設計ベストプラクティスを提示している。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 12 Nov 2026 22:54:52 +0000</pubDate>
     </item>
     <item>
       <title>CDKからTerraformへ：所有権移譲による本番インフラ無停止のIaC移行</title>
       <link>https://zenn.dev/levtech/articles/14befd8e727f32</link>
       <guid isPermaLink="false">https://zenn.dev/levtech/articles/14befd8e727f32</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <description>[Score: 80] 社内標準化を目的にAWS CDKで管理された13スタックの本番インフラをTerraformへ移行した事例。 / リソースの再作成を行わず、RemovalPolicy: RETAINとTerraformのimportブロックで所有権を安全に移譲。 / サービス無停止を担保しながら安全にIaC基盤を統一するための具体的なステップとノウハウを解説。 (Source: Zenn)</description>
       <pubDate>Fri, 20 Nov 2026 01:26:30 +0000</pubDate>
     </item>
     <item>
-      <title>MetaのMuseを使ってみた: 内部構造とセキュリティの調査</title>
-      <link>https://zenn.dev/shoyataguchi/articles/b1bc6a96d4b963</link>
-      <guid isPermaLink="false">https://zenn.dev/shoyataguchi/articles/b1bc6a96d4b963</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 19 Nov 2026 15:55:36 +0000</pubDate>
+      <title>自宅サーバー上のアプリケーションを Cloudflare Tunnel + Access で安全に公開する</title>
+      <link>https://zenn.dev/bisque/articles/home-server-cloudflare-tunnel-access</link>
+      <guid isPermaLink="false">https://zenn.dev/bisque/articles/home-server-cloudflare-tunnel-access</guid>
+      <description>[Score: 78] ミニPCを用いた自宅サーバー環境で個人開発アプリを安全かつ手軽に運用する構成を紹介。 / ルーターのポートを開けずに外部公開できるCloudflare Tunnelと認証機能のAccessを連携。 / AnsibleとDocker Composeを活用し、低コストかつセキュアに開発サイクルを高速化。 (Source: Zenn)</description>
+      <pubDate>Fri, 20 Nov 2026 07:14:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>PcapAnalyzer – 27種の障害検知機能を備えたセルフホスト型pcapアナライザー</title>
+      <link>https://github.com/sebaandrada-cell/PcapAnalyzer</link>
+      <guid isPermaLink="false">https://github.com/sebaandrada-cell/PcapAnalyzer</guid>
+      <description>[Score: 75] キャプチャファイル（pcap/pcapng）からネットワーク障害を迅速に検知・分析できるオープンソースツールが登場した。 / ローカル環境で完結して動作するため、解析対象のパケットデータを社外ネットワークへ送信せずに安全に利用できる。 / Docker ComposeやPython/Node.jsで容易に導入でき、AIを活用したトラブルシューティング機能も統合されている。 (Source: Hacker News)</description>
+      <pubDate>Sat, 21 Nov 2026 22:09:58 +0000</pubDate>
     </item>
     <item>
       <title>CLAUDE.md や SKILL.md のルールを Turtle で書き、ルールの書き間違いや矛盾を lint で検査してみた話</title>
       <link>https://zenn.dev/hma2moto/articles/turtle-agent-rules-pros-cons</link>
       <guid isPermaLink="false">https://zenn.dev/hma2moto/articles/turtle-agent-rules-pros-cons</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <description>[Score: 75] Claude CodeなどのAI指示ルールを自然言語のMarkdownではなくRDF構文のTurtleで記述するアプローチを検証。 / 語句の関係性や強さ・例外・理由をオントロジー形式で定義することで、静的lintによる矛盾や記述ミスの自動検知を実現した。 / 実験の結果、例外を含む複雑なルールにおいてMarkdownよりもモデルの順守率が向上することが確認された。 (Source: Zenn)</description>
       <pubDate>Thu, 19 Nov 2026 14:13:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub可用性レポート：2026年10月</title>
+      <link>https://github.blog/news-insights/company-news/github-availability-report-october-2026/</link>
+      <guid isPermaLink="false">https://github.blog/news-insights/company-news/github-availability-report-october-2026/</guid>
+      <description>[Score: 75] GitHubが2026年10月のインフラ可用性とAzureへのサービス移行進捗に関する月次レポートを公開。 / Azure Central USリージョンへのKubernetesクラスタ拡張によりコンピュート容量を倍増させ、トラフィック急増に対応。 / NATゲートウェイ起因のエラー低減など信頼性向上策を進める一方、リージョン障害や書き込み障害への対策強化を継続している。 (Source: GitHub Blog)</description>
+      <pubDate>Fri, 13 Nov 2026 00:20:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>膵臓がん治療薬、ここ数十年で最大の画期的成果と称賛</title>
+      <link>https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib</link>
+      <guid isPermaLink="false">https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib</guid>
+      <description>[Score: 70] 進行性膵臓がんを対象とした新薬「daraxonrasib」の治験で腫瘍の縮小や増殖停止が確認された。 / 通常1年生存率が40〜45%のところ、投薬を受けた患者の76.6%が1年後に生存している結果を示した。 / 完全な治癒とは言えないものの、予後が極めて厳しい膵臓がん治療において生存期間を大幅に延ばす期待が持たれている。 (Source: Hacker News)</description>
+      <pubDate>Fri, 20 Nov 2026 21:03:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>モニターがダウンロード速度を75%も低下させていた話</title>
+      <link>https://blog.tymscar.com/posts/studiodisplayethernet/</link>
+      <guid isPermaLink="false">https://blog.tymscar.com/posts/studiodisplayethernet/</guid>
+      <description>[Score: 70] 2.5Gbpsの高速回線環境で下り速度だけが600Mbpsに低下する謎の不具合を調査。 / 原因はApple Studio Display XDR経由で接続していた有線LANアダプタにあったことが判明。 / OS側のログにエラーが出ないままパケットロスが発生していたハードウェア接続の教訓を解説。 (Source: Hacker News)</description>
+      <pubDate>Sat, 21 Nov 2026 10:36:32 +0000</pubDate>
     </item>
     <item>
       <title>【朗報】Microsoft 365 CopilotがOneDriveのファイルを直接編集できるようになってた！CoworkなしでGitHub Copilotみたいに使える件</title>
       <link>https://qiita.com/yuyanz/items/c3bb4801c105d96fa79d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
       <guid isPermaLink="false">https://qiita.com/yuyanz/items/c3bb4801c105d96fa79d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <description>[Score: 70] Microsoft 365 CopilotがOneDrive上の既存ファイルを直接編集・更新できる仕様に進化していることが判明。 / 「プロジェクト」機能と組み合わせることで、特定の作業フォルダをコンテキストとしたGitHub Copilotライクな作業環境を構築可能。 / ファイルの自動生成だけでなく既存Markdown等の更新も自律的に行えるようになり、業務活用の幅が大きく拡大した。 (Source: Qiita)</description>
       <pubDate>Thu, 19 Nov 2026 03:56:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>オープンソースの素晴らしい成果は共に築かれる</title>
+      <link>https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/</link>
+      <guid isPermaLink="false">https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/</guid>
+      <description>[Score: 70] GitHub上のパブリックコントリビューション数が前年の倍以上となる25億件に達したことが報告された。 / デザイン基盤「Replica」やアクセシビリティフレームワークなど、GitHub自身の新たなOSSプロジェクトを紹介。 / オープンソースコミュニティの共創がAIツールや開発者エコシステムの急速な進化を支えていると強調している。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 19 Nov 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Muse の VM は約2時間で入れ替わる（実測と対策）</title>
+      <link>https://qiita.com/mryo0826/items/c05efd7ac228fe85ab44?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/mryo0826/items/c05efd7ac228fe85ab44?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 68] パーソナルAIエージェント「Muse」に割り当てられる専用Linux仮想マシンのライフサイクルを実測調査した記録。 / カーネルのboot_idを定期監視した結果、稼働プロセスを伴って約2時間周期で別の個体へ入れ替わる挙動を特定。 / 「継続性はファイル側に置き、VM環境は使い捨てとみなす」という設計原則に基づき、中断に強いエージェント運用法を提案している。 (Source: Qiita)</description>
+      <pubDate>Thu, 19 Nov 2026 12:47:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ブラジル税務当局、GitHub上で税額計算ツールをMITライセンスでオープンソース化</title>
+      <link>https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria</link>
+      <guid isPermaLink="false">https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria</guid>
+      <description>[Score: 65] ブラジル連邦税務局が税制改革の透明性向上を目的として、公式の税額計算ツールのソースコードをGitHubに公開した。 / 同機関として初となるオープンソース化であり、ライセンスには広く使われているMITライセンスが採用された。 / 政府システムの透明性確保と、開発者コミュニティによる検証・エコシステム活用を促す取り組みとして注目される。 (Source: Hacker News)</description>
+      <pubDate>Tue, 17 Nov 2026 15:22:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>sleep(5000)から真のUIチェックへ：デスクトップ自動化における5つのテスト</title>
+      <link>https://dev.to/macro8n/from-sleep5000-to-a-real-ui-check-five-tests-for-desktop-automation-3ndi</link>
+      <guid isPermaLink="false">https://dev.to/macro8n/from-sleep5000-to-a-real-ui-check-five-tests-for-desktop-automation-3ndi</guid>
+      <description>[Score: 62] デスクトップ自動化において固定待機時間や解像度変更による予期せぬ失敗を防ぐ重要性を指摘。 / 対象UI要素の確実な可視化確認や、タイムアウト付きの明示的待機、ターゲット不在時の安全な停止を提唱。 / ウィンドウサイズ変更への耐性や二重実行防止など、本番環境で堅牢に動かすための5つのテスト観点をまとめている。 (Source: Dev.to)</description>
+      <pubDate>Sun, 22 Nov 2026 01:44:32 +0000</pubDate>
     </item>
   </channel>
 </rss>
