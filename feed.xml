@@ -5,97 +5,118 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 24 Nov 2026 06:02:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 05:00:53 +0000</lastBuildDate>
     <item>
-      <title>Nvidia Reinstates Jensen Huang as CEO</title>
-      <link>https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html</link>
-      <guid isPermaLink="false">https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 23 Nov 2026 14:00:18 +0000</pubDate>
+      <title>メンテナが必要としているのは更なるAIバグレポートではなく、修正プログラムだ</title>
+      <link>https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/</link>
+      <guid isPermaLink="false">https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/</guid>
+      <description>[Score: 85] AIによる脆弱性レポートの氾濫がOSSメンテナの負担を過度に増大させている課題を取り上げています。 / GitHubとMicrosoftは単なるバグ報告ではなく検証済み修正案を直接届ける取り組みを実施しました。 / マルチモデルエージェントを活用し、報告の精査と修正パッチ提供を自動化することでメンテナの負担軽減を目指しています。 (Source: GitHub Blog)</description>
+      <pubDate>Tue, 17 Nov 2026 18:29:29 +0000</pubDate>
     </item>
     <item>
-      <title>Stalwart is now a drop-in replacement for Microsoft Exchange</title>
-      <link>https://stalw.art/blog/microsoft-exchange-replacement/</link>
-      <guid isPermaLink="false">https://stalw.art/blog/microsoft-exchange-replacement/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 23 Nov 2026 22:32:29 +0000</pubDate>
+      <title>修正手段が監視であるとき：自動車メーカーのエンジン更新から学ぶアラートの教訓</title>
+      <link>https://dev.to/oilandmiles/when-the-fix-is-a-monitor-what-a-carmakers-engine-software-update-teaches-about-alerting-49dj</link>
+      <guid isPermaLink="false">https://dev.to/oilandmiles/when-the-fix-is-a-monitor-what-a-carmakers-engine-software-update-teaches-about-alerting-49dj</guid>
+      <description>[Score: 65] 根本原因の修正が困難な場合にアラートを先行導入する運用の本質を論じています。 / 自動車エンジンの機械的欠陥に対し、ソフトウェア監視で早期検知を図ったリコール事例を分析しています。 / 監視と恒久対応の役割の違いを理解し、現場での効果的なアラート設計を考える知見を提供しています。 (Source: Dev.to)</description>
+      <pubDate>Wed, 25 Nov 2026 04:45:22 +0000</pubDate>
     </item>
     <item>
-      <title>Ladybird is now in alpha</title>
-      <link>https://ladybird.org/posts/alpha/</link>
-      <guid isPermaLink="false">https://ladybird.org/posts/alpha/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 23 Nov 2026 16:13:12 +0000</pubDate>
+      <title>オープンソースの最高のものは共に創り上げられる</title>
+      <link>https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/</link>
+      <guid isPermaLink="false">https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/</guid>
+      <description>[Score: 60] GitHubにおける公開コントリビューション数が急成長し、OSSの重要性が再認識されています。 / 新たなOSSプロジェクトの立ち上げや、AI時代におけるコミュニティ主導開発の価値を強調しています。 / 多様なバックグラウンドを持つ開発者が協力してエコシステムを拡大する意義を説いています。 (Source: GitHub Blog)</description>
+      <pubDate>Thu, 19 Nov 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Drone Maps of Salvage Yards</title>
-      <link>https://salvageyarddrone.wordpress.com/</link>
-      <guid isPermaLink="false">https://salvageyarddrone.wordpress.com/</guid>
+      <title>Matrix Multiplication is Θ(n^2.25) [pdf]</title>
+      <link>https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf</link>
+      <guid isPermaLink="false">https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Tue, 24 Nov 2026 04:00:28 +0000</pubDate>
+      <pubDate>Wed, 25 Nov 2026 01:19:26 +0000</pubDate>
     </item>
     <item>
-      <title>Modernizing iperf/iperf3 and introducing fireperf</title>
-      <link>https://blog.daniel-baumann.ch/posts/20261122-1.html</link>
-      <guid isPermaLink="false">https://blog.daniel-baumann.ch/posts/20261122-1.html</guid>
+      <title>Button Sounds – collection of professionally-recorded button clicks and presses</title>
+      <link>https://buttons.joshwcomeau.com/</link>
+      <guid isPermaLink="false">https://buttons.joshwcomeau.com/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Sun, 22 Nov 2026 22:37:51 +0000</pubDate>
+      <pubDate>Wed, 25 Nov 2026 03:23:07 +0000</pubDate>
     </item>
     <item>
-      <title>Bored.com: Fun, interesting and cool websites to explore when bored</title>
-      <link>https://www.bored.com/</link>
-      <guid isPermaLink="false">https://www.bored.com/</guid>
+      <title>Models Can Communicate via Inference Servers Despite Being Sandboxed</title>
+      <link>https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being</link>
+      <guid isPermaLink="false">https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 23 Nov 2026 21:01:16 +0000</pubDate>
+      <pubDate>Wed, 25 Nov 2026 02:34:21 +0000</pubDate>
     </item>
     <item>
-      <title>Making a dumb TV just smart enough</title>
-      <link>https://qsantos.fr/2026/11/19/making-a-dumb-tv-just-smart-enough/</link>
-      <guid isPermaLink="false">https://qsantos.fr/2026/11/19/making-a-dumb-tv-just-smart-enough/</guid>
+      <title>I've been drinking wine in my kitchen</title>
+      <link>https://scottaaronson.blog/?p=10362</link>
+      <guid isPermaLink="false">https://scottaaronson.blog/?p=10362</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Tue, 24 Nov 2026 02:46:54 +0000</pubDate>
+      <pubDate>Wed, 25 Nov 2026 03:02:10 +0000</pubDate>
     </item>
     <item>
-      <title>GPUI is getting its own repository</title>
-      <link>https://github.com/zed-industries/gpui</link>
-      <guid isPermaLink="false">https://github.com/zed-industries/gpui</guid>
+      <title>Marginalia Search, Money, C++, Rust, AI, Stuff</title>
+      <link>https://www.marginalia.nu/log/a_141_marginalia_update/</link>
+      <guid isPermaLink="false">https://www.marginalia.nu/log/a_141_marginalia_update/</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Mon, 23 Nov 2026 20:52:54 +0000</pubDate>
+      <pubDate>Wed, 25 Nov 2026 03:47:42 +0000</pubDate>
     </item>
     <item>
-      <title>Alpamayo は Jetson でリアルタイム推論できるか？ R1 から 2 Edge まで、H100 プロファイルからの実行時間推定</title>
-      <link>https://zenn.dev/fixstars/articles/alpamayo-h100</link>
-      <guid isPermaLink="false">https://zenn.dev/fixstars/articles/alpamayo-h100</guid>
+      <title>PenGPT: A Generative Transformer for Handwriting and Sketches</title>
+      <link>https://greydanus.github.io/2026/11/12/pengpt/</link>
+      <guid isPermaLink="false">https://greydanus.github.io/2026/11/12/pengpt/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Wed, 25 Nov 2026 00:54:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ternary Bonsai 2.5 27B</title>
+      <link>https://prismml.com/news/bonsai-2-5-27b</link>
+      <guid isPermaLink="false">https://prismml.com/news/bonsai-2-5-27b</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Tue, 24 Nov 2026 20:08:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Serving Qwen via AWS Lambdas for fun and 80x negative profit</title>
+      <link>https://noahbuilt.it/writing/qwen-on-5600-lambdas</link>
+      <guid isPermaLink="false">https://noahbuilt.it/writing/qwen-on-5600-lambdas</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Wed, 25 Nov 2026 03:28:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>MCPの記録ツールを追記だけで作ると、訂正のたびに重複が残る。AIは「消せない」と正直に言うが、集計は間違える</title>
+      <link>https://zenn.dev/kentaro_tak/articles/mcp-logger-append-only-corrections</link>
+      <guid isPermaLink="false">https://zenn.dev/kentaro_tak/articles/mcp-logger-append-only-corrections</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 23 Nov 2026 23:07:40 +0000</pubDate>
+      <pubDate>Tue, 24 Nov 2026 14:04:27 +0000</pubDate>
     </item>
     <item>
-      <title>コードを全部は読まずにClaude Codeで本番リリースするためにしたこと</title>
-      <link>https://zenn.dev/teradox_blog/articles/8ec76cc0d9e2bb</link>
-      <guid isPermaLink="false">https://zenn.dev/teradox_blog/articles/8ec76cc0d9e2bb</guid>
+      <title>Copilot Studioのエージェント開発をClaude Codeにどこまで任せられるか試した</title>
+      <link>https://zenn.dev/upgradetech/articles/a9a1637d3071c1</link>
+      <guid isPermaLink="false">https://zenn.dev/upgradetech/articles/a9a1637d3071c1</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 23 Nov 2026 21:20:30 +0000</pubDate>
+      <pubDate>Tue, 24 Nov 2026 09:24:58 +0000</pubDate>
     </item>
     <item>
-      <title>コーディングエージェントが変えたOSS開発のプロセスと喜び</title>
-      <link>https://zenn.dev/cybergarage/articles/5ee7ac6b3b0565</link>
-      <guid isPermaLink="false">https://zenn.dev/cybergarage/articles/5ee7ac6b3b0565</guid>
+      <title>JSConf JP 2026 参加ログ</title>
+      <link>https://zenn.dev/aishift/articles/b6dbe1c0acc505</link>
+      <guid isPermaLink="false">https://zenn.dev/aishift/articles/b6dbe1c0acc505</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 23 Nov 2026 17:37:18 +0000</pubDate>
+      <pubDate>Tue, 24 Nov 2026 08:53:31 +0000</pubDate>
     </item>
     <item>
-      <title>JSConf JP 2026に参加記録・初登壇の反省など</title>
-      <link>https://zenn.dev/igrep/articles/2026-11-jsconfjp</link>
-      <guid isPermaLink="false">https://zenn.dev/igrep/articles/2026-11-jsconfjp</guid>
+      <title>Gemini 4 Neon を API で叩いて Claude Code・Codex CLI と比べた：65万トークンの超長文、費用、失敗</title>
+      <link>https://zenn.dev/canly/articles/40e773759da8f8</link>
+      <guid isPermaLink="false">https://zenn.dev/canly/articles/40e773759da8f8</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 23 Nov 2026 15:08:26 +0000</pubDate>
+      <pubDate>Tue, 24 Nov 2026 08:51:41 +0000</pubDate>
     </item>
     <item>
-      <title>【技術書典21】17人の開発者と作った合同誌『AI キャラクター開発 十人十色』、会場50部が完売しました！！！</title>
-      <link>https://zenn.dev/mei999/articles/33f2965b3c021c</link>
-      <guid isPermaLink="false">https://zenn.dev/mei999/articles/33f2965b3c021c</guid>
+      <title>Claude Code の /ship を図解する</title>
+      <link>https://zenn.dev/peoplex_blog/articles/claude-code-ship</link>
+      <guid isPermaLink="false">https://zenn.dev/peoplex_blog/articles/claude-code-ship</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Mon, 23 Nov 2026 12:52:08 +0000</pubDate>
+      <pubDate>Tue, 24 Nov 2026 06:30:06 +0000</pubDate>
     </item>
     <item>
       <title>手書きをやめた途端、ブログが全部AI臭くなったあなたへ！ マシにする方法教えます</title>
@@ -103,20 +124,6 @@
       <guid isPermaLink="false">https://qiita.com/minorun365/items/faa50b7662b86e1df29c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
       <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
       <pubDate>Sun, 22 Nov 2026 11:56:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>[2026版]セキュリティ情報 406 件を「脆弱性-事故-対策」の1枚の分類図にまとめてから読めたこと</title>
-      <link>https://qiita.com/songchong/items/4ad36f1857ba2b4ee4f1?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/songchong/items/4ad36f1857ba2b4ee4f1?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Sun, 22 Nov 2026 22:01:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>登壇時、画面共有時にモザイクをかける方法について</title>
-      <link>https://qiita.com/Takashi_Masumori/items/ffaa4a7e8008481a1d14?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/Takashi_Masumori/items/ffaa4a7e8008481a1d14?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Sun, 22 Nov 2026 22:20:58 +0000</pubDate>
     </item>
     <item>
       <title>コードを書くコストが下がった今、ソフトウェアエンジニアリングの価値はどこにあるのか</title>
@@ -133,18 +140,11 @@
       <pubDate>Sun, 22 Nov 2026 03:42:52 +0000</pubDate>
     </item>
     <item>
-      <title>NECの「バザールでござーる」今日で引退。約35年の歴史に幕</title>
-      <link>https://pc.watch.impress.co.jp/docs/news/2158462.html</link>
-      <guid isPermaLink="false">https://pc.watch.impress.co.jp/docs/news/2158462.html</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: はてなブックマーク)</description>
-      <pubDate>Mon, 23 Nov 2026 21:20:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>NTT 研究所の正体 - IOWNとNTTの研究所</title>
-      <link>https://endecl.hatenablog.com/entry/2026/05/04/223141</link>
-      <guid isPermaLink="false">https://endecl.hatenablog.com/entry/2026/05/04/223141</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: はてなブックマーク)</description>
-      <pubDate>Mon, 23 Nov 2026 13:46:51 +0000</pubDate>
+      <title>【完全解説】本質から学ぶSOLIDの原則｜なんとなく分かるから完全理解へ【設計シリーズ】</title>
+      <link>https://qiita.com/Sicut_study/items/2bbdfbacab915773dad1?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/Sicut_study/items/2bbdfbacab915773dad1?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Mon, 23 Nov 2026 08:02:03 +0000</pubDate>
     </item>
   </channel>
 </rss>
