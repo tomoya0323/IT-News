@@ -1,0 +1,761 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-11-26T13:09:47.312807+09:00",
+  "total_count": 43,
+  "success_count": 43,
+  "error_count": 0,
+  "gemini_model": "gemini-3.8-flash",
+  "articles": [
+    {
+      "title": "1Passwordのセキュリティインシデント",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "source": "Hacker News",
+      "published": "2026-11-25T17:18:26+00:00",
+      "hn_score": 1252,
+      "hn_comments": 527,
+      "summary": "1Passwordは従業員のGitHubアカウント侵害に伴うセキュリティインシデントを公表した。\n攻撃者はソースコードやCI/CDシステムに侵入し、一部顧客の氏名やメールアドレスを取得した。\n顧客のパスワード保管庫（Vault）の内容自体は暗号化されておりアクセスされていない。",
+      "tags": [
+        "1Password",
+        "セキュリティインシデント",
+        "認証"
+      ],
+      "category": "セキュリティ",
+      "score": 88,
+      "score_reason": "広く利用されている主要パスワード管理サービスでの内部侵入事案であり、安全性や信頼性への影響が極めて大きいため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "MCPに新機能「Skills over MCP」登場。ツールとの接続だけでなく使い方のスキルもMCP経由で提供",
+      "url": "https://www.publickey1.jp/blog/26/mcpskills_over_mcpmcp.html",
+      "source": "Publickey",
+      "published": "2026-11-25T15:29:05+00:00",
+      "summary": "AIエージェントと外部ツールを接続するオープン標準「Model Context Protocol（MCP）」に新機能が追加された。\nツールの接続仕様だけでなく、そのツールの利用手順やスキル自体をMCPサーバー経由でオンデマンドに配信可能となった。\n必要なタイミングでのみスキルを読み込むことで、AIエージェントのコンテキスト消費を節約し運用の効率化を実現。",
+      "tags": [
+        "MCP",
+        "AIエージェント",
+        "Anthropic"
+      ],
+      "category": "AI・機械学習",
+      "score": 88,
+      "score_reason": "エージェントエコシステムの業界標準プロトコルにおいて、コンテキスト効率とツール実行能力を飛躍させる重要な仕様拡張であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「Google Workspace MCPサーバ」と「Google Workspace CLI」が正式版としてリリース",
+      "url": "https://www.publickey1.jp/blog/26/google_workspace_mcpgoogle_workspace_cli.html",
+      "source": "Publickey",
+      "published": "2026-11-25T15:27:15+00:00",
+      "summary": "GoogleはAIエージェントがWorkspace各サービスを操作するためのMCPサーバとCLIをGAリリースした。\nGmailやDrive、Docsなど8つの主要サービスに対応し、1日5000リクエストの無料枠などが提供される。\n従来の煩雑なOAuth設定を簡素化し、AIエージェントへの業務連携が容易になった。",
+      "tags": [
+        "MCP",
+        "Google Workspace",
+        "AIエージェント"
+      ],
+      "category": "AI・機械学習",
+      "score": 86,
+      "score_reason": "Google Workspace公式のMCPサーバー提供により、実務におけるAIエージェント自動化の導入障壁が大幅に低減するため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "何てこった、何てこった：今起きていることの途方もないスケール",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "source": "Hacker News",
+      "published": "2026-11-25T19:11:27+00:00",
+      "hn_score": 1052,
+      "hn_comments": 892,
+      "summary": "Scott Aaronson氏がAIによる数学的未解決問題の連続解決に対する強烈な衝撃を語る。\nOpenAIやAnthropicがリーマン予想に続き行列積の指数ωを決定したとされる動きを言及。\nアルゴリズム理論における半世紀以上の難問がAIにより解明されつつある現状を論じている。",
+      "tags": [
+        "AI",
+        "数学",
+        "計算機科学"
+      ],
+      "category": "AI・機械学習",
+      "score": 85,
+      "score_reason": "AIが長年の重要数学難問を相次いで証明したとするインパクトの極めて大きな内容であり、学術・技術界への影響が計り知れないため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "1Password、従業員のGitHubアカウント経由で顧客の氏名とメールアドレスが流出したと発表",
+      "url": "https://finance.biggo.jp/news/86bd3431-ad2e-4b18-b885-4fb6393beb46",
+      "source": "はてなブックマーク",
+      "published": "2026-11-25T20:50:44+00:00",
+      "summary": "1Passwordが従業員の社用GitHubアカウント乗っ取りを契機とする内部システムへの不正アクセスを公表した。\n一部顧客の氏名やメールアドレス等のメタデータが流出したが、パスワードを保管するボールトは暗号化により保護された。\n端末側でのみ生成される秘密鍵とマスターパスワードを用いたゼロ知識アーキテクチャにより、保管データの安全性は維持された。",
+      "tags": [
+        "セキュリティ",
+        "1Password",
+        "インシデント"
+      ],
+      "category": "セキュリティ",
+      "score": 85,
+      "score_reason": "大手パスワード管理サービスにおける侵入経路と、ゼロ知識暗号化アーキテクチャの有効性を実証する重要事例であるため。",
+      "analysis_status": "ok",
+      "is_hot": false,
+      "topic_group": 1,
+      "topic_size": 2
+    },
+    {
+      "title": "メンテナーに必要なのはAIによるバグ報告の山ではなく修正である",
+      "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+      "source": "GitHub Blog",
+      "published": "2026-11-17T18:29:29+00:00",
+      "summary": "AIによる脆弱性検出が容易になった反面、未検証の報告が急増してOSSメンテナーの負担が増大しています。\nGitHubとMicrosoftはAIを活用し、単なる問題報告ではなく検証済みの修正パッチを提供する取り組みを開始しました。\nマルチモデルエージェントと専門家レビューを組み合わせ、メンテナーの実務に直結する支援モデルを提示しています。",
+      "tags": [
+        "セキュリティ",
+        "オープンソース",
+        "AIエージェント"
+      ],
+      "category": "セキュリティ",
+      "score": 85,
+      "score_reason": "AIによるバグ報告の氾濫というOSS界の深刻な問題に対し、検証済み修正案の提供という極めて実用的な解決策を示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Anthropicによる一般化リーマン予想Lean形式検証の大幅短縮版",
+      "url": "https://github.com/lsernau/grh-lean",
+      "source": "Hacker News",
+      "published": "2026-11-25T21:48:10+00:00",
+      "hn_score": 328,
+      "hn_comments": 163,
+      "summary": "Anthropicの研究者がClaudeと共同開発した一般化リーマン予想のLean 4形式証明コードが公開された。\n先行する証明コードを大幅に短縮したバージョンであり、標準的な公理のみを用いて構築されている。\n人間による完全な査読は未完了ながら、機械検証を通過した研究成果として共有されている。",
+      "tags": [
+        "Lean 4",
+        "Anthropic",
+        "形式検証"
+      ],
+      "category": "AI・機械学習",
+      "score": 82,
+      "score_reason": "LLMと定理証明支援系を組み合わせた高度な数学的証明の簡略化成果であり、AIによる形式科学研究の進展を示すため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "「AI検索に電話番号が……」鳴りやまぬコールセンター　バッファローは壊れた「顧客導線」をどう改善した？",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/26/news015.html",
+      "source": "はてなブックマーク",
+      "published": "2026-11-25T22:50:37+00:00",
+      "summary": "AI検索がコールセンターの電話番号を直接提示するようになったことで、バッファローのサポート窓口への入電が急増した。\n従来構築してきたWebのFAQやチャットボットへの誘導導線がAI検索の回答によって機能不全に陥った経緯を説明。\nAI検索を前提とした情報提示へとWebサイトやFAQを再設計し、ユーザーの自己解決を促す新たな顧客導線の再構築事例を紹介。",
+      "tags": [
+        "AI検索",
+        "カスタマーサポート",
+        "Webマーケティング"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 80,
+      "score_reason": "AI検索の普及が企業の顧客接点やWeb導線に与える影響と、その実践的な適応策を示した先進的な事例であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "GPT-6.2 AstraがGoogle社員のコードゴルフ記録を破る初のモデルに",
+      "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+      "source": "Hacker News",
+      "published": "2026-11-22T16:44:48+00:00",
+      "hn_score": 282,
+      "hn_comments": 80,
+      "summary": "2015年にGoogle社内で実施されたコードゴルフ大会の課題を用いたベンチマークが公開された。\n8言語に及ぶ32問で最も短いバイト数のコードを書く能力が競われた。\n最新モデルのGPT-6.2 Astraが人間であるGoogle社員の最短記録を初めて破る結果を示した。",
+      "tags": [
+        "LLM",
+        "コードゴルフ",
+        "ベンチマーク"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "極限的なコード短縮・最適化という人間が得意としてきた難度の高い課題でAIが人間記録を超えたことを示す興味深い結果のため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ニューヨーク・タイムズ、AI機能を理由にPhotoshopをアップデートしないよう写真家に警告",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "source": "Hacker News",
+      "published": "2026-11-25T21:18:02+00:00",
+      "hn_score": 251,
+      "hn_comments": 203,
+      "summary": "米ニューヨーク・タイムズが所属やフリーランスの写真家に対しPhotoshopの最新版への更新を控えるよう通達した。\n最新のAI機能を使用すると、意図せず写真のメタデータに「AI生成」と記録される可能性があるためである。\n報道機関が求める画像の真正性担保と、ソフトウェアの不可視なAI統合が引き起こす課題を浮き彫りにしている。",
+      "tags": [
+        "Photoshop",
+        "生成AI",
+        "メタデータ"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "報道メディアの倫理規定とクリエイティブツールの急速なAI統合による摩擦を示す重要な実例であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AWS、DynamoDB互換データベースをローカルマシンで構築可能にするオープンソース「ExtendDB」がバージョン1.0に到達",
+      "url": "https://www.publickey1.jp/blog/26/awsdynamodbextenddb10.html",
+      "source": "Publickey",
+      "published": "2026-11-24T15:19:30+00:00",
+      "summary": "AWSはDynamoDB互換データベースをローカル環境で構築できるOSS「ExtendDB」v1.0を公開した。\nフロントエンドとして機能し、ストレージエンジンにはPostgreSQLやSQLiteなどをプラグインとして利用する。\nクラウドと同じSDKや操作性でローカル開発やテストを完結させることが可能になる。",
+      "tags": [
+        "AWS",
+        "DynamoDB",
+        "ExtendDB"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 78,
+      "score_reason": "クラウド依存の高いDynamoDBのローカル開発・テスト環境をOSSで手軽に再現可能にする実用性の高いツールであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "2026年11月のnginxセキュリティリリース：影響の確認と対応策",
+      "url": "https://dev.to/attackscout/nginx-security-releases-of-november-2026-am-i-affected-and-what-to-do-4ahm",
+      "source": "Dev.to",
+      "published": "2026-11-26T03:58:47+00:00",
+      "summary": "nginxの安定版およびメインライン版にて複数のセキュリティ脆弱性を修正するパッチがリリースされた。\nHTTP/2やHTTP/3のメモリ破損、TLS 1.3の無限ループ、CPU枯渇など多岐にわたるCVEが対象。\n設定ディレクティブによって影響を受けるか確認し、管理環境に応じたパッチ適用が求められている。",
+      "tags": [
+        "nginx",
+        "脆弱性",
+        "セキュリティパッチ"
+      ],
+      "category": "セキュリティ",
+      "score": 78,
+      "score_reason": "広く利用されているnginxの重要脆弱性に関する詳細と、設定ごとの影響判断・対応指針が具体的に示されているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "MOZAIC：何が偽造されているかを識別するための音声・動画ディープフェイクベンチマーク",
+      "url": "https://arxiv.org/abs/2611.31301",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-25T05:00:00+00:00",
+      "summary": "音声と動画を統合したマルチモーダルディープフェイクを評価するための新たなベンチマーク「MOZAIC」が発表されました。\nメディア全体が偽物かどうかの判定にとどまらず、具体的に「どの部分が改ざんされたか」を特定することを目指します。\n高度化する生成AIによる偽情報に対抗するため、より詳細な検出モデルの検証基準を提供します。",
+      "tags": [
+        "ディープフェイク",
+        "マルチモーダル",
+        "ベンチマーク"
+      ],
+      "category": "AI・機械学習",
+      "score": 78,
+      "score_reason": "動画と音声の複合的なディープフェイクに対し、改ざん箇所の特定まで踏み込んだ実用的な評価指標を提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "結局「オントロジー」って何なのさ 〜概念と良さを4つのレイヤーで整理する〜",
+      "url": "https://zenn.dev/algomatic/articles/ece749a7e3cb24",
+      "source": "Zenn",
+      "published": "2026-11-25T09:23:05+00:00",
+      "summary": "AIの文脈理解を支える技術として再注目されている「オントロジー」の概念を整理・解説している。\n哲学由来の概念から情報科学におけるクラス・関係・インスタンスの構造、OWL規格の役割を説明している。\n多義的に捉えられがちなオントロジーを4つのレイヤーに分解し、企業データ活用とAIの親和性を論じている。",
+      "tags": [
+        "オントロジー",
+        "ナレッジグラフ",
+        "AI"
+      ],
+      "category": "AI・機械学習",
+      "score": 76,
+      "score_reason": "LLM時代に企業の構造化・文脈化データとして重要性が増しているオントロジーを明快に体系化しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "一時停止、スナップショット、それとも停止？AIエージェント用サンドボックスのライフサイクル選択",
+      "url": "https://dev.to/sandscale/pause-snapshot-or-stop-choosing-a-lifecycle-for-each-agent-sandbox-3hkn",
+      "source": "Dev.to",
+      "published": "2026-11-26T03:59:45+00:00",
+      "summary": "AIエージェント向けサンドボックスにおける最適なライフサイクル管理パターンを解説した記事。\n「生成・実行・停止」だけでなく、チャット向けの一時停止や依存関係インストールを省くスナップショットを提唱。\nワークロードに応じたライフサイクル選定によって実行コストの大幅な削減と高速化が期待できる。",
+      "tags": [
+        "サンドボックス",
+        "AIエージェント",
+        "クラウド"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 76,
+      "score_reason": "安全なコード実行環境を必要とするAIエージェント運用のコスト効率と起動速度を両立する実践的なアーキテクチャ指針であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Ubuntuのセキュリティ対応の遅延に対する懸念",
+      "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+      "source": "Hacker News",
+      "published": "2026-11-25T20:38:00+00:00",
+      "hn_score": 176,
+      "hn_comments": 87,
+      "summary": "セキュリティメーリングリストにてUbuntuの脆弱性パッチ提供の遅れが指摘された。\nLinuxカーネルのTCPスタックに関する深刻な脆弱性「NoisyTCP」への対応が9日以上滞っているという。\n広く使われているディストリビューションとしての保守運用体制に懸念が投げかけられている。",
+      "tags": [
+        "Ubuntu",
+        "Linux",
+        "脆弱性"
+      ],
+      "category": "セキュリティ",
+      "score": 75,
+      "score_reason": "広く利用される主要Linuxディストリビューションにおける重要脆弱性へのパッチ提供遅延は、多くのインフラ運用に直接影響するため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "RustでFiberを用いたJob Systemを実装したらReleaseビルドでバグが発生した",
+      "url": "https://zenn.dev/otinpan/articles/082f6178eb1472",
+      "source": "Zenn",
+      "published": "2026-11-25T10:24:41+00:00",
+      "summary": "RustとWindowsのFiber APIを用いた自作ゲームエンジン向けジョブシステムの実装事例を紹介している。\nDebugビルドでは正常に動作したものの、Releaseビルド時にアサーション失敗やRefCell借用エラーが発生した。\nFiberのスレッド間移動とコンパイラによるスレッドローカルストレージ（TLS）アクセスの最適化が原因と分析している。",
+      "tags": [
+        "Rust",
+        "マルチスレッド",
+        "低レイヤ"
+      ],
+      "category": "プログラミング言語",
+      "score": 75,
+      "score_reason": "低レイヤ並行処理とコンパイラ最適化の相互作用による難解な不具合の技術的検証として価値が高いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AIを使った開発に「敵対的検証」を取り入れてみた",
+      "url": "https://zenn.dev/visionarray/articles/26b316ff128513",
+      "source": "Zenn",
+      "published": "2026-11-25T06:55:45+00:00",
+      "summary": "AI生成コードの品質向上のため、ソフトウェアが破綻する条件を意図的に探す「敵対的検証」を導入。\n実装時の前提や文脈を引きずらないよう、あえて別チャットセッションで検証を行う運用を確立。\n通常のレビューを補完し、壊す側の視点に特化することで見落とされがちな不具合の早期発見を実現。",
+      "tags": [
+        "生成AI",
+        "コードレビュー",
+        "ソフトウェアテスト"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "AIコーディングにおける品質担保とコンテキスト汚染防止の実践的な手法を提案しており、実用性が高いです。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "日本語サイトで指定しておきたいCSS 2026年版 - Qiita",
+      "url": "https://qiita.com/tofu_frontend/items/6a1bb7d80a58736eef0e",
+      "source": "はてなブックマーク",
+      "published": "2026-11-23T10:33:25+00:00",
+      "summary": "日本語と英数字の間に適切なアキを自動挿入するCSSプロパティ「text-autospace」の仕様と対応状況を解説。\nブラウザによる自動適用は行われないため、開発者が明示的に「text-autospace: normal」を指定する必要がある。\nコードブロックなど等幅フォント要素で意図しないズレを防ぐための除外設定など、実践的な導入手順を紹介。",
+      "tags": [
+        "CSS",
+        "フロントエンド",
+        "Web標準"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 75,
+      "score_reason": "日本語Webサイトの組版品質を大幅に向上させる最新CSSプロパティの実践的な知見として実用性が高い。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "エージェントに「必要な時だけフェッチする」ルールを与えた結果、12回中12回フェッチした",
+      "url": "https://dev.to/aheadkit/i-gave-my-agent-a-fetch-only-when-needed-rule-it-fetched-twelve-times-out-of-twelve-17dn",
+      "source": "Dev.to",
+      "published": "2026-11-26T04:00:00+00:00",
+      "summary": "要約のみで不十分な場合のみ詳細データを取得させるルールをAIエージェントに設定して検証が行われた。\nしかしエージェントは12回すべての検証タスクで、回答前に全文データをフェッチする挙動を見せた。\nLLMエージェントに適切な判断で情報取得を抑制させる制御の難しさが浮き彫りとなっている。",
+      "tags": [
+        "AIエージェント",
+        "LLM",
+        "プロンプト"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "AIエージェントのトークン削減やオンデマンドな情報取得設計において直面する現実的な課題を示した実践的な検証であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "アプリケーション近代化で次に進むべき安全な一歩を選ぶ方法",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+      "source": "GitHub Blog",
+      "published": "2026-11-25T15:00:00+00:00",
+      "summary": "レガシー近代化ではフレームワーク選定より先に、現行システムの動作証拠を収集することが推奨される。\n小規模Node.jsから大規模Java ERPまで、不確実性を3段階で管理するエビデンス主導型アプローチを提示。\nGitHub Copilotエージェントスキルに手順を反映しつつ、人間がアーキテクチャの意思決定を行う手法を解説。",
+      "tags": [
+        "GitHub Copilot",
+        "レガシーマイグレーション",
+        "ソフトウェアアーキテクチャ"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "レガシー刷新における実践的な証拠収集プロセスと、AIエージェントを組み合わせた現代的な開発手法を提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "静的チャートを超えて：マルチモーダル大規模言語モデル向けインタラクティブチャートコード生成のベンチマーク",
+      "url": "https://arxiv.org/abs/2611.31345",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-25T05:00:00+00:00",
+      "summary": "静的なグラフ画像からインタラクティブな可視化コードを生成するMLLMの能力を評価する新ベンチマークが提案されました。\n静的な再現だけでなく、ユーザー操作に応答する動的なチャートコードを正しく出力できるかを多角的に検証します。\nデータ可視化の自動化やフロントエンド開発支援におけるマルチモーダルAIの実用性向上に寄与します。",
+      "tags": [
+        "マルチモーダル",
+        "コード生成",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 75,
+      "score_reason": "マルチモーダルLLMによるUI/UXや可視化コードの実装能力を測る、実務適用に直結した有用なベンチマークであるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "VS Code 1.147：エージェントへの依頼を予約できる！？Send Later と Drafts を整理した",
+      "url": "https://qiita.com/shahin0809/items/e6cbd71914171b8b6b49?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-11-25T11:13:58+00:00",
+      "summary": "VS Code 1.147のAgentsウィンドウに追加された予約送信（Send Later）と下書き（Drafts）機能を検証。\nビルド待ちや別作業中にエージェントへ依頼を溜められる一方、PCスリープ時の挙動などに注意が必要。\n後続バージョンでのスリープ抑止（keepAwakeWhileWorking）機能の適用範囲についても整理。",
+      "tags": [
+        "VS Code",
+        "AIエージェント",
+        "開発ツール"
+      ],
+      "category": "AI・機械学習",
+      "score": 74,
+      "score_reason": "VS Codeの最新AIエージェント機能の仕様と実践的な挙動をいち早く整理・検証しており有用です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "人々があえて言わないこと：会話における細粒度な情報操作のためのマルチモーダルベンチマーク",
+      "url": "https://arxiv.org/abs/2611.31346",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-25T05:00:00+00:00",
+      "summary": "会話の中で意図的に言及されない情報や微細な情報操作を検出するための研究。\nテキストや非言語情報を含むマルチモーダルな対話データを対象とした評価ベンチマークを提案。\n対話型AIが発話の文脈や真意、情報の偏りをより深く理解するための技術発展に寄与する。",
+      "tags": [
+        "マルチモーダル",
+        "自然言語処理",
+        "ベンチマーク"
+      ],
+      "category": "AI・機械学習",
+      "score": 74,
+      "score_reason": "会話中の暗黙的・微細な情報操作を評価する新規ベンチマークであり、AIの高度な文脈理解能力の向上に寄与するため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "specは実装後に8割削除しよう",
+      "url": "https://zenn.dev/ruri/articles/distill-specs-after-implementation",
+      "source": "Zenn",
+      "published": "2026-11-25T11:33:06+00:00",
+      "summary": "仕様書（spec）は実装前に思考を整理するための文書であり、実装完了後は8割以上を削るべきと提唱している。\n機能要件や仕様はテスト・型・コードへと移管し、真実はコード側に担保させる方針を示している。\nドキュメントの陳腐化やAIエージェントによる古い設計案の誤実装を防ぎ、意図と境界のみを維持することを推奨している。",
+      "tags": [
+        "設計",
+        "ドキュメンテーション",
+        "AIエージェント"
+      ],
+      "category": "その他",
+      "score": 72,
+      "score_reason": "AIコーディング普及期における仕様書とコードの保守性・役割分担に関する実践的な知見を提供しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Rails（Sidekiq＋Selenium）経験者向け：Node.jsのBullMQ＋Playwrightでバッチ処理を組むときのハマりどころ",
+      "url": "https://qiita.com/jinxin4869/items/7771db4dccb7ddf3ac4a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-11-24T15:37:54+00:00",
+      "summary": "RailsからNode.jsへバッチ処理環境を移行するエンジニア向けに、BullMQとPlaywrightの構成を解説。\n全部入りのRailsとは異なり、Node.jsではioredisやブラウザ導入など部品単位での選定と設定が必要。\n責務に応じたディレクトリ設計やテスト容易性を高めるジョブ分割の勘所を提示。",
+      "tags": [
+        "Node.js",
+        "BullMQ",
+        "Playwright"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 72,
+      "score_reason": "RailsとNode.jsの設計思想の違いを踏まえた実践的な移行ノウハウが体系的にまとまっています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "MetaのAIエージェント「Muse」を1ヶ月使い倒してわかったこと",
+      "url": "https://dev.sin5d.com/meta-muse-usage",
+      "source": "はてなブックマーク",
+      "published": "2026-11-25T22:53:15+00:00",
+      "summary": "Metaが提供するクラウド型AIエージェント「Muse」の機能や特徴を1ヶ月間の実利用に基づきレビュー。\nユーザーごとに仮想マシン（VM）が割り当てられ、Instagramからの自動情報収集やSQLを用いた動的ページ生成が可能。\nメインチャットと分離されたサイドチャット機能や、Markdownファイルを用いた効率的な長期記憶管理の仕組みを解説。",
+      "tags": [
+        "Meta",
+        "AIエージェント",
+        "LLM"
+      ],
+      "category": "AI・機械学習",
+      "score": 72,
+      "score_reason": "急速に進化するクラウド型AIエージェント領域において、Meta独自の実装や特徴的なメモリ管理機構を詳細に検証しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "jQuery 4.1正式版がリリース、内部実装をquerySelectorAllに統一でより高速に。jQuery 3.x系最後となるjQuery 3.8も同時リリース",
+      "url": "https://www.publickey1.jp/blog/26/jquery_41queryselectoralljquery_3xjquery_38.html",
+      "source": "Publickey",
+      "published": "2026-11-24T15:15:39+00:00",
+      "summary": "jQuery開発チームが内部実装をquerySelectorAllに統一した最新版「jQuery 4.1」を正式リリースした。\nレガシーなDOM取得APIの置き換えによりセレクタ処理が高速化され、レスポンスURL取得の新機能も追加された。\n同時に3.x系の最終リリースとなるjQuery 3.8も公開され、次期バージョンへの移行準備が進められている。",
+      "tags": [
+        "jQuery",
+        "JavaScript",
+        "Web開発"
+      ],
+      "category": "Web・フロントエンド",
+      "score": 72,
+      "score_reason": "長年利用される基盤ライブラリの内部最適化による高速化と3.x系最終版の公開という、多くの既存プロジェクトに影響する節目であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "自律エージェントシステムのための既約ガバナンス構造：公平な配分、戦略耐性、マルチスケール合成",
+      "url": "https://arxiv.org/abs/2611.31284",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-25T05:00:00+00:00",
+      "summary": "自律型AIエージェントシステムにおける公正な意思決定と資源配分を実現するガバナンス構造が提案されました。\n各エージェントの不正や利己的行動を抑止する戦略耐性（Strategy-Proofness）を理論的に追求しています。\nミクロからマクロまでの複数階層で協調動作を可能にするマルチスケールな設計枠組みを提示しています。",
+      "tags": [
+        "AIエージェント",
+        "マルチエージェント",
+        "AIガバナンス"
+      ],
+      "category": "AI・機械学習",
+      "score": 72,
+      "score_reason": "自律エージェントの普及に伴い不可欠となる協調制御や公平性のガバナンス理論を先駆的に扱っているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "【完全解説】本質から学ぶSOLIDの原則｜なんとなく分かるから完全理解へ【設計シリーズ】",
+      "url": "https://qiita.com/Sicut_study/items/2bbdfbacab915773dad1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-11-23T08:02:03+00:00",
+      "summary": "抽象的で理解が難しいSOLIDの原則について、誕生した歴史的背景から本質を紐解く解説記事。\n単語の丸暗記ではなく、なぜその原則が必要とされたのかを理解することで現場適用を目指す。\nAIに適切な設計指示を出すためにも、時代に左右されないオブジェクト指向の叡智を学ぶ重要性を強調。",
+      "tags": [
+        "SOLID原則",
+        "オブジェクト指向",
+        "ソフトウェア設計"
+      ],
+      "category": "プログラミング言語",
+      "score": 70,
+      "score_reason": "設計原則の背景を掘り下げて解説しており、AI時代においても普遍的な基礎知識として価値があります。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "観測者から当事者へ、AI 時代にドメインへ深入りする知識と技術",
+      "url": "https://speakerdeck.com/nrslib/from-observer-to-practitioner-going-deep-into-domains-in-the-age-of-ai",
+      "source": "はてなブックマーク",
+      "published": "2026-11-25T11:26:01+00:00",
+      "summary": "Modeling Forum 2026にて発表された、AI時代におけるドメインモデリングの役割と実践に関する講演スライド。\nモデリングの前後のプロセスや設計作業自体のコモディティ化が進む中でのエンジニアの立ち位置を考察。\n単なる観測者にとどまらず、AIツールを活用しながら対象ドメインへ深く関与するための知識と技術を提示。",
+      "tags": [
+        "ドメイン駆動設計",
+        "モデリング",
+        "ソフトウェア設計"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 70,
+      "score_reason": "生成AIの普及に伴い変化するソフトウェアエンジニアの設計技術やドメイン理解のあり方を提示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "海外で話題！「VS Codeが重い」を軽くする方法。まず測って、効く順に削る（2026年11月版）",
+      "url": "https://qiita.com/shahin0809/items/46b64d3f76c9a4440298?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-11-25T11:24:47+00:00",
+      "summary": "エージェントや拡張機能の追加で重くなりがちなVS Codeの最適化アプローチを解説。\n設定を闇雲に変える前に、標準のProcess Explorerや起動時間計測でボトルネックを特定。\nExtension Bisectを活用した問題のある拡張機能の効率的な切り分け手順を実測データ付きで紹介。",
+      "tags": [
+        "VS Code",
+        "パフォーマンス改善",
+        "開発環境"
+      ],
+      "category": "その他",
+      "score": 68,
+      "score_reason": "多くのエンジニアが直面するVS Codeの動作軽量化について、測定に基づく的確な手順を提示しています。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "2026年11月12日のMicrosoft 365障害：次回いち早く把握する方法",
+      "url": "https://dev.to/attackscout/microsoft-365-outage-of-november-12-2026-how-to-hear-first-next-time-2fmm",
+      "source": "Dev.to",
+      "published": "2026-11-26T03:59:40+00:00",
+      "summary": "2026年11月12日にMicrosoft 365で約24時間に及ぶ大規模なサービス障害が発生した。\nOutlookやTeams、Copilotなどが停止し、自社サービスの監視と顧客周知の課題が浮き彫りとなった。\n外部からの死活・TLS・応答時間監視を取り入れ、障害を早期検知・対応する重要性が説かれている。",
+      "tags": [
+        "Microsoft 365",
+        "障害対策",
+        "インフラ監視"
+      ],
+      "category": "バックエンド・インフラ",
+      "score": 68,
+      "score_reason": "広範に利用される業務基盤の障害事例を通じ、外部監視体制の構築とインシデント通知の重要性を論じているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "オープンソースの最高の成果は共創から生まれる",
+      "url": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
+      "source": "GitHub Blog",
+      "published": "2026-11-19T16:00:00+00:00",
+      "summary": "GitHub上のパブリックコントリビューション数が急増し、オープンソースを通じた共創の力が高まっています。\nAIの発展基盤としても機能するコミュニティの重要性が再認識され、新たなOSSプロジェクトも発表されました。\n多様な背景を持つ開発者が共にソフトウェアを開発し成長するエコシステムの価値が強調されています。",
+      "tags": [
+        "オープンソース",
+        "GitHub",
+        "コミュニティ"
+      ],
+      "category": "ビジネス・業界動向",
+      "score": 68,
+      "score_reason": "オープンソースコミュニティの急速な拡大と、AI時代における共創エコシステムの重要性をGitHubの視点から伝えているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "DHH氏が開発する「Omarchy 4.5」リリース。一般的なマルチウィンドウをサポート。最速7秒で導入、Appleシリコン対応、Webアプリ版MS Office用ランチャーなど新機能",
+      "url": "https://www.publickey1.jp/blog/26/dhhomarchy_457applewebms_office.html",
+      "source": "Publickey",
+      "published": "2026-11-23T15:49:45+00:00",
+      "summary": "Ruby on Rails作者のDHH氏が主導するデスクトップLinux「Omarchy 4.5」がリリースされた。\n一般的なマルチウィンドウに対応したほか、Appleシリコン対応や高速インストール機能が盛り込まれた。\n23種類のAIエージェントを標準統合し、OSの設定変更や機能拡張をAI経由で自動化できる。",
+      "tags": [
+        "Omarchy",
+        "Linux",
+        "AIエージェント"
+      ],
+      "category": "その他",
+      "score": 67,
+      "score_reason": "著名開発者によるAIネイティブな独自デスクトップLinuxの進化として、新しい作業環境のコンセプトを示しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "AI時代における「遊び心」の重要性",
+      "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+      "source": "GitHub Blog",
+      "published": "2026-11-25T16:00:00+00:00",
+      "summary": "GitHub Universeで配布されたハッカブルバッジを通じたハードウェア工作の楽しさと学びを再考。\nOctoverseの報告によるとPRの40%がAIエージェント起点となるなど自動化が急加速している。\n技術の急速な進化の中だからこそ、手を動かして試行錯誤する「遊び心」がエンジニアの原点になると強調。",
+      "tags": [
+        "GitHub",
+        "AIエージェント",
+        "開発者体験"
+      ],
+      "category": "AI・機械学習",
+      "score": 65,
+      "score_reason": "AIによる自動コーディングが普及する時代におけるエンジニアの学習姿勢とクリエイティビティの意義を考察しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "アウトプットの「質」ってじゃあなんなんだよ",
+      "url": "https://zenn.dev/watany/articles/1efe3adea67dd5",
+      "source": "Zenn",
+      "published": "2026-11-25T11:31:18+00:00",
+      "summary": "技術記事の執筆や登壇における「アウトプットの質」とは何かを具体的な観点から深掘りしている。\n公式ドキュメントからの逸脱や独自ドメインの前提など、AIには出せない一次情報の価値を強調している。\n受け手に行動変容をもたらし、不要な定型文を削るなど読者の時間を尊重するためのチェックリストを提示している。",
+      "tags": [
+        "技術発信",
+        "アウトプット",
+        "生成AI"
+      ],
+      "category": "その他",
+      "score": 60,
+      "score_reason": "生成AI時代においてエンジニアが発信価値をどう差別化すべきかという実用的な視点を提供しているため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "YouTube字幕ファイルをクリーンなテキストとSRTに変換する手法と4つの落とし穴",
+      "url": "https://dev.to/timmkal01/turning-youtube-caption-files-into-clean-text-and-srt-and-the-four-traps-on-the-way-3fdc",
+      "source": "Dev.to",
+      "published": "2026-11-26T03:59:09+00:00",
+      "summary": "YouTubeの字幕XML（srv1形式）をAI要約や検索向けにプレーンテキストやSRTへ変換する手順を解説。\n二重HTMLエンコードやタグ混入、字幕行の重複など、変換処理で直面する4つの罠を紹介。\nスクレイピングやデータ前処理における実践的なエッジケース対策の知見を提供している。",
+      "tags": [
+        "YouTube",
+        "テキスト処理",
+        "スクレイピング"
+      ],
+      "category": "プログラミング言語",
+      "score": 60,
+      "score_reason": "AIパイプライン向け字幕データ抽出の実装エッジケースと解決策が具体的に共有されており実用性があるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "不完全データのための保守的オーバーラップ・ファジィラフ集合",
+      "url": "https://arxiv.org/abs/2611.31329",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-25T05:00:00+00:00",
+      "summary": "欠損値や不確定性を含む不完全なデータセットを扱うための「保守的オーバーラップ・ファジィラフ集合」が提案されました。\n従来のファジィラフ集合理論を拡張し、データの重複や曖昧さをより厳密かつ保守的に処理する数学モデルを構築しています。\n不完全情報が存在する実世界でのデータマイニングや機械学習分類タスクの精度向上が期待されます。",
+      "tags": [
+        "ファジィ理論",
+        "ラフ集合",
+        "データマイニング"
+      ],
+      "category": "AI・機械学習",
+      "score": 60,
+      "score_reason": "不完全データ解析における基礎理論の拡張研究であり、特定領域のアルゴリズム改善に寄与する内容であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "情報量が4倍のQRコードを作ろう",
+      "url": "https://qiita.com/reipandada/items/17496db6ac5f64a5e61a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "Qiita",
+      "published": "2026-11-23T23:48:24+00:00",
+      "summary": "QRコードの4隅すべてにファインダマークを配置し、隠す角で向きと内容を変えるアイデアを考案。\nClaudeを活用して実装を試みたものの、誤り訂正の許容量を使い切る結果となった。\n理論上は4倍を狙ったが、実際は共通マスの制約により通常QRの半分程度の容量にとどまった検証記録。",
+      "tags": [
+        "QRコード",
+        "Claude",
+        "画像処理"
+      ],
+      "category": "その他",
+      "score": 55,
+      "score_reason": "ユニークな発想をAIでクイックに検証したユーモア溢れる実験記事ですが、実用性は限定的です。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "開発者が本当に欲しがるギフトガイド",
+      "url": "https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want/",
+      "source": "GitHub Blog",
+      "published": "2026-11-24T16:00:00+00:00",
+      "summary": "GitHubがホリデーシーズンに向けてエンジニア向けのおすすめギフトアイテムを紹介。\nGitHub Universeで注目を集めた自作キーボードキット「Bauer Lite」の詳細や特徴を解説。\nカスタムキーボードの組み立てやパズルなど、開発者が楽しめるガジェットやグッズを取り上げている。",
+      "tags": [
+        "キーボード",
+        "ガジェット",
+        "GitHub"
+      ],
+      "category": "ハードウェア・ガジェット",
+      "score": 45,
+      "score_reason": "開発者向けのグッズ紹介を中心としたライトなカルチャー記事であり、技術的な新規性や影響度は低いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "Tell HN: 再び増える「Ask HN」投稿",
+      "url": "https://news.ycombinator.com/item?id=50649864",
+      "source": "Hacker News",
+      "published": "2026-11-26T00:43:34+00:00",
+      "hn_score": 138,
+      "hn_comments": 62,
+      "summary": "Hacker Newsにおいてユーザーが質問を投げかける「Ask HN」の投稿が増加していると話題になっている。\nコミュニティ内の投稿トレンドや利用スタイルの変化についてユーザー間で議論されている。\nプラットフォーム固有のメタ的な話題であり、技術的な新規性や更新情報ではない。",
+      "tags": [
+        "Hacker News",
+        "コミュニティ",
+        "ソーシャルニュース"
+      ],
+      "category": "その他",
+      "score": 30,
+      "score_reason": "特定コミュニティ内の投稿傾向に関するメタな雑談にとどまり、技術や業界への直接的な影響度は低いため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    },
+    {
+      "title": "ホームデポの調整池でシュノーケリングをした男性へのインタビュー",
+      "url": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
+      "source": "Hacker News",
+      "published": "2026-11-25T15:14:32+00:00",
+      "hn_score": 453,
+      "hn_comments": 111,
+      "summary": "フロリダ州の生物学者がホームデポに隣接する人工の調整池で夜間にシュノーケリングを実施した。\n一見するとゴミが浮く淀んだ池の中に、ヘビやオタマジャクシなど豊かな水生生態系が確認された。\nその様子を撮影した動画は200万回以上再生され、身近な人工環境の知られざる自然として注目を集めている。",
+      "tags": [
+        "生物学",
+        "環境",
+        "YouTube"
+      ],
+      "category": "その他",
+      "score": 15,
+      "score_reason": "IT技術との直接的な関連性がなく、一般的なトピックの話題記事であるため。",
+      "analysis_status": "ok",
+      "is_hot": false
+    }
+  ]
+}
