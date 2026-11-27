@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 26 Nov 2026 04:09:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 04:14:20 +0000</lastBuildDate>
     <item>
-      <title>1Passwordのセキュリティインシデント</title>
-      <link>https://1password.com/blog/update-on-nov-2026-security-incident</link>
-      <guid isPermaLink="false">https://1password.com/blog/update-on-nov-2026-security-incident</guid>
-      <description>[Score: 88] 1Passwordは従業員のGitHubアカウント侵害に伴うセキュリティインシデントを公表した。 / 攻撃者はソースコードやCI/CDシステムに侵入し、一部顧客の氏名やメールアドレスを取得した。 / 顧客のパスワード保管庫（Vault）の内容自体は暗号化されておりアクセスされていない。 (Source: Hacker News)</description>
-      <pubDate>Wed, 25 Nov 2026 17:18:26 +0000</pubDate>
+      <title>Hard Drive pricing has gotten bad</title>
+      <link>https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/</link>
+      <guid isPermaLink="false">https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Fri, 27 Nov 2026 01:13:49 +0000</pubDate>
     </item>
     <item>
-      <title>MCPに新機能「Skills over MCP」登場。ツールとの接続だけでなく使い方のスキルもMCP経由で提供</title>
-      <link>https://www.publickey1.jp/blog/26/mcpskills_over_mcpmcp.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/mcpskills_over_mcpmcp.html</guid>
-      <description>[Score: 88] AIエージェントと外部ツールを接続するオープン標準「Model Context Protocol（MCP）」に新機能が追加された。 / ツールの接続仕様だけでなく、そのツールの利用手順やスキル自体をMCPサーバー経由でオンデマンドに配信可能となった。 / 必要なタイミングでのみスキルを読み込むことで、AIエージェントのコンテキスト消費を節約し運用の効率化を実現。 (Source: Publickey)</description>
-      <pubDate>Wed, 25 Nov 2026 15:29:05 +0000</pubDate>
+      <title>AI made self-hosting fun again</title>
+      <link>https://janlukas.blog/posts/ai-self-hosting</link>
+      <guid isPermaLink="false">https://janlukas.blog/posts/ai-self-hosting</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Thu, 26 Nov 2026 21:47:45 +0000</pubDate>
     </item>
     <item>
-      <title>「Google Workspace MCPサーバ」と「Google Workspace CLI」が正式版としてリリース</title>
-      <link>https://www.publickey1.jp/blog/26/google_workspace_mcpgoogle_workspace_cli.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/google_workspace_mcpgoogle_workspace_cli.html</guid>
-      <description>[Score: 86] GoogleはAIエージェントがWorkspace各サービスを操作するためのMCPサーバとCLIをGAリリースした。 / GmailやDrive、Docsなど8つの主要サービスに対応し、1日5000リクエストの無料枠などが提供される。 / 従来の煩雑なOAuth設定を簡素化し、AIエージェントへの業務連携が容易になった。 (Source: Publickey)</description>
-      <pubDate>Wed, 25 Nov 2026 15:27:15 +0000</pubDate>
+      <title>Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad</title>
+      <link>https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/</link>
+      <guid isPermaLink="false">https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Thu, 26 Nov 2026 21:08:05 +0000</pubDate>
     </item>
     <item>
-      <title>何てこった、何てこった：今起きていることの途方もないスケール</title>
-      <link>https://scottaaronson.blog/?p=10379</link>
-      <guid isPermaLink="false">https://scottaaronson.blog/?p=10379</guid>
-      <description>[Score: 85] Scott Aaronson氏がAIによる数学的未解決問題の連続解決に対する強烈な衝撃を語る。 / OpenAIやAnthropicがリーマン予想に続き行列積の指数ωを決定したとされる動きを言及。 / アルゴリズム理論における半世紀以上の難問がAIにより解明されつつある現状を論じている。 (Source: Hacker News)</description>
-      <pubDate>Wed, 25 Nov 2026 19:11:27 +0000</pubDate>
+      <title>YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays</title>
+      <link>https://github.com/antonpictures/youtube-punisher</link>
+      <guid isPermaLink="false">https://github.com/antonpictures/youtube-punisher</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Thu, 26 Nov 2026 17:36:47 +0000</pubDate>
     </item>
     <item>
-      <title>1Password、従業員のGitHubアカウント経由で顧客の氏名とメールアドレスが流出したと発表</title>
-      <link>https://finance.biggo.jp/news/86bd3431-ad2e-4b18-b885-4fb6393beb46</link>
-      <guid isPermaLink="false">https://finance.biggo.jp/news/86bd3431-ad2e-4b18-b885-4fb6393beb46</guid>
-      <description>[Score: 85] 1Passwordが従業員の社用GitHubアカウント乗っ取りを契機とする内部システムへの不正アクセスを公表した。 / 一部顧客の氏名やメールアドレス等のメタデータが流出したが、パスワードを保管するボールトは暗号化により保護された。 / 端末側でのみ生成される秘密鍵とマスターパスワードを用いたゼロ知識アーキテクチャにより、保管データの安全性は維持された。 (Source: はてなブックマーク)</description>
-      <pubDate>Wed, 25 Nov 2026 20:50:44 +0000</pubDate>
+      <title>AMD-specific fork of llama.cpp</title>
+      <link>https://devnull.land/amd-specific-llama-cpp</link>
+      <guid isPermaLink="false">https://devnull.land/amd-specific-llama-cpp</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Thu, 26 Nov 2026 17:11:29 +0000</pubDate>
     </item>
     <item>
-      <title>メンテナーに必要なのはAIによるバグ報告の山ではなく修正である</title>
-      <link>https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/</link>
-      <guid isPermaLink="false">https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/</guid>
-      <description>[Score: 85] AIによる脆弱性検出が容易になった反面、未検証の報告が急増してOSSメンテナーの負担が増大しています。 / GitHubとMicrosoftはAIを活用し、単なる問題報告ではなく検証済みの修正パッチを提供する取り組みを開始しました。 / マルチモデルエージェントと専門家レビューを組み合わせ、メンテナーの実務に直結する支援モデルを提示しています。 (Source: GitHub Blog)</description>
-      <pubDate>Tue, 17 Nov 2026 18:29:29 +0000</pubDate>
+      <title>CTO of 'RansomwareHelp' indicted for wire fraud</title>
+      <link>https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/</link>
+      <guid isPermaLink="false">https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Thu, 26 Nov 2026 17:47:45 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropicによる一般化リーマン予想Lean形式検証の大幅短縮版</title>
-      <link>https://github.com/lsernau/grh-lean</link>
-      <guid isPermaLink="false">https://github.com/lsernau/grh-lean</guid>
-      <description>[Score: 82] Anthropicの研究者がClaudeと共同開発した一般化リーマン予想のLean 4形式証明コードが公開された。 / 先行する証明コードを大幅に短縮したバージョンであり、標準的な公理のみを用いて構築されている。 / 人間による完全な査読は未完了ながら、機械検証を通過した研究成果として共有されている。 (Source: Hacker News)</description>
-      <pubDate>Wed, 25 Nov 2026 21:48:10 +0000</pubDate>
+      <title>Google will show solo Android developers' phone numbers and addresses</title>
+      <link>https://support.google.com/googleplay/android-developer/answer/17594752?hl=en</link>
+      <guid isPermaLink="false">https://support.google.com/googleplay/android-developer/answer/17594752?hl=en</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Fri, 27 Nov 2026 03:11:41 +0000</pubDate>
     </item>
     <item>
-      <title>「AI検索に電話番号が……」鳴りやまぬコールセンター　バッファローは壊れた「顧客導線」をどう改善した？</title>
-      <link>https://www.itmedia.co.jp/business/articles/2611/26/news015.html</link>
-      <guid isPermaLink="false">https://www.itmedia.co.jp/business/articles/2611/26/news015.html</guid>
-      <description>[Score: 80] AI検索がコールセンターの電話番号を直接提示するようになったことで、バッファローのサポート窓口への入電が急増した。 / 従来構築してきたWebのFAQやチャットボットへの誘導導線がAI検索の回答によって機能不全に陥った経緯を説明。 / AI検索を前提とした情報提示へとWebサイトやFAQを再設計し、ユーザーの自己解決を促す新たな顧客導線の再構築事例を紹介。 (Source: はてなブックマーク)</description>
-      <pubDate>Wed, 25 Nov 2026 22:50:37 +0000</pubDate>
+      <title>Intel One Mono font (2023)</title>
+      <link>https://github.com/intel/intel-one-mono</link>
+      <guid isPermaLink="false">https://github.com/intel/intel-one-mono</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
+      <pubDate>Thu, 26 Nov 2026 10:11:01 +0000</pubDate>
     </item>
     <item>
-      <title>GPT-6.2 AstraがGoogle社員のコードゴルフ記録を破る初のモデルに</title>
-      <link>https://bjin.github.io/go-codegolf-benchmark/#leaderboard</link>
-      <guid isPermaLink="false">https://bjin.github.io/go-codegolf-benchmark/#leaderboard</guid>
-      <description>[Score: 78] 2015年にGoogle社内で実施されたコードゴルフ大会の課題を用いたベンチマークが公開された。 / 8言語に及ぶ32問で最も短いバイト数のコードを書く能力が競われた。 / 最新モデルのGPT-6.2 Astraが人間であるGoogle社員の最短記録を初めて破る結果を示した。 (Source: Hacker News)</description>
-      <pubDate>Sun, 22 Nov 2026 16:44:48 +0000</pubDate>
+      <title>迷惑メール対策をしているのに、なぜ詐欺メールは届くのか</title>
+      <link>https://zenn.dev/akagumi/articles/catch-all-phishing-invisible-chars</link>
+      <guid isPermaLink="false">https://zenn.dev/akagumi/articles/catch-all-phishing-invisible-chars</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Thu, 26 Nov 2026 14:08:33 +0000</pubDate>
     </item>
     <item>
-      <title>ニューヨーク・タイムズ、AI機能を理由にPhotoshopをアップデートしないよう写真家に警告</title>
-      <link>https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features</link>
-      <guid isPermaLink="false">https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features</guid>
-      <description>[Score: 78] 米ニューヨーク・タイムズが所属やフリーランスの写真家に対しPhotoshopの最新版への更新を控えるよう通達した。 / 最新のAI機能を使用すると、意図せず写真のメタデータに「AI生成」と記録される可能性があるためである。 / 報道機関が求める画像の真正性担保と、ソフトウェアの不可視なAI統合が引き起こす課題を浮き彫りにしている。 (Source: Hacker News)</description>
-      <pubDate>Wed, 25 Nov 2026 21:18:02 +0000</pubDate>
+      <title>自動運転の予測軌跡の可視化動画を誰でも高速に作れるようにする</title>
+      <link>https://zenn.dev/turing_motors/articles/cbf9872ca90166</link>
+      <guid isPermaLink="false">https://zenn.dev/turing_motors/articles/cbf9872ca90166</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Thu, 26 Nov 2026 08:00:08 +0000</pubDate>
     </item>
     <item>
-      <title>AWS、DynamoDB互換データベースをローカルマシンで構築可能にするオープンソース「ExtendDB」がバージョン1.0に到達</title>
-      <link>https://www.publickey1.jp/blog/26/awsdynamodbextenddb10.html</link>
-      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/awsdynamodbextenddb10.html</guid>
-      <description>[Score: 78] AWSはDynamoDB互換データベースをローカル環境で構築できるOSS「ExtendDB」v1.0を公開した。 / フロントエンドとして機能し、ストレージエンジンにはPostgreSQLやSQLiteなどをプラグインとして利用する。 / クラウドと同じSDKや操作性でローカル開発やテストを完結させることが可能になる。 (Source: Publickey)</description>
-      <pubDate>Tue, 24 Nov 2026 15:19:30 +0000</pubDate>
+      <title>作業を止めずに進めるClaude Codeの/btw・/fork・/rewindなどの使い分け</title>
+      <link>https://zenn.dev/nextbeat/articles/b0ccca979da06b</link>
+      <guid isPermaLink="false">https://zenn.dev/nextbeat/articles/b0ccca979da06b</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Thu, 26 Nov 2026 07:01:54 +0000</pubDate>
     </item>
     <item>
-      <title>2026年11月のnginxセキュリティリリース：影響の確認と対応策</title>
-      <link>https://dev.to/attackscout/nginx-security-releases-of-november-2026-am-i-affected-and-what-to-do-4ahm</link>
-      <guid isPermaLink="false">https://dev.to/attackscout/nginx-security-releases-of-november-2026-am-i-affected-and-what-to-do-4ahm</guid>
-      <description>[Score: 78] nginxの安定版およびメインライン版にて複数のセキュリティ脆弱性を修正するパッチがリリースされた。 / HTTP/2やHTTP/3のメモリ破損、TLS 1.3の無限ループ、CPU枯渇など多岐にわたるCVEが対象。 / 設定ディレクティブによって影響を受けるか確認し、管理環境に応じたパッチ適用が求められている。 (Source: Dev.to)</description>
-      <pubDate>Thu, 26 Nov 2026 03:58:47 +0000</pubDate>
+      <title>個人の目標設定に悩んでいたら、アジャイルが言葉を定義し直すきっかけをくれた話</title>
+      <link>https://zenn.dev/yoshipon_tech/articles/a0e13c3dbd2f7d</link>
+      <guid isPermaLink="false">https://zenn.dev/yoshipon_tech/articles/a0e13c3dbd2f7d</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Thu, 26 Nov 2026 05:35:21 +0000</pubDate>
     </item>
     <item>
-      <title>MOZAIC：何が偽造されているかを識別するための音声・動画ディープフェイクベンチマーク</title>
-      <link>https://arxiv.org/abs/2611.31301</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2611.31301</guid>
-      <description>[Score: 78] 音声と動画を統合したマルチモーダルディープフェイクを評価するための新たなベンチマーク「MOZAIC」が発表されました。 / メディア全体が偽物かどうかの判定にとどまらず、具体的に「どの部分が改ざんされたか」を特定することを目指します。 / 高度化する生成AIによる偽情報に対抗するため、より詳細な検出モデルの検証基準を提供します。 (Source: arXiv cs.AI)</description>
-      <pubDate>Wed, 25 Nov 2026 05:00:00 +0000</pubDate>
+      <title>既存のExcelを自動で編集したい──AIに書かせたOffice ScriptsとCopilot Studioで試してみた</title>
+      <link>https://zenn.dev/upgradetech/articles/1bed37bcbf0732</link>
+      <guid isPermaLink="false">https://zenn.dev/upgradetech/articles/1bed37bcbf0732</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
+      <pubDate>Thu, 26 Nov 2026 03:37:56 +0000</pubDate>
     </item>
     <item>
-      <title>結局「オントロジー」って何なのさ 〜概念と良さを4つのレイヤーで整理する〜</title>
-      <link>https://zenn.dev/algomatic/articles/ece749a7e3cb24</link>
-      <guid isPermaLink="false">https://zenn.dev/algomatic/articles/ece749a7e3cb24</guid>
-      <description>[Score: 76] AIの文脈理解を支える技術として再注目されている「オントロジー」の概念を整理・解説している。 / 哲学由来の概念から情報科学におけるクラス・関係・インスタンスの構造、OWL規格の役割を説明している。 / 多義的に捉えられがちなオントロジーを4つのレイヤーに分解し、企業データ活用とAIの親和性を論じている。 (Source: Zenn)</description>
-      <pubDate>Wed, 25 Nov 2026 09:23:05 +0000</pubDate>
+      <title>情報量が4倍のQRコードを作ろう</title>
+      <link>https://qiita.com/reipandada/items/17496db6ac5f64a5e61a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/reipandada/items/17496db6ac5f64a5e61a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Mon, 23 Nov 2026 23:48:24 +0000</pubDate>
     </item>
     <item>
-      <title>一時停止、スナップショット、それとも停止？AIエージェント用サンドボックスのライフサイクル選択</title>
-      <link>https://dev.to/sandscale/pause-snapshot-or-stop-choosing-a-lifecycle-for-each-agent-sandbox-3hkn</link>
-      <guid isPermaLink="false">https://dev.to/sandscale/pause-snapshot-or-stop-choosing-a-lifecycle-for-each-agent-sandbox-3hkn</guid>
-      <description>[Score: 76] AIエージェント向けサンドボックスにおける最適なライフサイクル管理パターンを解説した記事。 / 「生成・実行・停止」だけでなく、チャット向けの一時停止や依存関係インストールを省くスナップショットを提唱。 / ワークロードに応じたライフサイクル選定によって実行コストの大幅な削減と高速化が期待できる。 (Source: Dev.to)</description>
-      <pubDate>Thu, 26 Nov 2026 03:59:45 +0000</pubDate>
+      <title>コピペでSSHしていた初心者が、仕組みから学び直してみる</title>
+      <link>https://qiita.com/Yuzuki-ki/items/b23e578d820d411bcb92?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/Yuzuki-ki/items/b23e578d820d411bcb92?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Wed, 25 Nov 2026 03:08:11 +0000</pubDate>
     </item>
     <item>
-      <title>Ubuntuのセキュリティ対応の遅延に対する懸念</title>
-      <link>https://www.openwall.com/lists/oss-security/2026/11/25/9</link>
-      <guid isPermaLink="false">https://www.openwall.com/lists/oss-security/2026/11/25/9</guid>
-      <description>[Score: 75] セキュリティメーリングリストにてUbuntuの脆弱性パッチ提供の遅れが指摘された。 / LinuxカーネルのTCPスタックに関する深刻な脆弱性「NoisyTCP」への対応が9日以上滞っているという。 / 広く使われているディストリビューションとしての保守運用体制に懸念が投げかけられている。 (Source: Hacker News)</description>
-      <pubDate>Wed, 25 Nov 2026 20:38:00 +0000</pubDate>
+      <title>【技術書典21】Claudeと作った同人誌で初出展しました。部数の決め方と当日の売れ方の記録</title>
+      <link>https://qiita.com/minorun365/items/4416bd940ca0cd3aaabc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/minorun365/items/4416bd940ca0cd3aaabc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Wed, 25 Nov 2026 11:57:51 +0000</pubDate>
     </item>
     <item>
-      <title>RustでFiberを用いたJob Systemを実装したらReleaseビルドでバグが発生した</title>
-      <link>https://zenn.dev/otinpan/articles/082f6178eb1472</link>
-      <guid isPermaLink="false">https://zenn.dev/otinpan/articles/082f6178eb1472</guid>
-      <description>[Score: 75] RustとWindowsのFiber APIを用いた自作ゲームエンジン向けジョブシステムの実装事例を紹介している。 / Debugビルドでは正常に動作したものの、Releaseビルド時にアサーション失敗やRefCell借用エラーが発生した。 / Fiberのスレッド間移動とコンパイラによるスレッドローカルストレージ（TLS）アクセスの最適化が原因と分析している。 (Source: Zenn)</description>
-      <pubDate>Wed, 25 Nov 2026 10:24:41 +0000</pubDate>
+      <title>心理的安全性を現場で育てる ― 「なんで？」をやめただけで2チーム統合リーダーの現場が変わった話</title>
+      <link>https://qiita.com/teppei19980914/items/205353ed847956c45dd2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/teppei19980914/items/205353ed847956c45dd2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Wed, 25 Nov 2026 10:03:41 +0000</pubDate>
     </item>
     <item>
-      <title>AIを使った開発に「敵対的検証」を取り入れてみた</title>
-      <link>https://zenn.dev/visionarray/articles/26b316ff128513</link>
-      <guid isPermaLink="false">https://zenn.dev/visionarray/articles/26b316ff128513</guid>
-      <description>[Score: 75] AI生成コードの品質向上のため、ソフトウェアが破綻する条件を意図的に探す「敵対的検証」を導入。 / 実装時の前提や文脈を引きずらないよう、あえて別チャットセッションで検証を行う運用を確立。 / 通常のレビューを補完し、壊す側の視点に特化することで見落とされがちな不具合の早期発見を実現。 (Source: Zenn)</description>
-      <pubDate>Wed, 25 Nov 2026 06:55:45 +0000</pubDate>
+      <title>AIコーディングで再び出会うTDD・BDD・仕様駆動開発</title>
+      <link>https://qiita.com/figueiredoluiz/items/be77af87766215ef1055?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+      <guid isPermaLink="false">https://qiita.com/figueiredoluiz/items/be77af87766215ef1055?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
+      <pubDate>Thu, 26 Nov 2026 06:47:52 +0000</pubDate>
     </item>
     <item>
-      <title>日本語サイトで指定しておきたいCSS 2026年版 - Qiita</title>
-      <link>https://qiita.com/tofu_frontend/items/6a1bb7d80a58736eef0e</link>
-      <guid isPermaLink="false">https://qiita.com/tofu_frontend/items/6a1bb7d80a58736eef0e</guid>
-      <description>[Score: 75] 日本語と英数字の間に適切なアキを自動挿入するCSSプロパティ「text-autospace」の仕様と対応状況を解説。 / ブラウザによる自動適用は行われないため、開発者が明示的に「text-autospace: normal」を指定する必要がある。 / コードブロックなど等幅フォント要素で意図しないズレを防ぐための除外設定など、実践的な導入手順を紹介。 (Source: はてなブックマーク)</description>
-      <pubDate>Mon, 23 Nov 2026 10:33:25 +0000</pubDate>
+      <title>さくらインターネット、AIを月額固定料金で提供する「シンプルAI」発表、システムへの組み込み用途を想定</title>
+      <link>https://www.publickey1.jp/blog/26/aiai_1.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aiai_1.html</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: はてなブックマーク)</description>
+      <pubDate>Thu, 26 Nov 2026 23:09:25 +0000</pubDate>
     </item>
     <item>
-      <title>エージェントに「必要な時だけフェッチする」ルールを与えた結果、12回中12回フェッチした</title>
-      <link>https://dev.to/aheadkit/i-gave-my-agent-a-fetch-only-when-needed-rule-it-fetched-twelve-times-out-of-twelve-17dn</link>
-      <guid isPermaLink="false">https://dev.to/aheadkit/i-gave-my-agent-a-fetch-only-when-needed-rule-it-fetched-twelve-times-out-of-twelve-17dn</guid>
-      <description>[Score: 75] 要約のみで不十分な場合のみ詳細データを取得させるルールをAIエージェントに設定して検証が行われた。 / しかしエージェントは12回すべての検証タスクで、回答前に全文データをフェッチする挙動を見せた。 / LLMエージェントに適切な判断で情報取得を抑制させる制御の難しさが浮き彫りとなっている。 (Source: Dev.to)</description>
-      <pubDate>Thu, 26 Nov 2026 04:00:00 +0000</pubDate>
+      <title>米、スペースXに衛星100万基の配備承認　宇宙にAIデータセンター構築へ</title>
+      <link>https://www.cnn.co.jp/usa/35255487.html</link>
+      <guid isPermaLink="false">https://www.cnn.co.jp/usa/35255487.html</guid>
+      <description>[Score: 50] (解析中にエラーが発生しました) (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 27 Nov 2026 01:03:08 +0000</pubDate>
     </item>
   </channel>
 </rss>
