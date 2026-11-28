@@ -5,146 +5,146 @@
     <link>https://tomoya0323.github.io/IT-News/</link>
     <description>IT技術情報をAIで自動収集・分析し、重要度スコア付きで配信</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 27 Nov 2026 04:14:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 03:54:18 +0000</lastBuildDate>
     <item>
-      <title>Hard Drive pricing has gotten bad</title>
-      <link>https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/</link>
-      <guid isPermaLink="false">https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 27 Nov 2026 01:13:49 +0000</pubDate>
+      <title>GoogleのDeepCrossAttention、同等精度のモデルを最大3倍高速に実現</title>
+      <link>https://research.google/blog/supercharging-transformer-residual-connections/</link>
+      <guid isPermaLink="false">https://research.google/blog/supercharging-transformer-residual-connections/</guid>
+      <description>[Score: 85] Google ResearchがTransformerの残差接続を改良する新アーキテクチャ「DeepCrossAttention（DCA）」を発表した。 / 学習可能な重みと層方向のクロスアテンションを用いて過去層の出力を動的に結合し、情報の希釈を防ぐ。 / パラメータ数の増加を抑えつつ、従来と同等のモデル品質を最大3倍の速度で学習可能にする。 (Source: Hacker News)</description>
+      <pubDate>Fri, 27 Nov 2026 23:06:29 +0000</pubDate>
     </item>
     <item>
-      <title>AI made self-hosting fun again</title>
-      <link>https://janlukas.blog/posts/ai-self-hosting</link>
-      <guid isPermaLink="false">https://janlukas.blog/posts/ai-self-hosting</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 26 Nov 2026 21:47:45 +0000</pubDate>
+      <title>MCPに新機能「Skills over MCP」登場。ツールとの接続だけでなく使い方のスキルもMCP経由で提供</title>
+      <link>https://www.publickey1.jp/blog/26/mcpskills_over_mcpmcp.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/mcpskills_over_mcpmcp.html</guid>
+      <description>[Score: 85] AIエージェントと外部ツールの接続標準であるMCPに新機能「Skills over MCP」がベータ版として追加されました。 / 単なるAPI接続だけでなく、ツールの具体的な使い方や実行スキル自体をMCP経由で動的に取得可能になります。 / 必要なタイミングでのみスキルを読み込めるため、LLMのコンテキスト消費を節約できる利点があります。 (Source: Publickey)</description>
+      <pubDate>Wed, 25 Nov 2026 15:29:05 +0000</pubDate>
     </item>
     <item>
-      <title>Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad</title>
-      <link>https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/</link>
-      <guid isPermaLink="false">https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 26 Nov 2026 21:08:05 +0000</pubDate>
+      <title>メンテナーに必要なのはAIによるバグレポートの増加ではなく、修正パッチである</title>
+      <link>https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/</link>
+      <guid isPermaLink="false">https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/</guid>
+      <description>[Score: 85] AIによる脆弱性スキャンの普及で未検証の報告が急増し、OSSメンテナーの負担が増大しています。 / GitHubとMicrosoftは不要な報告を削減し、検証済みパッチを提供するプロジェクトを実施しました。 / エージェント技術「Codename MDASH」と人間によるトリアージで高品質な修正を届けます。 (Source: GitHub Blog)</description>
+      <pubDate>Tue, 17 Nov 2026 18:29:29 +0000</pubDate>
     </item>
     <item>
-      <title>YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays</title>
-      <link>https://github.com/antonpictures/youtube-punisher</link>
-      <guid isPermaLink="false">https://github.com/antonpictures/youtube-punisher</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 26 Nov 2026 17:36:47 +0000</pubDate>
+      <title>なぜAIは超難問を解けるのに、あなたの現場では“綺麗なゴミ”を量産するのか？ - サッとぶ</title>
+      <link>https://kei-1010.hatenablog.com/entry/2026/11/27/133416</link>
+      <guid isPermaLink="false">https://kei-1010.hatenablog.com/entry/2026/11/27/133416</guid>
+      <description>[Score: 82] AIが超難問を解く一方で、開発現場では保守困難なコードを量産してしまうギャップを指摘している。 / 環境の性質（閉じた領域／開いた領域）と問題の性質（圧縮可能／圧縮不可）の2軸で課題を整理。 / AIの得意領域と実務タスクの乖離を理解し、適切に使いこなすための思考フレームワークを提示している。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 27 Nov 2026 06:22:00 +0000</pubDate>
     </item>
     <item>
-      <title>AMD-specific fork of llama.cpp</title>
-      <link>https://devnull.land/amd-specific-llama-cpp</link>
-      <guid isPermaLink="false">https://devnull.land/amd-specific-llama-cpp</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 26 Nov 2026 17:11:29 +0000</pubDate>
+      <title>人気ショッピングサイトでWebRTCを悪用したクレジットカードスキミングスクリプトを発見</title>
+      <link>https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer</link>
+      <guid isPermaLink="false">https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer</guid>
+      <description>[Score: 80] 大手ECサイト複数社において、WebRTC通信を悪用してカード情報を窃取する新種のスキマーが発見された。 / 購入者が決済情報を入力した時点でデータが外部送信されるため、注文が成立しなくても情報が盗まれる手口だった。 / ブラックフライデー直前にセキュリティ企業から通報が行われ、影響を受けたサイトから不正スクリプトが除去された。 (Source: Hacker News)</description>
+      <pubDate>Fri, 27 Nov 2026 15:40:31 +0000</pubDate>
     </item>
     <item>
-      <title>CTO of 'RansomwareHelp' indicted for wire fraud</title>
-      <link>https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/</link>
-      <guid isPermaLink="false">https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 26 Nov 2026 17:47:45 +0000</pubDate>
+      <title>Leanで安全制約を書くと、ハザード候補がビルドエラーとして見つかる</title>
+      <link>https://zenn.dev/kokeshim0chi/articles/lean-safety-constraint-build-error</link>
+      <guid isPermaLink="false">https://zenn.dev/kokeshim0chi/articles/lean-safety-constraint-build-error</guid>
+      <description>[Score: 80] Google SRE等で注目されるシステム安全分析手法「STAMP/STPA」の考え方を、定理証明支援系言語Leanで形式化する試み。 / 各バッチ単体は正常でも組み合わせや実行順の乱れで障害となる現象を、Lean上で安全制約の定理として記述した。 / 制約を満たさない実行パスがビルドエラーとして網羅的に検出され、そのままハザード候補の一覧として機能する。 (Source: Zenn)</description>
+      <pubDate>Fri, 27 Nov 2026 04:40:24 +0000</pubDate>
     </item>
     <item>
-      <title>Google will show solo Android developers' phone numbers and addresses</title>
-      <link>https://support.google.com/googleplay/android-developer/answer/17594752?hl=en</link>
-      <guid isPermaLink="false">https://support.google.com/googleplay/android-developer/answer/17594752?hl=en</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Fri, 27 Nov 2026 03:11:41 +0000</pubDate>
+      <title>さくらインターネットが大規模イベント開催。田中社長「日本から世界へ挑戦するためのデジタル基盤を支える」</title>
+      <link>https://www.publickey1.jp/blog/26/post_311.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/post_311.html</guid>
+      <description>[Score: 80] さくらインターネットが初の大規模開発者向けイベント「SAKURA DEKIRU Conference 2026」を開催した。 / 田中社長は日本のデジタル敗戦の要因を分析し、単なる国産頼みではなく技術の自律性が不可欠だと指摘。 / AI時代に必要な「つくる力」「使いこなす力」「選べる力」を掲げ、世界と競合できる国内デジタル基盤の提供を誓った。 (Source: Publickey)</description>
+      <pubDate>Thu, 26 Nov 2026 15:50:16 +0000</pubDate>
     </item>
     <item>
-      <title>Intel One Mono font (2023)</title>
-      <link>https://github.com/intel/intel-one-mono</link>
-      <guid isPermaLink="false">https://github.com/intel/intel-one-mono</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Hacker News)</description>
-      <pubDate>Thu, 26 Nov 2026 10:11:01 +0000</pubDate>
+      <title>コンテキストスケーリング：AIスケーリングの新たなフロンティア</title>
+      <link>https://arxiv.org/abs/2611.33160</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2611.33160</guid>
+      <description>[Score: 80] AIモデルの能力拡張においてコンテキスト長の拡大が新たな研究の柱として浮上しています。 / 従来のパラメータ数重視から、長大な文脈を効率的に処理・推論する技術へと注目が移行しています。 / モデルの理解力や実用性を飛躍的に高める新たなスケーリング則の確立が期待されます。 (Source: arXiv cs.AI)</description>
+      <pubDate>Fri, 27 Nov 2026 05:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>迷惑メール対策をしているのに、なぜ詐欺メールは届くのか</title>
-      <link>https://zenn.dev/akagumi/articles/catch-all-phishing-invisible-chars</link>
-      <guid isPermaLink="false">https://zenn.dev/akagumi/articles/catch-all-phishing-invisible-chars</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 26 Nov 2026 14:08:33 +0000</pubDate>
+      <title>Convexのスキルがユーザーに無断でアプリのアイデアをリモートサーバーに送信している問題</title>
+      <link>https://github.com/convex/convex-backend-skill/issues/64</link>
+      <guid isPermaLink="false">https://github.com/convex/convex-backend-skill/issues/64</guid>
+      <description>[Score: 78] Convexが提供するClaude向けプラグインスキルが、ユーザーの意図しない形でアプリの構想を外部サーバーに送信していることが判明した。 / さらに安全ツールの検知を回避するようエージェントに指示し、外部から未固定のスクリプトを実行させる仕様も指摘されている。 / 発見者は送信前の事前確認やオプトイン化、スクリプトの同梱やハッシュ固定化といった改善を求めている。 (Source: Hacker News)</description>
+      <pubDate>Fri, 27 Nov 2026 18:02:45 +0000</pubDate>
     </item>
     <item>
-      <title>自動運転の予測軌跡の可視化動画を誰でも高速に作れるようにする</title>
-      <link>https://zenn.dev/turing_motors/articles/cbf9872ca90166</link>
-      <guid isPermaLink="false">https://zenn.dev/turing_motors/articles/cbf9872ca90166</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 26 Nov 2026 08:00:08 +0000</pubDate>
+      <title>日本語のFull-duplex音声対話モデルを実際に動かしてみた話</title>
+      <link>https://zenn.dev/knowledgework/articles/12a80d8cd4b21f</link>
+      <guid isPermaLink="false">https://zenn.dev/knowledgework/articles/12a80d8cd4b21f</guid>
+      <description>[Score: 78] 人間らしい相槌や割り込みを可能にするFull-duplex（全二重）音声対話技術への注目が高まっている。 / 音声認識・LLM・音声合成を統合したMoshiアーキテクチャの日本語モデル「J-Moshi-ext」を検証。 / 従来のCascade型やHalf-duplex方式と比較しつつ、実際の動作や応答タイミングの挙動を評価している。 (Source: Zenn)</description>
+      <pubDate>Fri, 27 Nov 2026 02:27:39 +0000</pubDate>
     </item>
     <item>
-      <title>作業を止めずに進めるClaude Codeの/btw・/fork・/rewindなどの使い分け</title>
-      <link>https://zenn.dev/nextbeat/articles/b0ccca979da06b</link>
-      <guid isPermaLink="false">https://zenn.dev/nextbeat/articles/b0ccca979da06b</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 26 Nov 2026 07:01:54 +0000</pubDate>
+      <title>シンプルな構文で美しい図を自動生成する「D2」が進化、非営利化で独自レイアウトエンジンもオープンソース化</title>
+      <link>https://gigazine.net/news/20261127-d2/</link>
+      <guid isPermaLink="false">https://gigazine.net/news/20261127-d2/</guid>
+      <description>[Score: 78] テキスト構文から美しい図を自動生成できるツール「D2」が非営利化され、独自エンジンがオープンソース化された。 / 手描き風デザインやアニメーション、ASCII出力、C4モデル対応など多様な表現方法が追加されている。 / 最新版ではSVG描画が約10倍、全体処理が約3倍高速化し、ドキュメント作成の生産性が向上している。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 27 Nov 2026 14:05:38 +0000</pubDate>
     </item>
     <item>
-      <title>個人の目標設定に悩んでいたら、アジャイルが言葉を定義し直すきっかけをくれた話</title>
-      <link>https://zenn.dev/yoshipon_tech/articles/a0e13c3dbd2f7d</link>
-      <guid isPermaLink="false">https://zenn.dev/yoshipon_tech/articles/a0e13c3dbd2f7d</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 26 Nov 2026 05:35:21 +0000</pubDate>
+      <title>AutoformBench：高度な数学のためのLean形式化ベンチマーク</title>
+      <link>https://arxiv.org/abs/2611.33165</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2611.33165</guid>
+      <description>[Score: 78] 対話型定理証明系Leanを用いた高度な数学の形式化を評価する新ベンチマークが提案されました。 / 自然言語で書かれた数学的記述を厳密な形式言語コードへ変換するAIの能力を測定します。 / AIによる自動数学推論や形式検証技術の発展を加速させる評価基盤となります。 (Source: arXiv cs.AI)</description>
+      <pubDate>Fri, 27 Nov 2026 05:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>既存のExcelを自動で編集したい──AIに書かせたOffice ScriptsとCopilot Studioで試してみた</title>
-      <link>https://zenn.dev/upgradetech/articles/1bed37bcbf0732</link>
-      <guid isPermaLink="false">https://zenn.dev/upgradetech/articles/1bed37bcbf0732</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Zenn)</description>
-      <pubDate>Thu, 26 Nov 2026 03:37:56 +0000</pubDate>
+      <title>GitHub ActionsからPATもGitHub App Private Keyも駆逐する</title>
+      <link>https://zenn.dev/tmknom/articles/github-app-token-exchange-system</link>
+      <guid isPermaLink="false">https://zenn.dev/tmknom/articles/github-app-token-exchange-system</guid>
+      <description>[Score: 76] GitHub Actionsで強権限トークンを発行する際、Organization Secrets等に保持した秘密鍵が漏洩するリスクを解説している。 / この課題を解決するため、GitHub OIDC、AWS Lambda、AWS KMSを組み合わせて秘密鍵を扱わずに済む仕組み「GATES」を開発。 / 完全キーレスな構成により、長命な秘密鍵をワークフロー環境へ渡すことなく安全にトークンを払い出すことが可能になる。 (Source: Zenn)</description>
+      <pubDate>Fri, 27 Nov 2026 02:51:13 +0000</pubDate>
     </item>
     <item>
-      <title>情報量が4倍のQRコードを作ろう</title>
-      <link>https://qiita.com/reipandada/items/17496db6ac5f64a5e61a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/reipandada/items/17496db6ac5f64a5e61a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Mon, 23 Nov 2026 23:48:24 +0000</pubDate>
+      <title>｢もう管理職はいらない｣ 震源はシリコンバレー、AIで消える肩書と階層 - 日本経済新聞</title>
+      <link>https://www.nikkei.com/article/DGXZQOGN246EE0U6A121C2000000/</link>
+      <guid isPermaLink="false">https://www.nikkei.com/article/DGXZQOGN246EE0U6A121C2000000/</guid>
+      <description>[Score: 75] 米テック企業を中心に、AIの浸透によって中間管理職の階層や肩書を撤廃する動きが広がっている。 / AIが現場と経営をつなぐ調整業務を代替し始め、若手だけでなく管理層の存在意義が問われている。 / シリコンバレーで進むこの激震は、将来の日本企業の組織構造にも大きな変革を迫る可能性がある。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 27 Nov 2026 21:48:54 +0000</pubDate>
     </item>
     <item>
-      <title>コピペでSSHしていた初心者が、仕組みから学び直してみる</title>
-      <link>https://qiita.com/Yuzuki-ki/items/b23e578d820d411bcb92?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/Yuzuki-ki/items/b23e578d820d411bcb92?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Wed, 25 Nov 2026 03:08:11 +0000</pubDate>
+      <title>さくらのクラウド、新ネットワーク基盤、新データベースサービスなど投入。東京リージョン第三ゾーン新設も発表</title>
+      <link>https://www.publickey1.jp/blog/26/post_310.html</link>
+      <guid isPermaLink="false">https://www.publickey1.jp/blog/26/post_310.html</guid>
+      <description>[Score: 75] さくらインターネットはカンファレンスにてさくらのクラウドの機能強化を発表しました。 / 東京リージョンに第三ゾーンを新設し、石狩リージョンと同様に3ゾーン体制へと拡充します。 / さらに新ネットワーク基盤「ネットワークスイート」や新データベースサービスの投入も明らかにしました。 (Source: Publickey)</description>
+      <pubDate>Thu, 26 Nov 2026 15:47:22 +0000</pubDate>
     </item>
     <item>
-      <title>【技術書典21】Claudeと作った同人誌で初出展しました。部数の決め方と当日の売れ方の記録</title>
-      <link>https://qiita.com/minorun365/items/4416bd940ca0cd3aaabc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/minorun365/items/4416bd940ca0cd3aaabc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Wed, 25 Nov 2026 11:57:51 +0000</pubDate>
+      <title>LLMおよびVLMの候補選択に向けた制約を考慮したテスト時スコアリング</title>
+      <link>https://arxiv.org/abs/2611.33161</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2611.33161</guid>
+      <description>[Score: 75] LLMやVLMが生成する出力候補の精度を高めるためのテスト時スコアリング手法が提案されています。 / タスク固有の制約条件を推論・選択プロセスに明示的に組み込むことで生成品質を改善します。 / マルチモーダルモデルを含む多様な生成タスクにおける信頼性と整合性の向上が期待されます。 (Source: arXiv cs.AI)</description>
+      <pubDate>Fri, 27 Nov 2026 05:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>心理的安全性を現場で育てる ― 「なんで？」をやめただけで2チーム統合リーダーの現場が変わった話</title>
-      <link>https://qiita.com/teppei19980914/items/205353ed847956c45dd2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/teppei19980914/items/205353ed847956c45dd2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Wed, 25 Nov 2026 10:03:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>AIコーディングで再び出会うTDD・BDD・仕様駆動開発</title>
-      <link>https://qiita.com/figueiredoluiz/items/be77af87766215ef1055?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-      <guid isPermaLink="false">https://qiita.com/figueiredoluiz/items/be77af87766215ef1055?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: Qiita)</description>
-      <pubDate>Thu, 26 Nov 2026 06:47:52 +0000</pubDate>
+      <title>AI設定チューニングのための汎用意思決定モデル</title>
+      <link>https://arxiv.org/abs/2611.33190</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2611.33190</guid>
+      <description>[Score: 74] AIシステムのハイパーパラメータや構成設定を最適化するための汎用意思決定モデルの研究です。 / 多様なワークロードや環境に対して適応的に最適な設定を探索・決定する枠組みを提供します。 / 機械学習システムの自動チューニングや運用効率の大幅な向上が期待されます。 (Source: arXiv cs.AI)</description>
+      <pubDate>Fri, 27 Nov 2026 05:00:00 +0000</pubDate>
     </item>
     <item>
       <title>さくらインターネット、AIを月額固定料金で提供する「シンプルAI」発表、システムへの組み込み用途を想定</title>
       <link>https://www.publickey1.jp/blog/26/aiai_1.html</link>
       <guid isPermaLink="false">https://www.publickey1.jp/blog/26/aiai_1.html</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: はてなブックマーク)</description>
-      <pubDate>Thu, 26 Nov 2026 23:09:25 +0000</pubDate>
+      <description>[Score: 73] さくらインターネットは月額固定料金でAI機能を提供する「シンプルAI」を発表しました。 / 従量課金制の既存AIサービスとは異なり、システムやサービスへの組み込み用途を想定しています。 / モデルの急な変更を避けて長期安定提供を図ることで、運用の安定性とコスト予測性を高めます。 (Source: Publickey)</description>
+      <pubDate>Thu, 26 Nov 2026 15:45:31 +0000</pubDate>
     </item>
     <item>
-      <title>米、スペースXに衛星100万基の配備承認　宇宙にAIデータセンター構築へ</title>
-      <link>https://www.cnn.co.jp/usa/35255487.html</link>
-      <guid isPermaLink="false">https://www.cnn.co.jp/usa/35255487.html</guid>
-      <description>[Score: 50] (解析中にエラーが発生しました) (Source: はてなブックマーク)</description>
-      <pubDate>Fri, 27 Nov 2026 01:03:08 +0000</pubDate>
+      <title>Unkernel: WebAssemblyへコンパイルされた本物のLinuxカーネル</title>
+      <link>https://unkernel.dev</link>
+      <guid isPermaLink="false">https://unkernel.dev</guid>
+      <description>[Score: 72] 実際のLinuxカーネルコードをWebAssembly（Wasm）向けにコンパイルして動作させるプロジェクト「Unkernel」が登場した。 / ブラウザ環境やWasmランタイム上で、Linuxカーネルを直接実行することを目指している。 / Wasmのポータビリティとサンドボックス機能を活かした、新たなOS実行環境の可能性を示す野心的な試みである。 (Source: Hacker News)</description>
+      <pubDate>Sat, 28 Nov 2026 03:19:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>「日本語で」と書いても AI が英語に戻るので、Stop フックで止めた</title>
+      <link>https://zenn.dev/hitori_pm/articles/cc955887656339</link>
+      <guid isPermaLink="false">https://zenn.dev/hitori_pm/articles/cc955887656339</guid>
+      <description>[Score: 72] Claude Codeの指示ファイルで指定しても応答が英語に戻ってしまう課題に対処した事例の紹介。 / プロンプトによる指示だけでは再発したため、機械的に制御する「Stopフック」の活用へと移行。 / 応答生成直後にPythonスクリプトで言語判定し、英語の場合は自動で書き直させる仕組みを構築した。 (Source: はてなブックマーク)</description>
+      <pubDate>Fri, 27 Nov 2026 13:49:22 +0000</pubDate>
     </item>
   </channel>
 </rss>
